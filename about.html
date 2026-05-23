@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Numeronarracje — O mnie</title>
+    <meta name="description" content="Poznaj autorkę Numeronarracji. Odkryj drogę od precyzji liczb do głębi ludzkiej natury.">
+    <!-- PWA Setup & Styling -->
+    <meta name="theme-color" content="#1a0a2e">
+    <link rel="apple-touch-icon" href="logo master violet rund.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ══ BACKGROUND LAYERS ══ -->
+<div class="starfield"></div>
+<div class="stars-layer" id="stars"></div>
+
+<!-- ══ MOBILE NAV DRAWER ══ -->
+<div class="overlay" id="overlay" onclick="closeDrawer()"></div>
+<div class="nav-drawer" id="drawer">
+    <button class="drawer-close" onclick="closeDrawer()" aria-label="Zamknij menu">✕</button>
+    <a class="nav-item" href="index.html#forecast" data-i18n="nav_today" onclick="closeDrawer()">DZISIAJ</a>
+    <a class="nav-item" href="index.html#home" data-i18n="nav_calc" onclick="closeDrawer()">KALKULATOR LICZBY URODZENIA</a>
+    <a class="nav-item" href="index.html#audio" data-i18n="nav_audio" onclick="closeDrawer()">AUDIO BIBLIOTEKA</a>
+    <a class="nav-item" href="quiz.html" data-i18n="nav_quiz" onclick="closeDrawer()">QUIZ</a>
+    <a class="nav-item" href="jokes.html" data-i18n="nav_jokes" onclick="closeDrawer()">KAWAŁY</a>
+    <a class="nav-item" href="#page-about" data-i18n="nav_about" onclick="closeDrawer()">O AUTORCE</a>
+    <a class="nav-item" href="app-info.html" data-i18n="nav_app_info" onclick="closeDrawer()">O APLIKACJI</a>
+    <a class="nav-item" href="#contact" data-i18n="nav_contact" onclick="closeDrawer()">KONTAKT</a>
+    <a class="nav-item" href="privacy.html" data-i18n="nav_privacy" onclick="closeDrawer()">POLITYKA PRYWATNOŚCI</a>
+    <a class="nav-item" href="terms.html" data-i18n="nav_terms" onclick="closeDrawer()">REGULAMIN</a>
+</div>
+
+<!-- ══ MAIN APP WRAPPER ══ -->
+<div class="app">
+
+    <!-- ── NAVIGATION: Hamburger LEFT · Logo CENTER · Lang RIGHT ── -->
+    <nav id="main-nav">
+        <!-- LEFT: Hamburger -->
+        <button class="hamburger" onclick="openDrawer()" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+
+        <!-- CENTER: Logo (absolutely positioned) -->
+        <a class="logo-wrap logo-center" href="index.html" style="cursor: pointer; text-decoration: none;">
+            <img src="logo master violet rund.png" alt="Numeronarracje Logo" class="logo-img">
+            <span class="logo-name">Numeronarracje</span>
+        </a>
+
+        <!-- RIGHT: Language Switcher -->
+        <div class="lang-switcher nav-lang-right">
+            <button class="lang-btn active" onclick="switchLang('pl')" id="btn-pl">PL</button>
+            <span class="lang-sep">|</span>
+            <button class="lang-btn" onclick="switchLang('de')" id="btn-de">DE</button>
+        </div>
+    </nav>
+
+    <!-- ══════════════════════════════════════════
+         PAGE: ABOUT (O MNIE / ÜBER MICH)
+    ══════════════════════════════════════════ -->
+    <section id="page-about" class="page-section" style="padding-top: 120px; padding-bottom: 80px;">
+        <div class="about-container">
+            <div class="about-card fc-card">
+                <!-- Okrągłe zdjęcie autorki w złotej ramce -->
+                <div class="author-photo-wrap">
+                    <div class="photo-frame">
+                        <img src="./Od Autora/PIC AUTOR.jpg" alt="Renata Mickiewicz-Krucinski" class="author-photo">
+                    </div>
+                </div>
+
+                <div class="forecast-sub" style="text-align: center;" data-i18n="about_subtitle">AUTORKA</div>
+                <h1 class="forecast-main" style="text-align: center; margin-bottom: 32px;" data-i18n="about_title">Poznajmy się bliżej</h1>
+
+                <!-- Treść Biograficzna -->
+                <div class="about-bio-content">
+                    <p class="bio-para" data-i18n="about_p1"></p>
+                    <p class="bio-para" data-i18n="about_p2"></p>
+
+                    <h3 class="bio-heading" data-i18n="about_h1"></h3>
+                    <p class="bio-para" data-i18n="about_p3"></p>
+                    <p class="bio-para" data-i18n="about_p4"></p>
+
+                    <h3 class="bio-heading" data-i18n="about_h2"></h3>
+                    <p class="bio-para" data-i18n="about_p5"></p>
+
+                    <ul class="bio-list">
+                        <li class="bio-list-item fc-box">
+                            <p data-i18n="about_bullet1"></p>
+                        </li>
+                        <li class="bio-list-item fc-box">
+                            <p data-i18n="about_bullet2"></p>
+                        </li>
+                    </ul>
+
+                    <h3 class="bio-heading" data-i18n="about_h3"></h3>
+                    <p class="bio-para" data-i18n="about_p6"></p>
+
+                    <h3 class="bio-heading" data-i18n="about_h4"></h3>
+                    <p class="bio-para" data-i18n="about_p7"></p>
+                    <p class="bio-para" data-i18n="about_p8"></p>
+                    <p class="bio-para" data-i18n="about_p9"></p>
+                    <p class="bio-para highlight-final" data-i18n="about_p10"></p>
+                </div>
+
+                <!-- Dyskretny kontakt -->
+                <div id="contact" class="subtle-contact-section">
+                    <div class="subtle-contact-divider"></div>
+                    <h2 class="subtle-contact-heading" data-i18n="contact_direct">KONTAKT</h2>
+                                        <div class="subtle-email-row">
+                        <a href="mailto:numeronarracje@gmail.com" class="subtle-email-link">numeronarracje@gmail.com</a>
+                    </div>
+                    
+                    <!-- Social Links: Instagram, FB, YT -->
+                    <div class="subtle-social-row">
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener" class="social-icon-link" aria-label="Instagram">
+                            <img src="Instagram.png" alt="Instagram" class="social-icon-img">
+                        </a>
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener" class="social-icon-link" aria-label="Facebook">
+                            <img src="Facebook.png" alt="Facebook" class="social-icon-img">
+                        </a>
+                        <a href="https://www.youtube.com/" target="_blank" rel="noopener" class="social-icon-link" aria-label="YouTube">
+                            <img src="YouTube.png" alt="YouTube" class="social-icon-img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══ FOOTER ══ -->
+    <footer>
+        <span class="copy">&copy; COPYRIGHT 2026 NUMERONARRACJE</span>
+        <span class="footer-divider">|</span>
+        <a href="privacy.html" class="privacy" data-i18n="privacy">POLITYKA PRYWATNOŚCI</a>
+        <span class="footer-divider">|</span>
+        <a href="terms.html" class="privacy" data-i18n="nav_terms">REGULAMIN</a>
+        <div class="social-footer-row" style="width: 100%; justify-content: center; padding: 8px 0 0;">
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener" class="social-icon-link" aria-label="Instagram">
+                <img src="Instagram.png" alt="Instagram" class="social-icon-img" style="width: 28px; height: 28px;">
+            </a>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener" class="social-icon-link" aria-label="YouTube">
+                <img src="YouTube.png" alt="YouTube" class="social-icon-img" style="width: 28px; height: 28px;">
+            </a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener" class="social-icon-link" aria-label="Facebook">
+                <img src="Facebook.png" alt="Facebook" class="social-icon-img" style="width: 28px; height: 28px;">
+            </a>
+        </div>
+    </footer>
+
+</div><!-- /.app -->
+
+<!-- ══ INLINE STAR GENERATION ══ -->
+<script>
+(function() {
+  const starsEl = document.getElementById('stars');
+  if (!starsEl) return;
+  const count = 80;
+  let html = '';
+  for (let i = 0; i < count; i++) {
+    const x = Math.random() * 100;
+    const y = Math.random() * 100;
+    const size = Math.random() * 2.5 + 0.5;
+    const dur = (Math.random() * 4 + 2).toFixed(1);
+    const delay = (Math.random() * 5).toFixed(1);
+    const minOp = (Math.random() * 0.2 + 0.1).toFixed(2);
+    const maxOp = (Math.random() * 0.5 + 0.4).toFixed(2);
+    html += `<div class="star" style="left:${x}%;top:${y}%;width:${size}px;height:${size}px;--dur:${dur}s;--delay:${delay}s;--min-op:${minOp};--max-op:${maxOp};"></div>`;
+  }
+  starsEl.innerHTML = html;
+})();
+</script>
+
+<!-- ══ SCRIPTS ══ -->
+<script src="i18n.js"></script>
+<script src="about.js"></script>
+
+</body>
+</html>

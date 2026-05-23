@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deine heutige Prognose</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --cream: #FAF7F2;
+  --warm-dark: #2A1F14;
+  --gold: #C4A55A;
+  --gold-light: #F5EDD8;
+  --muted: #8A7A6A;
+  --border: rgba(42,31,20,0.10);
+  --white: #FFFFFF;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--cream);
+  color: var(--warm-dark);
+  min-height: 100vh;
+  padding: 0 0 4rem;
+}
+
+.container { max-width: 640px; margin: 0 auto; padding: 0 1.25rem; }
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 2.5rem 1.25rem 2rem;
+  position: relative;
+}
+.header-label {
+  font-size: 10px;
+  letter-spacing: 3.5px;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 0.6rem;
+  font-weight: 500;
+}
+h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(2.2rem, 7vw, 3.2rem);
+  font-weight: 300;
+  color: var(--warm-dark);
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+}
+h1 em { font-style: italic; color: var(--gold); }
+.today-label {
+  font-size: 13px;
+  color: var(--muted);
+  letter-spacing: 0.3px;
+}
+
+/* DIVIDER */
+.divider {
+  width: 40px;
+  height: 1px;
+  background: var(--gold);
+  margin: 1.5rem auto;
+  opacity: 0.5;
+}
+
+/* MAIN CARD */
+.card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  animation: fadeUp 0.5s ease both;
+}
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.card-top {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 1.75rem 1.75rem 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.number-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 26px;
+  font-weight: 600;
+  flex-shrink: 0;
+  color: white;
+}
+
+.card-top-meta { flex: 1; }
+.card-zodiak {
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 3px;
+  font-weight: 500;
+}
+.card-number-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--warm-dark);
+}
+
+.card-body { padding: 1.75rem; }
+
+.energia {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.15rem;
+  line-height: 1.85;
+  font-style: italic;
+  color: var(--warm-dark);
+  margin-bottom: 1.75rem;
+}
+
+.grid2 {
+  display: block;
+  margin-bottom: 10px;
+}
+@media(max-width: 440px){ .grid2 { grid-template-columns: 1fr; } }
+
+.ibox {
+  background: var(--cream);
+  border-radius: 8px;
+  padding: 0.9rem 1rem;
+}
+.ibox-label {
+  font-size: 9px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.ibox-val {
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--warm-dark);
+  line-height: 1.4;
+}
+
+.unikaj {
+  background: #FFF9EF;
+  border-left: 3px solid var(--gold);
+  border-radius: 0 8px 8px 0;
+  padding: 0.9rem 1.1rem;
+  margin-top: 10px;
+}
+.unikaj .ibox-label { color: #B8902A; }
+.unikaj .ibox-val   { color: #7A5C18; }
+
+.slogan {
+  text-align: center;
+  padding: 1.4rem 1.75rem 1.5rem;
+  border-top: 1px solid var(--border);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.25rem;
+  font-style: italic;
+  font-weight: 300;
+  color: var(--warm-dark);
+}
+
+/* DATE PICKER */
+input[type="date"] {
+  flex: 1;
+  padding: 9px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--white);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  color: var(--warm-dark);
+  outline: none;
+  transition: border-color 0.2s;
+}
+input[type="date"]:focus { border-color: var(--gold); }
+.note {
+  font-size: 11px;
+  color: var(--muted);
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.no-data {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 3rem 2rem;
+  text-align: center;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* ENERGIA CHECK */
+.echeck-wrap {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 1.75rem 1.5rem;
+  margin-bottom: 1rem;
+}
+.echeck-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--warm-dark);
+  margin-bottom: 4px;
+  text-align: center;
+}
+.echeck-sub {
+  font-size: 12px;
+  color: var(--warm-muted);
+  text-align: center;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.3px;
+}
+.echeck-slider-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 1.25rem;
+}
+.echeck-num {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.2rem;
+  font-weight: 600;
+  min-width: 44px;
+  text-align: center;
+  transition: color 0.3s;
+}
+.echeck-slider {
+  flex: 1;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.echeck-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 22px; height: 22px;
+  border-radius: 50%;
+  background: var(--gold);
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(207,181,59,0.4);
+}
+.echeck-label-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  color: var(--warm-muted);
+  margin-bottom: 1.25rem;
+  padding: 0 2px;
+}
+.echeck-result {
+  border-radius: 14px;
+  padding: 1.25rem;
+  transition: all 0.4s;
+  animation: fadeUp 0.3s ease;
+}
+.echeck-result.low  { background: #fef5f5; border: 1px solid #f5c6c6; }
+.echeck-result.mid  { background: #fefdf0; border: 1px solid #f0e68c; }
+.echeck-result.high { background: #f0faf0; border: 1px solid #a8dba8; }
+.echeck-emoji { font-size: 2.2rem; margin-bottom: 8px; text-align: center; }
+.echeck-msg {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.15rem;
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+.echeck-result.low  .echeck-msg { color: #c0392b; }
+.echeck-result.mid  .echeck-msg { color: #8a7a00; }
+.echeck-result.high .echeck-msg { color: #27ae60; }
+.echeck-tip {
+  font-size: 13px;
+  line-height: 1.8;
+  text-align: center;
+  padding: 0 4px;
+}
+.echeck-result.low  .echeck-tip { color: #a93226; }
+.echeck-result.mid  .echeck-tip { color: #7a6a00; }
+.echeck-result.high .echeck-tip { color: #1e8449; }
+
+.energia-icon { font-size: 2.2rem; line-height: 1; }
+.energia-msg {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1rem;
+  font-style: italic;
+  font-weight: 400;
+}
+.energia-bubble.low  .energia-msg { color: #A03030; }
+.energia-bubble.high .energia-msg { color: #2E7020; }
+
+.date-text-input {
+  padding: 10px 14px;
+  border: 1px solid var(--border, rgba(42,31,20,0.12));
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 16px;
+  width: 100%;
+  background: white;
+  color: inherit;
+  outline: none;
+  -webkit-appearance: none;
+  appearance: none;
+  box-sizing: border-box;
+}
+.date-text-input:focus { border-color: #845EC2; }
+.date-text-input::placeholder { color: #aaa; font-size: 14px; }
+
+/* ── EMOTIONEN ── */
+.emocje-wrap {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 1.75rem 1.5rem;
+  margin-bottom: 1rem;
+}
+.emocje-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--warm-dark);
+  margin-bottom: 4px;
+  text-align: center;
+}
+.emocje-sub {
+  font-size: 12px;
+  color: var(--warm-muted);
+  text-align: center;
+  margin-bottom: 1.25rem;
+  letter-spacing: 0.3px;
+}
+.emocje-input-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.emocje-input {
+  flex: 1;
+  padding: 12px 14px;
+  border: 1.5px solid var(--border);
+  border-radius: 12px;
+  font-family: 'Jost', sans-serif;
+  font-size: 15px;
+  color: var(--warm-dark);
+  background: var(--beige-light, #f7f3ef);
+  outline: none;
+  transition: border-color 0.2s;
+}
+.emocje-input:focus { border-color: var(--violet); }
+.emocje-input::placeholder { color: #bbb; }
+.emocje-toggle {
+  padding: 10px 14px;
+  background: var(--violet-pale, #f0eaf8);
+  border: 1.5px solid var(--border);
+  border-radius: 12px;
+  font-size: 12px;
+  color: var(--violet);
+  cursor: pointer;
+  font-family: inherit;
+  white-space: nowrap;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+.emocje-toggle:hover { background: var(--violet); color: white; }
+.emocje-saved {
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1rem;
+  font-style: italic;
+  color: var(--violet);
+  margin-bottom: 10px;
+  min-height: 24px;
+  transition: all 0.3s;
+}
+.emocje-lista {
+  display: none;
+  margin-top: 8px;
+  animation: fadeUp 0.3s ease;
+}
+.emocje-lista.on { display: block; }
+.emocje-search {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1.5px solid var(--border);
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: inherit;
+  background: var(--beige-light, #f7f3ef);
+  color: var(--warm-dark);
+  outline: none;
+  margin-bottom: 10px;
+  transition: border-color 0.2s;
+}
+.emocje-search:focus { border-color: var(--violet); }
+.emocje-search::placeholder { color: #bbb; }
+.emocje-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  max-height: 260px;
+  overflow-y: auto;
+  padding: 4px 2px;
+}
+.emocje-grid::-webkit-scrollbar { width: 4px; }
+.emocje-grid::-webkit-scrollbar-track { background: transparent; }
+.emocje-grid::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+.emocja-pill {
+  padding: 6px 13px;
+  border-radius: 999px;
+  font-size: 12px;
+  border: 1.5px solid var(--border);
+  background: var(--white);
+  color: var(--warm-mid, #6b5a7a);
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: inherit;
+}
+.emocja-pill:hover { border-color: var(--violet); color: var(--violet); background: var(--violet-pale, #f0eaf8); }
+.emocja-pill.neg { border-color: rgba(200,80,80,0.2); }
+.emocja-pill.neg:hover { border-color: #c05050; color: #c05050; background: #fef5f5; }
+.emocja-pill.pos { border-color: rgba(39,174,96,0.2); }
+.emocja-pill.pos:hover { border-color: #27ae60; color: #27ae60; background: #f0faf0; }
+.emocje-section-label {
+  width: 100%;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--warm-muted);
+  padding: 6px 2px 2px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <div class="header-label">Numerologie</div>
+    <h1>Deine heutige<br><em>Prognose</em></h1>
+    <div class="today-label" id="todayLabel"></div>
+  </header>
+
+  <div id="resultBox"></div>
+
+  <div class="divider"></div>
+  <div class="divider"></div>
+
+  <div class="echeck-wrap">
+    <div class="echeck-title">Wie ist deine Energie heute?</div>
+    <div class="echeck-sub">Verschiebe den Regler und schau, was wir für dich haben ✨</div>
+    <div class="echeck-slider-row">
+      <span class="echeck-num" id="echeckNum" style="color:var(--warm-muted)">—</span>
+      <input type="range" class="echeck-slider" id="echeckSlider" min="1" max="10" value="5"
+             oninput="checkEnergia(this.value)" style="background:linear-gradient(to right,#845EC2 50%,#ede6dc 50%)"/>
+    </div>
+    <div class="echeck-label-row"><span>😴 1</span><span>😐 5</span><span>🔥 10</span></div>
+    <div id="echeckResult"></div>
+  </div>
+
+  <div class="emocje-wrap">
+    <div class="emocje-title">Was fühlst du gerade?</div>
+    <div class="emocje-sub">Deine Emotionen zu benennen, ist der erste Schritt, dich selbst zu verstehen ✦</div>
+    <div class="emocje-saved" id="emocjeSaved"></div>
+    <div class="emocje-input-row">
+      <input class="emocje-input" type="text" id="emocjeInput"
+             placeholder="Eingeben oder aus Liste wählen..."
+             oninput="filterEmocje(this.value)"
+             onkeydown="if(event.key==='Enter')saveEmocja()"/>
+      <button class="emocje-toggle" onclick="toggleLista()">📋 Liste</button>
+    </div>
+    <div class="emocje-lista" id="emocjeLista">
+      <input class="emocje-search" type="text" id="emocjeSearch"
+             placeholder="🔍 Emotion suchen..."
+             oninput="filterEmocje(this.value)"/>
+      <div class="emocje-grid" id="emocjeGrid"></div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+
+const EMOCJE_NEG = ["aggressivität", "antipathie", "apathie", "aversion", "ratlosigkeit", "machtlosigkeit", "schmerz", "leid", "depression", "unbehagen", "frustration", "wut", "zorn", "bitterkeit", "entsetzen", "irritation", "angst", "mitleid", "melancholie", "anspannung", "nervosität", "unlust", "ohnmacht", "hass", "unglück", "misstrauen", "langeweile", "sorge", "empörung", "einsamkeit", "panik", "verachtung", "verärgerung", "schrecken", "niedergeschlagenheit", "kummer", "überforderung", "enttäuschung", "gereiztheit", "verbitterung", "verzweiflung", "traurigkeit", "stress", "sehnsucht", "demütigung", "schuld", "feindseligkeit", "scham", "raserei", "befangenheit", "zusammenbruch", "eifersucht", "nervliche belastung", "verzweiflung", "zmęczenie", "entmutigung", "bedauern"];
+const EMOCJE_POS = ["akzeptanz", "sicherheit", "nähe", "stille", "zärtlichkeit", "wohlbefinden", "stolz", "energie", "enthusiasmus", "euphorie", "harmonie", "inspiration", "leichtigkeit", "liebe", "motivation", "hoffnung", "mut", "selbstvertrauen", "gelassenheit", "freude", "frieden", "glück", "erleichterung", "achtsamkeit", "dankbarkeit", "begeisterung", "zufriedenheit", "vertrauen", "verständnis", "herzlichkeit", "neugier", "kreativität"];
+
+// Hilfsfunktion zur Anpassung für deutsche Sätze (z.B. "Ich fühle..." + Nomen)
+const BIERNIK = {
+  "aggressivität": "Aggressivität", "antipathie": "Antipathie", "apathie": "Apathie", "aversion": "Aversion", "ratlosigkeit": "Ratlosigkeit", "machtlosigkeit": "Machtlosigkeit", "schmerz": "Schmerz", "leid": "Leid", "depression": "Depression", "unbehagen": "Unbehagen", "stolz": "Stolz", "frustration": "Frustration", "wut": "Wut", "zorn": "Zorn", "bitterkeit": "Bitterkeit", "entsetzen": "Entsetzen", "irritation": "Irritation", "angst": "Angst", "mitleid": "Mitleid", "melancholie": "Melancholie", "anspannung": "Anspannung", "nervosität": "Nervosität", "unlust": "Unlust", "ohnmacht": "Ohnmacht", "hass": "Hass", "unglück": "Unglück", "misstrauen": "Misstrauen", "langeweile": "Langeweile", "sorge": "Sorge", "empörung": "Empörung", "einsamkeit": "Einsamkeit", "panik": "Panik", "verachtung": "Verachtung", "verärgerung": "Verärgerung", "schrecken": "Schrecken", "niedergeschlagenheit": "Niedergeschlagenheit", "kummer": "Kummer", "überforderung": "Überforderung", "enttäuschung": "Enttäuschung", "gereiztheit": "Gereiztheit", "verbitterung": "Verbitterung", "verzweiflung": "Verzweiflung", "traurigkeit": "Traurigkeit", "stress": "Stress", "sehnsucht": "Sehnsucht", "demütigung": "Demütigung", "schuld": "Schuld", "feindseligkeit": "Feindseligkeit", "scham": "Scham", "raserei": "Raserei", "befangenheit": "Befangenheit", "zusammenbruch": "Zusammenbruch", "eifersucht": "Eifersucht", "entmutigung": "Entmutigung", "bedauern": "Bedauern", "akzeptanz": "Akzeptanz", "sicherheit": "Sicherheit", "nähe": "Nähe", "stille": "Stille", "zärtlichkeit": "Zärtlichkeit", "wohlbefinden": "Wohlbefinden", "energie": "Energie", "enthusiasmus": "Enthusiasmus", "euphorie": "Euphorie", "harmonie": "Harmonie", "inspiration": "Inspiration", "leichtigkeit": "Leichtigkeit", "liebe": "Liebe", "motivation": "Motivation", "hoffnung": "Hoffnung", "mut": "Mut", "selbstvertrauen": "Selbstvertrauen", "gelassenheit": "Gelassenheit", "freude": "Freude", "frieden": "Frieden", "glück": "Glück", "erleichterung": "Erleichterung", "achtsamkeit": "Achtsamkeit", "dankbarkeit": "Dankbarkeit", "begeisterung": "Begeisterung", "zufriedenheit": "Zufriedenheit", "vertrauen": "Vertrauen", "verständnis": "Verständnis", "herzlichkeit": "Herzlichkeit", "neugier": "Neugier", "kreativität": "Kreativität"
+};
+
+function biernikVal(v) { return BIERNIK[v.toLowerCase()] || v; }
+
+let listaOpen = false;
+
+function buildEmocjeGrid(filter) {
+  var grid = document.getElementById('emocjeGrid');
+  if (!grid) return;
+  var f = (filter||'').toLowerCase().trim();
+  var neg = EMOCJE_NEG.filter(function(e){return !f||e.toLowerCase().includes(f);});
+  var pos = EMOCJE_POS.filter(function(e){return !f||e.toLowerCase().includes(f);});
+  var html = '';
+  if (neg.length) {
+    html += '<div class="emocje-section-label">Schwierige Emotionen</div>';
+    html += neg.map(function(e){
+      return '<button class="emocja-pill neg" onclick="pickEmocja(\''+e+'\')">'+e+'</button>';
+    }).join('');
+  }
+  if (pos.length) {
+    html += '<div class="emocje-section-label">Angenehme Emotionen</div>';
+    html += pos.map(function(e){
+      return '<button class="emocja-pill pos" onclick="pickEmocja(\''+e+'\')">'+e+'</button>';
+    }).join('');
+  }
+  if (!neg.length && !pos.length) {
+    html = '<div style="font-size:13px;color:#bbb;padding:1rem;text-align:center;">Keine Emotionen gefunden</div>';
+  }
+  grid.innerHTML = html;
+}
+
+function toggleLista() {
+  listaOpen = !listaOpen;
+  var lista = document.getElementById('emocjeLista');
+  lista.classList.toggle('on', listaOpen);
+  if (listaOpen) {
+    buildEmocjeGrid('');
+    document.getElementById('emocjeSearch').focus();
+  }
+}
+
+function filterEmocje(val) {
+  if (!listaOpen) { listaOpen = true; document.getElementById('emocjeLista').classList.add('on'); }
+  buildEmocjeGrid(val);
+  document.getElementById('emocjeInput').value = val;
+  document.getElementById('emocjeSearch').value = val;
+}
+
+function pickEmocja(e) {
+  document.getElementById('emocjeInput').value = e;
+  saveEmocja();
+  listaOpen = false;
+  document.getElementById('emocjeLista').classList.remove('on');
+}
+
+function saveEmocja() {
+  var val = document.getElementById('emocjeInput').value.trim();
+  if (!val) return;
+  var saved = document.getElementById('emocjeSaved');
+  var isNeg = EMOCJE_NEG.some(function(e) {
+    return e.toLowerCase() === val.toLowerCase();
+  });
+  if (isNeg) {
+    saved.innerHTML =
+      '<span style="color:#845EC2;font-style:italic">Notiert: ' + val + '</span>' +
+      '<div style="margin-top:10px;background:#f0eaf8;border-radius:14px;padding:1rem 1.1rem;border:1px solid rgba(132,94,194,0.2);text-align:left;">' +
+      '<div style="font-size:13px;line-height:1.85;color:#6b5a7a;margin-bottom:10px;">' +
+      '💜 <strong style="color:#845EC2">Du hast heute zwei Wege:</strong>' +
+      '</div>' +
+      '<div style="font-size:13px;line-height:1.85;color:#6b5a7a;margin-bottom:8px;">' +
+      '<strong style="color:#845EC2">1.</strong> Sprich mit einer vertrauten Person – benenne diese Emotion laut, lass sie Raum einnehmen und gehört werden. ' +
+      'Sag einfach: <strong style="color:#845EC2">Ich fühle ' + biernikVal(val) + '</strong> – diese Worte schenken Erleichterung und schützen dein Gegenüber.' +
+      '</div>' +
+      '<div style="font-size:12px;line-height:1.7;color:#9b8aaa;font-style:italic;margin-bottom:10px;">' +
+      'Wenn wir nur von dem Ereignis erzählen, das die Emotion ausgelöst hat, anstatt über das Gefühl selbst, fängt die andere Person an, es für uns mitzufühlen. Das ist ihr gegenüber nicht fair.' +
+      '</div>' +
+      '<div style="font-size:13px;line-height:1.85;color:#6b5a7a;">' +
+      '<strong style="color:#845EC2">2.</strong> Schreibe einen Brief – beschreibe die ganze Geschichte und alle begleitenden Emotionen. Alles, ganz ohne Zensur. ' +
+      'Und danach wirf ihn weg. Die Emotionen bleiben auf dem Papier, nicht in dir.' +
+      '</div>' +
+      '</div>' +
+      '<div style="margin-top:10px;background:#fef5f5;border-radius:14px;padding:1rem 1.1rem;border:1px solid rgba(192,57,43,0.2);text-align:left;">' +
+      '<div style="font-size:13px;line-height:1.85;color:#7a2020;margin-bottom:6px;">' +
+      '🌿 <strong>Wenn diese Emotionen lange anhalten – wende dich an einen Spezialisten.</strong> Du musst das nicht alleine durchstehen.' +
+      '</div>' +
+      '<div style="font-size:12px;line-height:1.9;color:#9b8aaa;">' +
+      '🇩🇪 <strong style="color:#6b5a7a;">Deutschland – Ärztlicher Bereitschaftsdienst:</strong> <strong style="color:#845EC2">116 117</strong> (24h erreichbar, gebührenfrei)<br/>' +
+      '🇦🇹 <strong style="color:#6b5a7a;">Österreich – Telefonseelsorge:</strong> <strong style="color:#845EC2">142</strong> (24h erreichbar, gebührenfrei)<br/>' +
+      '🇨🇭 <strong style="color:#6b5a7a;">Schweiz – Die Dargebotene Hand:</strong> <strong style="color:#845EC2">143</strong> (24h erreichbar, gebührenfrei)' +
+      '</div>' +
+      '</div>';
+  } else {
+    saved.textContent = 'Notiert: ' + val + ' ✦';
+  }
+  saved.style.opacity = '1';
+}
+
+function parseDate(val) {
+  val = val.trim();
+  var m = val.match(/^(\d{1,2})[.\-](\d{1,2})[.\-](\d{4})$/);
+  if (m) return m[3] + '-' + m[2].padStart(2,'0') + '-' + m[1].padStart(2,'0');
+  m = val.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (m) return val;
+  return null;
+}
+
+function validateDate(val) {
+  var iso = parseDate(val);
+  if (!iso) return null;
+  var d = new Date(iso + 'T12:00:00');
+  if (isNaN(d.getTime())) return null;
+  return iso;
+}
+
+// Beispielhafter Auszug des DNI-Objekts (vollständig übersetzt für deine Logik)
+const DNI = {
+  "3-21": {
+    "z": "Widder",
+    "l": 8,
+    "e": "Die Acht zum Zeitpunkt der Frühlings-Tagundnachtgleiche ist eine kraftvolle Energie der Manifestation, die dich dazu einlädt, Absichten für Erfolg und Fülle zu setzen. Deine innere Kraft erwacht jetzt zusammen mit der Natur zum Leben und schenkt dir die Stärke, selbst die ambitioniertesten Pläne umzusetzen.",
+    "r": "Ergreife konkrete Maßnahmen, um deine Finanzen und deine berufliche Position zu stabilisieren. Vertraue auf deine eigene Wirksamkeit und baue feste Strukturen auf, die dir in den kommenden Monaten dienen werden.",
+    "n": "Reflektion, Tiefe, Intuition",
+    "u": "Hüte dich vor der Angst vor dem Scheitern und dem mangelnden Glauben an deine eigenen, nahezu grenzenlosen Möglichkeiten. Lass nicht zu, dass temporäre Schwierigkeiten deinen Enthusiasmus und deine Entschlossenheit dämpfen.",
+    "s": "Die Frage ist wichtiger als die Antwort",
+    "fun": "Du hast heute so viel Entschlossenheit in dir, dass du selbst den Frühjahrsputz mit der Präzision eines CEOs erledigst."
+  }
+  // Hier können die restlichen Daten von deinem Agenten nach gleichem Muster befüllt werden...
+};
+
+</script>
+</body>
+</html>

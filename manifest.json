@@ -1,0 +1,22 @@
+{
+  "name": "Numeronarracje",
+  "short_name": "Numeronarr",
+  "description": "Odkryj swoją wewnętrzną mapę życia. Numerologia i przeznaczenie.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#1a0a2e",
+  "theme_color": "#D4AF37",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "logo master violet rund.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "logo master violet rund.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

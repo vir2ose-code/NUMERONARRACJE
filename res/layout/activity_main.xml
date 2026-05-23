@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://tools.tools.android.com/apk/res/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E142B"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp">
+
+        <!-- Górny dekoracyjny symbol - Gwiazda/Kompas numerologiczny -->
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="32dp"
+            android:contentDescription="Logo"
+            android:src="@android:drawable/ic_menu_compass"
+            app:tint="#CFB53B"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Tytuł Aplikacji -->
+        <TextView
+            android:id="@+id/tvHeaderTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="Kalkulator Liczby Urodzenia"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ivLogo" />
+
+        <!-- Podtytuł instruktażowy -->
+        <TextView
+            android:id="@+id/tvHeaderSubtitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Wpisz pełną datę urodzenia — obliczę Twoją Liczbę Urodzenia i wyświetlę jej archetyp oraz opis."
+            android:textColor="#BCAACD"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvHeaderTitle" />
+
+        <!-- Pole tekstowe TextInputLayout do wpisania daty -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilBirthDate"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:hint="Data urodzenia (np. 20.05.2026)"
+            android:textColorHint="#BCAACD"
+            app:boxStrokeColor="#845EC2"
+            app:boxStrokeWidthFocused="2dp"
+            app:hintTextColor="#CFB53B"
+            app:startIconDrawable="@android:drawable/ic_menu_my_calendar"
+            app:startIconTint="#CFB53B"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvHeaderSubtitle">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etBirthDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Główny Button: LICZBA URODZENIA -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLiczbaUrodzenia"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="20dp"
+            android:text="LICZBA URODZENIA"
+            android:textColor="#1E142B"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:backgroundTint="#CFB53B"
+            app:cornerRadius="12dp"
+            app:rippleColor="#845EC2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tilBirthDate" />
+
+        <!-- Karta wynikowa (standardowo ukryta: visibility="gone") -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardResult"
+            style="@style/Widget.Material3.CardView.Filled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="32dp"
+            android:visibility="gone"
+            app:cardBackgroundColor="#2A1A3E"
+            app:cardCornerRadius="18dp"
+            app:strokeColor="#CFB53B"
+            app:strokeWidth="1.5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btnLiczbaUrodzenia"
+            tools:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <!-- Nagłówek wyniku z okrągłym wyświetlaczem liczby i tytułem -->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <!-- Okrągły kontener na cyfrę wibracji -->
+                    <FrameLayout
+                        android:id="@+id/flNumberContainer"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@android:drawable/presence_online"
+                        android:backgroundTint="#CFB53B">
+
+                        <TextView
+                            android:id="@+id/tvResultNumber"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="#1E142B"
+                            android:textSize="26sp"
+                            android:textStyle="bold"
+                            tools:text="7" />
+                    </FrameLayout>
+
+                    <!-- Nazwa i archetyp po prawej stronie od kółka -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_toEndOf="@id/flNumberContainer"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvResultName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#FFFFFF"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            tools:text="Liczba Urodzenia 7 — Filozof" />
+
+                        <TextView
+                            android:id="@+id/tvResultArchetype"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:textColor="#CFB53B"
+                            android:textSize="13sp"
+                            android:textStyle="italic"
+                            tools:text="Archetyp: Mędrzec" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <!-- Elegancka złota linia oddzielająca nagłówek od tekstu -->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="#3E2C56" />
+
+                <!-- Sekcja: O Tobie (Nagłówek sekcji) -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TWÓJ PROFIL NUMEROLOGICZNY"
+                    android:textColor="#BCAACD"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    android:letterSpacing="0.1" />
+
+                <!-- Skompresowany, 3-4 zdaniowy opis z naszej bazy danych -->
+                <TextView
+                    android:id="@+id/tvResultDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingMultiplier="1.3"
+                    android:textColor="#F7F3EF"
+                    android:textSize="14sp"
+                    tools:text="Jesteś dociekliwym poszukiwaczem prawdy, posiadającym niezwykłą głębię intelektualną, analityczny umysł oraz bogaty świat wewnętrzny. Twoja mądrość wykracza poza wiedzę książkową, a umiejętność patrzenia na rzeczy z wielu perspektyw czyni z Ciebie wspaniałego doradcę. Wyzwaniem Siódemki jest lęk przed zaufaniem, zbytnie komplikowanie prostych spraw oraz dystans, który może prowadzić do osamotnienia. Twoją misją jest dzielenie się zdobytą mądrością i poszukiwanie prawdy w służbie innym, przy jednoczesnym otwarciu się na przyjmowanie życiowych darów." />
+
+                <!-- Dodatkowa stopka motywacyjna wewnątrz karty -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:gravity="center"
+                    android:text="To dopiero wstęp do Twojego profilu numerologicznego ✨"
+                    android:textColor="#BCAACD"
+                    android:textSize="11sp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

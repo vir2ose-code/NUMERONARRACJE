@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dzisiejsza prognoza</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --cream: #FAF7F2;
+  --warm-dark: #2A1F14;
+  --gold: #C4A55A;
+  --gold-light: #F5EDD8;
+  --muted: #8A7A6A;
+  --border: rgba(42,31,20,0.10);
+  --white: #FFFFFF;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--cream);
+  color: var(--warm-dark);
+  min-height: 100vh;
+  padding: 0 0 4rem;
+}
+
+.container { max-width: 640px; margin: 0 auto; padding: 0 1.25rem; }
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 2.5rem 1.25rem 2rem;
+  position: relative;
+}
+.header-label {
+  font-size: 10px;
+  letter-spacing: 3.5px;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 0.6rem;
+  font-weight: 500;
+}
+h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(2.2rem, 7vw, 3.2rem);
+  font-weight: 300;
+  color: var(--warm-dark);
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+}
+h1 em { font-style: italic; color: var(--gold); }
+.today-label {
+  font-size: 13px;
+  color: var(--muted);
+  letter-spacing: 0.3px;
+}
+
+/* DIVIDER */
+.divider {
+  width: 40px;
+  height: 1px;
+  background: var(--gold);
+  margin: 1.5rem auto;
+  opacity: 0.5;
+}
+
+/* MAIN CARD */
+.card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  animation: fadeUp 0.5s ease both;
+}
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.card-top {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 1.75rem 1.75rem 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.number-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 26px;
+  font-weight: 600;
+  flex-shrink: 0;
+  color: white;
+}
+
+.card-top-meta { flex: 1; }
+.card-zodiak {
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 3px;
+  font-weight: 500;
+}
+.card-number-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--warm-dark);
+}
+
+.card-body { padding: 1.75rem; }
+
+.energia {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.15rem;
+  line-height: 1.85;
+  font-style: italic;
+  color: var(--warm-dark);
+  margin-bottom: 1.75rem;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+@media(max-width: 440px){ .grid2 { grid-template-columns: 1fr; } }
+
+.ibox {
+  background: var(--cream);
+  border-radius: 8px;
+  padding: 0.9rem 1rem;
+}
+.ibox-label {
+  font-size: 9px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.ibox-val {
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--warm-dark);
+  line-height: 1.4;
+}
+
+.unikaj {
+  background: #FFF9EF;
+  border-left: 3px solid var(--gold);
+  border-radius: 0 8px 8px 0;
+  padding: 0.9rem 1.1rem;
+  margin-top: 10px;
+}
+.unikaj .ibox-label { color: #B8902A; }
+.unikaj .ibox-val   { color: #7A5C18; }
+
+.slogan {
+  text-align: center;
+  padding: 1.4rem 1.75rem 1.5rem;
+  border-top: 1px solid var(--border);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.25rem;
+  font-style: italic;
+  font-weight: 300;
+  color: var(--warm-dark);
+}
+
+/* DATE PICKER */
+input[type="date"] {
+  flex: 1;
+  padding: 9px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--white);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  color: var(--warm-dark);
+  outline: none;
+  transition: border-color 0.2s;
+}
+input[type="date"]:focus { border-color: var(--gold); }
+.note {
+  font-size: 11px;
+  color: var(--muted);
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.no-data {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 3rem 2rem;
+  text-align: center;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* ENERGIA CHECK */
+.energia-check {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.75rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.energia-check-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--warm-dark);
+  margin-bottom: 4px;
+}
+.energia-check-sub {
+  font-size: 12px;
+  color: var(--muted);
+  letter-spacing: 0.5px;
+  margin-bottom: 1.25rem;
+}
+.energia-slider-row {
+  display: flex;
+  justify-content: center;
+}
+.energia-slider-row input[type="number"] {
+  width: 90px;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--warm-dark);
+  text-align: center;
+  outline: none;
+  background: var(--cream);
+  transition: border-color 0.2s;
+  -moz-appearance: textfield;
+}
+.energia-slider-row input[type="number"]::-webkit-inner-spin-button,
+.energia-slider-row input[type="number"]::-webkit-outer-spin-button { -webkit-appearance: none; }
+.energia-slider-row input[type="number"]:focus { border-color: var(--gold); }
+.energia-result {
+  margin-top: 1.25rem;
+  animation: fadeUp 0.35s ease both;
+}
+.energia-result.show { display: block; }
+.energia-bubble {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 1.1rem 2rem;
+  border-radius: 12px;
+  min-width: 180px;
+}
+.energia-bubble.low  { background: #FFF3F3; border: 1px solid #FFCACA; }
+.energia-bubble.high { background: #F2FAF0; border: 1px solid #B8DFB0; }
+.energia-icon { font-size: 2.2rem; line-height: 1; }
+.energia-msg {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1rem;
+  font-style: italic;
+  font-weight: 400;
+}
+.energia-bubble.low  .energia-msg { color: #A03030; }
+.energia-bubble.high .energia-msg { color: #2E7020; }
+/* NUM COLORS */
+</style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <div class="header-label">Numerologia</div>
+    <h1>Dzisiejsza<br><em>prognoza</em></h1>
+    <div class="today-label" id="todayLabel"></div>
+  </header>
+
+  <div id="resultBox"></div>
+
+  <div class="divider"></div>
+
+  <div class="divider"></div>
+
+  <div class="energia-check">
+    <div class="energia-check-title">Jaka jest dzisiaj Twoja energia?</div>
+    <div class="energia-check-sub">Oceń w skali od 1 do 10</div>
+    <div class="energia-slider-row">
+      <input type="number" id="energiaInput" min="1" max="10" placeholder="np. 7" oninput="checkEnergia()" />
+    </div>
+    <div class="energia-result" id="energiaResult"></div>
+  </div>
+
+</div>
+
+<script>
+const DNI = {"3-21":{"z":"Baran","l":7,"e":"Świat trochę przyspiesza, ale Ty możesz mieć ochotę zrobić krok w tył i… pobyć chwilę w swoim świecie. To nie jest ucieczka — to regeneracja Twojej głowy i serca.","r":"Zrób sobie chwilę tylko dla siebie","n":"Intuicja, Refleksja","u":"Porównań do innych","s":"„Twoje tempo jest naprawdę ok”"},"3-22":{"z":"Baran","l":8,"e":"Ooo, tu wchodzi konkret 🔥 Czujesz więcej mocy, odwagi i takiego „dobra, działamy”. Tylko pamiętaj — nie wszystko naraz, wybierz jedno i dowieź.","r":"Skup się na jednym celu","n":"Sukces, Decyzje","u":"Impulsywności","s":"„Moc z kierunkiem”"},"3-23":{"z":"Baran","l":9,"e":"Możesz dziś złapać moment „to już nie jest dla mnie”. I zamiast analizować w nieskończoność… po prostu to zauważ. To już jest krok dalej.","r":"Odpuszczaj bez tłumaczenia się","n":"Transformacja, Domykanie","u":"Upierania się przy starym","s":"„Nie wszystko na zawsze”"},"3-24":{"z":"Baran","l":1,"e":"Nowa energia wchodzi z drzwiami 😄 Taka świeża, trochę odważna, trochę szalona. Nie musisz mieć całego planu — wystarczy pierwszy ruch.","r":"Zacznij coś, co chodzi Ci po głowie","n":"Nowe projekty","u":"Zwlekania","s":"„Zrób pierwszy krok”"},"3-25":{"z":"Baran","l":2,"e":"Dzień bardziej subtelny niż się wydaje. Intuicja może szeptać cicho, ale bardzo konkretnie. Jeśli coś czujesz — to nie jest przypadek.","r":"Posłuchaj swojego wewnętrznego „hmm”","n":"Relacje, Intuicja","u":"Ignorowania sygnałów","s":"„Ty naprawdę wiesz”"},"3-26":{"z":"Baran","l":3,"e":"Flow w komunikacji — słowa same się układają, pomysły przychodzą szybciej, a ludzie jakoś lepiej reagują 😄 To dzień, żeby się pokazać.","r":"Mów, pisz, publikuj","n":"Kreatywność, Ekspresja","u":"Zamykania się","s":"„Powiedz to światu”"},"3-27":{"z":"Baran","l":4,"e":"Po kilku dynamicznych dniach przychodzi moment „ok, ogarniamy to wszystko”. I dobrze — bo struktura dziś daje Ci spokój.","r":"Zrób porządek (w głowie i wokół)","n":"Organizacja, Stabilność","u":"Chaosu","s":"„Poułóż i oddychaj lżej”"},"3-28":{"z":"Baran","l":5,"e":"Tu może się wydarzyć coś niespodziewanego — mała zmiana planów, inny kierunek, coś „nie tak jak miało być”… ale finalnie na plus 😉","r":"Bądź otwarta na zmianę","n":"Spontaniczność, Nowe doświadczenia","u":"Sztywnego trzymania się planu","s":"„Zaufaj temu skrętowi”"},"3-29":{"z":"Baran","l":6,"e":"Dzień relacyjny w najlepszym wydaniu. Rozmowy, śmiech, bycie razem — to dziś naprawdę ładuje baterie.","r":"Spędź czas z kimś ważnym","n":"Bliskość, Relacje","u":"Izolacji","s":"„Do ludzi, piękna”"},"3-30":{"z":"Baran","l":7,"e":"Jakby ktoś przyciszył świat. I to jest dokładnie to, czego możesz potrzebować. Mniej bodźców, więcej oddechu.","r":"Zwolnij bez wyrzutów sumienia","n":"Regeneracja, Wyciszenie","u":"Przeciążania się","s":"„Zatrzymaj się na chwilę”"},"3-31":{"z":"Baran","l":8,"e":"Koniec miesiąca z energią „wow, trochę się wydarzyło”. To dobry moment, żeby zobaczyć swoje efekty — nawet te małe.","r":"Zrób podsumowanie i doceń siebie","n":"Finanse, Strategia","u":"Pomijania swoich sukcesów","s":"„Zobacz swoją drogę”"},"4-1":{"z":"Baran","l":6,"e":"No dobrze… mamy tu miks: emocjonalna pełnia + Prima Aprilis 😄 Czyli trochę serca, trochę dramatu i trochę „czy to serio się dzieje?”. Możesz mieć wrażenie, że świat dziś robi małe psikusy – i w sumie… może robić 😉","r":"Zachowaj dystans i sprawdzaj dwa razy","n":"Relacje, Balans","u":"Pochopnych reakcji","s":"„Nie wszystko jest takie, jak wygląda”"},"4-2":{"z":"Baran","l":7,"e":"Po wczorajszym rollercoasterze przychodzi dzień typu „dajcie mi koc i święty spokój”. Głowa chce ciszy, serce też trochę odpocząć.","r":"Zrób sobie mentalny detoks","n":"Intuicja, Regeneracja","u":"Przebodźcowania","s":"„Zniknij na chwilę (to zdrowe)”"},"4-3":{"z":"Baran","l":8,"e":"Wjeżdża tryb: „ogarniam życie i jeszcze pół świata przy okazji” 😄 Energia konkretu, działania i robienia porządków — tych fizycznych i życiowych.","r":"Zrób większe porządki (dosłownie lub w głowie)","n":"Działanie, Finanse","u":"Przeciążenia się","s":"„Jedziesz z tematem”"},"4-4":{"z":"Baran","l":9,"e":"Trochę refleksji między jednym zadaniem a drugim. Możesz poczuć, że coś się kończy – i to dobrze, nawet jeśli trochę sentymentalnie.","r":"Odpuszczaj świadomie","n":"Domykanie spraw","u":"Trzymania się na siłę","s":"„Zamykam i idę dalej”"},"4-5":{"z":"Baran","l":1,"e":"Wielkanoc + energia nowego początku = vibe „nowa ja, ale w wersji spokojniejszej” 😄 To dobry moment na małe decyzje, które coś zmienią.","r":"Zrób symboliczny nowy start","n":"Nowe początki","u":"Odkładania","s":"„Od dziś trochę inaczej”"},"4-6":{"z":"Baran","l":2,"e":"Tu robi się magicznie ✨ (wcześniej 11) Możesz złapać nagłe olśnienie przy kawie, serniku albo… totalnie przypadkiem. Warto słuchać uważnie.","r":"Zapisuj pomysły (nawet te dziwne)","n":"Inspiracje, Intuicja","u":"Ignorowania „przeczuć”","s":"„To nie przypadek”"},"4-7":{"z":"Baran","l":3,"e":"Lekkość wraca 😄 Chce się gadać, śmiać i być wśród ludzi… albo przynajmniej wysłać kilka głosówek więcej niż zwykle.","r":"Daj sobie luz i kontakt z ludźmi","n":"Komunikacja, Radość","u":"Zamknięcia się","s":"„Trochę funu poproszę”"},"4-8":{"z":"Baran","l":4,"e":"No dobra, wracamy na ziemię 😄 Dzień typu: rachunki, lista rzeczy do zrobienia i „ogarniam, zanim mnie ogarnie”.","r":"Uporządkuj sprawy","n":"Organizacja","u":"Chaosu","s":"„Ogarnij to spokojnie”"},"4-9":{"z":"Baran","l":5,"e":"Plan? Jaki plan 😄 Dzień może Cię trochę zaskoczyć – coś się przesunie, zmieni albo nagle okaże się lepsze niż zakładałaś.","r":"Bądź elastyczna","n":"Zmiany, Spontaniczność","u":"Sztywności","s":"„Zobacz, gdzie Cię to poniesie”"},"4-10":{"z":"Baran","l":6,"e":"Ciepło, miękko, trochę wolniej. To dzień na przyjemności bez spiny – coś dla ciała, coś dla serca.","r":"Zadbaj o siebie (naprawdę)","n":"Relacje, Self-care","u":"Ignorowania swoich potrzeb","s":"„Zrób sobie dobrze (w dobrym sensie 😄)”"},"4-11":{"z":"Baran","l":7,"e":"Dziś możesz mieć vibe: „dajcie mi książkę, herbatę i święty spokój” 😄 Głowa chce myśleć głębiej, a nie szybciej. To dzień, w którym jedno zdanie może zmienić Twoje spojrzenie na wszystko.","r":"Zatrzymaj się i posłuchaj swoich myśli","n":"Intuicja, Nauka","u":"Przebodźcowania","s":"„Zajrzyj głębiej”"},"4-12":{"z":"Baran","l":8,"e":"Energia konkretu wraca – taka trochę „ogarniam życie, bo mogę”. Jeśli coś odkładałaś, to dziś masz idealny moment, żeby to domknąć.","r":"Zrób jedną ważną rzecz do końca","n":"Sukces, Działanie","u":"Zwlekania","s":"„Zrób to dzisiaj”"},"4-13":{"z":"Baran","l":9,"e":"Włącza się tryb: „chcę zrobić coś dobrego”. Może drobny gest, może większa sprawa – ale serce dziś wie, gdzie iść.","r":"Zrób coś dobrego dla kogoś","n":"Relacje, Empatia","u":"Obojętności","s":"„Dobro wraca (serio)”"},"4-14":{"z":"Baran","l":1,"e":"Okej, dziś możesz poczuć się jak szefowa swojego życia 😄 Decyzje przychodzą łatwiej, a energia mówi: „to Twój moment”.","r":"Zrób coś po swojemu","n":"Nowe początki","u":"Pytania innych o zgodę","s":"„Twoje życie, Twoje zasady”"},"4-15":{"z":"Baran","l":2,"e":"(wcześniej 11) Trochę bardziej subtelnie niż wczoraj. Możesz mieć większą wrażliwość i lepsze „czytanie między wierszami”.","r":"Słuchaj intuicji i ludzi","n":"Relacje, Wgląd","u":"Ignorowania emocji","s":"„Czuj uważnie”"},"4-16":{"z":"Baran","l":3,"e":"Dzień, w którym słowa mają moc 😄 Możesz coś załatwić uśmiechem, rozmową albo jednym dobrze trafionym zdaniem.","r":"Mów, pisz, wyrażaj się","n":"Komunikacja","u":"Duszenia w sobie","s":"„Powiedz to lekko”"},"4-17":{"z":"Baran","l":4,"e":"Nów + energia porządkowania = idealny moment na „od teraz robię inaczej”. To dzień na decyzje z planem.","r":"Spisz swoje intencje","n":"Planowanie, Fundamenty","u":"Chaosu","s":"„Zasiej to na serio”"},"4-18":{"z":"Baran","l":5,"e":"Po poważniejszych klimatach przychodzi ochota na ucieczkę 😄 Nawet mentalną. I w sumie… dobrze.","r":"Zrób coś, co daje Ci poczucie wolności","n":"Zmiany, Ruch","u":"Sztywnego planu","s":"„Oddech przede wszystkim”"},"4-19":{"z":"Baran","l":6,"e":"Możesz dziś być dla innych takim „ciepłym kocykiem” – wspierająca, obecna, uważna. Tylko nie zapomnij o sobie.","r":"Daj wsparcie, ale z granicą","n":"Relacje","u":"Brania za dużo na siebie","s":"„Pomagaj, ale nie kosztem siebie”"},"4-20":{"z":"Byk","l":7,"e":"Wchodzimy w energię Byka i od razu robi się… wolniej, zmysłowo, spokojniej. I dobrze. To dzień na docenienie prostych rzeczy.","r":"Zwolnij i poczuj chwilę","n":"Natura, Wyciszenie","u":"Pośpiechu","s":"„Smakuj życie”"},"4-21":{"z":"Byk","l":8,"e":"Byk + ósemka = konkret i pieniądze 😄 Dzień sprzyja rozmowom o finansach i decyzjom, które mają sens długoterminowo.","r":"Zajmij się sprawami finansowymi","n":"Finanse, Stabilność","u":"Ignorowania konkretów","s":"„Myśl przyszłościowo”"},"4-22":{"z":"Byk","l":4,"e":"(wcześniej 22) To dzień budowania czegoś większego. Może jeszcze nie widać efektu, ale fundament już się robi.","r":"Zrób coś, co zaprocentuje","n":"Długoterminowe plany","u":"Krótkowzroczności","s":"„Budujesz, nawet jeśli nie widać”"},"4-23":{"z":"Byk","l":1,"e":"Nowy początek, ale w stylu Byka: spokojnie, bez pośpiechu, za to konsekwentnie.","r":"Wprowadź jeden nowy nawyk","n":"Zdrowie, Rutyny","u":"Zrywu bez planu","s":"„Małe kroki, duża zmiana”"},"4-24":{"z":"Byk","l":2,"e":"Ciepły, relacyjny dzień. Trochę więcej przytulności, trochę mniej spinania się na wszystko.","r":"Bądź blisko (z kimś lub sobą)","n":"Relacje","u":"Dystansu emocjonalnego","s":"„Miękko wystarczy”"},"4-25":{"z":"Byk","l":3,"e":"Przyjemności level expert 😄 Jedzenie smakuje lepiej, muzyka brzmi ładniej, a śmiech przychodzi łatwiej.","r":"Zrób coś, co daje Ci radość","n":"Przyjemność, Kreatywność","u":"Ograniczania się","s":"„Korzystaj z życia”"},"4-26":{"z":"Byk","l":4,"e":"Dzień typu: „idziemy do natury albo robimy porządek”. Kontakt z ziemią robi dziś cuda (nawet doniczka się liczy 😄).","r":"Zrób coś fizycznego","n":"Dom, Natura","u":"Siedzenia cały dzień w głowie","s":"„Uziem się”"},"4-27":{"z":"Byk","l":5,"e":"Byk wychodzi ze strefy komfortu… i trochę się dziwi 😄 Ale to dobry dzień na małe szaleństwo.","r":"Zrób coś odważniejszego","n":"Zmiany","u":"Uporu","s":"„Wyjdź poza wygodę”"},"4-28":{"z":"Byk","l":6,"e":"Spokojny, ciepły dzień. Taki, w którym herbata smakuje lepiej, a rozmowy płyną wolniej.","r":"Zadbaj o domową atmosferę","n":"Relacje, Odpoczynek","u":"Pośpiechu","s":"„Zwolnij i pobądź”"},"4-29":{"z":"Byk","l":7,"e":"Czas na refleksję: czy to, co robisz, naprawdę daje Ci poczucie bezpieczeństwa i spokoju?","r":"Zrób mały „check-in” ze sobą","n":"Analiza, Intuicja","u":"Ignorowania sygnałów","s":"„Zadaj sobie to pytanie”"},"4-30":{"z":"Byk","l":8,"e":"Końcówka miesiąca z energią mocy. Możesz zobaczyć efekty swoich działań – nawet jeśli są subtelne.","r":"Podsumuj i doceń","n":"Finanse, Strategia","u":"Pomijania swoich sukcesów","s":"„Zobacz, ile zrobiłaś”"},"5-1":{"z":"Byk","l":3,"e":"Maj wchodzi miękko i… całkiem przyjemnie 😄 To dzień, w którym możesz złapać vibe „nic nie muszę, a wszystko jakoś płynie”. Małe rzeczy cieszą bardziej niż zwykle.","r":"Daj sobie luz bez wyrzutów","n":"Przyjemność, Lekkość","u":"Spiny","s":"„Zacznij od przyjemności”"},"5-2":{"z":"Byk","l":4,"e":"Trochę bardziej „życiowo” — rachunki, plany, organizacja… ale spokojnie, dziś to nie męczy, tylko daje poczucie kontroli.","r":"Ogarnij jedną konkretną sprawę","n":"Organizacja, Stabilność","u":"Odkładania","s":"„Małe ogarnięcie = duży spokój”"},"5-3":{"z":"Byk","l":5,"e":"Świąteczny klimat + potrzeba ruchu 😄 Możesz mieć ochotę zrobić coś inaczej niż zwykle. I bardzo dobrze — wyjdź poza schemat.","r":"Zrób coś spontanicznego","n":"Zmiany, Radość","u":"Rutyny","s":"„Trochę szaleństwa nikomu nie zaszkodzi”"},"5-4":{"z":"Byk","l":6,"e":"Wraca ciepło relacyjne. Dzień sprzyja byciu razem, rozmowom, nawet takim zwykłym — ale ważnym.","r":"Spędź czas z kimś bliskim","n":"Relacje, Bliskość","u":"Zamknięcia się","s":"„Bądź z ludźmi”"},"5-5":{"z":"Byk","l":7,"e":"Trochę wyciszenia w środku tygodnia. Możesz poczuć potrzebę pobycia sama ze sobą i… to jest bardzo dobry pomysł.","r":"Zrób przestrzeń dla siebie","n":"Intuicja, Refleksja","u":"Hałasu","s":"„Cisza też jest odpowiedzią”"},"5-6":{"z":"Byk","l":8,"e":"Energia konkretu — wraca działanie, pieniądze, decyzje. Możesz dziś ogarnąć coś, co długo wisiało w tle.","r":"Zrób krok w stronę celu","n":"Finanse, Działanie","u":"Odkładania","s":"„Zrób to i miej z głowy”"},"5-7":{"z":"Byk","l":9,"e":"Dzień zamykania — emocjonalnego albo życiowego. Możesz poczuć: „to już nie moje”. I to jest ok.","r":"Odpuszczaj bez tłumaczenia","n":"Transformacja","u":"Trzymania się na siłę","s":"„Puść to lekko”"},"5-8":{"z":"Byk","l":1,"e":"Nowa energia wchodzi spokojnie, ale konkretnie. To dobry moment na mały restart — coś zmienić, zacząć inaczej.","r":"Zacznij od jednego kroku","n":"Nowe początki","u":"Zwlekania","s":"„Zrób pierwszy ruch”"},"5-9":{"z":"Byk","l":2,"e":"Delikatny, relacyjny dzień. Więcej czucia, mniej działania. Możesz być dziś bardziej wrażliwa — i to jest Twoja siła.","r":"Słuchaj emocji","n":"Relacje, Intuicja","u":"Ignorowania siebie","s":"„Czuj, nie analizuj”"},"5-10":{"z":"Byk","l":3,"e":"Niedzielny vibe w najlepszym wydaniu 😄 Śmiech, luz, może dobre jedzenie i zero presji.","r":"Zrób coś, co sprawia radość","n":"Przyjemność, Kreatywność","u":"Obowiązków na siłę","s":"„Dziś jest na przyjemność”"},"5-11":{"z":"Byk","l":4,"e":"Wracamy lekko na ziemię 😄 To dzień, w którym możesz poczuć satysfakcję z ogarniania rzeczy — takich zwykłych, ale potrzebnych.","r":"Zrób porządek wokół siebie","n":"Organizacja, Stabilność","u":"Chaosu","s":"„Ogarnij i oddychaj lżej”"},"5-12":{"z":"Byk","l":5,"e":"Coś Cię może dziś „pociągnąć” w inną stronę niż planowałaś. I zamiast się spinać… sprawdź, co się stanie 😉","r":"Daj sobie przestrzeń na zmianę","n":"Spontaniczność, Ruch","u":"Kontroli wszystkiego","s":"„Zobacz, co się wydarzy”"},"5-13":{"z":"Byk","l":6,"e":"Ciepło, miękko, relacyjnie. Możesz mieć większą potrzebę bliskości — rozmowy, dotyku, bycia razem.","r":"Zadbaj o relacje","n":"Miłość, Dom","u":"Dystansu","s":"„Bądź bliżej”"},"5-14":{"z":"Byk","l":7,"e":"Trochę wolniej, trochę ciszej. To dzień, w którym warto zrobić krok w tył i zobaczyć większy obraz.","r":"Daj sobie czas na refleksję","n":"Intuicja, Wgląd","u":"Przebodźcowania","s":"„Zatrzymaj się i zobacz więcej”"},"5-15":{"z":"Byk","l":8,"e":"Wraca energia działania — konkretna, stabilna, taka „robię i mam”. Idealny moment na decyzje finansowe lub zawodowe.","r":"Podejmij jedną ważną decyzję","n":"Finanse, Praca","u":"Zwlekania","s":"„Decyduj i działaj”"},"5-16":{"z":"Byk","l":9,"e":"Możesz dziś poczuć lekki sentyment… albo potrzebę zamknięcia czegoś raz na dobre. I to jest dobry kierunek.","r":"Domknij coś świadomie","n":"Emocje, Transformacja","u":"Wracania do przeszłości","s":"„To już było”"},"5-17":{"z":"Byk","l":1,"e":"Nowy impuls, ale bez presji. To dzień typu „spróbuję inaczej” — i to wystarczy.","r":"Zrób coś po nowemu","n":"Nowe początki","u":"Perfekcjonizmu","s":"„Nie musi być idealnie”"},"5-18":{"z":"Byk","l":2,"e":"Bardziej miękko i emocjonalnie. Możesz być dziś bardziej wyczulona na energię ludzi — wybieraj mądrze, z kim jesteś.","r":"Dbaj o swoje granice","n":"Relacje, Intuicja","u":"Toksycznych sytuacji","s":"„Nie dla każdego masz dostęp”"},"5-19":{"z":"Byk","l":3,"e":"Lekkość, śmiech, trochę flirtu z życiem 😄 To dzień, w którym wszystko może być odrobinę przyjemniejsze.","r":"Daj sobie przyjemność","n":"Radość, Kreatywność","u":"Sztywności","s":"„Baw się tym dniem”"},"5-20":{"z":"Byk","l":4,"e":"Dzień stabilizacji. Możesz poczuć potrzebę „ustawienia” kilku rzeczy — i dobrze, to daje Ci spokój.","r":"Uporządkuj swoje sprawy","n":"Planowanie, Dom","u":"Chaosu","s":"„Spokój zaczyna się od porządku”"},"5-21":{"z":"Bliźnięta","l":5,"e":"Wchodzimy w energię Bliźniąt i od razu robi się lżej 😄 Więcej ruchu, więcej rozmów, więcej ciekawości świata.","r":"Wyjdź do ludzi lub świata","n":"Komunikacja, Zmiany","u":"Nudy","s":"„Rusza się!”"},"5-22":{"z":"Bliźnięta","l":6,"e":"W tej lekkości pojawia się potrzeba bliskości. Dzień na rozmowy, które coś wnoszą — nawet jeśli zaczynają się od „a tak w ogóle…”","r":"Rozmawiaj szczerze","n":"Relacje","u":"Powierzchowności","s":"„Powiedz trochę więcej”"},"5-23":{"z":"Bliźnięta","l":7,"e":"Mały stop w tej całej aktywności. Głowa potrzebuje chwili ciszy, żeby to wszystko poukładać.","r":"Zrób pauzę","n":"Refleksja, Wgląd","u":"Nadmiaru bodźców","s":"„Zatrzymaj się na moment”"},"5-24":{"z":"Bliźnięta","l":8,"e":"Wraca konkret — możesz dziś ogarnąć coś szybko i skutecznie. Energia sprzyja działaniu „tu i teraz”.","r":"Działaj bez analizowania w nieskończoność","n":"Sukces, Decyzje","u":"Przeciągania","s":"„Rób, nie myśl za długo”"},"5-25":{"z":"Bliźnięta","l":9,"e":"Możesz złapać refleksję: co już Ci nie pasuje do tej wersji Ciebie? I to jest bardzo cenne pytanie.","r":"Odpuszczaj stare schematy","n":"Transformacja","u":"Trzymania się przeszłości","s":"„Zostaw to za sobą”"},"5-26":{"z":"Bliźnięta","l":1,"e":"Dzień Mamy 💛 + energia nowego początku = coś miękkiego i ważnego jednocześnie. Możesz poczuć potrzebę nowego otwarcia w relacjach.","r":"Zrób pierwszy krok w relacji","n":"Relacje, Emocje","u":"Dumy","s":"„Zacznij od serca”"},"5-27":{"z":"Bliźnięta","l":2,"e":"Delikatność wraca. To dzień na uważność — na słowa, na ludzi, na siebie.","r":"Słuchaj więcej niż mówisz","n":"Intuicja, Relacje","u":"Pośpiechu w rozmowach","s":"„Usłysz to naprawdę”"},"5-28":{"z":"Bliźnięta","l":3,"e":"Lekko, przyjemnie, trochę żartobliwie 😄 Idealny dzień na spotkania, rozmowy i bycie „wśród”.","r":"Wyjdź do ludzi","n":"Komunikacja, Fun","u":"Izolacji","s":"„Daj się ponieść rozmowie”"},"5-29":{"z":"Bliźnięta","l":4,"e":"Po lekkich dniach przychodzi potrzeba struktury. To dobry moment, żeby coś uporządkować i złapać rytm.","r":"Zrób plan na najbliższe dni","n":"Organizacja","u":"Chaosu","s":"„Ułóż to po swojemu”"},"5-30":{"z":"Bliźnięta","l":5,"e":"Energia zmiany — możesz mieć ochotę zrobić coś spontanicznego, nawet jeśli to tylko mała decyzja.","r":"Zrób coś inaczej niż zwykle","n":"Zmiany, Ruch","u":"Rutyny","s":"„Mała zmiana, duży efekt”"},"5-31":{"z":"Bliźnięta","l":6,"e":"Końcówka miesiąca miękka i przyjemna. To dobry moment, żeby zwolnić i pobyć — bez planu, bez presji.","r":"Daj sobie odpocząć","n":"Relacje, Spokój","u":"Przeciążenia","s":"„Po prostu bądź”"},"6-1":{"z":"Bliźnięta","l":7,"e":"Dzień Dziecka, a Ty możesz mieć ochotę… trochę uciec od wszystkiego 😄 Zamiast zabawy – potrzeba ciszy, spokoju i pobycia w swoim świecie. I to też jest ok.","r":"Daj sobie przestrzeń dla siebie","n":"Intuicja, Wyciszenie","u":"Przebodźcowania","s":"„Zniknij na chwilę”"},"6-2":{"z":"Bliźnięta","l":8,"e":"Wraca konkret — myśli się klarują, decyzje przychodzą szybciej. To dobry moment, żeby ogarnąć coś, co odkładałaś.","r":"Zrób jedną ważną rzecz","n":"Działanie, Finanse","u":"Zwlekania","s":"„Załatw to”"},"6-3":{"z":"Bliźnięta","l":9,"e":"Możesz dziś poczuć, że coś się kończy — rozmowa, etap, myślenie. Nie dramatyzuj, to naturalny proces.","r":"Odpuszczaj spokojnie","n":"Transformacja","u":"Trzymania się przeszłości","s":"„To już za Tobą”"},"6-4":{"z":"Bliźnięta","l":1,"e":"Nowa energia wchodzi lekko i świeżo. To dobry dzień na zaczęcie czegoś bez wielkiego planu.","r":"Zrób pierwszy krok","n":"Nowe początki","u":"Perfekcjonizmu","s":"„Po prostu zacznij”"},"6-5":{"z":"Bliźnięta","l":2,"e":"Bardziej miękko i emocjonalnie. Możesz dziś więcej „czuć niż myśleć”.","r":"Zaufaj swojej intuicji","n":"Relacje, Wgląd","u":"Ignorowania emocji","s":"„Czuj to”"},"6-6":{"z":"Bliźnięta","l":3,"e":"Lekkość, śmiech, kontakt. Idealny dzień na spotkania, rozmowy i bycie wśród ludzi 😄","r":"Wyjdź do świata","n":"Komunikacja, Radość","u":"Zamknięcia się","s":"„Do ludzi!”"},"6-7":{"z":"Bliźnięta","l":4,"e":"Po lekkim dniu przychodzi moment: „ok, wracamy do rzeczywistości”. I dobrze — to daje Ci stabilność.","r":"Uporządkuj swoje sprawy","n":"Organizacja","u":"Chaosu","s":"„Ogarnij i miej spokój”"},"6-8":{"z":"Bliźnięta","l":5,"e":"Coś może się dziś zmienić — plan, kierunek, nastrój. Nie walcz z tym, tylko zobacz, co to wnosi.","r":"Bądź elastyczna","n":"Zmiany","u":"Sztywności","s":"„Zaufaj zmianie”"},"6-9":{"z":"Bliźnięta","l":6,"e":"Ciepły, relacyjny dzień. Rozmowy mogą być bardziej szczere niż zwykle.","r":"Bądź blisko","n":"Relacje","u":"Dystansu","s":"„Powiedz to od serca”"},"6-10":{"z":"Bliźnięta","l":7,"e":"Małe spowolnienie. Głowa chce ciszy, a nie kolejnych bodźców.","r":"Zrób pauzę","n":"Refleksja","u":"Przeciążenia","s":"„Zatrzymaj się”"},"6-11":{"z":"Bliźnięta","l":8,"e":"Wraca energia „ogarniam i działam”. Możesz dziś zrobić więcej niż planowałaś — tylko nie łap wszystkiego naraz 😄","r":"Skup się na jednym celu","n":"Sukces, Działanie","u":"Rozpraszania się","s":"„Jedno, ale konkretnie”"},"6-12":{"z":"Bliźnięta","l":9,"e":"Lekka refleksja może Cię złapać między jedną rozmową a drugą. Coś się domyka — i dobrze, robi się miejsce.","r":"Odpuszczaj bez spiny","n":"Transformacja","u":"Analizowania w kółko","s":"„Puść to już”"},"6-13":{"z":"Bliźnięta","l":1,"e":"Nowy impuls — szybki, lekki, trochę spontaniczny. Możesz zrobić coś „z zaskoczenia”… i to będzie dobre.","r":"Działaj bez przesadnego planu","n":"Nowe początki","u":"Zwlekania","s":"„Zrób to teraz”"},"6-14":{"z":"Bliźnięta","l":2,"e":"Trochę ciszej, bardziej emocjonalnie. Możesz być dziś bardziej wrażliwa na słowa i energię ludzi.","r":"Wybieraj świadomie towarzystwo","n":"Relacje, Intuicja","u":"Toksycznych rozmów","s":"„Nie każdy ma do Ciebie dostęp”"},"6-15":{"z":"Bliźnięta","l":3,"e":"Lekkość level max 😄 Śmiech, rozmowy, może trochę flirtu z życiem. Wszystko płynie łatwiej.","r":"Daj sobie luz","n":"Radość, Komunikacja","u":"Sztywności","s":"„Baw się tym dniem”"},"6-16":{"z":"Bliźnięta","l":4,"e":"Wraca potrzeba ogarnięcia rzeczy. To dobry moment na plan, strukturę i zamknięcie zaległości.","r":"Zrób listę i działaj","n":"Organizacja","u":"Chaosu","s":"„Poułóż to”"},"6-17":{"z":"Bliźnięta","l":5,"e":"Coś może się dziś zmienić — i w sumie… dobrze 😄 Dzień sprzyja spontanicznym decyzjom.","r":"Bądź otwarta na zmianę","n":"Zmiany, Ruch","u":"Kontroli","s":"„Idź za tym”"},"6-18":{"z":"Bliźnięta","l":6,"e":"Ciepło, relacyjnie, bardziej „sercowo”. Możesz mieć ochotę na bycie blisko — ludzi albo siebie.","r":"Zadbaj o relacje","n":"Bliskość","u":"Izolacji","s":"„Bądź bliżej”"},"6-19":{"z":"Bliźnięta","l":7,"e":"Trochę wyciszenia przed zmianą energii. Dzień dobry na refleksję i zebranie myśli.","r":"Zrób pauzę","n":"Intuicja","u":"Przebodźcowania","s":"„Zatrzymaj się na moment”"},"6-20":{"z":"Bliźnięta","l":8,"e":"Ostatni dzień tej lekkiej energii, ale w mocniejszym wydaniu — możesz dziś dużo zrobić, jeśli dobrze to ukierunkujesz.","r":"Działaj konkretnie","n":"Sukces, Decyzje","u":"Rozpraszania","s":"„Skup się i działaj”"},"6-21":{"z":"Rak","l":9,"e":"Wchodzimy w Raka + przesilenie 🌙✨ Emocje mogą być głębsze niż zwykle. Coś się zamyka, coś się zaczyna — bardzo symbolicznie.","r":"Zrób wewnętrzne podsumowanie","n":"Emocje, Transformacja","u":"Ignorowania uczuć","s":"„Poczuj to naprawdę”"},"6-22":{"z":"Rak","l":1,"e":"Nowa energia, ale już bardziej „do środka” niż na zewnątrz. To dobry moment na nowe intencje — takie od serca.","r":"Zacznij coś ważnego dla siebie","n":"Nowe początki","u":"Działania „dla innych”","s":"„To o Tobie”"},"6-23":{"z":"Rak","l":2,"e":"Bardzo wrażliwy dzień. Możesz chłonąć emocje jak gąbka — swoje i cudze.","r":"Dbaj o swoje granice","n":"Relacje, Intuicja","u":"Przeciążenia emocjonalnego","s":"„Chroń swoją energię”"},"6-24":{"z":"Rak","l":3,"e":"Trochę lżej, trochę więcej uśmiechu 😄 Nadal wrażliwie, ale już bardziej „życiowo”.","r":"Daj sobie przyjemność","n":"Radość, Bliskość","u":"Zamknięcia się","s":"„Uśmiechnij się do życia”"},"6-25":{"z":"Rak","l":4,"e":"Potrzeba bezpieczeństwa i stabilizacji. Dzień na dom, porządek i rzeczy, które dają poczucie „jest dobrze”.","r":"Zadbaj o swoją przestrzeń","n":"Dom, Stabilność","u":"Chaosu","s":"„Zrób sobie bezpiecznie”"},"6-26":{"z":"Rak","l":5,"e":"Mała chęć ucieczki 😄 Możesz poczuć: „chcę coś zmienić, choćby na chwilę”.","r":"Zrób coś inaczej niż zwykle","n":"Zmiany","u":"Rutyny","s":"„Wyjdź poza schemat”"},"6-27":{"z":"Rak","l":6,"e":"Ciepło, miękko, relacyjnie. Idealny dzień na bycie razem — bez pośpiechu, bez presji.","r":"Pobądź z kimś bliskim","n":"Relacje","u":"Pośpiechu","s":"„Po prostu bądź”"},"6-28":{"z":"Rak","l":7,"e":"Potrzeba ciszy wraca. To dzień bardziej do środka — refleksyjny, spokojny.","r":"Daj sobie przestrzeń","n":"Wgląd","u":"Przebodźcowania","s":"„Zanurz się w sobie”"},"6-29":{"z":"Rak","l":8,"e":"Wraca konkret — możesz dziś ogarnąć coś ważnego, szczególnie jeśli odkładałaś to „na później”.","r":"Zrób krok do przodu","n":"Działanie","u":"Zwlekania","s":"„Czas działać”"},"6-30":{"z":"Rak","l":9,"e":"Koniec miesiąca z nutą refleksji. Możesz zobaczyć, ile się wydarzyło — i ile już nie jest Twoje.","r":"Podsumuj i odpuść","n":"Transformacja","u":"Trzymania się przeszłości","s":"„Zamykam ten rozdział”"},"7-1":{"z":"Rak","l":1,"e":"Nowy miesiąc, nowa energia — ale jeszcze taka miękka, trochę „na czucie”. Możesz mieć ochotę zacząć coś po swojemu, bez tłumaczenia się komukolwiek.","r":"Zrób coś tylko dla siebie","n":"Nowe początki","u":"Szukania zgody u innych","s":"„To Twój start”"},"7-2":{"z":"Rak","l":2,"e":"Emocje bliżej powierzchni. Możesz szybciej reagować, ale też głębiej czuć. To dzień na uważność.","r":"Zadbaj o swoje granice","n":"Relacje, Intuicja","u":"Przeciążenia emocjonalnego","s":"„Czuj, ale się nie gub”"},"7-3":{"z":"Rak","l":3,"e":"Trochę lżej 😄 Śmiech, rozmowy, może spontaniczne wyjście. Dzień sprzyja byciu „tu i teraz”.","r":"Daj sobie przyjemność","n":"Radość, Kontakty","u":"Zamknięcia się","s":"„Żyj chwilą”"},"7-4":{"z":"Rak","l":4,"e":"Wchodzi potrzeba stabilizacji — może nagle chcesz ogarnąć życie, mieszkanie albo głowę 😄","r":"Uporządkuj jedną rzecz","n":"Organizacja","u":"Chaosu","s":"„Mały porządek, duży spokój”"},"7-5":{"z":"Rak","l":5,"e":"A potem… nagle chcesz to wszystko rzucić i pojechać gdzieś 😄 Energia zmiany i spontanu.","r":"Zrób coś nieplanowanego","n":"Zmiany, Ruch","u":"Rutyny","s":"„Idź za impulsem”"},"7-6":{"z":"Rak","l":6,"e":"Ciepło, bliskość, relacje. Dzień idealny na bycie z kimś — bez pośpiechu, po prostu razem.","r":"Pobądź z kimś ważnym","n":"Miłość, Relacje","u":"Izolacji","s":"„Bądź blisko”"},"7-7":{"z":"Rak","l":7,"e":"Małe wyciszenie. Możesz poczuć potrzebę odcięcia się od świata na chwilę.","r":"Daj sobie przestrzeń","n":"Intuicja","u":"Przebodźcowania","s":"„Zniknij na moment”"},"7-8":{"z":"Rak","l":8,"e":"Wraca konkret — coś możesz dziś załatwić szybko i skutecznie.","r":"Zrób jedną ważną rzecz","n":"Działanie","u":"Odkładania","s":"„Zrób i miej z głowy”"},"7-9":{"z":"Rak","l":9,"e":"Dzień refleksji — coś może się kończyć, nawet jeśli tylko w Twojej głowie.","r":"Odpuszczaj spokojnie","n":"Transformacja","u":"Trzymania się przeszłości","s":"„Puść to”"},"7-10":{"z":"Rak","l":1,"e":"Nowy impuls — możesz poczuć: „ok, teraz ja decyduję”. I to jest dobry moment.","r":"Zrób pierwszy krok","n":"Nowe początki","u":"Zwlekania","s":"„Twoja kolej”"},"7-11":{"z":"Rak","l":2,"e":"Dzień bardziej wrażliwy niż się wydaje. Możesz reagować intensywniej, ale też głębiej rozumieć innych.","r":"Wybieraj, z kim spędzasz czas","n":"Relacje, Intuicja","u":"Toksycznych energii","s":"„Chroń swoje serce”"},"7-12":{"z":"Rak","l":3,"e":"Lżej, cieplej, bardziej towarzysko 😄 Idealny dzień na spotkania, rozmowy i trochę śmiechu.","r":"Wyjdź do ludzi","n":"Radość, Kontakty","u":"Zamknięcia się","s":"„Do ludzi!”"},"7-13":{"z":"Rak","l":4,"e":"Nagle chcesz ogarnąć wszystko naraz 😄 Spokojnie — wybierz jedną rzecz i zrób ją dobrze.","r":"Skup się na konkretach","n":"Organizacja","u":"Chaosu","s":"„Jedno po drugim”"},"7-14":{"z":"Rak","l":5,"e":"Energia zmiany — możesz mieć ochotę zrobić coś spontanicznego albo powiedzieć „a co mi tam” 😄","r":"Daj się ponieść chwili","n":"Spontaniczność","u":"Kontroli","s":"„Zaryzykuj trochę”"},"7-15":{"z":"Rak","l":6,"e":"Ciepły, relacyjny dzień. Możesz mieć ochotę być blisko — ludzi, domu, siebie.","r":"Zadbaj o relacje","n":"Bliskość","u":"Dystansu","s":"„Bądź tu”"},"7-16":{"z":"Rak","l":7,"e":"Wyciszenie. Głowa i serce chcą chwili spokoju.","r":"Zwolnij","n":"Intuicja","u":"Przeciążenia","s":"„Pause”"},"7-17":{"z":"Rak","l":8,"e":"Wraca energia działania — konkret, decyzje, załatwianie spraw.","r":"Zrób coś, co odkładałaś","n":"Sukces","u":"Zwlekania","s":"„Czas działać”"},"7-18":{"z":"Rak","l":9,"e":"Trochę nostalgii… możesz wrócić myślami do czegoś starego.","r":"Zamknij ten temat","n":"Transformacja","u":"Rozkminiania bez końca","s":"„To już było”"},"7-19":{"z":"Rak","l":1,"e":"Nowy impuls — lekki, ale wyraźny. Możesz zacząć coś od nowa.","r":"Działaj","n":"Nowe początki","u":"Wahania","s":"„Start”"},"7-20":{"z":"Rak","l":2,"e":"Wrażliwość wraca — bądź dla siebie delikatna.","r":"Zadbaj o siebie","n":"Emocje","u":"Ignorowania potrzeb","s":"„Czuj łagodnie”"},"7-21":{"z":"Rak","l":3,"e":"Lżej, radośniej, bardziej „letnio” 😄","r":"Daj sobie przyjemność","n":"Radość","u":"Nadmiernej powagi","s":"„Enjoy”"},"7-22":{"z":"Lew","l":4,"e":"Wchodzi Lew — i od razu czujesz więcej mocy 🔥 Ale dziś jeszcze z nutą porządkowania.","r":"Ustaw swoje sprawy","n":"Stabilność","u":"Chaosu","s":"„Ugruntuj się”"},"7-23":{"z":"Lew","l":5,"e":"Ooo, tu już zaczyna się zabawa 😄 Energia ruchu, ludzi i spontanu.","r":"Wyjdź do świata","n":"Zmiany, Zabawa","u":"Nudy","s":"„Żyj trochę”"},"7-24":{"z":"Lew","l":6,"e":"Ciepło, serce, relacje — ale z nutą „chcę być widziana”.","r":"Pokaż się","n":"Relacje","u":"Chowania się","s":"„Jesteś ważna”"},"7-25":{"z":"Lew","l":7,"e":"Lekki stop — nawet Lew potrzebuje chwili ciszy 😄","r":"Zatrzymaj się","n":"Refleksja","u":"Przebodźcowania","s":"„Oddychaj”"},"7-26":{"z":"Lew","l":8,"e":"Power wraca 🔥 To dzień działania, decyzji i robienia rzeczy „na serio”.","r":"Działaj odważnie","n":"Sukces","u":"Zwlekania","s":"„Masz moc”"},"7-27":{"z":"Lew","l":9,"e":"Coś się domyka — możesz zobaczyć wyraźnie, co już nie pasuje.","r":"Odpuszczaj","n":"Transformacja","u":"Trzymania się starego","s":"„Puść to”"},"7-28":{"z":"Lew","l":1,"e":"Nowy start — i to taki bardziej odważny niż zwykle 😄","r":"Zrób coś po swojemu","n":"Nowe początki","u":"Oglądania się na innych","s":"„Twoja scena”"},"7-29":{"z":"Lew","l":2,"e":"Trochę ciszej, bardziej emocjonalnie.","r":"Słuchaj siebie","n":"Intuicja","u":"Ignorowania uczuć","s":"„Zajrzyj do środka”"},"7-30":{"z":"Lew","l":3,"e":"Lekko, radośnie, towarzysko 😄 Idealny dzień na bycie wśród ludzi.","r":"Baw się","n":"Radość","u":"Zamknięcia się","s":"„Śmiej się więcej”"},"7-31":{"z":"Lew","l":4,"e":"Końcówka miesiąca z nutą porządkowania.","r":"Podsumuj i poukładaj","n":"Organizacja","u":"Chaosu","s":"„Zamknij to dobrze”"},"8-1":{"z":"Lew","l":5,"e":"Wchodzisz w sierpień z energią „coś się będzie działo” 😄 Niby plan masz… ale życie może mieć lepszy.","r":"Zostaw miejsce na spontaniczność","n":"Zmiany, Ruch","u":"Sztywnego planu","s":"„Zobacz, co się wydarzy”"},"8-2":{"z":"Lew","l":6,"e":"Ciepło, relacje, trochę więcej serca niż głowy. Możesz mieć ochotę na bliskość i bycie „razem”.","r":"Zadbaj o relacje","n":"Miłość, Bliskość","u":"Dystansu","s":"„Bądź blisko”"},"8-3":{"z":"Lew","l":7,"e":"Lekki spadek tempa — i dobrze. Nawet w środku lata potrzebujesz chwili dla siebie.","r":"Zrób pauzę","n":"Intuicja","u":"Przebodźcowania","s":"„Zatrzymaj się”"},"8-4":{"z":"Lew","l":8,"e":"Wraca moc 🔥 Możesz dziś zrobić coś konkretnie i skutecznie.","r":"Działaj","n":"Sukces","u":"Zwlekania","s":"„Masz to”"},"8-5":{"z":"Lew","l":9,"e":"Coś się domyka — może w głowie, może w relacji. I choć trochę szkoda… robi się przestrzeń.","r":"Odpuszczaj","n":"Transformacja","u":"Trzymania się starego","s":"„Puść to lekko”"},"8-6":{"z":"Lew","l":1,"e":"Nowa energia, nowy impuls. Możesz poczuć: „ok, teraz ja”.","r":"Zrób pierwszy krok","n":"Nowe początki","u":"Czekania","s":"„Twoja kolej”"},"8-7":{"z":"Lew","l":2,"e":"Wrażliwość rośnie — możesz bardziej czuć ludzi i sytuacje.","r":"Dbaj o swoje granice","n":"Relacje","u":"Przeciążenia emocjonalnego","s":"„Nie wszystko jest Twoje”"},"8-8":{"z":"Lew","l":3,"e":"Ooo, tu jest flow 😄 Śmiech, lekkość, bycie wśród ludzi.","r":"Korzystaj z dnia","n":"Radość","u":"Zamknięcia się","s":"„Baw się tym”"},"8-9":{"z":"Lew","l":4,"e":"Potrzeba stabilizacji — może nagle chcesz ogarnąć życie 😄","r":"Uporządkuj coś","n":"Organizacja","u":"Chaosu","s":"„Zrób porządek”"},"8-10":{"z":"Lew","l":5,"e":"Znowu zmiana 😄 Sierpień nie lubi nudy.","r":"Daj się ponieść","n":"Spontaniczność","u":"Kontroli","s":"„Idź za tym”"},"8-11":{"z":"Lew","l":6,"e":"Dzień ciepły i relacyjny — możesz mieć większą potrzebę bycia blisko, rozmów, dotyku, takiego „razem”.","r":"Pobądź z kimś ważnym","n":"Relacje, Bliskość","u":"Izolacji","s":"„Bądź blisko”"},"8-12":{"z":"Lew","l":7,"e":"Małe wyciszenie. Nawet w środku lata potrzebujesz chwili dla siebie, żeby złapać oddech.","r":"Zrób pauzę","n":"Intuicja","u":"Przebodźcowania","s":"„Zatrzymaj się”"},"8-13":{"z":"Lew","l":8,"e":"Wraca konkret 🔥 Możesz dziś zrobić coś szybko i skutecznie, jeśli tylko się skupisz.","r":"Skup się na jednym celu","n":"Działanie, Sukces","u":"Rozpraszania","s":"„Jedno, ale dobrze”"},"8-14":{"z":"Lew","l":9,"e":"Nostalgiczny vibe — coś się kończy, coś się zmienia. Trochę sentymentalnie, ale potrzebnie.","r":"Odpuszczaj spokojnie","n":"Transformacja","u":"Wracania do przeszłości","s":"„To już było”"},"8-15":{"z":"Lew","l":1,"e":"Nowy impuls — i to taki odważniejszy 😄 Możesz poczuć: „robię to po swojemu”.","r":"Zrób coś inaczej","n":"Nowe początki","u":"Oglądania się na innych","s":"„Twoje zasady”"},"8-16":{"z":"Lew","l":2,"e":"Delikatniej, bardziej emocjonalnie. Możesz dziś więcej czuć niż mówić.","r":"Słuchaj siebie","n":"Intuicja, Relacje","u":"Ignorowania emocji","s":"„Czuj uważnie”"},"8-17":{"z":"Lew","l":3,"e":"Lekkość wraca 😄 Śmiech, ludzie, rozmowy — dzień na bycie w ruchu.","r":"Wyjdź do świata","n":"Radość, Kontakty","u":"Zamknięcia się","s":"„Do ludzi!”"},"8-18":{"z":"Lew","l":4,"e":"Potrzeba ogarnięcia — możesz dziś chcieć poukładać życie (albo chociaż biurko 😄)","r":"Uporządkuj coś","n":"Organizacja","u":"Chaosu","s":"„Ogarnij to”"},"8-19":{"z":"Lew","l":5,"e":"Zmiana, spontaniczność, trochę „idziemy gdzieś?”.","r":"Daj się ponieść","n":"Zmiany","u":"Rutyny","s":"„Rusz się”"},"8-20":{"z":"Lew","l":6,"e":"Ciepło, miękko, relacyjnie. Dzień na bycie razem i łapanie małych momentów.","r":"Zadbaj o relacje","n":"Bliskość","u":"Dystansu","s":"„Bądź tu”"},"8-21":{"z":"Lew","l":7,"e":"Wyciszenie przed zmianą energii. Możesz poczuć potrzebę pobycia sama ze sobą.","r":"Zrób przestrzeń","n":"Refleksja","u":"Hałasu","s":"„Zanurz się w sobie”"},"8-22":{"z":"Panna","l":8,"e":"Wchodzi Panna — i od razu czujesz: „ok, wracamy do konkretów” 😄","r":"Skup się na działaniu","n":"Praca, Organizacja","u":"Chaosu","s":"„Wracamy na ziemię”"},"8-23":{"z":"Panna","l":9,"e":"Dzień porządków — nie tylko fizycznych, ale też życiowych.","r":"Odpuszczaj to, co nie działa","n":"Transformacja","u":"Trzymania się starego","s":"„Zrób miejsce”"},"8-24":{"z":"Panna","l":1,"e":"Nowy początek w stylu Panny: spokojnie, logicznie, ale skutecznie.","r":"Zacznij coś od nowa","n":"Nowe początki","u":"Perfekcjonizmu","s":"„Krok po kroku”"},"8-25":{"z":"Panna","l":2,"e":"Delikatnie i uważnie. Dzień na relacje i czytanie między wierszami.","r":"Słuchaj więcej","n":"Relacje","u":"Nadinterpretacji","s":"„Czuj subtelnie”"},"8-26":{"z":"Panna","l":3,"e":"Trochę lżej 😄 Nawet Panna dziś pozwala sobie na oddech.","r":"Daj sobie przyjemność","n":"Kreatywność","u":"Spiny","s":"„Poluzuj trochę”"},"8-27":{"z":"Panna","l":4,"e":"Struktura, porządek, plan — to daje dziś największy komfort.","r":"Uporządkuj swoje sprawy","n":"Organizacja","u":"Chaosu","s":"„Ułóż to”"},"8-28":{"z":"Panna","l":5,"e":"Mała potrzeba zmiany — nawet jeśli to tylko coś drobnego.","r":"Zrób coś inaczej","n":"Zmiany","u":"Rutyny","s":"„Odśwież to”"},"8-29":{"z":"Panna","l":6,"e":"Ciepło i relacyjnie, ale bardziej spokojnie niż wcześniej.","r":"Pobądź z kimś bliskim","n":"Relacje","u":"Izolacji","s":"„Blisko i spokojnie”"},"8-30":{"z":"Panna","l":7,"e":"Refleksja wraca. Możesz dziś spojrzeć na sierpień z dystansu.","r":"Zrób podsumowanie","n":"Wgląd","u":"Przebodźcowania","s":"„Zobacz więcej”"},"8-31":{"z":"Panna","l":8,"e":"Końcówka miesiąca z energią działania — możesz domknąć coś konkretnie i z satysfakcją.","r":"Zrób finalne ruchy","n":"Sukces","u":"Odkładania","s":"„Zamknij to dobrze”"},"9-1":{"z":"Panna","l":9,"e":"Wchodzisz we wrzesień z lekkim „wow, ile się wydarzyło”. To dzień podsumowań — emocjonalnych i życiowych.","r":"Zrób małe podsumowanie","n":"Refleksja, Transformacja","u":"Ignorowania wniosków","s":"„Zobacz swoją drogę”"},"9-2":{"z":"Panna","l":1,"e":"Nowy miesiąc = nowy start, ale w stylu Panny: spokojnie, konkretnie, bez zbędnej spiny.","r":"Wprowadź jedną zmianę","n":"Nowe początki","u":"Perfekcjonizmu","s":"„Mały krok, duża zmiana”"},"9-3":{"z":"Panna","l":2,"e":"Delikatny dzień. Możesz być bardziej wrażliwa na detale — i to działa na Twoją korzyść.","r":"Zwracaj uwagę na szczegóły","n":"Relacje, Intuicja","u":"Pośpiechu","s":"„Zauważ więcej”"},"9-4":{"z":"Panna","l":3,"e":"Trochę lżej 😄 Możesz poczuć więcej luzu i chęć na kontakt z ludźmi.","r":"Wyjdź do świata","n":"Komunikacja","u":"Zamknięcia się","s":"„Nie tylko obowiązki”"},"9-5":{"z":"Panna","l":4,"e":"Wraca tryb „ogarniam życie” 😄 I dobrze — to daje Ci poczucie stabilności.","r":"Uporządkuj swoje sprawy","n":"Organizacja","u":"Chaosu","s":"„Poułóż to”"},"9-6":{"z":"Panna","l":5,"e":"Mała potrzeba zmiany — nawet jeśli to coś drobnego.","r":"Zrób coś inaczej","n":"Zmiany","u":"Rutyny","s":"„Odśwież to”"},"9-7":{"z":"Panna","l":6,"e":"Ciepło, spokojnie, relacyjnie. Dzień na bycie razem i łapanie równowagi.","r":"Zadbaj o relacje","n":"Bliskość","u":"Dystansu","s":"„Bądź blisko”"},"9-8":{"z":"Panna","l":7,"e":"Wyciszenie. Możesz potrzebować więcej przestrzeni dla siebie.","r":"Zrób pauzę","n":"Intuicja","u":"Przebodźcowania","s":"„Zatrzymaj się”"},"9-9":{"z":"Panna","l":9,"e":"(9/9 — mocny dzień ✨) Energia domykania i wglądu. Możesz zobaczyć coś bardzo wyraźnie.","r":"Odpuszczaj świadomie","n":"Transformacja","u":"Trzymania się przeszłości","s":"„To już czas”"},"9-10":{"z":"Panna","l":1,"e":"Nowy impuls po głębszym dniu. Możesz poczuć większą jasność.","r":"Zrób pierwszy krok","n":"Nowe początki","u":"Zwlekania","s":"„Rusz z tym”"},"9-11":{"z":"Panna","l":2,"e":"Delikatnie, uważnie, bardziej „czuję niż działam”. Możesz dziś lepiej wyczuwać ludzi i sytuacje.","r":"Słuchaj intuicji","n":"Relacje, Wgląd","u":"Pośpiechu","s":"„Czuj uważnie”"},"9-12":{"z":"Panna","l":3,"e":"Trochę więcej luzu 😄 Dzień sprzyja rozmowom i złapaniu oddechu od obowiązków.","r":"Daj sobie lekkość","n":"Komunikacja","u":"Nadmiernej kontroli","s":"„Poluzuj trochę”"},"9-13":{"z":"Panna","l":4,"e":"Wraca konkret. Możesz dziś ogarnąć coś, co odkładałaś — i poczuć ulgę.","r":"Zrób porządek","n":"Organizacja","u":"Chaosu","s":"„Zrób to i miej spokój”"},"9-14":{"z":"Panna","l":5,"e":"Mała potrzeba zmiany — nawet jeśli to tylko inna decyzja niż zwykle.","r":"Spróbuj czegoś nowego","n":"Zmiany","u":"Rutyny","s":"„Zmień coś”"},"9-15":{"z":"Panna","l":6,"e":"Ciepły, spokojny dzień. Idealny na relacje i bycie „tu i teraz”.","r":"Zadbaj o bliskość","n":"Relacje","u":"Dystansu","s":"„Bądź tu”"},"9-16":{"z":"Panna","l":7,"e":"Wyciszenie wraca. To dobry moment na refleksję i zebranie myśli.","r":"Zrób pauzę","n":"Intuicja","u":"Przebodźcowania","s":"„Zatrzymaj się”"},"9-17":{"z":"Panna","l":8,"e":"Energia działania — możesz dziś zrobić coś konkretnie i skutecznie.","r":"Skup się i działaj","n":"Sukces","u":"Rozpraszania","s":"„Działaj mądrze”"},"9-18":{"z":"Panna","l":9,"e":"Domykanie tematów. Możesz zobaczyć wyraźnie, co już nie działa.","r":"Odpuszczaj","n":"Transformacja","u":"Trzymania się starego","s":"„Puść to”"},"9-19":{"z":"Panna","l":1,"e":"Nowy impuls — spokojny, ale konkretny.","r":"Zrób pierwszy krok","n":"Nowe początki","u":"Zwlekania","s":"„Zacznij”"},"9-20":{"z":"Panna","l":2,"e":"Wrażliwość i uważność. Dzień bardziej „do środka”.","r":"Dbaj o siebie","n":"Emocje","u":"Ignorowania potrzeb","s":"„Bądź dla siebie dobra”"},"9-21":{"z":"Panna","l":3,"e":"Lekkość wraca 😄 Trochę więcej śmiechu i dystansu.","r":"Daj sobie przyjemność","n":"Radość","u":"Sztywności","s":"„Oddychaj lekko”"},"9-22":{"z":"Panna","l":4,"e":"Potrzeba stabilizacji. Dzień na porządek i konkret.","r":"Uporządkuj coś","n":"Organizacja","u":"Chaosu","s":"„Ułóż to”"},"9-23":{"z":"Waga","l":5,"e":"Wchodzi Waga — robi się lżej, bardziej relacyjnie i… trochę romantycznie 😄","r":"Wyjdź do ludzi","n":"Relacje, Zmiany","u":"Zamknięcia się","s":"„Poczuj klimat”"},"9-24":{"z":"Waga","l":6,"e":"Ciepło, harmonia, bliskość. Dzień na bycie razem i równowagę.","r":"Zadbaj o relacje","n":"Miłość","u":"Konfliktów","s":"„Wybierz spokój”"},"9-25":{"z":"Waga","l":7,"e":"Małe wyciszenie. Możesz potrzebować chwili dla siebie.","r":"Zrób pauzę","n":"Refleksja","u":"Przebodźcowania","s":"„Zatrzymaj się”"},"9-26":{"z":"Waga","l":8,"e":"Wraca konkret — decyzje, działanie, ogarnianie spraw.","r":"Działaj","n":"Sukces","u":"Zwlekania","s":"„Zrób to”"},"9-27":{"z":"Waga","l":9,"e":"Refleksja i domykanie. Możesz coś puścić z większą lekkością.","r":"Odpuszczaj","n":"Transformacja","u":"Trzymania się przeszłości","s":"„To już czas”"},"9-28":{"z":"Waga","l":1,"e":"Nowy początek — lekki, ale wyraźny.","r":"Zacznij coś","n":"Nowe początki","u":"Wahania","s":"„Start”"},"9-29":{"z":"Waga","l":2,"e":"Delikatność i emocje. Dzień na uważność w relacjach.","r":"Słuchaj","n":"Relacje","u":"Nadinterpretacji","s":"„Czuj subtelnie”"},"9-30":{"z":"Waga","l":3,"e":"Końcówka miesiąca lekka i przyjemna 😄","r":"Daj sobie radość","n":"Przyjemność","u":"Spiny","s":"„Zamknij to z uśmiechem”"},"10-1":{"z":"Waga","l":4,"e":"Wchodzisz w miesiąc z potrzebą poukładania rzeczy — takiego „ok, robimy porządek w życiu”.","r":"Uporządkuj swoje sprawy","n":"Organizacja","u":"Chaosu","s":"„Ułóż to po swojemu”"},"10-2":{"z":"Waga","l":5,"e":"Nagle… chcesz coś zmienić 😄 Nawet mała zmiana daje dziś dużo świeżości.","r":"Zrób coś inaczej","n":"Zmiany","u":"Rutyny","s":"„Odśwież to”"},"10-3":{"z":"Waga","l":6,"e":"Ciepło, relacje, trochę więcej serca niż głowy.","r":"Zadbaj o bliskość","n":"Relacje","u":"Dystansu","s":"„Bądź blisko”"},"10-4":{"z":"Waga","l":7,"e":"Wyciszenie. Możesz potrzebować chwili dla siebie, żeby poukładać myśli.","r":"Zrób pauzę","n":"Intuicja","u":"Przebodźcowania","s":"„Zatrzymaj się”"},"10-5":{"z":"Waga","l":8,"e":"Wraca konkret — decyzje, działanie, ogarnianie spraw.","r":"Skup się na działaniu","n":"Sukces","u":"Zwlekania","s":"„Działaj”"},"10-6":{"z":"Waga","l":9,"e":"Dzień domykania. Możesz zobaczyć wyraźnie, co już nie pasuje.","r":"Odpuszczaj","n":"Transformacja","u":"Trzymania się starego","s":"„Puść to”"},"10-7":{"z":"Waga","l":1,"e":"Nowy impuls — lekki, ale wyraźny.","r":"Zacznij coś","n":"Nowe początki","u":"Wahania","s":"„Start”"},"10-8":{"z":"Waga","l":2,"e":"Delikatność i emocje. Dzień bardziej „do środka”.","r":"Słuchaj siebie","n":"Relacje, Intuicja","u":"Ignorowania emocji","s":"„Czuj subtelnie”"},"10-9":{"z":"Waga","l":3,"e":"Trochę lżej 😄 Możesz złapać więcej luzu i dystansu.","r":"Daj sobie radość","n":"Komunikacja","u":"Spiny","s":"„Oddychaj lekko”"},"10-10":{"z":"Waga","l":4,"e":"Wraca potrzeba stabilizacji i ogarnięcia.","r":"Uporządkuj coś","n":"Organizacja","u":"Chaosu","s":"„Poułóż to”"},"10-11":{"z":"Waga","l":5,"e":"Lekki powiew zmiany. Możesz poczuć: „chcę czegoś innego niż wczoraj”.","r":"Zrób coś inaczej","n":"Zmiany","u":"Rutyny","s":"„Zmień perspektywę”"},"10-12":{"z":"Waga","l":6,"e":"Ciepło, relacje, trochę więcej serca. Dzień na bycie razem i łapanie balansu.","r":"Zadbaj o relacje","n":"Bliskość","u":"Konfliktów","s":"„Wybierz spokój”"},"10-13":{"z":"Waga","l":7,"e":"Wyciszenie wraca. Możesz potrzebować chwili dla siebie.","r":"Zrób pauzę","n":"Intuicja","u":"Przebodźcowania","s":"„Zatrzymaj się”"},"10-14":{"z":"Waga","l":8,"e":"Wraca konkret — decyzje, działanie, ogarnianie spraw.","r":"Działaj","n":"Sukces","u":"Zwlekania","s":"„Zrób to”"},"10-15":{"z":"Waga","l":9,"e":"Domykanie. Możesz zobaczyć wyraźnie, co już nie pasuje.","r":"Odpuszczaj","n":"Transformacja","u":"Trzymania się przeszłości","s":"„To już czas”"},"10-16":{"z":"Waga","l":1,"e":"Nowy impuls — coś zaczyna się klarować.","r":"Zrób pierwszy krok","n":"Nowe początki","u":"Wahania","s":"„Start”"},"10-17":{"z":"Waga","l":2,"e":"Delikatny dzień — więcej czucia niż działania.","r":"Słuchaj siebie","n":"Relacje","u":"Ignorowania emocji","s":"„Czuj uważnie”"},"10-18":{"z":"Waga","l":3,"e":"Trochę więcej luzu 😄 Możesz złapać dystans do wszystkiego.","r":"Daj sobie lekkość","n":"Radość","u":"Spiny","s":"„Odpuść trochę”"},"10-19":{"z":"Waga","l":4,"e":"Potrzeba stabilizacji. Dzień na porządek i konkret.","r":"Uporządkuj coś","n":"Organizacja","u":"Chaosu","s":"„Ułóż to”"},"10-20":{"z":"Waga","l":5,"e":"Mała chęć zmiany — nawet jeśli to coś drobnego.","r":"Spróbuj czegoś nowego","n":"Zmiany","u":"Rutyny","s":"„Odśwież to”"},"10-21":{"z":"Waga","l":6,"e":"Ciepło, relacje, harmonia. Dzień na bycie razem.","r":"Zadbaj o bliskość","n":"Relacje","u":"Dystansu","s":"„Bądź blisko”"},"10-22":{"z":"Waga","l":7,"e":"Wyciszenie przed zmianą energii.","r":"Zrób pauzę","n":"Refleksja","u":"Przebodźcowania","s":"„Zatrzymaj się”"},"10-23":{"z":"Skorpion","l":8,"e":"Wchodzi Skorpion… i robi się głębiej 🔥 Emocje mogą być intensywniejsze, ale też bardziej prawdziwe.","r":"Działaj świadomie","n":"Transformacja, Moc","u":"Impulsywności","s":"„Poczuj głębiej”"},"10-24":{"z":"Skorpion","l":9,"e":"Bardzo mocny dzień emocjonalnie. Możesz coś zobaczyć bardzo wyraźnie.","r":"Odpuszczaj to, co ciężkie","n":"Transformacja","u":"Trzymania się starego","s":"„To już koniec tego etapu”"},"10-25":{"z":"Skorpion","l":1,"e":"Nowy początek — ale już po transformacji. Inna jakość.","r":"Zacznij od nowa","n":"Nowe początki","u":"Strachu","s":"„Nowa Ty”"},"10-26":{"z":"Skorpion","l":2,"e":"Delikatniej, ale głęboko. Możesz więcej czuć między słowami.","r":"Słuchaj intuicji","n":"Relacje","u":"Ignorowania sygnałów","s":"„Czytaj energię”"},"10-27":{"z":"Skorpion","l":3,"e":"Trochę lżej 😄 Skorpion też potrafi się uśmiechnąć.","r":"Daj sobie luz","n":"Radość","u":"Nadmiernej powagi","s":"„Oddychaj”"},"10-28":{"z":"Skorpion","l":4,"e":"Potrzeba kontroli i stabilizacji.","r":"Uporządkuj swoje sprawy","n":"Organizacja","u":"Chaosu","s":"„Ugruntuj się”"},"10-29":{"z":"Skorpion","l":5,"e":"Chęć zmiany — ale bardziej świadoma niż impulsywna.","r":"Zrób krok w nowym kierunku","n":"Zmiany","u":"Stania w miejscu","s":"„Idź dalej”"},"10-30":{"z":"Skorpion","l":6,"e":"Ciepło i bliskość, ale głębsza niż zwykle.","r":"Zadbaj o relacje","n":"Emocje","u":"Dystansu","s":"„Bądź naprawdę blisko”"},"10-31":{"z":"Skorpion","l":7,"e":"Halloween vibe 🎃 + introspekcja = dzień do środka. Możesz poczuć więcej niż zwykle.","r":"Pobądź ze sobą","n":"Intuicja","u":"Hałasu","s":"„Zajrzyj w siebie”"},"11-1":{"z":"Skorpion","l":8,"e":"Mocny start miesiąca — emocjonalnie i energetycznie. Możesz czuć więcej, intensywniej, głębiej.","r":"Działaj świadomie","n":"Transformacja, Intuicja","u":"Impulsywności","s":"„Czuj głębiej”"},"11-2":{"z":"Skorpion","l":9,"e":"Refleksja i domykanie. To dzień na zobaczenie, co już naprawdę nie jest Twoje.","r":"Odpuszczaj","n":"Transformacja","u":"Trzymania się przeszłości","s":"„Puść to”"},"11-3":{"z":"Skorpion","l":1,"e":"Nowy początek — ale spokojny, bez fajerwerków. Taki „wewnętrzny start”.","r":"Zrób pierwszy krok","n":"Nowe początki","u":"Presji","s":"„Zacznij po swojemu”"},"11-4":{"z":"Skorpion","l":2,"e":"Delikatność i wrażliwość. Możesz dziś mocniej odbierać emocje innych.","r":"Dbaj o swoje granice","n":"Relacje","u":"Przeciążenia emocjonalnego","s":"„Nie wszystko jest Twoje”"},"11-5":{"z":"Skorpion","l":3,"e":"Trochę lżej 😄 Możesz złapać więcej dystansu i oddechu.","r":"Daj sobie luz","n":"Radość","u":"Zamknięcia się","s":"„Oddychaj”"},"11-6":{"z":"Skorpion","l":4,"e":"Potrzeba stabilizacji. Dzień na porządek — w przestrzeni i w głowie.","r":"Uporządkuj coś","n":"Organizacja","u":"Chaosu","s":"„Poułóż to”"},"11-7":{"z":"Skorpion","l":5,"e":"Lekki impuls zmiany. Możesz poczuć: „chcę inaczej”.","r":"Zrób coś nowego","n":"Zmiany","u":"Rutyny","s":"„Odśwież to”"},"11-8":{"z":"Skorpion","l":6,"e":"Ciepło, bliskość, relacje. Dzień bardziej „sercem niż głową”.","r":"Pobądź z kimś ważnym","n":"Relacje","u":"Dystansu","s":"„Bądź blisko”"},"11-9":{"z":"Skorpion","l":7,"e":"Wyciszenie. To dzień bardziej do środka.","r":"Zrób pauzę","n":"Intuicja","u":"Przebodźcowania","s":"„Zatrzymaj się”"},"11-10":{"z":"Skorpion","l":8,"e":"Wraca konkret. Możesz dziś zrobić coś ważnego i konkretnego.","r":"Działaj","n":"Sukces","u":"Zwlekania","s":"„Zrób to”"},"11-11":{"z":"Skorpion","l":9,"e":"(11:11 vibe ✨, ale energia 9) Możesz dziś poczuć bardzo wyraźnie, co się kończy. To taki moment „już wiem”.","r":"Odpuszczaj świadomie","n":"Transformacja","u":"Trzymania się starego","s":"„To już czas”"},"11-12":{"z":"Skorpion","l":1,"e":"Nowy początek po zamknięciu. Może jeszcze nie wszystko jasne, ale kierunek już czujesz.","r":"Zrób pierwszy krok","n":"Nowe początki","u":"Zwlekania","s":"„Idź w to”"},"11-13":{"z":"Skorpion","l":2,"e":"Delikatność, emocje, intuicja. Możesz dziś więcej „czytać między wierszami”.","r":"Słuchaj siebie","n":"Relacje","u":"Ignorowania sygnałów","s":"„Czuj subtelnie”"},"11-14":{"z":"Skorpion","l":3,"e":"Trochę lżej 😄 Możesz złapać oddech i dystans.","r":"Daj sobie przyjemność","n":"Radość","u":"Nadmiernej powagi","s":"„Uśmiechnij się”"},"11-15":{"z":"Skorpion","l":4,"e":"Potrzeba stabilizacji i ogarnięcia rzeczy.","r":"Uporządkuj swoje sprawy","n":"Organizacja","u":"Chaosu","s":"„Poułóż to”"},"11-16":{"z":"Skorpion","l":5,"e":"Mała chęć zmiany. Nawet coś drobnego może dziś zrobić różnicę.","r":"Zrób coś inaczej","n":"Zmiany","u":"Rutyny","s":"„Odśwież to”"},"11-17":{"z":"Skorpion","l":6,"e":"Ciepło i relacyjnie, ale nadal głęboko.","r":"Zadbaj o bliskość","n":"Relacje","u":"Dystansu","s":"„Bądź naprawdę blisko”"},"11-18":{"z":"Skorpion","l":7,"e":"Wyciszenie. Dzień bardziej „do środka”.","r":"Zrób pauzę","n":"Intuicja","u":"Przebodźcowania","s":"„Zatrzymaj się”"},"11-19":{"z":"Skorpion","l":8,"e":"Wraca konkret — możesz dziś zrobić coś ważnego.","r":"Działaj","n":"Sukces","u":"Zwlekania","s":"„Zrób to teraz”"},"11-20":{"z":"Skorpion","l":9,"e":"Kolejne domknięcie. Możesz poczuć ulgę.","r":"Odpuszczaj","n":"Transformacja","u":"Trzymania się przeszłości","s":"„Puść to”"},"11-21":{"z":"Skorpion","l":1,"e":"Nowy impuls — spokojny, ale wyraźny.","r":"Zacznij coś","n":"Nowe początki","u":"Wahania","s":"„Start”"},"11-22":{"z":"Strzelec","l":2,"e":"Wchodzi Strzelec — robi się lżej, ale dziś jeszcze delikatnie.","r":"Słuchaj emocji","n":"Relacje","u":"Pośpiechu","s":"„Czuj i idź”"},"11-23":{"z":"Strzelec","l":3,"e":"Ooo, tu wraca lekkość 😄 Chce się gadać, ruszyć, zrobić coś fajnego.","r":"Wyjdź do świata","n":"Radość, Komunikacja","u":"Zamknięcia się","s":"„Rusz się”"},"11-24":{"z":"Strzelec","l":4,"e":"Trochę stabilizacji w tej nowej energii.","r":"Uporządkuj coś","n":"Organizacja","u":"Chaosu","s":"„Ułóż to”"},"11-25":{"z":"Strzelec","l":5,"e":"Zmiana, ruch, spontaniczność. Możesz poczuć więcej wolności.","r":"Daj się ponieść","n":"Zmiany","u":"Kontroli","s":"„Idź za tym”"},"11-26":{"z":"Strzelec","l":6,"e":"Ciepło i relacje, ale już lżej niż wcześniej.","r":"Zadbaj o ludzi","n":"Relacje","u":"Dystansu","s":"„Bądź razem”"},"11-27":{"z":"Strzelec","l":7,"e":"Mała pauza. Nawet w tej lekkiej energii potrzebujesz chwili dla siebie.","r":"Zrób pauzę","n":"Refleksja","u":"Przebodźcowania","s":"„Zatrzymaj się”"},"11-28":{"z":"Strzelec","l":8,"e":"Wraca działanie — szybkie, konkretne.","r":"Działaj","n":"Sukces","u":"Zwlekania","s":"„Rób to”"},"11-29":{"z":"Strzelec","l":9,"e":"Refleksja i zamykanie. Ale już z większą lekkością.","r":"Odpuszczaj","n":"Transformacja","u":"Trzymania się starego","s":"„To już było”"},"11-30":{"z":"Strzelec","l":1,"e":"Nowy start — lżejszy, bardziej optymistyczny.","r":"Zacznij coś nowego","n":"Nowe początki","u":"Strachu","s":"„Nowy rozdział”"},"12-1":{"z":"Strzelec","l":2,"e":"Wchodzisz w grudzień delikatnie. Emocje bliżej powierzchni, więcej czucia niż działania.","r":"Zadbaj o siebie","n":"Emocje, Relacje","u":"Pośpiechu","s":"„Zwolnij trochę”"},"12-2":{"z":"Strzelec","l":3,"e":"Trochę lżej 😄 Możesz złapać więcej luzu i dystansu.","r":"Daj sobie przyjemność","n":"Radość","u":"Spiny","s":"„Oddychaj”"},"12-3":{"z":"Strzelec","l":4,"e":"Wraca potrzeba ogarnięcia rzeczy — i dobrze.","r":"Uporządkuj coś","n":"Organizacja","u":"Chaosu","s":"„Poukładaj to”"},"12-4":{"z":"Strzelec","l":5,"e":"Zmiana, ruch, spontaniczność. Grudzień zaczyna się rozkręcać 😄","r":"Daj się ponieść","n":"Zmiany","u":"Rutyny","s":"„Idź za tym”"},"12-5":{"z":"Strzelec","l":6,"e":"Ciepło, relacje, trochę więcej serca.","r":"Pobądź z kimś bliskim","n":"Relacje","u":"Dystansu","s":"„Bądź razem”"},"12-6":{"z":"Strzelec","l":7,"e":"Mikołajkowe wyciszenie 🎁 Możesz potrzebować chwili dla siebie.","r":"Zrób pauzę","n":"Intuicja","u":"Przebodźcowania","s":"„Zatrzymaj się”"},"12-7":{"z":"Strzelec","l":8,"e":"Wraca konkret — możesz dziś zrobić coś ważnego.","r":"Działaj","n":"Sukces","u":"Zwlekania","s":"„Zrób to”"},"12-8":{"z":"Strzelec","l":9,"e":"Refleksja. Możesz poczuć, że rok powoli się domyka.","r":"Odpuszczaj","n":"Transformacja","u":"Trzymania się przeszłości","s":"„Puść to”"},"12-9":{"z":"Strzelec","l":1,"e":"Nowy impuls — jeszcze w trakcie starego roku.","r":"Zacznij coś","n":"Nowe początki","u":"Czekania","s":"„Zrób pierwszy krok”"},"12-10":{"z":"Strzelec","l":2,"e":"Delikatność wraca. Więcej emocji, mniej logiki.","r":"Słuchaj siebie","n":"Relacje","u":"Ignorowania uczuć","s":"„Czuj”"},"12-11":{"z":"Strzelec","l":3,"e":"Trochę więcej lekkości 😄 Możesz złapać dystans i nawet się pośmiać z tego całego grudniowego chaosu.","r":"Daj sobie luz","n":"Radość","u":"Spiny","s":"„Uśmiechnij się”"},"12-12":{"z":"Strzelec","l":4,"e":"Wraca potrzeba ogarnięcia rzeczy — listy, sprawy, życie 😄","r":"Zrób porządek","n":"Organizacja","u":"Chaosu","s":"„Ogarnij to”"},"12-13":{"z":"Strzelec","l":5,"e":"Zmiana energii — możesz poczuć: „chcę coś inaczej”.","r":"Zrób coś nowego","n":"Zmiany","u":"Rutyny","s":"„Odśwież to”"},"12-14":{"z":"Strzelec","l":6,"e":"Ciepło, relacje, świąteczny vibe zaczyna być wyczuwalny 🎄","r":"Pobądź z kimś bliskim","n":"Relacje","u":"Dystansu","s":"„Bądź razem”"},"12-15":{"z":"Strzelec","l":7,"e":"Wyciszenie. Nawet w grudniu potrzebujesz chwili dla siebie.","r":"Zrób pauzę","n":"Intuicja","u":"Przebodźcowania","s":"„Zatrzymaj się”"},"12-16":{"z":"Strzelec","l":8,"e":"Wraca konkret — możesz dziś zamknąć ważne sprawy.","r":"Działaj","n":"Sukces","u":"Zwlekania","s":"„Domknij to”"},"12-17":{"z":"Strzelec","l":9,"e":"Refleksja. Coraz bardziej czujesz, że coś się kończy.","r":"Odpuszczaj","n":"Transformacja","u":"Trzymania się starego","s":"„To już koniec etapu”"},"12-18":{"z":"Strzelec","l":1,"e":"Nowy impuls — jeszcze delikatny, ale już obecny.","r":"Zacznij coś","n":"Nowe początki","u":"Zwlekania","s":"„Nowa energia”"},"12-19":{"z":"Strzelec","l":2,"e":"Emocjonalnie, miękko. Możesz bardziej czuć ludzi i atmosferę.","r":"Dbaj o siebie","n":"Relacje","u":"Przeciążenia","s":"„Czuj spokojnie”"},"12-20":{"z":"Strzelec","l":3,"e":"Trochę lżej 😄 Świąteczny klimat zaczyna robić swoje.","r":"Daj sobie przyjemność","n":"Radość","u":"Spiny","s":"„Poczuj klimat”"},"12-21":{"z":"Koziorożec","l":4,"e":"Wchodzi Koziorożec + przesilenie ✨ Energia bardziej stabilna i „na serio”.","r":"Uporządkuj swoje sprawy","n":"Stabilność","u":"Chaosu","s":"„Ugruntuj się”"},"12-22":{"z":"Koziorożec","l":5,"e":"Mała potrzeba zmiany — nawet w tej bardziej spokojnej energii.","r":"Zrób coś inaczej","n":"Zmiany","u":"Sztywności","s":"„Odśwież to”"},"12-23":{"z":"Koziorożec","l":6,"e":"Ciepło, relacje, świąteczna bliskość 🎄","r":"Pobądź z bliskimi","n":"Relacje","u":"Pośpiechu","s":"„Bądź razem”"},"12-24":{"z":"Koziorożec","l":7,"e":"Wigilia 🎄✨ Dzień bardzo do środka. Emocje, wspomnienia, cisza między słowami.","r":"Pobądź naprawdę obecna","n":"Rodzina, Intuicja","u":"Pośpiechu","s":"„Poczuj moment”"},"12-25":{"z":"Koziorożec","l":8,"e":"Pierwszy dzień świąt — spokojniej, ale nadal z poczuciem „ogarniam rzeczywistość”.","r":"Daj sobie spokój","n":"Odpoczynek","u":"Nadmiernych obowiązków","s":"„Nic nie musisz”"},"12-26":{"z":"Koziorożec","l":9,"e":"Refleksja po świętach. Możesz zobaczyć więcej niż zwykle.","r":"Odpuszczaj","n":"Transformacja","u":"Trzymania się emocji","s":"„Puść to łagodnie”"},"12-27":{"z":"Koziorożec","l":1,"e":"Nowy impuls — już czuć nowy rok 😄","r":"Zacznij coś","n":"Nowe początki","u":"Zwlekania","s":"„Nowy rozdział”"},"12-28":{"z":"Koziorożec","l":2,"e":"Delikatność i emocje. Dzień na spokojne bycie.","r":"Słuchaj siebie","n":"Relacje","u":"Ignorowania potrzeb","s":"„Bądź dla siebie dobra”"},"12-29":{"z":"Koziorożec","l":3,"e":"Trochę więcej lekkości 😄 Możesz złapać dystans do całego roku.","r":"Daj sobie luz","n":"Radość","u":"Spiny","s":"„Oddychaj”"},"12-30":{"z":"Koziorożec","l":4,"e":"Porządkowanie — mentalne i życiowe.","r":"Podsumuj rok","n":"Organizacja","u":"Chaosu","s":"„Zamknij to”"},"12-31":{"z":"Koziorożec","l":5,"e":"Sylwester 🎉 Energia zmiany, przejścia i… trochę chaosu 😄","r":"Wejdź w nowy rok po swojemu","n":"Nowe początki","u":"Presji","s":"„Twoje wejście”"}};
+
+const NUM_NAMES = {1:'Jedynka',2:'Dwójka',3:'Trójka',4:'Czwórka',5:'Piątka',6:'Szóstka',7:'Siódemka',8:'Ósemka',9:'Dziewiątka'};
+const NUM_BG = {1:'#6A8C3E',2:'#3A7AB8',3:'#C4781E',4:'#6A6A62',5:'#6250C8',6:'#4A7E32',7:'#247862',8:'#B84020',9:'#9A2850'};
+const MONTHS = ['stycznia','lutego','marca','kwietnia','maja','czerwca','lipca','sierpnia','września','października','listopada','grudnia'];
+const MONTHS_FULL = ['Styczeń','Luty','Marzec','Kwiecień','Maj','Czerwiec','Lipiec','Sierpień','Wrzesień','Październik','Listopad','Grudzień'];
+const DAYS = ['Niedziela','Poniedziałek','Wtorek','Środa','Czwartek','Piątek','Sobota'];
+
+function today() {
+  return new Date().toISOString().split('T')[0];
+}
+
+function fmtDate(d) {
+  const [y,m,day] = d.split('-');
+  const dt = new Date(d + 'T12:00:00');
+  return `${DAYS[dt.getDay()]}, ${parseInt(day)} ${MONTHS[parseInt(m)-1]} ${y}`;
+}
+
+function render(d) {
+  const [y,m,day] = d.split('-');
+  const key = `${parseInt(m)}-${parseInt(day)}`;
+  const dane = DNI[key];
+  const box = document.getElementById('resultBox');
+
+  if (!dane) {
+    box.innerHTML = `<div class="no-data">Brak danych dla tej daty.<br>Dostępne dni: 21 marca — 31 grudnia.</div>`;
+    return;
+  }
+
+  const bg = NUM_BG[dane.l] || '#6A6A62';
+  const name = NUM_NAMES[dane.l] || '';
+
+  box.innerHTML = `
+  <div class="card">
+    <div class="card-top">
+      <div class="number-circle" style="background:${bg}">${dane.l}</div>
+      <div class="card-top-meta">
+        <div class="card-zodiak">${dane.z}</div>
+        <div class="card-number-name">Liczba ${dane.l} · ${name}</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="energia">${dane.e}</p>
+      <div class="grid2">
+        <div class="ibox">
+          <div class="ibox-label">Co warto robić</div>
+          <div class="ibox-val">${dane.r}</div>
+        </div>
+        <div class="ibox">
+          <div class="ibox-label">Najlepsze dla</div>
+          <div class="ibox-val">${dane.n}</div>
+        </div>
+      </div>
+      <div class="unikaj">
+        <div class="ibox-label">Unikaj dziś</div>
+        <div class="ibox-val">${dane.u}</div>
+      </div>
+    </div>
+    <div class="slogan">${dane.s}</div>
+  </div>`;
+}
+
+function sprawdz() {
+  const d = today();
+  document.getElementById('todayLabel').textContent = fmtDate(d);
+  render(d);
+}
+
+function checkEnergia() {
+  const val = parseInt(document.getElementById('energiaInput').value);
+  const box = document.getElementById('energiaResult');
+  if (!val || val < 1 || val > 10) { box.innerHTML = ''; return; }
+  const low = val <= 6;
+  box.innerHTML = `
+    <div class="energia-bubble ${low ? 'low' : 'high'}">
+      <div class="energia-icon">${low ? '👎' : '👍'}</div>
+      <div class="energia-msg">${low ? 'Zadbaj dzisiaj o siebie' : 'Tak trzymaj!'}</div>
+    </div>`;
+}
+
+// Init
+const t = today();
+
+document.getElementById('todayLabel').textContent = fmtDate(t);
+render(t);
+</script>
+</body>
+</html>

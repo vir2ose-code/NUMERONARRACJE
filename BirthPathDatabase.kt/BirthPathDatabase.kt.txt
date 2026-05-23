@@ -1,0 +1,58 @@
+package com.numerology.app.data
+
+// Diese Hilfsklasse hält die 3 wichtigen Infos für jede Zahl
+data class NumberDetail(
+    val name: String,
+    val archetype: String,
+    val description: String
+)
+
+object BirthPathDatabase {
+    val vibrationDetails = mapOf(
+        1 to NumberDetail(
+            name = "Pionier i Lider",
+            archetype = "Archetyp: Inicjator",
+            description = "Liczba 1 symbolizuje początek, niezależność i silną wolę. Osoby o tej wibracji są naturalnymi liderami, którzy chętnie przecierają nowe szlaki i nie boją się wyzwań. Posiadają ogromną kreatywność oraz determinację w dążeniu do celu, jednak muszą uważać na tendencje do egoizmu i dominacji nad innymi."
+        ),
+        2 to NumberDetail(
+            name = "Partner i Dyplomata",
+            archetype = "Archetyp: Rozjemca",
+            description = "Dwójka to wibracja współpracy, harmonii i głębokiej empatii. Osoby te doskonale sprawdzają się w pracy zespołowej, potrafią łagodzić konflikty i intuicyjnie wyczuwają emocje innych. Ich siła tkwi w delikatności i dyplomacji, ale wyzwaniem bywa nadwrażliwość oraz trudność w podejmowaniu samodzielnych decyzji."
+        ),
+        3 to NumberDetail(
+            name = "Artysta i Sceptyk",
+            archetype = "Archetyp: Twórca",
+            description = "Liczba 3 wnosi radość, towarzyskość i ogromną potrzebę ekspresji poprzez sztukę lub słowo. Osoby te są pełne optymizmu, łatwo nawiązują kontakty i potrafią inspirować całe otoczenie. Mają wielki urok osobisty, choć ich wadą może być słomiany zapał, powierzchowność oraz skłonność do rozpraszania energii."
+        ),
+        4 to NumberDetail(
+            name = "Budowniczy i Pracownik",
+            archetype = "Archetyp: Praktyk",
+            description = "Czwórka reprezentuje stabilność, pracowitość, dyscyplinę i logiczne myślenie. Osoby o tej wibracji budują swoje życie na solidnych fundamentach, są niezwykle lojalne, zorganizowane i odpowiedzialne. Cenią sobie porządek i zasady, ale muszą uważać, by nie popaść w nadmierny upór, rutynę czy pracoholizm."
+        ),
+        5 to NumberDetail(
+            name = "Poszukiwacz Przygód",
+            archetype = "Archetyp: Odkrywca",
+            description = "Piątka to synonim wolności, zmian, dynamicznego działania i wszechstronności. Osoby te kochają podróże, nowe doświadczenia i nienawidzą życiowej rutyny. Posiadają niezwykły magnetyzm i łatwo adaptują się do nowych warunków, jednak ich wyzwaniem jest impulsywność oraz wewnętrzny niepokój."
+        ),
+        6 to NumberDetail(
+            name = "Opiekun i Nauczyciel",
+            archetype = "Archetyp: Humanarysta",
+            description = "Liczba 6 skupia się wokół rodziny, miłości, odpowiedzialności i piękna. Osoby te mają silny instynkt opiekuńczy, dbają o domowe ognisko i chętnie pomagają potrzebującym. Są pełne ciepła i dążą do harmonii w relacjach, ale czasem mogą za bardzo wtrącać się w życie bliskich lub narzucać im swoje zdanie."
+        ),
+        7 to NumberDetail(
+            name = "Filozof i Myśliciel",
+            archetype = "Archetyp: Mędrzec",
+            description = "Siódemka to wibracja duchowości, głębokiej analizy, intuicji i poszukiwania prawdy. Osoby te często są introwertykami, którzy cenią samotność i chętnie zgłębiają wiedzę tajemną lub naukową. Posiadają niezwykle analityczny umysł, choć grozi im emocjonalny chłód, izolacja oraz nadmierny krytycyzm."
+        ),
+        8 to NumberDetail(
+            name = "Wojownik i Strateg",
+            archetype = "Archetyp: Organizator",
+            description = "Ósemka symbolizuje władzę materialną, sukces, autorytet oraz doskonałe zdolności organizacyjne. Osoby te mają ogromną siłę wewnętrzną, potrafią zarządzać dużymi projektami i finansami oraz skutecznie realizują wielkie ambicje. Muszą jednak pamiętać o równowadze duchowej, by nie stać się ludźmi materialistycznymi lub bezwzględnymi."
+        ),
+        9 to NumberDetail(
+            name = "Altruista i Wizjoner",
+            archetype = "Archetyp: Przewodnik",
+            description = "Dziewiątka to najwyższa wibracja, oznaczająca uniwersalną miłość, humanitaryzm, bezinteresowność i duchowe spełnienie. Osoby te żyją po to, by pomagać całemu światu, są niezwykle wielkoduszne i posiadają szerokie horyzonty. Ich głównym zadaniem jest nauka odpuszczania oraz unikanie brania na siebie ciężarów całego otoczenia."
+        )
+    )
+}

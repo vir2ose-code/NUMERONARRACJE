@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Numeronarracje — Numerologia i Prognozy</title>
+    <meta name="description" content="Odkryj swoją numerologiczną mapę życia. Dzisiejsza prognoza, kalkulator liczby urodzenia, audio biblioteka wibracji i tracker emocji.">
+    <!-- PWA Manifest & Icons -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1a0a2e">
+    <link rel="apple-touch-icon" href="logo master violet rund.png">
+    <!-- SEO -->
+    <meta property="og:title" content="Numeronarracje — Numerologia i Prognozy">
+    <meta property="og:description" content="Twoja data urodzenia to kod, który otwiera drzwi do głębszego zrozumienia siebie i świata.">
+    <meta property="og:type" content="website">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ══ BACKGROUND LAYERS ══ -->
+<div class="starfield"></div>
+<div class="stars-layer" id="stars"></div>
+
+<!-- ══ MOBILE NAV DRAWER ══ -->
+<div class="overlay" id="overlay" onclick="closeDrawer()"></div>
+<div class="nav-drawer" id="drawer">
+    <button class="drawer-close" onclick="closeDrawer()" aria-label="Zamknij menu">✕</button>
+    <a class="nav-item" href="#" data-i18n="nav_today" onclick="showPage('forecast'); closeDrawer()">DZISIAJ</a>
+    <a class="nav-item" href="#" data-i18n="nav_calc" onclick="showPage('home'); closeDrawer()">KALKULATOR LICZBY URODZENIA</a>
+    <a class="nav-item" href="#" data-i18n="nav_audio" onclick="showPage('audio'); closeDrawer()">AUDIO BIBLIOTEKA</a>
+    <a class="nav-item" href="quiz.html" data-i18n="nav_quiz" onclick="closeDrawer()">QUIZ</a>
+    <a class="nav-item" href="jokes.html" data-i18n="nav_jokes" onclick="closeDrawer()">KAWAŁY</a>
+    <a class="nav-item" href="about.html" data-i18n="nav_about" onclick="closeDrawer()">O AUTORCE</a>
+    <a class="nav-item" href="app-info.html" data-i18n="nav_app_info" onclick="closeDrawer()">O APLIKACJI</a>
+    <a class="nav-item" href="about.html#contact" data-i18n="nav_contact" onclick="closeDrawer()">KONTAKT</a>
+    <a class="nav-item" href="privacy.html" data-i18n="nav_privacy" onclick="closeDrawer()">POLITYKA PRYWATNOŚCI</a>
+    <a class="nav-item" href="terms.html" data-i18n="nav_terms" onclick="closeDrawer()">REGULAMIN</a>
+</div>
+
+<!-- ══ MAIN APP WRAPPER ══ -->
+<div class="app">
+
+    <!-- ── NAVIGATION: Hamburger LEFT · Logo CENTER · Lang RIGHT ── -->
+    <nav id="main-nav">
+        <!-- LEFT: Hamburger -->
+        <button class="hamburger" onclick="openDrawer()" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+
+        <!-- CENTER: Logo (absolutely positioned) -->
+        <div class="logo-wrap logo-center" onclick="showPage('home')" style="cursor: pointer;">
+            <img src="logo master violet rund.png" alt="Numeronarracje Logo" class="logo-img">
+            <span class="logo-name">Numeronarracje</span>
+        </div>
+
+        <!-- RIGHT: Language Switcher -->
+        <div class="lang-switcher nav-lang-right">
+            <button class="lang-btn active" onclick="switchLang('pl')" id="btn-pl">PL</button>
+            <span class="lang-sep">|</span>
+            <button class="lang-btn" onclick="switchLang('de')" id="btn-de">DE</button>
+        </div>
+    </nav>
+
+    <!-- ══════════════════════════════════════════
+         PAGE 1: DZISIEJSZA PROGNOZA (FORECAST)
+    ══════════════════════════════════════════ -->
+    <section id="page-forecast" class="page-section" style="padding-top: 90px; padding-bottom: 60px;">
+        <div class="forecast-container">
+
+            <!-- Section Header -->
+            <div class="forecast-sub" data-i18n="fc_title">NUMEROLOGIA</div>
+            <h1 class="forecast-main" data-i18n="fc_main">DZISIEJSZA PROGNOZA</h1>
+            <div class="forecast-date" id="fcDate"></div>
+
+            <!-- Forecast Card -->
+            <div class="fc-card calc-card">
+                <div class="fc-card-header">
+                    <div class="fc-circle" id="fcCircle">—</div>
+                    <div>
+                        <div class="fc-subtitle" id="fcZodiac">—</div>
+                        <div class="fc-card-title" id="fcCardTitle">—</div>
+                    </div>
+                </div>
+                <div class="fc-card-body">
+                    <p class="fc-desc" id="fcDesc">—</p>
+                    <div class="fc-box fc-box-do">
+                        <h4 data-i18n="fc_do">CO WARTO ROBIĆ</h4>
+                        <p id="fcDo">—</p>
+                    </div>
+                    <div class="fc-box fc-box-dont">
+                        <h4 data-i18n="fc_dont">UNIKAJ DZIŚ</h4>
+                        <p id="fcDont">—</p>
+                    </div>
+                </div>
+                <div class="fc-card-footer">
+                    <div class="fc-footer-title" id="fcFooterTitle">—</div>
+                    <div class="fc-footer-desc" id="fcFooterDesc"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- ── ENERGY SLIDER (Tracker 1) ── -->
+        <div class="tracker-container">
+            <div class="tracker-card" id="energyTrackerCard">
+                <h2 class="tracker-title" data-i18n="tr_energy_title">Jaka jest dziś Twoja energia?</h2>
+                <p class="tracker-sub" data-i18n="tr_energy_sub">Przesuń suwak i sprawdź co dla Ciebie mamy</p>
+                <input type="range" class="energy-slider" id="energySlider" min="1" max="10" value="5">
+                <div class="slider-labels">
+                    <span>1</span>
+                    <span>5</span>
+                    <span>10</span>
+                </div>
+                <!-- #energyResult dynamically appended by app.js -->
+            </div>
+
+            <!-- ── EMOTION TRACKER (Tracker 2) ── -->
+            <div class="tracker-card">
+                <h2 class="tracker-title" data-i18n="tr_emo_title">Co teraz czujesz?</h2>
+                <p class="tracker-sub" data-i18n="tr_emo_sub">Nazwanie emocji to pierwszy krok do zrozumienia siebie</p>
+                <div class="emo-input-wrap">
+                    <input type="text" class="emo-input" id="emoInput" data-i18n-placeholder="tr_emo_ph" placeholder="Zacznij pisać...">
+                    <button class="emo-btn" data-i18n="tr_emo_btn">📋 Lista</button>
+                </div>
+                <div class="emo-tags-section" id="emoTagsSection"></div>
+                <!-- #emoResult dynamically appended by app.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         PAGE 2: HOME / KALKULATOR LICZBY URODZENIA
+    ══════════════════════════════════════════ -->
+    <main class="hero page-section" id="page-home">
+        <div class="forecast-sub" data-i18n="calc_sub">MATRYCA URODZENIOWA</div>
+        <h2 class="forecast-main" data-i18n="nav_calc">KALKULATOR LICZBY URODZENIA</h2>
+        <p class="hero-sub" data-i18n="hero_sub" style="margin-top: 12px; margin-bottom: 40px;">Twoja data urodzenia to kod, który otwiera drzwi do głębszego zrozumienia siebie i świata.</p>
+
+        <!-- ─ 3-in-1 Calculator Card ─ -->
+        <div class="card calc-card" style="max-width: 800px; width: 100%;">
+            <div class="forecast-sub" data-i18n="calc_sub">POZNAJ SIEBIE</div>
+            <div class="forecast-main calc-title-main" data-i18n="calc_main" style="margin-bottom: 28px;">KALKULATOR LICZBY URODZENIA</div>
+
+            <!-- Date Input -->
+            <div class="field-label" data-i18n="birth_date_label">DATA TWOJEGO URODZENIA</div>
+            <div class="input-stack">
+                <div class="date-input-wrap">
+                    <input type="text" inputmode="numeric" maxlength="10"
+                           class="date-input" id="birthDate"
+                           data-i18n-placeholder="date_placeholder"
+                           placeholder="dd.mm.rrrr">
+                </div>
+
+                <!-- Name Input -->
+                <div class="date-input-wrap">
+                    <input type="text" class="date-input" id="fullName"
+                           data-i18n-placeholder="name_placeholder"
+                           placeholder="Jan Kowalski"
+                           style="text-align: left; font-size: 15px;">
+                </div>
+                <div class="field-label" data-i18n="full_name_label" style="margin-bottom: -4px; font-size: 10px; text-align: center; color: rgba(191,191,191,0.6);">IMIĘ I NAZWISKO</div>
+
+                <button class="btn-calc" onclick="calculateAll()" id="btnCalcAll">
+                    <span data-i18n="btn_calc_all">OBLICZ</span> &nbsp;→
+                </button>
+            </div>
+
+            <!-- ─ 3-in-1 Results ─ -->
+            <div class="result-calculators" id="resultCalculators">
+                <div class="calc-result-row" style="align-items: flex-start;">
+                    <div class="calc-result-num" id="resLifePath">—</div>
+                    <div class="calc-result-info">
+                        <div class="calc-result-lbl" data-i18n="calc_lbl_1">KALKULATOR 1</div>
+                        <div class="calc-result-title" data-i18n="calc_title_1">Droga Życia</div>
+                        <div class="calc-result-archetype" id="resLifePathArchetype" style="margin-top: 4px; font-size: 14px; font-weight: 600; color: var(--gold-patina); display: none;"></div>
+                        <div class="calc-result-desc" id="resLifePathDesc" style="margin-top: 8px; font-size: 13px; line-height: 1.6; color: var(--silver-dim); display: none;"></div>
+                    </div>
+                </div>
+                <div class="calc-result-row">
+                    <div class="calc-result-num" id="resPersonalYear">—</div>
+                    <div class="calc-result-info">
+                        <div class="calc-result-lbl" data-i18n="calc_lbl_2">KALKULATOR 2</div>
+                        <div class="calc-result-title" data-i18n="calc_title_2">Rok Osobisty</div>
+                    </div>
+                </div>
+                <div class="calc-result-row">
+                    <div class="calc-result-num" id="resDestiny">—</div>
+                    <div class="calc-result-info">
+                        <div class="calc-result-lbl" data-i18n="calc_lbl_3">KALKULATOR 3</div>
+                        <div class="calc-result-title" data-i18n="calc_title_3">Liczba Przeznaczenia</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- ══════════════════════════════════════════
+         PAGE 3: AUDIO BIBLIOTEKA
+    ══════════════════════════════════════════ -->
+    <section id="page-audio" class="page-section" style="padding-top: 90px;">
+        <div class="audio-section">
+
+            <!-- Audio Header -->
+            <div class="audio-hero">
+                <div class="forecast-sub" data-i18n="audio_sub">POSŁUCHAJ</div>
+                <h2 class="forecast-main" data-i18n="audio_main">AUDIO BIBLIOTEKA</h2>
+            </div>
+
+            <!-- ── PREMIUM PANORAMIC AUDIO PLAYER ── -->
+            <div class="audio-container">
+
+                <!-- Top bar: label + divider -->
+                <div class="audio-top-bar">
+                    <span class="audio-vibracja-label" data-i18n="audio_track_title">Twoja wylosowana wiadomość</span>
+                </div>
+
+                <!-- Main panoramic row: Number | Info | Play -->
+                <div class="audio-player-row">
+
+                    <!-- Left: Vibration Number -->
+                    <div class="audio-num-block">
+                        <div class="audio-num-label">WIBRACJA DNIA</div>
+                        <div class="audio-vibracja-number" id="audioVibNumber">—</div>
+                    </div>
+
+                    <!-- Center: Track Info -->
+                    <div class="audio-info-block">
+                        <div class="audio-info">
+                            <p data-i18n="audio_track_desc">Naciśnij play, aby odsłuchać</p>
+                        </div>
+                        <!-- Audio progress bar (decorative) -->
+                        <div class="audio-progress-bar">
+                            <div class="audio-progress-fill" id="audioProgressFill"></div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Play Button -->
+                    <div class="audio-play-block">
+                        <button class="play-btn" onclick="toggleAudio()" id="playPauseBtn" aria-label="Play / Pause">
+                            <svg class="play-icon-svg" id="icon-play" viewBox="0 0 24 24" style="display: block;">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                            <svg class="play-icon-svg" id="icon-pause" viewBox="0 0 24 24" style="display: none;">
+                                <path d="M6 19h4V5H6zm8-14v14h4V5z"/>
+                            </svg>
+                        </button>
+                    </div>
+
+                </div><!-- /.audio-player-row -->
+
+                <!-- Hidden Audio Element -->
+                <audio id="audioPlayer" preload="none"></audio>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- ══ FOOTER ══ -->
+    <footer>
+        <span class="copy">&copy; COPYRIGHT 2026 NUMERONARRACJE</span>
+        <span class="footer-divider">|</span>
+        <a href="privacy.html" class="privacy" data-i18n="privacy">POLITYKA PRYWATNOŚCI</a>
+        <span class="footer-divider">|</span>
+        <a href="terms.html" class="privacy" data-i18n="nav_terms">REGULAMIN</a>
+        <div class="social-footer-row" style="width: 100%; justify-content: center; padding: 8px 0 0;">
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener" class="social-icon-link" aria-label="Instagram">
+                <img src="Instagram.png" alt="Instagram" class="social-icon-img" style="width: 28px; height: 28px;">
+            </a>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener" class="social-icon-link" aria-label="YouTube">
+                <img src="YouTube.png" alt="YouTube" class="social-icon-img" style="width: 28px; height: 28px;">
+            </a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener" class="social-icon-link" aria-label="Facebook">
+                <img src="Facebook.png" alt="Facebook" class="social-icon-img" style="width: 28px; height: 28px;">
+            </a>
+        </div>
+    </footer>
+
+</div><!-- /.app -->
+
+<!-- ══ INLINE STAR GENERATION ══ -->
+<script>
+(function() {
+  const starsEl = document.getElementById('stars');
+  if (!starsEl) return;
+  const count = 80;
+  let html = '';
+  for (let i = 0; i < count; i++) {
+    const x = Math.random() * 100;
+    const y = Math.random() * 100;
+    const size = Math.random() * 2.5 + 0.5;
+    const dur = (Math.random() * 4 + 2).toFixed(1);
+    const delay = (Math.random() * 5).toFixed(1);
+    const minOp = (Math.random() * 0.2 + 0.1).toFixed(2);
+    const maxOp = (Math.random() * 0.5 + 0.4).toFixed(2);
+    html += `<div class="star" style="left:${x}%;top:${y}%;width:${size}px;height:${size}px;--dur:${dur}s;--delay:${delay}s;--min-op:${minOp};--max-op:${maxOp};"></div>`;
+  }
+  starsEl.innerHTML = html;
+})();
+</script>
+
+<!-- ══ SCRIPTS ══ -->
+<script src="forecast_data.js"></script>
+<script src="i18n.js"></script>
+<script src="app.js"></script>
+
+<!-- ══ POST-LOAD: Audio vibracja number sync ══ -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Sync the large vibracja number in Audio section with today's forecast number
+  function syncAudioVibNumber() {
+    const fcCircle = document.getElementById('fcCircle');
+    const audioVibNum = document.getElementById('audioVibNumber');
+    if (fcCircle && audioVibNum) {
+      const val = fcCircle.textContent.trim();
+      audioVibNum.textContent = val || '—';
+    }
+  }
+  // Wait a tick so initDailyForecast has run first
+  setTimeout(syncAudioVibNumber, 200);
+
+  // Also sync on language switch
+  const origSwitchLang = window.switchLang;
+  if (typeof origSwitchLang === 'function') {
+    window.switchLang = function(lang) {
+      origSwitchLang(lang);
+      setTimeout(syncAudioVibNumber, 100);
+    };
+  }
+});
+</script>
+
+</body>
+</html>
