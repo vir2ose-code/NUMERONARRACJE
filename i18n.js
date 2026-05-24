@@ -104,6 +104,10 @@ const translations = {
     app_tips_bullet2: "<strong>Bądź dla siebie wyrozumiała:</strong> Rozkodowywanie starych schematów i poznawanie swoich talentów to proces. Ta aplikacja ma być dla Ciebie wsparciem i bezpieczną przystanią, a nie kolejnym obowiązkiem. Korzystaj z niej tak, jak podpowiada Ci serce.",
     app_final_desc: "Rozgość się w tej przestrzeni, przywitaj się z innymi kobietami na forum i sprawdź, co dzisiejszy dzień ma Ci do powiedzenia. Jesteś we właściwym miejscu.",
     contact_direct: "KONTAKT",
+    contact_name_placeholder: "IMIĘ...",
+    contact_email_placeholder: "EMAIL...",
+    contact_message_placeholder: "WIADOMOŚĆ...",
+    contact_submit_btn: "WYŚLIJ",
     
     // Quiz UI
     quiz_subtitle: "QUIZ PSYCHOLOGICZNY",
@@ -308,6 +312,10 @@ const translations = {
     app_tips_bullet2: "<strong>Sei nachsichtig mit dir selbst:</strong> Alte Muster zu entschlüsseln und deine Talente kennenzulernen, ist ein Prozess. Diese App soll dir eine Unterstützung und einen sicheren Hafen bieten, nicht eine weitere Verpflichtung sein. Nutze sie so, wie es dir dein Herz sagt.",
     app_final_desc: "Mach es dir in diesem Raum gemütlich, begrüße die anderen Frauen im Forum und schau, was der heutige Tag dir zu sagen hat. Du bist am richtigen Ort.",
     contact_direct: "KONTAKT",
+    contact_name_placeholder: "NAME...",
+    contact_email_placeholder: "E-MAIL...",
+    contact_message_placeholder: "NACHRICHT...",
+    contact_submit_btn: "SENDEN",
     
     // Quiz UI
     quiz_subtitle: "PSYCHOLOGISCHES QUIZ",

@@ -23,6 +23,14 @@ function switchLang(lang) {
       el.innerHTML = trans[lang][key];
     }
   });
+
+  // Translate placeholders
+  document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+    const key = el.getAttribute('data-i18n-placeholder');
+    if (trans && trans[lang] && trans[lang][key]) {
+      el.placeholder = trans[lang][key];
+    }
+  });
 }
 
 // ── Drawer ──
@@ -58,5 +66,52 @@ document.addEventListener('DOMContentLoaded', () => {
         targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }, 150);
     }
+  }
+
+  // Web3Forms AJAX Form Handler
+  const contactForm = document.getElementById('contact-form');
+  const formStatus = document.getElementById('form-status');
+  if (contactForm) {
+    contactForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      const formData = new FormData(contactForm);
+      const object = Object.fromEntries(formData);
+      const json = JSON.stringify(object);
+      
+      formStatus.style.color = 'var(--gold-patina)';
+      formStatus.textContent = currentLang === 'pl' ? 'WYSYŁANIE...' : 'SENDEN...';
+      
+      fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: json
+      })
+      .then(async (response) => {
+        let res = await response.json();
+        if (response.status == 200) {
+          formStatus.style.color = '#28a745';
+          formStatus.textContent = currentLang === 'pl' ? 'WIADOMOŚĆ WYSŁANA POMYŚLNIE!' : 'NACHRICHT ERFOLGREICH GESENDET!';
+          contactForm.reset();
+        } else {
+          console.log(response);
+          formStatus.style.color = '#dc3545';
+          formStatus.textContent = res.message || (currentLang === 'pl' ? 'WYSTĄPIŁ BŁĄD!' : 'EIN FEHLER IST AUFGETRETEN!');
+        }
+      })
+      .catch(error => {
+        console.log(error);
+        formStatus.style.color = '#dc3545';
+        formStatus.textContent = currentLang === 'pl' ? 'WYSTĄPIŁ BŁĄD SIECI!' : 'NETZWERKFEHLER IST AUFGETRETEN!';
+      })
+      .then(function() {
+        setTimeout(() => {
+          formStatus.textContent = '';
+        }, 6000);
+      });
+    });
   }
 });

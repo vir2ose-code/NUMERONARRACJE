@@ -108,19 +108,31 @@
                 <div id="contact" class="subtle-contact-section">
                     <div class="subtle-contact-divider"></div>
                     <h2 class="subtle-contact-heading" data-i18n="contact_direct">KONTAKT</h2>
-                                        <div class="subtle-email-row">
+                    <div class="subtle-email-row">
                         <a href="mailto:numeronarracje@gmail.com" class="subtle-email-link">numeronarracje@gmail.com</a>
                     </div>
+
+                    <!-- Web3Forms Contact Form -->
+                    <form id="contact-form" action="https://api.web3forms.com/submit" method="POST" class="blog-form" style="max-width: 400px; margin: 24px auto 0;">
+                        <input type="hidden" name="access_key" value="8f6b9f38-9a80-4149-9198-162855806eac">
+                        
+                        <input type="text" name="name" class="blog-input" data-i18n-placeholder="contact_name_placeholder" placeholder="IMIĘ..." required>
+                        <input type="email" name="email" class="blog-input" data-i18n-placeholder="contact_email_placeholder" placeholder="EMAIL..." required>
+                        <textarea name="message" class="blog-textarea" rows="4" data-i18n-placeholder="contact_message_placeholder" placeholder="WIADOMOŚĆ..." required></textarea>
+                        
+                        <button type="submit" class="blog-submit-btn" data-i18n="contact_submit_btn">WYŚLIJ</button>
+                    </form>
+                    <div id="form-status" style="text-align: center; margin-top: 15px; font-family: 'Raleway', sans-serif; font-size: 13px; min-height: 20px;"></div>
                     
                     <!-- Social Links: Instagram, FB, YT -->
-                    <div class="subtle-social-row">
-                        <a href="https://www.instagram.com/" target="_blank" rel="noopener" class="social-icon-link" aria-label="Instagram">
+                    <div class="subtle-social-row" style="margin-top: 24px;">
+                        <a href="https://www.instagram.com/waldemarkrucinski/" target="_blank" rel="noopener" class="social-icon-link" aria-label="Instagram">
                             <img src="Instagram.png" alt="Instagram" class="social-icon-img">
                         </a>
-                        <a href="https://www.facebook.com/" target="_blank" rel="noopener" class="social-icon-link" aria-label="Facebook">
+                        <a href="https://www.facebook.com/waldemar.krucinski" target="_blank" rel="noopener" class="social-icon-link" aria-label="Facebook">
                             <img src="Facebook.png" alt="Facebook" class="social-icon-img">
                         </a>
-                        <a href="https://www.youtube.com/" target="_blank" rel="noopener" class="social-icon-link" aria-label="YouTube">
+                        <a href="https://www.youtube.com/@Waldemar-Krucinski" target="_blank" rel="noopener" class="social-icon-link" aria-label="YouTube">
                             <img src="YouTube.png" alt="YouTube" class="social-icon-img">
                         </a>
                     </div>
@@ -136,17 +148,6 @@
         <a href="privacy.html" class="privacy" data-i18n="privacy">POLITYKA PRYWATNOŚCI</a>
         <span class="footer-divider">|</span>
         <a href="terms.html" class="privacy" data-i18n="nav_terms">REGULAMIN</a>
-        <div class="social-footer-row" style="width: 100%; justify-content: center; padding: 8px 0 0;">
-            <a href="https://www.instagram.com/" target="_blank" rel="noopener" class="social-icon-link" aria-label="Instagram">
-                <img src="Instagram.png" alt="Instagram" class="social-icon-img" style="width: 28px; height: 28px;">
-            </a>
-            <a href="https://www.youtube.com/" target="_blank" rel="noopener" class="social-icon-link" aria-label="YouTube">
-                <img src="YouTube.png" alt="YouTube" class="social-icon-img" style="width: 28px; height: 28px;">
-            </a>
-            <a href="https://www.facebook.com/" target="_blank" rel="noopener" class="social-icon-link" aria-label="Facebook">
-                <img src="Facebook.png" alt="Facebook" class="social-icon-img" style="width: 28px; height: 28px;">
-            </a>
-        </div>
     </footer>
 
 </div><!-- /.app -->
