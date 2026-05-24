@@ -1,7 +1,12 @@
 {
+  "id": "com.numeronarracje.app",
   "name": "Numeronarracje",
   "short_name": "Numeronarr",
   "description": "Odkryj swoją wewnętrzną mapę życia. Numerologia i przeznaczenie.",
+  "categories": [
+    "lifestyle",
+    "entertainment"
+  ],
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#1a0a2e",
@@ -11,12 +16,50 @@
     {
       "src": "logo master violet rund.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
-      "src": "logo master violet rund.png",
+      "src": "NN ICON_512x512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "NN ICON_512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshot1.png",
+      "sizes": "1920x993",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Dzisiejsza prognoza numerologiczna w języku polskim"
+    },
+    {
+      "src": "screenshot2.png",
+      "sizes": "1920x993",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Numerologische Tagesprognose in deutscher Sprache"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Dzisiaj",
+      "short_name": "Dzisiaj",
+      "url": "./index.html#forecast",
+      "description": "Sprawdź prognozę na dzisiaj"
+    },
+    {
+      "name": "Quiz",
+      "short_name": "Quiz",
+      "url": "./quiz.html",
+      "description": "Rozwiąż quiz numerologiczny"
     }
   ]
 }

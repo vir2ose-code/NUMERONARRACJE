@@ -1,4 +1,4 @@
-const CACHE_NAME = 'numeronarracje-v12';
+const CACHE_NAME = 'numeronarracje-v13';
 const urlsToCache = [
   './',
   './index.html',
@@ -21,6 +21,9 @@ const urlsToCache = [
   './forecast_data.js',
   './manifest.json',
   './logo master violet rund.png',
+  './NN ICON_512x512.png',
+  './screenshot1.png',
+  './screenshot2.png',
   './Milky Way 4K.png',
   'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,600&family=Cinzel:wght@400;500;600;700&family=Raleway:wght@300;400;500;600&display=swap',
   './AUDIO-LIBRARY/CONTAINER A/A1.mp3',
