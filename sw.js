@@ -1,4 +1,4 @@
-const CACHE_NAME = 'numeronarracje-v13';
+const CACHE_NAME = 'numeronarracje-v14';
 const urlsToCache = [
   './',
   './index.html',
@@ -21,6 +21,7 @@ const urlsToCache = [
   './forecast_data.js',
   './manifest.json',
   './logo master violet rund.png',
+  './NN_ICON_192x192.png',
   './NN ICON_512x512.png',
   './screenshot1.png',
   './screenshot2.png',

@@ -14,10 +14,16 @@
   "orientation": "portrait",
   "icons": [
     {
-      "src": "logo master violet rund.png",
+      "src": "NN_ICON_192x192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
+    },
+    {
+      "src": "NN_ICON_192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
     },
     {
       "src": "NN ICON_512x512.png",
