@@ -243,6 +243,38 @@ nav {
 }
 .overlay.visible { opacity: 1; pointer-events: all; }
 
+/* Responsive navbar adjustment for smaller screens */
+@media (max-width: 480px) {
+  nav {
+    padding: 10px 14px;
+  }
+  
+  .logo-center {
+    gap: 8px;
+  }
+  
+  .logo-img {
+    width: 36px;
+    height: 36px;
+  }
+  
+  .logo-name {
+    font-size: clamp(11px, 3.8vw, 14px);
+    letter-spacing: 0.05em;
+  }
+  
+  .lang-switcher {
+    gap: 6px;
+    font-size: 11px;
+    flex-shrink: 0;
+    padding-left: 8px;
+  }
+  
+  .hamburger {
+    flex-shrink: 0;
+  }
+}
+
 /* ── HERO ── */
 .hero {
   flex: 1;
