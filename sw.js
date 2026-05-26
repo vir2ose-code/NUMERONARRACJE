@@ -1,4 +1,4 @@
-const CACHE_NAME = 'numeronarracje-v15';
+const CACHE_NAME = 'numeronarracje-v16';
 const urlsToCache = [
   './',
   './index.html',

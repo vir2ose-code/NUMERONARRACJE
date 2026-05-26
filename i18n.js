@@ -52,6 +52,12 @@ const translations = {
     // Other
     privacy: "POLITYKA PRYWATNOŚCI",
     alert_date: "Proszę wybrać datę urodzenia.",
+    paywall_title: "ODKRYJ PEŁNE PROFILOWANIE KOSMICZNE",
+    paywall_subtitle: "UZYSKAJ NIEOGRANICZONY DOSTĘP DO DUCHOWEGO DROGOWSKAZU, AUDIO BIBLIOTEKI PREMIUM ORAZ CAŁEJ KRONIKI HUMORU",
+    paywall_amount: "4,99 €",
+    paywall_period: "/ MIESIĘCZNIE",
+    paywall_btn: "AKTYWUJ SUBSKRYPCJĘ PREMIUM",
+    paywall_note: "BEZPIECZNA PŁATNOŚĆ SZYFROWANA SSL. MOŻLIWOŚĆ REZYGNACJI W DOWOLNYM MOMENCIE.",
     
     // Biography (O Autorce)
     about_subtitle: "AUTORKA",
@@ -260,6 +266,12 @@ const translations = {
     // Other
     privacy: "DATENSCHUTZRICHTLINIE",
     alert_date: "Bitte wähle ein Geburtsdatum aus.",
+    paywall_title: "ENTDECKE DEIN VOLLES KOSMISCHES PROFIL",
+    paywall_subtitle: "ERHALTE UNBEGRENZTEN ZUGRIFF AUF DEN SPIRITUELLEN WEGWEISER, DIE PREMIUM-AUDIO-BIBLIOTHEK UND DIE GESAMTE HUMOR-CHRONIK",
+    paywall_amount: "4,99 €",
+    paywall_period: "/ MONATLICH",
+    paywall_btn: "PREMIUM-ABONNEMENT AKTIVIEREN",
+    paywall_note: "SICHERE SSL-VERSCHLÜSSELTE ZAHLUNG. JEDERZEIT KÜNDIGBAR.",
     
     // Biography (Über die Autorin)
     about_subtitle: "AUTORIN",
@@ -432,4 +444,77 @@ if (typeof window !== 'undefined' && 'serviceWorker' in navigator) {
       });
   });
 }
+
+// ── Premium Paywall Integration ──
+function checkPremiumAccess() {
+  const isCompliancePage = window.location.pathname.includes('privacy') || window.location.pathname.includes('terms');
+  if (isCompliancePage) return;
+
+  fetch('/api/subscription-status')
+    .then(res => res.json())
+    .then(data => {
+      if (data && data.paywallActive === true) {
+        let paywallOverlay = document.getElementById('premium-paywall-overlay');
+        if (!paywallOverlay) {
+          paywallOverlay = document.createElement('div');
+          paywallOverlay.id = 'premium-paywall-overlay';
+          paywallOverlay.innerHTML = `
+            <div class="paywall-glass-card">
+              <h2 class="paywall-title" data-i18n="paywall_title">ODKRYJ PEŁNE PROFILOWANIE KOSMICZNE</h2>
+              <p class="paywall-subtitle" data-i18n="paywall_subtitle">UZYSKAJ NIEOGRANICZONY DOSTĘP DO DUCHOWEGO DROGOWSKAZU, AUDIO BIBLIOTEKI PREMIUM ORAZ CAŁEJ KRONIKI HUMORU</p>
+              
+              <div class="paywall-price-badge">
+                <span class="paywall-amount" data-i18n="paywall_amount">4,99 €</span>
+                <span class="paywall-period" data-i18n="paywall_period">/ MIESIĘCZNIE</span>
+              </div>
+              
+              <button class="paywall-submit-btn" onclick="initiateSubscription()" data-i18n="paywall_btn">AKTYWUJ SUBSKRYPCJĘ PREMIUM</button>
+              <p class="paywall-note" data-i18n="paywall_note">BEZPIECZNA PŁATNOŚĆ SZYFROWANA SSL. MOŻLIWOŚĆ REZYGNACJI W DOWOLNYM MOMENCIE.</p>
+            </div>
+          `;
+          document.body.appendChild(paywallOverlay);
+          
+          // Translate dynamic overlay elements
+          const activeLang = typeof currentLang !== 'undefined' ? currentLang : (localStorage.getItem('selectedLang') || 'pl');
+          if (typeof translations !== 'undefined' && translations[activeLang]) {
+            paywallOverlay.querySelectorAll('[data-i18n]').forEach(el => {
+              const key = el.getAttribute('data-i18n');
+              if (translations[activeLang][key]) {
+                el.innerHTML = translations[activeLang][key];
+              }
+            });
+          }
+        }
+        paywallOverlay.style.display = 'flex';
+      } else {
+        const paywallOverlay = document.getElementById('premium-paywall-overlay');
+        if (paywallOverlay) {
+          paywallOverlay.style.display = 'none';
+        }
+      }
+    })
+    .catch(err => {
+      console.warn("Network check skipped. Running local standalone cache fallback mode.", err);
+      const paywallOverlay = document.getElementById('premium-paywall-overlay');
+      if (paywallOverlay) {
+        paywallOverlay.style.display = 'none';
+      }
+    });
+}
+
+if (typeof window !== 'undefined') {
+  window.initiateSubscription = function() {
+    console.log("Redirecting to client-side checkout session logic...");
+    const activeLang = typeof currentLang !== 'undefined' ? currentLang : (localStorage.getItem('selectedLang') || 'pl');
+    alert(activeLang === 'de' ? "Weiterleitung zur Zahlung..." : "Przekierowywanie do płatności...");
+  };
+
+  // Run paywall check on load
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', checkPremiumAccess);
+  } else {
+    checkPremiumAccess();
+  }
+}
+
 
