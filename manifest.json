@@ -4,9 +4,9 @@
   "short_name": "Numeronarr",
   "description": "Odkryj swoją wewnętrzną mapę życia. Numerologia i przeznaczenie.",
   "categories": [
-    "lifestyle",
-    "entertainment"
+    "lifestyle"
   ],
+  "prefer_related_applications": false,
   "start_url": "./index.html",
   "display": "standalone",
   "display_override": [
@@ -59,16 +59,16 @@
       "label": "Numerologische Tagesprognose in deutscher Sprache"
     },
     {
-      "src": "screenshot_mobile1.png",
+      "src": "screenshot_mobile1.jpg",
       "sizes": "1024x1024",
-      "type": "image/png",
+      "type": "image/jpeg",
       "form_factor": "narrow",
       "label": "Kalkulator Drogi Życia i przeznaczenia w języku polskim"
     },
     {
-      "src": "screenshot_mobile2.png",
+      "src": "screenshot_mobile2.jpg",
       "sizes": "1024x1024",
-      "type": "image/png",
+      "type": "image/jpeg",
       "form_factor": "narrow",
       "label": "Numerologische Tagesprognose und emotionale Analyse"
     }
