@@ -432,18 +432,8 @@ if (typeof window !== 'undefined') {
   window.translations = translations;
 }
 
-// ── PWA Service Worker Registration ──
-if (typeof window !== 'undefined' && 'serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/sw.js', { scope: '/' })
-      .then(registration => {
-        console.log('ServiceWorker registration successful with scope: ', registration.scope);
-      })
-      .catch(err => {
-        console.log('ServiceWorker registration failed: ', err);
-      });
-  });
-}
+// ── PWA Service Worker Registration (Moved inline to index.html) ──
+
 
 // ── Premium Paywall Integration ──
 function checkPremiumAccess() {

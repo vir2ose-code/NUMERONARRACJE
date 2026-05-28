@@ -322,5 +322,21 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
+<!-- ══ PWA Service Worker Registration ══ -->
+<script>
+if ('serviceWorker' in navigator) {
+  const registerSW = () => {
+    navigator.serviceWorker.register('/sw.js', { scope: '/' })
+      .then(reg => console.log('ServiceWorker registered with scope:', reg.scope))
+      .catch(err => console.error('ServiceWorker registration failed:', err));
+  };
+  if (document.readyState === 'complete') {
+    registerSW();
+  } else {
+    window.addEventListener('load', registerSW);
+  }
+}
+</script>
+
 </body>
 </html>

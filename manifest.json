@@ -3,6 +3,9 @@
   "name": "Numeronarracje",
   "short_name": "Numeronarr",
   "description": "Odkryj swoją wewnętrzną mapę życia. Numerologia i przeznaczenie.",
+  "lang": "pl",
+  "scope": "/",
+  "iarc_rating_id": "",
   "categories": [
     "lifestyle"
   ],
