@@ -9,8 +9,13 @@
   ],
   "start_url": "./index.html",
   "display": "standalone",
+  "display_override": [
+    "standalone",
+    "fullscreen",
+    "minimal-ui"
+  ],
   "background_color": "#1a0a2e",
-  "theme_color": "#D4AF37",
+  "theme_color": "#1a0a2e",
   "orientation": "portrait",
   "icons": [
     {
@@ -52,6 +57,20 @@
       "type": "image/png",
       "form_factor": "wide",
       "label": "Numerologische Tagesprognose in deutscher Sprache"
+    },
+    {
+      "src": "screenshot_mobile1.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Kalkulator Drogi Życia i przeznaczenia w języku polskim"
+    },
+    {
+      "src": "screenshot_mobile2.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Numerologische Tagesprognose und emotionale Analyse"
     }
   ],
   "shortcuts": [

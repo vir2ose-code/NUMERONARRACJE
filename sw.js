@@ -25,6 +25,8 @@ const urlsToCache = [
   './NN ICON_512x512.png',
   './screenshot1.png',
   './screenshot2.png',
+  './screenshot_mobile1.png',
+  './screenshot_mobile2.png',
   './Milky Way 4K.png',
   'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,600&family=Cinzel:wght@400;500;600;700&family=Raleway:wght@300;400;500;600&display=swap',
   './AUDIO-LIBRARY/CONTAINER A/A1.mp3',
