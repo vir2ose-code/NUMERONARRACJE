@@ -450,11 +450,11 @@ document.addEventListener('DOMContentLoaded', () => {
 // ── Emotion Dictionary ──
 const emotions = {
   pl: {
-    trudne: ['agresja', 'awersja', 'bezsilność', 'depresja', 'dyskomfort', 'frustracja', 'nieszczęście', 'osamotnienie', 'samotność', 'smutek', 'napięcie', 'strach', 'stres', 'tęsknota', 'wstyd', 'zdesperowanie'],
+    trudne: window.ALL_TRUDNE_PL || ['agresja', 'awersja', 'bezsilność', 'depresja', 'dyskomfort', 'frustracja', 'nieszczęście', 'osamotnienie', 'samotność', 'smutek', 'napięcie', 'strach', 'stres', 'tęsknota', 'wstyd', 'zdesperowanie'],
     przyjemne: ['bezpieczeństwo', 'bliskość', 'cisza', 'dobrostan', 'inspiracja', 'pewność siebie', 'spokój', 'szczęście', 'radość', 'miłość']
   },
   de: {
-    trudne: ['aggression', 'abneigung', 'machtlosigkeit', 'depression', 'unbehagen', 'frustration', 'unglück', 'isolation', 'einsamkeit', 'traurigkeit', 'anspannung', 'angst', 'stress', 'sehnsucht', 'scham', 'verzweiflung'],
+    trudne: window.ALL_TRUDNE_DE || ['aggression', 'abneigung', 'machtlosigkeit', 'depression', 'unbehagen', 'frustration', 'unglück', 'isolation', 'einsamkeit', 'traurigkeit', 'anspannung', 'angst', 'stress', 'sehnsucht', 'scham', 'verzweiflung'],
     przyjemne: ['sicherheit', 'nähe', 'stille', 'wohlbefinden', 'inspiration', 'selbstvertrauen', 'ruhe', 'glück', 'freude', 'liebe']
   }
 };
@@ -709,16 +709,44 @@ function initEmotionTracker() {
     const responses = currentLang === 'pl' ? EMOTION_RESPONSES : (EMOTION_RESPONSES_DE || EMOTION_RESPONSES);
     const fallback = currentLang === 'pl' ? EMOTION_FALLBACK : (EMOTION_FALLBACK_DE || EMOTION_FALLBACK);
     
-    // Szukanie klucza w słowniku
     const cleanVal = value.toLowerCase().trim();
-    let matchedKey = Object.keys(responses).find(k => k === cleanVal);
-    
-    // Jeśli nie ma dokładnego klucza, spróbuj znaleźć chociaż słowo kluczowe w tekście
-    if (!matchedKey) {
-      matchedKey = Object.keys(responses).find(k => cleanVal.includes(k) || k.includes(cleanVal));
+    let data = null;
+
+    // Najpierw sprawdzamy bazę 142 trudnych emocji
+    if (window.EMOTIONS_MAP && window.EMOTIONS_MAP[cleanVal]) {
+      const cluster = window.EMOTIONS_MAP[cleanVal];
+      const template = window.EMOTIONS_CLUSTERS && window.EMOTIONS_CLUSTERS[currentLang] 
+        ? window.EMOTIONS_CLUSTERS[currentLang][cluster] 
+        : null;
+
+      if (template) {
+        // Formatowanie nazwy emocji:
+        // W tytule zawsze wielka litera.
+        const capEmotion = value.charAt(0).toUpperCase() + value.slice(1);
+        // W opisie i planie działania: dla DE wielka litera (rzeczowniki), dla PL mała litera.
+        const descEmotion = currentLang === 'pl' ? cleanVal : capEmotion;
+
+        data = {
+          title: template.title.replace(/{emotion}/g, capEmotion),
+          desc: template.desc.replace(/{emotion}/g, descEmotion),
+          isSevere: template.isSevere,
+          actionPlan: template.actionPlan ? {
+            step1: template.actionPlan.step1.replace(/{emotion}/g, descEmotion),
+            step2: template.actionPlan.step2.replace(/{emotion}/g, descEmotion),
+            step3: template.actionPlan.step3.replace(/{emotion}/g, descEmotion)
+          } : null
+        };
+      }
     }
 
-    const data = matchedKey ? responses[matchedKey] : fallback;
+    // Jeśli nie dopasowano z EMOTIONS_MAP, szukamy w statycznym słowniku responses (np. przyjemne emocje)
+    if (!data) {
+      let matchedKey = Object.keys(responses).find(k => k === cleanVal);
+      if (!matchedKey) {
+        matchedKey = Object.keys(responses).find(k => cleanVal.includes(k) || k.includes(cleanVal));
+      }
+      data = matchedKey ? responses[matchedKey] : fallback;
+    }
 
     // Tworzenie kodu HTML dla Planu Działania (Action Plan) dla ciężkich stanów
     let actionPlanHtml = '';

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'numeronarracje-v17';
+const CACHE_NAME = 'numeronarracje-v18';
 const urlsToCache = [
   './',
   './index.html',
@@ -17,6 +17,7 @@ const urlsToCache = [
   './privacy.js',
   './terms.js',
   './vibrations_db.js',
+  './emotions_db.js',
   './i18n.js',
   './forecast_data.js',
   './manifest.json',
