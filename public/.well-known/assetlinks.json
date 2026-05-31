@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.numeronarracje.app",
+      "sha256_cert_fingerprints": [
+        "65:AE:1F:A9:95:AA:F2:8B:D4:F2:1B:8C:27:B0:2C:4A:44:88:05:6A:AB:E4:CA:0A:8D:15:CE:F3:02:D8:43:F8"
+      ]
+    }
+  }
+]
