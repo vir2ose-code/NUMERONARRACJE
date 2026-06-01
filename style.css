@@ -905,7 +905,7 @@ footer .privacy:hover { color: var(--gold-patina-light); }
 .emo-btn:active {
     background: rgba(142, 124, 195, 0.4);
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .emo-input-wrap {
         flex-direction: column;
         gap: 10px;
@@ -914,6 +914,9 @@ footer .privacy:hover { color: var(--gold-patina-light); }
         padding: 12px 20px;
         width: 100%;
         text-align: center;
+    }
+    .bio-para, .joke-paragraph {
+        text-align: left;
     }
 }
 .emo-tags-section {
