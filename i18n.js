@@ -17,7 +17,7 @@ const translations = {
     
     // Trackers
     tr_energy_title: "Jaka jest dziś Twoja energia?",
-    tr_energy_sub: "Przesuń suwak i sprawdź co dla Ciebie mamy",
+    tr_energy_sub: "Wyraź swój poziom energii wartością suwaka i sprawdź co dla Ciebie mamy",
     tr_emo_title: "Co teraz czujesz?",
     tr_emo_sub: "Wpisz lub wybierz emocję i otrzymaj natychmiastowe wsparcie",
     tr_emo_btn: "LISTA",
@@ -231,7 +231,7 @@ const translations = {
     
     // Trackers
     tr_energy_title: "Wie ist deine Energie heute?",
-    tr_energy_sub: "Bewege den Schieberegler und sieh nach, was wir für dich haben",
+    tr_energy_sub: "Drücke dein Energielevel über den Regler aus und sieh nach, was wir für dich haben",
     tr_emo_title: "Was fühlst du jetzt?",
     tr_emo_sub: "Gib ein Gefühl ein oder wähle eines aus und erhalte sofortige Unterstützung",
     tr_emo_btn: "LISTE",
