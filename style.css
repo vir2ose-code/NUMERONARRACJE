@@ -870,6 +870,7 @@ footer .privacy:hover { color: var(--gold-patina-light); }
     margin-top: 12px;
     font-size: 14px;
     color: var(--silver-elegant);
+    padding: 0 12px;
 }
 .emo-input-wrap {
     display: flex;
