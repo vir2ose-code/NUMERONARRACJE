@@ -905,6 +905,17 @@ footer .privacy:hover { color: var(--gold-patina-light); }
 .emo-btn:active {
     background: rgba(142, 124, 195, 0.4);
 }
+@media (max-width: 480px) {
+    .emo-input-wrap {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .emo-btn {
+        padding: 12px 20px;
+        width: 100%;
+        text-align: center;
+    }
+}
 .emo-tags-section {
     text-align: left;
 }
