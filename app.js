@@ -588,6 +588,26 @@ function initEnergySlider() {
         <p class="energy-res-tip">💡 ${data.t}</p>
       </div>
     `;
+
+    // Wyróżnienie aktywnej kreski (tick) i etykiety
+    const numericValue = parseInt(value, 10);
+    const ticks = card.querySelectorAll('.slider-ticks span');
+    ticks.forEach((tick, idx) => {
+      if (idx === (numericValue - 1)) {
+        tick.classList.add('active');
+      } else {
+        tick.classList.remove('active');
+      }
+    });
+
+    const labels = card.querySelectorAll('.slider-labels span');
+    labels.forEach((lbl, idx) => {
+      if (idx === (numericValue - 1)) {
+        lbl.classList.add('active');
+      } else {
+        lbl.classList.remove('active');
+      }
+    });
   }
 
   // Uruchomienie przy przeciąganiu suwaka
