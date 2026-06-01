@@ -545,7 +545,7 @@ nav {
 
 .bio-para {
   margin-bottom: 22px;
-  text-align: justify;
+  text-align: left;
 }
 
 .bio-heading {
@@ -1550,7 +1550,7 @@ footer .privacy:hover { color: var(--gold-patina-light); }
   line-height: 1.6;
   color: #ffffff;
   margin: 0;
-  text-align: justify;
+  text-align: left;
 }
 
 .joke-keyword {
