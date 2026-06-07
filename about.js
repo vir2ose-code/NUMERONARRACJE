@@ -95,6 +95,26 @@ document.addEventListener('DOMContentLoaded', () => {
         if (response.status == 200) {
           formStatus.style.color = '#28a745';
           formStatus.textContent = currentLang === 'pl' ? 'WIADOMOŚĆ WYSŁANA POMYŚLNIE!' : 'NACHRICHT ERFOLGREICH GESENDET!';
+          
+          // Zapis do newslettera MailerLite w tle
+          fetch('/api/newsletter', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+              email: object.email,
+              name: object.name
+            })
+          })
+          .then(res => res.json())
+          .then(data => {
+            console.log('[MailerLite Integration Log]', data);
+          })
+          .catch(err => {
+            console.error('[MailerLite Integration Error]', err);
+          });
+
           contactForm.reset();
         } else {
           console.log(response);
