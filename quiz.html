@@ -185,7 +185,7 @@
             <div class="about-card fc-card">
 
                 <!-- ── SCREEN 1: INTRODUCTION ── -->
-                <div id="start-container">
+                <div id="start-container" class="quiz-container">
                     <div class="forecast-sub" id="quiz-subtitle" style="text-align: center;" data-i18n="quiz_subtitle">QUIZ PSYCHOLOGICZNY</div>
                     <h1 class="forecast-main" id="quiz-title" style="text-align: center; margin-bottom: 24px;" data-i18n="quiz_main">KTÓRĄ LICZBĄ ŻYJESZ TERAZ?</h1>
                     
@@ -203,7 +203,7 @@
                 </div>
 
                 <!-- ── SCREEN 2: ACTIVE QUIZ QUESTIONS ── -->
-                <div id="quiz-container" class="hidden" style="opacity: 0;">
+                <div id="quiz-container" class="quiz-container hidden" style="opacity: 0;">
                     <div class="tracker-sub" id="quiz-progress-text" style="margin-bottom: 12px; font-weight: 500; font-family: 'Cinzel', serif; text-align: center;">Pytanie 1 z 9</div>
                     
                     <!-- Progress bar -->
@@ -211,11 +211,13 @@
                         <div class="audio-progress-fill" id="quiz-progress-fill" style="width: 0%; background: var(--gold-gradient); border-radius: 3px; height: 100%; transition: width 0.3s ease;"></div>
                     </div>
 
-                    <!-- Question text -->
-                    <h2 class="bio-heading" id="question-title" style="text-align: center; font-size: 1.35rem; margin-top: 0; margin-bottom: 32px; border-bottom: none; text-transform: none; font-family: 'Cormorant Garamond', serif; letter-spacing: 0.5px;"></h2>
-                    
-                    <!-- Choices container -->
-                    <div class="input-stack" id="answers-wrapper" style="gap: 16px;"></div>
+                    <div class="question-box">
+                        <!-- Question text -->
+                        <h2 class="bio-heading" id="question-title" style="text-align: center; font-size: 1.35rem; margin-top: 0; margin-bottom: 32px; border-bottom: none; text-transform: none; font-family: 'Cormorant Garamond', serif; letter-spacing: 0.5px;"></h2>
+                        
+                        <!-- Choices container -->
+                        <div class="input-stack" id="answers-wrapper" style="gap: 16px;"></div>
+                    </div>
                 </div>
 
                 <!-- ── SCREEN 3: SUSPENSE LOADER ── -->
@@ -228,7 +230,7 @@
                 </div>
 
                 <!-- ── SCREEN 4: TABBED RESULTS VIEWER ── -->
-                <div id="result-container" class="hidden" style="opacity: 0;">
+                <div id="result-container" class="quiz-container hidden" style="opacity: 0;">
                     <div class="forecast-sub" id="result-subtitle" style="text-align: center;" data-i18n="quiz_result_subtitle">TWÓJ WYNIK</div>
                     <p class="tracker-sub" id="result-intro" style="text-align: center; margin-bottom: 12px;" data-i18n="quiz_result_intro">Wibracja, którą obecnie emanujesz to:</p>
                     
@@ -240,7 +242,7 @@
                     </div>
 
                     <!-- Cztery Filary Podsumowanie -->
-                    <div class="pillars-panel fc-box" style="padding: 24px 20px; background: rgba(10, 4, 30, 0.4); border: 1px solid rgba(212, 175, 55, 0.15); border-radius: 16px; margin: 0 auto 32px; max-width: 500px; text-align: center;">
+                    <div class="pillars-panel fc-box" style="background: rgba(10, 4, 30, 0.4); border: 1px solid rgba(212, 175, 55, 0.15); border-radius: 16px; margin: 0 auto 32px; max-width: 500px; text-align: center;">
                         <h4 style="font-family: 'Cinzel', serif; color: var(--gold-patina-light); margin-top: 0; margin-bottom: 20px; font-size: 0.85rem; letter-spacing: 1.5px;" data-i18n="pillars_title">TWOJE 4 FILARY NUMEROLOGICZNE</h4>
                         <div class="pillars-grid" style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
                             
@@ -281,7 +283,7 @@
                     </div>
 
                     <!-- Tab content container -->
-                    <div class="fc-box" style="padding: 28px; background: rgba(10, 4, 30, 0.45); border: 1px solid rgba(212, 175, 55, 0.2); border-radius: 16px; min-height: 200px; margin-bottom: 40px; box-shadow: inset 0 0 15px rgba(212, 175, 55, 0.05);">
+                    <div class="fc-box text-container-base" style="background: rgba(10, 4, 30, 0.45); border: 1px solid rgba(212, 175, 55, 0.2); border-radius: 16px; min-height: 200px; margin-bottom: 40px; box-shadow: inset 0 0 15px rgba(212, 175, 55, 0.05);">
                         <div id="result-tab-content" style="transition: opacity 0.15s ease;"></div>
                     </div>
 

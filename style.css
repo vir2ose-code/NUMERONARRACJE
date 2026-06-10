@@ -1881,6 +1881,18 @@ footer .privacy:hover { color: var(--gold-patina-light); }
   }
 }
 
+/* Zapewnienie przestrzeni i oddechu dla tekstu wewnątrz szklanych paneli (Global Spacing Fix) */
+.quiz-container, .question-box, .text-container-base, .pillars-panel {
+    padding: 24px 20px; /* Elegancki odstęp od góry/dołu oraz boków */
+    box-sizing: border-box; /* Gwarancja, że padding nie rozepcha sztywnych szerokości */
+}
+
+/* Poprawa czytelności samych akapitów */
+.quiz-container p, .question-box text, .question-box p, .text-container-base p {
+    line-height: 1.6; /* Komfortowy rozstaw linii */
+    margin-bottom: 16px; /* Bezpieczny odstęp między akapitami */
+}
+
 
 
 
