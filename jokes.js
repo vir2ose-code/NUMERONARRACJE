@@ -270,7 +270,7 @@ function fallbackPostLocal(keyword, text) {
     text: text,
     date: new Date().toLocaleDateString(currentLang === 'pl' ? 'pl-PL' : 'de-DE')
   };
-  userWitze = [newWitz, ...userWitze];
+  userWitze = [newWitz, ...userWitze].slice(0, 100);
   saveToLocalStorage();
   renderBlogFeed();
 }
@@ -304,7 +304,7 @@ function handleBlogSubmit(e) {
       })
       .then(data => {
         if (data && data.joke) {
-          userWitze = [data.joke, ...userWitze];
+          userWitze = [data.joke, ...userWitze].slice(0, 100);
           keywordEl.value = '';
           textEl.value = '';
           renderBlogFeed();

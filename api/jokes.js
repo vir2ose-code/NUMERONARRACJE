@@ -41,7 +41,7 @@ export default async function handler(req, res) {
                 text: text.trim(),
                 date: new Date().toLocaleDateString('pl-PL')
             };
-            const updatedJokes = [newJoke, ...currentJokes];
+            const updatedJokes = [newJoke, ...currentJokes].slice(0, 100);
             await kv.set(JOKES_KEY, updatedJokes);
             return res.status(201).json({ fallback: false, joke: newJoke });
         } catch (error) {
