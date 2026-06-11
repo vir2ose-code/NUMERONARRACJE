@@ -287,7 +287,7 @@ function calculateAll() {
 
 // ── Audio Player ──
 const AUDIO_ENGINE_CONFIG = {
-  containers: ['A', 'B'],
+  containers: ['A', 'B', 'C', 'CC'],
   dirPath: './AUDIO-LIBRARY/'
 };
 let audioIsPlaying = false;

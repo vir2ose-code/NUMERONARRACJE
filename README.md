@@ -17,7 +17,7 @@ Projekt został zoptymalizowany pod kątem urządzeń mobilnych i oferuje pełne
 
 ### 3. Audio Biblioteka
 * Panel odtwarzania spersonalizowanych nagrań dla wibracji dnia.
-* Hybrydowy mechanizm miksowania dźwięków, wybierający losowo nagrania z Container A lub Container B w celu urozmaicenia treści.
+* Hybrydowy mechanizm miksowania dźwięków, wybierający losowo nagrania z Container A, Container B, Container C lub Container CC w celu urozmaicenia treści.
 * Pełne wsparcie dla odtwarzania offline dzięki buforowaniu plików MP3 w Service Workerze.
 
 ### 4. Interaktywny Quiz
