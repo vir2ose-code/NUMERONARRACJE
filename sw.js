@@ -1,4 +1,4 @@
-const CACHE_NAME = 'numeronarracje-v29';
+const CACHE_NAME = 'numeronarracje-v30';
 const urlsToCache = [
   './',
   './index.html',
@@ -32,49 +32,7 @@ const urlsToCache = [
   './screenshot_mobile1.jpg',
   './screenshot_mobile2.jpg',
   './Milky Way 4K.png',
-  'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,600&family=Cinzel:wght@400;500;600;700&family=Raleway:wght@300;400;500;600&display=swap',
-  './AUDIO-LIBRARY/CONTAINER A/A1.mp3',
-  './AUDIO-LIBRARY/CONTAINER A/A2.mp3',
-  './AUDIO-LIBRARY/CONTAINER A/A3.mp3',
-  './AUDIO-LIBRARY/CONTAINER A/A4.mp3',
-  './AUDIO-LIBRARY/CONTAINER A/A5.mp3',
-  './AUDIO-LIBRARY/CONTAINER A/A6.mp3',
-  './AUDIO-LIBRARY/CONTAINER A/A7.mp3',
-  './AUDIO-LIBRARY/CONTAINER A/A8.mp3',
-  './AUDIO-LIBRARY/CONTAINER A/A9.mp3',
-  './AUDIO-LIBRARY/CONTAINER B/B1.mp3',
-  './AUDIO-LIBRARY/CONTAINER B/B2.mp3',
-  './AUDIO-LIBRARY/CONTAINER B/B3.mp3',
-  './AUDIO-LIBRARY/CONTAINER B/B4.mp3',
-  './AUDIO-LIBRARY/CONTAINER B/B5.mp3',
-  './AUDIO-LIBRARY/CONTAINER B/B6.mp3',
-  './AUDIO-LIBRARY/CONTAINER B/B7.mp3',
-  './AUDIO-LIBRARY/CONTAINER B/B8.mp3',
-  './AUDIO-LIBRARY/CONTAINER B/B9.mp3',
-  './AUDIO-LIBRARY/CONTAINER C/C1.mp3',
-  './AUDIO-LIBRARY/CONTAINER C/C2.mp3',
-  './AUDIO-LIBRARY/CONTAINER C/C3.mp3',
-  './AUDIO-LIBRARY/CONTAINER C/C4.mp3',
-  './AUDIO-LIBRARY/CONTAINER C/C5.mp3',
-  './AUDIO-LIBRARY/CONTAINER C/C6.mp3',
-  './AUDIO-LIBRARY/CONTAINER C/C7.mp3',
-  './AUDIO-LIBRARY/CONTAINER C/C8.mp3',
-  './AUDIO-LIBRARY/CONTAINER C/C9.mp3',
-  './AUDIO-LIBRARY/CONTAINER CC/CC1.mp3',
-  './AUDIO-LIBRARY/CONTAINER CC/CC2.mp3',
-  './AUDIO-LIBRARY/CONTAINER CC/CC3.mp3',
-  './AUDIO-LIBRARY/CONTAINER CC/CC4.mp3',
-  './AUDIO-LIBRARY/CONTAINER CC/CC5.mp3',
-  './AUDIO-LIBRARY/CONTAINER CC/CC6.mp3',
-  './AUDIO-LIBRARY/CONTAINER CC/CC7.mp3',
-  './AUDIO-LIBRARY/CONTAINER CC/CC8.mp3',
-  './AUDIO-LIBRARY/CONTAINER CC/CC9.mp3',
-  './OPOWIADANIA MOTYWACYJNE/VOICE + AUDIO/AUTOBIOGRAFIA W PIECIU ROZDZIALACH.mp3',
-  './OPOWIADANIA MOTYWACYJNE/VOICE + AUDIO/GWOZDZIE W PLOCIE.mp3',
-  './OPOWIADANIA MOTYWACYJNE/VOICE + AUDIO/MOZE DOBRZE A MOZE NIEDOBRZE.mp3',
-  './OPOWIADANIA MOTYWACYJNE/VOICE + AUDIO/OPOWIESC O DWOCH WILKACH.mp3',
-  './OPOWIADANIA MOTYWACYJNE/VOICE + AUDIO/PRZYPOWIESC O GASIENNICY I KOKONIE.mp3',
-  './OPOWIADANIA MOTYWACYJNE/VOICE + AUDIO/TO MINIE.mp3'
+  'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,600&family=Cinzel:wght@400;500;600;700&family=Raleway:wght@300;400;500;600&display=swap'
 ];
 
 self.addEventListener('install', event => {
@@ -89,6 +47,11 @@ self.addEventListener('install', event => {
 });
 
 self.addEventListener('fetch', event => {
+  // Bypass caching for audio files to avoid Range request issues (e.g. 206 Partial Content error on Safari/iOS)
+  if (event.request.url.includes('.mp3') || event.request.headers.has('range')) {
+    return;
+  }
+
   event.respondWith(
     caches.match(event.request)
       .then(response => {
