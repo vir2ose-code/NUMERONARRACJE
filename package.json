@@ -4,7 +4,6 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "@vercel/kv": "^1.0.1",
-    "pdf-parse": "^2.4.5"
+    "@vercel/kv": "^1.0.1"
   }
 }
