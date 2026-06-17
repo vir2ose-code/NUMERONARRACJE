@@ -1,4 +1,4 @@
-const CACHE_NAME = 'numeronarracje-v28';
+const CACHE_NAME = 'numeronarracje-v29';
 const urlsToCache = [
   './',
   './index.html',
@@ -16,6 +16,9 @@ const urlsToCache = [
   './jokes.js',
   './privacy.js',
   './terms.js',
+  './stories.html',
+  './stories.js',
+  './stories_db.js',
   './vibrations_db.js',
   './emotions_db.js',
   './i18n.js',
@@ -65,7 +68,13 @@ const urlsToCache = [
   './AUDIO-LIBRARY/CONTAINER CC/CC6.mp3',
   './AUDIO-LIBRARY/CONTAINER CC/CC7.mp3',
   './AUDIO-LIBRARY/CONTAINER CC/CC8.mp3',
-  './AUDIO-LIBRARY/CONTAINER CC/CC9.mp3'
+  './AUDIO-LIBRARY/CONTAINER CC/CC9.mp3',
+  './OPOWIADANIA MOTYWACYJNE/VOICE + AUDIO/AUTOBIOGRAFIA W PIECIU ROZDZIALACH.mp3',
+  './OPOWIADANIA MOTYWACYJNE/VOICE + AUDIO/GWOZDZIE W PLOCIE.mp3',
+  './OPOWIADANIA MOTYWACYJNE/VOICE + AUDIO/MOZE DOBRZE A MOZE NIEDOBRZE.mp3',
+  './OPOWIADANIA MOTYWACYJNE/VOICE + AUDIO/OPOWIESC O DWOCH WILKACH.mp3',
+  './OPOWIADANIA MOTYWACYJNE/VOICE + AUDIO/PRZYPOWIESC O GASIENNICY I KOKONIE.mp3',
+  './OPOWIADANIA MOTYWACYJNE/VOICE + AUDIO/TO MINIE.mp3'
 ];
 
 self.addEventListener('install', event => {
