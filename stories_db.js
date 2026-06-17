@@ -5,7 +5,7 @@ window.MOTIVATIONAL_STORIES = [
     id: "autobiografia",
     title: "Autobiografia w pięciu rozdziałach",
     subtitle: "Jak przestać wpadać w te same życiowe dziury?",
-    audioFile: "./OPOWIADANIA MOTYWACYJNE/VOICE + AUDIO/AUTOBIOGRAFIA W PIECIU ROZDZIALACH.mp3",
+    audioFile: "./OPOWIADANIA MOTYWACYJNE/audio/AUTOBIOGRAFIA W PIECIU ROZDZIALACH.mp3",
     description: `Zapraszam Cię do wysłuchania wyjątkowego, głębokiego opowiadania inspirowanego kultowym tekstem Portii Nelson. To niezwykle prosta, a jednocześnie potężna metafora ludzkiego życia. Jak często zdarza Ci się powtarzać te same błędy, wchodzić w toksyczne relacje i pytać siebie z żalem: „Dlaczego znowu spotyka to właśnie mnie?”.
 
 Te niewidzialne dziury w chodniku to nasze rodowe przekonania, nawyki i zblokowane w ciele emocje. Chodzimy starymi ścieżkami, bo podświadomość wybiera to, co dobrze zna – nawet jeśli to boli.
@@ -16,7 +16,7 @@ To słuchowisko powstało po to, aby pomóc Ci przejść przez najważniejszy pr
     id: "moze_dobrze",
     title: "Może dobrze, a może niedobrze",
     subtitle: "O mądrości nieoceniania i wewnętrznym spokoju",
-    audioFile: "./OPOWIADANIA MOTYWACYJNE/VOICE + AUDIO/MOZE DOBRZE A MOZE NIEDOBRZE.mp3",
+    audioFile: "./OPOWIADANIA MOTYWACYJNE/audio/MOZE DOBRZE A MOZE NIEDOBRZE.mp3",
     description: `Czy zdarza Ci się czasem, że gdy coś w Twoim życiu idzie zupełnie nie po Twojej myśli, w Twojej głowie natychmiast pojawia się lęk i głos, który mówi: „To straszne nieszczęście, dlaczego znowu mnie to spotyka?”. W ciele automatycznie pojawia się napięcie, a my czujemy się uwięzieni w spirali trudnych emocji i czarnych scenariuszy.
 
 Ta przypowieść o starym rolniku, jego synu i koniach to jedna z najpiękniejszych lekcji o tym, jak odzyskać prawdziwy, wewnętrzny spokój. Pokazuje nam ona, że jako ludzie widzimy w danym momencie zaledwie jedną małą kartkę z całej, potężnej księgi życia.
@@ -31,7 +31,7 @@ Usiądź wygodnie, zamknij oczy, weź głęboki oddech i pozwól tej kojącej hi
     id: "dwa_wilki",
     title: "Opowieść o Dwóch Wilkach",
     subtitle: "Wybór, który zmienia wszystko",
-    audioFile: "./OPOWIADANIA MOTYWACYJNE/VOICE + AUDIO/OPOWIESC O DWOCH WILKACH.mp3",
+    audioFile: "./OPOWIADANIA MOTYWACYJNE/audio/OPOWIESC O DWOCH WILKACH.mp3",
     description: `Czy wiesz, że w tej samej sekundzie, w której parzysz poranną kawę, w Twoim wnętrzu zaczyna się najważniejsza bitwa dnia? W zwykły wtorek, kiedy stoisz w korku, kiedy słyszysz trudne słowo od drugiej osoby, albo kiedy wieczorem gasisz światło i zostajesz sam na sam ze swoimi myślami – dokładnie wtedy podejmujesz decyzję, która kształtuje Twoją rzeczywistość.
 
 Stara indiańska mądrość przypomina nam, że w każdym z nas bez przerwy żyją dwa wilki, które walczą o naszą uwagę. Jeden z nich karmi się lękiem, starymi żalami, poczuciem winy, złością i potrzebą kontroli. Drugi to wilk spokoju, miłości, wdzięczności, intuicji i głębokiego zaufania do własnej drogi.
@@ -46,7 +46,7 @@ Usiądź wygodnie, wycisz telefon, weź głęboki oddech i pozwól tej kojącej 
     id: "gasienica_kokon",
     title: "Przypowieść o Gąsienicy i Kokonie",
     subtitle: "O bólach transformacji i ukrytej sile",
-    audioFile: "./OPOWIADANIA MOTYWACYJNE/VOICE + AUDIO/PRZYPOWIESC O GASIENNICY I KOKONIE.mp3",
+    audioFile: "./OPOWIADANIA MOTYWACYJNE/audio/PRZYPOWIESC O GASIENNICY I KOKONIE.mp3",
     description: `Jeśli masz czasami wrażenie, że Twoje obecne życie to pasmo niekończących się trudności, z którymi walczysz resztkami sił… zatrzymaj się na chwilę i weź głęboki oddech. Ta niezwykle głęboka opowieść wyjaśni Ci, dlaczego ten dyskomfort i ból są teraz obecne na Twojej drodze.
 
 Kiedy utykamy w bolesnych momentach – w procesie nagłej zmiany, rozstania czy osobistego kryzysu – naszą naturalną reakcją jest chęć ucieczki przed cierpieniem. Bardzo chcielibyśmy, aby pojawił się ktoś z boku i ułatwił nam drogę, uwalniając nas od ciężaru. Jednak historia mężczyzny, który z czystego współczucia postanowił pomóc motylowi i rozciął nożyczkami ciasny kokon, niesie ze sobą poruszającą prawdę o prawach natury.
@@ -61,7 +61,7 @@ Usiądź wygodnie, zamknij oczy i pozwól moim słowom przenieść Cię do miejs
     id: "pierscien_krola",
     title: "Opowieść o Pierścieniu Króla",
     subtitle: "Dwa słowa, które przynoszą natychmiastową ulgę",
-    audioFile: "./OPOWIADANIA MOTYWACYJNE/VOICE + AUDIO/TO MINIE.mp3",
+    audioFile: "./OPOWIADANIA MOTYWACYJNE/audio/TO MINIE.mp3",
     description: `Czy wiesz, co perscy poeci i mistycy tysiąc lat temu radzili królowi Salomonowi na chwile największego kryzysu? Ta starożytna przypowieść kryje w sobie sekret, który natychmiast przynosi głęboki, wewnętrzny spokój.
 
 Dawno, dawno temu, mądry władca kazał wykuć wyjątkowy pierścień i zażądał od swoich mędrców, aby ukryli w nim przesłanie, które pomoże mu w nagłej potrzebie. Miało być ono uniwersalne – wspierać go w dniach klęski i smutku, ale też uczyć pokory w czasach triumfu i wielkiej radości. Gdy królestwo nawiedził głód oraz zaraza, a władca tonął w rozpaczy, otworzył pierścień i przeczytał wyryte we wnętrzu dwa słowa: „TO MINIE”. I tak się stało – kryzys przeminął.
@@ -78,7 +78,7 @@ Pozwól sobie na ten moment głębokiego wyciszenia. Zanurz się w tej opowieśc
     id: "gwozdzie_plocie",
     title: "Opowieść o gwoździach w płocie",
     subtitle: "O sile słów i śladach w sercu",
-    audioFile: "./OPOWIADANIA MOTYWACYJNE/VOICE + AUDIO/GWOZDZIE W PLOCIE.mp3",
+    audioFile: "./OPOWIADANIA MOTYWACYJNE/audio/GWOZDZIE W PLOCIE.mp3",
     description: `Czy zdarzyło Ci się kiedyś pod wpływem impulsu, w przypływie złości lub bezsilności, powiedzieć komuś bliskiemu słowa, których chwilę później głęboko żałowałaś? Choć burza emocjonalna mija, a z Twoich ust padają szczere przeprosiny, w powietrzu i w relacji pozostaje trudny do zatarcia ślad.
 
 Ta niezwykle poruszająca opowieść o porywczym chłopcu i gwoździach wbijanych w ogrodzenie ogrodu niesie ze sobą jedną z najważniejszych życiowych lekcji o naturze naszych reakcji i sile rzucanych słów. Pokazuje, jak ogromną pracę nad sobą musiał wykonać młody człowiek, by nauczyć się panować nad swoim gniewem i powstrzymywać niszczycielskie emocje.
