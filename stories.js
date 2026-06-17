@@ -128,7 +128,18 @@ function toggleAudio() {
       .catch(err => {
         console.warn('Playback failed:', err);
         audioIsPlaying = false;
-        updatePlayerUIState();
+        const statusEl = document.getElementById('playerStatus');
+        if (statusEl) {
+          statusEl.innerHTML = currentLang === 'pl'
+            ? '❌ Nie można odtworzyć pliku audio (spróbuj odświeżyć)'
+            : '❌ Audio konnte nicht abgespielt werden';
+        }
+        const iconPlay = document.getElementById('icon-play');
+        const iconPause = document.getElementById('icon-pause');
+        if (iconPlay && iconPause) {
+          iconPlay.style.display = 'block';
+          iconPause.style.display = 'none';
+        }
       });
   }
 }
@@ -226,6 +237,23 @@ document.addEventListener('DOMContentLoaded', () => {
       updatePlayerUIState();
       if (progressFill) progressFill.style.width = '0%';
       if (currentText) currentText.textContent = '0:00';
+    });
+
+    player.addEventListener('error', (e) => {
+      console.error('Audio loading error:', e);
+      const statusEl = document.getElementById('playerStatus');
+      if (statusEl) {
+        statusEl.innerHTML = currentLang === 'pl'
+          ? '❌ Nie można załadować pliku audio (spróbuj odświeżyć stronę)'
+          : '❌ Audiodatei konnte nicht geladen werden';
+      }
+      audioIsPlaying = false;
+      const iconPlay = document.getElementById('icon-play');
+      const iconPause = document.getElementById('icon-pause');
+      if (iconPlay && iconPause) {
+        iconPlay.style.display = 'block';
+        iconPause.style.display = 'none';
+      }
     });
   }
 

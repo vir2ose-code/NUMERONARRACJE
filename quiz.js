@@ -3,6 +3,16 @@ let currentQuestionIndex = 0;
 let scores = { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0 };
 let chosenAnswers = []; // Track answers to support language switching without losing progress
 let calculatedPillars = { lu: '—', du: '—', mu: '—', kw: '—' };
+let activeQuestionsOrder = [];
+let activeAnswersPermutations = {};
+
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
 
 // ── Mathematical Reduction & Parsing for 4 Pillars ──
 function reduceToSingle(num) {
@@ -364,23 +374,30 @@ function updateQuizTexts() {
   // If quiz container is active, translate active question & options
   const quizCard = document.getElementById('quiz-container');
   if (quizCard && !quizCard.classList.contains('hidden')) {
-    const qData = quizQuestions[currentQuestionIndex];
+    const qId = activeQuestionsOrder[currentQuestionIndex];
+    const qData = quizQuestions[qId];
     if (qData) {
       // Progress text
       let progText = trans[currentLang]['quiz_progress'];
       progText = progText.replace('{current}', currentQuestionIndex + 1).replace('{total}', quizQuestions.length);
       document.getElementById('quiz-progress-text').innerHTML = progText;
       
-      // Question title
-      document.getElementById('question-title').innerHTML = qData[currentLang].question;
+      // Question title (remove leading numbers like "1. ")
+      let questionText = qData[currentLang].question;
+      questionText = questionText.replace(/^\d+\.\s+/, '');
+      document.getElementById('question-title').innerHTML = questionText;
 
       // Update answer buttons in place without rebuilding DOM to avoid losing active state
       const ansButtons = document.querySelectorAll('.ans-btn');
-      qData[currentLang].answers.forEach((ans, i) => {
-        if (ansButtons[i]) {
-          ansButtons[i].innerHTML = ans.text;
-        }
-      });
+      const perm = activeAnswersPermutations[qId];
+      if (perm) {
+        perm.forEach((ansIdx, i) => {
+          const ans = qData[currentLang].answers[ansIdx];
+          if (ansButtons[i]) {
+            ansButtons[i].innerHTML = ans.text;
+          }
+        });
+      }
     }
   }
 
@@ -462,6 +479,21 @@ function startQuiz() {
       quizCard.style.opacity = '1';
     }, 50);
     
+    // Generate shuffled questions order
+    activeQuestionsOrder = [];
+    for (let i = 0; i < quizQuestions.length; i++) {
+      activeQuestionsOrder.push(i);
+    }
+    shuffleArray(activeQuestionsOrder);
+
+    // Generate shuffled answers order for each question
+    activeAnswersPermutations = {};
+    for (let i = 0; i < quizQuestions.length; i++) {
+      const perm = [0, 1, 2, 3, 4, 5, 6, 7, 8];
+      shuffleArray(perm);
+      activeAnswersPermutations[i] = perm;
+    }
+
     currentQuestionIndex = 0;
     scores = { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0 };
     chosenAnswers = [];
@@ -471,7 +503,8 @@ function startQuiz() {
 
 function loadQuestion(index) {
   currentQuestionIndex = index;
-  const qData = quizQuestions[index];
+  const qId = activeQuestionsOrder[index];
+  const qData = quizQuestions[qId];
   const trans = (typeof translations !== 'undefined' ? translations : (window.translations || null));
   if (!trans || !trans[currentLang]) return;
 
@@ -484,14 +517,18 @@ function loadQuestion(index) {
   progText = progText.replace('{current}', index + 1).replace('{total}', quizQuestions.length);
   document.getElementById('quiz-progress-text').innerHTML = progText;
 
-  // Question Title
-  document.getElementById('question-title').innerHTML = qData[currentLang].question;
+  // Question Title (remove leading numbers like "1. ")
+  let questionText = qData[currentLang].question;
+  questionText = questionText.replace(/^\d+\.\s+/, '');
+  document.getElementById('question-title').innerHTML = questionText;
 
   // Rebuild Answer Buttons
   const wrapper = document.getElementById('answers-wrapper');
   wrapper.innerHTML = '';
 
-  qData[currentLang].answers.forEach((ans, i) => {
+  const perm = activeAnswersPermutations[qId];
+  perm.forEach(ansIdx => {
+    const ans = qData[currentLang].answers[ansIdx];
     const btn = document.createElement('button');
     btn.className = 'ans-btn';
     btn.innerHTML = ans.text;
