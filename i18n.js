@@ -21,7 +21,10 @@ const translations = {
     tr_emo_title: "Co teraz czujesz?",
     tr_emo_sub: "Wpisz lub wybierz emocję i otrzymaj natychmiastowe wsparcie",
     tr_emo_btn: "LISTA",
-    tr_emo_ph: "Wpisz np. smutek, lęk...",
+    tr_emo_ph: "Wpisz np. smutek, lęk, radość, wdzięczność...",
+    emo_desc_btn_show: "Jak poczuć to, co w Tobie?",
+    emo_desc_btn_hide: "Ukryj opis",
+    emo_desc: `<p><strong>Zatrzymaj się na jedną krótką chwilę, zamknij na moment oczy i weź głęboki oddech.</strong></p><p>Przenieś całą swoją uwagę z goniących myśli prosto do wnętrza swojego ciała. Nasze emocje to nic innego jak energia, która zawsze zostawia w nas fizyczny ślad – to zakodowane w ciele komunikaty, które próbują opowiedzieć nam o tym, kim jesteśmy i czego w tej sekundzie potrzebujemy.</p><h4 class="mindfulness-h4">Zadaj sobie proste pytanie: Jaką emocję teraz czuję?</h4><ul class="mindfulness-list"><li>Czy w Twojej klatce piersiowej pojawia się lekkie ściśnięcie lub ciężar?</li><li>A może czujesz przyjemne ciepło, rozlewające się w okolicach serca?</li><li>Czy Twoje gardło jest lekko spięte, żołądek drży, a może barki są podejrzanie uniesione i sztywne?</li></ul><p>Kiedy namierzysz to konkretne miejsce i fizyczne odczucie, pozwól mu po prostu być – bez oceniania, czy to dobre, czy złe. Każdy ten sygnał to drogowskaz do Twojego naturalnego potencjału i talentów, które często skrywają się pod warstwą codziennego stresu. Zobacz, jaka emocja kryje się pod tym fizycznym wrażeniem. Czy to lęk, smutek, a może czysta radość lub wdzięczność?</p>`,
     
     // Mindfulness Section
     mindfulness_title: "Zatrzymaj się w biegu",
@@ -254,7 +257,10 @@ const translations = {
     tr_emo_title: "Was fühlst du jetzt?",
     tr_emo_sub: "Gib ein Gefühl ein oder wähle eines aus und erhalte sofortige Unterstützung",
     tr_emo_btn: "LISTE",
-    tr_emo_ph: "Gib z.B. Traurigkeit, Angst ein...",
+    tr_emo_ph: "Gib z.B. Traurigkeit, Angst, Freude, Dankbarkeit ein...",
+    emo_desc_btn_show: "Wie spürst du, was in dir ist?",
+    emo_desc_btn_hide: "Beschreibung ausblenden",
+    emo_desc: `<p><strong>Halte für einen kurzen Moment inne, schließe für einen Augenblick die Augen und nimm einen tiefen Atemzug.</strong></p><p>Richte deine ganze Aufmerksamkeit weg von den kreisenden Gedanken und direkt in deinen Körper. Unsere Emotionen sind nichts anderes als Energie, die immer eine physische Spur in uns hinterlässt – es sind im Körper codierte Botschaften, die uns mitteilen wollen, wer wir sind und was wir in dieser Sekunde brauchen.</p><h4 class="mindfulness-h4">Stelle dir selbst eine einfache Frage: Welche Emotion spüre ich jetzt?</h4><ul class="mindfulness-list"><li>Entsteht in deiner Brust eine leichte Enge oder Schwere?</li><li>Oder spürst du eine angenehme Wärme, die sich in der Herzgegend ausbreitet?</li><li>Ist deine Kehle leicht angespannt, zittert dein Magen, oder sind deine Schultern verdächtig hochgezogen und steif?</li></ul><p>Sobald du diese bestimmte Stelle und die körperliche Empfindung wahrnimmst, erlaube ihr einfach da zu sein – ohne zu bewerten, ob das gut oder schlecht ist. Jedes dieser Signale ist ein Wegweiser zu deinem natürlichen Potenzial und deinen Talenten, die sich oft unter einer Schicht von alltäglichem Stress verbergen. Schau mal, welche Emotion sich hinter diesem körperlichen Eindruck verbirgt. Ist es Angst, Traurigkeit, oder vielleicht reine Freude oder Dankbarkeit?</p>`,
     
     // Mindfulness Section (DE)
     mindfulness_title: "Halt inne im Lauf",

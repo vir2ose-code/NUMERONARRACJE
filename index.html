@@ -142,9 +142,22 @@
             <div class="tracker-card">
                 <h2 class="tracker-title" data-i18n="tr_emo_title">Co teraz czujesz?</h2>
                 <p class="tracker-sub" data-i18n="tr_emo_sub">Nazwanie emocji to pierwszy krok do zrozumienia siebie</p>
+                
+                <!-- Toggle Description Button -->
+                <button class="mindfulness-toggle-btn" id="emoDescToggleBtn" onclick="toggleEmoDesc()" style="margin-bottom: 20px;">
+                    <span id="emoDescToggleText" data-i18n="emo_desc_btn_show">Jak poczuć to, co w Tobie?</span>
+                    <span class="arrow" id="emoDescToggleArrow">➔</span>
+                </button>
+
+                <!-- Description Area -->
+                <div class="mindfulness-desc-container" id="emoDescContainer" style="display: none; margin-bottom: 20px;">
+                    <div class="mindfulness-desc" id="emoDesc" data-i18n="emo_desc">
+                        <!-- Injected by i18n -->
+                    </div>
+                </div>
+
                 <div class="emo-input-wrap">
                     <input type="text" class="emo-input" id="emoInput" data-i18n-placeholder="tr_emo_ph" placeholder="Zacznij pisać...">
-                    <button class="emo-btn" data-i18n="tr_emo_btn">📋 Lista</button>
                 </div>
                 <div class="emo-tags-section" id="emoTagsSection"></div>
                 <!-- #emoResult dynamically appended by app.js -->

@@ -577,6 +577,30 @@ function toggleMindfulnessDesc() {
   }
 }
 
+function toggleEmoDesc() {
+  const container = document.getElementById('emoDescContainer');
+  const btn = document.getElementById('emoDescToggleBtn');
+  const txt = document.getElementById('emoDescToggleText');
+  const trans = (typeof translations !== 'undefined' ? translations : (window.translations || null));
+  
+  if (!container || !btn) return;
+  
+  if (container.style.display === 'none') {
+    container.style.display = 'block';
+    btn.classList.add('active');
+    if (txt && trans && trans[currentLang]) {
+      txt.textContent = trans[currentLang].emo_desc_btn_hide;
+    }
+  } else {
+    container.style.display = 'none';
+    btn.classList.remove('active');
+    if (txt && trans && trans[currentLang]) {
+      txt.textContent = trans[currentLang].emo_desc_btn_show;
+    }
+  }
+}
+window.toggleEmoDesc = toggleEmoDesc;
+
 function refreshMindfulnessLanguage() {
   const container = document.getElementById('mindfulnessDescContainer');
   const txt = document.getElementById('mindToggleText');
@@ -1005,34 +1029,9 @@ function initEmotionTracker() {
     `;
   }
 
-  // 2. Renderowanie domyślnych tagów (słownikowych)
+  // 2. Czyszczenie tagów (usunięto domyślne tagi)
   function renderDefaultTags() {
-    const defaultKeys = currentLang === 'pl' 
-      ? ['lęk', 'smutek', 'radość', 'wdzięczność'] 
-      : ['angst', 'traurigkeit', 'freude', 'dankbarkeit'];
-
-    let html = '';
-    html += `<div class="emo-tags" style="margin-top: 10px;">`;
-    
-    defaultKeys.forEach(k => {
-      const displayLabel = k.charAt(0).toUpperCase() + k.slice(1);
-      const isDifficult = k === 'lęk' || k === 'smutek' || k === 'angst' || k === 'traurigkeit';
-      const colorClass = isDifficult ? 'red' : 'green';
-      
-      html += `<div class="emo-tag ${colorClass}" data-emo="${k}">${displayLabel}</div>`;
-    });
-    
-    html += `</div>`;
-    section.innerHTML = html;
-
-    // Dodanie nasłuchiwaczy dla tagów
-    section.querySelectorAll('.emo-tag').forEach(tag => {
-      tag.addEventListener('click', () => {
-        const val = tag.getAttribute('data-emo');
-        input.value = tag.textContent;
-        triggerEmotionAnalysis(val);
-      });
-    });
+    section.innerHTML = '';
   }
 
   // 3. Obsługa wpisywania i autouzupełniania z listy
@@ -1119,6 +1118,17 @@ function initEmotionTracker() {
       }
       activeEmotion = mappedEmotion;
       triggerEmotionAnalysis(mappedEmotion);
+    }
+
+    // Odświeżenie tekstu przycisku opisu emocji
+    const container = document.getElementById('emoDescContainer');
+    const txt = document.getElementById('emoDescToggleText');
+    if (txt && trans && trans[currentLang]) {
+      if (container && container.style.display === 'block') {
+        txt.textContent = trans[currentLang].emo_desc_btn_hide;
+      } else {
+        txt.textContent = trans[currentLang].emo_desc_btn_show;
+      }
     }
   };
 
