@@ -638,6 +638,22 @@ document.addEventListener('DOMContentLoaded', () => {
       
       this.value = formatted.substring(0, 10);
     });
+
+    // Enter key triggers calculations
+    dateInput.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') {
+        calculateAll();
+      }
+    });
+  }
+
+  const nameInput = document.getElementById('fullName');
+  if (nameInput) {
+    nameInput.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') {
+        calculateAll();
+      }
+    });
   }
 
   initEmotionTracker();
