@@ -149,6 +149,57 @@
                 <div class="emo-tags-section" id="emoTagsSection"></div>
                 <!-- #emoResult dynamically appended by app.js -->
             </div>
+
+            <!-- ── MINDFULNESS PRACTICE (NEW) ── -->
+            <div class="tracker-card mindfulness-card">
+                <h2 class="tracker-title" data-i18n="mindfulness_title">Zatrzymaj się w biegu</h2>
+                <p class="tracker-sub" data-i18n="mindfulness_sub">Praktyka uważności (Mindfulness)</p>
+                
+                <!-- Toggle Description Button -->
+                <button class="mindfulness-toggle-btn" id="mindfulnessToggleBtn" onclick="toggleMindfulnessDesc()">
+                    <span id="mindToggleText" data-i18n="mindfulness_btn_show">Pokaż opis praktyki</span>
+                    <span class="arrow" id="mindToggleArrow">➔</span>
+                </button>
+
+                <!-- Description Area -->
+                <div class="mindfulness-desc-container" id="mindfulnessDescContainer" style="display: none;">
+                    <div class="mindfulness-desc" id="mindfulnessDesc" data-i18n="mindfulness_desc">
+                        <!-- Injected by i18n -->
+                    </div>
+                </div>
+
+                <!-- Custom Audio Player -->
+                <div class="mindfulness-player-container">
+                    <div class="player-row">
+                        <!-- Play/Pause Button -->
+                        <button class="play-btn-circle" id="mindPlayPauseBtn" aria-label="Play">
+                            <svg class="play-icon-svg" id="mind-icon-play" viewBox="0 0 24 24" style="display: block;">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                            <svg class="play-icon-svg" id="mind-icon-pause" viewBox="0 0 24 24" style="display: none;">
+                                <path d="M6 19h4V5H6zm8-14v14h4V5z"/>
+                            </svg>
+                        </button>
+
+                        <div class="player-info">
+                            <div class="player-track-lbl" data-i18n="mindfulness_audio_label">SŁUCHOWISKO MINDFULNESS</div>
+                            <div class="player-track-status" id="mindPlayerStatus" data-i18n="mindfulness_status_idle">Naciśnij play, aby odsłuchać</div>
+                        </div>
+                    </div>
+
+                    <!-- Progress Bar -->
+                    <div class="progress-container">
+                        <span class="time-text" id="mindCurrentTime">0:00</span>
+                        <div class="progress-bar-wrap" id="mindProgressBarWrap">
+                            <div class="progress-bar-fill" id="mindProgressBarFill"></div>
+                        </div>
+                        <span class="time-text" id="mindDurationTime">0:00</span>
+                    </div>
+                </div>
+
+                <!-- Hidden audio tag -->
+                <audio id="mindAudioPlayer" preload="none"></audio>
+            </div>
         </div>
     </section>
 

@@ -135,6 +135,10 @@ function switchLang(lang) {
     refreshEmotionTrackerLanguage();
   }
 
+  if (typeof refreshMindfulnessLanguage === 'function') {
+    refreshMindfulnessLanguage();
+  }
+
   if (typeof updateAudioUIState === 'function') {
     updateAudioUIState();
   }
@@ -409,6 +413,196 @@ function toggleAudio() {
   };
 }
 
+// ── Mindfulness Player & Description Logic ──
+function initMindfulnessPlayer() {
+  const player = document.getElementById('mindAudioPlayer');
+  const playPauseBtn = document.getElementById('mindPlayPauseBtn');
+  const progressWrap = document.getElementById('mindProgressBarWrap');
+  const progressFill = document.getElementById('mindProgressBarFill');
+  const currentText = document.getElementById('mindCurrentTime');
+  const durationText = document.getElementById('mindDurationTime');
+  const statusEl = document.getElementById('mindPlayerStatus');
+  
+  const iconPlay = document.getElementById('mind-icon-play');
+  const iconPause = document.getElementById('mind-icon-pause');
+  
+  if (!player || !playPauseBtn) return;
+  
+  let mindPlaying = false;
+  
+  player.src = './co_teraz_czujesz/zatrzymanie_w_biegu.mp3';
+  player.load();
+  
+  function updateUIState() {
+    const trans = (typeof translations !== 'undefined' ? translations : (window.translations || null));
+    if (!iconPlay || !iconPause || !statusEl) return;
+    
+    if (mindPlaying) {
+      iconPlay.style.display = 'none';
+      iconPause.style.display = 'block';
+      statusEl.innerHTML = trans && trans[currentLang] && trans[currentLang].mindfulness_status_playing
+        ? trans[currentLang].mindfulness_status_playing
+        : 'Odtwarzanie słuchowiska... 🔊';
+    } else {
+      iconPlay.style.display = 'block';
+      iconPause.style.display = 'none';
+      statusEl.innerHTML = trans && trans[currentLang] && trans[currentLang].mindfulness_status_paused
+        ? trans[currentLang].mindfulness_status_paused
+        : 'Odtwarzanie wstrzymane ⏸';
+    }
+  }
+
+  function togglePlay() {
+    // If the Daily Forecast player is playing, pause it first
+    const otherPlayer = document.getElementById('audioPlayer');
+    if (otherPlayer && !otherPlayer.paused) {
+      otherPlayer.pause();
+      if (typeof audioIsPlaying !== 'undefined') audioIsPlaying = false;
+      if (typeof updateAudioUIState === 'function') updateAudioUIState();
+    }
+    
+    if (mindPlaying) {
+      player.pause();
+      mindPlaying = false;
+      updateUIState();
+    } else {
+      player.play()
+        .then(() => {
+          mindPlaying = true;
+          updateUIState();
+        })
+        .catch(err => {
+          console.warn('Mindfulness playback failed:', err);
+          mindPlaying = false;
+          if (statusEl) {
+            const trans = (typeof translations !== 'undefined' ? translations : (window.translations || null));
+            statusEl.innerHTML = trans && trans[currentLang] && trans[currentLang].mindfulness_status_play_err
+              ? trans[currentLang].mindfulness_status_play_err
+              : '❌ Nie można odtworzyć pliku audio (spróbuj odświeżyć)';
+          }
+          if (iconPlay && iconPause) {
+            iconPlay.style.display = 'block';
+            iconPause.style.display = 'none';
+          }
+        });
+    }
+  }
+  
+  playPauseBtn.addEventListener('click', togglePlay);
+  
+  player.addEventListener('timeupdate', () => {
+    if (player.duration) {
+      const pct = (player.currentTime / player.duration) * 100;
+      if (progressFill) progressFill.style.width = `${pct}%`;
+      if (currentText) currentText.textContent = formatTime(player.currentTime);
+    }
+  });
+  
+  player.addEventListener('loadedmetadata', () => {
+    if (durationText) durationText.textContent = formatTime(player.duration);
+  });
+  
+  player.addEventListener('ended', () => {
+    mindPlaying = false;
+    updateUIState();
+    if (progressFill) progressFill.style.width = '0%';
+    if (currentText) currentText.textContent = '0:00';
+    
+    if (statusEl) {
+      const trans = (typeof translations !== 'undefined' ? translations : (window.translations || null));
+      statusEl.innerHTML = trans && trans[currentLang] && trans[currentLang].mindfulness_status_idle
+        ? trans[currentLang].mindfulness_status_idle
+        : 'Naciśnij play, aby odsłuchać';
+    }
+  });
+  
+  player.addEventListener('error', (e) => {
+    console.error('Mindfulness audio loading error:', e);
+    mindPlaying = false;
+    if (statusEl) {
+      const trans = (typeof translations !== 'undefined' ? translations : (window.translations || null));
+      statusEl.innerHTML = trans && trans[currentLang] && trans[currentLang].mindfulness_status_loading_err
+        ? trans[currentLang].mindfulness_status_loading_err
+        : '❌ Nie można załadować pliku audio (spróbuj odświeżyć stronę)';
+    }
+    if (iconPlay && iconPause) {
+      iconPlay.style.display = 'block';
+      iconPause.style.display = 'none';
+    }
+  });
+  
+  if (progressWrap) {
+    progressWrap.addEventListener('click', (e) => {
+      const rect = progressWrap.getBoundingClientRect();
+      const clickX = e.clientX - rect.left;
+      const width = rect.width;
+      const pct = clickX / width;
+      if (player.duration) {
+        player.currentTime = pct * player.duration;
+      }
+    });
+  }
+
+  function formatTime(secs) {
+    if (isNaN(secs)) return '0:00';
+    const minutes = Math.floor(secs / 60);
+    const seconds = Math.floor(secs % 60);
+    return `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+  }
+}
+
+function toggleMindfulnessDesc() {
+  const container = document.getElementById('mindfulnessDescContainer');
+  const btn = document.getElementById('mindfulnessToggleBtn');
+  const txt = document.getElementById('mindToggleText');
+  const trans = (typeof translations !== 'undefined' ? translations : (window.translations || null));
+  
+  if (!container || !btn) return;
+  
+  if (container.style.display === 'none') {
+    container.style.display = 'block';
+    btn.classList.add('active');
+    if (txt && trans && trans[currentLang]) {
+      txt.textContent = trans[currentLang].mindfulness_btn_hide;
+    }
+  } else {
+    container.style.display = 'none';
+    btn.classList.remove('active');
+    if (txt && trans && trans[currentLang]) {
+      txt.textContent = trans[currentLang].mindfulness_btn_show;
+    }
+  }
+}
+
+function refreshMindfulnessLanguage() {
+  const container = document.getElementById('mindfulnessDescContainer');
+  const txt = document.getElementById('mindToggleText');
+  const trans = (typeof translations !== 'undefined' ? translations : (window.translations || null));
+  if (!txt || !trans || !trans[currentLang]) return;
+  
+  if (container && container.style.display === 'block') {
+    txt.textContent = trans[currentLang].mindfulness_btn_hide;
+  } else {
+    txt.textContent = trans[currentLang].mindfulness_btn_show;
+  }
+  
+  const player = document.getElementById('mindAudioPlayer');
+  const statusEl = document.getElementById('mindPlayerStatus');
+  if (player && statusEl) {
+    if (player.paused) {
+      if (player.currentTime > 0) {
+        statusEl.innerHTML = trans[currentLang].mindfulness_status_paused;
+      } else {
+        statusEl.innerHTML = trans[currentLang].mindfulness_status_idle;
+      }
+    } else {
+      statusEl.innerHTML = trans[currentLang].mindfulness_status_playing;
+    }
+  }
+}
+
+window.toggleMindfulnessDesc = toggleMindfulnessDesc;
+
 // ── Initialization ──
 document.addEventListener('DOMContentLoaded', () => {
   // Initialize translations on load
@@ -445,6 +639,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   initEmotionTracker();
   initEnergySlider();
+  initMindfulnessPlayer();
 });
 
 // ── Emotion Dictionary ──
