@@ -1898,6 +1898,11 @@ footer .privacy:hover { color: var(--gold-patina-light); }
     text-align: left; /* Make description and elements aligned left for better readability */
 }
 
+.mindfulness-card .tracker-title,
+.mindfulness-card .tracker-sub {
+    text-align: center;
+}
+
 .mindfulness-toggle-btn {
     background: rgba(10, 4, 30, 0.45);
     border: 1px solid rgba(212, 175, 55, 0.2);

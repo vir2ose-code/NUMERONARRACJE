@@ -430,9 +430,6 @@ function initMindfulnessPlayer() {
   
   let mindPlaying = false;
   
-  player.src = './co_teraz_czujesz/zatrzymanie_w_biegu.mp3';
-  player.load();
-  
   function updateUIState() {
     const trans = (typeof translations !== 'undefined' ? translations : (window.translations || null));
     if (!iconPlay || !iconPause || !statusEl) return;
@@ -459,6 +456,12 @@ function initMindfulnessPlayer() {
       otherPlayer.pause();
       if (typeof audioIsPlaying !== 'undefined') audioIsPlaying = false;
       if (typeof updateAudioUIState === 'function') updateAudioUIState();
+    }
+    
+    // Set src if not already set (lazy loading)
+    if (!player.src || player.src === '' || player.src === window.location.href) {
+      player.src = './co_teraz_czujesz/zatrzymanie_w_biegu.mp3';
+      player.load();
     }
     
     if (mindPlaying) {
