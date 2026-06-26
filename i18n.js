@@ -268,7 +268,7 @@ const translations = {
 <p>Dla każdego odwrócenia znajdź w pamięci przynajmniej trzy prawdziwe, namacalne przykłady ze swojego życia. To kluczowy moment, w którym stary schemat w umyśle pęka, a w jego miejsce pojawia się zrozumienie, uzdrowienie i Twoja prawdziwa siła.</p>
 
 <p class="tw-heart-note">💛 Pamiętaj, kochana, że Praca Byron Katie to nie forma samobiczowania. To powrót do domu. Za każdym razem, gdy spotkasz w sobie lęk, potraktuj go tak, jak Tygrysek – z ciekawością detektywa i bezgraniczną miłością do samej siebie. Jesteś gotowa na to, by odzyskać swój spokój?</p>`,
-    tw_cta_label: "Byron Katie — „Kochaj, co masz" · thework.com/polski →",
+    tw_cta_label: `Byron Katie — „Kochaj, co masz” · thework.com/polski →`,
     
     // Birth Path Profile Descriptions
     data: {
@@ -551,7 +551,7 @@ const translations = {
   <li><strong>Auf das völlige Gegenteil</strong> — z.B. <em>„Er respektiert mich"</em> — finde drei konkrete Situationen aus der Vergangenheit als Beweis.</li>
 </ul>
 <p class="tw-heart-note">💛 Denk daran, Liebste — The Work von Byron Katie ist keine Form der Selbstgeißelung. Es ist die Rückkehr nach Hause. Bist du bereit, deinen inneren Frieden zurückzugewinnen?</p>`,
-    tw_cta_label: "Byron Katie — „Lieben was ist" · thework.com →",
+    tw_cta_label: `Byron Katie — „Lieben was ist“ · thework.com →`,
     
     // Birth Path Profile Descriptions
     data: {
