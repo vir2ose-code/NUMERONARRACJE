@@ -1,4 +1,4 @@
-const CACHE_NAME = 'numeronarracje-v31';
+const CACHE_NAME = 'numeronarracje-v32';
 const urlsToCache = [
   './',
   './index.html',
@@ -59,7 +59,17 @@ self.addEventListener('fetch', event => {
         if (response) {
           return response;
         }
-        return fetch(event.request).catch(() => {
+        
+        return fetch(event.request).then(networkResponse => {
+          // If response is valid, and it's a card image request, cache it dynamically
+          if (networkResponse && networkResponse.status === 200 && event.request.url.includes('/KARTY%20MOTYWACYJNE%20Z%20OPISEM/')) {
+            const responseToCache = networkResponse.clone();
+            caches.open(CACHE_NAME).then(cache => {
+              cache.put(event.request, responseToCache);
+            });
+          }
+          return networkResponse;
+        }).catch(() => {
             // Optional: return offline page if implemented
         });
       })

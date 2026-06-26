@@ -3,6 +3,7 @@ const translations = {
     // Nav
     nav_today: "DZISIAJ",
     nav_calc: "KALKULATOR LICZBY URODZENIA",
+    nav_cards: "KARTA DNIA",
     nav_audio: "AUDIO BIBLIOTEKA",
     nav_quiz: "QUIZ",
     nav_about: "O AUTORCE",
@@ -219,6 +220,16 @@ const translations = {
     terms_sec5_bullet1: "Korzystanie z aplikacji w okresie promocyjnym (pierwsze 3 miesiące) jest bezpłatne.",
     terms_sec5_bullet2: "Administrator zastrzega sobie prawo do wprowadzenia w przyszłości płatnego modelu subskrypcyjnego (abonamentu) dla wybranych lub wszystkich funkcji aplikacji, o czym użytkownicy zostaną poinformowani z wyprzedzeniem.",
     
+    // Daily Cards
+    cards_sub: "CODZIENNA INSPIRACJA",
+    cards_main: "TWOJA KARTA DNIA",
+    cards_desc: "Poznaj swoje przesłanie na dziś oparte na wibracji dnia i Twojej dacie urodzenia.",
+    cards_input_label: "DATA TWOJEGO URODZENIA",
+    cards_btn_show: "ODKRYJ SWOJĄ KARTĘ",
+    cards_note: "Twoja karta jest przypisana na 24 godziny i zmieni się o północy. Jest wyliczana na podstawie wibracji dnia oraz Twojej daty urodzenia.",
+    cards_change_date: "Zmień datę urodzenia",
+    alert_invalid_date_cards: "Proszę wpisać poprawną datę urodzenia (DD.MM.RRRR).",
+    
     // Birth Path Profile Descriptions
     data: {
       1: { title: 'PRZYWÓDCA', desc: 'Jesteś pionierem i wizjonerem. Twoja droga to przywództwo, niezależność i odwaga do bycia pierwszym. Posiadasz niezwykłą siłę woli i zdolność do realizacji swoich celów.', traits: ['Przywódca','Pionier','Niezależny','Kreatywny','Odważny'] },
@@ -239,6 +250,7 @@ const translations = {
     // Nav
     nav_today: "HEUTE",
     nav_calc: "GEBURTSZAHLEN-RECHNER",
+    nav_cards: "TAGESKARTE",
     nav_audio: "AUDIO-BIBLIOTHEK",
     nav_quiz: "QUIZ",
     nav_about: "ÜBER DIE AUTORIN",
@@ -453,6 +465,16 @@ const translations = {
     terms_sec5_title: "5. MONETARISIERUNG UND ABONNEMENTS (ZUKUNFTSPLÄNE)",
     terms_sec5_bullet1: "Die Nutzung der Anwendung während des Aktionszeitraums (die ersten 3 Monate) ist kostenlos.",
     terms_sec5_bullet2: "Der Administrator behält sich das Recht vor, in Zukunft ein kostenpflichtiges Abonnementmodell für ausgewählte oder alle Funktionen der Anwendung einzuführen, worüber die Nutzer im Voraus informiert werden.",
+    
+    // Daily Cards
+    cards_sub: "TÄGLICHE INSPIRATION",
+    cards_main: "DEINE TAGESKARTE",
+    cards_desc: "Entdecke deine heutige Botschaft basierend auf der Tagesvibration und deinem Geburtsdatum.",
+    cards_input_label: "DEIN GEBURTSDATUM",
+    cards_btn_show: "DEINE KARTE ENTHÜLLEN",
+    cards_note: "Deine Karte ist für 24 Stunden gültig und ändert sich um Mitternacht. Sie wird basierend auf der Tagesvibration und deinem Geburtsdatum berechnet.",
+    cards_change_date: "Geburtsdatum ändern",
+    alert_invalid_date_cards: "Bitte gib ein gültiges Geburtsdatum ein (TT.MM.JJJJ).",
     
     // Birth Path Profile Descriptions
     data: {

@@ -142,6 +142,10 @@ function switchLang(lang) {
   if (typeof updateAudioUIState === 'function') {
     updateAudioUIState();
   }
+  
+  if (typeof initDailyCard === 'function') {
+    initDailyCard();
+  }
 }
 
 // ── Drawer ──
@@ -231,6 +235,16 @@ function parseDateStr(dateStr) {
 function calculateAll() {
   const dateVal = document.getElementById('birthDate').value;
   const nameVal = document.getElementById('fullName').value;
+
+  try {
+    localStorage.setItem('birthDate', dateVal);
+    localStorage.setItem('fullName', nameVal);
+    if (typeof initDailyCard === 'function') {
+      initDailyCard();
+    }
+  } catch (e) {
+    console.warn('localStorage not accessible:', e);
+  }
 
   const trans = (typeof translations !== 'undefined' ? translations : (window.translations || null));
 
@@ -646,6 +660,9 @@ document.addEventListener('DOMContentLoaded', () => {
   // Initialize Daily Forecast
   initDailyForecast();
 
+  // Initialize Daily Card
+  initDailyCard();
+
   // Auto-format date input: dd.mm.yyyy
   const dateInput = document.getElementById('birthDate');
   if (dateInput) {
@@ -667,6 +684,31 @@ document.addEventListener('DOMContentLoaded', () => {
     dateInput.addEventListener('keydown', function(e) {
       if (e.key === 'Enter') {
         calculateAll();
+      }
+    });
+  }
+
+  // Auto-format cards page date input
+  const cardsDateInput = document.getElementById('cardsBirthDate');
+  if (cardsDateInput) {
+    cardsDateInput.addEventListener('input', function() {
+      let val = this.value.replace(/\D/g, ''); // Extract only numbers
+      let formatted = '';
+      
+      for (let i = 0; i < val.length; i++) {
+        if (i === 2 || i === 4) {
+          formatted += '.';
+        }
+        formatted += val[i];
+      }
+      
+      this.value = formatted.substring(0, 10);
+    });
+
+    // Enter key triggers card drawing
+    cardsDateInput.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') {
+        drawDailyCard();
       }
     });
   }
@@ -763,6 +805,131 @@ function initDailyForecast() {
     console.error('Forecast data not found for key:', dateKey);
   }
 }
+
+// ── Daily Card Logic ──
+function initDailyCard() {
+  let savedBirthDate = null;
+  try {
+    savedBirthDate = localStorage.getItem('birthDate');
+  } catch (e) {
+    console.warn('localStorage not accessible:', e);
+  }
+
+  const inputContainer = document.getElementById('cards-input-container');
+  const displayContainer = document.getElementById('cards-display-container');
+  const cardImage = document.getElementById('dailyCardImage');
+  const inputField = document.getElementById('cardsBirthDate');
+
+  if (!inputContainer || !displayContainer || !cardImage) return;
+
+  if (savedBirthDate) {
+    // Hide input, show display container
+    inputContainer.style.display = 'none';
+    displayContainer.style.display = 'flex';
+
+    // Calculate deterministic card index
+    const parsed = parseDateStr(savedBirthDate);
+    if (!parsed) {
+      inputContainer.style.display = 'block';
+      displayContainer.style.display = 'none';
+      if (inputField) inputField.value = '';
+      return;
+    }
+
+    const birthDigitsSum = String(savedBirthDate).replace(/\D/g, '').split('').reduce((sum, char) => sum + parseInt(char), 0);
+    const dailyVib = getDailyEnergyNumber(); // returns number 1-9
+    
+    const today = new Date();
+    const todayY = today.getFullYear();
+    const todayM = today.getMonth() + 1;
+    const todayD = today.getDate();
+
+    // Deterministic seed
+    const seed = birthDigitsSum + dailyVib + todayY + (todayM * 31) + (todayD * 7);
+    
+    // Select card (1 to 78)
+    const cardIndex = (seed % 78) + 1;
+    const formattedIndex = String(cardIndex).padStart(2, '0');
+
+    // Update image source
+    const newSrc = `./KARTY MOTYWACYJNE Z OPISEM/karta_${formattedIndex}.png`;
+    if (cardImage.getAttribute('src') !== newSrc) {
+      cardImage.style.opacity = '0';
+      cardImage.src = newSrc;
+      cardImage.onload = () => {
+        cardImage.style.transition = 'opacity 0.6s ease';
+        cardImage.style.opacity = '1';
+      };
+    }
+  } else {
+    // Show input container, hide display container
+    inputContainer.style.display = 'block';
+    displayContainer.style.display = 'none';
+    if (inputField) {
+      const mainBirthDate = document.getElementById('birthDate');
+      if (mainBirthDate && mainBirthDate.value) {
+        inputField.value = mainBirthDate.value;
+      }
+    }
+  }
+}
+window.initDailyCard = initDailyCard;
+
+function drawDailyCard() {
+  const inputField = document.getElementById('cardsBirthDate');
+  if (!inputField) return;
+
+  const dateVal = inputField.value;
+  const trans = (typeof translations !== 'undefined' ? translations : (window.translations || null));
+
+  if (!dateVal) {
+    const alertMsg = (trans && trans[currentLang] && trans[currentLang].alert_invalid_date_cards) 
+      ? trans[currentLang].alert_invalid_date_cards 
+      : 'Proszę wpisać poprawną datę urodzenia (DD.MM.RRRR).';
+    alert(alertMsg);
+    return;
+  }
+
+  const parsedDate = parseDateStr(dateVal);
+  if (!parsedDate) {
+    const alertMsg = (trans && trans[currentLang] && trans[currentLang].alert_invalid_date_cards) 
+      ? trans[currentLang].alert_invalid_date_cards 
+      : 'Proszę wpisać poprawną datę urodzenia (DD.MM.RRRR).';
+    alert(alertMsg);
+    return;
+  }
+
+  try {
+    localStorage.setItem('birthDate', dateVal);
+    const mainBirthDate = document.getElementById('birthDate');
+    if (mainBirthDate) mainBirthDate.value = dateVal;
+  } catch (e) {
+    console.warn('localStorage not accessible:', e);
+  }
+
+  initDailyCard();
+  
+  const displayContainer = document.getElementById('cards-display-container');
+  if (displayContainer) {
+    displayContainer.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+}
+window.drawDailyCard = drawDailyCard;
+
+function changeCardsBirthDate() {
+  try {
+    localStorage.removeItem('birthDate');
+    const cardsInput = document.getElementById('cardsBirthDate');
+    if (cardsInput) cardsInput.value = '';
+    const mainInput = document.getElementById('birthDate');
+    if (mainInput) mainInput.value = '';
+  } catch (e) {
+    console.warn('localStorage not accessible:', e);
+  }
+
+  initDailyCard();
+}
+window.changeCardsBirthDate = changeCardsBirthDate;
 
 // ── Energy Messages Database (PL & DE) ──
 const ENERGY_MESSAGES = {

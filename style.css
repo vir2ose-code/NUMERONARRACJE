@@ -2080,4 +2080,72 @@ footer .privacy:hover { color: var(--gold-patina-light); }
     transition: width 0.1s linear;
 }
 
+/* ── DAILY CARDS (KARTA DNIA) ── */
+.cards-display-container {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-glow-wrapper {
+    position: relative;
+    border-radius: 20px;
+    padding: 3px;
+    background: linear-gradient(135deg, rgba(212, 175, 55, 0.3) 0%, rgba(138, 43, 226, 0.2) 100%);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6), 
+                0 0 25px rgba(212, 175, 55, 0.25), 
+                0 0 50px rgba(30, 10, 60, 0.4);
+    border: 1px solid rgba(212, 175, 55, 0.35);
+    transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), 
+                box-shadow 0.4s ease, 
+                border-color 0.4s ease;
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 450px;
+    width: 100%;
+}
+
+.card-glow-wrapper:hover {
+    transform: scale(1.03) translateY(-4px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.8), 
+                0 0 35px rgba(212, 175, 55, 0.55), 
+                0 0 60px rgba(138, 43, 226, 0.35);
+    border-color: rgba(212, 175, 55, 0.7);
+}
+
+.cards-display-container img {
+    width: 100%;          /* Karta rozszerzy się na całą dostępną szerokość kontenera */
+    max-width: 450px;     /* ...ale nie przekroczy ładnego, maksymalnego rozmiaru */
+    height: auto;         /* Zachowa idealne proporcje, żeby tekst nie był rozciągnięty */
+    object-fit: contain;  /* Pilnuje, żeby cały obrazek był zawsze widoczny i ostry */
+    border-radius: 17px;  /* Match inside wrapper border radius */
+    display: block;
+    opacity: 0;
+    transition: opacity 0.6s ease;
+}
+
+.cards-note {
+    max-width: 400px;
+    margin: 24px auto 0 auto;
+    padding: 0 16px;
+}
+
+.change-date-btn {
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.change-date-btn:hover {
+    color: var(--gold-patina-light);
+    transform: translateY(-1px);
+}
+
+.change-date-btn:active {
+    transform: translateY(0);
+}
+
 

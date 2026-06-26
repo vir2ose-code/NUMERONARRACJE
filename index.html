@@ -29,6 +29,7 @@
     <button class="drawer-close" onclick="closeDrawer()" aria-label="Zamknij menu">✕</button>
     <a class="nav-item" href="#" data-i18n="nav_today" onclick="showPage('forecast'); closeDrawer()">DZISIAJ</a>
     <a class="nav-item" href="#" data-i18n="nav_calc" onclick="showPage('home'); closeDrawer()">KALKULATOR LICZBY URODZENIA</a>
+    <a class="nav-item" href="#" data-i18n="nav_cards" onclick="showPage('cards'); closeDrawer()">KARTA DNIA</a>
     <a class="nav-item" href="#" data-i18n="nav_audio" onclick="showPage('audio'); closeDrawer()">AUDIO BIBLIOTEKA</a>
     <a class="nav-item" href="stories.html" data-i18n="nav_stories" onclick="closeDrawer()">OPOWIADANIA MOTYWACYJNE</a>
     <a class="nav-item" href="quiz.html" data-i18n="nav_quiz" onclick="closeDrawer()">QUIZ</a>
@@ -281,6 +282,44 @@
             </div>
         </div>
     </main>
+    
+    <!-- ══════════════════════════════════════════
+         PAGE 2B: KARTA DNIA (MOTIVATIONAL CARDS)
+    ══════════════════════════════════════════ -->
+    <section id="page-cards" class="page-section" style="padding-top: 90px; padding-bottom: 60px; display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%;">
+        <div class="forecast-sub" data-i18n="cards_sub">CODZIENNA INSPIRACJA</div>
+        <h2 class="forecast-main" data-i18n="cards_main">TWOJA KARTA DNIA</h2>
+        <p class="hero-sub" data-i18n="cards_desc" style="margin-top: 12px; margin-bottom: 40px; text-align: center;">Poznaj swoje przesłanie na dziś oparte na wibracji dnia i Twojej dacie urodzenia.</p>
+
+        <!-- ── Birth Date Input Container (Shown if birth date is not set) ── -->
+        <div class="card calc-card" id="cards-input-container" style="max-width: 450px; width: 100%; display: none;">
+            <div class="field-label" data-i18n="cards_input_label" style="text-align: center;">DATA TWOJEGO URODZENIA</div>
+            <div class="input-stack">
+                <div class="date-input-wrap">
+                    <input type="text" inputmode="numeric" maxlength="10"
+                           class="date-input" id="cardsBirthDate"
+                           data-i18n-placeholder="date_placeholder"
+                           placeholder="dd.mm.rrrr">
+                </div>
+                <button class="btn-calc" onclick="drawDailyCard()" id="btnDrawCard">
+                    <span data-i18n="cards_btn_show">ODKRYJ SWOJĄ KARTĘ</span> &nbsp;→
+                </button>
+            </div>
+        </div>
+
+        <!-- ── Card Display Container (Shown if birth date is set) ── -->
+        <div class="cards-display-container" id="cards-display-container" style="display: none; flex-direction: column; align-items: center; width: 100%; max-width: 450px; padding: 0 10px;">
+            <div class="card-glow-wrapper">
+                <img id="dailyCardImage" src="" alt="Twoja Karta Dnia">
+            </div>
+            
+            <p class="cards-note" data-i18n="cards_note" style="margin-top: 24px; font-size: 13px; line-height: 1.6; text-align: center; color: var(--silver-dim); text-shadow: 0 1px 3px rgba(0,0,0,0.5);"></p>
+            
+            <button class="change-date-btn" onclick="changeCardsBirthDate()" style="margin-top: 20px; background: none; border: none; color: var(--gold-patina); font-family: 'Cinzel', serif; font-size: 11px; letter-spacing: 0.1em; cursor: pointer; text-decoration: underline; text-transform: uppercase;">
+                <span data-i18n="cards_change_date">Zmień datę urodzenia</span>
+            </button>
+        </div>
+    </section>
 
     <!-- ══════════════════════════════════════════
          PAGE 3: AUDIO BIBLIOTEKA
