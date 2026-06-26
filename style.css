@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,600&family=Cinzel:wght@400;500;600;700&family=Raleway:wght@300;400;500;600&family=Open+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,600&family=Cinzel:wght@400;500;600;700&family=Raleway:wght@300;400;500;600&family=Open+Sans:wght@300;400;600&display=swap');
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -2544,5 +2544,93 @@ footer .privacy:hover { color: var(--gold-patina-light); }
     .tw-audio-card { padding: 16px 18px; border-radius: 18px; }
     .tw-resource-card { padding: 16px 18px; border-radius: 16px; }
 }
+
+/* ── Static Instruction Card ── */
+.tw-instruction-card {
+    width: 100%;
+    background: rgba(20, 10, 40, 0.55);
+    border: 1px solid rgba(212, 175, 55, 0.25);
+    border-radius: 24px;
+    padding: 28px 32px;
+    margin-bottom: 28px;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.06);
+}
+
+.tw-instruction-body {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px;
+    line-height: 1.85;
+    color: var(--silver-dim);
+}
+
+.tw-instruction-body p {
+    margin: 0 0 14px 0;
+}
+
+.tw-step-title {
+    font-family: 'Cinzel', serif;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    color: var(--gold-patina);
+    text-transform: uppercase;
+    margin: 20px 0 10px 0;
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+@media (max-width: 480px) {
+    .tw-instruction-card { padding: 20px 18px; border-radius: 18px; }
+}
+
+/* ── CTA Gold Button ── */
+.tw-cta-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 18px 24px;
+    background: var(--gold-gradient);
+    border-radius: 16px;
+    text-decoration: none;
+    color: var(--purple-deep);
+    font-family: 'Cinzel', serif;
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    font-weight: 600;
+    text-transform: uppercase;
+    box-shadow: 0 0 24px rgba(212, 175, 55, 0.35), 0 8px 24px rgba(0,0,0,0.4);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tw-cta-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 40px rgba(212, 175, 55, 0.55), 0 12px 32px rgba(0,0,0,0.5);
+}
+
+.tw-cta-btn:active {
+    transform: translateY(0);
+}
+
+.tw-cta-icon {
+    font-size: 20px;
+    flex-shrink: 0;
+}
+
+.tw-cta-text {
+    flex: 1;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.tw-cta-arrow {
+    font-size: 18px;
+    flex-shrink: 0;
+    font-family: serif;
+}
+
 
 

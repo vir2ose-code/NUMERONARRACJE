@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
@@ -329,9 +329,16 @@
         <div class="tw-wrapper">
 
             <!-- Header -->
-            <div class="forecast-sub" data-i18n="tw_sub">METODA BYRON KATIE</div>
+            <div class="forecast-sub" data-i18n="tw_sub">PRACA Z PRZEKONANIAMI</div>
             <h2 class="forecast-main" data-i18n="tw_main">THE WORK</h2>
             <p class="tw-intro" data-i18n="tw_intro"></p>
+
+            <!-- ── Instrukcja Krok po Kroku (static text) ── -->
+            <div class="tw-steps-label" data-i18n="tw_steps_label">INSTRUKCJA STOSOWANIA METODY</div>
+
+            <div class="tw-instruction-card">
+                <div class="tw-instruction-body" data-i18n="tw_instruction_full"></div>
+            </div>
 
             <!-- ── Audio Players ── -->
             <div class="tw-audio-section">
@@ -339,7 +346,7 @@
 
                 <!-- Track 1: Szepty -->
                 <div class="tw-audio-card" id="tw-player-1">
-                    <div class="tw-audio-track-name" data-i18n="tw_track1_name">Szepty Appka</div>
+                    <div class="tw-audio-track-name" data-i18n="tw_track1_name">SZEPTY APPKA</div>
                     <div class="tw-audio-controls">
                         <button class="tw-play-btn" onclick="toggleTWAudio(1)" id="tw-play-btn-1" aria-label="Play">
                             <span class="tw-play-icon" id="tw-play-icon-1">▶</span>
@@ -358,7 +365,7 @@
 
                 <!-- Track 2: Tygrysku -->
                 <div class="tw-audio-card" id="tw-player-2">
-                    <div class="tw-audio-track-name" data-i18n="tw_track2_name">Tygrysku, czy to prawda?</div>
+                    <div class="tw-audio-track-name" data-i18n="tw_track2_name">TYGRYSKU, CZY TO PRAWDA?</div>
                     <div class="tw-audio-controls">
                         <button class="tw-play-btn" onclick="toggleTWAudio(2)" id="tw-play-btn-2" aria-label="Play">
                             <span class="tw-play-icon" id="tw-play-icon-2">▶</span>
@@ -377,7 +384,7 @@
 
                 <!-- Track 3: Opowieść -->
                 <div class="tw-audio-card" id="tw-player-3">
-                    <div class="tw-audio-track-name" data-i18n="tw_track3_name">Opowieść o Tkaczu i Czarnym Kruku</div>
+                    <div class="tw-audio-track-name" data-i18n="tw_track3_name">OPOWIEŚĆ O TKACZU I CZARNYM KRUKU</div>
                     <div class="tw-audio-controls">
                         <button class="tw-play-btn" onclick="toggleTWAudio(3)" id="tw-play-btn-3" aria-label="Play">
                             <span class="tw-play-icon" id="tw-play-icon-3">▶</span>
@@ -395,66 +402,16 @@
                 </div>
             </div>
 
-            <!-- ── Accordion Steps ── -->
-            <div class="tw-steps-label" data-i18n="tw_steps_label">PRZEWODNIK KROK PO KROKU</div>
-
-            <div class="tw-accordion" id="tw-acc-1">
-                <button class="tw-acc-header" onclick="toggleTWAccordion(1)" aria-expanded="false">
-                    <span class="tw-acc-num">01</span>
-                    <span class="tw-acc-title" data-i18n="tw_step1_title">Zauważ i zapisz myśl</span>
-                    <span class="tw-acc-arrow">›</span>
-                </button>
-                <div class="tw-acc-body" id="tw-acc-body-1">
-                    <p data-i18n="tw_step1_body"></p>
-                </div>
-            </div>
-
-            <div class="tw-accordion" id="tw-acc-2">
-                <button class="tw-acc-header" onclick="toggleTWAccordion(2)" aria-expanded="false">
-                    <span class="tw-acc-num">02</span>
-                    <span class="tw-acc-title" data-i18n="tw_step2_title">Cztery pytania mocy</span>
-                    <span class="tw-acc-arrow">›</span>
-                </button>
-                <div class="tw-acc-body" id="tw-acc-body-2">
-                    <div data-i18n="tw_step2_body"></div>
-                </div>
-            </div>
-
-            <div class="tw-accordion" id="tw-acc-3">
-                <button class="tw-acc-header" onclick="toggleTWAccordion(3)" aria-expanded="false">
-                    <span class="tw-acc-num">03</span>
-                    <span class="tw-acc-title" data-i18n="tw_step3_title">Odwrócenie (The Turnaround)</span>
-                    <span class="tw-acc-arrow">›</span>
-                </button>
-                <div class="tw-acc-body" id="tw-acc-body-3">
-                    <div data-i18n="tw_step3_body"></div>
-                </div>
-            </div>
-
-            <!-- ── Twój krok dalej ── -->
-            <div class="tw-steps-label" data-i18n="tw_next_label">TWÓJ KROK DALEJ</div>
-
-            <div class="tw-resource-card">
-                <div class="tw-resource-icon">📖</div>
-                <div class="tw-resource-content">
-                    <div class="tw-resource-title" data-i18n="tw_book_title">Byron Katie — „Kochaj, co masz"</div>
-                    <p class="tw-resource-desc" data-i18n="tw_book_desc"></p>
-                </div>
-            </div>
-
-            <a href="https://thework.com/polski" target="_blank" rel="noopener" class="tw-ext-link">
-                <div class="tw-resource-card tw-resource-card--link">
-                    <div class="tw-resource-icon">🌐</div>
-                    <div class="tw-resource-content">
-                        <div class="tw-resource-title" data-i18n="tw_web_title">Darmowe materiały online</div>
-                        <p class="tw-resource-desc" data-i18n="tw_web_desc"></p>
-                        <span class="tw-resource-url">thework.com/polski →</span>
-                    </div>
-                </div>
+            <!-- ── Single CTA Button ── -->
+            <a href="https://thework.com/polski" target="_blank" rel="noopener" class="tw-cta-btn" id="tw-cta-btn">
+                <span class="tw-cta-icon">📖</span>
+                <span class="tw-cta-text" data-i18n="tw_cta_label">Byron Katie — „Kochaj, co masz" · thework.com/polski</span>
+                <span class="tw-cta-arrow">→</span>
             </a>
 
         </div>
     </section>
+
 
     <!-- ══════════════════════════════════════════
          PAGE 3: AUDIO BIBLIOTEKA
