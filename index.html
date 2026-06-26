@@ -30,6 +30,7 @@
     <a class="nav-item" href="#" data-i18n="nav_today" onclick="showPage('forecast'); closeDrawer()">DZISIAJ</a>
     <a class="nav-item" href="#" data-i18n="nav_calc" onclick="showPage('home'); closeDrawer()">KALKULATOR LICZBY URODZENIA</a>
     <a class="nav-item" href="#" data-i18n="nav_cards" onclick="showPage('cards'); closeDrawer()">KARTA DNIA</a>
+    <a class="nav-item" href="#" data-i18n="nav_the_work" onclick="showPage('the-work'); closeDrawer()">THE WORK</a>
     <a class="nav-item" href="#" data-i18n="nav_audio" onclick="showPage('audio'); closeDrawer()">AUDIO BIBLIOTEKA</a>
     <a class="nav-item" href="stories.html" data-i18n="nav_stories" onclick="closeDrawer()">OPOWIADANIA MOTYWACYJNE</a>
     <a class="nav-item" href="quiz.html" data-i18n="nav_quiz" onclick="closeDrawer()">QUIZ</a>
@@ -318,6 +319,140 @@
             <button class="change-date-btn" onclick="changeCardsBirthDate()" style="margin-top: 20px; background: none; border: none; color: var(--gold-patina); font-family: 'Cinzel', serif; font-size: 11px; letter-spacing: 0.1em; cursor: pointer; text-decoration: underline; text-transform: uppercase;">
                 <span data-i18n="cards_change_date">Zmień datę urodzenia</span>
             </button>
+        </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         PAGE 2C: THE WORK (Metoda Byron Katie)
+    ══════════════════════════════════════════ -->
+    <section id="page-the-work" class="page-section" style="padding-top: 90px; padding-bottom: 60px;">
+        <div class="tw-wrapper">
+
+            <!-- Header -->
+            <div class="forecast-sub" data-i18n="tw_sub">METODA BYRON KATIE</div>
+            <h2 class="forecast-main" data-i18n="tw_main">THE WORK</h2>
+            <p class="tw-intro" data-i18n="tw_intro"></p>
+
+            <!-- ── Audio Players ── -->
+            <div class="tw-audio-section">
+                <div class="tw-audio-label" data-i18n="tw_audio_label">GŁOS PRZEWODNIKA</div>
+
+                <!-- Track 1: Szepty -->
+                <div class="tw-audio-card" id="tw-player-1">
+                    <div class="tw-audio-track-name" data-i18n="tw_track1_name">Szepty Appka</div>
+                    <div class="tw-audio-controls">
+                        <button class="tw-play-btn" onclick="toggleTWAudio(1)" id="tw-play-btn-1" aria-label="Play">
+                            <span class="tw-play-icon" id="tw-play-icon-1">▶</span>
+                        </button>
+                        <div class="tw-audio-info">
+                            <div class="tw-audio-status" id="tw-status-1" data-i18n="tw_status_idle">Naciśnij play</div>
+                            <div class="tw-audio-bar-wrap">
+                                <div class="tw-audio-bar">
+                                    <div class="tw-audio-fill" id="tw-fill-1"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <audio id="tw-audio-1" src="./THE WORK/mp3/szepty_appka.mp3" preload="none"></audio>
+                </div>
+
+                <!-- Track 2: Tygrysku -->
+                <div class="tw-audio-card" id="tw-player-2">
+                    <div class="tw-audio-track-name" data-i18n="tw_track2_name">Tygrysku, czy to prawda?</div>
+                    <div class="tw-audio-controls">
+                        <button class="tw-play-btn" onclick="toggleTWAudio(2)" id="tw-play-btn-2" aria-label="Play">
+                            <span class="tw-play-icon" id="tw-play-icon-2">▶</span>
+                        </button>
+                        <div class="tw-audio-info">
+                            <div class="tw-audio-status" id="tw-status-2" data-i18n="tw_status_idle">Naciśnij play</div>
+                            <div class="tw-audio-bar-wrap">
+                                <div class="tw-audio-bar">
+                                    <div class="tw-audio-fill" id="tw-fill-2"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <audio id="tw-audio-2" src="./THE WORK/mp3/tygrysku_czy_to_prawda.mp3" preload="none"></audio>
+                </div>
+
+                <!-- Track 3: Opowieść -->
+                <div class="tw-audio-card" id="tw-player-3">
+                    <div class="tw-audio-track-name" data-i18n="tw_track3_name">Opowieść o Tkaczu i Czarnym Kruku</div>
+                    <div class="tw-audio-controls">
+                        <button class="tw-play-btn" onclick="toggleTWAudio(3)" id="tw-play-btn-3" aria-label="Play">
+                            <span class="tw-play-icon" id="tw-play-icon-3">▶</span>
+                        </button>
+                        <div class="tw-audio-info">
+                            <div class="tw-audio-status" id="tw-status-3" data-i18n="tw_status_idle">Naciśnij play</div>
+                            <div class="tw-audio-bar-wrap">
+                                <div class="tw-audio-bar">
+                                    <div class="tw-audio-fill" id="tw-fill-3"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <audio id="tw-audio-3" src="./THE WORK/mp3/opowiesc_o_tkaczu.mp3" preload="none"></audio>
+                </div>
+            </div>
+
+            <!-- ── Accordion Steps ── -->
+            <div class="tw-steps-label" data-i18n="tw_steps_label">PRZEWODNIK KROK PO KROKU</div>
+
+            <div class="tw-accordion" id="tw-acc-1">
+                <button class="tw-acc-header" onclick="toggleTWAccordion(1)" aria-expanded="false">
+                    <span class="tw-acc-num">01</span>
+                    <span class="tw-acc-title" data-i18n="tw_step1_title">Zauważ i zapisz myśl</span>
+                    <span class="tw-acc-arrow">›</span>
+                </button>
+                <div class="tw-acc-body" id="tw-acc-body-1">
+                    <p data-i18n="tw_step1_body"></p>
+                </div>
+            </div>
+
+            <div class="tw-accordion" id="tw-acc-2">
+                <button class="tw-acc-header" onclick="toggleTWAccordion(2)" aria-expanded="false">
+                    <span class="tw-acc-num">02</span>
+                    <span class="tw-acc-title" data-i18n="tw_step2_title">Cztery pytania mocy</span>
+                    <span class="tw-acc-arrow">›</span>
+                </button>
+                <div class="tw-acc-body" id="tw-acc-body-2">
+                    <div data-i18n="tw_step2_body"></div>
+                </div>
+            </div>
+
+            <div class="tw-accordion" id="tw-acc-3">
+                <button class="tw-acc-header" onclick="toggleTWAccordion(3)" aria-expanded="false">
+                    <span class="tw-acc-num">03</span>
+                    <span class="tw-acc-title" data-i18n="tw_step3_title">Odwrócenie (The Turnaround)</span>
+                    <span class="tw-acc-arrow">›</span>
+                </button>
+                <div class="tw-acc-body" id="tw-acc-body-3">
+                    <div data-i18n="tw_step3_body"></div>
+                </div>
+            </div>
+
+            <!-- ── Twój krok dalej ── -->
+            <div class="tw-steps-label" data-i18n="tw_next_label">TWÓJ KROK DALEJ</div>
+
+            <div class="tw-resource-card">
+                <div class="tw-resource-icon">📖</div>
+                <div class="tw-resource-content">
+                    <div class="tw-resource-title" data-i18n="tw_book_title">Byron Katie — „Kochaj, co masz"</div>
+                    <p class="tw-resource-desc" data-i18n="tw_book_desc"></p>
+                </div>
+            </div>
+
+            <a href="https://thework.com/polski" target="_blank" rel="noopener" class="tw-ext-link">
+                <div class="tw-resource-card tw-resource-card--link">
+                    <div class="tw-resource-icon">🌐</div>
+                    <div class="tw-resource-content">
+                        <div class="tw-resource-title" data-i18n="tw_web_title">Darmowe materiały online</div>
+                        <p class="tw-resource-desc" data-i18n="tw_web_desc"></p>
+                        <span class="tw-resource-url">thework.com/polski →</span>
+                    </div>
+                </div>
+            </a>
+
         </div>
     </section>
 

@@ -2148,4 +2148,367 @@ footer .privacy:hover { color: var(--gold-patina-light); }
     transform: translateY(0);
 }
 
+/* ══════════════════════════════════════════════
+   THE WORK — Metoda Byron Katie
+══════════════════════════════════════════════ */
 
+.tw-wrapper {
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tw-intro {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px;
+    line-height: 1.75;
+    color: var(--silver-dim);
+    text-align: center;
+    margin: 12px 0 32px 0;
+    font-style: italic;
+}
+
+/* ── Audio Section ── */
+.tw-audio-section {
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.tw-audio-label {
+    font-family: 'Cinzel', serif;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    color: var(--gold-patina);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 16px;
+    opacity: 0.85;
+}
+
+.tw-audio-card {
+    background: rgba(30, 10, 60, 0.45);
+    border: 1px solid rgba(212, 175, 55, 0.2);
+    border-radius: 16px;
+    padding: 16px 18px;
+    margin-bottom: 12px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.tw-audio-card.tw-playing {
+    border-color: rgba(212, 175, 55, 0.55);
+    background: rgba(40, 15, 80, 0.6);
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.15), 0 4px 20px rgba(0,0,0,0.4);
+}
+
+.tw-audio-track-name {
+    font-family: 'Cinzel', serif;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    color: var(--silver);
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+
+.tw-audio-controls {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.tw-play-btn {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    border: 1.5px solid rgba(212, 175, 55, 0.5);
+    background: linear-gradient(135deg, rgba(212, 175, 55, 0.15), rgba(138, 43, 226, 0.15));
+    color: var(--gold-patina);
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: all 0.25s ease;
+    box-shadow: 0 0 12px rgba(212, 175, 55, 0.1);
+}
+
+.tw-play-btn:hover {
+    border-color: var(--gold-patina);
+    background: linear-gradient(135deg, rgba(212, 175, 55, 0.28), rgba(138, 43, 226, 0.25));
+    box-shadow: 0 0 18px rgba(212, 175, 55, 0.3);
+    transform: scale(1.05);
+}
+
+.tw-play-btn:active {
+    transform: scale(0.97);
+}
+
+.tw-audio-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.tw-audio-status {
+    font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+    color: var(--silver-dim);
+    margin-bottom: 8px;
+    letter-spacing: 0.03em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.tw-audio-bar-wrap {
+    width: 100%;
+}
+
+.tw-audio-bar {
+    height: 3px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.tw-audio-fill {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, var(--gold-patina), rgba(212, 175, 55, 0.6));
+    border-radius: 2px;
+    transition: width 0.4s linear;
+}
+
+/* ── Steps Label ── */
+.tw-steps-label {
+    font-family: 'Cinzel', serif;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    color: var(--gold-patina);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 4px 0 16px 0;
+    opacity: 0.85;
+    width: 100%;
+}
+
+/* ── Accordion ── */
+.tw-accordion {
+    width: 100%;
+    border: 1px solid rgba(212, 175, 55, 0.2);
+    border-radius: 14px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    background: rgba(20, 8, 45, 0.4);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: border-color 0.3s ease;
+}
+
+.tw-accordion:has(.tw-acc-body.open) {
+    border-color: rgba(212, 175, 55, 0.4);
+}
+
+.tw-acc-header {
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 16px 18px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    text-align: left;
+    color: var(--silver);
+    transition: background 0.2s ease;
+}
+
+.tw-acc-header:hover {
+    background: rgba(212, 175, 55, 0.05);
+}
+
+.tw-acc-num {
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--gold-patina);
+    opacity: 0.7;
+    flex-shrink: 0;
+    line-height: 1;
+}
+
+.tw-acc-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--silver);
+    flex: 1;
+    line-height: 1.3;
+}
+
+.tw-acc-arrow {
+    font-size: 22px;
+    color: var(--gold-patina);
+    flex-shrink: 0;
+    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    line-height: 1;
+    font-family: serif;
+}
+
+.tw-acc-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), padding 0.3s ease;
+    padding: 0 18px;
+}
+
+.tw-acc-body.open {
+    max-height: 600px;
+    padding: 0 18px 18px 18px;
+}
+
+.tw-acc-body p,
+.tw-acc-body div {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px;
+    line-height: 1.8;
+    color: var(--silver-dim);
+}
+
+.tw-questions {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.tw-questions li {
+    margin-bottom: 14px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--silver-dim);
+}
+
+.tw-questions li strong {
+    color: var(--gold-patina);
+    font-weight: 600;
+}
+
+.tw-questions li em {
+    color: var(--silver-dim);
+    opacity: 0.85;
+}
+
+.tw-turnaround {
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.tw-turnaround li {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--silver-dim);
+    margin-bottom: 10px;
+}
+
+.tw-turnaround li strong {
+    color: var(--gold-patina);
+}
+
+.tw-heart-note {
+    margin-top: 14px;
+    padding: 12px 14px;
+    background: rgba(212, 175, 55, 0.06);
+    border-left: 2px solid rgba(212, 175, 55, 0.4);
+    border-radius: 0 8px 8px 0;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 14px;
+    font-style: italic;
+    color: var(--silver-dim);
+    line-height: 1.7;
+}
+
+/* ── Resource Cards ── */
+.tw-resource-card {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: rgba(30, 10, 60, 0.45);
+    border: 1px solid rgba(212, 175, 55, 0.2);
+    border-radius: 16px;
+    padding: 18px;
+    margin-bottom: 12px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tw-resource-card--link {
+    cursor: pointer;
+}
+
+.tw-ext-link {
+    width: 100%;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.tw-ext-link .tw-resource-card {
+    margin-bottom: 0;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.25s ease;
+}
+
+.tw-ext-link:hover .tw-resource-card {
+    border-color: rgba(212, 175, 55, 0.5);
+    box-shadow: 0 4px 20px rgba(212, 175, 55, 0.12);
+    transform: translateY(-2px);
+}
+
+.tw-resource-icon {
+    font-size: 26px;
+    flex-shrink: 0;
+    line-height: 1;
+    margin-top: 2px;
+}
+
+.tw-resource-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.tw-resource-title {
+    font-family: 'Cinzel', serif;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    color: var(--gold-patina);
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+.tw-resource-desc {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--silver-dim);
+    margin: 0 0 8px 0;
+}
+
+.tw-resource-url {
+    font-family: 'Cinzel', serif;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    color: var(--gold-patina);
+    opacity: 0.75;
+    transition: opacity 0.2s ease;
+}
+
+.tw-ext-link:hover .tw-resource-url {
+    opacity: 1;
+}

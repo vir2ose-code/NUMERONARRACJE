@@ -230,6 +230,42 @@ const translations = {
     cards_change_date: "Zmień datę urodzenia",
     alert_invalid_date_cards: "Proszę wpisać poprawną datę urodzenia (DD.MM.RRRR).",
     
+    // THE WORK (Metoda Byron Katie)
+    nav_the_work: "THE WORK",
+    tw_sub: "PRACA Z PRZEKONANIAMI",
+    tw_main: "METODA THE WORK",
+    tw_intro: "Jako kobiety często nosimy niewidzialne ciężary — przekonania, które żyją w nas latami i szepcą, że coś jest nie tak z nami lub ze światem. Praca to pełne miłości zbadanie tego, w co wierzymy, za pomocą czterech prostych pytań oraz procesu odwrócenia. Nie musisz nic zmieniać. Wystarczy, że spojrzysz.",
+    tw_audio_label: "GŁOS PRZEWODNIKA",
+    tw_track1_name: "Szepty Appka",
+    tw_track2_name: "Tygrysku, czy to prawda?",
+    tw_track3_name: "Opowieść o Tkaczu i Czarnym Kruku",
+    tw_status_idle: "Naciśnij play, aby odsłuchać",
+    tw_status_playing: "Odtwarzanie... 🔊",
+    tw_status_paused: "Wstrzymano ⏸",
+    tw_steps_label: "PRZEWODNIK KROK PO KROKU",
+    tw_step1_title: "Zauważ i zapisz myśl",
+    tw_step1_body: "Usiądź wygodnie, weź głęboki oddech i pozwól sobie na chwilę pełnej obecności. Wybierz jedną, konkretną sytuację ze swojego życia, która wywołała w Tobie stres, złość, żal lub poczucie zagubienia. Wyciągnij na światło dzienne jedną, jasną myśl, która wtedy Tobą zawładnęła — na przykład: <em>„On mnie nie szanuje"</em>, <em>„Nie dam sobie rady"</em>, <em>„Powinnam robić więcej"</em>. Zapisz ją. Przelewając ją na papier lub ekran, dajesz swojemu umysłowi sygnał, że jesteś gotowa się jej przyjrzeć.",
+    tw_step2_title: "Cztery pytania mocy",
+    tw_step2_body: `<ol class="tw-questions">
+      <li><strong>Czy to prawda?</strong><br><em>Odpowiedz krótko: TAK lub NIE. Pozwól sobie na pełną szczerość.</em></li>
+      <li><strong>Czy możesz mieć absolutną pewność, że to prawda?</strong><br><em>Czy w skali całego Twojego życia możesz przysiąc, że ta myśl jest w 100% prawdziwa i nie ma od niej żadnego wyjątku?</em></li>
+      <li><strong>Jak reagujesz, gdy wierzysz w tę myśl?</strong><br><em>Zauważ, jak ta myśl rezonuje w Twoim ciele. Gdzie czujesz ucisk, ciężar lub chłód? Jak wtedy traktujesz siebie, a jak osobę, której myśl dotyczy?</em></li>
+      <li><strong>Kim byłabyś bez tej myśli?</strong><br><em>Zamknij na chwilę oczy. Wyobraź sobie siebie w tej samej sytuacji, ale bez możliwości pomyślenia tego stresującego zdania. Zauważ nagłą lekkość i przestrzeń.</em></li>
+    </ol>`,
+    tw_step3_title: "Odwrócenie (The Turnaround)",
+    tw_step3_body: `<p>Przekształć swoje początkowe przekonanie na kilka sposobów i sprawdź, jak te nowe perspektywy rezonują w Twoim sercu. Bardzo często okazuje się, że odwrócenia niosą w sobie o wiele głębszą prawdę.</p>
+    <ul class="tw-turnaround">
+      <li><strong>Na drugą osobę:</strong> z <em>„On mnie nie szanuje"</em> na <em>„Ja nie szanuję jego"</em> — czy w tamtym momencie szanowałaś jego granice, zdanie, emocje?</li>
+      <li><strong>Na siebie:</strong> <em>„Ja nie szanuję siebie"</em> — czy wierząc w tamtą myśl i pozwalając na ból, nie raniłaś samej siebie?</li>
+      <li><strong>Na całkowite przeciwieństwo:</strong> <em>„On mnie szanuje"</em> — spójrz szerzej i znajdź trzy konkretne sytuacje, które są autentycznym dowodem na to, że ten szacunek istnieje.</li>
+    </ul>
+    <p class="tw-heart-note">💛 Pamiętaj, kochana — Praca Byron Katie to nie forma samobiczowania. To powrót do domu. Za każdym razem, gdy spotkasz w sobie lęk, potraktuj go z ciekawością detektywa i bezgraniczną miłością do samej siebie.</p>`,
+    tw_next_label: "TWÓJ KROK DALEJ",
+    tw_book_title: "Byron Katie — „Kochaj, co masz"",
+    tw_book_desc: "To prawdziwa biblia tej metody. Wypełniona dziesiątkami autentycznych zapisów rozmów Katie z ludźmi, którzy mierzyli się z najcięższymi życiowymi dramatami. Czytając je, zobaczysz na żywych przykładach, jak cztery proste pytania mają moc rozpuszczania nawet największego cierpienia.",
+    tw_web_title: "Darmowe materiały do pracy własnej",
+    tw_web_desc: "Na oficjalnej, polskojęzycznej stronie metody możesz bezpłatnie pobrać gotowe arkusze (np. „Oceń Bliźniego"), które poprowadzą Cię przez cały proces krok po kroku.",
+    
     // Birth Path Profile Descriptions
     data: {
       1: { title: 'PRZYWÓDCA', desc: 'Jesteś pionierem i wizjonerem. Twoja droga to przywództwo, niezależność i odwaga do bycia pierwszym. Posiadasz niezwykłą siłę woli i zdolność do realizacji swoich celów.', traits: ['Przywódca','Pionier','Niezależny','Kreatywny','Odważny'] },
@@ -251,6 +287,7 @@ const translations = {
     nav_today: "HEUTE",
     nav_calc: "GEBURTSZAHLEN-RECHNER",
     nav_cards: "TAGESKARTE",
+    nav_the_work: "THE WORK",
     nav_audio: "AUDIO-BIBLIOTHEK",
     nav_quiz: "QUIZ",
     nav_about: "ÜBER DIE AUTORIN",
@@ -475,6 +512,41 @@ const translations = {
     cards_note: "Deine Karte ist für 24 Stunden gültig und ändert sich um Mitternacht. Sie wird basierend auf der Tagesvibration und deinem Geburtsdatum berechnet.",
     cards_change_date: "Geburtsdatum ändern",
     alert_invalid_date_cards: "Bitte gib ein gültiges Geburtsdatum ein (TT.MM.JJJJ).",
+    
+    // THE WORK (Methode Byron Katie)
+    tw_sub: "ARBEIT MIT ÜBERZEUGUNGEN",
+    tw_main: "METHODE THE WORK",
+    tw_intro: "Als Frauen tragen wir oft unsichtbare Lasten — Überzeugungen, die jahrelang in uns leben und flüstern, dass etwas mit uns oder mit der Welt nicht stimmt. The Work ist eine liebevolle Untersuchung dessen, was wir glauben, durch vier einfache Fragen und den Prozess der Umkehrung. Du musst nichts verändern. Schau einfach hin.",
+    tw_audio_label: "STIMME DER FÜHRERIN",
+    tw_track1_name: "Flüstern",
+    tw_track2_name: "Tigerchen, ist das wahr?",
+    tw_track3_name: "Die Geschichte vom Weber und dem schwarzen Raben",
+    tw_status_idle: "Drücke Play zum Anhören",
+    tw_status_playing: "Wiedergabe läuft... 🔊",
+    tw_status_paused: "Pausiert ⏸",
+    tw_steps_label: "SCHRITT FÜR SCHRITT LEITFADEN",
+    tw_step1_title: "Bemerke und schreibe den Gedanken auf",
+    tw_step1_body: "Setz dich bequem hin, atme tief durch und erlaube dir einen Moment voller Präsenz. Wähle eine konkrete Situation aus deinem Leben, die dir Stress, Ärger, Bedauern oder Verwirrung bereitet hat. Bringe einen klaren Gedanken ans Licht, der dich damals beherrschte — zum Beispiel: <em>„Er respektiert mich nicht"</em>, <em>„Ich schaffe das nicht"</em>, <em>„Ich sollte mehr tun"</em>. Schreib ihn auf.",
+    tw_step2_title: "Die vier Fragen der Kraft",
+    tw_step2_body: `<ol class="tw-questions">
+      <li><strong>Ist das wahr?</strong><br><em>Antworte kurz: JA oder NEIN. Erlaube dir vollständige Ehrlichkeit.</em></li>
+      <li><strong>Kannst du absolut sicher wissen, dass es wahr ist?</strong><br><em>Kannst du im Maßstab deines gesamten Lebens schwören, dass dieser Gedanke 100% wahr ist?</em></li>
+      <li><strong>Wie reagierst du, wenn du diesem Gedanken glaubst?</strong><br><em>Bemerke, wie dieser Gedanke in deinem Körper resoniert. Wo spürst du Druck, Schwere oder Kälte? Wie behandelst du dich selbst?</em></li>
+      <li><strong>Wer wärst du ohne diesen Gedanken?</strong><br><em>Schließe kurz die Augen. Stell dir vor, du wärst in derselben Situation, aber ohne die Möglichkeit, diesen stressenden Gedanken zu denken. Bemerke die plötzliche Leichtigkeit.</em></li>
+    </ol>`,
+    tw_step3_title: "Umkehrung (The Turnaround)",
+    tw_step3_body: `<p>Verwandle deine ursprüngliche Überzeugung auf verschiedene Arten und prüfe, wie diese neuen Perspektiven in deinem Herzen resonieren.</p>
+    <ul class="tw-turnaround">
+      <li><strong>Auf die andere Person:</strong> von <em>„Er respektiert mich nicht"</em> zu <em>„Ich respektiere ihn nicht"</em> — hast du in diesem Moment seine Grenzen respektiert?</li>
+      <li><strong>Auf dich selbst:</strong> <em>„Ich respektiere mich selbst nicht"</em> — hast du dir selbst geschadet, indem du diesem Gedanken geglaubt hast?</li>
+      <li><strong>Auf das völlige Gegenteil:</strong> <em>„Er respektiert mich"</em> — finde drei konkrete Situationen aus der Vergangenheit als Beweis.</li>
+    </ul>
+    <p class="tw-heart-note">💛 Denk daran, Liebste — The Work von Byron Katie ist keine Form der Selbstgeißelung. Es ist die Rückkehr nach Hause.</p>`,
+    tw_next_label: "DEIN NÄCHSTER SCHRITT",
+    tw_book_title: "Byron Katie — „Lieben was ist"",
+    tw_book_desc: "Das ist die echte Bibel dieser Methode. Gefüllt mit Dutzenden authentischer Gesprächsaufzeichnungen von Katie mit Menschen, die sich den schwersten Lebensdramata stellen mussten. Du wirst sehen, wie vier einfache Fragen die Macht haben, selbst das größte Leiden aufzulösen.",
+    tw_web_title: "Kostenlose Materialien zum eigenen Arbeiten",
+    tw_web_desc: "Auf der offiziellen deutschen Seite der Methode kannst du kostenlos fertige Arbeitsblätter herunterladen, die dich Schritt für Schritt durch den gesamten Prozess führen.",
     
     // Birth Path Profile Descriptions
     data: {

@@ -931,6 +931,114 @@ function changeCardsBirthDate() {
 }
 window.changeCardsBirthDate = changeCardsBirthDate;
 
+// ── THE WORK: Audio Player ──
+const TW_AUDIO_COUNT = 3;
+let twCurrentTrack = null; // currently playing track index (1-3) or null
+
+function stopAllTWAudio() {
+  for (let i = 1; i <= TW_AUDIO_COUNT; i++) {
+    const audio = document.getElementById(`tw-audio-${i}`);
+    const icon = document.getElementById(`tw-play-icon-${i}`);
+    const status = document.getElementById(`tw-status-${i}`);
+    const fill = document.getElementById(`tw-fill-${i}`);
+    const card = document.getElementById(`tw-player-${i}`);
+    if (audio) {
+      audio.pause();
+    }
+    if (icon) icon.textContent = '▶';
+    if (card) card.classList.remove('tw-playing');
+    if (fill) fill.style.width = '0%';
+    const trans = (typeof translations !== 'undefined' ? translations : (window.translations || null));
+    if (status && trans && trans[currentLang] && trans[currentLang].tw_status_idle) {
+      status.textContent = trans[currentLang].tw_status_idle;
+    }
+  }
+  twCurrentTrack = null;
+}
+window.stopAllTWAudio = stopAllTWAudio;
+
+function toggleTWAudio(trackNum) {
+  const audio = document.getElementById(`tw-audio-${trackNum}`);
+  const icon = document.getElementById(`tw-play-icon-${trackNum}`);
+  const status = document.getElementById(`tw-status-${trackNum}`);
+  const fill = document.getElementById(`tw-fill-${trackNum}`);
+  const card = document.getElementById(`tw-player-${trackNum}`);
+  if (!audio) return;
+
+  const trans = (typeof translations !== 'undefined' ? translations : (window.translations || null));
+  const t = trans && trans[currentLang] ? trans[currentLang] : {};
+
+  if (twCurrentTrack === trackNum && !audio.paused) {
+    // Pause current track
+    audio.pause();
+    if (icon) icon.textContent = '▶';
+    if (card) card.classList.remove('tw-playing');
+    if (status) status.textContent = t.tw_status_paused || 'Wstrzymano ⏸';
+    twCurrentTrack = null;
+  } else {
+    // Stop any other playing track first
+    stopAllTWAudio();
+    twCurrentTrack = trackNum;
+
+    if (status) status.textContent = t.tw_status_playing || 'Odtwarzanie... 🔊';
+    if (icon) icon.textContent = '⏸';
+    if (card) card.classList.add('tw-playing');
+
+    audio.play().catch(err => {
+      console.warn('TW audio play error:', err);
+      if (status) status.textContent = '❌ Nie można odtworzyć pliku audio';
+      if (icon) icon.textContent = '▶';
+      if (card) card.classList.remove('tw-playing');
+      twCurrentTrack = null;
+    });
+
+    // Progress bar update
+    audio.ontimeupdate = () => {
+      if (audio.duration && fill) {
+        fill.style.width = ((audio.currentTime / audio.duration) * 100) + '%';
+      }
+    };
+
+    // When ended
+    audio.onended = () => {
+      if (icon) icon.textContent = '▶';
+      if (card) card.classList.remove('tw-playing');
+      if (fill) fill.style.width = '0%';
+      if (status) status.textContent = t.tw_status_idle || 'Naciśnij play, aby odsłuchać';
+      twCurrentTrack = null;
+    };
+  }
+}
+window.toggleTWAudio = toggleTWAudio;
+
+// ── THE WORK: Accordion ──
+function toggleTWAccordion(stepNum) {
+  const body = document.getElementById(`tw-acc-body-${stepNum}`);
+  const header = document.querySelector(`#tw-acc-${stepNum} .tw-acc-header`);
+  const arrow = document.querySelector(`#tw-acc-${stepNum} .tw-acc-arrow`);
+  if (!body) return;
+
+  const isOpen = body.classList.contains('open');
+
+  // Close all
+  for (let i = 1; i <= 3; i++) {
+    const b = document.getElementById(`tw-acc-body-${i}`);
+    const h = document.querySelector(`#tw-acc-${i} .tw-acc-header`);
+    const a = document.querySelector(`#tw-acc-${i} .tw-acc-arrow`);
+    if (b) b.classList.remove('open');
+    if (h) h.setAttribute('aria-expanded', 'false');
+    if (a) a.style.transform = 'rotate(0deg)';
+  }
+
+  // Open clicked one if it was closed
+  if (!isOpen) {
+    body.classList.add('open');
+    if (header) header.setAttribute('aria-expanded', 'true');
+    if (arrow) arrow.style.transform = 'rotate(90deg)';
+  }
+}
+window.toggleTWAccordion = toggleTWAccordion;
+
 // ── Energy Messages Database (PL & DE) ──
 const ENERGY_MESSAGES = {
   1: { cls: 'low', e: '👎', m: 'Jedynka. Energia na dnie. Jeśli czujesz, że jedziesz na rezerwach — nie udawaj, że jest inaczej.', t: 'Zrób absolutne minimum. Odwołaj to co się da. Dziś sukcesem jest po prostu przetrwać ten dzień bez dowalania sobie dodatkowych ciężarów.' },
