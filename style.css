@@ -680,6 +680,7 @@ footer .privacy:hover { color: var(--gold-patina-light); }
     color: var(--gold-patina);
     text-transform: uppercase;
     margin-bottom: 12px;
+    text-align: center;
 }
 .forecast-main {
     font-family: 'Cinzel', serif;
@@ -690,6 +691,14 @@ footer .privacy:hover { color: var(--gold-patina-light); }
     text-transform: uppercase;
     letter-spacing: 0.1em;
     margin-bottom: 12px;
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    .forecast-main {
+        font-size: 22px;
+        letter-spacing: 0.08em;
+    }
 }
 .forecast-main i {
     font-style: normal;
