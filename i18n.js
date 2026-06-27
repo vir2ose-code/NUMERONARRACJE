@@ -1,4 +1,4 @@
-const translations = {
+﻿const translations = {
   pl: {
     // Nav
     nav_today: "DZISIAJ",
@@ -242,21 +242,26 @@ const translations = {
     tw_status_idle: "Naciśnij play, aby odsłuchać",
     tw_status_playing: "Odtwarzanie... 🔊",
     tw_status_paused: "Wstrzymano ⏸",
-    tw_steps_label: "INSTRUKCJA STOSOWANIA METODY – KROK PO KROKU",
-    tw_instruction_full: `<p>Usiądź wygodnie, weź głęboki oddech i pozwól sobie na chwilę pełnej obecności. Przejdź przez ten proces z pozycji swojej wewnętrznej, mądrej obserwatorki, bez oceniania siebie.</p>
 
+    // ── 3 Accordion keys ──
+    tw_acc1_title: `Czym jest Metoda „The Work" (Praca) Byron Katie`,
+    tw_acc1_body: `<p>Jako kobiety niezwykle często nosimy na swoich barkach niewidzialne ciężary. Staramy się być doskonałe w każdej życiowej roli, a w naszych głowach bez przerwy krążą myśli-głosy: <em>„Nie jestem wystarczająco dobra"</em>, <em>„Muszę radzić sobie ze wszystkim sama"</em>, <em>„Ona mnie ocenia"</em>, <em>„On mnie nie rozumie"</em>. Bardzo łatwo jest w te myśli uwierzyć i uznać je za absolutną prawdę.</p>
+<p>W ten sposób, często nieświadomie, odcinamy się od swojej intuicji, wewnętrznej mądrości i unikalnych talentów. Te zakorzenione głęboko przekonania i schematy blokują się w naszym ciele jako napięcie, lęk czy permanentne zmęczenie.</p>
+<p>Opowiadanie o Tygrysku, choć ubrane w formę pięknej bajki, niesie w sobie genialne, głębokie lekarstwo dla naszej kobiecej duszy. Pokazuje, jak działa Metoda <strong>„The Work"</strong> stworzona przez Byron Katie. To proste, a jednocześnie niezwykle transformujące narzędzie samopoznania, które pozwala nam delikatnie rozkodować to, co nas ogranicza.</p>
+<p>Praca nie polega na walce z własnymi myślami czy na siłowym zmienianiu nastawienia. To pełne miłości, głębokie i szczere zbadanie tego, w co wierzymy, za pomocą czterech prostych pytań oraz procesu odwrócenia. Dzięki temu odzyskujemy swój głos, spokój i przestrzeń do budowania pięknych, autentycznych relacji — przede wszystkim ze samą sobą.</p>`,
+
+    tw_acc2_title: `Instrukcja stosowania Metody – Krok po Kroku`,
+    tw_acc2_body: `<p>Usiądź wygodnie, weź głęboki oddech i pozwól sobie na chwilę pełnej obecności. Przejdź przez ten proces z pozycji swojej wewnętrznej, mądrej obserwatorki, bez oceniania siebie.</p>
 <h4 class="tw-step-title">Krok 1: Zauważ i zapisz myśl, która Cię dotyka</h4>
 <p>Wybierz jedną, konkretną sytuację ze swojego życia, która wywołała w Tobie stres, złość, żal lub poczucie zagubienia. Może to być spięcie z partnerem, sytuacja w pracy czy moment, w którym spojrzałaś w lustro i pojawiła się samokrytyka. Wyciągnij na światło dzienne jedną, jasną myśl, która wtedy Tobą zawładnęła (np. <em>„On mnie nie szanuje"</em>, <em>„Nie dam sobie rady"</em>, <em>„Powinnam robić więcej"</em>). Zapisz ją. Przelewając ją na papier lub ekran, dajesz swojemu umysłowi sygnał, że jesteś gotowa się jej przyjrzeć.</p>
-
 <h4 class="tw-step-title">Krok 2: Zadaj cztery pytania mocy</h4>
-<p>Skieruj uwagę do wewnątrz, połącz się ze swoim sercem i odpowiedz na poniższe pytania. Nie szukaj logicznych, „poprawnych" odpowiedzi – poczuj je.</p>
+<p>Skieruj uwagę do wewnątrz, połącz się ze swoim sercem i odpowiedz na poniższe pytania. Nie szukaj logicznych, „poprawnych" odpowiedzi — poczuj je.</p>
 <ol class="tw-questions">
-  <li><strong>Czy to prawda?</strong><br><em>Odpowiedz krótko: TAK lub NIE. Pozwól sobie na pełną szczerość. Jeśli czujesz, że tak – przejdź do kolejnego pytania. Jeśli nie – od razu do pytania trzeciego.</em></li>
+  <li><strong>Czy to prawda?</strong><br><em>Odpowiedz krótko: TAK lub NIE. Pozwól sobie na pełną szczerość. Jeśli czujesz, że tak — przejdź do kolejnego pytania. Jeśli nie — od razu do pytania trzeciego.</em></li>
   <li><strong>Czy możesz mieć absolutną pewność, że to prawda?</strong><br><em>Zatrzymaj się tutaj na moment. Czy w skali całego Twojego życia, z pełną odpowiedzialnością możesz przysiąc, że ta myśl jest w stu procentach prawdziwa i nie ma od niej żadnego wyjątku? Odpowiedz: TAK lub NIE.</em></li>
   <li><strong>Jak reagujesz, co się w Tobie dzieje, kiedy wierzysz w tę myśl?</strong><br><em>Zauważ, jak ta myśl rezonuje w Twoim ciele. Gdzie czujesz ucisk, ciężar lub chłód? Jakie emocje Cię zalewają? Jak wtedy traktujesz samą siebie, a jak osobę, której ta myśl dotyczy? Czy zamykasz się w sobie, atakujesz, czy może stajesz się bezsilna? Zobacz, ile Cię kosztuje wiara w to zdanie.</em></li>
   <li><strong>Kim byłabyś bez tej myśli?</strong><br><em>Zamknij na chwilę oczy. Wyobraź sobie siebie w tej samej sytuacji, obok tej samej osoby, ale bez możliwości pomyślenia tego stresującego zdania. Kim jesteś w tym momencie? Jak oddycha Twoje ciało? Zauważ tę nagłą lekkość, wolność i przestrzeń, która się pojawia, gdy umysł nie jest obciążony tą iluzją.</em></li>
 </ol>
-
 <h4 class="tw-step-title">Krok 3: Odwrócenie (The Turnaround)</h4>
 <p>Teraz czas na magię rozkodowania. Przekształć swoje początkowe przekonanie na kilka sposobów i sprawdź, jak te nowe perspektywy rezonują w Twoim sercu. Bardzo często okazuje się, że odwrócenia niosą w sobie o wiele głębszą prawdę o nas samych.</p>
 <p>Swoją myśl możesz odwrócić:</p>
@@ -266,11 +271,28 @@ const translations = {
   <li><strong>Na całkowite przeciwieństwo</strong> — np. na <em>„On mnie szanuje"</em> — spójrz szerzej na Waszą relację i znajdź trzy konkretne sytuacje z przeszłości, które są autentycznym dowodem na to, że ten szacunek z jego strony istnieje.</li>
 </ul>
 <p>Dla każdego odwrócenia znajdź w pamięci przynajmniej trzy prawdziwe, namacalne przykłady ze swojego życia. To kluczowy moment, w którym stary schemat w umyśle pęka, a w jego miejsce pojawia się zrozumienie, uzdrowienie i Twoja prawdziwa siła.</p>
+<p class="tw-heart-note">💛 Pamiętaj, kochana, że Praca Byron Katie to nie forma samobiczowania. To powrót do domu. Za każdym razem, gdy spotkasz w sobie lęk, potraktuj go tak, jak Tygrysek — z ciekawością detektywa i bezgraniczną miłością do samej siebie. Jesteś gotowa na to, by odzyskać swój spokój?</p>`,
 
-<p class="tw-heart-note">💛 Pamiętaj, kochana, że Praca Byron Katie to nie forma samobiczowania. To powrót do domu. Za każdym razem, gdy spotkasz w sobie lęk, potraktuj go tak, jak Tygrysek – z ciekawością detektywa i bezgraniczną miłością do samej siebie. Jesteś gotowa na to, by odzyskać swój spokój?</p>`,
-    tw_cta_label: `Byron Katie — „Kochaj, co masz” · thework.com/polski →`,
-    
-    // Birth Path Profile Descriptions
+    tw_acc3_title: `Twój krok dalej`,
+    tw_acc3_body: `<p>Jeśli czujesz, że ta metoda poruszyła jakąś czułą strunę w Twoim sercu i chcesz zanurzyć się w nią jeszcze głębiej, mam dla Ciebie coś wyjątkowego. To absolutny fundament, który pomoże Ci w pełni zintegrować tę praktykę w codziennym życiu:</p>
+<div class="tw-resource-card" style="margin-top:12px;">
+  <div class="tw-resource-icon">📖</div>
+  <div class="tw-resource-content">
+    <div class="tw-resource-title">Byron Katie — „Kochaj, co masz" (ang. Loving What Is)</div>
+    <p class="tw-resource-desc">To prawdziwa biblia tej metody i książka, która potrafi odmienić spojrzenie na cały świat. Nie znajdziesz tu suchej teorii. Książka jest wypełniona dziesiątkami autentycznych zapisów rozmów Katie z ludźmi, którzy mierzyli się z najcięższymi życiowymi dramatami — od przewlekłych chorób, przez bolesne zdrady, aż po stratę najbliższych osób. Czytając te dialogi, zobaczysz na żywych, poruszających przykładach, jak te cztery proste pytania mają moc rozpuszczania nawet największego cierpienia. To piękna lekcja tego, jak odzyskać swój święty spokój i wolność, bez względu na okoliczności zewnętrzne.</p>
+  </div>
+</div>
+<div class="tw-resource-card" style="margin-top:12px;">
+  <div class="tw-resource-icon">🌐</div>
+  <div class="tw-resource-content">
+    <div class="tw-resource-title">Darmowe materiały do pracy własnej</div>
+    <p class="tw-resource-desc">Nie musisz wszystkiego pamiętać ani pisać na czystej kartce. Na oficjalnej, polskojęzycznej stronie metody <strong>thework.com/polski</strong> możesz całkowicie bezpłatnie pobrać gotowe, bardzo pomocne arkusze (takie jak np. „Oceń Bliźniego"). To genialne narzędzie, które poprowadzi Cię za rękę przez cały proces, ułatwiając przelewanie trudnych myśli na papier i krok po kroku uwalniając Twoje zablokowane emocje.</p>
+    <span class="tw-resource-url">thework.com/polski →</span>
+  </div>
+</div>`,
+
+    tw_cta_label: `Byron Katie — „Kochaj, co masz" · thework.com/polski →`,
+        // Birth Path Profile Descriptions
     data: {
       1: { title: 'PRZYWÓDCA', desc: 'Jesteś pionierem i wizjonerem. Twoja droga to przywództwo, niezależność i odwaga do bycia pierwszym. Posiadasz niezwykłą siłę woli i zdolność do realizacji swoich celów.', traits: ['Przywódca','Pionier','Niezależny','Kreatywny','Odważny'] },
       2: { title: 'DYPLOMATA', desc: 'Twoja siła tkwi w harmonii i współpracy. Jesteś wrażliwy, intuicyjny i świetnie rozumiesz innych. Twoje powołanie to budowanie mostów między ludźmi.', traits: ['Empatyczny','Harmonijny','Dyplomatyczny','Intuicyjny','Wrażliwy'] },
@@ -649,6 +671,7 @@ if (typeof window !== 'undefined') {
     checkPremiumAccess();
   }
 }
+
 
 
 

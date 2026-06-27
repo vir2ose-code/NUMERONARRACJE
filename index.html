@@ -333,11 +333,39 @@
             <h2 class="forecast-main" data-i18n="tw_main">THE WORK</h2>
             <p class="tw-intro" data-i18n="tw_intro"></p>
 
-            <!-- ── Instrukcja Krok po Kroku (static text) ── -->
-            <div class="tw-steps-label" data-i18n="tw_steps_label">INSTRUKCJA STOSOWANIA METODY</div>
+            <!-- ── 3 Accordion Sections ── -->
 
-            <div class="tw-instruction-card">
-                <div class="tw-instruction-body" data-i18n="tw_instruction_full"></div>
+            <!-- Accordion 1: Czym jest Metoda -->
+            <div class="tw-accordion" id="tw-acc-1">
+                <button class="tw-acc-header" onclick="toggleTWAccordion(1)" aria-expanded="false">
+                    <span class="tw-acc-title" data-i18n="tw_acc1_title">Czym jest Metoda „The Work" (Praca) Byron Katie</span>
+                    <span class="tw-acc-arrow" id="tw-arr-1">›</span>
+                </button>
+                <div class="tw-acc-body" id="tw-acc-body-1">
+                    <div class="tw-acc-content" data-i18n="tw_acc1_body"></div>
+                </div>
+            </div>
+
+            <!-- Accordion 2: Instrukcja stosowania Metody -->
+            <div class="tw-accordion" id="tw-acc-2">
+                <button class="tw-acc-header" onclick="toggleTWAccordion(2)" aria-expanded="false">
+                    <span class="tw-acc-title" data-i18n="tw_acc2_title">Instrukcja stosowania Metody – Krok po Kroku</span>
+                    <span class="tw-acc-arrow" id="tw-arr-2">›</span>
+                </button>
+                <div class="tw-acc-body" id="tw-acc-body-2">
+                    <div class="tw-acc-content" data-i18n="tw_acc2_body"></div>
+                </div>
+            </div>
+
+            <!-- Accordion 3: Twój krok dalej -->
+            <div class="tw-accordion" id="tw-acc-3">
+                <button class="tw-acc-header" onclick="toggleTWAccordion(3)" aria-expanded="false">
+                    <span class="tw-acc-title" data-i18n="tw_acc3_title">Twój krok dalej</span>
+                    <span class="tw-acc-arrow" id="tw-arr-3">›</span>
+                </button>
+                <div class="tw-acc-body" id="tw-acc-body-3">
+                    <div class="tw-acc-content" data-i18n="tw_acc3_body"></div>
+                </div>
             </div>
 
             <!-- ── Audio Players ── -->
