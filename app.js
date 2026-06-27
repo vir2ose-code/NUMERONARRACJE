@@ -184,13 +184,17 @@ function showPage(pageId) {
 }
 
 // ── Navigate + close drawer (mobile-safe) ──
-function navigateTo(pageId) {
+function navigateTo(pageId, event) {
+  // Prevent href='#' from jumping to top of page on mobile
+  if (event) {
+    event.preventDefault();
+    event.stopPropagation();
+  }
   closeDrawer();
   // Wait for drawer CSS transition (~300ms) before scrolling
   setTimeout(() => { scrollToSection(pageId); }, 350);
 }
 window.navigateTo = navigateTo;
-
 
 // ── Numerology data logic ──
 function reduceNumber(num, keepMaster = true) {
@@ -837,10 +841,17 @@ function initDailyForecast() {
 function initDailyCard() {
   let savedBirthDate = null;
   try {
+    // Reset card when the active session is closed (sessionStorage is cleared when app closes)
+    const sessionKey = 'cardSessionActive';
+    if (!sessionStorage.getItem(sessionKey)) {
+      sessionStorage.setItem(sessionKey, 'true');
+      localStorage.removeItem('birthDate');
+    }
     savedBirthDate = localStorage.getItem('birthDate');
   } catch (e) {
     console.warn('localStorage not accessible:', e);
   }
+
 
   const inputContainer = document.getElementById('cards-input-container');
   const displayContainer = document.getElementById('cards-display-container');

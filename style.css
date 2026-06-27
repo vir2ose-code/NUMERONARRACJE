@@ -2313,19 +2313,21 @@ footer .privacy:hover { color: var(--gold-patina-light); }
 .tw-accordion {
     width: 100%;
     background: rgba(20, 10, 40, 0.55);
-    border: 2px solid rgba(212, 175, 55, 0.45);
+    border: 2.5px solid #C5A059 !important;
+    border: 2.5px solid rgba(212, 175, 55, 0.5) !important;
     border-radius: 16px;
     margin-bottom: 10px;
     overflow: hidden;
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
-    box-shadow: 0 8px 32px rgba(0,0,0,0.3), 0 0 12px rgba(212, 175, 55, 0.06);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3), 0 0 12px rgba(212, 175, 55, 0.08);
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .tw-accordion:has(.tw-acc-body.open) {
-    border-color: rgba(212, 175, 55, 0.75);
-    box-shadow: 0 8px 32px rgba(0,0,0,0.3), 0 0 20px rgba(212, 175, 55, 0.12);
+    border-color: #DFBF7D !important;
+    border-color: rgba(212, 175, 55, 0.85) !important;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3), 0 0 20px rgba(212, 175, 55, 0.15);
 }
 
 .tw-acc-header {
@@ -2339,10 +2341,12 @@ footer .privacy:hover { color: var(--gold-patina-light); }
     cursor: pointer;
     text-align: left;
     transition: background 0.2s ease;
+    color: #C5A059 !important;
+    color: var(--gold-patina) !important;
 }
 
 .tw-acc-header:hover {
-    background: rgba(212, 175, 55, 0.05);
+    background: rgba(212, 175, 55, 0.08);
 }
 
 .tw-acc-num {
@@ -2361,19 +2365,21 @@ footer .privacy:hover { color: var(--gold-patina-light); }
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 0.04em;
-    color: var(--gold-patina);
+    color: #C5A059 !important;
+    color: var(--gold-patina) !important;
     flex: 1;
     line-height: 1.4;
 }
 
 .tw-acc-arrow {
     font-size: 22px;
-    color: var(--gold-patina);
+    color: #C5A059 !important;
+    color: var(--gold-patina) !important;
     flex-shrink: 0;
     transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
     line-height: 1;
     font-family: serif;
-    opacity: 1;
+    opacity: 1 !important;
 }
 
 .tw-acc-body {

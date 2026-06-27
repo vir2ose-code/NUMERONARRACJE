@@ -27,11 +27,12 @@
 <div class="overlay" id="overlay" onclick="closeDrawer()"></div>
 <div class="nav-drawer" id="drawer">
     <button class="drawer-close" onclick="closeDrawer()" aria-label="Zamknij menu">✕</button>
-    <a class="nav-item" href="#" data-i18n="nav_today" onclick="navigateTo('forecast')">DZISIAJ</a>
-    <a class="nav-item" href="#" data-i18n="nav_calc" onclick="navigateTo('home')">KALKULATOR LICZBY URODZENIA</a>
-    <a class="nav-item" href="#" data-i18n="nav_cards" onclick="navigateTo('cards')">KARTA DNIA</a>
-    <a class="nav-item" href="#" data-i18n="nav_the_work" onclick="navigateTo('the-work')">THE WORK</a>
-    <a class="nav-item" href="#" data-i18n="nav_audio" onclick="navigateTo('audio')">AUDIO BIBLIOTEKA</a>
+    <a class="nav-item" href="javascript:void(0)" data-i18n="nav_today" onclick="navigateTo('forecast', event)">DZISIAJ</a>
+    <a class="nav-item" href="javascript:void(0)" data-i18n="nav_calc" onclick="navigateTo('home', event)">KALKULATOR LICZBY URODZENIA</a>
+    <a class="nav-item" href="javascript:void(0)" data-i18n="nav_cards" onclick="navigateTo('cards', event)">KARTA DNIA</a>
+    <a class="nav-item" href="javascript:void(0)" data-i18n="nav_the_work" onclick="navigateTo('the-work', event)">THE WORK</a>
+    <a class="nav-item" href="javascript:void(0)" data-i18n="nav_audio" onclick="navigateTo('audio', event)">AUDIO BIBLIOTEKA</a>
+
     <a class="nav-item" href="stories.html" data-i18n="nav_stories" onclick="closeDrawer()">OPOWIADANIA MOTYWACYJNE</a>
     <a class="nav-item" href="quiz.html" data-i18n="nav_quiz" onclick="closeDrawer()">QUIZ</a>
     <a class="nav-item" href="jokes.html" data-i18n="nav_jokes" onclick="closeDrawer()">KAWAŁY</a>
