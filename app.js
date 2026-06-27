@@ -159,25 +159,38 @@ function closeDrawer() {
 }
 
 // ── SPA Routing (Roll-Sides) ──
-function showPage(pageId) {
+// ── SPA Routing — robust mobile scroll ──
+function scrollToSection(pageId) {
   const target = document.getElementById(`page-${pageId}`);
-  if (target) {
-    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  if (!target) return;
+
+  // getBoundingClientRect + window.scrollTo works on iOS/Android
+  // even when html/body have height:100%
+  const rect = target.getBoundingClientRect();
+  const scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+  const targetTop = rect.top + scrollTop - 60; // 60px header offset
+
+  // Primary method: window.scrollTo
+  try {
+    window.scrollTo({ top: targetTop, behavior: 'smooth' });
+  } catch (e) {
+    // Fallback for older browsers
+    window.scrollTo(0, targetTop);
   }
 }
 
-// ── Navigate + close drawer (mobile-safe with drawer animation delay) ──
+function showPage(pageId) {
+  scrollToSection(pageId);
+}
+
+// ── Navigate + close drawer (mobile-safe) ──
 function navigateTo(pageId) {
   closeDrawer();
-  // Wait for drawer CSS transition (300ms) before scrolling
-  setTimeout(() => {
-    const target = document.getElementById(`page-${pageId}`);
-    if (target) {
-      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-  }, 320);
+  // Wait for drawer CSS transition (~300ms) before scrolling
+  setTimeout(() => { scrollToSection(pageId); }, 350);
 }
 window.navigateTo = navigateTo;
+
 
 // ── Numerology data logic ──
 function reduceNumber(num, keepMaster = true) {
