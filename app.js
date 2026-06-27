@@ -165,6 +165,20 @@ function showPage(pageId) {
     target.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 }
+
+// ── Navigate + close drawer (mobile-safe with drawer animation delay) ──
+function navigateTo(pageId) {
+  closeDrawer();
+  // Wait for drawer CSS transition (300ms) before scrolling
+  setTimeout(() => {
+    const target = document.getElementById(`page-${pageId}`);
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }, 320);
+}
+window.navigateTo = navigateTo;
+
 // ── Numerology data logic ──
 function reduceNumber(num, keepMaster = true) {
   let sum = parseInt(num);
