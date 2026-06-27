@@ -2383,7 +2383,7 @@ footer .privacy:hover { color: var(--gold-patina-light); }
 }
 
 .tw-acc-body.open {
-    max-height: 700px;
+    max-height: 4000px;
 }
 
 .tw-acc-body p,
@@ -2393,6 +2393,62 @@ footer .privacy:hover { color: var(--gold-patina-light); }
     line-height: 1.8;
     color: var(--silver-dim);
     padding: 4px 20px 20px 20px;
+}
+
+/* Ensure all content inside accordion body is visible */
+.tw-acc-content {
+    padding: 4px 20px 20px 20px;
+    color: var(--silver-dim);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.tw-acc-content p {
+    color: var(--silver-dim);
+    margin-bottom: 12px;
+    padding: 0;
+}
+
+.tw-acc-content h4.tw-step-title {
+    color: var(--gold-patina);
+    font-family: 'Cinzel', serif;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin: 18px 0 8px 0;
+    font-weight: 400;
+}
+
+.tw-acc-content ol,
+.tw-acc-content ul {
+    color: var(--silver-dim);
+    padding-left: 20px;
+    margin-bottom: 12px;
+}
+
+.tw-acc-content li {
+    color: var(--silver-dim);
+    margin-bottom: 10px;
+    line-height: 1.7;
+}
+
+.tw-acc-content strong {
+    color: var(--gold-patina-light);
+    font-weight: 600;
+}
+
+.tw-acc-content em {
+    color: var(--silver);
+    font-style: italic;
+}
+
+.tw-acc-content .tw-heart-note {
+    color: var(--gold-patina-light);
+    font-style: italic;
+    opacity: 0.9;
+    margin-top: 16px;
+    padding: 0;
 }
 
 .tw-questions {
