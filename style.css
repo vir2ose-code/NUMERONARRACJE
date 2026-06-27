@@ -2313,18 +2313,19 @@ footer .privacy:hover { color: var(--gold-patina-light); }
 .tw-accordion {
     width: 100%;
     background: rgba(20, 10, 40, 0.55);
-    border: 1px solid rgba(212, 175, 55, 0.25);
+    border: 2px solid rgba(212, 175, 55, 0.45);
     border-radius: 16px;
     margin-bottom: 10px;
     overflow: hidden;
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
-    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
-    transition: border-color 0.3s ease;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3), 0 0 12px rgba(212, 175, 55, 0.06);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .tw-accordion:has(.tw-acc-body.open) {
-    border-color: rgba(212, 175, 55, 0.45);
+    border-color: rgba(212, 175, 55, 0.75);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3), 0 0 20px rgba(212, 175, 55, 0.12);
 }
 
 .tw-acc-header {
@@ -2356,22 +2357,23 @@ footer .privacy:hover { color: var(--gold-patina-light); }
 }
 
 .tw-acc-title {
-    font-family: 'Raleway', sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    color: var(--silver);
+    font-family: 'Cinzel', serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    color: var(--gold-patina);
     flex: 1;
     line-height: 1.4;
 }
 
 .tw-acc-arrow {
-    font-size: 20px;
+    font-size: 22px;
     color: var(--gold-patina);
     flex-shrink: 0;
     transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
     line-height: 1;
     font-family: serif;
-    opacity: 0.7;
+    opacity: 1;
 }
 
 .tw-acc-body {
