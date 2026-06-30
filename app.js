@@ -139,6 +139,10 @@ function switchLang(lang) {
     refreshMindfulnessLanguage();
   }
 
+  if (typeof refreshSleepLanguage === 'function') {
+    refreshSleepLanguage();
+  }
+
   if (typeof updateAudioUIState === 'function') {
     updateAudioUIState();
   }
@@ -164,24 +168,32 @@ function scrollToSection(pageId) {
   const target = document.getElementById(`page-${pageId}`);
   if (!target) return;
 
-  // getBoundingClientRect + window.scrollTo works on iOS/Android
-  // even when html/body have height:100%
   const rect = target.getBoundingClientRect();
   const scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
   const targetTop = rect.top + scrollTop - 60; // 60px header offset
 
-  // Primary method: window.scrollTo
+  // Scroll window
   try {
     window.scrollTo({ top: targetTop, behavior: 'smooth' });
   } catch (e) {
-    // Fallback for older browsers
     window.scrollTo(0, targetTop);
+  }
+
+  // Fallback Scroll for scrolling containers (HTML/Body)
+  const scroller = document.scrollingElement || document.documentElement || document.body;
+  if (scroller && typeof scroller.scrollTo === 'function') {
+    try {
+      scroller.scrollTo({ top: targetTop, behavior: 'smooth' });
+    } catch (e) {
+      scroller.scrollTop = targetTop;
+    }
   }
 }
 
 function showPage(pageId) {
   scrollToSection(pageId);
 }
+
 
 // ── Navigate + close drawer (mobile-safe) ──
 function navigateTo(pageId, event) {
@@ -538,6 +550,13 @@ function initMindfulnessPlayer() {
   
   playPauseBtn.addEventListener('click', togglePlay);
   
+  player.addEventListener('pause', () => {
+    if (mindPlaying) {
+      mindPlaying = false;
+      updateUIState();
+    }
+  });
+  
   player.addEventListener('timeupdate', () => {
     if (player.duration) {
       const pct = (player.currentTime / player.duration) * 100;
@@ -598,6 +617,199 @@ function initMindfulnessPlayer() {
     return `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
   }
 }
+
+// ── Sleep Player Logic (Utulanki na Dobry Sen) ──
+function initSleepPlayer() {
+  const player = document.getElementById('sleepAudioPlayer');
+  const playPauseBtn = document.getElementById('sleepPlayPauseBtn');
+  const progressWrap = document.getElementById('sleepProgressBarWrap');
+  const progressFill = document.getElementById('sleepProgressBarFill');
+  const currentText = document.getElementById('sleepCurrentTime');
+  const durationText = document.getElementById('sleepDurationTime');
+  const statusEl = document.getElementById('sleepPlayerStatus');
+  
+  const iconPlay = document.getElementById('sleep-icon-play');
+  const iconPause = document.getElementById('sleep-icon-pause');
+  
+  if (!player || !playPauseBtn) return;
+  
+  let sleepPlaying = false;
+  
+  function updateUIState() {
+    const trans = (typeof translations !== 'undefined' ? translations : (window.translations || null));
+    if (!iconPlay || !iconPause || !statusEl) return;
+    
+    if (sleepPlaying) {
+      iconPlay.style.display = 'none';
+      iconPause.style.display = 'block';
+      statusEl.innerHTML = trans && trans[currentLang] && trans[currentLang].sleep_status_playing
+        ? trans[currentLang].sleep_status_playing
+        : 'Odtwarzanie... 🔊';
+    } else {
+      iconPlay.style.display = 'block';
+      iconPause.style.display = 'none';
+      statusEl.innerHTML = trans && trans[currentLang] && trans[currentLang].sleep_status_paused
+        ? trans[currentLang].sleep_status_paused
+        : 'Wstrzymano ⏸';
+    }
+  }
+
+  function togglePlay() {
+    // Set src if not already set (lazy loading)
+    if (!player.src || player.src === '' || player.src === window.location.href) {
+      player.src = './UTULANKI na dobry SEN/podroz_do_krainy_lagodnosci.mp3';
+      player.load();
+    }
+    
+    if (sleepPlaying) {
+      player.pause();
+      sleepPlaying = false;
+      updateUIState();
+    } else {
+      player.play()
+        .then(() => {
+          sleepPlaying = true;
+          updateUIState();
+        })
+        .catch(err => {
+          console.warn('Sleep playback failed:', err);
+          sleepPlaying = false;
+          if (statusEl) {
+            const trans = (typeof translations !== 'undefined' ? translations : (window.translations || null));
+            statusEl.innerHTML = trans && trans[currentLang] && trans[currentLang].sleep_status_play_err
+              ? trans[currentLang].sleep_status_play_err
+              : '❌ Nie można odtworzyć pliku audio (spróbuj odświeżyć)';
+          }
+          if (iconPlay && iconPause) {
+            iconPlay.style.display = 'block';
+            iconPause.style.display = 'none';
+          }
+        });
+    }
+  }
+  
+  playPauseBtn.addEventListener('click', togglePlay);
+  
+  player.addEventListener('pause', () => {
+    if (sleepPlaying) {
+      sleepPlaying = false;
+      updateUIState();
+    }
+  });
+  
+  player.addEventListener('timeupdate', () => {
+    if (player.duration) {
+      const pct = (player.currentTime / player.duration) * 100;
+      if (progressFill) progressFill.style.width = `${pct}%`;
+      if (currentText) currentText.textContent = formatTime(player.currentTime);
+    }
+  });
+  
+  player.addEventListener('loadedmetadata', () => {
+    if (durationText) durationText.textContent = formatTime(player.duration);
+  });
+  
+  player.addEventListener('ended', () => {
+    sleepPlaying = false;
+    updateUIState();
+    if (progressFill) progressFill.style.width = '0%';
+    if (currentText) currentText.textContent = '0:00';
+    
+    if (statusEl) {
+      const trans = (typeof translations !== 'undefined' ? translations : (window.translations || null));
+      statusEl.innerHTML = trans && trans[currentLang] && trans[currentLang].sleep_status_idle
+        ? trans[currentLang].sleep_status_idle
+        : 'Naciśnij play, aby odsłuchać';
+    }
+  });
+  
+  player.addEventListener('error', (e) => {
+    console.error('Sleep audio loading error:', e);
+    sleepPlaying = false;
+    if (statusEl) {
+      const trans = (typeof translations !== 'undefined' ? translations : (window.translations || null));
+      statusEl.innerHTML = trans && trans[currentLang] && trans[currentLang].sleep_status_loading_err
+        ? trans[currentLang].sleep_status_loading_err
+        : '❌ Nie można załadować pliku audio (spróbuj odświeżyć stronę)';
+    }
+    if (iconPlay && iconPause) {
+      iconPlay.style.display = 'block';
+      iconPause.style.display = 'none';
+    }
+  });
+  
+  if (progressWrap) {
+    progressWrap.addEventListener('click', (e) => {
+      const rect = progressWrap.getBoundingClientRect();
+      const clickX = e.clientX - rect.left;
+      const width = rect.width;
+      const pct = clickX / width;
+      if (player.duration) {
+        player.currentTime = pct * player.duration;
+      }
+    });
+  }
+
+  function formatTime(secs) {
+    if (isNaN(secs)) return '0:00';
+    const minutes = Math.floor(secs / 60);
+    const seconds = Math.floor(secs % 60);
+    return `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+  }
+}
+
+function toggleSleepDesc() {
+  const container = document.getElementById('sleepDescContainer');
+  const btn = document.getElementById('sleepToggleBtn');
+  const txt = document.getElementById('sleepToggleText');
+  const trans = (typeof translations !== 'undefined' ? translations : (window.translations || null));
+  
+  if (!container || !btn) return;
+  
+  if (container.style.display === 'none') {
+    container.style.display = 'block';
+    btn.classList.add('active');
+    if (txt && trans && trans[currentLang]) {
+      txt.textContent = trans[currentLang].sleep_btn_hide;
+    }
+  } else {
+    container.style.display = 'none';
+    btn.classList.remove('active');
+    if (txt && trans && trans[currentLang]) {
+      txt.textContent = trans[currentLang].sleep_btn_show;
+    }
+  }
+}
+
+function refreshSleepLanguage() {
+  const container = document.getElementById('sleepDescContainer');
+  const txt = document.getElementById('sleepToggleText');
+  const trans = (typeof translations !== 'undefined' ? translations : (window.translations || null));
+  if (!txt || !trans || !trans[currentLang]) return;
+  
+  if (container && container.style.display === 'block') {
+    txt.textContent = trans[currentLang].sleep_btn_hide;
+  } else {
+    txt.textContent = trans[currentLang].sleep_btn_show;
+  }
+  
+  const player = document.getElementById('sleepAudioPlayer');
+  const statusEl = document.getElementById('sleepPlayerStatus');
+  if (player && statusEl) {
+    if (player.paused) {
+      if (player.currentTime > 0) {
+        statusEl.innerHTML = trans[currentLang].sleep_status_paused;
+      } else {
+        statusEl.innerHTML = trans[currentLang].sleep_status_idle;
+      }
+    } else {
+      statusEl.innerHTML = trans[currentLang].sleep_status_playing;
+    }
+  }
+}
+
+window.toggleSleepDesc = toggleSleepDesc;
+
 
 function toggleMindfulnessDesc() {
   const container = document.getElementById('mindfulnessDescContainer');
@@ -756,6 +968,25 @@ document.addEventListener('DOMContentLoaded', () => {
   initEmotionTracker();
   initEnergySlider();
   initMindfulnessPlayer();
+  initSleepPlayer();
+
+  // Globally ensure only one audio element plays at a time
+  document.addEventListener('play', function(e) {
+    const audios = document.getElementsByTagName('audio');
+    for (let i = 0; i < audios.length; i++) {
+      if (audios[i] !== e.target) {
+        audios[i].pause();
+      }
+    }
+  }, true);
+
+  const audioPlayer = document.getElementById('audioPlayer');
+  if (audioPlayer) {
+    audioPlayer.addEventListener('pause', () => {
+      audioIsPlaying = false;
+      updateAudioUIState();
+    });
+  }
 });
 
 // ── Emotion Dictionary ──

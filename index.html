@@ -15,7 +15,7 @@
     <meta property="og:description" content="Twoja data urodzenia to kod, który otwiera drzwi do głębszego zrozumienia siebie i świata.">
     <meta property="og:type" content="website">
     
-    <link rel="stylesheet" href="style.css?v=45">
+    <link rel="stylesheet" href="style.css?v=46">
 </head>
 <body>
 
@@ -32,6 +32,7 @@
     <a class="nav-item" href="javascript:void(0)" data-i18n="nav_cards" onclick="navigateTo('cards', event)">KARTA DNIA</a>
     <a class="nav-item" href="javascript:void(0)" data-i18n="nav_the_work" onclick="navigateTo('the-work', event)">THE WORK</a>
     <a class="nav-item" href="javascript:void(0)" data-i18n="nav_audio" onclick="navigateTo('audio', event)">AUDIO BIBLIOTEKA</a>
+    <a class="nav-item" href="javascript:void(0)" data-i18n="nav_sleep" onclick="navigateTo('sleep', event)">UTULANKI NA DOBRY SEN</a>
 
     <a class="nav-item" href="stories.html" data-i18n="nav_stories" onclick="closeDrawer()">OPOWIADANIA MOTYWACYJNE</a>
     <a class="nav-item" href="quiz.html" data-i18n="nav_quiz" onclick="closeDrawer()">QUIZ</a>
@@ -503,6 +504,69 @@
         </div>
     </section>
 
+    <!-- ══════════════════════════════════════════
+         PAGE 3B: UTULANKI NA DOBRY SEN (SLEEP)
+    ══════════════════════════════════════════ -->
+    <section id="page-sleep" class="page-section" style="padding-top: 90px; padding-bottom: 60px;">
+        <div class="tracker-container" style="display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%;">
+            
+            <!-- Section Header -->
+            <div class="forecast-sub" data-i18n="sleep_sub">UTULANKI NA DOBRY SEN</div>
+            <h2 class="forecast-main" data-i18n="sleep_title">PODRÓŻ DO KRAINY ŁAGODNOŚCI</h2>
+            
+            <div class="tracker-card mindfulness-card" style="margin-top: 40px;">
+                <h2 class="tracker-title" data-i18n="sleep_main_title">Podróż do Krainy Łagodności</h2>
+                <p class="tracker-sub" data-i18n="sleep_sub_title">Utulanka na Dobry Sen</p>
+
+                <!-- Toggle Description Button -->
+                <button class="mindfulness-toggle-btn" id="sleepToggleBtn" onclick="toggleSleepDesc()">
+                    <span id="sleepToggleText" data-i18n="sleep_btn_show">Pokaż opis utulanki</span>
+                    <span class="arrow" id="sleepToggleArrow">➔</span>
+                </button>
+
+                <!-- Description Area -->
+                <div class="mindfulness-desc-container" id="sleepDescContainer" style="display: none;">
+                    <div class="mindfulness-desc" id="sleepDesc" data-i18n="sleep_desc">
+                        <!-- Injected by i18n -->
+                    </div>
+                </div>
+
+                <!-- Custom Audio Player -->
+                <div class="mindfulness-player-container">
+                    <div class="player-row">
+                        <!-- Play/Pause Button -->
+                        <button class="play-btn-circle" id="sleepPlayPauseBtn" aria-label="Play">
+                            <svg class="play-icon-svg" id="sleep-icon-play" viewBox="0 0 24 24" style="display: block;">
+                                <path d="M8 5v14l11-7z"/>
+                            </svg>
+                            <svg class="play-icon-svg" id="sleep-icon-pause" viewBox="0 0 24 24" style="display: none;">
+                                <path d="M6 19h4V5H6zm8-14v14h4V5z"/>
+                            </svg>
+                        </button>
+
+                        <div class="player-info">
+                            <div class="player-track-lbl" data-i18n="sleep_audio_label">UTULANKA NA DOBRY SEN</div>
+                            <div class="player-track-status" id="sleepPlayerStatus" data-i18n="sleep_status_idle">Naciśnij play, aby odsłuchać</div>
+                        </div>
+                    </div>
+
+                    <!-- Progress Bar -->
+                    <div class="progress-container">
+                        <span class="time-text" id="sleepCurrentTime">0:00</span>
+                        <div class="progress-bar-wrap" id="sleepProgressBarWrap">
+                            <div class="progress-bar-fill" id="sleepProgressBarFill"></div>
+                        </div>
+                        <span class="time-text" id="sleepDurationTime">0:00</span>
+                    </div>
+                </div>
+
+                <!-- Hidden audio tag -->
+                <audio id="sleepAudioPlayer" preload="none"></audio>
+            </div>
+        </div>
+    </section>
+
+
 
 
     <!-- ══ FOOTER ══ -->
@@ -538,10 +602,10 @@
 </script>
 
 <!-- ══ SCRIPTS ══ -->
-<script src="forecast_data.js?v=45"></script>
-<script src="emotions_db.js?v=45"></script>
-<script src="i18n.js?v=45"></script>
-<script src="app.js?v=45"></script>
+<script src="forecast_data.js?v=46"></script>
+<script src="emotions_db.js?v=46"></script>
+<script src="i18n.js?v=46"></script>
+<script src="app.js?v=46"></script>
 
 <!-- ══ POST-LOAD: Audio vibracja number sync ══ -->
 <script>

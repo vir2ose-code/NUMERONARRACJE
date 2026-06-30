@@ -1,10 +1,11 @@
-﻿const translations = {
+const translations = {
   pl: {
     // Nav
     nav_today: "DZISIAJ",
     nav_calc: "KALKULATOR LICZBY URODZENIA",
     nav_cards: "KARTA DNIA",
     nav_audio: "AUDIO BIBLIOTEKA",
+    nav_sleep: "UTULANKI NA DOBRY SEN",
     nav_quiz: "QUIZ",
     nav_about: "O AUTORCE",
     nav_app_info: "O APLIKACJI",
@@ -292,6 +293,26 @@
 </div>`,
 
     tw_cta_label: `Byron Katie — „Kochaj, co masz" · thework.com/polski →`,
+    
+    // Sleep section (Utulanki na Dobry Sen)
+    sleep_sub: "UTULANKI NA DOBRY SEN",
+    sleep_title: "PODRÓŻ DO KRAINY ŁAGODNOŚCI",
+    sleep_main_title: "Podróż do Krainy Łagodności",
+    sleep_sub_title: "Utulanka na Dobry Sen",
+    sleep_btn_show: "Pokaż opis utulanki",
+    sleep_btn_hide: "Ukryj opis",
+    sleep_desc: `<p>Zamknij oczy, weź głęboki, spokojny oddech i pozwól sobie na chwilę całkowitego bezpiecznego odpuszczenia. Ta opowieść powstała z myślą o Twoim zmęczonym umyśle i ciele, które po całym dniu pełnym wyzwań zasługuje na absolutny reset.</p>
+<p>Często pod warstwą codziennych obowiązków kryją się spięte emocje i natłok myśli, które nie pozwalają nam spokojnie zasnąć. To opowiadanie jest jak miękki, ciepły koc otuli Cię, wyciszy głośne myśli i łagodnie przeprowadzi Cię ze stanu czuwania w głęboki, regenerujący sen. Mój głos będzie Twoim przewodnikiem w tej nocnej podróży, pomagając Ci rozpuścić wszelkie napięcia i powrócić do Twojego naturalnego stanu harmonii.</p>
+<p>Nie musisz już nic robić, nigdzie spieszyć się ani o niczym pamiętać. Jesteś tu bezpieczny. Pozwól sobie na zasłużony odpoczynek i obudź się rano z nową, czystą energią i uśmiechem.</p>
+<h4 class="mindfulness-h4">Dla kogo:</h4>
+<p>Dla każdego, kto zmaga się z natłokiem myśli przed snem, czuje napięcie w ciele lub po prostu potrzebuje czułego, kojącego rytuału na dobrą noc.</p>
+<p><strong>Czas trwania:</strong> 37 minut</p>`,
+    sleep_audio_label: "UTULANKA NA DOBRY SEN",
+    sleep_status_idle: "Naciśnij play, aby odsłuchać",
+    sleep_status_playing: "Odtwarzanie... 🔊",
+    sleep_status_paused: "Wstrzymano ⏸",
+    sleep_status_play_err: "❌ Nie można odtworzyć pliku audio (spróbuj odświeżyć)",
+    sleep_status_loading_err: "❌ Nie można załadować pliku audio (spróbuj odświeżyć stronę)",
         // Birth Path Profile Descriptions
     data: {
       1: { title: 'PRZYWÓDCA', desc: 'Jesteś pionierem i wizjonerem. Twoja droga to przywództwo, niezależność i odwaga do bycia pierwszym. Posiadasz niezwykłą siłę woli i zdolność do realizacji swoich celów.', traits: ['Przywódca','Pionier','Niezależny','Kreatywny','Odważny'] },
@@ -309,12 +330,12 @@
     }
   },
   de: {
-    // Nav
     nav_today: "HEUTE",
     nav_calc: "GEBURTSZAHLEN-RECHNER",
     nav_cards: "TAGESKARTE",
     nav_the_work: "THE WORK",
     nav_audio: "AUDIO-BIBLIOTHEK",
+    nav_sleep: "EINSCHLAFBEGLEITUNG",
     nav_quiz: "QUIZ",
     nav_about: "ÜBER DIE AUTORIN",
     nav_app_info: "ÜBER DIESE APP",
@@ -574,6 +595,26 @@
 </ul>
 <p class="tw-heart-note">💛 Denk daran, Liebste — The Work von Byron Katie ist keine Form der Selbstgeißelung. Es ist die Rückkehr nach Hause. Bist du bereit, deinen inneren Frieden zurückzugewinnen?</p>`,
     tw_cta_label: `Byron Katie — „Lieben was ist“ · thework.com →`,
+
+    // Sleep section (Einschlafbegleitung)
+    sleep_sub: "EINSCHLAFBEGLEITUNG",
+    sleep_title: "REISE INS LAND DER SANFTHEIT",
+    sleep_main_title: "Reise ins Land der Sanftheit",
+    sleep_sub_title: "Einschlafbegleitung für eine gute Nacht",
+    sleep_btn_show: "Beschreibung anzeigen",
+    sleep_btn_hide: "Beschreibung ausblenden",
+    sleep_desc: `<p>Schließe deine Augen, nimm einen tiefen, ruhigen Atemzug und erlaube dir einen Moment des vollkommenen, sicheren Loslassens. Diese Geschichte wurde für deinen müden Geist und Körper geschaffen, die nach einem Tag voller Herausforderungen einen absoluten Reset verdienen.</p>
+<p>Oft verbergen sich unter der Schicht alltäglicher Pflichten angespannte Emotionen und eine Flut von Gedanken, die uns nicht ruhig einschlafen lassen. Diese Erzählung ist wie eine weiche, warme Decke – sie umhüllt dich, beruhigt laute Gedanken und führt dich sanft aus dem Wachzustand in einen tiefen, regenerierenden Schlaf. Meine Stimme wird dein Führer auf dieser nächtlichen Reise sein, dir helfen, jegliche Spannungen abzubauen und zu deinem natürlichen Zustand der Harmonie zurückzufinden.</p>
+<p>Du musst nichts mehr tun, dich nirgendwohin beeilen oder an etwas denken. Du bist hier in Sicherheit. Gönne dir deine wohlverdiente Ruhe und wache morgen früh mit neuer, reiner Energie und einem Lächeln auf.</p>
+<h4 class="mindfulness-h4">Für wen:</h4>
+<p>Für jeden, der vor dem Einschlafen mit einer Flut von Gedanken kämpft, Anspannung im Körper spürt oder einfach ein liebevolles, beruhigendes Ritual für eine gute Nacht braucht.</p>
+<p><strong>Dauer:</strong> 37 Minuten</p>`,
+    sleep_audio_label: "SCHLAFLIEDER",
+    sleep_status_idle: "Drücke Play zum Anhören",
+    sleep_status_playing: "Wiedergabe läuft... 🔊",
+    sleep_status_paused: "Pausiert ⏸",
+    sleep_status_play_err: "❌ Kann Audiodatei nicht abspielen (bitte aktualisieren)",
+    sleep_status_loading_err: "❌ Fehler beim Laden der Audiodatei (bitte Seite aktualisieren)",
     
     // Birth Path Profile Descriptions
     data: {
