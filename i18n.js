@@ -342,7 +342,7 @@ const translations = {
     pers_sec_task: "Twoje Zadanie Transformacyjne na 30 dni",
     pers_sec_energy: "Podsumowanie energii",
     pers_cta_text: "To dopiero początek Twojej pięknej podróży. Twoja matryca skrywa o wiele więcej odpowiedzi. Chcesz głęboko rozkodować to, co wciąż uwiera w ciele i poznać pełen potencjał swoich liczb?",
-    pers_cta_btn: "Umów się na indywidualną sesję z Renatą",
+    pers_cta_btn: "Umów się na indywidualną sesję",
     pers_btn_restart: "Rozpocznij test ponownie",
     pers_questions: [
       { q: "1. Kiedy czujesz, że Twoje baterie życiowe są całkowicie wyczerpane, najchętniej:", a: "Spędzam czas wśród ludzi, rozmawiam z przyjaciółmi lub kimś bliskim, by wymienić się energią.", b: "Zaszywam się w ciszy, czytam, rozmyślam lub odpoczywam w samotności, by wrócić do siebie." },
@@ -702,7 +702,7 @@ const translations = {
     pers_sec_task: "Deine Transformationsaufgabe für 30 Tage",
     pers_sec_energy: "Zusammenfassung der Energie",
     pers_cta_text: "Dies ist erst der Anfang deiner schönen Reise. Deine Matrix verbirgt noch viel mehr Antworten. Möchtest du tief entschlüsseln, was im Körper noch schmerzt, und das volle Potenzial deiner Zahlen kennenlernen?",
-    pers_cta_btn: "Buche eine individuelle Sitzung mit Renata",
+    pers_cta_btn: "Buche eine individuelle Sitzung",
     pers_btn_restart: "Test erneut starten",
     pers_questions: [
       { q: "1. Wenn deine Lebensbatterien völlig leer sind, was machst du am liebsten?", a: "Ich verbringe Zeit unter Menschen, unterhalte mich mit Freunden oder jemandem, der mir nahe steht, um Energie auszutauschen.", b: "Ich ziehe mich in die Stille zurück, lese, denke nach oder entspanne mich in Einsamkeit, um zu mir selbst zu finden." },
