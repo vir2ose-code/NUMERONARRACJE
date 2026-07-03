@@ -15,7 +15,7 @@
     <meta property="og:description" content="Twoja data urodzenia to kod, który otwiera drzwi do głębszego zrozumienia siebie i świata.">
     <meta property="og:type" content="website">
     
-    <link rel="stylesheet" href="style.css?v=47">
+    <link rel="stylesheet" href="style.css?v=48">
 </head>
 <body>
 
@@ -36,6 +36,8 @@
 
     <a class="nav-item" href="stories.html" data-i18n="nav_stories" onclick="closeDrawer()">OPOWIADANIA MOTYWACYJNE</a>
     <a class="nav-item" href="quiz.html" data-i18n="nav_quiz" onclick="closeDrawer()">QUIZ</a>
+    <a class="nav-item" href="javascript:void(0)" data-i18n="nav_personality" onclick="navigateTo('personality', event)">TEST OSOBOWOŚCI</a>
+
     <a class="nav-item" href="jokes.html" data-i18n="nav_jokes" onclick="closeDrawer()">KAWAŁY</a>
     <a class="nav-item" href="about.html" data-i18n="nav_about" onclick="closeDrawer()">O AUTORCE</a>
     <a class="nav-item" href="app-info.html" data-i18n="nav_app_info" onclick="closeDrawer()">O APLIKACJI</a>
@@ -565,6 +567,181 @@
         </div>
     </section>
 
+    <!-- ══════════════════════════════════════════
+         PAGE 3C: TEST OSOBOWOŚCI (PERSONALITY TEST)
+    ══════════════════════════════════════════ -->
+    <section id="page-personality" class="page-section" style="padding-top: 90px; padding-bottom: 60px;">
+        <div class="tracker-container" style="text-align: center;">
+            
+            <!-- Section Header -->
+            <h2 class="forecast-main" data-i18n="pers_sub">TEST OSOBOWOŚCI</h2>
+            
+            <!-- EKRAN 1: INTRO & INPUT -->
+            <div id="pers-screen-intro" class="tracker-card personality-card" style="margin-top: 40px; text-align: left; width: 100%; box-sizing: border-box;">
+                <h2 class="tracker-title" style="text-align: center;" data-i18n="pers_intro_header">Odkryj swój wewnętrzny potencjał i zakodowane talenty</h2>
+                <div class="pers-intro-text" style="font-family: 'Raleway', sans-serif; font-size: 14px; line-height: 1.6; color: var(--silver-elegant); margin-bottom: 24px;">
+                    <p data-i18n="pers_intro_desc_1">Czy zastanawiałeś się kiedyś, dlaczego w pewnych sytuacjach działasz z niesamowitą lekkością, a w innych czujesz opór?</p>
+                    <p data-i18n="pers_intro_desc_2">Kluczem do harmonijnego życia jest samoświadomość...</p>
+                    <p data-i18n="pers_intro_desc_3">Ten test to pierwszy krok do ich rozkodowania.</p>
+                </div>
+                
+                <!-- Accordions for detailed info in Intro -->
+                <div class="tw-accordion" id="pers-intro-acc-1" style="margin-bottom: 12px;">
+                    <div class="tw-acc-header" onclick="togglePersIntroAcc(1)" style="font-family: 'Cormorant Garamond', serif; font-size: 18px; color: var(--gold-patina-light); border: 1px solid rgba(212, 175, 55, 0.2); border-radius: 8px; padding: 12px 16px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: rgba(30,15,50,0.3);">
+                        <span data-i18n="pers_how_works_title">Jak to działa?</span>
+                        <span class="tw-acc-arrow" id="pers-intro-arrow-1" style="transition: transform 0.3s;">➔</span>
+                    </div>
+                    <div class="tw-acc-content" id="pers-intro-content-1" style="display: none; padding: 16px; font-size: 13px; line-height: 1.6; color: var(--silver-dim); border: 1px solid rgba(212, 175, 55, 0.1); border-top: none; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; background: rgba(15,8,30,0.4);">
+                        <p data-i18n="pers_how_works_desc">Nasz kalkulator przeanalizuje Twoje odpowiedzi...</p>
+                    </div>
+                </div>
+                <div class="tw-accordion" id="pers-intro-acc-2" style="margin-bottom: 24px;">
+                    <div class="tw-acc-header" onclick="togglePersIntroAcc(2)" style="font-family: 'Cormorant Garamond', serif; font-size: 18px; color: var(--gold-patina-light); border: 1px solid rgba(212, 175, 55, 0.2); border-radius: 8px; padding: 12px 16px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: rgba(30,15,50,0.3);">
+                        <span data-i18n="pers_what_get_title">Co otrzymasz?</span>
+                        <span class="tw-acc-arrow" id="pers-intro-arrow-2" style="transition: transform 0.3s;">➔</span>
+                    </div>
+                    <div class="tw-acc-content" id="pers-intro-content-2" style="display: none; padding: 16px; font-size: 13px; line-height: 1.6; color: var(--silver-dim); border: 1px solid rgba(212, 175, 55, 0.1); border-top: none; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; background: rgba(15,8,30,0.4);">
+                        <p data-i18n="pers_what_get_desc">Przed Tobą 24 pytania...</p>
+                    </div>
+                </div>
+
+                <!-- Form Field (Birth Date) -->
+                <div class="input-group" style="margin-bottom: 24px; display: flex; flex-direction: column; align-items: center; width: 100%;">
+                    <label for="persBirthDate" style="font-family: 'Cormorant Garamond', serif; font-size: 18px; color: var(--gold-patina-light); margin-bottom: 8px;" data-i18n="pers_date_label">Twoja data urodzenia:</label>
+                    <input type="text" id="persBirthDate" class="birth-input" placeholder="DD.MM.RRRR" style="text-align: center; max-width: 300px; width: 100%; border: 1px solid rgba(212, 175, 55, 0.4); border-radius: 8px; padding: 12px; background: rgba(10,5,25,0.6); color: white; outline: none; font-size: 16px;">
+                    <span id="persDateError" style="color: #ff6b6b; font-size: 12px; margin-top: 6px; display: none;" data-i18n="pers_date_error">Proszę wprowadzić poprawną datę urodzenia (DD.MM.RRRR)</span>
+                </div>
+
+                <!-- Start CTA Button -->
+                <div style="text-align: center;">
+                    <button class="calc-btn" onclick="startPersonalityTest()" style="margin-top: 10px;" data-i18n="pers_btn_start">Rozpocznij spotkanie ze sobą</button>
+                </div>
+            </div>
+
+            <!-- EKRAN 2: PANEL PYTAŃ -->
+            <div id="pers-screen-questions" class="tracker-card personality-card" style="margin-top: 40px; display: none; width: 100%; box-sizing: border-box; text-align: center;">
+                <!-- Thin Glowing Progress Bar -->
+                <div class="pers-progress-wrapper" style="width: 100%; margin-bottom: 12px;">
+                    <div style="display: flex; justify-content: space-between; font-size: 12px; color: var(--silver-dim); margin-bottom: 6px;">
+                        <span id="persProgressText">Pytanie 1 z 24</span>
+                        <span id="persProgressPercent">0%</span>
+                    </div>
+                    <div class="pers-progress-bar-wrap" style="width: 100%; height: 6px; background: rgba(255,255,255,0.07); border-radius: 3px; overflow: hidden; border: 1px solid rgba(212, 175, 55, 0.15);">
+                        <div class="pers-progress-bar-fill" id="persProgressBarFill" style="width: 0%; height: 100%; background: linear-gradient(90deg, #d4af37, #bfaee3); transition: width 0.2s ease;"></div>
+                    </div>
+                </div>
+
+                <!-- Active Question Content -->
+                <h3 id="persQuestionText" style="font-family: 'Cormorant Garamond', serif; font-size: 22px; color: white; line-height: 1.5; margin: 30px 0 40px 0; min-height: 70px;">
+                    <!-- Injected by JS -->
+                </h3>
+
+                <!-- Answer Options (A and B Cards) -->
+                <div class="pers-answers-container" style="display: flex; flex-direction: column; gap: 16px; width: 100%;">
+                    <button class="pers-answer-card" id="persAnswerBtnA" onclick="answerQuestion('A')">
+                        <span class="badge">A</span>
+                        <span class="text" id="persAnswerTextA"><!-- Option A --></span>
+                    </button>
+                    <button class="pers-answer-card" id="persAnswerBtnB" onclick="answerQuestion('B')">
+                        <span class="badge">B</span>
+                        <span class="text" id="persAnswerTextB"><!-- Option B --></span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- EKRAN 3: KRAJOBRAZ OBLICZEŃ (LOADING) -->
+            <div id="pers-screen-loading" class="tracker-card personality-card" style="margin-top: 40px; display: none; width: 100%; box-sizing: border-box; text-align: center; padding: 40px 24px;">
+                <!-- Spinning Numerology Mandala -->
+                <div class="mandala-spinner-wrap" style="position: relative; width: 120px; height: 120px; margin: 20px auto 40px auto;">
+                    <div class="mandala-outer"></div>
+                    <div class="mandala-inner">
+                        <span style="font-family: 'Cormorant Garamond', serif; font-size: 24px; color: var(--gold-patina-light); animation: pulse 1.5s ease-in-out infinite;">9</span>
+                    </div>
+                </div>
+                <p id="persLoadingText" style="font-family: 'Raleway', sans-serif; font-size: 15px; line-height: 1.7; color: var(--silver-elegant); max-width: 450px; margin: 0 auto;" data-i18n="pers_loading_text">
+                    Łączę kropki... Twój osobisty kod energii i liczba urodzeniowa właśnie się integrują. Daj mi chwilę.
+                </p>
+            </div>
+
+            <!-- EKRAN 4: WIELKI FINAŁ (RESULTS) -->
+            <div id="pers-screen-result" class="tracker-card personality-card result-container" style="margin-top: 40px; display: none; width: 100%; box-sizing: border-box; text-align: left;">
+                
+                <!-- Section A: Główny Profil -->
+                <div class="pers-result-header" style="text-align: center; margin-bottom: 30px;">
+                    <h2 class="pers-result-name" id="persResultName" style="font-family: 'Cormorant Garamond', serif; font-size: 28px; color: var(--gold-patina-light); margin-bottom: 6px;">
+                        <!-- Mentor (INFJ) -->
+                    </h2>
+                    <p class="pers-result-vib" id="persResultVib" style="font-family: 'Raleway', sans-serif; font-size: 14px; color: var(--silver-dim); margin-bottom: 16px;">
+                        <!-- Twoja wiodąca energia: Liczba Urodzenia 2 -->
+                    </p>
+                    <div class="motto-box" style="display: inline-block; background: rgba(255,255,255,0.03); border: 1px dashed rgba(212, 175, 55, 0.25); border-radius: 8px; padding: 12px 20px; font-style: italic; color: #e0d0f5; font-family: 'Raleway', sans-serif; font-size: 13px;">
+                        <span data-i18n="pers_result_motto">Motto życiowe:</span> <span id="persResultMotto">""</span>
+                    </div>
+                </div>
+
+                <!-- Section B: Twój Potencjał (Collapsible Accordion) -->
+                <div class="tw-accordion" id="pers-result-acc-potential" style="margin-bottom: 20px;">
+                    <div class="tw-acc-header" onclick="togglePersResultAcc('potential')" style="font-family: 'Cormorant Garamond', serif; font-size: 18px; color: var(--gold-patina-light); border: 1px solid rgba(212, 175, 55, 0.2); border-radius: 8px; padding: 14px 16px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: rgba(30,15,50,0.3);">
+                        <span data-i18n="pers_sec_potential">Twój Potencjał (Energetyczna Matryca)</span>
+                        <span class="tw-acc-arrow" id="pers-result-arrow-potential" style="transition: transform 0.3s;">➔</span>
+                    </div>
+                    <div class="tw-acc-content" id="pers-result-content-potential" style="display: none; padding: 16px; font-size: 13px; line-height: 1.6; color: var(--silver-dim); border: 1px solid rgba(212, 175, 55, 0.1); border-top: none; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; background: rgba(15,8,30,0.4);">
+                        <div id="persResultKimJestes" style="white-space: pre-line;"></div>
+                    </div>
+                </div>
+
+                <!-- Section C: Do Rozkodowania (Red/Orange Border Box) -->
+                <div class="warning-box-personality" style="border: 1px solid rgba(235, 94, 85, 0.4); border-radius: 12px; background: rgba(235, 94, 85, 0.04); padding: 20px; margin-bottom: 20px;">
+                    <h3 style="font-family: 'Cormorant Garamond', serif; font-size: 19px; color: #eb5e55; margin-bottom: 12px;" data-i18n="pers_sec_to_decode">Do Rozkodowania</h3>
+                    
+                    <p style="font-size: 13px; line-height: 1.6; color: var(--silver-elegant); margin-bottom: 12px;">
+                        <strong style="color: #f7a09c;" data-i18n="pers_sec_trap">Pułapka umysłu:</strong> <span id="persResultPulapka"></span>
+                    </p>
+                    <p style="font-size: 13px; line-height: 1.6; color: var(--silver-elegant); margin-bottom: 12px;">
+                        <strong style="color: #f7a09c;" data-i18n="pers_sec_emotions">Zblokowane emocje:</strong> <span id="persResultEmocje"></span>
+                    </p>
+                    <p style="font-size: 13px; line-height: 1.6; color: var(--silver-elegant); margin-bottom: 0;">
+                        <strong style="color: #f7a09c;" data-i18n="pers_sec_tip">Wskazówka transformacji:</strong> <span id="persResultWskazowka"></span>
+                    </p>
+                </div>
+
+                <!-- Section D: Twoje Zadanie (Green/Gold Border Box) -->
+                <div class="success-box-personality" style="border: 1px solid rgba(212, 175, 55, 0.45); border-radius: 12px; background: rgba(212, 175, 55, 0.04); padding: 20px; margin-bottom: 20px;">
+                    <h3 style="font-family: 'Cormorant Garamond', serif; font-size: 19px; color: var(--gold-patina-light); margin-bottom: 12px;" data-i18n="pers_sec_task">Twoje Zadanie Transformacyjne na 30 dni</h3>
+                    <div id="persResultZadanie" style="font-size: 13px; line-height: 1.6; color: var(--silver-elegant); white-space: pre-line;"></div>
+                </div>
+
+                <!-- Section E: Podsumowanie Energii (Collapsible Accordion) -->
+                <div class="tw-accordion" id="pers-result-acc-energy" style="margin-bottom: 30px;">
+                    <div class="tw-acc-header" onclick="togglePersResultAcc('energy')" style="font-family: 'Cormorant Garamond', serif; font-size: 18px; color: var(--gold-patina-light); border: 1px solid rgba(212, 175, 55, 0.2); border-radius: 8px; padding: 14px 16px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; background: rgba(30,15,50,0.3);">
+                        <span data-i18n="pers_sec_energy">Podsumowanie energii</span>
+                        <span class="tw-acc-arrow" id="pers-result-arrow-energy" style="transition: transform 0.3s;">➔</span>
+                    </div>
+                    <div class="tw-acc-content" id="pers-result-content-energy" style="display: none; padding: 16px; font-size: 13px; line-height: 1.6; color: var(--silver-dim); border: 1px solid rgba(212, 175, 55, 0.1); border-top: none; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; background: rgba(15,8,30,0.4);">
+                        <div id="persResultPodsumowanie" style="white-space: pre-line;"></div>
+                    </div>
+                </div>
+
+                <!-- Section F: Subtelne Wezwanie do Działania (CTA) -->
+                <div class="pers-result-cta" style="border-top: 1px solid rgba(255,255,255,0.06); padding-top: 24px; text-align: center;">
+                    <p style="font-family: 'Raleway', sans-serif; font-size: 14px; line-height: 1.6; color: var(--silver-dim); margin-bottom: 20px; max-width: 550px; margin-left: auto; margin-right: auto;" data-i18n="pers_cta_text">
+                        To dopiero początek Twojej pięknej podróży...
+                    </p>
+                    <a href="about.html#contact" class="calc-btn" style="display: inline-block; text-decoration: none; padding: 14px 28px;" data-i18n="pers_cta_btn">
+                        Umów się na indywidualną sesję z Renatą
+                    </a>
+                </div>
+
+                <!-- Restart Button -->
+                <div style="text-align: center; margin-top: 24px;">
+                    <button class="reset-btn" onclick="restartPersonalityTest()" style="background: transparent; border: none; color: var(--silver-dim); font-size: 13px; cursor: pointer; text-decoration: underline; opacity: 0.7; transition: opacity 0.2s;" data-i18n="pers_btn_restart">
+                        Rozpocznij test ponownie
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 
 
@@ -601,10 +778,11 @@
 </script>
 
 <!-- ══ SCRIPTS ══ -->
-<script src="forecast_data.js?v=47"></script>
-<script src="emotions_db.js?v=47"></script>
-<script src="i18n.js?v=47"></script>
-<script src="app.js?v=47"></script>
+<script src="forecast_data.js?v=48"></script>
+<script src="emotions_db.js?v=48"></script>
+<script src="i18n.js?v=48"></script>
+<script src="personality_data.js?v=48"></script>
+<script src="app.js?v=48"></script>
 
 <!-- ══ POST-LOAD: Audio vibracja number sync ══ -->
 <script>

@@ -150,6 +150,10 @@ function switchLang(lang) {
   if (typeof initDailyCard === 'function') {
     initDailyCard();
   }
+
+  if (typeof refreshPersonalityLanguage === 'function') {
+    refreshPersonalityLanguage();
+  }
 }
 
 // ── Drawer ──
@@ -964,11 +968,11 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   }
-
   initEmotionTracker();
   initEnergySlider();
   initMindfulnessPlayer();
   initSleepPlayer();
+  initPersonalityTest();
 
   // Globally ensure only one audio element plays at a time
   document.addEventListener('play', function(e) {
@@ -1679,5 +1683,292 @@ function initEmotionTracker() {
   // Renderowanie początkowe tagów na start
   renderDefaultTags();
 }
+
+// ── TEST OSOBOWOŚCI (PERSONALITY TEST) ENGINE ──
+
+let persScores = { E: 0, I: 0, S: 0, N: 0, T: 0, F: 0, J: 0, P: 0 };
+let persCurrentQuestionIndex = 0;
+let persBirthDateParsed = null;
+let persActiveResult = null;
+
+function initPersonalityTest() {
+  const dateInput = document.getElementById('persBirthDate');
+  const errorSpan = document.getElementById('persDateError');
+
+  // Pre-fill from localStorage if available
+  try {
+    const savedDate = localStorage.getItem('birthDate');
+    if (savedDate && dateInput) {
+      dateInput.value = savedDate;
+    }
+  } catch (e) {
+    console.warn('localStorage read error:', e);
+  }
+
+  // Automatic date formatting DD.MM.RRRR
+  if (dateInput) {
+    dateInput.addEventListener('input', function(e) {
+      let value = e.target.value.replace(/\D/g, '');
+      if (value.length > 8) value = value.slice(0, 8);
+      
+      let formatted = '';
+      if (value.length > 0) {
+        formatted += value.slice(0, 2);
+      }
+      if (value.length > 2) {
+        formatted += '.' + value.slice(2, 4);
+      }
+      if (value.length > 4) {
+        formatted += '.' + value.slice(4, 8);
+      }
+      e.target.value = formatted;
+      if (errorSpan) errorSpan.style.display = 'none';
+    });
+  }
+}
+
+function startPersonalityTest() {
+  const dateInput = document.getElementById('persBirthDate');
+  const errorSpan = document.getElementById('persDateError');
+  
+  if (!dateInput) return;
+  
+  const dateVal = dateInput.value.trim();
+  const parsed = parseDateStr(dateVal);
+  
+  if (!parsed || isNaN(parsed.d) || isNaN(parsed.m) || isNaN(parsed.y) || dateVal.length < 10) {
+    if (errorSpan) errorSpan.style.display = 'block';
+    return;
+  }
+  
+  if (errorSpan) errorSpan.style.display = 'none';
+  persBirthDateParsed = parsed;
+  
+  // Save birth date to local storage
+  try {
+    localStorage.setItem('birthDate', dateVal);
+    // Also pre-fill the main calculator input if it exists
+    const mainDateInput = document.getElementById('birthDate');
+    if (mainDateInput) mainDateInput.value = dateVal;
+  } catch (e) {
+    console.warn('localStorage write error:', e);
+  }
+  
+  // Reset scores and index
+  persScores = { E: 0, I: 0, S: 0, N: 0, T: 0, F: 0, J: 0, P: 0 };
+  persCurrentQuestionIndex = 0;
+  persActiveResult = null;
+  
+  // Show screen 2 (questions), hide screen 1
+  document.getElementById('pers-screen-intro').style.display = 'none';
+  document.getElementById('pers-screen-questions').style.display = 'block';
+  document.getElementById('pers-screen-loading').style.display = 'none';
+  document.getElementById('pers-screen-result').style.display = 'none';
+  
+  renderActiveQuestion();
+  
+  // Scroll to section top
+  scrollToSection('personality');
+}
+
+function renderActiveQuestion() {
+  const trans = (typeof translations !== 'undefined' ? translations : (window.translations || null));
+  if (!trans || !trans[currentLang]) return;
+  
+  const questions = trans[currentLang].pers_questions;
+  if (!questions || !questions[persCurrentQuestionIndex]) return;
+  
+  const question = questions[persCurrentQuestionIndex];
+  
+  // Update texts
+  const qText = document.getElementById('persQuestionText');
+  const aText = document.getElementById('persAnswerTextA');
+  const bText = document.getElementById('persAnswerTextB');
+  
+  if (qText) qText.textContent = question.q;
+  if (aText) aText.textContent = question.a;
+  if (bText) bText.textContent = question.b;
+  
+  // Progress calculations
+  const total = questions.length;
+  const current = persCurrentQuestionIndex + 1;
+  const percent = Math.round(((current - 1) / total) * 100);
+  
+  const progText = document.getElementById('persProgressText');
+  const progPercent = document.getElementById('persProgressPercent');
+  const progFill = document.getElementById('persProgressBarFill');
+  
+  if (progText) {
+    let lbl = trans[currentLang].pers_progress_label || "Pytanie {current} z {total}";
+    progText.textContent = lbl.replace('{current}', current).replace('{total}', total);
+  }
+  if (progPercent) progPercent.textContent = `${percent}%`;
+  if (progFill) progFill.style.width = `${percent}%`;
+}
+
+function answerQuestion(choice) {
+  const idx = persCurrentQuestionIndex;
+  
+  if (idx < 6) {
+    if (choice === 'A') persScores.E++; else persScores.I++;
+  } else if (idx < 12) {
+    if (choice === 'A') persScores.S++; else persScores.N++;
+  } else if (idx < 18) {
+    if (choice === 'A') persScores.T++; else persScores.F++;
+  } else {
+    if (choice === 'A') persScores.J++; else persScores.P++;
+  }
+  
+  persCurrentQuestionIndex++;
+  
+  const trans = (typeof translations !== 'undefined' ? translations : (window.translations || null));
+  const questions = trans && trans[currentLang] ? trans[currentLang].pers_questions : [];
+  
+  if (persCurrentQuestionIndex >= questions.length) {
+    runLoadingScreen();
+  } else {
+    renderActiveQuestion();
+  }
+}
+
+function runLoadingScreen() {
+  document.getElementById('pers-screen-questions').style.display = 'none';
+  document.getElementById('pers-screen-loading').style.display = 'block';
+  
+  scrollToSection('personality');
+  
+  setTimeout(() => {
+    document.getElementById('pers-screen-loading').style.display = 'none';
+    calculatePersonalityResult();
+    document.getElementById('pers-screen-result').style.display = 'block';
+    scrollToSection('personality');
+  }, 3000);
+}
+
+function calculatePersonalityResult() {
+  // 1. Calculate MBTI Code (using plan tie-breaker rules)
+  // E vs I (Tie -> I)
+  const mbti1 = persScores.E > persScores.I ? 'E' : 'I';
+  // S vs N (Tie -> N)
+  const mbti2 = persScores.S > persScores.N ? 'S' : 'N';
+  // T vs F (Tie -> F)
+  const mbti3 = persScores.T > persScores.F ? 'T' : 'F';
+  // J vs P (Tie -> P)
+  const mbti4 = persScores.J > persScores.P ? 'J' : 'P';
+  
+  const mbtiCode = `${mbti1}${mbti2}${mbti3}${mbti4}`;
+  
+  // 2. Calculate Birth Path Number
+  let birthPath = 1;
+  if (persBirthDateParsed) {
+    birthPath = calculateLifePath(persBirthDateParsed.d, persBirthDateParsed.m, persBirthDateParsed.y);
+  }
+  
+  persActiveResult = { mbti: mbtiCode, birthPath: birthPath };
+  
+  renderResultData();
+}
+
+function renderResultData() {
+  if (!persActiveResult) return;
+  const { mbti, birthPath } = persActiveResult;
+  
+  const trans = (typeof translations !== 'undefined' ? translations : (window.translations || null));
+  if (!trans || !trans[currentLang]) return;
+  
+  const database = currentLang === 'de' ? window.PERSONALITIES_DE : window.PERSONALITIES_PL;
+  const profile = database && database[mbti] ? database[mbti] : null;
+  
+  if (!profile) {
+    console.error('Profile not found in database for code:', mbti);
+    return;
+  }
+  
+  const birthPathTitle = trans[currentLang].data && trans[currentLang].data[birthPath] 
+    ? trans[currentLang].data[birthPath].title 
+    : '';
+  
+  const resName = document.getElementById('persResultName');
+  const resVib = document.getElementById('persResultVib');
+  const resMotto = document.getElementById('persResultMotto');
+  const resKim = document.getElementById('persResultKimJestes');
+  const resTrap = document.getElementById('persResultPulapka');
+  const resEmo = document.getElementById('persResultEmocje');
+  const resTip = document.getElementById('persResultWskazowka');
+  const resTask = document.getElementById('persResultZadanie');
+  const resPod = document.getElementById('persResultPodsumowanie');
+  
+  if (resName) resName.textContent = `${profile.name} (${profile.mbti})`;
+  if (resVib) {
+    let lbl = trans[currentLang].pers_result_vib || "Twoja wiodąca energia: Liczba Urodzenia {vib}";
+    resVib.textContent = lbl.replace('{vib}', `${birthPath} (${birthPathTitle})`);
+  }
+  if (resMotto) resMotto.textContent = `"${profile.motto}"`;
+  if (resKim) resKim.textContent = profile.kimJestes;
+  if (resTrap) resTrap.textContent = profile.pulapka;
+  if (resEmo) resEmo.textContent = profile.emocje;
+  if (resTip) resTip.textContent = profile.wskazowka;
+  if (resTask) resTask.textContent = profile.zadanie;
+  if (resPod) resPod.textContent = profile.podsumowanie;
+}
+
+function togglePersIntroAcc(index) {
+  const content = document.getElementById(`pers-intro-content-${index}`);
+  const arrow = document.getElementById(`pers-intro-arrow-${index}`);
+  if (!content || !arrow) return;
+  
+  if (content.style.display === 'block') {
+    content.style.display = 'none';
+    arrow.style.transform = 'rotate(0deg)';
+  } else {
+    content.style.display = 'block';
+    arrow.style.transform = 'rotate(90deg)';
+  }
+}
+
+function togglePersResultAcc(type) {
+  const content = document.getElementById(`pers-result-content-${type}`);
+  const arrow = document.getElementById(`pers-result-arrow-${type}`);
+  if (!content || !arrow) return;
+  
+  if (content.style.display === 'block') {
+    content.style.display = 'none';
+    arrow.style.transform = 'rotate(0deg)';
+  } else {
+    content.style.display = 'block';
+    arrow.style.transform = 'rotate(90deg)';
+  }
+}
+
+function restartPersonalityTest() {
+  persActiveResult = null;
+  
+  document.getElementById('pers-screen-intro').style.display = 'block';
+  document.getElementById('pers-screen-questions').style.display = 'none';
+  document.getElementById('pers-screen-loading').style.display = 'none';
+  document.getElementById('pers-screen-result').style.display = 'none';
+  
+  const errorSpan = document.getElementById('persDateError');
+  if (errorSpan) errorSpan.style.display = 'none';
+  
+  scrollToSection('personality');
+}
+
+function refreshPersonalityLanguage() {
+  if (document.getElementById('pers-screen-questions').style.display === 'block') {
+    renderActiveQuestion();
+  }
+  if (document.getElementById('pers-screen-result').style.display === 'block') {
+    renderResultData();
+  }
+}
+
+window.togglePersIntroAcc = togglePersIntroAcc;
+window.startPersonalityTest = startPersonalityTest;
+window.answerQuestion = answerQuestion;
+window.togglePersResultAcc = togglePersResultAcc;
+window.restartPersonalityTest = restartPersonalityTest;
+window.refreshPersonalityLanguage = refreshPersonalityLanguage;
+
 
 
