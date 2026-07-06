@@ -393,25 +393,6 @@ const translations = {
     bq_status_play_err: "❌ Nie można odtworzyć pliku audio (spróbuj odświeżyć)",
     bq_status_loading_err: "❌ Nie można załadować pliku audio (spróbuj odświeżyć stronę)",
 
-    // Body Quiz (Co opowiada Twoje Ciało)
-    bq_sub: "QUIZ: WAS ERZÄHLT DEIN KÖRPER?",
-    bq_title: "VERBINDE DICH MIT DEINEM KÖRPER",
-    bq_intro_header: "In welcher Emotion bist du heute?",
-    bq_intro_desc: "Halte für einen Moment inne, nimm einen tiefen Atemzug und richte deine Aufmerksamkeit nach innen. Verbinde dich mit deinem Körper und entdecke die Botschaft, die er heute für dich hat. Dieser Quiz hilft dir, den Zustand deines autonomen Nervensystems zu diagnostizieren, und wählt die passende Unterstützung aus.",
-    bq_btn_start: "Starten",
-    bq_progress_label: "Frage {current} von {total}",
-    bq_loading_text: "Ich lausche deinem Körper... Ich bereite deine Unterstützung vor.",
-    bq_res_title_prefix: "Dein Zustand heute:",
-    bq_res_audio_title_celebrate: "Dein Schritt zur Feier des Tages",
-    bq_res_audio_title_freedom: "Dein erster Schritt zur Freiheit",
-    bq_res_cta_title: "Weg zu deinem Potenzial",
-    bq_res_cta_btn: "Erfahre mehr über Beratungen",
-    bq_btn_restart: "Quiz erneut starten",
-    bq_status_idle: "Drücke Play zum Anhören",
-    bq_status_playing: "Wiedergabe läuft... 🔊",
-    bq_status_paused: "Wiedergabe pausiert ⏸",
-    bq_status_play_err: "❌ Audio konnte nicht abgespielt werden",
-    bq_status_loading_err: "❌ Audiodatei konnte nicht geladen werden",
 
     // Birth Path Profile Descriptions
     data: {
@@ -773,6 +754,26 @@ const translations = {
       { q: "24. Ein Gefühl der Sicherheit gibt dir eine Situation, in der:", a: "Alles klar, stabil, vorhersehbar und strukturiert ist.", b: "Meine Optionen offen bleiben, ich die volle Wahlfreiheit habe und mich nichts starr einschränkt." }
     ],
     
+    // Body Quiz (Co opowiada Twoje Ciało)
+    bq_sub: "QUIZ: WAS ERZÄHLT DEIN KÖRPER?",
+    bq_title: "VERBINDE DICH MIT DEINEM KÖRPER",
+    bq_intro_header: "In welcher Emotion bist du heute?",
+    bq_intro_desc: "Halte für einen Moment inne, nimm einen tiefen Atemzug und richte deine Aufmerksamkeit nach innen. Verbinde dich mit deinem Körper und entdecke die Botschaft, die er heute für dich hat. Dieser Quiz hilft dir, den Zustand deines autonomen Nervensystems zu diagnostizieren, und wählt die passende Unterstützung aus.",
+    bq_btn_start: "Starten",
+    bq_progress_label: "Frage {current} von {total}",
+    bq_loading_text: "Ich lausche deinem Körper... Ich bereite deine Unterstützung vor.",
+    bq_res_title_prefix: "Dein Zustand heute:",
+    bq_res_audio_title_celebrate: "Dein Schritt zur Feier des Tages",
+    bq_res_audio_title_freedom: "Dein erster Schritt zur Freiheit",
+    bq_res_cta_title: "Weg zu deinem Potenzial",
+    bq_res_cta_btn: "Erfahre mehr über Beratungen",
+    bq_btn_restart: "Quiz erneut starten",
+    bq_status_idle: "Drücke Play zum Anhören",
+    bq_status_playing: "Wiedergabe läuft... 🔊",
+    bq_status_paused: "Wiedergabe pausiert ⏸",
+    bq_status_play_err: "❌ Audio konnte nicht abgespielt werden",
+    bq_status_loading_err: "❌ Audiodatei konnte nicht geladen werden",
+
     // Birth Path Profile Descriptions
     data: {
       1: { title: 'ANFÜHRER', desc: 'Du bist ein Pionier und Visionär. Dein Weg ist Führung, Unabhängigkeit und der Mut, der Erste zu sein. Du hast außergewöhnliche Willenskraft und die Fähigkeit, deine Ziele zu erreichen.', traits: ['Anführer','Pionier','Unabhängig','Kreativ','Mutig'] },
