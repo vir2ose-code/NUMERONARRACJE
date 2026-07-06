@@ -188,7 +188,7 @@ window.BODY_QUIZ_PL = {
     "audioTitle": "Taniec Złotego Liścia",
     "audioDesc": "Przygotowałam dla Ciebie opowiadanie audio: „Taniec Złotego Liścia”. Ta przepiękna historia pozwoli Ci w pełni celebrować Twoją wewnętrzną wolność, spokój i radość życia.",
     "audioFile": "./Quiz_Co opowiada Twoje Ciało/AUDIO MP3/1. Taniec Złotego Liścia.mp3",
-    "ctaText": "Jeśli chcesz wykorzystać tę czystą energię, by jeszcze lepiej zrozumieć mapę swojej duszy – zapraszam Cię na indywidualną konsultację. Wspólna praca przyniesie niesamowite owoce."
+        "ctaText": "Skorzystaj z tej harmonijnej energii i odkryj pełną mapę swojego urodzeniowego potencjału.",
   },
   "2": {
     "id": 2,
@@ -198,7 +198,7 @@ window.BODY_QUIZ_PL = {
     "audioTitle": "Tkaczka i Ognisty Pegaz",
     "audioDesc": "Przygotowałam dla Ciebie opowiadanie audio: „Tkaczka i Ognisty Pegaz”. To głęboka, uziemiająca historia, która pomoże Ci okiełznać ten wewnętrzny pożar, ściągnąć energię z huczącej głowy i zamienić ją w bezpieczną moc wizjonera.",
     "audioFile": "./Quiz_Co opowiada Twoje Ciało/AUDIO MP3/2. Tkaczka i Ognisty Pegaz.mp3",
-    "ctaText": "Zapraszam Cię na indywidualną konsultację numerologiczną i energetyczną. Sprawdzimy, jakie stare schematy i zblokowane w ciele emocje każą Ci wiecznie walczyć ze światem."
+        "ctaText": "Odkryj swój pełny profil numerologiczny, aby uwolnić zblokowane emocje i przestać walczyć ze światem.",
   },
   "3": {
     "id": 3,
@@ -208,7 +208,7 @@ window.BODY_QUIZ_PL = {
     "audioTitle": "Iskierka i Melodia Wiatru",
     "audioDesc": "Przygotowałam dla Ciebie specjalne, nowo nagrane opowiadanie audio: „Iskierka i Melodia Wiatru”. To głęboka, kojąca opowieść o uciszaniu życiowej wichury, odrzucaniu lęku przed oceną i powrocie do bezpiecznego rytmu własnego serca. Znajdziesz ją w zakładce Audio – oprzyj stopy mocno na ziemi i posłuchaj.",
     "audioFile": "./Quiz_Co opowiada Twoje Ciało/AUDIO MP3/3. Iskierka i Melodia Wiatru.mp3",
-    "ctaText": "Nieustanny bieg i ucieczka przed lękiem niszczą Twoją wspaniałą energię. Zapraszam Cię na indywidualną konsultację numerologiczną i energetyczną. Pokażę Ci, jak wyłączyć ten wewnętrzny kołowrotek presji i odzyskać zaufanie do własnej ścieżki życia."
+        "ctaText": "Zrozumienie własnej matrycy numerologicznej pomoże Ci zatrzymać bieg presji i odzyskać wewnętrzny spokój.",
   },
   "4": {
     "id": 4,
@@ -218,7 +218,7 @@ window.BODY_QUIZ_PL = {
     "audioTitle": "Strażniczka Szklanego Zamku",
     "audioDesc": "Przygotowałam dla Ciebie opowiadanie audio: „Strażniczka Szklanego Zamku”. To poruszająca, głęboka historia dla dorosłych, która przypomni Twojej duszy, jak wielką odwagą jest zrzucenie maski, stopienie szklanych ścian i pozwolenie sobie na bycie kruchą.",
     "audioFile": "./Quiz_Co opowiada Twoje Ciało/AUDIO MP3/4. Strażniczka Szklanego Zamku.mp3",
-    "ctaText": "Noszenie tego ciężaru w pojedynkę blokuje Twoje talenty numerologiczne. Zapraszam Cię na indywidualną konsultację. W atmosferze pełnego zaufania rozkodujemy pancerz obronny i zamienimy chłód w bezpieczną przestrzeń do życia Twoim pełnym potencjałem."
+        "ctaText": "Poznanie pełnego potencjału urodzeniowego pozwoli Ci zdjąć pancerz obronny i bezpiecznie otwierać się na świat.",
   },
   "5": {
     "id": 5,
@@ -228,7 +228,7 @@ window.BODY_QUIZ_PL = {
     "audioTitle": "Niedźwiedź, który zasnął w środku wiosny",
     "audioDesc": "Przygotowałam dla Ciebie niezwykle delikatne opowiadanie audio: „Niedźwiedź, który zasnął w środku wiosny”. Ta otulająca historia pozwoli Ci bez cienia poczucia winy odpocząć w swojej jaskini i łagodnie powrócić do ciała w Twoim własnym, bezpiecznym tempie.",
     "audioFile": "./Quiz_Co opowiada Twoje Ciało/AUDIO MP3/5. Niedźwiedź, który zasnął w środku wiosny.mp3",
-    "ctaText": "Kiedy zapaść i odcięcie trwają zbyt długo, tracisz kontakt ze swoją osobistą energią urodzenia. Kiedy poczujesz, że masz na to przestrzeń, zapraszam Cię na indywidualną konsultację numerologiczną i energetyczną. Delikatnie przyjrzymy się Twojej mapie urodzenia, aby z miłością obudzić Twój uśpiony potencjał."
+        "ctaText": "Gdy poczujesz na to przestrzeń, odkryj swoją matrycę urodzenia, aby łagodnie odbudować kontakt z własną energią.",
   }
 }
 };
@@ -420,7 +420,7 @@ window.BODY_QUIZ_DE = {
     "audioTitle": "Goldener Blatttanz",
     "audioDesc": "Ich habe für Sie eine Audio-Story vorbereitet: „Der Tanz des goldenen Blattes“. Diese wunderschöne Geschichte wird es Ihnen ermöglichen, Ihre innere Freiheit, Ihren Frieden und Ihre Lebensfreude voll und ganz zu feiern.",
     "audioFile": "./Quiz_Co opowiada Twoje Ciało/AUDIO MP3/1. Taniec Złotego Liścia.mp3",
-    "ctaText": "Wenn Sie diese reine Energie nutzen möchten, um die Landkarte Ihrer Seele noch besser zu verstehen, lade ich Sie zu einer individuellen Beratung ein. Die Zusammenarbeit wird erstaunliche Ergebnisse bringen."
+        "ctaText": "Nutze diese harmonische Energie und entdecke die vollständige Karte deines Geburtspotenzials.",
   },
   "2": {
     "id": 2,
@@ -430,7 +430,7 @@ window.BODY_QUIZ_DE = {
     "audioTitle": "Weber und Feuer-Pegasus",
     "audioDesc": "Ich habe eine Hörgeschichte für Sie vorbereitet: „Der Weber und der Feuerpegasus“. Dies ist eine tiefgründige, erdende Geschichte, die Ihnen hilft, das innere Feuer zu zähmen, die Energie aus Ihrem brüllenden Kopf zu ziehen und sie in die sichere Kraft eines Visionärs umzuwandeln.",
     "audioFile": "./Quiz_Co opowiada Twoje Ciało/AUDIO MP3/2. Tkaczka i Ognisty Pegaz.mp3",
-    "ctaText": "Ich lade Sie zu einer individuellen Numerologie- und Energieberatung ein. Wir werden prüfen, welche alten Muster und Emotionen, die in Ihrem Körper blockiert sind, Sie dazu bringen, für immer gegen die Welt anzukämpfen."
+        "ctaText": "Entdecke dein vollständiges numerologisches Profil, um blockierte Emotionen zu lösen und nicht mehr gegen die Welt anzukämpfen.",
   },
   "3": {
     "id": 3,
@@ -440,7 +440,7 @@ window.BODY_QUIZ_DE = {
     "audioTitle": "Funke und Melodie des Windes",
     "audioDesc": "Ich habe eine spezielle, neu aufgenommene Audio-Story für Sie vorbereitet: „Sparkle and Melodia Wiatru“. Es ist eine tiefgründige, beruhigende Geschichte darüber, wie man den Sturm des Lebens beruhigt, die Angst vor dem Urteil zurückweist und zum sicheren Rhythmus des eigenen Herzens zurückkehrt. Sie finden es im Reiter „Audio“ – stellen Sie Ihre Füße fest auf den Boden und hören Sie zu.",
     "audioFile": "./Quiz_Co opowiada Twoje Ciało/AUDIO MP3/3. Iskierka i Melodia Wiatru.mp3",
-    "ctaText": "Ständiges Laufen und Davonlaufen vor der Angst zerstört deine wunderbare Energie. Ich lade Sie zu einer individuellen Numerologie- und Energieberatung ein. Ich zeige Ihnen, wie Sie dieses innere Druckrad ausschalten und wieder Vertrauen in Ihren eigenen Lebensweg gewinnen."
+        "ctaText": "Das Verständnis deiner numerologischen Matrix wird dir helfen, den Druck zu stoppen und den inneren Frieden zurückzugewinnen.",
   },
   "4": {
     "id": 4,
@@ -450,7 +450,7 @@ window.BODY_QUIZ_DE = {
     "audioTitle": "Wächter des Glasschlosses",
     "audioDesc": "Ich habe eine Audio-Story für Sie vorbereitet: „Der Wächter des Glasschlosses“. Dies ist eine bewegende, tiefgründige Geschichte für Erwachsene, die Ihre Seele daran erinnert, wie mutig es ist, die Maske fallen zu lassen, die Glaswände zum Schmelzen zu bringen und sich selbst zerbrechlich zu machen.",
     "audioFile": "./Quiz_Co opowiada Twoje Ciało/AUDIO MP3/4. Strażniczka Szklanego Zamku.mp3",
-    "ctaText": "Allein das Tragen dieser Last blockiert Ihre numerologischen Talente. Ich lade Sie zu einem individuellen Beratungsgespräch ein. In einer Atmosphäre vollkommenen Vertrauens entschlüsseln wir die Abwehrpanzerung und verwandeln die Kälte in einen sicheren Raum, in dem Sie Ihr volles Potenzial entfalten können."
+        "ctaText": "Das Erkennen deines vollen Geburtspotenzials wird es dir ermöglichen, die Abwehrpanzerung abzulegen und dich sicher der Welt zu öffnen.",
   },
   "5": {
     "id": 5,
@@ -460,7 +460,7 @@ window.BODY_QUIZ_DE = {
     "audioTitle": "Ein Bär, der mitten im Frühling eingeschlafen ist",
     "audioDesc": "Ich habe eine äußerst heikle Hörgeschichte für Sie vorbereitet: „Der Bär, der mitten im Frühling einschlief.“ Diese fesselnde Geschichte ermöglicht es Ihnen, ohne ein schlechtes Gewissen in Ihrer Höhle zu entspannen und in Ihrem eigenen, sicheren Tempo sanft zu Ihrem Körper zurückzukehren.",
     "audioFile": "./Quiz_Co opowiada Twoje Ciało/AUDIO MP3/5. Niedźwiedź, który zasnął w środku wiosny.mp3",
-    "ctaText": "Wenn der Zusammenbruch und die Trennung zu lange andauern, verlieren Sie den Kontakt zu Ihrer persönlichen Geburtsenergie. Wenn Sie das Gefühl haben, dass Sie dafür Raum haben, lade ich Sie zu einer individuellen Numerologie- und Energieberatung ein. Wir schauen uns Ihr Geburtshoroskop behutsam an, um Ihr schlummerndes Potenzial liebevoll zu erwecken."
+        "ctaText": "Wenn du dich bereit fühlst, entdecke deine Geburtsmatrix, um sanft den Kontakt zu deiner eigenen Energie wiederherzustellen.",
   }
 }
 };
