@@ -1,0 +1,219 @@
+SPECYFIKACJA FUNKCJONALNA I
+TREŚCIOWA QUIZU (WERSJA 5
+STANÓW)
+Tytuł Quizu: Co opowiada Twoje Ciało? Cel: Diagnoza stanu autonomicznego układu
+nerwowego w oparciu o 5 głównych stanów psychofizjologicznych. Quiz kieruje do
+dedykowanego słuchowiska audio oraz na konsultację numerologiczną i energetyczną.
+CZĘŚĆ 1: ARCHITEKTURA I LOGIKA
+APLIKACJI
+1. Mechanizm Zliczania Punktów
+Quiz składa się z 7 pytań. Każde pytanie ma 5 opcji odpowiedzi. Każda odpowiedź dodaje 1
+punkt do jednego z pięciu profili w tle systemu.
+Profile Wynikowe:
+• Profil 1: Zaangażowanie Społeczne (Stan relaksu, spokoju i regulacji).
+• Profil 2: Walka (Reakcja mobilizacji, irytacji i obrony).
+• Profil 3: Ucieczka (Reakcja pędu, lęku, paniki i presji).
+• Profil 4: Zamrożenie (Stan maski, odrętwienia i częściowego wycofania).
+• Profil 5: Zapaść (Skrajne wyłączenie, totalny brak sił i odcięcie).
+2. Algorytm Rozstrzygania Remisów (Zasada Pierwszeństwa Ochrony)
+W przypadku remisu punktowego, system wybiera wynik według poniższej hierarchii
+ratunkowej:
+1. Zapaść (Profil 5) – najwyższy priorytet (ciało natychmiast potrzebuje
+najdelikatniejszego otulenia).
+2. Zamrożenie (Profil 4) – drugi priorytet (potrzeba rozkodowania maski).
+3. Ucieczka (Profil 3) – trzeci priorytet (potrzeba zatrzymania pędu).
+4. Walka (Profil 2) – czwarty priorytet (potrzeba uziemienia złości).
+5. Zaangażowanie Społeczne (Profil 1) – najniższy priorytet (ustępuje stanom
+trudnym).
+3. UI/UX Flow
+• Ekran Startowy: Minimalistyczny kafelek. Tekst: „W jakiej emocji dziś jesteś?
+Połącz się ze swoim ciałem i odkryj przesłanie na dziś”. Przycisk: [Zacznij].
+• Ekran Pytań: Jedno pytanie na ekranie. Płynne, łagodne przejście po kliknięciu.
+Pasek postępu (7 kropek na górze).
+• Ekran Ładowania (2 sekundy): Animacja pulsującego światła. Tekst: „Słucham
+Twojego ciała... Przygotowuję Twoje zaopiekowanie”.
+
+-- 1 of 5 --
+
+• Ekran Wyniku: Personalizowany profil mobile z linkiem do Audio i przyciskiem
+zapisu na konsultację.
+CZĘŚĆ 2: ROZBUDOWANA MAPA PYTAŃ (7
+PYTAŃ x 5 ODPOWIEDZI)
+• Pytanie 1: Gdy otwierasz rano oczy i myślisz o nadchodzącym dniu, Twoje
+pierwsze odczucie to...
+o [Opcja 1] „Wszystko jest w porządku, dam sobie radę”. Czuję spokój i
+ciekawość. -> Profil 1
+o [Opcja 2] „Muszę to natychmiast zwalczyć lub kontrolować!”. Czuję
+irytację. -> Profil 2
+o [Opcja 3] „Muszę natychmiast biec, goni mnie czas!”. Czuję pośpiech i lęk. -
+> Profil 3
+o [Opcja 4] Mechanicznie wstaję i robię to, co trzeba. Pod maską czuję pustkę.
+-> Profil 4
+o [Opcja 5] „To wszystko jest zbyt trudne, jaki to ma sens?”. Chcę tylko
+zasnąć. -> Profil 5
+• Pytanie 2: Zatrzymaj się na ułamek sekundy i skieruj uwagę do wewnątrz. Co
+najbardziej mówi do Ciebie z Twojego ciała?
+o [Opcja 1] Przyjemne odprężenie, ugruntowanie i swobodny, głęboki oddech.
+-> Profil 1
+o [Opcja 2] Zaciskające się szczęki, spięte kopyta/pięści i uderzenie gorąca. ->
+Profil 2
+o [Opcja 3] Przyspieszone bicie serca, płytki, rwący oddech i wewnętrzne
+rozedrganie. -> Profil 3
+o [Opcja 4] Brak wyraźnych sygnałów, jakby moje ciało było za szklaną szybą.
+-> Profil 4
+o [Opcja 5] Ogromna ociężałość, odrętwienie rąk i nóg oraz przejmujący
+chłód. -> Profil 5
+• Pytanie 3: Jakie przekonanie lub myśl najgłośniej rezonuje dzisiaj w Twoim
+umyśle?
+o [Opcja 1] „Mam wystarczająco dużo czasu. Mogę i potrafię to zrobić z
+lekkością”. -> Profil 1
+o [Opcja 2] „Muszę postawić na swoim, nikt nie zrobi tego lepiej ani nie
+narzuci mi zdania!”. -> Profil 2
+o [Opcja 3] „Nie mam nad tym kontroli, zaraz coś się stanie, muszę uciekać!”.
+-> Profil 3
+o [Opcja 4] „Jestem zupełnie sama z tym wszystkim, nikt mnie naprawdę nie
+rozumie”. -> Profil 4
+o [Opcja 5] „To nie ma znaczenia, nikogo to nie obchodzi, nic się nigdy nie
+zmieni”. -> Profil 5
+• Pytanie 4: Kiedy myślisz dzisiaj o kontakcie z ludźmi, podświadomie czujesz, że...
+o [Opcja 1] Masz w sobie otwartość, ciekawość i pragnienie ciepłego
+połączenia. -> Profil 1
+o [Opcja 2] Ludzie niezwykle mnie irytują, mam ochotę na kłótnię lub
+stawianie oporu. -> Profil 2
+
+-- 2 of 5 --
+
+o [Opcja 3] Czuję napięcie w relacjach, czuję się osaczona i chcę się wycofać.
+-> Profil 3
+o [Opcja 4] Rozmawiasz normalnie, ale czujesz się za tą maską zupełnie
+samotna. -> Profil 4
+o [Opcja 5] Chcesz się całkowicie odizolować i unikać jakichkolwiek rozmów.
+-> Profil 5
+• Pytanie 5: Wyobraź sobie, że masz teraz dłuższą chwilę wolnego czasu tylko dla
+siebie. Co się dzieje?
+o [Opcja 1] Odpoczywasz lub robisz przerwę bez najmniejszego poczucia
+winy. -> Profil 1
+o [Opcja 2] Zaczynasz nerwowo coś przestawiać lub sprzątać, rozładowując
+złość. -> Profil 2
+o [Opcja 3] Nie potrafisz się zatrzymać, robisz sto rzeczy naraz, myśli
+potwornie pędzą. -> Profil 3
+o [Opcja 4] Automatycznie uciekasz w telefon lub mechaniczną rutynę, byle
+odrętwieć. -> Profil 4
+o [Opcja 5] Trwasz w bezruchu, czujesz totalny brak energii i odcięcie od
+prądu. -> Profil 5
+• Pytanie 6: Kiedy stajesz przed niespodziewanym problemem lub zmianą planów,
+Twoja pierwsza automatyczna reakcja to...
+o [Opcja 1] Akceptacja. Biorę oddech i szukam spokojnego rozwiązania. ->
+Profil 1
+o [Opcja 2] Atak. Pojawia się we mnie frustracja, szukanie winnych i bunt. ->
+Profil 2
+o [Opcja 3] Chaos. Czuję niepokój, chcę natychmiast od tego uciec i schować
+głowę w piasek. -> Profil 3
+o [Opcja 4] Zamrożenie. Robię dobrą minę do złej gry, chociaż w środku cała
+sztywnieję. -> Profil 4
+o [Opcja 5] Rezygnacja. Od razu opuszczam ręce, tracę resztki sił i poddaję
+się. -> Profil 5
+• Pytanie 7: Gdyby Twoje ciało miało dzisiaj wysłać Ci jedną najważniejszą
+wiadomość, brzmiałaby ona:
+o [Opcja 1] „Jestem bezpieczne, mogę swobodnie czerpać z moich talentów”. -
+> Profil 1
+o [Opcja 2] „Mam w sobie za dużo stłumionej złości i walki, muszę to
+rozładować”. -> Profil 2
+o [Opcja 3] „Biegnę tak szybko, że zaraz zgubię siebie. Pomóż mi się
+zatrzymać”. -> Profil 3
+o [Opcja 4] „Chowam się za grubym pancerzem, bo boję się pokazać swoją
+kruchość”. -> Profil 4
+o [Opcja 5] „Jestem skrajnie wyczerpane, odłączone i pilnie potrzebuję
+jaskini”. -> Profil 5
+EKRANY WYNIKÓW I PRZYPISANE
+OPOWIADANIA AUDIO
+
+-- 3 of 5 --
+
+PROFIL 1: ZAANGAŻOWANIE SPOŁECZNE (Regulacja)
+• Nagłówek: Twój stan na dziś: Słońce w Sercu
+• Opis: Dzisiaj Twoja energia znajduje się w przepięknej, naturalnej harmonii i pełnej
+równowadze. W Twoim ciele gości odprężenie, ugruntowanie i stabilność, a Twój
+oddech płynie swobodnie, spokojnie i głęboko. Towarzyszy Ci poczucie
+bezpieczeństwa, miłości oraz radosna ciekawość świata i ludzi. To właśnie tutaj masz
+najczystszy dostęp do swojej intuicji i wrodzonej wibracji urodzenia.
+• Boks Audio: Twój krok ku celebracji na dziś Przygotowałam dla Ciebie
+opowiadanie audio: „Taniec Złotego Liścia”. Ta przepiękna historia pozwoli Ci w
+pełni celebrować Twoją wewnętrzną wolność, spokój i radość życia.
+• Droga do Potencjału: Jeśli chcesz wykorzystać tę czystą energię, by jeszcze lepiej
+zrozumieć mapę swojej duszy – zapraszam Cię na indywidualną konsultację. Wspólna
+praca przyniesie niesamowite owoce. [Dowiedz się więcej o
+konsultacjach]
+PROFIL 2: WALKA (Mobilizacja i Obrona)
+• Nagłówek: Twój stan na dziś: Ogień w Ciele
+• Opis: Dzisiaj Twoja energia płonie silnym, ale bardzo niespokojnym i obronnym
+płomieniem. Możesz odczuwać wewnętrzną irytację, złość, napięcie w szczękach lub
+potrzebę natychmiastowego zwalczenia chaosu wokół Ciebie. Twój układ nerwowy
+wszedł w tryb pełnej mobilizacji, bo podświadomie wykrył zagrożenie i próbuje Cię
+chronić przed utratą kontroli. Ten ogień można jednak bezpiecznie uziemić i zamienić
+w twórczą siłę.
+• Boks Audio: Twój pierwszy krok ku wolności Przygotowałam dla Ciebie
+opowiadanie audio: „Tkaczka i Ognisty Pegaz”. To głęboka, uziemiająca historia,
+która pomoże Ci okiełznać ten wewnętrzny pożar, ściągnąć energię z huczącej głowy i
+zamienić ją w bezpieczną moc wizjonera.
+• Droga do Potencjału: Zapraszam Cię na indywidualną konsultację numerologiczną i
+energetyczną. Sprawdzimy, jakie stare schematy i zblokowane w ciele emocje każą Ci
+wiecznie walczyć ze światem. [Dowiedz się więcej o konsultacjach]
+PROFIL 3: UCIECZKA (Mobilizacja i Pęd)
+• Nagłówek: Twój stan na dziś: Wichura i Pośpiech
+• Opis: Dzisiaj Twoim ciałem i umysłem zawładnął szalony wiatr. Odczuwasz
+ogromny wewnętrzny pęd, niepokój, lęk przed brakiem czasu oraz przyspieszone bicie
+serca i rwący oddech. W Twojej głowie wiruje tysiąc myśli naraz, a alarmujący głos
+powtarza: „Muszę uciekać, muszę biec, nie mogę się teraz zatrzymać!”. Twój układ
+nerwowy próbuje uciec przed przytłoczeniem. Twój organizm nie potrzebuje teraz
+kolejnych zadań, ale bezpiecznego zatrzymania.
+• Boks Audio: Twój pierwszy krok ku wolności
+Przygotowałam dla Ciebie specjalne, nowo nagrane opowiadanie audio: „Iskierka i
+Melodia Wiatru”. To głęboka, kojąca opowieść o uciszaniu życiowej wichury,
+odrzucaniu lęku przed oceną i powrocie do bezpiecznego rytmu własnego serca.
+Znajdziesz ją w zakładce Audio – oprzyj stopy mocno na ziemi i posłuchaj.
+
+-- 4 of 5 --
+
+• Sekcja Dolna (CTA 2): Droga do Twojego Potencjału Nieustanny bieg i
+ucieczka przed lękiem niszczą Twoją wspaniałą energię. Zapraszam Cię na
+indywidualną konsultację numerologiczną i energetyczną. Pokażę Ci, jak wyłączyć
+ten wewnętrzny kołowrotek presji i odzyskać zaufanie do własnej ścieżki życia.
+[Button: Dowiedz się więcej o konsultacjach]
+PROFIL 4: ZAMROŻENIE (Maska i Sztywność)
+• Nagłówek: Twój stan na dziś: Światło za Szklaną Szybą
+• Opis: Na zewnątrz wszystko wygląda bez zarzutu – działasz, rozmawiasz z ludźmi i
+wzorowo wykonujesz swoje obowiązki. Nosisz jednak niewidzialną maskę z napisem:
+„Radzę sobie”. Kiedy zwalniasz bieg, w ciele pojawia się sztywność, odrętwienie i
+poczucie głębokiej, wewnętrznej samotności. Choć wokół są ludzie, czujesz się jak
+osobna wyspa. Twój umysł, chcąc chronić Cię przed zranieniem, zamroził Twoje
+autentyczne emocje pod ochronnym pancerzem samowystarczalności.
+• Boks Audio: Twój pierwszy krok ku wolności Przygotowałam dla Ciebie
+opowiadanie audio: „Strażniczka Szklanego Zamku”. To poruszająca, głęboka
+historia dla dorosłych, która przypomni Twojej duszy, jak wielką odwagą jest
+zrzucenie maski, stopienie szklanych ścian i pozwolenie sobie na bycie kruchą.
+• Droga do Potencjału: Noszenie tego ciężaru w pojedynkę blokuje Twoje talenty
+numerologiczne. Zapraszam Cię na indywidualną konsultację. W atmosferze pełnego
+zaufania rozkodujemy pancerz obronny i zamienimy chłód w bezpieczną przestrzeń
+do życia Twoim pełnym potencjałem. [Button: Dowiedz się więcej o
+konsultacjach]
+PROFIL 5: ZAPAŚĆ (Wyłączenie i Brak Sił)
+• Nagłówek: Twój stan na dziś: Zimowa Mgła
+• Opis: Dzisiaj Twoje ciało i dusza otuliły się gęstą, chłodną mgłą, a układ nerwowy
+całkowicie wyłączył zasilanie. Możesz czuć przejmujące, ołowiane zmęczenie,
+bezruch i pustkę. Cichy głos szepcze: „To wszystko jest zbyt trudne, chcę tylko
+zasnąć”. Pamiętaj: to nie jest lenistwo. Twoje ciało po prostu schowało się głęboko do
+jaskini, bo stres okazał się zbyt destrukcyjny. Masz pełne prawo dziś po prostu leżeć i
+regenerować siły.
+• Boks Audio: Twój pierwszy krok ku wolności Przygotowałam dla Ciebie
+niezwykle delikatne opowiadanie audio: „Niedźwiedź, który zasnął w środku
+wiosny”. Ta otulająca historia pozwoli Ci bez cienia poczucia winy odpocząć w
+swojej jaskini i łagodnie powrócić do ciała w Twoim własnym, bezpiecznym tempie.
+• Droga do Potencjału: Kiedy zapaść i odcięcie trwają zbyt długo, tracisz kontakt ze
+swoją osobistą energią urodzenia. Kiedy poczujesz, że masz na to przestrzeń,
+zapraszam Cię na indywidualną konsultację numerologiczną i energetyczną.
+Delikatnie przyjrzymy się Twojej mapie urodzenia, aby z miłością obudzić Twój
+uśpiony potencjał. [Button: Dowiedz się więcej o konsultacjach]
+
+-- 5 of 5 --
+

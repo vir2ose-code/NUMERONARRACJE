@@ -154,6 +154,9 @@ function switchLang(lang) {
   if (typeof refreshPersonalityLanguage === 'function') {
     refreshPersonalityLanguage();
   }
+  if (typeof refreshBodyQuizLanguage === 'function') {
+    refreshBodyQuizLanguage();
+  }
 }
 
 // ── Drawer ──
@@ -1969,6 +1972,297 @@ window.answerQuestion = answerQuestion;
 window.togglePersResultAcc = togglePersResultAcc;
 window.restartPersonalityTest = restartPersonalityTest;
 window.refreshPersonalityLanguage = refreshPersonalityLanguage;
+
+// ── QUIZ CO OPOWIADA TWOJE CIAŁO ENGINE ──
+let bqCurrentQuestionIndex = 0;
+let bqAnswers = [];
+let bqAudio = null;
+let bqIsPlaying = false;
+let bqWinningProfileIndex = null;
+
+function startBodyQuiz() {
+  bqCurrentQuestionIndex = 0;
+  bqAnswers = [];
+  bqWinningProfileIndex = null;
+  stopBodyQuizAudio();
+  
+  document.getElementById('bq-screen-intro').style.display = 'none';
+  document.getElementById('bq-screen-questions').style.display = 'block';
+  document.getElementById('bq-screen-loading').style.display = 'none';
+  document.getElementById('bq-screen-result').style.display = 'none';
+  
+  renderBqQuestion();
+}
+
+function renderBqQuestion() {
+  const data = currentLang === 'pl' ? window.BODY_QUIZ_PL : window.BODY_QUIZ_DE;
+  if (!data) return;
+  const qObj = data.questions[bqCurrentQuestionIndex];
+  if (!qObj) return;
+
+  // Question Text
+  document.getElementById('bqQuestionText').innerText = qObj.q;
+
+  // Dots Progress
+  const dotsEl = document.getElementById('bq-progress-dots');
+  if (dotsEl) {
+    dotsEl.innerHTML = '';
+    for (let i = 0; i < 7; i++) {
+      const dot = document.createElement('div');
+      dot.className = 'bq-progress-dot' + (i === bqCurrentQuestionIndex ? ' active' : '');
+      dotsEl.appendChild(dot);
+    }
+  }
+
+  // Progress Text
+  const total = 7;
+  const rawText = currentLang === 'pl' ? 'Pytanie {current} z {total}' : 'Frage {current} von {total}';
+  const progressText = rawText.replace('{current}', bqCurrentQuestionIndex + 1).replace('{total}', total);
+  document.getElementById('bq-progress-text').innerText = progressText;
+
+  // Answers List
+  const answersEl = document.getElementById('bqAnswersList');
+  if (answersEl) {
+    answersEl.innerHTML = '';
+    qObj.options.forEach((opt, idx) => {
+      const btn = document.createElement('button');
+      btn.className = 'pers-answer-card';
+      btn.onclick = () => answerBodyQuizQuestion(idx);
+      
+      const badge = document.createElement('span');
+      badge.className = 'badge';
+      badge.innerText = idx + 1;
+      
+      const textSpan = document.createElement('span');
+      textSpan.className = 'text';
+      textSpan.innerText = opt.text;
+      
+      btn.appendChild(badge);
+      btn.appendChild(textSpan);
+      answersEl.appendChild(btn);
+    });
+  }
+}
+
+function answerBodyQuizQuestion(optionIndex) {
+  bqAnswers.push(optionIndex);
+  bqCurrentQuestionIndex++;
+  
+  if (bqCurrentQuestionIndex < 7) {
+    renderBqQuestion();
+  } else {
+    showBqLoadingScreen();
+  }
+}
+
+function showBqLoadingScreen() {
+  document.getElementById('bq-screen-questions').style.display = 'none';
+  document.getElementById('bq-screen-loading').style.display = 'block';
+  setTimeout(calculateBodyQuizResult, 2000);
+}
+
+function calculateBodyQuizResult() {
+  document.getElementById('bq-screen-loading').style.display = 'none';
+  document.getElementById('bq-screen-result').style.display = 'block';
+  
+  const scores = { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 };
+  bqAnswers.forEach(opt => {
+    const profileIndex = opt + 1;
+    scores[profileIndex]++;
+  });
+
+  // Tie-breaker algorithm (Zapaść 5 -> Zamrożenie 4 -> Ucieczka 3 -> Walka 2 -> Zaangażowanie 1)
+  let maxScore = -1;
+  let winningProfile = 1;
+  for (let p = 5; p >= 1; p--) {
+    if (scores[p] > maxScore) {
+      maxScore = scores[p];
+      winningProfile = p;
+    }
+  }
+
+  bqWinningProfileIndex = winningProfile;
+  renderBqResultData();
+}
+
+function renderBqResultData() {
+  if (bqWinningProfileIndex === null) return;
+  const data = currentLang === 'pl' ? window.BODY_QUIZ_PL : window.BODY_QUIZ_DE;
+  if (!data) return;
+  const profile = data.profiles[bqWinningProfileIndex];
+  if (!profile) return;
+
+  // Header Title & Description
+  document.getElementById('bqResultTitle').innerText = profile.title;
+  document.getElementById('bqResultDesc').innerText = profile.description;
+
+  // Audio Box Details
+  document.getElementById('bqAudioTitleText').innerText = profile.audioTitle;
+  document.getElementById('bqAudioDescText').innerText = profile.audioDesc;
+  document.getElementById('bqResultCtaText').innerText = profile.ctaText;
+
+  // Player header label (PL: "TWÓJ KROK KU CELEBRACJI NA DZIŚ" / "TWÓJ PIERWSZY KROK KU WOLNOŚCI")
+  const celebrateText = currentLang === 'pl' ? 'TWÓJ KROK KU CELEBRACJI NA DZIŚ' : 'DEIN SCHRITT ZUR FEIER DES TAGES';
+  const freedomText = currentLang === 'pl' ? 'TWÓJ PIERWSZY KROK KU WOLNOŚCI' : 'DEIN ERSTER SCHRITT ZUR FREIHEIT';
+  const headerLabelText = bqWinningProfileIndex === 1 ? celebrateText : freedomText;
+  document.getElementById('bqPlayerHeaderLabel').innerText = headerLabelText;
+
+  // Audio setup
+  stopBodyQuizAudio();
+  bqAudio = new Audio(profile.audioFile);
+  bqAudio.preload = 'metadata';
+
+  // Listeners
+  bqAudio.addEventListener('play', () => updateBqPlayerUI(true));
+  bqAudio.addEventListener('pause', () => updateBqPlayerUI(false));
+  bqAudio.addEventListener('ended', () => { updateBqPlayerUI(false); resetBqSeekBar(); });
+  bqAudio.addEventListener('timeupdate', updateBqSeekBar);
+  
+  bqAudio.addEventListener('loadedmetadata', () => {
+    document.getElementById('bqDurationText').innerText = formatBqTime(bqAudio.duration);
+  });
+  
+  bqAudio.addEventListener('error', (e) => {
+    console.error('Audio load error:', e);
+    const errText = currentLang === 'pl' ? '❌ Nie można załadować pliku audio' : '❌ Audio konnte nicht geladen werden';
+    document.getElementById('bqAudioStatusBadge').innerText = errText;
+  });
+
+  resetBqSeekBar();
+  updateBqPlayerUI(false);
+}
+
+function toggleBodyQuizAudio() {
+  if (!bqAudio) return;
+  if (bqIsPlaying) {
+    bqAudio.pause();
+  } else {
+    // Pause any other playing global audio player
+    pauseOtherAudioPlayers();
+    bqAudio.play().catch(err => {
+      console.error('Playback failed:', err);
+      const errText = currentLang === 'pl' ? '❌ Błąd odtwarzania' : '❌ Fehler bei Wiedergabe';
+      document.getElementById('bqAudioStatusBadge').innerText = errText;
+    });
+  }
+}
+
+function stopBodyQuizAudio() {
+  if (bqAudio) {
+    bqAudio.pause();
+    bqAudio = null;
+  }
+  bqIsPlaying = false;
+  updateBqPlayerUI(false);
+}
+
+function seekBodyQuizAudio(event) {
+  if (bqAudio && bqAudio.duration) {
+    const pct = event.target.value;
+    bqAudio.currentTime = (pct / 100) * bqAudio.duration;
+  }
+}
+
+function updateBqSeekBar() {
+  if (bqAudio && bqAudio.duration) {
+    const pct = (bqAudio.currentTime / bqAudio.duration) * 100;
+    document.getElementById('bqSeekBar').value = pct;
+    document.getElementById('bqCurrentTimeText').innerText = formatBqTime(bqAudio.currentTime);
+  }
+}
+
+function resetBqSeekBar() {
+  const seekBar = document.getElementById('bqSeekBar');
+  if (seekBar) seekBar.value = 0;
+  const timeText = document.getElementById('bqCurrentTimeText');
+  if (timeText) timeText.innerText = '00:00';
+  const durText = document.getElementById('bqDurationText');
+  if (durText) durText.innerText = '00:00';
+}
+
+function updateBqPlayerUI(playing) {
+  bqIsPlaying = playing;
+  const badge = document.getElementById('bqAudioStatusBadge');
+  const playIcon = document.getElementById('bqPlayIcon');
+  const pauseIcon = document.getElementById('bqPauseIcon');
+  if (!badge) return;
+
+  if (playing) {
+    badge.innerText = currentLang === 'pl' ? 'Odtwarzanie... 🔊' : 'Wiedergabe... 🔊';
+    if (playIcon) playIcon.style.display = 'none';
+    if (pauseIcon) pauseIcon.style.display = 'block';
+  } else {
+    badge.innerText = currentLang === 'pl' ? 'Wstrzymano ⏸' : 'Pausiert ⏸';
+    if (playIcon) playIcon.style.display = 'block';
+    if (pauseIcon) pauseIcon.style.display = 'none';
+  }
+}
+
+function formatBqTime(secs) {
+  if (isNaN(secs)) return '00:00';
+  const m = Math.floor(secs / 60);
+  const s = Math.floor(secs % 60);
+  return (m < 10 ? '0' + m : m) + ':' + (s < 10 ? '0' + s : s);
+}
+
+function restartBodyQuiz() {
+  stopBodyQuizAudio();
+  bqCurrentQuestionIndex = 0;
+  bqAnswers = [];
+  bqWinningProfileIndex = null;
+  
+  document.getElementById('bq-screen-intro').style.display = 'block';
+  document.getElementById('bq-screen-questions').style.display = 'none';
+  document.getElementById('bq-screen-loading').style.display = 'none';
+  document.getElementById('bq-screen-result').style.display = 'none';
+}
+
+function refreshBodyQuizLanguage() {
+  if (document.getElementById('bq-screen-questions').style.display === 'block') {
+    renderBqQuestion();
+  }
+  if (document.getElementById('bq-screen-result').style.display === 'block') {
+    renderBqResultData();
+  }
+}
+
+// Pause other audio players when playing this quiz audio
+function pauseOtherAudioPlayers() {
+  // Pause sleep player
+  if (window.audio && typeof window.audio.pause === 'function') {
+    window.audio.pause();
+    if (typeof window.updateSleepPlayerUI === 'function') {
+      window.updateSleepPlayerUI(false);
+    }
+  }
+  // Pause global audio player if exists
+  const globalPlayer = document.getElementById('audioPlayer');
+  if (globalPlayer && typeof globalPlayer.pause === 'function') {
+    globalPlayer.pause();
+  }
+}
+
+// Pause quiz player if global players start playing
+document.addEventListener('play', function(e) {
+  if (bqAudio && e.target !== bqAudio) {
+    stopBodyQuizAudio();
+  }
+}, true);
+
+// Pause quiz player on hash routing away
+window.addEventListener('hashchange', () => {
+  if (window.location.hash !== '#body-quiz') {
+    stopBodyQuizAudio();
+  }
+});
+
+// Expose functions globally
+window.startBodyQuiz = startBodyQuiz;
+window.answerBodyQuizQuestion = answerBodyQuizQuestion;
+window.toggleBodyQuizAudio = toggleBodyQuizAudio;
+window.seekBodyQuizAudio = seekBodyQuizAudio;
+window.restartBodyQuiz = restartBodyQuiz;
+window.refreshBodyQuizLanguage = refreshBodyQuizLanguage;
 
 
 
