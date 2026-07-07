@@ -2024,7 +2024,7 @@ function renderBqQuestion() {
   const answersEl = document.getElementById('bqAnswersList');
   if (answersEl) {
     answersEl.innerHTML = '';
-    qObj.options.forEach((opt, idx) => {
+    qObj.a.forEach((opt, idx) => {
       const btn = document.createElement('button');
       btn.className = 'pers-answer-card';
       btn.onclick = () => answerBodyQuizQuestion(idx);
