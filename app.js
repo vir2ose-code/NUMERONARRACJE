@@ -2101,6 +2101,25 @@ function renderBqResultData() {
   document.getElementById('bqAudioDescText').innerText = profile.audioDesc;
   document.getElementById('bqResultCtaText').innerText = profile.ctaText;
 
+  // NEW: Practice Section
+  document.getElementById('bqPracticeTitle').innerHTML = profile.practiceTitle || '';
+  document.getElementById('bqPracticeIntro').innerHTML = profile.practiceIntro || '';
+  
+  const stepsList = document.getElementById('bqPracticeSteps');
+  stepsList.innerHTML = '';
+  if (profile.practiceSteps) {
+    profile.practiceSteps.forEach(stepHtml => {
+      const li = document.createElement('li');
+      li.style.marginBottom = '10px';
+      li.innerHTML = `<span style="color: var(--gold-patina); margin-right: 8px;">•</span>` + stepHtml;
+      stepsList.appendChild(li);
+    });
+  }
+
+  // NEW: Reminder Section
+  document.getElementById('bqReminderTitle').innerHTML = profile.reminderTitle || '';
+  document.getElementById('bqReminderText').innerHTML = profile.reminderText || '';
+
   // Player header label (PL: "TWÓJ KROK KU CELEBRACJI NA DZIŚ" / "TWÓJ PIERWSZY KROK KU WOLNOŚCI")
   const celebrateText = currentLang === 'pl' ? 'TWÓJ KROK KU CELEBRACJI NA DZIŚ' : 'DEIN SCHRITT ZUR FEIER DES TAGES';
   const freedomText = currentLang === 'pl' ? 'TWÓJ PIERWSZY KROK KU WOLNOŚCI' : 'DEIN ERSTER SCHRITT ZUR FREIHEIT';

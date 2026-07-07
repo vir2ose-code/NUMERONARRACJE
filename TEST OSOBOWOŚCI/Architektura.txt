@@ -1,0 +1,33 @@
+Architektura Ekranów Aplikacji (UX/UI)
+Ekran 1: Powitanie i Wprowadzenie Danych (Home)
+Ten ekran buduje pierwsze wrażenie, zaufanie i zaprasza do wejścia w głąb siebie.
+Nagłówek: Odkryj swój wewnętrzny potencjał i zakodowane talenty. 
+Podtytuł: Dowiedz się, dlaczego w pewnych sytuacjach działasz z lekkością, a w innych czujesz opór. Rozkoduj swoje schematy i zamień je w największą siłę. 
+Pole formularza:
+Data urodzenia (DD.MM.RRRR – to pole w tle wylicza liczbę urodzeniową od 1 do 9).
+Przycisk (CTA): Rozpocznij spotkanie ze sobą (Zacznij test). 
+Ekran 2: Panel Pytań – pop-up-window (Test – 24 kroki)
+Czysty, minimalistyczny interfejs, który nie rozprasza uwagi. Na każdym ekranie wyświetla się tylko jedno pytanie.
+Góra ekranu: Pasek postępu (np. "Pytanie 4 z 24") – daje użytkownikowi poczucie, że test idzie sprawnie. 
+Środek ekranu: Treść pytania (duża, czytelna czcionka).
+Dół ekranu: Dwa duże, klikalne kafelki z odpowiedziami (A i B). Po kliknięciu aplikacja automatycznie przeskakuje do kolejnego pytania (użytkownik nie musi klikać dodatkowego przycisku "Dalej"). 
+ Ekran 3: Kalkulacja - pop-up-window (Ekran Ładowania)
+Gdy użytkownik odpowie na ostatnie pytanie, na ekranie pojawia się piękna, relaksująca animacja (np. pulsująca mandala lub wirujące cyfry).
+Tekst na ekranie: "Łączę kropki... Twój osobisty kod energii i liczba urodzeniowa właśnie się integrują. Daj mi chwilę."
+Czas trwania: 3 sekundy (technicznie obliczenia trwają ułamek sekundy, ale ten ekran buduje napięcie i poczucie magii).
+ Ekran 4: Wielki Finał - pop-up-window (Ekran Wyniku)
+Najważniejszy ekran w aplikacji. Jest podzielony na krótkie, przejrzyste sekcje (zamiast ścian tekstu), żeby użytkownik mógł łatwo zrobić zrzut ekranu (screenshot) i zapisać swój wynik.
+ Sekcja A: Twój Główny Profil
+Tytuł: Twój Wynik: [Nazwa Typu, np. Mentor (INFJ)]
+Wibracja: Twoja wiodąca energia: Liczba Urodzenia [Wynik z daty, np. 2]
+Motto: „[Motto przypisane do danego typu]”
+ Sekcja B: Twój Potencjał (Rozwiń zwijany panel - "Accordion")
+Krótki, skondensowany opis energetycznej matrycy (3–4 zdania o naturalnych talentach). 
+ Sekcja C: Do Rozkodowania (Czerwona/Pomarańczowa ramka – uderza w sedno)
+Pułapka umysłu: Co Cię blokuje. 
+Zblokowane emocje: Gdzie w ciele zamarza Twój stres i lęk (np. spięty brzuch, kark). 
+ Sekcja D: Twoje Zadanie Transformacyjne na 30 dni (Zielona/Złota ramka)
+Konkretna, prosta praktyka uziemiająca do wykonywania codziennie rano lub wieczorem, która daje natychmiastowe poczucie ulgi. 
+ Sekcja E: Subtelne Wezwanie do Działania (CTA – Najważniejsze dla Twojego biznesu)
+Tekst: "To dopiero początek Twojej pięknej podróży. Twoja matryca skrywa o wiele więcej odpowiedzi. Chcesz głęboko rozkodować to, co wciąż uwiera w ciele i poznać pełen potencjał swoich liczb?"
+Duży, wyróżniający się przycisk: Umów się na indywidualną sesję z [Twoje Imię]
