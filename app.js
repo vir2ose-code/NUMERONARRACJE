@@ -2024,14 +2024,22 @@ function renderBqQuestion() {
   const answersEl = document.getElementById('bqAnswersList');
   if (answersEl) {
     answersEl.innerHTML = '';
-    qObj.a.forEach((opt, idx) => {
+    
+    // Create a copy of the options and shuffle them randomly
+    const shuffledOptions = [...qObj.a];
+    for (let i = shuffledOptions.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffledOptions[i], shuffledOptions[j]] = [shuffledOptions[j], shuffledOptions[i]];
+    }
+
+    shuffledOptions.forEach((opt, displayIdx) => {
       const btn = document.createElement('button');
       btn.className = 'pers-answer-card';
-      btn.onclick = () => answerBodyQuizQuestion(idx);
+      btn.onclick = () => answerBodyQuizQuestion(opt.profile);
       
       const badge = document.createElement('span');
       badge.className = 'badge';
-      badge.innerText = idx + 1;
+      badge.innerText = displayIdx + 1;
       
       const textSpan = document.createElement('span');
       textSpan.className = 'text';
@@ -2044,8 +2052,8 @@ function renderBqQuestion() {
   }
 }
 
-function answerBodyQuizQuestion(optionIndex) {
-  bqAnswers.push(optionIndex);
+function answerBodyQuizQuestion(profileIndex) {
+  bqAnswers.push(profileIndex);
   bqCurrentQuestionIndex++;
   
   if (bqCurrentQuestionIndex < 7) {
@@ -2066,8 +2074,7 @@ function calculateBodyQuizResult() {
   document.getElementById('bq-screen-result').style.display = 'block';
   
   const scores = { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 };
-  bqAnswers.forEach(opt => {
-    const profileIndex = opt + 1;
+  bqAnswers.forEach(profileIndex => {
     scores[profileIndex]++;
   });
 
