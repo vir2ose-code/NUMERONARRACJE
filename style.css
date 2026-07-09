@@ -205,16 +205,19 @@ nav {
   top: 0; left: -280px;
   width: 260px;
   height: 100%;
-  background: rgba(20, 6, 50, 0.85);
+  background: rgba(20, 6, 50, 0.95); /* slightly higher opacity for text readability */
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-right: 1px solid rgba(212, 175, 55, 0.2);
   z-index: 100;
   transition: left 0.35s cubic-bezier(.77,0,.18,1);
-  padding: 30px 24px;
+  padding: 20px 24px 40px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
+  overflow-y: auto;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
 }
 .nav-drawer.open { left: 0; }
 
