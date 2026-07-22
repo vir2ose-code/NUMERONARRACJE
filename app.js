@@ -157,6 +157,9 @@ function switchLang(lang) {
   if (typeof refreshBodyQuizLanguage === 'function') {
     refreshBodyQuizLanguage();
   }
+  if (typeof refreshCriticLanguage === 'function') {
+    refreshCriticLanguage();
+  }
 }
 
 // ── Drawer ──

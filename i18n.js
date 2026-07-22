@@ -393,6 +393,28 @@ const translations = {
     bq_status_play_err: "❌ Nie można odtworzyć pliku audio (spróbuj odświeżyć)",
     bq_status_loading_err: "❌ Nie można załadować pliku audio (spróbuj odświeżyć stronę)",
 
+    // Critic Test
+    critic_sub: "ZROZUM SIEBIE",
+    critic_title: "POZNAJ SWOJEGO KRYTYKA",
+    critic_intro_header: "Odzyskaj lekkość",
+    critic_intro_desc: "Czy zdarza Ci się czasem słyszeć w swojej głowie surowy, oceniający głos? Głos, który po popełnieniu drobnego błędu mówi, że jesteś niewystarczająco dobry, albo paraliżuje Cię lękiem tuż przed rozpoczęciem czegoś nowego? To nie jesteś Ty. To Twój Wewnętrzny Krytyk. Zrób test i dowiedz się, który z 7 typów najczęściej do Ciebie przemawia.",
+    critic_btn_start: "Rozpocznij test",
+    critic_progress: "Pytanie {n} z {total}",
+    critic_ans_0: "Nigdy",
+    critic_ans_1: "Rzadko",
+    critic_ans_2: "Okazjonalnie",
+    critic_ans_3: "Często",
+    critic_ans_4: "Zawsze",
+    critic_loading_text: "Analizuję Twoje odpowiedzi... Odkrywamy Twojego Krytyka.",
+    critic_res_title_prefix: "Twój dominujący Wewnętrzny Krytyk to:",
+    critic_res_action: "Jak działa:",
+    critic_res_intent: "Ukryta intencja:",
+    critic_btn_restart: "Rozwiąż test ponownie",
+    critic_intensity_low: "Wynik niski (< 7 punktów)",
+    critic_intensity_mid: "Wynik średni (7-9 punktów)",
+    critic_intensity_high: "Wynik wysoki (> 9 punktów)",
+    nav_critic: "POZNAJ SWOJEGO KRYTYKA",
+
 
     // Birth Path Profile Descriptions
     data: {
@@ -418,6 +440,9 @@ const translations = {
     nav_audio: "AUDIO-BIBLIOTHEK",
     nav_sleep: "EINSCHLAFBEGLEITUNG",
     nav_quiz: "QUIZ",
+    nav_personality: "PERSÖNLICHKEITSTEST",
+    nav_body_quiz: "WAS ERZÄHLT DEIN KÖRPER?",
+    nav_critic: "LERNE DEINEN KRITIKER KENNEN",
     nav_about: "ÜBER DIE AUTORIN",
     nav_app_info: "ÜBER DIESE APP",
     nav_contact: "KONTAKT",
@@ -773,6 +798,27 @@ const translations = {
     bq_status_paused: "Wiedergabe pausiert ⏸",
     bq_status_play_err: "❌ Audio konnte nicht abgespielt werden",
     bq_status_loading_err: "❌ Audiodatei konnte nicht geladen werden",
+
+    // Critic Test
+    critic_sub: "VERSTEHE DICH SELBST",
+    critic_title: "LERNE DEINEN KRITIKER KENNEN",
+    critic_intro_header: "Gewinne deine Leichtigkeit zurück",
+    critic_intro_desc: "Hörst du manchmal eine strenge, bewertende Stimme in deinem Kopf? Eine Stimme, die dir nach einem kleinen Fehler sagt, dass du nicht gut genug bist, oder die dich vor einem Neuanfang vor Angst lähmt? Das bist nicht du. Das ist dein Innerer Kritiker. Mach den Test und finde heraus, welcher der 7 Typen am häufigsten zu dir spricht.",
+    critic_btn_start: "Test starten",
+    critic_progress: "Frage {n} von {total}",
+    critic_ans_0: "Niemals",
+    critic_ans_1: "Selten",
+    critic_ans_2: "Gelegentlich",
+    critic_ans_3: "Oft",
+    critic_ans_4: "Immer",
+    critic_loading_text: "Ich analysiere deine Antworten... Wir entdecken deinen Kritiker.",
+    critic_res_title_prefix: "Dein dominanter Innerer Kritiker ist:",
+    critic_res_action: "Wie er handelt:",
+    critic_res_intent: "Verborgene Absicht:",
+    critic_btn_restart: "Test erneut durchführen",
+    critic_intensity_low: "Niedriges Ergebnis (< 7 Punkte)",
+    critic_intensity_mid: "Mittleres Ergebnis (7-9 Punkte)",
+    critic_intensity_high: "Hohes Ergebnis (> 9 Punkte)",
 
     // Birth Path Profile Descriptions
     data: {
