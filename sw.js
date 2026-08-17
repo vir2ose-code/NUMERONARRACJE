@@ -1,4 +1,4 @@
-const CACHE_NAME = 'numeronarracje-v51';
+const CACHE_NAME = 'numeronarracje-v52';
 const urlsToCache = [
   './',
   './index.html',
@@ -25,6 +25,8 @@ const urlsToCache = [
   './personality_data.js',
   './body_quiz_data.js',
   './forecast_data.js',
+  './critic_test.js',
+  './critic_test_data.js',
   './manifest.json',
   './logo master violet rund.png',
   './NN_ICON_192x192.png',
