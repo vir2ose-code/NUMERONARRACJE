@@ -307,7 +307,7 @@ const translations = {
     sleep_btn_hide: "Ukryj opis",
     sleep_desc: `<p>Zamknij oczy, weź głęboki, spokojny oddech i pozwól sobie na chwilę całkowitego bezpiecznego odpuszczenia. Ta opowieść powstała z myślą o Twoim zmęczonym umyśle i ciele, które po całym dniu pełnym wyzwań zasługuje na absolutny reset.</p>
 <p>Często pod warstwą codziennych obowiązków kryją się spięte emocje i natłok myśli, które nie pozwalają nam spokojnie zasnąć. To opowiadanie jest jak miękki, ciepły koc otuli Cię, wyciszy głośne myśli i łagodnie przeprowadzi Cię ze stanu czuwania w głęboki, regenerujący sen. Mój głos będzie Twoim przewodnikiem w tej nocnej podróży, pomagając Ci rozpuścić wszelkie napięcia i powrócić do Twojego naturalnego stanu harmonii.</p>
-<p>Nie musisz już nic robić, nigdzie spieszyć się ani o niczym pamiętać. Jesteś tu bezpieczny. Pozwól sobie na zasłużony odpoczynek i obudź się rano z nową, czystą energią i uśmiechem.</p>
+<p>Nie musisz już nic robić, nigdzie spieszyć się ani o niczym pamiętać. Jesteś tu bezpieczna. Pozwól sobie na zasłużony odpoczynek i obudź się rano z nową, czystą energią i uśmiechem.</p>
 <h4 class="mindfulness-h4">Dla kogo:</h4>
 <p>Dla każdego, kto zmaga się z natłokiem myśli przed snem, czuje napięcie w ciele lub po prostu potrzebuje czułego, kojącego rytuału na dobrą noc.</p>
 <p><strong>Czas trwania:</strong> 37 minut</p>`,
@@ -321,7 +321,7 @@ const translations = {
     pers_sub: "TEST OSOBOWOŚCI",
     pers_title: "ODKRYJ SWÓJ POTENCJAŁ",
     pers_intro_header: "Odkryj swój wewnętrzny potencjał i zakodowane talenty",
-    pers_intro_desc_1: "Czy zastanawiałeś się kiedyś, dlaczego w pewnych sytuacjach działasz z niesamowitą lekkością, a w innych czujesz niewytłumaczalny opór? Dlaczego niektóre relacje dodają Ci skrzydeł, a inne kosztują mnóstwo energii?",
+    pers_intro_desc_1: "Czy zastanawiałaś się kiedyś, dlaczego w pewnych sytuacjach działasz z niesamowitą lekkością, a w innych czujesz niewytłumaczalny opór? Dlaczego niektóre relacje dodają Ci skrzydeł, a inne kosztują mnóstwo energii?",
     pers_intro_desc_2: "Kluczem do harmonijnego życia, głębokich relacji i wewnętrznego spokoju jest samoświadomość. Każdy z nas przyszedł na świat z unikalną matrycą energetyczną – zestawem naturalnych skłonności, talentów oraz unikalnym sposobem przeżywania emocji. Bardzo często te piękne potencjały zostają jednak przykryte przez zablokowane w ciele emocje, stare schematy i przekonania, które nieświadomie zakodowaliśmy w naszym umyśle.",
     pers_intro_desc_3: "Ten test to pierwszy krok do ich rozkodowania i zamiany na Twoją największą siłę.",
     pers_how_works_title: "Jak to działa?",
@@ -397,7 +397,7 @@ const translations = {
     critic_sub: "ZROZUM SIEBIE",
     critic_title: "POZNAJ SWOJEGO KRYTYKA",
     critic_intro_header: "Odzyskaj lekkość",
-    critic_intro_desc: "Czy zdarza Ci się czasem słyszeć w swojej głowie surowy, oceniający głos? Głos, który po popełnieniu drobnego błędu mówi, że jesteś niewystarczająco dobry, albo paraliżuje Cię lękiem tuż przed rozpoczęciem czegoś nowego? To nie jesteś Ty. To Twój Wewnętrzny Krytyk. Zrób test i dowiedz się, który z 7 typów najczęściej do Ciebie przemawia.",
+    critic_intro_desc: "Czy zdarza Ci się czasem słyszeć w swojej głowie surowy, oceniający głos? Głos, który po popełnieniu drobnego błędu mówi, że jesteś niewystarczająco dobra, albo paraliżuje Cię lękiem tuż przed rozpoczęciem czegoś nowego? To nie jesteś Ty. To Twój Wewnętrzny Krytyk. Zrób test i dowiedz się, który z 7 typów najczęściej do Ciebie przemawia.",
     critic_btn_start: "Rozpocznij test",
     critic_progress: "Pytanie {n} z {total}",
     critic_ans_0: "Nigdy",
