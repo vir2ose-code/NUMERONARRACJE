@@ -60,7 +60,7 @@ const translations = {
     
     calc_lbl_1: "DROGA ŻYCIA",
     calc_title_1: "Twój główny archetyp",
-    calc_lbl_2: "ROK OSOBISTY",
+    calc_lbl_2: "ROK KOLEKTYWNY",
     calc_title_2: "Wibracja obecnego roku",
     calc_lbl_3: "LICZBA PRZEZNACZENIA",
     calc_title_3: "Wibracja Twojego imienia",
@@ -492,7 +492,7 @@ const translations = {
     
     calc_lbl_1: "LEBENSWEG",
     calc_title_1: "Dein Hauptarchetyp",
-    calc_lbl_2: "PERSÖNLICHES JAHR",
+    calc_lbl_2: "KOLLEKTIVES JAHR",
     calc_title_2: "Vibration des aktuellen Jahres",
     calc_lbl_3: "SCHICKSALSZAHL",
     calc_title_3: "Vibration deines Namens",
