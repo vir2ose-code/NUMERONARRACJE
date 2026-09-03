@@ -1,0 +1,80 @@
+    <section class="page-section" id="page-offer" style="display: block; padding-top: 100px; padding-bottom: 60px;">
+        <div class="content-section" style="max-width: 900px; margin: 0 auto; padding: 0 20px;">
+            <div class="section-subtitle" style="text-align: center;">WYBIERZ WARIANT WSPARCIA</div>
+            <h2 class="section-title" style="text-align: center; margin-bottom: 40px;">OFERTA NUMEROLOGICZNA</h2>
+            
+            <p style="text-align: center; margin-bottom: 40px; color: var(--text-light); max-width: 600px; margin-inline: auto;">
+                Każda podróż zaczyna się od pierwszego kroku i wzajemnego zaufania. Przygotowałam dla Ciebie trzy możliwości spotkania, abyś mógł spokojnie zdecydować, która forma wglądu w Twoją energię jest Ci teraz najbardziej potrzebna.
+            </p>
+
+            <div class="offer-cards-container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-bottom: 60px;">
+                
+                <!-- Wariant 1 -->
+                <div class="offer-card" style="background: var(--bg-card); border: 1px solid var(--gold-dark); border-radius: 12px; padding: 24px; display: flex; flex-direction: column;">
+                    <h3 style="color: var(--gold-light); margin-bottom: 10px; font-size: 1.2rem;">Bezpłatna konsultacja wstępna</h3>
+                    <div style="font-size: 1.5rem; color: var(--text-light); margin-bottom: 5px;">0 € <span style="font-size: 0.9rem; color: var(--text-dim);">/ 15 minut</span></div>
+                    <p style="color: var(--text-dim); font-size: 0.9rem; margin-bottom: 20px;">Krótkie, ciepłe spotkanie zapoznawcze online, podczas którego poznamy się bliżej i porozmawiamy o Twoich potrzebach.</p>
+                    
+                    <h4 style="color: var(--gold-dark); font-size: 0.85rem; margin-bottom: 5px; text-transform: uppercase;">Dla kogo:</h4>
+                    <p style="font-size: 0.85rem; margin-bottom: 15px; color: var(--text-light);">Dla osób, które chcą poczuć moją energię, zadać pierwsze pytania i upewnić się, jak praca z mapą numerologiczną może im pomóc. Dla każdej osoby, która rozważa pracę ze swoją mapą i chce poznać pełną ofertę.</p>
+                    
+                    <h4 style="color: var(--gold-dark); font-size: 0.85rem; margin-bottom: 5px; text-transform: uppercase;">Co otrzymujesz:</h4>
+                    <p style="font-size: 0.85rem; margin-bottom: 20px; color: var(--text-light);">Bezpieczną przestrzeń na krótką rozmowę, w trakcie której podpowiem Ci, który wariant analizy będzie dla Ciebie najbardziej wartościowy.</p>
+                    
+                    <a href="mailto:numeronarracje@gmail.com" class="btn-primary" style="margin-top: auto; text-align: center; text-decoration: none;">Umów się</a>
+                </div>
+
+                <!-- Wariant 2 -->
+                <div class="offer-card" style="background: var(--bg-card); border: 1px solid var(--gold-dark); border-radius: 12px; padding: 24px; display: flex; flex-direction: column;">
+                    <h3 style="color: var(--gold-light); margin-bottom: 10px; font-size: 1.2rem;">Indywidualna Analiza Mapy</h3>
+                    <div style="font-size: 1.5rem; color: var(--text-light); margin-bottom: 5px;">80 € <span style="font-size: 0.9rem; color: var(--text-dim);">/ 60 minut</span></div>
+                    <p style="color: var(--text-dim); font-size: 0.9rem; margin-bottom: 20px;">Głęboka rozmowa oparta na Twojej dacie urodzenia, stanowiąca przejrzyste naświetlenie Twojego czystego kodu i potencjału.</p>
+                    
+                    <h4 style="color: var(--gold-dark); font-size: 0.85rem; margin-bottom: 5px; text-transform: uppercase;">Dla kogo:</h4>
+                    <p style="font-size: 0.85rem; margin-bottom: 15px; color: var(--text-light);">Dla osób szukających jasności, zrozumienia własnej Liczby Urodzenia, nazwania wrodzonych talentów oraz dostrzeżenia schematów i blokad nabytych w ciągu życia.</p>
+                    
+                    <h4 style="color: var(--gold-dark); font-size: 0.85rem; margin-bottom: 5px; text-transform: uppercase;">Co otrzymujesz:</h4>
+                    <ul style="font-size: 0.85rem; color: var(--text-light); margin-left: 20px; margin-bottom: 20px; padding-left: 0;">
+                        <li style="margin-bottom: 6px;">60 minut indywidualnego spotkania online pełnego uważności i empatii.</li>
+                        <li style="margin-bottom: 6px;">Odkrycie i nazwanie Twoich pierwotnych darów oraz mocnych stron.</li>
+                        <li>Uświadomienie sobie źródeł emocji i przekonań zapisanych w ciele, abyś mogła samodzielnie zacząć proces przemiany.</li>
+                    </ul>
+                    
+                    <a href="mailto:numeronarracje@gmail.com" class="btn-primary" style="margin-top: auto; text-align: center; text-decoration: none;">Umów się</a>
+                </div>
+
+                <!-- Wariant 3 -->
+                <div class="offer-card" style="background: var(--bg-card); border: 2px solid var(--gold-light); border-radius: 12px; padding: 24px; display: flex; flex-direction: column; position: relative;">
+                    <div style="position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: var(--gold-light); color: var(--bg-dark); font-size: 0.75rem; font-weight: bold; padding: 4px 12px; border-radius: 20px; text-transform: uppercase; white-space: nowrap;">Kompleksowy proces</div>
+                    <h3 style="color: var(--gold-light); margin-bottom: 10px; font-size: 1.2rem; margin-top: 10px;">Pełny Portret Numerologiczny</h3>
+                    <div style="font-size: 1.5rem; color: var(--text-light); margin-bottom: 5px;">240 € <span style="font-size: 0.9rem; color: var(--text-dim);">/ z harmonizacją + PDF</span></div>
+                    <p style="color: var(--text-dim); font-size: 0.9rem; margin-bottom: 20px;">Głęboki proces transformacyjny, w którym dajemy sobie czas na pełne przejście przez wszystkie obszary Twojego życia.</p>
+                    
+                    <h4 style="color: var(--gold-dark); font-size: 0.85rem; margin-bottom: 5px; text-transform: uppercase;">Dla kogo:</h4>
+                    <p style="font-size: 0.85rem; margin-bottom: 15px; color: var(--text-light);">Dla osób gotowych na pełny wgląd, które pragną dostroić swoją energię poprzez celowy dobór imion aktywujących oraz harmonizację podpisu.</p>
+                    
+                    <h4 style="color: var(--gold-dark); font-size: 0.85rem; margin-bottom: 5px; text-transform: uppercase;">Co otrzymujesz:</h4>
+                    <ul style="font-size: 0.85rem; color: var(--text-light); margin-left: 20px; margin-bottom: 20px; padding-left: 0;">
+                        <li style="margin-bottom: 6px;"><strong>Czas bez pośpiechu:</strong> Dajemy sobie tyle przestrzeni, ile dokładnie potrzebujesz.</li>
+                        <li style="margin-bottom: 6px;"><strong>Harmonizacja podpisu:</strong> Precyzyjne wyliczenie i ułożenie wspierającego podpisu.</li>
+                        <li style="margin-bottom: 6px;"><strong>Dobór imion aktywujących:</strong> Uzupełniające brakujące energie.</li>
+                        <li><strong>Osobisty plik PDF:</strong> Pisemne, kompletne opracowanie Twojej mapy.</li>
+                    </ul>
+                    
+                    <a href="mailto:numeronarracje@gmail.com" class="btn-primary" style="margin-top: auto; text-align: center; text-decoration: none;">Umów się</a>
+                </div>
+            </div>
+
+            <h3 style="color: var(--gold-light); text-align: center; margin-bottom: 20px; font-size: 1.2rem;">Jak wygląda udział krok po kroku?</h3>
+            <div style="max-width: 600px; margin: 0 auto; background: rgba(255,255,255,0.03); border-radius: 12px; padding: 20px; border: 1px solid rgba(255,255,255,0.1);">
+                <ol style="color: var(--text-light); margin-left: 20px; padding-left: 0;">
+                    <li style="margin-bottom: 12px;"><strong>Zarezerwuj 15-minutową bezpłatną rozmowę:</strong> Wybierz dogodny termin w kalendarzu, abyśmy mogły się poznać.</li>
+                    <li style="margin-bottom: 12px;"><strong>Krótkie spotkanie online:</strong> Porozmawiamy o Twoich potrzebach i ustalimy zakres dalszej pracy.</li>
+                    <li style="margin-bottom: 12px;"><strong>Rezerwacja pełnej analizy:</strong> Otrzymasz dostęp do wyboru płatnego wariantu i podasz dane niezbędne do przeliczenia Twojej mapy.</li>
+                    <li><strong>Właściwe spotkanie i wgląd:</strong> Łączymy się na pełną analizę, podczas której naświetlę Twoje wrodzone potencjały i dam Ci klucz do głębszego samopoznania.</li>
+                </ol>
+                <p style="margin-top: 20px; font-size: 0.9rem; color: var(--text-dim); font-style: italic; text-align: center;">Pozwól sobie na spotkanie ze swoją prawdziwą naturą, zyskaj jasność i zacznij świadomie korzystać ze swoich wrodzonych talentów. Zapraszam Cię serdecznie do tej pięknej podróży!</p>
+            </div>
+            <br>
+        </div>
+    </section>
