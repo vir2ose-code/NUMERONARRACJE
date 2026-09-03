@@ -902,9 +902,11 @@ document.addEventListener('DOMContentLoaded', () => {
   // Initialize translations on load
   try {
     const savedLang = localStorage.getItem('selectedLang');
-    if (savedLang && (savedLang === 'pl' || savedLang === 'de')) {
-      currentLang = savedLang;
-    }
+    // FORCE PL LANGUAGE GLOBALLY
+    // if (savedLang && (savedLang === 'pl' || savedLang === 'de')) {
+    //  currentLang = savedLang;
+    // }
+    currentLang = 'pl';
   } catch (e) {
     console.warn('localStorage not accessible:', e);
   }
