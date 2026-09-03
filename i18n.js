@@ -12,6 +12,7 @@ const translations = {
     nav_personality: "TEST OSOBOWOŚCI",
     nav_body_quiz: "QUIZ CO OPOWIADA TWOJE CIAŁO",
     nav_about: "O AUTORCE",
+    nav_offer: "OFERTA-ANALIZA NUMEROLOGICZNA",
     nav_app_info: "O APLIKACJI",
     nav_contact: "KONTAKT",
     
@@ -444,6 +445,7 @@ const translations = {
     nav_body_quiz: "WAS ERZÄHLT DEIN KÖRPER?",
     nav_critic: "LERNE DEINEN KRITIKER KENNEN",
     nav_about: "ÜBER DIE AUTORIN",
+    nav_offer: "OFERTA-ANALIZA NUMEROLOGICZNA",
     nav_app_info: "ÜBER DIESE APP",
     nav_contact: "KONTAKT",
     

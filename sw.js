@@ -1,8 +1,9 @@
-const CACHE_NAME = 'numeronarracje-v56';
+const CACHE_NAME = 'numeronarracje-v57';
 const urlsToCache = [
   './',
   './index.html',
   './about.html',
+  './offer.html',
   './app-info.html',
   './quiz.html',
   './jokes.html',
@@ -97,3 +98,4 @@ self.addEventListener('activate', event => {
     ])
   );
 });
+
