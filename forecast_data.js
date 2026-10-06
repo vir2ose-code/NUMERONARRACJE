@@ -83,7 +83,7 @@ const FORECAST_DATA = {
     "3-29": {
       "z": "Baran",
       "l": 7,
-      "e": "Siódemka to czas introspekcji, w którym cisza staje się Twoim najbardziej lojalnym i mądrym sprzymierzeńcem. Pozwól sobie na luksus bycia sam na sam ze swoimi myślami, aby odnaleźć odpowiedzi na najważniejsze pytania duszy.",
+      "e": "Siódemka to czas introspekcji, w którym cisza staje się Twoim najbardziej lojalnym i mądrym sprzymierzeńcem. Pozwól sobie na luksus bycia sama na sam ze swoimi myślami, aby odnaleźć odpowiedzi na najważniejsze pytania duszy.",
       "r": "Znajdź chwilę na medytację lub spokojną lekturę, która pozwoli Ci pogłębić wiedzę o sobie samej. Zaufaj swojej intuicji, ponieważ w dzisiejszym wyciszeniu jej głos będzie słyszalny wyjątkowo wyraźnie.",
       "n": "Troska, Harmonia, Piękno",
       "u": "Stroń od zgiełku i powierzchownych rozrywek, które mogą rozproszyć Twoją cenną uwagę i zabrać spokój. Nie bój się pytań o sens życia, gdyż konfrontacja z nimi przyniesie Ci upragnioną wolność ducha.",
@@ -413,7 +413,7 @@ const FORECAST_DATA = {
     "5-1": {
       "z": "Byk",
       "l": 7,
-      "e": "Siódemka to czas introspekcji, w którym cisza staje się Twoim najbardziej lojalnym i mądrym sprzymierzeńcem. Pozwól sobie na luksus bycia sam na sam ze swoimi myślami, aby odnaleźć odpowiedzi na najważniejsze pytania duszy.",
+      "e": "Siódemka to czas introspekcji, w którym cisza staje się Twoim najbardziej lojalnym i mądrym sprzymierzeńcem. Pozwól sobie na luksus bycia sama na sam ze swoimi myślami, aby odnaleźć odpowiedzi na najważniejsze pytania duszy.",
       "r": "Znajdź chwilę na medytację lub spokojną lekturę, która pozwoli Ci pogłębić wiedzę o sobie samej. Zaufaj swojej intuicji, ponieważ w dzisiejszym wyciszeniu jej głos będzie słyszalny wyjątkowo wyraźnie.",
       "n": "Refleksja, Głębia, Intuicja",
       "u": "Stroń od zgiełku i powierzchownych rozrywek, które mogą rozproszyć Twoją cenną uwagę i zabrać spokój. Nie bój się pytań o sens życia, gdyż konfrontacja z nimi przyniesie Ci upragnioną wolność ducha.",
@@ -2983,7 +2983,7 @@ const FORECAST_DATA = {
     "1-13": {
       "z": "Koziorożec",
       "l": 7,
-      "e": "Siódemka to czas introspekcji, podczas którego odpowiedzi na trudne pytania przychodzą same z wnętrza. Pozwól sobie na bycie sam na sam ze swoimi myślami, by usłyszeć to, co najważniejsze.",
+      "e": "Siódemka to czas introspekcji, podczas którego odpowiedzi na trudne pytania przychodzą same z wnętrza. Pozwól sobie na bycie sama na sam ze swoimi myślami, by usłyszeć to, co najważniejsze.",
       "r": "Przeczytaj inspirującą książkę lub udaj się na długi spacer w samotności.",
       "n": "Refleksja, Głębia, Intuicja",
       "u": "Powierzchownych rozmów i tłumnych spotkań, które mogą rozproszyć Twoją uwagę.",
@@ -3073,7 +3073,7 @@ const FORECAST_DATA = {
     "1-22": {
       "z": "Wodnik",
       "l": 7,
-      "e": "Siódemka to dzień głębokiego wglądu, w którym cisza staje się najcenniejszym doradcą i sprzymierzeńcem. Pozwól sobie na luksus bycia sam na sam ze swoimi myślami, aby odnaleźć ukrytą mądrość.",
+      "e": "Siódemka to dzień głębokiego wglądu, w którym cisza staje się najcenniejszym doradcą i sprzymierzeńcem. Pozwól sobie na luksus bycia sama na sam ze swoimi myślami, aby odnaleźć ukrytą mądrość.",
       "r": "Poszukaj odpowiedzi w medytacji lub lekturze tekstów, które karmią Twoją duszę.",
       "n": "Refleksja, Głębia, Intuicja",
       "u": "Zgiełku i powierzchownych rozrywek, które mogą rozproszyć Twoją cenną uwagę.",
@@ -3464,7 +3464,7 @@ const FORECAST_DATA = {
       "z": "Ryby",
       "l": 7,
       "e": "Siódemka to czas ciszy, która staje się głośniejsza niż jakikolwiek hałas docierający do nas z zewnątrz. Właśnie w tym wyciszeniu odnajdziesz odpowiedzi na pytania, które od dawna nurtowały Twoją duszę.",
-      "r": "Pozwól sobie na luksus bycia sam na sam ze swoimi myślami i poszukaj wewnętrznej prawdy. Zaufaj swojej intuicji, która w ciszy podpowiada najbardziej trafne rozwiązania.",
+      "r": "Pozwól sobie na luksus bycia sama na sam ze swoimi myślami i poszukaj wewnętrznej prawdy. Zaufaj swojej intuicji, która w ciszy podpowiada najbardziej trafne rozwiązania.",
       "n": "Troska, Harmonia, Piękno",
       "u": "Unikaj zbędnego zgiełku oraz powierzchownych rozmów, które nie wnoszą do Twojego życia żadnej wartości. Stroń od pośpiechu, który uniemożliwia rzetelny wgląd w Twoje potrzeby.",
       "s": "Piękno jest aktem odwagi",

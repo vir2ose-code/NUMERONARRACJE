@@ -32,7 +32,7 @@ Usiądź wygodnie, zamknij oczy, weź głęboki oddech i pozwól tej kojącej hi
     title: "Opowieść o Dwóch Wilkach",
     subtitle: "Wybór, który zmienia wszystko",
     audioFile: "./OPOWIADANIA MOTYWACYJNE/audio/OPOWIESC O DWOCH WILKACH.mp3",
-    description: `Czy wiesz, że w tej samej sekundzie, w której parzysz poranną kawę, w Twoim wnętrzu zaczyna się najważniejsza bitwa dnia? W zwykły wtorek, kiedy stoisz w korku, kiedy słyszysz trudne słowo od drugiej osoby, albo kiedy wieczorem gasisz światło i zostajesz sam na sam ze swoimi myślami – dokładnie wtedy podejmujesz decyzję, która kształtuje Twoją rzeczywistość.
+    description: `Czy wiesz, że w tej samej sekundzie, w której parzysz poranną kawę, w Twoim wnętrzu zaczyna się najważniejsza bitwa dnia? W zwykły wtorek, kiedy stoisz w korku, kiedy słyszysz trudne słowo od drugiej osoby, albo kiedy wieczorem gasisz światło i zostajesz sama na sam ze swoimi myślami – dokładnie wtedy podejmujesz decyzję, która kształtuje Twoją rzeczywistość.
 
 Stara indiańska mądrość przypomina nam, że w każdym z nas bez przerwy żyją dwa wilki, które walczą o naszą uwagę. Jeden z nich karmi się lękiem, starymi żalami, poczuciem winy, złością i potrzebą kontroli. Drugi to wilk spokoju, miłości, wdzięczności, intuicji i głębokiego zaufania do własnej drogi.
 

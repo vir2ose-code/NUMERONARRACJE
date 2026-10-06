@@ -1447,7 +1447,7 @@ const EMOTION_RESPONSES = {
   },
   "wdzięczność": {
     title: "Wdzięczność · Portal obfitości",
-    desc: "Stan wdzięczności to najprostsza droga do manifestacji marzeń. Zauważając małe rzeczy, dajesz sygnał przestrzeni, że jesteś gotów na więcej. Utrzymaj to uczucie jak najdłużej."
+    desc: "Stan wdzięczności to najprostsza droga do manifestacji marzeń. Zauważając małe rzeczy, dajesz sygnał przestrzeni, że jesteś gotowa na więcej. Utrzymaj to uczucie jak najdłużej."
   }
 };
 

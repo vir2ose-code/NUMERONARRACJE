@@ -82,7 +82,7 @@ const criticCategories = {
     ids: [1, 6, 12, 21],
     name: { pl: "Niszczyciel", de: "Der Zerstörer" },
     action: {
-      pl: "To najtrudniejszy ze wszystkich krytyków, ponieważ nie ocenia Twoich działań, ale uderza bezpośrednio w samo jądro Twojego poczucia własnej wartości. Generuje bardzo głębokie, przenikliwe poczucie wstydu. Wmawia Ci, że w istocie jesteś niepełna, wadliwa, a w skrajnych momentach potrafi sączyć do podświadomości niszczycielską myśl, że nie powinieneś istnieć lub nie masz do tego prawa. Sprawia, że niesamowicie trudno jest Ci utrzymać jakiekolwiek pozytywne wyobrażenie o sobie.",
+      pl: "To najtrudniejszy ze wszystkich krytyków, ponieważ nie ocenia Twoich działań, ale uderza bezpośrednio w samo jądro Twojego poczucia własnej wartości. Generuje bardzo głębokie, przenikliwe poczucie wstydu. Wmawia Ci, że w istocie jesteś niepełna, wadliwa, a w skrajnych momentach potrafi sączyć do podświadomości niszczycielską myśl, że nie powinnaś istnieć lub nie masz do tego prawa. Sprawia, że niesamowicie trudno jest Ci utrzymać jakiekolwiek pozytywne wyobrażenie o sobie.",
       de: "Das ist der schwierigste aller Kritiker, denn er bewertet nicht deine Handlungen, sondern greift direkt den Kern deines Selbstwertgefühls an. Er erzeugt eine tiefe, durchdringende Scham. Er redet dir ein, dass du fehlerhaft und mangelhaft bist, und kann dir in extremen Momenten den zerstörerischen Gedanken einflößen, dass du kein Recht auf Existenz hast. Er macht es unglaublich schwer für dich, irgendein positives Selbstbild aufrechtzuerhalten."
     },
     intent: {

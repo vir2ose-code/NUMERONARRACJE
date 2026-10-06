@@ -207,7 +207,7 @@ window.EMOTIONS_CLUSTERS = {
     },
     loneliness: {
       title: "{emotion} · Tęsknota za połączeniem",
-      desc: "Odczuwanie stanu, jakim jest {emotion}, wskazuje na głęboką potrzebę bliskości i bycia widzianym. Czasami to także zaproszenie do tego, by najpierw odbudować połączenie z samym sobą i zaopiekować się własnymi potrzebami.",
+      desc: "Odczuwanie stanu, jakim jest {emotion}, wskazuje na głęboką potrzebę bliskości i bycia widzianym. Czasami to także zaproszenie do tego, by najpierw odbudować połączenie z samą sobą i zaopiekować się własnymi potrzebami.",
       isSevere: true,
       actionPlan: {
         step1: "🧒 **Zaopiekuj się sobą:** Zapytaj siebie: 'Czego teraz potrzebuję, aby poczuć się bezpiecznie i dobrze?'. Zrób to dla siebie.",
