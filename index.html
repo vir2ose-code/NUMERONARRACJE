@@ -15,7 +15,7 @@
     <meta property="og:description" content="Twoja data urodzenia to kod, który otwiera drzwi do głębszego zrozumienia siebie i świata.">
     <meta property="og:type" content="website">
     
-    <link rel="stylesheet" href="style.css?v=65">
+    <link rel="stylesheet" href="style.css?v=67">
 </head>
 <body>
 
@@ -40,7 +40,6 @@
     <a class="nav-item" href="javascript:void(0)" data-i18n="nav_body_quiz" onclick="navigateTo('body-quiz', event)">QUIZ CO OPOWIADA TWOJE CIAŁO</a>
     <a class="nav-item" href="javascript:void(0)" data-i18n="nav_critic" onclick="navigateTo('critic-test', event)">POZNAJ SWOJEGO KRYTYKA</a>
 
-    <a class="nav-item" href="jokes.html" data-i18n="nav_jokes" onclick="closeDrawer()">KAWAŁY</a>
     <a class="nav-item" href="about.html" data-i18n="nav_about" onclick="closeDrawer()">O AUTORCE</a>
     <a class="nav-item" href="offer.html" data-i18n="nav_offer" onclick="closeDrawer()">OFERTA-ANALIZA NUMEROLOGICZNA</a>
     <a class="nav-item" href="app-info.html" data-i18n="nav_app_info" onclick="closeDrawer()">O APLIKACJI</a>
@@ -82,7 +81,37 @@
             <!-- Section Header -->
             <div class="forecast-sub" data-i18n="fc_title">NUMEROLOGIA</div>
             <h1 class="forecast-main" data-i18n="fc_main">DZISIEJSZA PROGNOZA</h1>
-            <div class="forecast-date" id="fcDate"></div>
+            
+            <div class="forecast-date-row">
+                <div class="forecast-date" id="fcDate" onclick="toggleDevForecastBar()" title="Kliknij, aby otworzyć podgląd daty (Dev)"></div>
+                <button class="dev-forecast-pill" id="devToggleBtn" onclick="toggleDevForecastBar()" aria-label="Włącz tryb podglądu">
+                    <span>🗓️ Podgląd 2027</span>
+                </button>
+            </div>
+
+            <!-- Dev Forecast Bar (Rozwijany panel podglądu 2027) -->
+            <div id="devForecastBar" class="dev-forecast-bar" style="display: none;">
+                <div class="dev-bar-top">
+                    <div class="dev-bar-label">
+                        <span class="dev-bar-badge">DEV</span>
+                        <span class="dev-bar-heading">TRYB PODGLĄDU PROGNOZY</span>
+                    </div>
+                    <button class="dev-bar-close" onclick="toggleDevForecastBar()" aria-label="Zamknij podgląd">✕</button>
+                </div>
+                <div class="dev-bar-controls">
+                    <button class="dev-step-btn" onclick="stepForecastDay(-1)" title="Poprzedni dzień">◀ Poprzedni</button>
+                    <input type="date" id="devDateInput" class="dev-date-input" onchange="onDevDateChange(event)">
+                    <button class="dev-step-btn" onclick="stepForecastDay(1)" title="Następny dzień">Następny ▶</button>
+                </div>
+                <div class="dev-quick-actions">
+                    <button class="dev-quick-btn" onclick="jumpToForecastDate('2027-01-01')">1 Sty 2027</button>
+                    <button class="dev-quick-btn" onclick="jumpToForecastDate('2027-03-21')">21 Mar 2027</button>
+                    <button class="dev-quick-btn" onclick="jumpToForecastDate('2027-07-01')">1 Lip 2027</button>
+                    <button class="dev-quick-btn" onclick="jumpToForecastDate('2027-12-31')">31 Gru 2027</button>
+                    <button class="dev-quick-btn dev-reset-btn" onclick="resetToRealToday()">🔄 Dziś (2026)</button>
+                </div>
+                <div id="devActiveBadge" class="dev-active-status" style="display: none;"></div>
+            </div>
 
             <!-- Forecast Card -->
             <div class="fc-card calc-card">
@@ -1004,14 +1033,14 @@
 </script>
 
 <!-- ══ SCRIPTS ══ -->
-<script src="forecast_data.js?v=65"></script>
-<script src="emotions_db.js?v=65"></script>
-<script src="i18n.js?v=65"></script>
-<script src="personality_data.js?v=65"></script>
-<script src="body_quiz_data.js?v=65"></script>
-<script src="critic_test_data.js?v=65"></script>
-<script src="critic_test.js?v=65"></script>
-<script src="app.js?v=65"></script>
+<script src="forecast_data.js?v=67"></script>
+<script src="emotions_db.js?v=67"></script>
+<script src="i18n.js?v=67"></script>
+<script src="personality_data.js?v=67"></script>
+<script src="body_quiz_data.js?v=67"></script>
+<script src="critic_test_data.js?v=67"></script>
+<script src="critic_test.js?v=67"></script>
+<script src="app.js?v=67"></script>
 
 <!-- ══ POST-LOAD: Audio vibracja number sync ══ -->
 <script>

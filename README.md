@@ -25,12 +25,7 @@ Projekt został zoptymalizowany pod kątem urządzeń mobilnych i oferuje pełne
 * Prezentacja profilu osobowości, darów, wyzwań oraz misji życiowej w formie wygodnych zakładkowych kart.
 * Wyliczanie i wizualizacja czterech filarów numerologicznych (Liczba Urodzenia, Dzień Urodzenia, Miesiąc Urodzenia, Klucz Wcielenia) na podstawie wpisanej daty.
 
-### 5. Strefa Humoru i Kronika Humoru Użytkowników
-* Losowy generator żartów poprawiających nastrój.
-* Kronika Humoru pozwalająca na publikowanie własnych anegdot.
-* Hybrydowa logika zapisu: dane są automatycznie synchronizowane z globalną bazą chmurową Vercel KV lub zapisywane lokalnie (localStorage) w przypadku braku konfiguracji serwerowej bądź utraty połączenia internetowego.
-
-### 6. Bezpieczeństwo i Prywatność
+### 5. Bezpieczeństwo i Prywatność
 * Dedykowana Polityka Prywatności oraz Regulamin w pełni przetłumaczone na języki polski i niemiecki.
 * Wyróżnione zastrzeżenia prawne dotyczące wyłącznie rozrywkowego i motywacyjnego charakteru aplikacji.
 
@@ -38,7 +33,6 @@ Projekt został zoptymalizowany pod kątem urządzeń mobilnych i oferuje pełne
 
 * Frontend: HTML5, CSS3 (szklany design premium, gradienty, niestandardowa typografia Jost i Cinzel), Vanilla JavaScript (ES6).
 * PWA: Manifest aplikacji (manifest.json) oraz Service Worker (sw.js) realizujący strategię pamięci podręcznej Cache-first dla kluczowych zasobów.
-* API Backend: Serverless API w technologii Vercel Serverless Functions z integracją Vercel KV (Redis) dla globalnego przechowywania kroniki humorów.
 * Lokalizacja: Biblioteka i18n.js przechowująca klucze językowe dla języka polskiego (PL) i niemieckiego (DE) z zapisem preferencji w pamięci localStorage.
 
 ## Instalacja i Uruchomienie Lokalne
@@ -65,4 +59,4 @@ Aplikacja jest przystosowana do natychmiastowego wdrożenia na platformie Vercel
 
 1. Połącz swoje repozytorium GitHub z panelem Vercel.
 2. Dodaj integrację bazy danych Vercel KV (KV Database) do swojego projektu w zakładce Storage.
-3. System automatycznie wstrzyknie wymagane zmienne środowiskowe (KV_REST_API_URL oraz KV_REST_API_TOKEN), a endpoint API (/api/jokes.js) przełączy się z trybu offline/localStorage na globalną chmurę Redis.
+3. Aplikacja działa w pełni wydajnie jako lekka PWA w chmurze Vercel.

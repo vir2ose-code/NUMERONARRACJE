@@ -3649,6 +3649,3656 @@ const FORECAST_DATA = {
       "u": "Wystrzegaj się hałasu oraz niepotrzebnego pośpiechu w planowaniu kolejnych kroków zawodowych czy osobistych. Nie lekceważ snów i znaków, które dziś mogą być wyjątkowo czytelne i istotne.",
       "s": "Piękno jest aktem odwagi",
       "fun": "Jesteś dziś jak mądra sowa, która z boku obserwuje świat, zachowując przy tym stoicki spokój i dystans."
+    },
+    "2027-1-1": {
+      "z": "Koziorożec",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Pierwszy dzień nowego roku naturalnie zaprasza Cię do zatrzymania się w pędzie i postawienia spokojnych, solidnych fundamentów pod to, co dopiero ma przed Tobą rozkwitnąć. Czwórka przynosi wibrację głębokiego spokoju, potrzebę stabilizacji oraz poukładania myśli, co pozwala Ci wejść w ten rok bez zbędnego pośpiechu i presji. Nie musisz dzisiaj biec ani planować całego roku co do godziny. Pozwól sobie na powolny poranek, filiżankę ulubionej herbaty i ciche poczucie, że wszystko układa się dokładnie tak, jak powinno. Twój dom i Twoje wnętrze to dzisiaj najbezpieczniejsze przystanie na świecie.",
+      "r": "Skup się na łagodnym wejściu w nowy cykl, zadbaj o porządek i przytulność w swoim najbliższym otoczeniu oraz zaplanuj nadchodzące dni w przyjaznej, domowej atmosferze, która da Ci poczucie bezpieczeństwa.",
+      "u": "Pośpiechu, gwałtownych postanowień i narzucania sobie zbyt szybkiego tempa – pozwól sobie na celebrowanie każdej chwili bez patrzenia na zegarek.",
+      "s": "„Każdy nowy początek zaczyna się od cichej zgody na to, by zacząć od nowa.”",
+      "fun": "Jaki jeden, najprostszy nawyk dbania o Twój wewnętrzny spokój chcesz zabrać ze sobą w te nadchodzące miesiące?"
+    },
+    "2027-1-2": {
+      "z": "Koziorożec",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Dzisiejsza wibracja piątki delikatnie budzi nas do życia, pukając do drzwi z ciekawością świata i chęcią odkrywania nieznanego. Możesz poczuć w sobie subtelną potrzebę zmiany, zrobienia czegoś inaczej niż zwykle albo po prostu otwarcia się na zupełnie nową perspektywę w sprawach, które dobrze znasz. Zamiast sztywnego planu, wybierz dzisiaj lekkość, zaufaj swojej intuicji i pozwól sobie popłynąć z prądem codzienności, zauważając małe, codzienne cuda, które często umykają w pośpiechu.",
+      "r": "Pozwól sobie na odrobinę spontaniczności, wyjdź na spacer zupełnie inną drogą niż zwykle i spójrz na swoje codzienne sprawy z odświeżonej, jasnej strony.",
+      "u": "Zamykania się na propozycje innych oraz sztywnego trzymania się planów, które dawno przestępy Ci służyć.",
+      "s": "„Wolność nie polega na braku ograniczeń, ale na odwadze bycia sobą w każdej, nawet najmniejszej zmianie.”",
+      "fun": "W jakim obszarze życia czujesz dziś największą potrzebę wpuszczenia świeżego powietrza i zrzucenia starych przyzwyczajeń?"
+    },
+    "2027-1-3": {
+      "z": "Koziorożec",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Szóstka otacza dziś całą naszą codzienność niezwykle ciepłym, opiekuńczym płaszczem, kierując całą uwagę ku domowemu ciepłu i autentycznym relacjom z bliskimi. To idealny dzień na zadbanie o przestrzeń serca, domowy spokój i otoczenie miłością tych, których masz wokół siebie – a przede wszystkim na okazanie tej czułości samej sobie. Jeśli czujesz, że ktoś w Twoim otoczeniu potrzebuje miłego, wspierającego słowa, podaruj je dzisiaj bezinteresownie, pamiętając, że każde dobro zawsze wraca.",
+      "r": "Zadbaj o ciepłą, domową atmosferę, spędź miły czas z bliskimi lub podaruj sobie długą chwilę czułości z ulubioną książką, otaczając się przedmiotami, które dają Ci ukojenie.",
+      "u": "Brania na siebie cudzych problemów emocjonalnych i zapominania o własnych, niezwykle ważnych potrzebach.",
+      "s": "„Dom to nie tylko mury, to przede wszystkim ciepło serca, którym dzielimy się z innymi.”",
+      "fun": "Jak możesz dzisiaj otulić czułością tę część siebie, która czuje się jeszcze zmęczona minionym czasem?"
+    },
+    "2027-1-4": {
+      "z": "Koziorożec",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Siódemka przynosi ze sobą upragnioną potrzebę głębokiego wyciszenia, wewnętrznej refleksji oraz wsłuchania się w ten najcichszy, najmądrzejszy głos własnego wnętrza. To idealny moment, aby na chwilę odciąć się od zewnętrznego zgiełku, powiadomień w telefonie i opinii świata, które często zagłuszają naszą prawdziwą intuicję. Pozwól sobie dzisiaj na odrobinę samotności rozumianej jako najpiękniejszy rodzaj bliskości z samą sobą. W ciszy rodzą się najbardziej klarowne odpowiedzi na pytania, które nosisz w sercu.",
+      "r": "Znajdź dla siebie chociaż kilkadziesiąt minut w całkowitej ciszy, zaparz ziołową herbatę, otul się miękkim kocem i spędź ten czas na lekturze lub spokojnym poukładaniu myśli w osobistym dzienniku.",
+      "u": "Przebywania w hałaśliwych, tłocznych miejscach oraz podejmowania ważnych, życiowych decyzji pod wpływem nagłej presji otoczenia.",
+      "s": "„Prawdziwa mądrość zaczyna się tam, gdzie potrafimy usłyszeć bicie własnego serca.”",
+      "fun": "Co cichego szepcze do Ciebie Twoja intuicja, gdy na moment odcinasz się od oczekiwań innych ludzi?"
+    },
+    "2027-1-5": {
+      "z": "Koziorożec",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Dzisiejsza wibracja ósemki dodaje nam niezwykłej siły, determinacji oraz poczucia sprawczości. To ten dzień, w którym sprawy wymagające odwagi, stanowczości i poukładania kwestii materialnych lub formalnych układają się z niezwykłą łatwością. Poczujesz w sobie stabilny, wewnętrzny filar, który pozwala Ci zarządzać swoją energią i czasem w sposób najbardziej dla Ciebie korzystny. Pamiętaj jednak, że ta siła ma służyć Twojemu wsparciu, a nie stawać się batem na samej siebie.",
+      "r": "Ureguluj zaległe sprawy urzędowe lub biznesowe, zrób porządek w swoich finansach i podejmij odważne kroki w kierunku celów, które od dłuższego czasu nosisz w swojej głowie.",
+      "u": "Nadmiernej, sztywnej kontroli nad wszystkim i wszelkimi sprawami dokoła – odpuść to, na co nie masz realnego wpływu, a poczujesz ogromną ulgę.",
+      "s": "„Siła nie wynika z unikania upadków, ale z pewności, że po każdym z nich potrafimy wstać z podniesioną głową.”",
+      "fun": "Przed jakim nadmiarem obowiązków możesz dzisiaj postawić spokojną, stanowczą granicę, by chronić swoją energię?"
+    },
+    "2027-1-6": {
+      "z": "Koziorożec",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Dziewiątka roztacza nad nami niezwykle miękką, uzdrawiającą energię domknięcia, wybaczenia i podsumowania pewnego etapu z ogromnym zrozumieniem. To czas, w którym możesz spojrzeć wstecz na minione miesiące czy lata nie z krytyką, lecz z głęboką czułością dla samej siebie. Dziewiątka przypomina, że każde pożegnanie z tym, co stare, robi w naszym życiu bezcenną przestrzeń na nowe, czyste cuda. Pozwól sobie na odpuszczenie dawnych żali.",
+      "r": "Zrób dokładne porządki w przestrzeni fizycznej – pozbądź się rzeczy, których dawno już nie używasz – oraz oczyść swoje myśli ze starych, niepotrzebnych zmartwień.",
+      "u": "Wracania do trudnych, bolesnych wspomnień z poczuciem winy lub żalu – spójrz na swoją przeszłość jak na mrykliwą lekcję, która uczyniła Cię silniejszą.",
+      "s": "„Zamknięcie jednych drzwi to najpiękniejszy prezent, jaki możemy podarować nowej przestrzeni w naszym życiu.”",
+      "fun": "Co starego chcesz dzisiaj z czułością pożegnać w swoich myślach, by zrobić miejsce na nową lekcję?"
+    },
+    "2027-1-7": {
+      "z": "Koziorożec",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Jedynka symbolizuje zupełnie nowy cykl, świeży powiew energii oraz potężny zastrzyk motywacji do działania na własnych, autentycznych warunkach. Dziś czujesz, że masz przed sobą czystą kartę i prawo do tego, by zacząć pisać swoją historię na nowo. Ta wibracja dodaje odwagi, by przestać oglądać się za siebie i wreszcie postawić siebie oraz swoje pragnienia na pierwszym miejscu. Zaufaj temu impulsowi, bo niesie on ogromny potencjał twórczy.",
+      "r": "Wyznacz nowe, świetliste intencje na nadchodzący czas, odważnie wyraź swoje zdanie w ważnej dla Ciebie sprawie i zrób chociaż jeden mały krok w kierunku swojego marzenia.",
+      "u": "Oglądania się na to, co powiedzą inni, oraz czekania na wyimaginowany, „idealny” moment – ten moment tworzy się właśnie teraz.",
+      "s": "„Twoja przyszłość zaczyna się dzisiaj, w tym jednym, najprostszym i najszczerszym wyborze.”",
+      "fun": "Gdyby nikt Cię teraz nie oceniał, jaki odważny krok zrobiłabyś dzisiaj wyłącznie dla siebie?"
+    },
+    "2027-1-8": {
+      "z": "Koziorożec",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Dwójka otula nas dzisiaj niezwykłą delikatnością, empatią oraz głęboką potrzebą harmonijnej współpracy z otaczającym światem i bliskimi ludźmi. To dzień, w którym nasza wrażliwość staje się największym darem, pozwalającym dostrzec to, co niewidoczne dla oczu. Zadbaj o swoje emocje, otocz się życzliwością i pamiętaj, że nie musisz niczego udowadniać światu – wystarczy, że po prostu jesteś w swojej autentycznej prawdzie.",
+      "r": "Porozmawiaj z kimś bliskim od serca do serca w bezpiecznej atmosferze, posłuchaj głosu swojego ciała i podaruj sobie dzień pełen łagodnego, niespiesznego rytmu.",
+      "u": "Wszelkich konfliktów, głośnych, męczących sporów oraz przebywania w miejscach lub z ludźmi, którzy wysysają z Ciebie życiową energię.",
+      "s": "„Łagodność jest cichą, potężną siłą, która potrafi rozpuścić każdy, nawet najtwardszy lód w ludzkim sercu.”",
+      "fun": "Kto w Twoim otoczeniu potrzebuje dzisiaj Twojego ciepłego, dobrego słowa bez żadnych pouczeń?"
+    },
+    "2027-1-9": {
+      "z": "Koziorożec",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Trójka przynosi ze sobą mnóstwo radości, lekkości, twórczej ekspresji oraz potrzebę uśmiechu, który potrafi rozjaśnić nawet najbardziej pochmurny poranek. Dzisiejsza wibracja zachęca do tego, by przestać wszystko tak mocno analizować i pozwolić sobie na odrobinę radosnej beztroski. Twoja kreatywność szuka ujścia, a serce pragnie dzielić się ciepłem z innymi. Poczuj ten przepływ i zaproś do swojej codzienności więcej kolorów.",
+      "r": "Zrób dzisiaj coś czysto twórczego – napisz coś dla przyjemności, posłuchaj energetyzującej muzyki, spotkaj się z przyjaciółką, która potrafi wywołać szczery śmiech na Twojej twarzy.",
+      "u": "Nadmiernego zadręczania się pesymistycznymi myślami oraz szukania problemów tam, gdzie ich w rzeczywistości nie ma.",
+      "s": "„Radość życia to wcale nie brak trudności, to umiejętność dostrzegania słońca za każdą, nawet największą chmurą.”",
+      "fun": "Co sprawi, że na Twojej twarzy zagości dzisiaj zupełnie bezwysiłkowy, szczery uśmiech?"
+    },
+    "2027-1-10": {
+      "z": "Koziorożec",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Kolejna czwórka w tym miesiącu przynosi nam cudowne ukojenie płynące ze stałości, rutyny i budowania bezpiecznych, stabilnych podstaw na co dzień. To dzień, w którym porządek w otoczeniu przynosi natychmiastowy porządek i ulgę w głowie. Nie musisz szukać wielkich wrażeń – uroki codzienności, dobrze zaparzona kawa w ulubionym kubku i spokojne domowe ognisko dadzą Ci dziś najgłębsze poczucie zakorzenienia.",
+      "r": "Dokończ zaległe codzienne obowiązki z pełną uważnością, uporządkuj swoją przestrzeń życiową lub dokumenty i ciesz się poczuciem pełnej kontroli nad swoim bezpiecznym zakątkiem świata.",
+      "u": "Chaosu organizacyjnego, podejmowania pochopnych decyzji finansowych oraz brania na siebie nagłych, nieprzemyślanych zobowiązań.",
+      "s": "„Spokój ducha rodzi się w poukładanej przestrzeni i w radosnej akceptacji tego, co codzienne i zwyczajne.”",
+      "fun": "Jaki jeden mały gest porządku w Twojej przestrzeni przyniesie Ci dzisiaj głęboką ulgę?"
+    },
+    "2027-1-11": {
+      "z": "Koziorożec",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Piątka przynosi dziś wspaniały, świeży powiew wiatru w żagle, zachęcając Cię do delikatnego wyjścia poza utarte schematy i poszukiwania nowych, ciekawych inspiracji. Możesz poczuć, że rutyna zaczyna Cię lekko uwierać, a serce domaga się małej odmiany. To doskonały moment, aby otworzyć się na niespodzianki, odważyć się na zmianę perspektywy i spojrzeć na codzienne sprawy z zupełnie nowej, intrygującej strony.",
+      "r": "Zmień coś drobnego w swoim otoczeniu, wybierz się na spontaniczny spacer w nieznane dotąd miejsce, porozmawiaj z kimś, kto wnosi do Twojego życia radosną energię i pozwól sobie na odrobinę elastyczności.",
+      "u": "Poczucia stagnacji, zamartwiania się i trzymania się kurczowo starych przyzwyczajeń, które blokują Twój naturalny rozwój.",
+      "s": "„Najpiękniejsze przygody zaczynają się wtedy, gdy odważymy się zboczyć z utartego szlaku.”",
+      "fun": "Jaka dawna rutyna uwiera Cię dzisiaj tak bardzo, że najchętniej zmieniłabyś ją od zaraz?"
+    },
+    "2027-1-12": {
+      "z": "Koziorożec",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Szóstka roztacza wokół nas niezwykle miękką, uzdrawiającą aurę bezwarunkowej miłości, rodzinnego ciepła i głębokiego zrozumienia dla ludzkich słabości. Dzisiejszy dzień sprzyja zatrzymaniu się w domowym zaciszu, otoczeniu się pięknem i budowaniu bliskości z tymi, których nosimy w sercu. To czas, w którym największą moc ma czuły gest, ciepłe spojrzenie oraz zaopiekowanie się nie tylko domownikami, ale przede wszystkim własnym, zmęczonym sercem.",
+      "r": "Spędź spokojny wieczór w gronie najbliższych, przygotuj ulubioną, rozgrzewającą potrawę albo po prostu zatroszcz się o siebie, robiąc dokładnie to, co przynosi Ci ukojenie i poczucie bezpieczeństwa.",
+      "u": "Nadmiernego poświęcania się dla innych kosztem własnego zdrowia, energii oraz wewnętrznego spokoju.",
+      "s": "„Miłość, którą obdarzasz innych, zawsze wraca do Ciebie w postaci najpiękniejszego, wewnętrznego ciepła.”",
+      "fun": "W jakiej relacji dawno już nie poprosiłaś o to, czego naprawdę potrzebujesz od innych?"
+    },
+    "2027-1-13": {
+      "z": "Koziorożec",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Siódemka zaprasza nas do niezwykle głębokiej, intymnej podróży w głąb siebie. To dzień sprzyjający refleksji, pogłębianiu wiedzy o samej sobie i odnalezieniu bezpiecznego, wewnętrznego azylu z dala od zgiełku świata. Twoja intuicja szepcze dziś wyjątkowo głośno, podpowiadając odpowiedzi na pytania, które od dawna nosisz w głowie. Zezwól sobie na luksus bycia w ciszy i odcięcia się od zewnętrznych bodźców.",
+      "r": "Sięgnij po dobrą, inspirującą książkę, spędź czas w samotności na łonie natury lub przelej swoje myśli, refleksje i marzenia na czyste kartki osobistego dziennika.",
+      "u": "Plotek, powierzchownych, męczących rozmów oraz ulegania presji otoczenia, która próbuje narzucić Ci swoje tempo.",
+      "s": "„Cisza wcale nie jest pustką – jest najpiękniejszą przestrzenią, w której wreszcie odnajdujemy prawdziwą siebie.”",
+      "fun": "Jaki hałas – w Twojej głowie lub w otoczeniu – jest Ci dzisiaj najbardziej potrzebny do wyciszenia?"
+    },
+    "2027-1-14": {
+      "z": "Koziorożec",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Dzisiejsza wibracja ósemki wzmacnia naszą sprawczość, dodając siły do rzetelnego uporządkowania kwestii zawodowych, materialnych i organizacyjnych. To dzień z jasnym, klarownym umysłem, w którym podejmowanie konkretnych decyzji przychodzi z dużą łatwością. Poczujesz stabilny grunt pod nogami, co pozwoli Ci skutecznie zamknąć to, co wymaga stanowczości, pamiętając jednocześnie, że Twoja wartość nie zależy od listy odhaczonych zadań.",
+      "r": "Podejmuj przemyślane decyzje biznesowe lub formalne, zrób porządek w swoich finansach i zaplanuj działania na najbliższe tygodnie z poszanowaniem własnych sił.",
+      "u": "Surowej samokrytyki w chwilach, gdy coś nie idzie dokładnie tak, jak to sobie pierwotnie zaplanowałaś.",
+      "s": "„Sukces to w gruncie rzeczy suma małych, codziennych kroków stawianych z niezachwianą wiarą we własne możliwości.”",
+      "fun": "Za jaki swój twardy, cichy wysiłek włożony w ostatnim czasie możesz dzisiaj z dumą sobie podziękować?"
+    },
+    "2027-1-15": {
+      "z": "Koziorożec",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Dziewiątka w połowie miesiąca przynosi niezwykle uwalniającą energię oczyszczenia serca ze zmartwień i wybaczenia sobie dawnych potknięć. To moment, w którym możesz zrzucić z ramion niewidzialny plecak pełen starych oczekiwań i żalów. Opuść gardę i pozwól sobie na łagodne zrozumienie tego, dlaczego w przeszłości postąpiłaś tak, a nie inaczej. Każda trudna lekcja minionego czasu była po prostu przystankiem na drodze do Twojej dojrzałości.",
+      "r": "Zrób symboliczne porządki w szafie lub szufladach, pozbądź się rzeczy niepotrzebnych, a wieczorem oddaj się głębokiemu relaksowi z intencją pełnego odpuszczenia przeszłości.",
+      "u": "Noszenia w sercu żalu do samej siebie za dawne wybory – spójrz na siebie z taką czułością, z jaką spojrzałabyś na najlepszą przyjaciółkę.",
+      "s": "„Wybaczenie sobie to najpiękniejszy klucz do otwarcia drzwi na lepszą, lżejszą przyszłość.”",
+      "fun": "Jaka zamknięta dawno temu historia wciąż jeszcze rezonuje w Twoim sercu i potrzebuje ostatecznego, cichego zrozumienia?"
+    },
+    "2027-1-16": {
+      "z": "Koziorożec",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Jedynka przynosi nam dzisiaj zupełnie nowy impuls do działania, świeżą perspektywę i piękną gotowość do tego, by z czystą kartą spojrzeć w stronę przyszłości. Po dniach refleksji i oczyszczenia, dziś w Twoim sercu może zapłonąć mała, jasna iskra motywacji, która zachęca do zrobienia czegoś po swojemu. Nie musisz od razu zmieniać całego świata – wystarczy, że zrobisz jeden mały krok w zgodzie ze swoim wewnętrznym głosem, odrzucając na bok wszelkie obawy przed tym, co pomyślą inni.",
+      "r": "Zainicjuj coś nowego, wyraź głośno swoje autentyczne zdanie w ważnej sprawie i pozwól sobie na odważne postawienie siebie na pierwszym miejscu.",
+      "u": "Słuchania surowego, wewnętrznego krytyka oraz lęku przed oceną ze strony otoczenia – liczy się wyłącznie prawda Twojego serca.",
+      "s": "„Odwaga wcale nie oznacza braku strachu; to działanie pomimo niego, w pełnej zgody ze swoim sercem.”",
+      "fun": "W jakiej sprawie ulegasz dzisiaj cudzym oczekiwaniom zamiast posłuchać głosu swojego własnego wnętrza?"
+    },
+    "2027-1-17": {
+      "z": "Koziorożec",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Dwójka otula nas dzisiaj niesamowicie miękkim, bezpiecznym płaszczem empatii, spokoju i głębokiego zrozumienia w relacjach z ludźmi. To dzień, w którym nasza wrażliwość przestaje być ciężarem, a staje się najpiękniejszym darem, ułatwiającym wysłuchanie zarówno drugiej osoby, jak i samej siebie. Jeśli czujesz zmęczenie, zwolnij tempo, otocz się ciszą i spędź ten czas z kimś, przy kim możesz zdjąć wszelkie maski.",
+      "r": "Porozmawiaj z bliską przyjaciółką od serca do serca, wypij w spokoju filiżankę ulubionej herbaty i okaż sobie mnóstwo wyrozumiałości za każdy wysiłek włożony w codzienne życie.",
+      "u": "Brania na swoje barki cudzych emocjonalnych ciężarów oraz przebywania w miejscach lub z ludźmi, którzy naruszają Twój wewnętrzny spokój.",
+      "s": "„Empatia to niezwykły dar, który ulecza zarówno tych, którzy go otrzymują, jak i te serca, które go z czułością dają.”",
+      "fun": "Jak możesz dzisiaj okazać sobie najczulszą troskę, o której w codziennym pędzie zupełnie zapomniałaś?"
+    },
+    "2027-1-18": {
+      "z": "Koziorożec",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Trójka przynosi ze sobą lekkość uśmiechu, radosne, twórcze pomysły oraz powiew beztroski, który potrafi rozjaśnić nawet najbardziej pochmurny dzień. Dzisiejsza wibracja zachęca do tego, by odpuścić powagę, przestać wszystko skrupulatnie analizować i pozwolić sobie na chwilę czystej, niczym niezmąconej radości z małych rzeczy. Twoja kreatywność szuka ujścia, a uśmiech jest najpiękniejszym prezentem, jaki możesz podarować dziś światu.",
+      "r": "Zrób dzisiaj coś wyłącznie dla czystej przyjemności – posłuchaj skocznej muzyki, pozwól sobie na taniec w domowym zaciszu lub spędź czas z kimś, kto potrafi obudzić w Tobie szczery śmiech.",
+      "u": "Narzekania, ponurego nastroju oraz skupiania się na drobnych trudnościach, które w ogólnej perspektywie nie mają żadnego znaczenia.",
+      "s": "„Uśmiech jest najkrótszą, najpiękniejszą drogą prowadzącą do drugiego człowieka i do własnego szczęścia.”",
+      "fun": "Jaki mały, twórczy impuls zignorowałaś ostatnio, a wniósłby do Twojego dnia mnóstwo radości?"
+    },
+    "2027-1-19": {
+      "z": "Koziorożec",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Czwórka dba o to, abyśmy dzisiaj mocno i stabilnie stąpały po ziemi, doceniając urok przewidywalności, porządku oraz bezpiecznej rutyny. To dzień, w którym systematyczne domykanie bieżących spraw przynosi ulgę w głowie i poczucie wewnętrznego ładu. Kiedy przestrzeń wokół nas jest poukładana, nasze myśli również zyskują upragnioną jasność. Pozwól sobie na odetchnięcie w dobrze znanych, przytulnych pieleszach.",
+      "r": "Dokończ zaległe zadania domowe lub zawodowe z pełną uważnością, poukładaj rzeczy na swoim miejscu i zrelaksuj się w bezpiecznej, domowej atmosferze.",
+      "u": "Przemęczania się ponad miarę oraz brania na barki zbyt wielu obowiązków naraz – pamiętaj, że Twój odpoczynek jest święty.",
+      "s": "„W porządku wokół nas rodzi się cudowna jasność w naszych myślach i głęboki spokój ducha.”",
+      "fun": "Który z Twoich codziennych nawyków dbania o ciało traktujesz po macoszemu i jak możesz to dzisiaj naprawić?"
+    },
+    "2027-1-20": {
+      "z": "Wodnik",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Piątka wkracza z powiewem świeżości, delikatnie burząc nudę i zachęcając do przełamania codziennych schematów w miły, angażujący sposób. Dzisiejsza wibracja sprzyja otwieraniu się na nowe perspektywy i małe eksperymenty w planie dnia. Jeśli poczujesz chęć zrobienia czegoś zupełnie inaczej niż dotychczas, potraktuj to jako zaproszenie od losu do radosnego odkrywania życia na nowo.",
+      "r": "Zmień coś drobnego w swojej rutynie, skosztuj nowej potrawy, wyjdź na spacer nieznaną trasą lub otwórz się na ciekawą, inspirującą rozmowę.",
+      "u": "Sztywnego trzymania się planów, które zamiast wspierać, zaczynają Cię ograniczać i odbierać radość z elastyczności.",
+      "s": "„Życie nabiera najpiękniejszych barw wtedy, gdy przestajemy bać się tego, co nieznane i nowe.”",
+      "fun": "Gdzie w swoim życiu czujesz dzisiaj największy głód przestrzeni, wolności i zmiany perspektywy?"
+    },
+    "2027-1-21": {
+      "z": "Wodnik",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Szóstka otacza nas dzisiaj niezwykle miękką aurą domowego ogniska, miłości oraz głębokiego, emocjonalnego wsparcia. To jeden z tych dni, kiedy cała nasza uwaga naturalnie wędruje w stronę bliskich relacji, troski o dom i tworzenia bezpiecznej przestrzeni dla serca. Jeśli czujesz, że ktoś z Twojego otoczenia potrzebuje ciepłego słowa lub po prostu Twojej obecności, podaruj mu to bezinteresownie, pamiętając jednocześnie o utuleniu własnych potrzeb.",
+      "r": "Spędź ten wieczór w gronie najbliższych, stwórz w domu przytulny nastrój za pomocą ciepłego światła świec lub po prostu zrób coś miłego wyłącznie dla samej siebie.",
+      "u": "Obojętności na emocjonalne potrzeby osób, które masz najbliżej siebie, oraz brania na barki cudzych kryzysów.",
+      "s": "„Najcenniejszym podarunkiem, jaki możemy komuś podarować, jest nasza szczera obecność i ciepła uwaga.”",
+      "fun": "W którym miejscu swojego domu – fizycznego lub w swoim sercu – najbardziej potrzebujesz dzisiaj zapalić światło akceptacji?"
+    },
+    "2027-1-22": {
+      "z": "Wodnik",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Siódemka przynosi ze sobą potrzebę refleksyjnego zwolnienia tempa, oddechu i poszukiwania głębszego sensu w codziennych doświadczeniach. To dzień stworzony do tego, by na chwilę odciąć się od natłoku powiadomień, hałasu i zewnętrznych opinii, które potrafią zagłuszyć nasz wewnętrzny głos. Wyciszenie nie jest stratą czasu – to najpiękniejsza inwestycja w Twój spokój ducha i klarowność myśli.",
+      "r": "Zadbaj o higienę swojego umysłu, spędź trochę czasu w całkowitej ciszy, otul się ulubionym kocem i pozwól sobie na luksus nicnierobienia.",
+      "u": "Przebodźcowania, hałaśliwych miejsc oraz zbytniego, natrętnego analizowania przeszłych zdarzeń, na które nie masz już wpływu.",
+      "s": "„W cisży kryją się najmądrzejsze odpowiedzi na pytania, których głośny świat nie potrafi usłyszeć.”",
+      "fun": "Gdyby Twoja zmęczona dusza mogła teraz wypowiedzieć jedno życzenie dotyczące ciszy, co by to było?"
+    },
+    "2027-1-23": {
+      "z": "Wodnik",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Ósemka wspiera nas dzisiaj w odważnym, świadomym zarządzaniu swoją energią, czasem oraz zasobami materialnymi. To dzień, w którym łatwiej spojrzeć na swoje codzienne obowiązki z perspektywy jasnego planu i priorytetów. Poczujesz w sobie sprawczą moc, która pozwala uporządkować to, co przez chwilę wydawało się zbyt chaotyczne, dając Ci poczucie stabilnego gruntu pod nogami.",
+      "r": "Skup się na najważniejszych priorytetach, zrób porządek w swoich sprawach finansowych lub zaplanuj realizację długoterminowego celu, który od dawna chodzi Ci po głowie.",
+      "u": "Impulsywnych, nieprzemyślanych decyzji finansowych oraz brania na siebie odpowiedzialności za cudze błędy czy potknięcia.",
+      "s": "„Zarządzanie swoim życiem w harmonii zaczyna się od głębokiego szacunku dla własnej, unikalnej energii.”",
+      "fun": "W jakiej sprawie Twoja intuicja już dawno mówi „dość”, a Ty wciąż z uporem ciągniesz ten wózek?"
+    },
+    "2027-1-24": {
+      "z": "Wodnik",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Dziewiątka przypomina o niezwykłym pięknie odpuszczania i uczy nas, że z każdym naturalnym zakończeniem zawsze przychodzi nowa, jasna nadzieja. Dzisiejsza wibracja zaprasza do zamknięcia tygodnia z poczuciem ulgi, bez żalu za tym, co minęło. Kiedy robimy w sercu porzucone miejsce po starych sprawach, otwieramy szeroko drzwi na to, co o wiele bardziej pasuje do naszej obecnej drogi.",
+      "r": "Zrób porządek w swojej fizycznej przestrzeni, pozbądź się rzeczy, których dawno już nie używasz, i podziękuj za wszystkie lekcje, jakie dał Ci miniony czas.",
+      "u": "Trzymania się kurczowo spraw, relacji lub przekonań, które dawno straciły już swoją rację bytu i odbierają Ci lekkość.",
+      "s": "„Czasami po prostu trzeba coś utracić, by zrobić cudowną przestrzeń dla tego, co naprawdę do nas pasuje.”",
+      "fun": "Jaki stary schemat myślenia o samej sobie możesz dzisiaj z miłością wypuścić?"
+    },
+    "2027-1-25": {
+      "z": "Wodnik",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Jedynka wita nas na początku tygodnia odnowioną, świeżą energią, nowymi pomysłami i gotowością do ruszenia naprzód z podniesioną głową. To idealny moment, by zresetować umysł i spojrzeć na swoje cele z czystą kartą. W Twoim wnętrzu może obudzić się silna determinacja, by wreszcie postawić na siebie i zacząć działać w zgodzie z własną intuicją.",
+      "r": "Zapisz swoje marzenia i intencje na nadchodzący czas, podejmij odważną decyzję i zrób ten jeden, mały krok w nowym, upragnionym kierunku.",
+      "u": "Słuchania surowego, wewnętrznego krytyka, który podcina skrzydła i twierdzi, że na realizację marzeń jest już za późno.",
+      "s": "„Nigdy, przenigdy nie jest za późno, by stać się tą wspaniałą osobą, którą od zawsze pragniesz być.”",
+      "fun": "O jakiej małej, zakazanej przez otoczenie przyjemności marzysz dzisiaj, by wreszcie zrealizować ją tylko dla siebie?"
+    },
+    "2027-1-26": {
+      "z": "Wodnik",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Dwójka przynosi dzisiaj niezwykłą łagodność w relacjach, budując wokół nas bezpieczną przestrzeń na życzliwość, empatię i ciepłe słowa. To doskonały dzień na to, by zwolnić, spojrzeć na drugiego człowieka z głębokim zrozumieniem i okazać czułość samej sobie. Kiedy w naszym sercu gości spokój, świat wokół nas również staje się znacznie bardziej miękki i przyjazny.",
+      "r": "Porozmawiaj z kimś bliskim od serca do serca, wypij w całkowitym spokoju ulubioną kawę lub herbatę i podaruj sobie wyrozumiałość za wszelkie codzienne trudy.",
+      "u": "Wchodzenia w cudze konflikty, sporów oraz brania do siebie krytycznych opinii lub emocji innych osób.",
+      "s": "„Najpiękniejszą i najważniejszą relacją, jaką możesz w życiu zbudować, jest ta, którą nosisz ze swoją własną duszą.”",
+      "fun": "Kto w Twoim otoczeniu nosi w sobie cichy smutek i może potrzebować dzisiaj Twojej obecności bez zadawania pytań?"
+    },
+    "2027-1-27": {
+      "z": "Wodnik",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Trójka zachęca nas dzisiaj do radosnej zabawy formą, szczerego śmiechu i lekkiego spojrzenia na wszelkie wyzwania dnia codziennego. Dzisiejsza wibracja zrzuca z ramion powagę i sztywność, przypominając, że życie smakuje najlepiej wtedy, gdy pozwalamy sobie na odrobinę beztroski. Uśmiech jest najpiękniejszym lekarstwem na wszelkie smutki i potrafi rozświetlić nawet najbardziej pochmurny zakątek dnia.",
+      "r": "Obejrzyj dobrą, ciepłą komedię, zrób coś czyszcząco twórczego albo po prostu uśmiechnij się ciepło do swojego odbicia w lustrze, doceniając to, jak piękna jesteś.",
+      "u": "Ponurego nastroju, narzekania oraz nadmiernego przejmowania się drobnymi, nieznaczącymi drobiazgami.",
+      "s": "„Śmiech to najpiękniejsze słońce, które potrafi w jednej chwili przepędzić najczarniejsze chmury z ludzkiego serca.”",
+      "fun": "Jaki spontaniczny pomysł na spędzenie popołudnia odrzucasz z rozsądku, choć marzysz o nim od rana?"
+    },
+    "2027-1-28": {
+      "z": "Wodnik",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Czwórka przynosi nam dzisiaj upragnione ukojenie w dobrze znanej rutynie i pomaga doprowadzić do satysfakcjonującego końca sprawy wymagające systematyczności. To dzień, w którym rzetelne wykonanie nawet najmniejszego zadania daje ogromną satysfakcję i porządkuje myśli. Mając stabilny grunt pod nogami, możesz bezpiecznie zaplanować nadchodzące dni bez żadnego pośpiechu.",
+      "r": "Skup się na spokojnym wykonaniu jednego, konkretnego zadania, zrób porządek w dokumentach lub przestrzeni wokół siebie i odpocznij w bezpiecznym domowym zaciszu.",
+      "u": "Pracy po godzinach kosztem własnego zdrowia, energii oraz spokojnego, regenerującego nocnego wypoczynku.",
+      "s": "„Trwałe fundamenty buduje się powoli, cegiełka po cegiełce, wkładając w to całą cierpliwość i miłość.”",
+      "fun": "Jakie jedno zadanie obciążające Twoją głowę możesz dzisiaj po prostu wykreślić z listy bez żadnych wyrzutów sumienia?"
+    },
+    "2027-1-29": {
+      "z": "Wodnik",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Piątka dodaje nam dzisiaj mnóstwa inspirującej energii i zachęca do poszukiwania nowych, ciekawych rozwiązań w dotychczasowych, powtarzalnych działaniach. Dzisiejszy dzień sprzyja przełamywaniu monotonii oraz wychodzeniu na spotkanie z małymi, radosnymi niespodziankami losu. Otwórz się na spontaniczność i pozwól sobie na odrobinę życiowej swobody.",
+      "r": "Zrób coś zupełnie inaczej niż dotychczas – wybierz się na energiczny spacer nową trasą, spójrz na swoje otoczenie z ciekawością dziecka i posłuchaj świeżych inspiracji.",
+      "u": "Sztywnej monotonii i zamykania się na nowości, które odbierają Ci radość z małych, codzienne odkryć.",
+      "s": "„Świat jest pełen cudów i piękna – wystarczy tylko otworzyć oczy i spojrzeć na nie z czystą ciekawością.”",
+      "fun": "W jakiej dziedzinie Twojego życia przydałby się dzisiaj powiew zupełnie świeżego, niezależnego myślenia?"
+    },
+    "2027-1-30": {
+      "z": "Wodnik",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Szóstka zbliża nas dzisiaj do najbliższych, wypełniając dom aurą bezwzględnego ciepła, akceptacji i głębokiego poczucia bezpieczeństwa. To idealny moment na zatrzymanie się w gronie osób, które kochasz, oraz na otoczenie się przedmiotami, które dają ukojenie Twoim zmysłom. Poczuj, jak domowe ognisko otula Cię od stóp do głów niczym najmilszy, wełniany szal.",
+      "r": "Spędź spokojny wieczór z rodziną lub przyjaciółmi, stwórz w domu przytulny nastrój i podaruj sobie oraz bliskim mnóstwo czułych, dobrych słów.",
+      "u": "Obojętności na emocje i potrzeby osób, które masz tuż obok siebie i które liczą na Twoje wsparcie.",
+      "s": "„Ciepło domowego ogniska ma tę niezwykłą moc, że potrafi ogrzać nawet najchłodniejsze dni w całym roku.”",
+      "fun": "Co możesz dzisiaj zrobić wyłącznie dla domowego ciepła i własnego, głębokiego odprężenia?"
+    },
+    "2027-1-31": {
+      "z": "Wodnik",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Ostatni dzień stycznia, otulony mądrą wibracją siódemki, zaprasza nas do niezwykle spokojnego, refleksyjnego podsumowania całego miesiąca w ciszy i skupieniu. To moment, w którym możesz odłożyć wszelkie obowiązki na bok, usiąść z kubkiem ulubionej herbaty i z wdzięcznością spojrzeć na drogę, którą przeszłaś przez te trzydzieści jeden dni. Cisza przynosi najlepsze odpowiedzi.",
+      "r": "Usiądź w ciszy z osobistym notatnikiem, podziękuj za minione dni, wyciągnij z nich najpiękniejsze lekcje i z uśmiechem oraz nadzieją spójrz w stronę nadchodzącego lutego.",
+      "u": "Pośpiechu, natłoku męczących bodźców oraz chaotycznego planowania kolejnych tygodni – daj sobie czas na domknięcie cyklu.",
+      "s": "„Podsumowanie miesiąca to wcale nie surowe rozliczanie błędów, to zbieranie najcenniejszych pereł mądrości na dalszą drogę.”",
+      "fun": "Za jaką najcichszą, ukrytą lekcję minionego miesiąca chcesz dzisiaj podziękować swojej intuicji?"
+    },
+    "2027-2-1": {
+      "z": "Wodnik",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Pierwszy dzień lutego wita nas wibracją piątki, która niesie ze sobą powiew świeżości, ciekawość świata i gotowość do delikatnego przełamania zimowej monotonii. Możesz poczuć w sobie potrzebę zrobienia czegoś inaczej niż zwykle, otwarcia okna na oścież i wpuszczenia do swojego życia nowych, radosnych inspiracji. To doskonały moment, by przywitać nowy miesiąc z uśmiechem i elastycznością.",
+      "r": "Zapisz swoje plany na luty w przytulnej atmosferze, wyjdź na energiczny spacer i pozwól sobie na małą, radosną zmianę w codziennej rutynie.",
+      "u": "Sztywnego trzymania się planów, które ograniczają Twoją swobodę, oraz zamykania się na spontaniczne propozycje.",
+      "s": "„Każdy nowy miesiąc to czysta kartka, na której możemy zapisać najpiękniejszą, pełną nadziei historię.”",
+      "fun": "Gdybyś na jeden dzień mogła zrzucić wszystkie dotychczasowe przyzwyczajenia jak za duży płaszcz, co zjadłabyś, założyła lub zrobiła zupełnie inaczej?"
+    },
+    "2027-2-2": {
+      "z": "Wodnik",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Szóstka otacza nas dzisiaj niezwykle ciepłym, opiekuńczym płaszczem, kierując całą uwagę ku domowemu ognisku, bliskości i autentycznym relacjom z tymi, których kochamy. To idealny dzień na zadbanie o przestrzeń serca, domowy spokój i otoczenie miłością osób wokół Ciebie – a przede wszystkim na okazanie tej czułości samej sobie. Dom staje się dziś najbezpieczniejszym azylem na świecie.",
+      "r": "Zadbaj o przytulną atmosferę w swoim otoczeniu, spędź miły wieczór z bliską osobą, ugotuj coś rozgrzewającego lub podaruj sobie chwilę czułości z ulubioną herbatą.",
+      "u": "Brania na siebie cudzych problemów emocjonalnych i zapominania o własnych, niezwykle ważnych potrzebach.",
+      "s": "„Dom to nie tylko mury, to przede wszystkim ciepło serca, którym dzielimy się z innymi bezwarunkowo.”",
+      "fun": "Jaki zapach, widok lub dźwięk potrafi natychmiast przywrócić Ci poczucie, że jesteś w bezpiecznym i kochającym domu?"
+    },
+    "2027-2-3": {
+      "z": "Wodnik",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Siódemka przynosi ze sobą upragnioną potrzebę głębokiego wyciszenia, wewnętrznej refleksji oraz wsłuchania się w ten najcichszy, najmądrzejszy głos własnego wnętrza. To idealny moment, aby na chwilę odciąć się od zewnętrznego zgiełku i opinii świata, które często zagłuszają naszą intuicję. Pozwól sobie dzisiaj na odrobinę samotności rozumianej jako najpiękniejszy rodzaj bliskości z samą sobą.",
+      "r": "Znajdź dla siebie chociaż kilkadziesiąt minut w całkowitej ciszy, otul się miękkim kocem i spędź ten czas na lekturze lub spokojnym poukładaniu myśli.",
+      "u": "Przebywania w hałaśliwych, tłocznych miejscach oraz podejmowania ważnych decyzji pod wpływem nagłej presji otoczenia.",
+      "s": "„Prawdziwa mądrość zaczyna się tam, gdzie potrafimy usłyszeć cichy szept bicia własnego serca.”",
+      "fun": "Gdyby Twoje wewnętrzne milczenie mogło teraz obrać konkretny kształt lub kolor, co by ono przed Tobą odsłoniło?"
+    },
+    "2027-2-4": {
+      "z": "Wodnik",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Dzisiejsza wibracja ósemki dodaje nam niezwykłej siły, determinacji oraz poczucia sprawczości w sprawach codziennych i materialnych. To ten dzień, w którym kwestie wymagające odwagi, stanowczości i poukładania układają się z niezwykłą łatwością. Poczujesz w sobie stabilny, wewnętrzny filar, który pozwala Ci zarządzać swoją energią w sposób najbardziej dla Ciebie wspierający.",
+      "r": "Ureguluj zaległe sprawy formalne, zrób porządek w swoich finansach i podejmij odważne kroki w kierunku celów, które od dłuższego czasu nosisz w swojej głowie.",
+      "u": "Nadmiernej, sztywnej kontroli nad wszystkim dokoła – odpuść to, na co nie masz realnego wpływu, a poczujesz ogromną ulgę.",
+      "s": "„Siła nie wynika z unikania upadków, ale z pewności, że po każdym z nich potrafimy wstać z podniesioną głową.”",
+      "fun": "W którym momencie dzisiejszego dnia Twoje ciało napięło się z wysiłku i jak mogłabyś je z miłością rozluźnić?"
+    },
+    "2027-2-5": {
+      "z": "Wodnik",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Dziewiątka roztacza nad nami niezwykle miękką, uzdrawiającą energię domknięcia, wybaczenia i podsumowania pewnego etapu z ogromnym zrozumieniem. To czas, w którym możesz spojrzeć wstecz na minione dni nie z krytyką, lecz z głęboką czułością dla samej siebie. Dziewiątka przypomina, że każde pożegnanie z tym, co stare, robi w naszym życiu bezcenną przestrzeń na nowe cuda.",
+      "r": "Zrób porządek w przestrzeni fizycznej – pozbądź się rzeczy, których dawno już nie używasz – oraz oczyść swoje myśli ze starych, niepotrzebnych zmartwień.",
+      "u": "Wracania do trudnych wspomnień z poczuciem winy lub żalu – spójrz na swoją przeszłość z pełną wyrozumiałością.",
+      "s": "„Zamknięcie jednych drzwi to najpiękniejszy prezent, jaki możemy podarować nowej przestrzeni w naszym życiu.”",
+      "fun": "Jaką starą, zakurzoną definicję samej siebie z dawnych lat trzymasz jeszcze w kieszeni, choć dawno przestała do Ciebie pasować?"
+    },
+    "2027-2-6": {
+      "z": "Wodnik",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Jedynka wita nas na progu weekendu zupełnie nowym impulsem do działania, świeżą perspektywą i wspaniałą gotowością do tego, by z czystą kartą spojrzeć w stronę nadchodzących dni. W Twoim sercu może obudzić się mała, jasna iskra motywacji, która zachęca do zrobienia czegoś po swojemu, w pełnej zgodzie z własnym rytmem. Nie musisz od razu zmieniać całego świata – wystarczy, że postawisz siebie i swoje dobre samopoczucie na pierwszym miejscu.",
+      "r": "Zaplanuj nadchodzące dni dokładnie tak, jak podpowiada Ci intuicja, odważnie wyraź swoje zdanie w ważnej sprawie i podaruj sobie odrobinę zasłużonej przyjemności.",
+      "u": "Słuchania surowego, wewnętrznego krytyka oraz lęku przed tym, co pomyślą inni – dziś liczy się wyłącznie prawda Twojego serca.",
+      "s": "„Odwaga wcale nie oznacza braku strachu; to radosne działanie pomimo niego, w pełnej zgody ze swoim wnętrzem.”",
+      "fun": "Jaki jeden mały, dziki impuls zrodził się w Twojej głowie, a Ty natychmiast stłumiłaś go rozsądkiem?"
+    },
+    "2027-2-7": {
+      "z": "Wodnik",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Dwójka otula nas dzisiaj niesamowicie miękkim, bezpiecznym płaszczem empatii, niedzielnego spokoju i głębokiego zrozumienia w relacjach z ludźmi. To dzień, w którym nasza wrażliwość przestaje być ciężarem, a staje się najpiękniejszym darem, ułatwiającym wysłuchanie zarówno bliskiej osoby, jak i samej siebie. Spędź ten dzień bez pośpiechu, celebrując każdą chwilę w domowym zaciszu.",
+      "r": "Porozmawiaj z kimś bliskim od serca do serca, wypij w spokoju filiżankę ulubionej herbaty i okaż sobie mnóstwo wyrozumiałości za każdy wysiłek włożony w miniony tydzień.",
+      "u": "Brania na swoje barki cudzych emocjonalnych ciężarów oraz przebywania w miejscach, które naruszają Twój wewnętrzny spokój.",
+      "s": "„Empatia to niezwykły dar, który ulecza zarówno tych, którzy go otrzymują, jak i te serca, które dają go z czułością.”",
+      "fun": "Kiedy ostatnio pozwoliłaś sobie na luksus bycia wysłuchaną bez żadnych złotych rad i pouczeń ze strony świata?"
+    },
+    "2027-2-8": {
+      "z": "Wodnik",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Trójka przynosi ze sobą mnóstwo radości, lekkości, twórczej ekspresji oraz potrzebę uśmiechu na powitanie nowego tygodnia. Dzisiejsza wibracja zachęca do tego, by odpuścić powagę i pozwolić sobie na odrobinę radosnej beztroski. Twoja kreatywność szuka ujścia, a serce pragnie dzielić się ciepłem z otoczeniem. Poczuj ten lekki przepływ i zaproś do swojej codzienności więcej kolorów.",
+      "r": "Zrób dzisiaj coś wyłącznie dla czystej przyjemności – posłuchaj energetyzującej muzyki, spotkaj się z przyjaciółką, która potrafi wywołać szczery uśmiech na Twojej twarzy, lub stwórz coś pięknego.",
+      "u": "Nadmiernego zadręczania się pesymistycznymi myślami oraz szukania problemów tam, gdzie ich w rzeczywistości nie ma.",
+      "s": "„Radość życia to wcale nie brak trudności, to piękna umiejętność dostrzegania słońca za każdą chmurą.”",
+      "fun": "Co w tej chwili najbardziej potrafi rozśmieszyć Twoje wewnętrzne dziecko, jeśli tylko pozwolisz mu dojść do głosu?"
+    },
+    "2027-2-9": {
+      "z": "Wodnik",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Czwórka dba o to, abyśmy dzisiaj mocno i stabilnie stąpały po ziemi, doceniając urok przewidywalności, porządku oraz bezpiecznej rutyny. To dzień, w którym systematyczne domykanie bieżących spraw przynosi ulgę w głowie i poczucie wewnętrznego ładu. Kiedy przestrzeń wokół nas jest poukładana, nasze myśli również zyskują upragnioną jasność. Pozwól sobie na odetchnięcie w dobrze znanych pieleszach.",
+      "r": "Dokończ zaległe zadania domowe lub zawodowe z pełną uważnością, poukładaj rzeczy na swoim miejscu i zrelaksuj się w bezpiecznej, domowej atmosferze.",
+      "u": "Przemęczania się ponad miarę oraz brania na barki zbyt wielu obowiązków naraz – pamiętaj, że Twój odpoczynek jest święty.",
+      "s": "„W porządku wokół nas rodzi się cudowna jasność w naszych myślach i głęboki spokój ducha.”",
+      "fun": "Jaki jeden kącik w Twojej przestrzeni fizycznej lub cyfrowej domaga się czułego odgruzowania, by przynieść Ci oddech?"
+    },
+    "2027-2-10": {
+      "z": "Wodnik",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Piątka wkracza z powiewem świeżości, delikatnie burząc nudę i zachęcając do przełamania codziennych schematów w miły sposób. Dzisiejsza wibracja sprzyja otwieraniu się na nowe perspektywy i małe eksperymenty w planie dnia. Jeśli poczujesz chęć zrobienia czegoś zupełnie inaczej niż dotychczas, potraktuj to jako zaproszenie od losu do radosnego odkrywania życia na nowo.",
+      "r": "Zmień coś drobnego w swojej rutynie, wyjdź na spacer nieznaną trasą, spróbuj nowej potrawy lub otwórz się na ciekawą, inspirującą rozmowę.",
+      "u": "Sztywnego trzymania się planów, które zamiast wspierać, zaczynają Cię ograniczać i odbierać radość ze swobody.",
+      "s": "„Życie nabiera najpiękniejszych barw wtedy, gdy przestajemy bać się tego, co nieznane i nowe.”",
+      "fun": "Gdybyś mogła dzisiaj porzucić jeden obowiązek bez żadnych konsekwencji, co zniknęłłoby z Twojej listy w pierwszej kolejności?"
+    },
+    "2027-2-11": {
+      "z": "Wodnik",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Szóstka roztacza wokół nas niezwykle miękką, uzdrawiającą aurę bezwarunkowej miłości, rodzinnego ciepła i głębokiego zrozumienia dla ludzkich słabości. Dzisiejszy dzień sprzyja zatrzymaniu się w domowym zaciszu, otoczeniu się pięknem i budowaniu bliskości z tymi, których nosimy w sercu. To czas, w którym największą moc ma czuły gest, ciepłe spojrzenie oraz zaopiekowanie się nie tylko domownikami, ale przede wszystkim własnym, zmęczonym sercem.",
+      "r": "Spędź spokojny wieczór w gronie najbliższych, przygotuj ulubioną, rozgrzewającą potrawę albo po prostu zatroszcz się o siebie, robiąc dokładnie to, co przynosi Ci ukojenie i poczucie bezpieczeństwa.",
+      "u": "Nadmiernego poświęcania się dla innych kosztem własnego zdrowia, energii oraz wewnętrznego spokoju.",
+      "s": "„Miłość, którą obdarzasz innych, zawsze wraca do Ciebie w postaci najpiękniejszego, wewnętrznego ciepła.”",
+      "fun": "Komu w swoim życiu dawno nie powiedziałaś po prostu „dziękuję, że po prostu jesteś” i co powstrzymuje Cię przed zrobieniem tego teraz?"
+    },
+    "2027-2-12": {
+      "z": "Wodnik",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Siódemka zaprasza nas do niezwykle głębokiej, intymnej podróży w głąb siebie. To dzień sprzyjający refleksji, pogłębianiu wiedzy o samej sobie i odnalezieniu bezpiecznego, wewnętrznego azylu z dala od zgiełku świata. Twoja intuicja szepcze dziś wyjątkowo głośno, podpowiadając odpowiedzi na pytania, które od dawna nosisz w głowie. Zezwól sobie na luksus bycia w ciszy i odcięcia się od zewnętrznych bodźców.",
+      "r": "Sięgnij po dobrą, inspirującą książkę, spędź czas w samotności na łonie natury lub przelej swoje myśli, refleksje i marzenia na czyste kartki osobistego dziennika.",
+      "u": "Plotek, powierzchownych, męczących rozmów oraz ulegania presji otoczenia, która próbuje narzucić Ci swoje tempo.",
+      "s": "„Cisza wcale nie jest pustką – jest najpiękniejszą przestrzenią, w której wreszcie odnajdujemy prawdziwą siebie.”",
+      "fun": "Jaką prawdę o swoich obecnych pragnieniach ukrywasz nawet przed samą sobą, bo boisz się jej konsekwencji?"
+    },
+    "2027-2-13": {
+      "z": "Wodnik",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Dzisiejsza wibracja ósemki wzmacnia naszą sprawczość, dodając siły do rzetelnego uporządkowania kwestii zawodowych, materialnych i organizacyjnych przed nadchodzącym weekendem. To dzień z jasnym, klarownym umysłem, w którym podejmowanie konkretnych decyzji przychodzi z dużą łatwością. Poczujesz stabilny grunt pod nogami, co pozwoli Ci skutecznie zamknąć to, co wymaga stanowczości.",
+      "r": "Podejmuj przemyślane decyzje, zrób porządek w swoich sprawach i zaplanuj działania na najbliższy czas z poszanowaniem własnych sił.",
+      "u": "Surowej samokrytyki w chwilach, gdy coś nie idzie dokładnie tak, jak to sobie pierwotnie zaplanowałaś.",
+      "s": "„Sukces to w gruncie rzeczy suma małych, codziennych kroków stawianych z niezachwianą wiarą we własne możliwości.”",
+      "fun": "Gdyby Twoje osobiste granice były płotem wokół ogrodu, czy są one teraz bezpiecznie zamknięte, czy ktoś bierze Twoje kwiaty bez pytania?"
+    },
+    "2027-2-14": {
+      "z": "Wodnik",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Dziewiątka w dniu zakochanych przynosi niezwykle uwalniającą energię oczyszczenia serca ze zmartwień i wybaczenia sobie dawnych potknięć. To moment, w którym możesz zrzucić z ramion niewidzialny plecak pełen starych oczekiwań. Opuść gardę i pozwól sobie na łagodne zrozumienie samej siebie. Każda trudna lekcja minionego czasu była po prostu przystankiem na drodze do Twojej dojrzałości.",
+      "r": "Spędź ten dzień w atmosferze absolutnej czułości i wyrozumiałości – obdarz miłością przede wszystkim swoje własne wnętrze.",
+      "u": "Noszenia w sercu żalu lub oczekiwania perfekcji od siebie i otaczającego świata.",
+      "s": "„Wybaczenie sobie to najpiękniejszy klucz do otwarcia drzwi na lepszą, lżejszą przyszłość.”",
+      "fun": "Jaki mit o miłości do samej siebie, w który kiedyś wierzyłaś, dzisiaj z uśmiechem wkładasz między bajki?"
+    },
+    "2027-2-15": {
+      "z": "Wodnik",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Jedynka wita nas na początku tygodnia zupełnie nowym impulsem do działania, świeżą perspektywą i piękną gotowością do tego, by z czystą kartą spojrzeć w stronę przyszłości. W Twoim sercu może obudzić się mała, jasna iskra motywacji, która zachęca do zrobienia czegoś po swojemu. Nie musisz od razu zmieniać całego świata – wystarczy, że zrobisz jeden mały krok w zgodzie ze swoim wewnętrznym głosem.",
+      "r": "Zainicjuj coś nowego, wyraź głośno swoje autentyczne zdanie w ważnej sprawie i pozwól sobie na odważne postawienie siebie na pierwszym miejscu.",
+      "u": "Słuchania surowego, wewnętrznego krytyka oraz lęku przed oceną ze strony otoczenia – liczy się wyłącznie prawda Twojego serca.",
+      "s": "„Odwaga wcale nie oznacza braku strachu; to działanie pomimo niego, w pełnej zgody ze swoim sercem.”",
+      "fun": "Gdybyś miała dzisiaj całkowite prawo do błędu, w jakiej nowej sprawie zaryzykowałabyś start od zera?"
+    },
+    "2027-2-16": {
+      "z": "Wodnik",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Dwójka otula nas dzisiaj niesamowicie miękkim, bezpiecznym płaszczem empatii, spokoju i głębokiego zrozumienia w relacjach z ludźmi. To dzień, w którym nasza wrażliwość przestaje być ciężarem, a staje się najpiękniejszym darem, ułatwiającym wysłuchanie zarówno bliskiej osoby, jak i samej siebie. Spędź ten dzień bez pośpiechu, celebrując każdą chwilę w domowym zaciszu.",
+      "r": "Porozmawiaj z kimś bliskim od serca do serca, wypij w spokoju filiżankę ulubionej herbaty i okaż sobie mnóstwo wyrozumiałości za każdy wysiłek włożony w codzienne życie.",
+      "u": "Brania na swoje barki cudzych emocjonalnych ciężarów oraz przebywania w miejscach, które naruszają Twój wewnętrzny spokój.",
+      "s": "„Empatia to niezwykły dar, który ulecza zarówno tych, którzy go otrzymują, jak i te serca, które dają go z czułością.”",
+      "fun": "W którym momencie czujesz największy opór przed przyjęciem komplementu lub czułego gestu od kogoś bliskiego?"
+    },
+    "2027-2-17": {
+      "z": "Wodnik",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Trójka przynosi ze sobą mnóstwo radości, lekkości, twórczej ekspresji oraz potrzebę uśmiechu. Dzisiejsza wibracja zachęca do tego, by odpuścić powagę i pozwolić sobie na odrobinę radosnej beztroski. Twoja kreatywność szuka ujścia, a serce pragnie dzielić się ciepłem z otoczeniem. Poczuj ten lekki przepływ i zaproś do swojej codzienności więcej kolorów.",
+      "r": "Zrób dzisiaj coś wyłącznie dla czystej przyjemności – posłuchaj energetyzującej muzyki, spotkaj się z przyjaciółką, która potrafi wywołać szczery uśmiech na Twojej twarzy, lub stwórz coś pięknego.",
+      "u": "Nadmiernego zadręczania się pesymistycznymi myślami oraz szukania problemów tam, gdzie ich w rzeczywistości nie ma.",
+      "s": "„Radość życia to wcale nie brak trudności, to piękna umiejętność dostrzegania słońca za każdą chmurą.”",
+      "fun": "Co sprawia, że na samą myśl o jakimś zajęciu Twoje serce podskakuje z czystej radości jak u nastolatki?"
+    },
+    "2027-2-18": {
+      "z": "Wodnik",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Czwórka dba o to, abyśmy dzisiaj mocno i stabilnie stąpały po ziemi, doceniając urok przewidywalności, porządku oraz bezpiecznej rutyny. To dzień, w którym systematyczne domykanie bieżących spraw przynosi ulgę w głowie i poczucie wewnętrznego ładu. Kiedy przestrzeń wokół nas jest poukładana, nasze myśli również zyskują upragnioną jasność. Pozwól sobie na odetchnięcie w dobrze znanych pieleszach.",
+      "r": "Dokończ zaległe zadania domowe lub zawodowe z pełną uważnością, poukładaj rzeczy na swoim miejscu i zrelaksuj się w bezpiecznej, domowej atmosferze.",
+      "u": "Przemęczania się ponad miarę oraz brania na barki zbyt wielu obowiązków naraz – pamiętaj, że Twój odpoczynek jest święty.",
+      "s": "„W porządku wokół nas rodzi się cudowna jasność w naszych myślach i głęboki spokój ducha.”",
+      "fun": "Jaki fizyczny nawyk dbania o swoje ciało porzuciłaś na rzecz „ważniejszych” spraw i jak możesz do niego dzisiaj wrócić?"
+    },
+    "2027-2-19": {
+      "z": "Ryby",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Piątka wkracza z powiewem świeżości, delikatnie burząc nudę i zachęcając do przełamania codziennych schematów przed nadchodzącym weekendem. Dzisiejsza wibracja sprzyja otwieraniu się na nowe perspektywy i małe eksperymenty w planie dnia. Jeśli poczujesz chęć zrobienia czegoś zupełnie inaczej niż dotychczas, potraktuj to jako zaproszenie od losu do radosnego odkrywania życia na nowo.",
+      "r": "Zmień coś drobnego w swojej rutynie, wyjdź na spacer nieznaną trasą, spróbuj nowej potrawy lub otwórz się na ciekawą, inspirującą rozmowę.",
+      "u": "Sztywnego trzymania się planów, które zamiast wspierać, zaczynają Cię ograniczać i odbierać radość ze swobody.",
+      "s": "„Życie nabiera najpiękniejszych barw wtedy, gdy przestajemy bać się tego, co nieznane i nowe.”",
+      "fun": "Co ekscytującego i całkowicie niepraktycznego chodzi Ci po głowie od dłuższego czasu?"
+    },
+    "2027-2-20": {
+      "z": "Ryby",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Szóstka roztacza wokół nas niezwykle miękką, uzdrawiającą aurę bezwarunkowej miłości, rodzinnego ciepła i głębokiego zrozumienia dla ludzkich słabości. Dzisiejszy dzień sprzyja zatrzymaniu się w domowym zaciszu, otoczeniu się pięknem i budowaniu bliskości z tymi, których nosimy w sercu. To czas, w którym największą moc ma czuły gest, ciepłe spojrzenie oraz zaopiekowanie się własnym, zmęczonym sercem.",
+      "r": "Spędź spokojny wieczór w gronie najbliższych, przygotuj ulubioną, rozgrzewającą potrawę albo po prostu zatroszcz się o siebie, robiąc dokładnie to, co przynosi Ci ukojenie i poczucie bezpieczeństwa.",
+      "u": "Nadmiernego poświęcania się dla innych kosztem własnego zdrowia, energii oraz wewnętrznego spokoju.",
+      "s": "„Miłość, którą obdarzasz innych, zawsze wraca do Ciebie w postaci najpiękniejszego, wewnętrznego ciepła.”",
+      "fun": "Jaką część samej siebie traktujesz zbyt surowo, zamiast otulić ją ciepłym kocem akceptacji?"
+    },
+    "2027-2-21": {
+      "z": "Ryby",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Siódemka zaprasza nas w niedzielny poranek do niezwykle głębokiej, intymnej podróży w głąb siebie. To dzień sprzyjający refleksji, wyciszeniu i odnalezieniu bezpiecznego, wewnętrznego azylu z dala od zgiełku świata. Twoja intuicja szepcze dziś wyjątkowo głośno, podpowiadając najmądrzejsze odpowiedzi na pytania, które nosisz w sercu. Zezwól sobie na luksus bycia w ciszy.",
+      "r": "Sięgnij po dobrą, inspirującą książkę, spędź czas w samotności na łonie natury lub przelej swoje myśli i refleksje na czyste kartki osobistego dziennika.",
+      "u": "Plotek, powierzchownych rozmów oraz ulegania presji otoczenia, która próbuje narzucić Ci swoje szybkie tempo.",
+      "s": "„Cisza wcale nie jest pustką – jest najpiękniejszą przestrzenią, w której wreszcie odnajdujemy prawdziwą siebie.”",
+      "fun": "Gdybyś mogła zadać swojemu wewnętrznemu „ja” jedno absolutnie szczerze pytanie, o co byś je zapytała w tej chwili?"
+    },
+    "2027-2-22": {
+      "z": "Ryby",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Dzisiejsza wibracja ósemki wita nas na starcie nowego tygodnia ze wzmocnioną sprawczością, dodając siły do rzetelnego uporządkowania kwestii zawodowych, materialnych i organizacyjnych. To dzień z jasnym, klarownym umysłem, w którym podejmowanie konkretnych decyzji przychodzi z dużą łatwością. Poczujesz stabilny grunt pod nogami, co pozwoli Ci skutecznie zająć się tym, co wymaga Twojej uwagi.",
+      "r": "Podejmuj przemyślane decyzje, zrób porządek w swoich sprawach i zaplanuj działania na najbliższy czas z poszanowaniem własnych sił.",
+      "u": "Surowej samokrytyki w chwilach, gdy coś nie idzie dokładnie tak, jak to sobie pierwotnie zaplanowałaś.",
+      "s": "„Sukces to w gruncie rzeczy suma małych, codziennych kroków stawianych z niezachwianą wiarą we własne możliwości.”",
+      "fun": "W jakiej sprawie wzięłaś na siebie odpowiedzialność za cudze emocje, zupełnie zapominając o własnych plecach?"
+    },
+    "2027-2-23": {
+      "z": "Ryby",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Dziewiątka przynosi niezwykle uwalniającą energię oczyszczenia serca ze zmartwień i wybaczenia sobie dawnych potknięć. To moment, w którym możesz zrzucić z ramion niewidzialny plecak pełen starych oczekiwań. Opuść gardę i pozwól sobie na łagodne zrozumienie samej siebie. Każda trudna lekcja minionego czasu była po prostu przystankiem na drodze do Twojej dojrzałości.",
+      "r": "Zrób symboliczne porządki w otoczeniu, pozbądź się tego, co już Ci nie służy, i spędź wieczór w atmosferze absolutnego relaksu.",
+      "u": "Noszenia w sercu żalu do samej siebie za dawne wybory – spójrz na przeszłość z pełną czułością.",
+      "s": "„Wybaczenie sobie to najpiękniejszy klucz do otwarcia drzwi na lepszą, lżejszą przyszłość.”",
+      "fun": "Jaka miniona relacja lub sytuacja, choć bolesna, zostawiła w Tobie dar, za który dzisiaj potrafisz być cicho wdzięczna?"
+    },
+    "2027-2-24": {
+      "z": "Ryby",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Jedynka przynosi zupełnie nowy impuls do działania, świeżą perspektywę i piękną gotowość do tego, by z czystą kartą spojrzeć w stronę przyszłości. W Twoim sercu może obudzić się mała, jasna iskra motywacji, która zachęca do zrobienia czegoś po swojemu. Nie musisz od razu zmieniać całego świata – wystarczy, że zrobisz jeden mały krok w zgodzie ze swoim wewnętrznym głosem.",
+      "r": "Zainicjuj coś nowego, wyraź głośno swoje autentyczne zdanie w ważnej sprawie i pozwól sobie na odważne postawienie siebie na pierwszym miejscu.",
+      "u": "Słuchania surowego, wewnętrznego krytyka oraz lęku przed oceną ze strony otoczenia – liczy się wyłącznie prawda Twojego serca.",
+      "s": "„Odwaga wcale nie oznacza braku strachu; to działanie pomimo niego, w pełnej zgody ze swoim sercem.”",
+      "fun": "W jakiej dziedzinie Twojego życia brakuje Ci dzisiaj odważnego głosu, który powiedziałby: „ja to widzę inaczej”?"
+    },
+    "2027-2-25": {
+      "z": "Ryby",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Dwójka otula nas dzisiaj niesamowicie miękkim, bezpiecznym płaszczem empatii, spokoju i głębokiego zrozumienia w relacjach z ludźmi. To dzień, w którym nasza wrażliwość przestaje być ciężarem, a staje się najpiękniejszym darem, ułatwiającym wysłuchanie zarówno bliskiej osoby, jak i samej siebie. Spędź ten dzień bez pośpiechu, celebrując każdą chwilę w domowym zaciszu.",
+      "r": "Porozmawiaj z kimś bliskim od serca do serca, wypij w spokoju filiżankę ulubionej herbaty i okaż sobie mnóstwo wyrozumiałości za każdy wysiłek włożony w codzienne życie.",
+      "u": "Brania na swoje barki cudzych emocjonalnych ciężarów oraz przebywania w miejscach, które naruszają Twój wewnętrzny spokój.",
+      "s": "„Empatia to niezwykły dar, który ulecza zarówno tych, którzy go otrzymują, jak i te serca, które dają go z czułością.”",
+      "fun": "Jaką potrzebę bliskości lub dotyku ignorujesz na co dzień, udając, że jesteś samowystarczalna?"
+    },
+    "2027-2-26": {
+      "z": "Ryby",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Trójka wita nas na progu weekendu mnóstwem radości, lekkości, twórczej ekspresji oraz potrzebą uśmiechu. Dzisiejsza wibracja zachęca do tego, by odpuścić powagę i pozwolić sobie na odrobinę radosnej beztroski przed nadchodzącymi dniami wolnymi. Twoja kreatywność szuka ujścia, a serce pragnie dzielić się ciepłem z otoczeniem. Poczuj ten lekki przepływ i zaproś do swojej codzienności więcej kolorów.",
+      "r": "Zrób dzisiaj coś wyłącznie dla czystej przyjemności – posłuchaj energetyzującej muzyki, spotkaj się z przyjaciółką, która potrafi wywołać szczery uśmiech na Twojej twarzy, lub stwórz coś pięknego.",
+      "u": "Nadmiernego zadręczania się pesymistycznymi myślami oraz szukania problemów tam, gdzie ich w rzeczywistości nie ma.",
+      "s": "„Radość życia to wcale nie brak trudności, to piękna umiejętność dostrzegania słońca za każdą chmurą.”",
+      "fun": "Jaki kolor, melodia lub smak potrafi w ułamku sekundy odmienić Twój pochmurny nastrój w iskrzącą energię?"
+    },
+    "2027-2-27": {
+      "z": "Ryby",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Czwórka dba o to, abyśmy dzisiaj mocno i stabilnie stąpały po ziemi, doceniając urok przewidywalności, porządku oraz bezpiecznej rutyny. To dzień, w którym systematyczne domykanie bieżących spraw przynosi ulgę w głowie i poczucie wewnętrznego ładu. Kiedy przestrzeń wokół nas jest poukładana, nasze myśli również zyskują upragnioną jasność. Pozwól sobie na odetchnięcie w dobrze znanych pieleszach.",
+      "r": "Dokończ zaległe zadania domowe z pełną uważnością, poukładaj rzeczy na swoim miejscu i zrelaksuj się w bezpiecznej, domowej atmosferze.",
+      "u": "Przemęczania się ponad miarę oraz brania na barki zbyt wielu obowiązków naraz – pamiętaj, że Twój odpoczynek jest święty.",
+      "s": "„W porządku wokół nas rodzi się cudowna jasność w naszych myślach i głęboki spokój ducha.”",
+      "fun": "Które domowe zadanie wykonujesz z automatu, chociaż mogłoby stać się Twoim ulubionym rytuałem uważności?"
+    },
+    "2027-2-28": {
+      "z": "Ryby",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Ostatni dzień lutego wita nas wibracją piątki, która niesie ze sobą powiew świeżości, gotowość do podsumowania miesiąca z elastycznością oraz radosną ciekawość nadchodzącej wiosny. Możesz spojrzeć wstecz na minione tygodnie z wdzięcznością za każdą lekcję i uśmiechnąć się do zmian, które przynosi życie. To piękny moment, by zamknąć ten cykl z lekkim i otwartym sercem.",
+      "r": "Spędź ten dzień aktywnie lub na relaksującym spacerze, podziękuj za dary lutego i z uśmiechem spójrz w stronę nadchodzącego marca.",
+      "u": "Sztywnego trzymania się tego, co minione, i zamykania się na nowe perspektywy.",
+      "s": "„Każde zakończenie to po prostu cichy szept nowego początku, który już czeka tuż za rogiem.”",
+      "fun": "Jaki najmniejszy krok możesz dzisiaj zrobić poza swoją strefę komfortu, by poczuć dreszcz radosnego oczekiwania?"
+    },
+    "2027-3-1": {
+      "z": "Ryby",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Pierwszy dzień marca wita nas niezwykle ciepłą wibracją szóstki, która otula serca troską, domowym spokojem i głęboką potrzebą bliskości z tymi, których kochamy. To piękny moment, by wejść w nowy miesiąc z poczuciem pełnego bezpieczeństwa i zaopiekowania. Kiedy w naszym sercu gości domowy ład, cały świat wokół staje się od razu bardziej miękki i przyjazny.",
+      "r": "Zadbaj o przytulną atmosferę w swoim otoczeniu, zapal ulubioną świecę, spędź miły wieczór z bliską osobą i powitaj marzec z wdzięcznością za to, co przed Tobą.",
+      "u": "Brania na swoje barki cudzych zmartwień i zapominania o własnym, tak bardzo potrzebnym odpoczynku.",
+      "s": "„Wiosna zaczyna się tam, gdzie w naszym sercu powoli rozkwita spokój i bezwarunkowa miłość do samego siebie.”",
+      "fun": "Pytanie do refleksji na dziś: Gdybyś na jeden dzień mogła zrzucić wszystkie dotychczasowe przyzwyczajenia jak za duży płaszcz, co zjadłabyś, założyła lub zrobiła zupełnie inaczej?"
+    },
+    "2027-3-2": {
+      "z": "Ryby",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Siódemka przynosi nam dzisiaj cudowną potrzebę wyciszenia, refleksji oraz wsłuchania się w cichy, mądry głos własnego wnętrza. To idealny moment, by na chwilę odciąć się od zewnętrznego zgiełku, powiadomień w telefonie i opinii świata, które tak często zagłuszają naszą intuicję. Pozwól sobie na luksus bycia w ciszy, która ma niezwykłą moc leczenia zmęczonego umysłu.",
+      "r": "Znajdź dla siebie chociaż kilkadziesiąt minut w całkowitym spokoju, otul się miękkim kocem i spędź ten czas na lekturze lub poukładaniu myśli w osobistym dzienniku.",
+      "u": "Przebywania w hałaśliwym, tłocznym otoczeniu oraz podejmowania ważnych decyzji pod wpływem nagłej, zewnętrznej presji.",
+      "s": "„Cisza wcale nie jest pustką – jest najbezpieczniejszym miejscem, w którym wreszcie odnajdujemy prawdziwą siebie.”",
+      "fun": "Pytanie do refleksji na dziś: Gdybyś na jeden dzień mogła zrzucić wszystkie dotychczasowe przyzwyczajenia jak za duży płaszcz, co zjadłabyś, założyła lub zrobiła zupełnie inaczej?"
+    },
+    "2027-3-3": {
+      "z": "Ryby",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Dzisiejsza wibracja ósemki dodaje nam determinacji, siły i sprawczości, pomagając z łatwością uporządkować zaległe sprawy i konkretne cele. To dzień o jasnym, klarownym umyśle, w którym podejmowanie zdecydowanych kroków przychodzi z dużą łatwością. Poczujesz stabilny grunt pod nogami i wewnętrzną moc, by skutecznie zająć się tym, co wymaga Twojej uwagi.",
+      "r": "Podejmuj przemyślane decyzje, zadbaj o swoje finanse, ureguluj formalności i działaj z jasnym, spokojnym planem w głowie.",
+      "u": "Surowej samokrytyki w chwilach zmęczenia oraz brania na barki zbyt wielu obowiązków naraz.",
+      "s": "„Siła wcale nie polega na braku potknięć, ale na niewzruszonej wierze, że po każdym z nich potrafimy wstać z podniesioną głową.”",
+      "fun": "Jaki ciężar, który dźwigasz z poczucia „musu” lub obowiązku, mogłabyś dzisiaj bezkarnie odłożyć na ziemię?"
+    },
+    "2027-3-4": {
+      "z": "Ryby",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Dziewiątka niesie ze sobą niezwykle uwalniającą energię łagodnego domknięcia, oczyszczenia przestrzeni i wybaczenia dawnych błędów. To czas, w którym możesz zrzucić z ramion stary bagaż i spojrzeć na miniony czas z głęboką czułością. Każde pożegnanie z tym, co stare, robi w naszym życiu bezcenną, czystą przestrzeń na nowe cuda, które już czekają tuż za rogiem.",
+      "r": "Zrób symboliczne porządki w otoczeniu, pozbądź się rzeczy, których dawno już nie używasz, i oczyść swoje myśli ze starych zmartwień.",
+      "u": "Wracania do trudnych wspomnień z poczuciem winy – spójrz na swoją przeszłość z taką wyrozumiałością, z jaką spojrzałabyś na przyjaciółkę.",
+      "s": "„Zamknięcie jednych drzwi to najpiękniejszy podarunek, jaki możemy podarować nowej przestrzeni w naszym życiu.”",
+      "fun": "Co w Twoim życiu domaga się dzisiaj nie tyle naprawiania, ile łagodnego pożegnania i odprowadzenia z szacunkiem do przeszłości?"
+    },
+    "2027-3-5": {
+      "z": "Ryby",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Jedynka wita nas potężnym zastrzykiem świeżej energii, optymizmu i gotowości do rozpoczęcia czegoś nowego na własnych warunkach. W Twoim sercu obudzić się może jasna iskra motywacji, która zachęca do zrobienia małego kroku w stronę marzeń. Nie musisz od razu zmieniać całego świata – wystarczy, że postawisz siebie i swoje pragnienia na pierwszym miejscu.",
+      "r": "Zapisz swoje plany i intencje na nadchodzący czas, odważnie wyraź swoje zdanie i zrób pierwszy, autentyczny krok w nowym kierunku.",
+      "u": "Strachu przed tym, co powiedzą inni, oraz czekania na wyimaginowany, „idealny” moment do działania.",
+      "s": "„Odwaga wcale nie oznacza braku strachu; to radosne działanie pomimo niego, w pełnej zgodzie ze swoim sercem.”",
+      "fun": "Gdybyś na moment odłożyła całą swoją skromność, z czego w sobie jesteś dzisiaj cholernie dumna?"
+    },
+    "2027-3-6": {
+      "z": "Ryby",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Czysta wibracja dwójki przynosi dzisiaj niezwykle miękki, otulający spokój, który pozwala nam zwolnić kroku i rozejrzeć się wokół z autentyczną czułością. To dzień, w którym domowe pielesze, zapach świeżo parzonej kawy czy ciepły pled stają się najcenniejszym azylem. Zamiast gonić za obowiązkami, pozwól sobie dzisiaj zauważyć piękno drobnych, cichych gestów – zarówno tych, którymi obdarzasz innych, jak i tych skierowanych do samej siebie.",
+      "r": "Otocz się dzisiaj ulubionymi zapachami, zrób sobie dłuższą, niespieszną przerwę na oddech i spędź wieczór w gronie najbliższych, celebrując zwykłą, piękną codzienność.",
+      "u": "Brania na swoje barki cudzych emocjonalnych ciężarów i poczucia, że musisz dzisiaj zbawić cały świat.",
+      "s": "„Prawdziwe piękno życia ukrywa się w tych najcichszych, niespiesznych momentach, kiedy po prostu jesteśmy dla siebie dobre.”",
+      "fun": "Jaką czułą przestrzeń w ciągu dnia oddajesz innym, zupełnie zapominając o zarezerwowaniu choćby krzesła dla samej siebie?"
+    },
+    "2027-3-7": {
+      "z": "Ryby",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Trójka w niedzielny poranek wstrzykuje w nas mnóstwo radosnej lekkości i naturalnej ciekawości świata, przypominając, że radość wcale nie potrzebuje wielkich powodów. Możesz poczuć w sobie nagłą ochotę na odmianę perspektywy, uśmiech do nieznajomego na ulicy albo powrót do dawnej pasji, która od dawna czekała w kącie na Twoją uwagę. Pozwól swojej wewnętrznej dziewczynce na odrobinę beztroskiej zabawy.",
+      "r": "Zrób dzisiaj coś zupełnie spontanicznego – posłuchaj energetyzującej muzyki, potańcz w kuchni, naszkicuj coś bez dbania o efekt albo wyjdź na spacer bez konkretnego celu.",
+      "u": "Nadmiernego analizowania każdego kroku, powagi i sztywnego trzymania się niedzielnych schematów.",
+      "s": "„Śmiech i radość to najkrótsze drogi do odzyskania wewnętrznej lekkości, gdy codzienność staje się zbyt ciężka.”",
+      "fun": "Jaka mała, radosna głupota – taka bez żadnego głębszego sensu, za to czysto dla uśmiechu – marzy Ci się dzisiaj?"
+    },
+    "2027-3-8": {
+      "z": "Ryby",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Czwórka wita nowy tydzień solidnym, uziemiającym wsparciem, które pomaga nam mocno stanąć na ziemi i uporządkować myśli z pełnym spokojem. To wibracja, która kocha klarowność, ład w otoczeniu i konkretne, mądre działania. Kiedy nasza przestrzeń jest uporządkowana, umysł zyskuje cudowną przestrzeń na nowe pomysły bez poczucia przytłoczenia.",
+      "r": "Zorganizuj swoje biurko lub domową przestrzeń, zaplanuj nadchodzące zadania z dużym szacunkiem dla swoich sił i dokończ to, co odpuściłaś w minionym tygodniu.",
+      "u": "Chaosu, robienia wszystkiego naraz oraz wpadania w pułapkę perfekcjonizmu.",
+      "s": "„Porządek wokół nas to najprostszy list miłosny, jaki możemy wysłać do własnego zmęczonego umysłu.”",
+      "fun": "W którym miejscu Twojego ciała nagromadziło się najwięcej napięcia i jak możesz je dzisiaj uziemić z pomocą prostego, ciepłego oddechu?"
+    },
+    "2027-3-9": {
+      "z": "Ryby",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Piątka przynosi dzisiaj cudowny powiew wolności i świeżego powietrza, zachęcając nas do wyjścia ze strefy komfortu w bardzo łagodny, przyjemny sposób. Możesz poczuć, że potrzebujesz odmiany – innejdrogi do pracy, nowego smaku herbaty albo zmiany ustawienia mebli w pokoju. Ta wibracja otwiera nam oczy na codzienne cuda, które dotychczas mijałyśmy obojętnie.",
+      "r": "Otwórz szeroko okno, wpuść do środka wiosenny powiew, porozmawiaj z kimś, kto patrzy na świat zupełnie inaczej niż Ty, i pozwól sobie na małą, radosną zmianę planów.",
+      "u": "Utknięcia w marazmie, narzekania na rutynę i lęku przed zrobieniem czegoś po swojemu.",
+      "s": "„Życie nabiera najpiękniejszych barw wtedy, gdy z ciekawością dziecka pozwalamy sobie na małe, codzienne odkrycia.”",
+      "fun": "Jaki jeden bezpieczny schemat w Twoim życiu aż prosi się o to, by przewrócić go dzisiaj do góry nogami dla samej frajdy?"
+    },
+    "2027-3-10": {
+      "z": "Ryby",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Szóstka roztacza dzisiaj wokół nas niezwykle opiekuńczą, miękką aurę, przypominając o sile bezwarunkowej akceptacji i empatii. To idealny dzień na to, by otulić troską te części siebie, które przez ostatnie dni mocno pracowały i zasługują na głęboki, niczym niezmącony oddech. Poczuj, jak z każdym wydechem ulatuje z Ciebie napięcie, ustępując miejsca domowemu ciepłu.",
+      "r": "Przygotuj dla siebie coś wyjątkowo miłego – ciepłą kąpiel z pachnącymi solami, kubek ulubionego naparu i wieczór bez żadnych ambitnych planów.",
+      "u": "Stawiania cudzych potrzeb ponad własne zdrowie i dobre samopoczucie.",
+      "s": "„Najbardziej uzdrawiającą rzeczą, jaką możesz dziś zrobić dla świata, jest łagodne zaopiekowanie się własnym sercem.”",
+      "fun": "Jaki domowy rytuał – nawet tak prosty jak parzenie kawy – możesz dzisiaj zamienić w święty akt czułości dla samej siebie?"
+    },
+    "2027-3-11": {
+      "z": "Ryby",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Siódemka roztacza wokół nas głęboką, introspektywną aurę, która sprzyja zatrzymaniu się w pędzie i spojrzeniu w głąb własnego serca. To dzień, w którym nasza intuicja staje się najmądrzejszą doradczynią, a cicha samotność nie oznacza opuszczenia, lecz najpiękniejszy rodzaj spotkania z samą sobą. Zamiast szukać odpowiedzi na zewnątrz, pozwól sobie dzisiaj na poszukanie ich w ciszy własnych myśli.",
+      "r": "Odłóż na bok telefon, zaparz ziołową herbatę, spędź czas z dobrą lekturą lub przelej swoje refleksje na czyste kartki osobistego notesu.",
+      "u": "Hałaśliwych miejsc, powierzchownych rozmów i ulegania presji, by natychmiast podejmować ważne życiowe decyzje.",
+      "s": "„Cisza wcale nie jest pustką – to najbezpieczniejsza przestrzeń, w której odnajdujemy prawdę o nas samych.”",
+      "fun": "Gdyby Twoja intuicja napisała do Ciebie dzisiaj jednozdaniowy list, co by w nim napisała?"
+    },
+    "2027-3-12": {
+      "z": "Ryby",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Ósemka wkracza z potężną, stabilizującą energią sprawczości, która pomaga nam z łatwością uporządkować zaległe sprawy i wziąć stery w swoje ręce. To dzień o niezwykle jasnym, klarownym umyśle, w którym działania wymagające odwagi, konsekwencji i dobrej organizacji przynoszą wspaniałe efekty. Poczujesz pod stopami solidny grunt, który daje poczucie pełnej gotowości na wyzwania.",
+      "r": "Zadbaj o swoje finanse, ureguluj ważne formalności i zrób konkretny, odważny krok w kierunku celów, które od dłuższego czasu czekają na Twoją uwagę.",
+      "u": "Surowej samokrytyki w momentach zmęczenia oraz brania na barki cudzej odpowiedzialności.",
+      "s": "„Prawdziwa siła rodzi się z codziennej konsekwencji i cichej, niezłomnej wiary we własne możliwości.”",
+      "fun": "W jakiej sprawie Twoje osobiste zasoby energii świecą na czerwono, a Ty wciąż udajesz, że masz pełny bak?"
+    },
+    "2027-3-13": {
+      "z": "Ryby",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Dziewiątka otula nas miękką, uzdrawiającą wibracją domknięcia i wybaczenia, pozwalając zrzucić z ramion stary bagaż emocjonalny. To idealny dzień na to, by z łagodnością spojrzeć wstecz, pożegnać to, co dawno straciło już swoją rację bytu, i zrobić w sercu czystą przestrzeń na nadchodzącą wiosnę. Z każdym wydechem ulatuje z Ciebie to, co niepotrzebne.",
+      "r": "Zrób symboliczne porządki w szafie lub szufladach, pozbądź się zalegających przedmiotów i spędź wieczór w nastrojowej, relaksującej atmosferze.",
+      "u": "Wracania do bolesnych wspomnień z poczuciem winy – spójrz na swoją przeszłość z czułością, jaką darzysz przyjaciółkę.",
+      "s": "„Pozwolenie czemuś odejść to najpiękniejszy dar, jaki możemy podarować naszej zmęczonej duszy.”",
+      "fun": "Jaki stary, porzucony talent lub pasja spogląda na Ciebie z kurzem na półce, czekając, aż znawu na nią spojrzysz?"
+    },
+    "2027-3-14": {
+      "z": "Ryby",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Jedynka przynosi potężny powiew świeżej energii, optymizmu i gotowości do rozpoczęcia zupełnie nowego rozdziału na własnych zasadach. Dziś czujesz, że masz przed sobą czystą kartę i pełne prawo do tego, by postawić siebie oraz swoje pragnienia na pierwszym miejscu. Ta wibracja dodaje odwagi, by zrzucić wszelkie ograniczenia i zawalczyć o swój wewnętrzny spokój.",
+      "r": "Zapisz w notesie swoje nowe intencje, odważnie wyraź swoje zdanie w ważnej sprawie i zrób chociaż jeden mały krok ku marzeniom.",
+      "u": "Oglądania się na opinie otoczenia oraz czekania na wyimaginowany, idealny moment – ten moment jest właśnie teraz.",
+      "s": "„Odwaga wcale nie oznacza braku strachu; to piękna decyzja o działaniu pomimo niego, w zgodzie ze swoim sercem.”",
+      "fun": "Z jakim wewnętrznym głosem krytyka czas wreszcie przeprowadzić męską rozmowę i wyprosić go z pokoju?"
+    },
+    "2027-3-15": {
+      "z": "Ryby",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Dwójka otula nas niezwykle delikatną, harmonijną aurą, w której empatia, życzliwość i wsłuchanie się w drugiego człowieka stają się priorytetem. To dzień sprzyjający budowaniu mostów w relacjach, prowadzeniu szczerych rozmów od serca do serca oraz obdarzaniu samej siebie ogromną wyrozumiałością. Zwolnij tempo i pozwól sobie na chwilę czułego zatrzymania.",
+      "r": "Porozmawiaj z kimś bliskim w miłej atmosferze, wypij w spokoju filiżankę ulubionej herbaty i odpuść wszelkie dążenie do perfekcji.",
+      "u": "Wchodzenia w głośne konflikty, sporów oraz przebywania w miejscach, które naruszają Twój wewnętrzny balans.",
+      "s": "„Łagodne słowo i szczery gest potrafią uleczyć więcej, niż nam się na co dzień wydaje.”",
+      "fun": "Co w Tobie jest tak miękkie i wrażliwe, że chronisz to przed światem pod pancerną zbroją niezależności?"
+    },
+    "2027-3-16": {
+      "z": "Ryby",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Trójka przynosi dzisiaj powiew radosnej lekkości, uśmiechu oraz twórczej ekspresji, która potrafi rozjaśnić nawet najbardziej pochmurny poranek. To dzień, w którym warto na chwilę odpuścić powagę, przestać wszystko skrupulatnie kalkulować i pozwolić dojść do głosu swojej wewnętrznej, radosnej naturze. Twoja kreatywność szuka ujścia, a serce pragnie dzielić się ciepłem z otoczeniem.",
+      "r": "Zrób coś wyłącznie dla czystej przyjemności – posłuchaj ulubionej, energetycznej muzyki, spotkaj się z kimś, kto potrafi Cię rozśmieszyć, lub stwórz coś pięknego bez dbania o idealny efekt.",
+      "u": "Ponurego nastroju, narzekania oraz zamartwiania się sprawami, na które nie masz bezpośredniego wpływu.",
+      "s": "„Uśmiech to najpiękniejsze słońce, jakie możemy podarować własnemu sercu w środku zabieganego dnia.”",
+      "fun": "Kiedy ostatnio śmiałaś się tak szczerze, że aż zapomniałaś o całym świecie i upływającym czasie?"
+    },
+    "2027-3-17": {
+      "z": "Ryby",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Czwórka dba o to, byśmy dzisiaj mocno i stabilnie stąpały po ziemi, doceniając urok porządku, przewidywalności i bezpiecznej rutyny. To wibracja, która przynosi ogromną ulgę w głowie, gdy systematycznie doprowadzamy do końca zaległe, drobne sprawy. Poukładana przestrzeń wokół nas przynosi natychmiastową jasność w myślach.",
+      "r": "Dokończ jedno konkretne zadanie, które od dłuższego czasu odkładałaś na później, uporządkuj otoczenie wokół siebie i zrelaksuj się w domowym zaciszu.",
+      "u": "Przemęczania się ponad miarę, chaosu organizacyjnego i brania na barki zbyt wielu obowiązków naraz.",
+      "s": "„Trwałe fundamenty naszego spokoju buduje się powoli, z miłością i cierpliwością do samej siebie.”",
+      "fun": "Jaki element Twojego otoczenia (np. zagracone biurko, szafa) odbiera Ci energię, zamiast dawać upragniony spokój?"
+    },
+    "2027-3-18": {
+      "z": "Ryby",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Piątka wkracza z radosnym powiewem świeżości, delikatnie burząc nudę i zachęcając do wyjścia poza utarte schematy. Dzisiejszy dzień sprzyja otwieraniu się na nowe perspektywy, małym eksperymentom w planie dnia i radosnemu odkrywaniu życia z perspektywy ciekawości. Pozwól sobie na odrobinę elastyczności i uśmiechnij się do niespodzianek losu.",
+      "r": "Zmień coś drobnego w swojej codziennej rutynie, wyjdź na spacer zupełnie inną trasą lub otwórz się na inspirującą rozmowę z kimś nowym.",
+      "u": "Sztywnego trzymania się planów, które zamiast wspierać, zaczynają Cię ograniczać i odbierać radość ze swobody.",
+      "s": "„Świat staje się o wiele ciekawszy, gdy przestajemy bać się tego, co nieznane i nowe.”",
+      "fun": "Gdybyś dzisiaj mogła wsiąść w pierwszy lepszy pociąg w nieznane, dokąd powiodłoby Cię Twoje wewnętrzne pragnienie wolności?"
+    },
+    "2027-3-19": {
+      "z": "Ryby",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Szóstka otacza nas dzisiaj niezwykle miękką, opiekuńczą aurą domowego ogniska, bezwarunkowej miłości i głębokiego zrozumienia. To idealny moment, by skierować całą uwagę ku bliskim relacjom oraz zaopiekowaniu się własnym, zmęczonym sercem. Dom staje się dziś najbezpieczniejszą przystanią, w której możesz zrzucić wszelkie maski.",
+      "r": "Spędź miły, niespieszny wieczór w gronie najbliższych, zapal ulubioną świecę i otocz się atmosferą pełną ciepła oraz życzliwych słów.",
+      "u": "Obojętności na własne potrzeby emocjonalne oraz brania na siebie cudzych kryzysów.",
+      "s": "„Najpiękniejszym domem, o jaki możemy dbać każdego dnia, jest ciepło gościnnego i spokojnego serca.”",
+      "fun": "Jaką najmilszą rzecz możesz dzisiaj zrobić dla kogoś zupełnie bezinteresownie, nie oczekując nawet uśmiechu w zamian?"
+    },
+    "2027-3-20": {
+      "z": "Ryby",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Siódemka wita nas wibracją głębokiego wyciszenia, refleksji oraz ufnym wsłuchaniem się w mądrość własnego wnętrza. To dzień stworzony do tego, by na chwilę odciąć się od zewnętrznego zgiełku i poszukać odpowiedzi tam, gdzie panuje absolutna cisza. Pozwól sobie na samotność rozumianą jako najpiękniejszy rodzaj spotkania z samą sobą.",
+      "r": "Odłóż na bok telefon, spędź czas w otoczeniu natury lub z książką w ręku, pozwalając swoim myślom swobodnie płynąć.",
+      "u": "Hałaśliwych miejsc, powierzchownych rozmów i ulegania presji otoczenia, która narzuca zbyt szybkie tempo.",
+      "s": "„W ciszy kryją się najmądrzejsze drogowskazy, których głośny świat nie potrafi usłyszeć.”",
+      "fun": "Jaka prawda o Tobie samej wyłania się z cienia, gdy na zewnątrz zapada wieczorna cisza?"
+    },
+    "2027-3-21": {
+      "z": "Baran",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Ósemka wita nas w niedzielny poranek stabilną, silną wibracją sprawczości, która pomaga nam z łatwością połączyć odpoczynek z mądrym zarządzaniem naszą energią i planami na nadchodzący tydzień. To dzień o jasnym umyśle, w którym poczucie wewnętrznej mocy i kontroli nad własnym życiem daje ogromne poczucie bezpieczeństwa.",
+      "r": "Zaplanuj nadchodzące zadania z dużym szacunkiem dla swoich sił, ureguluj zaległe sprawy i zrób coś, co wzmocni Twoje poczucie stabilności.",
+      "u": "Nadmiernej samokrytyki i brania na barki cudzej odpowiedzialności – pozwól sobie na oddech.",
+      "s": "„Prawdziwa siła rodzi się z wewnętrznego spokoju i mądrego szacunku dla własnej energii.”",
+      "fun": "W jaki sposób celebrujesz swoje codzienne małe zwycięstwa, zamiast natychmiast biec do kolejnego zadania?"
+    },
+    "2027-3-22": {
+      "z": "Baran",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Dziewiątka roztacza wokół nas uzdrawiającą aurę domknięcia, wybaczenia i pożegnania tego, co dawno straciło już swoją rację bytu. To idealny moment, by zrzucić z ramion stary bagaż emocjonalny i zrobić w sercu czystą przestrzeń na nadchodzącą wiosenną odnowę. Z każdym wydechem ulatuje z Ciebie to, co niepotrzebne.",
+      "r": "Zrób symboliczne porządki w otoczeniu, pozbądź się zalegających rzeczy i spędź wieczór w nastrojowej, relaksującej atmosferze.",
+      "u": "Wracania do bolesnych wspomnień z poczuciem winy – spójrz na swoją przeszłość z czułością, jaką darzysz przyjaciółkę.",
+      "s": "„Pozwolenie czemuś odejść to najpiękniejszy dar, jaki możemy podarować naszej zmęczonej duszy.”",
+      "fun": "Jaka relacja z przeszłości uczyła Cię najwięcej o tym, jak NIE chcesz być już traktowana?"
+    },
+    "2027-3-23": {
+      "z": "Baran",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Jedynka przynosi potężny powiew świeżej energii, optymizmu i gotowości do rozpoczęcia zupełnie nowego rozdziału na własnych zasadach. Dziś czujesz, że masz przed sobą czystą kartę i pełne prawo do tego, by postawić siebie oraz swoje pragnienia na pierwszym miejscu. Ta wibracja dodaje odwagi, by zrzucić wszelkie ograniczenia.",
+      "r": "Zapisz w notesie swoje nowe intencje, odważnie wyraź swoje zdanie w ważnej sprawie i zrób chociaż jeden mały krok ku marzeniom.",
+      "u": "Oglądania się na opinie otoczenia oraz czekania na wyimaginowany, idealny moment – ten moment jest właśnie teraz.",
+      "s": "„Odwaga wcale nie oznacza braku strachu; to piękna decyzja o działaniu pomimo niego, w zgodzie ze swoim sercem.”",
+      "fun": "W jakiej dziedzinie życia brakuje Ci dzisiaj iskry, którą mogłabyś rozpalić wielki, życiowy ogień?"
+    },
+    "2027-3-24": {
+      "z": "Baran",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Dwójka otula nas niezwykle delikatną, harmonijną aurą, w której empatia, życzliwość i wsłuchanie się w drugiego człowieka stają się priorytetem. To dzień sprzyjający budowaniu mostów w relacjach, prowadzeniu szczerych rozmów od serca do serca oraz obdarzaniu samej siebie ogromną wyrozumiałością. Zwolnij tempo i pozwól sobie na chwilę czułego zatrzymania.",
+      "r": "Porozmawiaj z kimś bliskim w miłej atmosferze, wypij w spokoju filiżankę ulubionej herbaty i odpuść wszelkie dążenie do perfekcji.",
+      "u": "Wchodzenia w głośne konflikty, sporów oraz przebywania w miejscach, które naruszają Twój wewnętrzny balans.",
+      "s": "„Łagodne słowo i szczery gest potrafią uleczyć więcej, niż nam się na co dzień wydaje.”",
+      "fun": "Jak brzmi najpiękniejsze, pełne akceptacji zdanie, które chciałabyś dzisiaj usłyszeć od samej siebie?"
+    },
+    "2027-3-25": {
+      "z": "Baran",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Trójka przynosi dzisiaj powiew radosnej lekkości, uśmiechu oraz twórczej ekspresji, która potrafi rozjaśnić nawet najbardziej pochmurny poranek. To dzień, w którym warto na chwilę odpuścić powagę, przestać wszystko skrupulatnie kalkulować i pozwolić dojść do głosu swojej wewnętrznej, radosnej naturze. Twoja kreatywność szuka ujścia.",
+      "r": "Zrób coś wyłącznie dla czystej przyjemności – posłuchaj ulubionej muzyki, spotkaj się z kimś, kto potrafi Cię rozśmieszyć, lub stwórz coś pięknego.",
+      "u": "Ponurego nastroju, narzekania oraz zamartwiania się sprawami, na które nie masz bezpośredniego wpływu.",
+      "s": "„Uśmiech to najpiękniejsze słońce, jakie możemy podarować własnemu sercu w środku zabieganego dnia.”",
+      "fun": "Jaka melodia, zapach lub obraz potrafi w ułamku sekundy przywrócić Ci lekkość w sercu?"
+    },
+    "2027-3-26": {
+      "z": "Baran",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Czwórka dba o to, byśmy mocno i stabilnie stąpały po ziemi, doceniając urok porządku, przewidywalności i bezpiecznej rutyny na progu weekendu. To wibracja, która przynosi ogromną ulgę w głowie, gdy systematycznie doprowadzamy do końca zaległe, drobne sprawy. Poukładana przestrzeń wokół nas przynosi natychmiastową jasność w myślach.",
+      "r": "Dokończ jedno konkretne zadanie, które od dłuższego czasu odkładałaś na później, uporządkuj otoczenie wokół siebie i zrelaksuj się w domowym zaciszu.",
+      "u": "Przemęczania się ponad miarę, chaosu organizacyjnego i brania na barki zbyt wielu obowiązków naraz.",
+      "s": "„Trwałe fundamenty naszego spokoju buduje się powoli, z miłością i cierpliwością do samej siebie.”",
+      "fun": "Co w Twoim życiu wymaga dzisiaj nie rewolucji, lecz cichej, cierpliwej i systematycznej troski?"
+    },
+    "2027-3-27": {
+      "z": "Baran",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Piątka wkracza z radosnym powiewem świeżości, delikatnie burząc nudę i zachęcając do wyjścia poza utarte schematy. Dzisiejszy dzień sprzyja otwieraniu się na nowe perspektywy, małym eksperymentom w planie dnia i radosnemu odkrywaniu życia z perspektywy ciekawości. Pozwól sobie na odrobinę elastyczności i uśmiechnij się do niespodzianek losu.",
+      "r": "Zmień coś drobnego w swojej codziennej rutynie, wyjdź na spacer zupełnie inną trasą lub otwórz się na inspirującą rozmowę z kimś nowym.",
+      "u": "Sztywnego trzymania się planów, które zamiast wspierać, zaczynają Cię ograniczać i odbierać radość ze swobody.",
+      "s": "„Świat staje się o wiele ciekawszy, gdy przestajemy bać się tego, co nieznane i nowe.”",
+      "fun": "Z jakim przestarzałym przekonaniem na swój temat chcesz się dzisiaj bezpardonowo pożegnać?"
+    },
+    "2027-3-28": {
+      "z": "Baran",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Szóstka otacza nas dzisiaj niezwykle miękką, opiekuńczą aurą domowego ogniska, bezwarunkowej miłości i głębokiego zrozumienia. To idealny moment, by skierować całą uwagę ku bliskim relacjom oraz zaopiekowaniu się własnym, zmęczonym sercem. Dom staje się dziś najbezpieczniejszą przystanią, w której możesz zrzucić wszelkie maski.",
+      "r": "Spędź miły, niespieszny wieczór w gronie najbliższych, zapal ulubioną świecę i otocz się atmosferą pełną ciepła oraz życzliwych słów.",
+      "u": "Obojętności na własne potrzeby emocjonalne oraz brania na siebie cudzych kryzysów.",
+      "s": "„Najpiękniejszym domem, o jaki możemy dbać każdego dnia, jest ciepło gościnnego i spokojnego serca.”",
+      "fun": "Jak wyglądałby Twój wymarzony, całkowicie bezpieczny azyl, w którym mogłabyś schować się przed całym światem?"
+    },
+    "2027-3-29": {
+      "z": "Baran",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Siódemka wita nas wibracją głębokiego wyciszenia, refleksji oraz ufnym wsłuchaniem się w mądrość własnego wnętrza na starcie nowego tygodnia. To dzień stworzony do tego, by na chwilę odciąć się od zewnętrznego zgiełku i poszukać odpowiedzi tam, gdzie panuje absolutna cisza. Pozwól sobie na samotność rozumianą jako najpiękniejszy rodzaj spotkania z samą sobą.",
+      "r": "Odłóż na bok telefon, spędź czas w otoczeniu natury lub z książką w ręku, pozwalając swoim myślom swobodnie płynąć.",
+      "u": "Hałaśliwych miejsc, powierzchownych rozmów i ulegania presji otoczenia, która narzuca zbyt szybkie tempo.",
+      "s": "„W ciszy kryją się najmądrzejsze drogowskazy, których głośny świat nie potrafi usłyszeć.”",
+      "fun": "Co w Tobie jest tak głębokie i niezmienne, że żaden zewnętrzny hałas nie jest w stanie tego naruszyć?"
+    },
+    "2027-3-30": {
+      "z": "Baran",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Ósemka niesie ze sobą stabilną, silną wibrację sprawczości, która pomaga nam z łatwością połączyć codzienne obowiązki z mądrym zarządzaniem naszą energią. To dzień o jasnym umyśle, w którym poczucie wewnętrznej mocy i kontroli nad własnym życiem daje ogromne poczucie bezpieczeństwa.",
+      "r": "Zaplanuj nadchodzące zadania z dużym szacunkiem dla swoich sił, ureguluj zaległe sprawy i zrób coś, co wzmocni Twoje poczucie stabilności.",
+      "u": "Nadmiernej samokrytyki i brania na barki cudzej odpowiedzialności – pozwól sobie na oddech.",
+      "s": "„Prawdziwa siła rodzi się z wewnętrznego spokoju i mądrego szacunku dla własnej energii.”",
+      "fun": "W jaki sposób dbasz o to, by Twoja wewnętrzna siła nie zamieniła się w pancerz, przez który nie przepuszczasz już czułości?"
+    },
+    "2027-3-31": {
+      "z": "Baran",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Ostatni dzień marca roztacza wokół nas uzdrawiającą aurę domknięcia, wybaczenia i pożegnania tego, co zimowe, by zrobić miejsce na rozkwitającą wiosnę. To idealny moment, by zrzucić z ramion stary bagaż emocjonalny i spojrzeć z czułością na drogę, którą przeszłaś przez minione trzydzieści jeden dni. Z każdym wydechem ulatuje z Ciebie to, co niepotrzebne.",
+      "r": "Podsumuj marzec z wdzięcznością, zrób symboliczne porządki w otoczeniu i spędź wieczór w nastrojowej, relaksującej atmosferze, witając nadchodzący kwiecień z otwartym sercem.",
+      "u": "Wracania do bolesnych wspomnień z poczuciem winy – spójrz na swoją przeszłość z miłością.",
+      "s": "„Każde pożegnanie z tym, co minęło, to najpiękniejszy szept zapraszający do życia nową nadzieję.”",
+      "fun": "Jaki intymny akord wdzięczności wybrzmiewa w Twoim sercu na sam koniec tego marcowego, pełnego przemian miesiąca?"
+    },
+    "2027-4-1": {
+      "z": "Baran",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Pierwszy dzień kwietnia wita nas głęboką, refleksyjną wibracją siódemki, która zachęca do delikatnego zwolnienia tempa i wsłuchania się we własną intuicję. Zamiast szukać wiosennego zgiełku na zewnątrz, dzisiejszy dzień zaprasza Cię do bezpiecznego, wewnętrznego azylu. To idealny moment, by w ciszy i spokoju przyjrzeć się swoim intencjom na nowy miesiąc.",
+      "r": "Znajdź chwilę dla siebie z kubkiem ulubionej herbaty, odłóż na bok powiadomienia w telefonie i spędź czas na lekturze lub spokojnej refleksji w domowym zaciszu.",
+      "u": "Pośpiechu, hałaśliwych miejsc oraz ulegania presji otoczenia, która próbuje narzucić Ci narzucone przez kogoś innego tempo.",
+      "s": "„Prawdziwa mądrość zaczyna się tam, gdzie potrafimy usłyszeć cichy szept własnego serca.”",
+      "fun": "Jaka ukryta prawda o Twoich obecnych potrzebach wyszeptana w ciszy domaga się tego, byś wreszcie przestała ją zagłuszać?"
+    },
+    "2027-4-2": {
+      "z": "Baran",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Ósemka niesie ze sobą potężną, stabilizującą wibrację sprawczości i jasnego umysłu, pomagając nam z łatwością uporządkować codzienne sprawy oraz finanse. To dzień, w którym działania wymagające odwagi, konsekwencji i dobrej organizacji przynoszą wspaniałe, uwalniające rezultaty. Poczujesz pod stopami solidny grunt, dający poczucie pełnej gotowości.",
+      "r": "Ureguluj zaległe formalności, zaplanuj nadchodzące zadania z dużym szacunkiem dla swoich sił i zrób konkretny krok w kierunku swoich celów.",
+      "u": "Surowej samokrytyki w momentach zmęczenia oraz brania na barki cudzej odpowiedzialności.",
+      "s": "„Siła wcale nie rodzi się z braku trudności, lecz z niezłomnej wiary, że potrafimy poradzić sobie z każdym wyzwaniem.”",
+      "fun": "Gdyby Twoje zmęczenie mogło przemówić ludzkim głosem, o jaką jedną rzecz poprosiłoby Cię w pierwszej kolejności?"
+    },
+    "2027-4-3": {
+      "z": "Baran",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Dziewiątka otula nas uzdrawiającą aurą domknięcia, wybaczenia i pożegnania tego, co stare, by zrobić w sercu czystą przestrzeń na wiosenny rozkwit. To idealny moment, by zrzucić z ramion stary bagaż emocjonalny i spojrzeć z ogromną czułością na drogę, którą do tej pory przeszłaś. Z każdym wydechem ulatuje z Ciebie wszelki żal.",
+      "r": "Zrób symboliczne porządki w swojej przestrzeni, pozbądź się zalegających przedmiotów i spędź wieczór w nastrojowej, relaksującej atmosferze.",
+      "u": "Wracania do bolesnych wspomnień z poczuciem winy – spójrz na swoją przeszłość z miłością.",
+      "s": "„Pozwolenie czemuś odejść to najpiękniejszy dar, jaki możemy podarować naszej zmęczonej duszy.”",
+      "fun": "Z jakim wyobrażeniem o tym, „jak wypada się zachować”, chcesz się dzisiaj bez żalu pożegnać?"
+    },
+    "2027-4-4": {
+      "z": "Baran",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Jedynka w wielkanocnym, wiosennym klimacie przynosi potężny powiew świeżej energii, optymizmu i gotowości do rozpoczęcia zupełnie nowego rozdziału na własnych zasadach. Dziś czujesz, że masz przed sobą czystą kartę i pełne prawo do tego, by postawić siebie oraz swoje pragnienia na pierwszym miejscu. Ta wibracja dodaje odwagi, by zrzucić wszelkie ograniczenia.",
+      "r": "Zapisz w notesie swoje nowe intencje, odważnie wyraź swoje zdanie w ważnej sprawie i zrób chociaż jeden mały krok ku marzeniom.",
+      "u": "Oglądania się na opinie otoczenia oraz czekania na wyimaginowany, idealny moment – ten moment jest właśnie teraz.",
+      "s": "„Odwaga wcale nie oznacza braku strachu; to piękna decyzja o działaniu pomimo niego, w zgodzie ze swoim sercem.”",
+      "fun": "Jaki mały, samolubny (w tym najpiękniejszym tego słowa znaczeniu) krok możesz dzisiaj zrobić wyłącznie dla własnego szczęścia?"
+    },
+    "2027-4-5": {
+      "z": "Baran",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Dwójka otula nas niezwykle delikatną, harmonijną aurą, w której empatia, życzliwość i wsłuchanie się w drugiego człowieka stają się priorytetem. To dzień sprzyjający budowaniu mostów w relacjach, prowadzeniu szczerych rozmów od serca do serca oraz obdarzaniu samej siebie ogromną wyrozumiałością. Zwolnij tempo i pozwól sobie na chwilę czułego zatrzymania w gronie najbliższych.",
+      "r": "Porozmawiaj z kimś bliskim w miłej atmosferze, wypij w spokoju filiżankę ulubionej herbaty i odpuść wszelkie dążenie do perfekcji.",
+      "u": "Wchodzenia w głośne konflikty, sporów oraz przebywania w miejscach, które naruszają Twój wewnętrzny balans.",
+      "s": "„Łagodne słowo i szczery gest potrafią uleczyć więcej, niż nam się na co dzień wydaje.”",
+      "fun": "Kto z Twoich bliskich potrzebuje dzisiaj Twojej cichej, ciepłej obecności bez żadnych oczekiwań i rad?"
+    },
+    "2027-4-6": {
+      "z": "Baran",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Trójka przynosi dzisiaj cudowny powiew radosnej lekkości, uśmiechu oraz twórczej ekspresji, która potrafi rozjaśnić każdy zakamarek dnia. To moment, w którym warto na chwilę odpuścić powagę i pozwolić dojść do głosu swojej wewnętrznej, radosnej naturze. Twoja kreatywność szuka ujścia, a serce pragnie dzielić się ciepłem z otoczeniem.",
+      "r": "Zrób coś wyłącznie dla czystej przyjemności – posłuchaj ulubionej muzyki, spotkaj się z kimś, kto potrafi wywołać szczery uśmiech na Twojej twarzy, lub stwórz coś pięknego.",
+      "u": "Ponurego nastroju, narzekania oraz zamartwiania się drobnymi sprawami, na które nie masz bezpośredniego wpływu.",
+      "s": "„Uśmiech to najpiękniejsze słońce, jakie możemy podarować własnemu sercu w środku zabieganego dnia.”",
+      "fun": "Jaki barwny, szalony impuls twórczy spoczywa na dnie Twojej szuflady, czekając, aż dacie mu wspólnie poszybować?"
+    },
+    "2027-4-7": {
+      "z": "Baran",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Czwórka dba o to, byśmy mocno i stabilnie stąpały po ziemi, doceniając urok porządku, przewidywalności i bezpiecznej rutyny. To wibracja, która przynosi ogromną ulgę w głowie, gdy systematycznie doprowadzamy do końca zaległe, drobne sprawy. Poukładana przestrzeń wokół nas przynosi natychmiastową jasność w myślach.",
+      "r": "Dokończ jedno konkretne zadanie, które od dłuższego czasu odkładałaś na później, uporządkuj otoczenie wokół siebie i zrelaksuj się w domowym zaciszu.",
+      "u": "Przemęczania się ponad miarę, chaosu organizacyjnego i brania na barki zbyt wielu obowiązków naraz.",
+      "s": "„Trwałe fundamenty naszego spokoju buduje się powoli, z miłością i cierpliwością do samej siebie.”",
+      "fun": "Jaki jeden, konkretny kąt w Twojej przestrzeni przyniesie Ci natychmiastowe ukojenie, gdy wreszcie tchniesz w niego porządek?"
+    },
+    "2027-4-8": {
+      "z": "Baran",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Piątka wkracza z radosnym powiewem świeżości, delikatnie burząc nudę i zachęcając do wyjścia poza utarte schematy. Dzisiejszy dzień sprzyja otwieraniu się na nowe perspektywy, małym eksperymentom w planie dnia i radosnemu odkrywaniu życia z perspektywy ciekawości. Pozwól sobie na odrobinę elastyczności i uśmiechnij się do niespodzianek losu.",
+      "r": "Zmień coś drobnego w swojej codziennej rutynie, wyjdź na spacer zupełnie inną trasą lub otwórz się na inspirującą rozmowę z kimś nowym.",
+      "u": "Sztywnego trzymania się planów, które zamiast wspierać, zaczynają Cię ograniczać i odbierać radość ze swobody.",
+      "s": "„Świat staje się o wiele ciekawszy, gdy przestajemy bać się tego, co nieznane i nowe.”",
+      "fun": "Jaka bezpieczna, ale śmiertelnie nudna rutyna zaczyna Cię dzisiaj dusić i jak możesz ją przewrócić do góry nogami?"
+    },
+    "2027-4-9": {
+      "z": "Baran",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Szóstka otacza nas dzisiaj niezwykle miękką, opiekuńczą aurą domowego ogniska, bezwarunkowej miłości i głębokiego zrozumienia. To idealny moment, by skierować całą uwagę ku bliskim relacjom oraz zaopiekowaniu się własnym, zmęczonym sercem. Dom staje się dziś najbezpieczniejszą przystanią, w której możesz zrzucić wszelkie maski.",
+      "r": "Spędź miły, niespieszny wieczór w gronie najbliższych, zapal ulubioną świecę i otocz się atmosferą pełną ciepła oraz życzliwych słów.",
+      "u": "Obojętności na własne potrzeby emocjonalne oraz brania na siebie cudzych kryzysów.",
+      "s": "„Najpiękniejszym domem, o jaki możemy dbać każdego dnia, jest ciepło gościnnego i spokojnego serca.”",
+      "fun": "W którym miejscu swojego serca najbardziej potrzebujesz dzisiaj zapalić lampkę bezwarunkowej wyrozumiałości dla samej siebie?"
+    },
+    "2027-4-10": {
+      "z": "Baran",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Siódemka wita nas wibracją głębokiego wyciszenia, refleksji oraz ufnym wsłuchaniem się w mądrość własnego wnętrza. To dzień stworzony do tego, by na chwilę odciąć się od zewnętrznego zgiełku i poszukać odpowiedzi tam, gdzie panuje absolutna cisza. Pozwól sobie na samotność rozumianą jako najpiękniejszy rodzaj spotkania z samą sobą.",
+      "r": "Odłóż na bok telefon, spędź czas w otoczeniu budzącej się do życia natury lub z książką w ręku, pozwalając swoim myślom swobodnie płynąć.",
+      "u": "Hałaśliwych miejsc, powierzchownych rozmów i ulegania presji otoczenia, która narzuca zbyt szybkie tempo.",
+      "s": "„W ciszy kryją się najmądrzejsze drogowskazy, których głośny świat nie potrafi usłyszeć.”",
+      "fun": "Co w Tobie jest tak niezależne i wolne, że żaden zewnętrzny opiniodawca nie jest w stanie tego dosięgnąć?"
+    },
+    "2027-4-11": {
+      "z": "Baran",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Dzień pod silnym, konkretnym patronatem ósemki przynosi potężną dawkę życiowej sprawczości i materialnej manifestacji. To wibracja, która nie znosi rozmemłania – domaga się od nas jasnych decyzji, zarządzania swoimi zasobami i wzięcia pełnej odpowiedzialności za własny sukces. Dziś doskonale pracują wszelkie strategiczne decyzje, kwestie finansowe oraz porządkowanie struktur w pracy czy biznesie. Poczujesz w sobie mocny, wewnętrzny kręgosłup, który pozwala twardo stąpać po ziemi.",
+      "r": "Zrób audyt swoich celów zawodowych lub finansowych, podejmij odważną, biznesową decyzję i doprowadź do końca sprawę, która wymaga stanowczości.",
+      "u": "Wpadania w pułapkę bezwzględnego pracoholizmu oraz surowego rozliczania siebie i innych z każdego błędu.",
+      "s": "„Prawdziwa obfitości nie rodzi się z ciągłej walki, lecz z mądrego, suwerennego zarządzania własnym potencjałem.”",
+      "fun": "Pytanie do refleksji na dziś: Gdybyś na jeden dzień mogła zrzucić wszystkie dotychczasowe przyzwyczajenia jak za duży płaszcz, co zjadłabyś, założyła lub zrobiła zupełnie inaczej?"
+    },
+    "2027-4-12": {
+      "z": "Baran",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Wibracja dziewiątki otwiera przed nami bramę uniwersalnej mądrości, głębokiego współczucia i domykania wielkich cykli rozwojowych. Dzisiejszy dzień sprzyja spojrzeniu na swoje życie z perspektywy lotu ptaka – zauważeniu, dlaczego pewne etapy musiały się zakończyć, by ustąpić miejsca czemuś znacznie większemu. To energia humanistyczna, artystyczna i oczyszczająca, która uczy nas odpuszczania kontroli nad tym, na co dawno już nie mamy wpływu.",
+      "r": "Przelej swoje przemyślenia na papier, wesprzyj kogoś czystą, bezinteresowną radą lub zamknij wreszcie projekt, który od miesięcy tkwił w fazie zawieszenia.",
+      "u": "Zezwalania, by poczucie nostalgii przerodziło się w paraliżujący żal za przeszłością.",
+      "s": "„Mądrość polega na zrozumieniu, że każde pożegnanie to w rzeczywistości cichy ukłon w stronę naszej nowej dojrzałości.”",
+      "fun": "Jaki bolesny rozdział z przeszłości przestał być już raną, a stał się mądrym drogowskazem dla Ciebie?"
+    },
+    "2027-4-13": {
+      "z": "Baran",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Potężna, pionierska jedynka uderza dzisiaj z pełną mocą, niosąc ze sobą iskrę czystej kreacji, niezależności i odwagi wyjścia przed szereg. To energia jednostki, która nie ogląda się na stado, lecz śmiało przeciera nowe szlaki. Jeśli czujesz w sobie gotowość, by zacząć coś od zera, wyrazić swoje zdanie bez owijania w bawełnę albo po prostu postawić na własne autorskie wizje – dzisiejszy dzień daje Ci do tego najlepszy napęd we wszechświecie.",
+      "r": "Zainicjuj odważny projekt, postaw jasne granice tam, gdzie były naruszane, i zrób pierwszy, decydujący krok w nieznane.",
+      "u": "Ulegania konformizmowi i gaszenia swojego wewnętrznego ognia tylko po to, by nie wyróżniać się w tłumie.",
+      "s": "„Twoja autentyczność to Twoja największa supermoc – nigdy nie przepraszaj za to, że świecisz własnym światłem.”",
+      "fun": "Gdybyś miała dzisiaj absolutną pewność, że nikt Cię nie oceni, co odważyłabyś się wykrzyczeć światu?"
+    },
+    "2027-4-14": {
+      "z": "Baran",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Subtelna, dyplomatyczna dwójka wnosi dzisiaj do naszej rzeczywistości sztukę uważnego słuchania, cierpliwości i wyczuwania podtekstów, których nie widać gołym okiem. Wibracja ta uczy nas, że czasem największą siłą nie jest parcie naprzód, lecz strategiczne zaczekanie na odpowiedni moment i zawarcie mądrego kompromisu. To dzień, w którym intuicja i praca w zupłennej harmonii z drugą stroną przynoszą spektakularne efekty.",
+      "r": "Przeprowadź trudną, ale potrzebną rozmowę opartą na empatii, poszukaj wspólnego mianownika w konflikcie i zaufaj swojemu przeczuciu.",
+      "u": "Wchodzenia w rolę biernej ofiary oraz tłumienia własnych emocji w imię fałszywego spokoju.",
+      "s": "„Prawdziwa dyplomacja i miękka siła potrafią otworzyć drzwi, których żaden taran nie był w stanie wyważyć.”",
+      "fun": "Jakie ciepłe, czułe zdanie chciałabyś usłyszeć dziś wieczorem od samej siebie przed snem?"
+    },
+    "2027-4-15": {
+      "z": "Baran",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Wibracja trójki wybucha dziś feerią barw, artystyczną ekspresją, słowem i ogromną potrzebą uzewnętrznienia tego, co gra nam w duszy. To energia aktorów, mówców, pisarzy i twórców – wszystkich, którzy wiedzą, że świat karmiony jest opowieściami. Trójka nie chowa się w kącie; ona wychodzi na scenę, śmieje się głośno, gestykuluje i zaraża otoczenie swoim entuzjazmem oraz magnetyzmem.",
+      "r": "Napisz coś pasjonującego, wygłoś swoje myśli publicznie, spotkaj się z ludźmi, którzy inspirują Cię intelektualnie, lub zatańcz do upadłego.",
+      "u": "Rozpraszania swojej energii na zbyt wiele projektów naraz oraz powierzchownej gadki o niczym.",
+      "s": "„Twoje słowa i Twoja twórczość mają moc zmieniania rzeczywistości – nie bój się wypuszczać ich w świat.”",
+      "fun": "Co potrafi wywołać w Twoim ciele taką falę radości, że zapominasz o jakimkolwiek pośpiechu?"
+    },
+    "2027-4-16": {
+      "z": "Baran",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Architektoniczna, solidna czwórka wkracza dzisiaj z pełną powagą i żelazną konsekwencją, przypominając nam, że wielkie dzieła powstają z cierpliwości, systemu i fizycznej pracy rąk. To dzień, w którym nie budujemy zamków z piasku, lecz kładziemy fundamenty pod coś trwałego – w pracy, w organizacji przestrzeni czy w dbaniu o codzienne nawyki. Czwórka uczy nas szacunku do materii, zasad i struktury, która daje nam bezpieczne oparcie.",
+      "r": "Zabierz się za konkretne zadanie wymagające cierpliwości, uporządkuj finanse, zrób twardy plan działania lub popracuj fizycznie nad swoją przestrzenią.",
+      "u": "Nadmiernego uporu, sztywnego trzymania się starych reguł i wpadania w pułapkę perfekcjonizmu, który paraliżuje działanie.",
+      "s": "„Każdy solidny sukces to po prostu suma mądrze i cierpliwie ułożonych na co dzień cegiełek.”",
+      "fun": "Jak możesz dzisiaj uziemić swoje myśli, zamiast pozwalać im biegać maraton po niepotrzebnych scenariuszach?"
+    },
+    "2027-4-17": {
+      "z": "Baran",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Wolnościowa, niespokojna piątka przynosi dzisiaj powiew świeżego wiatru, który burzy wszelkie dotychczasowe schematy i zaprasza nas do wyjścia poza bezpieczną strefę komfortu. To wibracja podróżników, odkrywców i buntowników – tych, którzy wiedzą, że rozwój zaczyna się tam, gdzie kończy się rutyna. Dziś testujemy granice, szukamy nowych rozwiązań i pozwalamy sobie na odrobinę zdrowego szaleństwa oraz elastyczności.",
+      "r": "Zmień perspektywę, podejmij spontaniczną decyzję o małej zmianie w planie dnia, wyrusz w nieznane lub spróbuj czegoś, czego dotąd się obawiałaś.",
+      "u": "Trzymania się kurczowo starych przyzwyczajeń i lęku przed tym, że wymkniesz się spod czyjejś kontroli.",
+      "s": "„Prawdziwa wolność zaczyna się w głowie w momencie, gdy przestajemy bać się własnych, śmiałych kroków.”",
+      "fun": "Jaki horyzont – dosłowny lub metaforyczny – przyciaga Cię dzisiaj swoją nieznaną, ekscytującą tajemnicą?"
+    },
+    "2027-4-18": {
+      "z": "Baran",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Wibracja szóstki roztacza dzisiaj wokół nas głęboką, harmonijną aurę odpowiedzialności za relacje, estetykę oraz tworzenie piękna w najbliższym otoczeniu. To energia mediatora, opiekuna i artysty domowego ogniska, który dba o to, by w grupie panował pokój i wzajemny szacunek. Szóstka przypomina nam, że prawdziwa obfitość płynie z serca, które potrafi bezwarunkowo kochać, dbać i zauważać estetyczne detale wokół siebie.",
+      "r": "Zadbaj o atmosferę w domu, stwórz wokół siebie estetyczną przestrzeń, porozmawiaj z bliskimi o ich potrzebach i doceń piękno prostych gestów.",
+      "u": "Brania na siebie roli męczennika, który poświęca własne granice dla świętego spokoju innych.",
+      "s": "„Prawdziwa harmonia w relacjach rodzi się wtedy, gdy z równą miłością dbamy o innych, jak i o własne granice.”",
+      "fun": "Jak wyglądałby Twój idealny, rozleniwiony moment bliskości z tym, co w Tobie najwrażliwsze?"
+    },
+    "2027-4-19": {
+      "z": "Baran",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Mistyczna, badawcza siódemka zamyka nas dzisiaj w przestrzeni głębokiej introspekcji, filozoficznej refleksji i analitycznego rozbierania rzeczywistości na czynniki pierwsze. To energia naukowca, filozofa i samotnego wędrowca, który szuka absolutnej prawdy ukrytej pod podszewką codziennych iluzji. Dziś Twoja intuicja bada teren, a umysł domaga się odpowiedzi na fundamentalne, trudne pytania.",
+      "r": "Przestudiuj trudniejszy temat, zgłębiaj tajniki wiedzy ezoterycznej lub psychologicznej, spędź czas w samotności i zaufaj swojemu wewnętrznemu kompasowi.",
+      "u": "Zbytniego izolowania się od ludzi w chłodnym sceptycyzmie oraz nadmiernego roztrząsania wszystkiego w głowie.",
+      "s": "„Najcenniejsze odpowiedzi na świecie nigdy nie leżą na powierzchni – trzeba odważyć się zejść w głąb siebie.”",
+      "fun": "Jaka mądrość wypływa z Twojej intuicji, kiedy na moment zamykasz oczy i odcinasz zgiełk ekranów?"
+    },
+    "2027-4-20": {
+      "z": "Byk",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Potężna, materialna ósemka wkracza ponownie, by przypomnieć nam o prawach karmy, akcji i reakcji oraz naszej suwerennej sprawczości w świecie materii. To dzień, w którym finanse, umowy, struktury biznesowe i realne efekty naszej dotychczasowej pracy wysuwają się na plan pierwszy. Ósemka nie toleruje pasywności – wymaga jasnego określenia celów, odwagi w negocjacjach i zarządzania władzą w sposób czysty i sprawiedliwy.",
+      "r": "Podejmij kluczowe decyzje finansowe, sfinalizuj umowy, zarządzaj swoimi zasobami z pozycji liderki i stanowczo egzekwuj swoje prawa.",
+      "u": "Nadużywania władzy, bezwzględnego parcia po trupach do celu oraz lęku przed pieniędzmi i sukcesem.",
+      "s": "„Obfitość jest naturalnym stanem człowieka, gdy potrafimy zarządzać nią z mądrością i czystym intencjom sercem.”",
+      "fun": "W jaki sposób celebrujesz swoje codzienne, ciche triumfy, zamiast od razu gnać do kolejnej góry do zdobycia?"
+    },
+    "2027-4-21": {
+      "z": "Byk",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Wibracja dziewiątki roztacza dzisiaj wokół nas szeroką, humanitarną perspektywę, zapraszając do współczucia, uniwersalnej mądrości i domykania pewnych etapów z pełnym zrozumieniem. To dzień, w którym artystyczna wrażliwość spotyka się z potrzebą globalnego spojrzenia na świat. Dziewiątka uczy nas, że aby pójść dalej, musimy najpierw wybaczyć – sobie i innym – oraz oddać przeszłość w ręce czasu, robiąc miejsce na zupełnie nową jakość.",
+      "r": "Ukończ zaległy projekt o charakterze twórczym lub społecznym, wyciągnij lekcję z minionych trudności i uwolnij się od żalu, zamykając stary rozdział z wdzięcznością.",
+      "u": "Popadania w melancholię, nadmiernego brania na siebie cudzych dramatów i poczucia, że musisz zbawić cały świat.",
+      "s": "„Prawdziwe wyzwolenie przychodzi wtedy, gdy z miłością pozwalamy odejść temu, co już dawno przestało być częścią naszej drogi.”",
+      "fun": "Co w Twoim życiu domaga się dzisiaj nie walki, lecz łagodnego odpuszczenia kontroli?"
+    },
+    "2027-4-22": {
+      "z": "Byk",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Suwerenna, potężna jedynka uderza dzisiaj z nową siłą, niosąc ze sobą surową iskrę twórczej niezależności i odwagę do zaznaczenia swojego unikalnego „ja”. To energia inicjatorów, liderów i wizjonerów, którzy nie pytają o nikogo zdanie, lecz idą tam, gdzie prowadzi ich wewnętrzny ogień. Dziś masz doskonałe warunki ku temu, by wyrwać się ze schematów, zdefiniować na nowo swoje cele i postawić twarde, zdrowe granice.",
+      "r": "Rozpocznij autorski projekt, wypowiedz głośno swoje zdanie w ważnej sprawie i odważnie odrzuć to, co ogranicza Twoją wolność.",
+      "u": "Ulegania wpływom otoczenia oraz rezygnowania ze swoich pomysłów w obawie przed krytyką.",
+      "s": "„Twoja sprawczość zaczyna się w tym jednym, potężnym momencie, w którym decydujesz się być wreszcie wierna samej sobie.”",
+      "fun": "W jakiej sprawie Twoja dusza domaga się dzisiaj postawienia na swoim, nawet jeśli otoczenie kręci głową?"
+    },
+    "2027-4-23": {
+      "z": "Byk",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Podwójna wibracja mistrzowska zredukowana do dwójki wnosi dzisiaj niezwykle subtelną, intuicyjną i głęboko relacyjną energię. To dzień, w którym zasłona między światem widzialnym a przeczuciami staje się niezwykle cienka. Dwójka uczy nas sztuki uważnej dyplomacji, czekania na właściwy sygnał od wszechświata i budowania mostów tam, gdzie inni wolą stawiać mury. Twoja intuicja szepcze dziś wyjątkowo głośno – warto jej zaufać.",
+      "r": "Przeprowadź delikatną, pełną empatii rozmowę, wsłuchaj się w podteksty w relacjach z ludźmi i poświęć czas na pracę z własnymi snami lub przeczuciami.",
+      "u": "Wchodzenia w bezpośrednie konfrontacje, siłowych rozwiązań oraz ignorowania sygnałów, które wysyła Ci ciało i intuicja.",
+      "s": "„Intuicja to cichy głos duszy, który wie znacznie więcej niż cała nasza racjonalna wiedza.”",
+      "fun": "Jaką część siebie traktujesz tak surowo, jak nigdy nie odważyłabyś się potraktować najlepszej przyjaciółki?"
+    },
+    "2027-4-24": {
+      "z": "Byk",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Ekspresyjna, barwna trójka wybucha dziś feerią pomysłów, artystycznej energii i magnetyzmu słowa. To wibracja, która nie znosi nudy ani sztywnych ram – domaga się ekspresji, śmiechu, kontaktu z ludźmi i artystycznego ujścia dla emocji. Dziś Twoja komunikacja ma moc czarów; potrafisz porwać tłumy, napisać coś porywającego lub po prostu sprawić, że w obecności innych ludzi zapłonie radosna iskra.",
+      "r": "Twórz treści, rozmawiaj, występuj, spotkaj się z ludźmi z branży kreatywnej lub zrób coś, co pozwoli Ci wyrazić siebie w sposób artystyczny.",
+      "u": "Rozpraszania swojej uwagi na zbyt wiele wątków naraz oraz powierzchownego blichtru, za którym nie stoi żadna treść.",
+      "s": "„Wyrażenie siebie w sposób autentyczny to najpiękniejszy dar, jaki możemy wnieść w przestrzeń wokół nas.”",
+      "fun": "Jaka melodia, zapach lub wspomnienie potrafi w ułamku sekundy odmienić Twój nastrój w czystą lekkość?"
+    },
+    "2027-4-25": {
+      "z": "Byk",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Architektoniczna, solidna czwórka wkracza w weekendowy czas z potrzebą ugruntowania, porządku i szacunku dla materii. To wibracja, która przypomina, że nawet najbardziej szalone wizje wymagają konkretnych struktur, procedur i fizycznej pracy, by mogły przetrwać próbę czasu. Dziś odpoczywamy poprzez robienie rzeczy użytecznych, organizowanie przestrzeni i dbanie o to, by fundamenty naszego życia były stabilne.",
+      "r": "Zadbaj o porządek w otoczeniu, wykonaj konkretne, uziemiające zadanie domowe lub zaplanuj strukturę swoich przyszłych działań.",
+      "u": "Nadmiernego uporu, zbytniej sztywności w poglądach oraz lęku przed odpuszczeniem kontroli nad detalami.",
+      "s": "„Porządek w materii to najprostsza droga do uzyskania klarowności i wewnętrznego spokoju w głowie.”",
+      "fun": "Który z Twoich codziennych nawyków dbania o dom i ciało sprawia Ci autentyczną przyjemność, a który robisz z przymusu?"
+    },
+    "2027-4-26": {
+      "z": "Byk",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Niespokojna, wolnościowa piątka wita nas na progu nowego tygodnia powiewem świeżego wiatru i potrzebą przełamania rutyny. To wibracja, która nie znosi stagnacji – zachęca do wyjścia poza schematy, testowania nowych rozwiązań i otwarcia się na elastyczność w działaniu. Dziś najlepiej sprawdzają się wszelkie zmiany perspektywy oraz małe, odkrywcze kroki w nieznane.",
+      "r": "Zmień coś w swoim planie dnia, podejmij spontaniczną, odważną decyzję lub wyrusz w nową, nieznaną dotąd trasę, by obudzić swoją ciekawość świata.",
+      "u": "Kurczowego trzymania się starych przyzwyczajeń i lęku przed tym, że wymkniesz się spod dotychczasowej kontroli.",
+      "s": "„Życie nabiera barw wtedy, gdy z ciekawością dziecka odważnie wychodzimy poza utarte schematy.”",
+      "fun": "Z jakim przestarzałym przekonaniem na swój temat chcesz się dzisiaj bezpardonowo pożegnać?"
+    },
+    "2027-4-27": {
+      "z": "Byk",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Wibracja szóstki roztacza wokół nas głęboką, opiekuńczą aurę harmonii, estetyki oraz odpowiedzialności za bliskie relacje. To energia mediatora i domowego artysty, który dba o to, by w przestrzeni panował pokój, wzajemny szacunek i ciepło. Szóstka przypomina, że prawdziwa obfitość płynie z serca, które potrafi bezwarunkowo dbać o innych, nie zapominając przy tym o własnych granicach.",
+      "r": "Zadbaj o estetykę i ciepło w swoim domu, przeprowadź szczerą, życzliwą rozmowę z bliską osobą i otocz się pięknymi przedmiotami.",
+      "u": "Wchodzenia w rolę męczennika, który poświęca własny spokój dla zadowolenia wszystkich wokół.",
+      "s": "„Prawdziwa harmonia rodzi się tam, gdzie z równą czułością dbamy o świat, jak i o własne wnętrze.”",
+      "fun": "Jaką najczulszą rzecz możesz dzisiaj zrobić dla swojego ciała, które nosi Cię dzielnie przez każdy dzień?"
+    },
+    "2027-4-28": {
+      "z": "Byk",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Mistyczna, badawcza siódemka zamyka nas dzisiaj w przestrzeni głębokiej introspekcji, filozoficznej refleksji i analitycznego rozbierania rzeczywistości na czynniki pierwsze. To energia poszukiwacza prawdy, który nie zadowala się powierzchownymi odpowiedziami. Dziś Twoja intuicja bada teren, a umysł domaga się ciszy, by dotrzeć do sedna ważnych spraw.",
+      "r": "Przestudiuj trudniejszy temat, zgłębiaj wiedzę, spędź czas w całkowitej samotności na łonie natury i zaufaj swojemu wewnętrznemu kompasowi.",
+      "u": "Zbytniego izolowania się od ludzi w chłodnym sceptycyzmie oraz nadmiernego, męczącego roztrząsania wszystkiego w głowie.",
+      "s": "„Najcenniejsze odpowiedzi na świecie nigdy nie leżą na powierzchni – trzeba odważyć się zejść w głąb siebie.”",
+      "fun": "Co w Tobie jest tak głębokie, że żaden zewnętrzny hałas nie jest w stanie tego dosięgnąć ani naruszyć?"
+    },
+    "2027-4-29": {
+      "z": "Byk",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Potężna, materialna ósemka wkracza, by przypomnieć nam o prawach karmy, suwerennej sprawczości i zarządzaniu zasobami w świecie materii. To dzień, w którym finanse, umowy, struktury biznesowe i realne efekty naszej pracy wysuwają się na plan pierwszy. Ósemka wymaga jasnego określenia celów, odwagi w działaniu i zarządzania swoją władzą w sposób sprawiedliwy.",
+      "r": "Podejmij kluczowe decyzje finansowe, sfinalizuj umowy i zarządzaj swoimi zasobami z pozycji pewnej siebie liderki.",
+      "u": "Nadużywania władzy, bezwzględnego parcia po trupach do celu oraz lęku przed sukcesem i obfitością.",
+      "s": "„Obfitość jest naturalnym stanem, gdy potrafimy zarządzać nią z mądrością i w zgodzie ze swoją prawdą.”",
+      "fun": "W jaki sposób dbasz o to, by Twoja wewnętrzna siła nie zamieniła się w mur obronny odcinający Cię od miłości?"
+    },
+    "2027-4-30": {
+      "z": "Byk",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Ostatni dzień kwietnia zamyka się pod patronatem dziewiątki, przynosząc uniwersalną mądrość, współczucie i energię domykania całego cyklu. To moment, w którym spoglądamy wstecz z perspektywy lotu ptaka, wyciągając wnioski z minionych tygodni i z wdzięcznością oddając przeszłość w ręce czasu. Dziewiątka uczy nas, że prawdziwa dojrzałość polega na akceptacji tego, co było, i łagodnym otwarciu się na to, co dopiero nadejdzie.",
+      "r": "Podsumuj miesiąc, zrób porządki w przestrzeni i w emocjach, odpuść to, co już nie służy, i z otwartym sercem spójrz w stronę nadchodzącego maja.",
+      "u": "Kurczowego trzymania się tego, co minęło, oraz wpadania w melancholię bez wiary w nową przyszłość.",
+      "s": "„Dojrzałość to umiejętność zerknięcia wstecz z czułością, bez pragnienia zmieniania czegokolwiek z tego, co już stało się naszą historią.”",
+      "fun": "Jaki intymny akord wdzięczności wybrzmiewa w Twoim sercu na sam koniec tego kwiecistego miesiąca?"
+    },
+    "2027-5-1": {
+      "z": "Byk",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Pierwszy dzień maja wita nas potężną, uziemiającą wibracją ósemki, która przypomina nam o prawie obfitości, sprawczości i mądrym zarządzaniu własnymi zasobami. To dzień, w którym energia liderki łączy się z realnym działaniem w świecie materii – zamiast tylko marzyć, bierzemy stery w swoje ręce, dbając o stabilne fundamenty na nadchodzący miesiąc. Ósemka uczy nas, że sukces to owoc naszej konsekwencji i wewnętrznej suwerenności.",
+      "r": "Zdefiniuj swoje kluczowe cele na maj, uporządkuj sprawy finansowe lub zawodowe i podejmij odważną, pragmatyczną decyzję.",
+      "u": "Wpadania w pułapkę bezwzględnego pracoholizmu, surowego rozliczania siebie i szukania winy w otoczeniu.",
+      "s": "„Prawdziwa obfitość w życiu pojawia się wtedy, gdy z pełną odpowiedzialnością i wiarą zarządzamy własnym potencjałem.”",
+      "fun": "Gdyby Twoja wewnętrzna sprawczość mogła dzisiaj wybrać tylko jedną, najważniejszą sprawę do zaopiekowania się, co z ulgą odłożyłabyś na bok?"
+    },
+    "2027-5-2": {
+      "z": "Byk",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Wibracja dziewiątki otula nas dzisiaj niezwykle głęboką, humanistyczną i artystyczną wrażliwością, skłaniając do refleksji nad minionymi etapami i potrzebą łagodnego domknięcia tego, co stare. To dzień, w którym nasza intuicja i współczucie dla świata biorą górę nad czystą logiką. Dziewiątka uczy nas sztuki odpuszczania i wybaczenia, robiąc w sercu przestrzeń na nową, majową lekcję dojrzałości.",
+      "r": "Wesprzyj kogoś dobrą radą bez oceniania, przelej swoje przemyślenia na papier lub symbolicznie zamknij sprawę, która od dawna ciążyła Ci w pamięci.",
+      "u": "Karmienia się nostalgią, która paraliżuje, oraz brania na barki cudzych kryzysów emocjonalnych.",
+      "s": "„Dojrzałość to umiejętność zerknięcia wstecz z czułością, bez pragnienia zmieniania czegokolwiek z tego, co już stało się naszą historią.”",
+      "fun": "Jaki stary żal do samej siebie z minionych lat nosisz jeszcze w kieszeni, czas najwyższy wyrzucić go i zrobić miejsce na wiosenny lekki wiatr?"
+    },
+    "2027-5-3": {
+      "z": "Byk",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Pionierska, iskrząca jedynka uderza dzisiaj z pełną mocą, przynosząc powiew świeżej niezależności, odwagi i gotowości do wyjścia przed szereg na własnych zasadach. To energia twórcy, który nie ogląda się na konwenanse, lecz śmiało zaznacza swoją obecność w świecie. Dziś masz doskonały moment, by zacząć coś od zera, postawić zdrowe granice i zdefiniować na nowo to, czego naprawdę pragniesz.",
+      "r": "Rozpocznij autorski projekt, wypowiedz głośno swoje autentyczne zdanie i zrób odważny krok w stronę własnych marzeń.",
+      "u": "Ulegania presji grupy, konformizmu i gaszenia własnego ognia w obawie przed tym, co powiedzą inni.",
+      "s": "„Twoja autentyczność to Twoja największa siła – nigdy nie przepraszaj za to, że wybierasz własną drogę.”",
+      "fun": "W jakiej dziedzinie Twojego życia domaga się głosu ta część Ciebie, która pragnie krzyknąć: „teraz ja idę po swoje na własnych zasadach”?"
+    },
+    "2027-5-4": {
+      "z": "Byk",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Mistyczna wibracja zredukowana do dwójki wnosi dzisiaj niezwykle subtelną, delikatną i głęboko relacyjną energię. To dzień, w którym zasłona między ludzkimi sercami staje się cieńsza, a intuicja podpowiada najmądrzejsze rozwiązania. Dwójka uczy nas sztuki dyplomacji, uważnego słuchania i czekania na odpowiedni moment zamiast forsowania rzeczy siłą.",
+      "r": "Przeprowadź szczerą, pełną empatii rozmowę od serca do serca, wypij w spokoju filiżankę naparu i zaufaj swojemu wewnętrznemu głosowi.",
+      "u": "Wchodzenia w głośne konflikty, forsowania swoich racji siłą i przebywania w miejscach pełnych hałaśliwej rywalizacji.",
+      "s": "„Miękka siła i autentyczna empatia potrafią otworzyć drzwi, których żaden taran nie zdoła poruszyć.”",
+      "fun": "Kto z Twojego otoczenia potrzebuje dzisiaj Twojego spojrzenia pełnego akceptacji, a może jesteś to Ty sama przed lustrem?"
+    },
+    "2027-5-5": {
+      "z": "Byk",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Barwna, ekspresyjna trójka wybucha dzisiaj feerią radości, artystycznej ekspresji, słowa i magnetyzmu. To energia, która nie znosi rutyny – domaga się śmiechu, kontaktu z ludźmi, tańca i swobodnego wyrzucenia z siebie tego, co gra nam w duszy. Dziś Twoja komunikacja ma moc czarów; potrafisz porwać innych swoją pasją i sprawić, że wokół robi się jaśniej.",
+      "r": "Stwórz coś pięknego, porozmawiaj z kimś, kto inspiruje Twój umysł, posłuchaj energetyzującej muzyki lub wyjdź do ludzi z otwartym sercem.",
+      "u": "Rozpraszania swojej energii na zbyt wiele wątków naraz oraz powierzchownej gadki o niczym, która męczy umysł.",
+      "s": "„Radość i twórcza ekspresja to najpiękniejsze barwy, którymi możemy pomalować naszą codzienność.”",
+      "fun": "Jaki najbardziej zwariowany, radosny pomysł na spędzenie popołudnia odrzucasz z rozsądku, choć marzysz o nim od rana?"
+    },
+    "2027-5-6": {
+      "z": "Byk",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Solidna, uziemiająca czwórka wkracza dzisiaj z potrzebą porządku, budowania stabilnych struktur i szacunku do materii. To wibracja, która przypomina nam, że nawet najpiękniejsze majowe marzenia potrzebują konkretnych, małych kroków i codziennej systematyczności, by mogły zakorzenić się w rzeczywistości. Dziś odpoczywamy poprzez uporządkowanie przestrzeni wokół siebie i zadbanie o bezpieczne fundamenty.",
+      "r": "Zadbaj o porządek na biurku lub w domu, dokończ jedno konkretne zadanie, które od dawna odkładałaś, i stwórz dla siebie spokojną, stabilną przestrzeń.",
+      "u": "Sztywnego uporu, wpadania w pułapkę perfekcjonizmu oraz brania na barki zbyt wielu obowiązków naraz.",
+      "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+      "fun": "Jakie jedno zadanie obciążające Twoją głowę możesz dzisiaj po prostu wykreślić z listy bez żadnych poczuć winy?"
+    },
+    "2027-5-7": {
+      "z": "Byk",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Wolnościowa, iskrząca piątka przynosi dzisiaj powiew świeżego, majowego wiatru, który delikatnie burzy rutynę i zaprasza do wyjścia poza utarte schematy. To wibracja odkrywców i poszukiwaczy nowych dróg, przypominająca, że rozwój polega na odwadze sprawdzania, co jest za zakrętem. Dziś Twoja ciekawość świata budzi się do życia, domagając się odrobiny elastyczności i swobody.",
+      "r": "Zmień coś w swoim stałym planie dnia, wyjdź na spacer zupełnie inną trasą lub otwórz się na inspirującą, niespodzianą rozmowę.",
+      "u": "Kurczowego trzymania się starych przyzwyczajeń i lęku przed tym, że mała zmiana wywróci Twój świat do góry nogami.",
+      "s": "„Życie staje się o wiele ciekawsze, gdy przestajemy bać się tego, co nieznane i nowe.”",
+      "fun": "W jakiej bezpiecznej, ale ciasnej klatce rutyny zamknęłaś ostatnio swoją dziką, wolną naturę?"
+    },
+    "2027-5-8": {
+      "z": "Byk",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Wibracja szóstki roztacza wokół nas głęboką, opiekuńczą aurę domowego ogniska, harmonii i odpowiedzialności za relacje. To energia serca, które potrafi bezwarunkowo dbać o innych, a zarazem potrzebuje przestrzeni, by ukoić własne emocje. Szóstka uczy nas, że prawdziwa piękna estetyka i bliskość rodzą się wtedy, gdy z czułością traktujemy zarówno ludzi wokół nas, jak i same siebie.",
+      "r": "Stwórz w domu przytulną atmosferę, spędź niespieszny wieczór z kimś bliskim i otocz się rzeczami, które cieszą Twoje oczy.",
+      "u": "Wchodzenia w rolę męczennika, który rezygnuje z własnych granic dla świętego spokoju innych.",
+      "s": "„Najpiękniejszym domem, o jaki możemy dbać każdego dnia, jest ciepło gościnnego i spokojnego serca.”",
+      "fun": "Co możesz dzisiaj zrobić wyłącznie dla domowego ciepła, zapachu świeżych kwiatów i własnego, głębokiego odprężenia?"
+    },
+    "2027-5-9": {
+      "z": "Byk",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Mistyczna, badawcza siódemka zaprasza nas dzisiaj do przestrzeni głębokiej introspekcji, ciszy i filozoficznego wsłuchania się w mądrość własnego wnętrza. To energia poszukiwacza prawdy, który nie szuka odpowiedzi w hałaśliwym tłumie, lecz w samotności i kontakcie z naturą. Dziś Twoja intuicja bada teren, a umysł domaga się odcięcia od zewnętrznego zgiełku.",
+      "r": "Odłóż na bok telefon, spędź czas na łonie budzącej się do życia natury, poczytaj mądrą książkę lub przelej swoje myśli na czystą kartkę.",
+      "u": "Zbytniego izolowania się w chłodnym sceptycyzmie oraz zamęczania głowy nadmiernym analizowaniem każdego drobiazgu.",
+      "s": "„W ciszy kryją się najmądrzejsze drogowskazy, których głośny świat nie potrafi usłyszeć.”",
+      "fun": "Za jaką najcichszą, ukrytą lekcję minionego tygodnia chcesz dzisiaj z wdzięcznością podziękować swojej intuicji?"
+    },
+    "2027-5-10": {
+      "z": "Byk",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Potężna, materialna ósemka wkracza z energią sprawczości, suwerenności i mądrego zarządzania własnymi zasobami. To wibracja, która przypomina nam, że mamy pełne prawo do obfitości, sukcesu i decydowania o sobie w świecie materii. Dziś Twoje cele zawodowe, finanse oraz jasne granice wymagają stanowczego, ale sprawiedliwego podejścia opartego na wewnętrznej sile.",
+      "r": "Podejmij ważną decyzję finansową lub zawodową, ureguluj formalności i zarządzaj swoją energią z pozycji pewnej siebie liderki.",
+      "u": "Bezwzględnego parcia po trupach do celu, przepracowywania się oraz lęku przed własnym sukcesem.",
+      "s": "„Prawdziwa siła i obfitość płyną z mądrego, suwerennego zarządzania własnym potencjałem.”",
+      "fun": "W jaki sposób celebrujesz swoje codzienne, ciche sukcesy, zamiast od razu biec do kolejnej góry do zdobycia?"
+    },
+    "2027-5-11": {
+      "z": "Byk",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Wibracja dziewiątki roztacza wokół nas szeroką, humanistyczną perspektywę, zapraszając do współczucia, uniwersalnej mądrości i domykania pewnych etapów z pełnym zrozumieniem. To dzień, w którym artystyczna wrażliwość spotyka się z potrzebą spojrzenia na nasze życie z perspektywy lotu ptaka. Dziewiątka przypomina nam, że aby pójść dalej z lżejszym sercem, musimy najpierw wybaczyć – sobie i innym – oraz oddać przeszłość w ręce czasu.",
+      "r": "Ukończ zaległy projekt o charakterze twórczym, wyciągnij czułą lekcję z minionych trudności i uwolnij się od żalu, zamykając stary rozdział z wdzięcznością.",
+      "u": "Popadania w melancholię, nadmiernego brania na siebie cudzych dramatów i poczucia, że musisz ratować cały świat.",
+      "s": "„Prawdziwe wyzwolenie przychodzi wtedy, gdy z miłością pozwalamy odejść temu, co już dawno przestało być częścią naszej drogi.”",
+      "fun": "Jaka relacja z przeszłości uczyła Cię najwięcej o tym, jak pięknie jest wreszcie przestać zabiegać o cudzą miłość?"
+    },
+    "2027-5-12": {
+      "z": "Byk",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Suwerenna, potężna jedynka uderza dzisiaj z nową siłą, niosąc ze sobą surową iskrę twórczej niezależności i odwagę do zaznaczenia swojego unikalnego „ja”. To energia inicjatorów i wizjonerów, którzy nie pytają o nikogo zdanie, lecz idą tam, gdzie prowadzi ich wewnętrzny ogień. Dziś masz doskonałe warunki ku temu, by wyrwać się ze schematów, zdefiniować na nowo swoje cele i postawić twarde, zdrowe granice.",
+      "r": "Rozpocznij autorski projekt, wypowiedz głośno swoje zdanie w ważnej sprawie i odważnie odrzuć to, co ogranicza Twoją osobistą wolność.",
+      "u": "Ulegania wpływom otoczenia oraz rezygnowania ze swoich pomysłów w obawie przed krytyką.",
+      "s": "„Twoja sprawczość zaczyna się w tym jednym, potężnym momencie, w którym decydujesz się być wreszcie wierna samej sobie.”",
+      "fun": "W jakiej sprawie brakuje Ci dzisiaj odważnego impulsu, który pozwoliłby Ci zacząć z czystą kartą?"
+    },
+    "2027-5-13": {
+      "z": "Byk",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Wibracja dwójki wnosi dzisiaj niezwykle subtelną, intuicyjną i głęboko relacyjną energię. To dzień, w którym zasłona między ludzkimi sercami staje się cieńsza, a przeczucia podpowiadają najmądrzejsze rozwiązania. Dwójka uczy nas sztuki uważnej dyplomacji, czekania na właściwy sygnał od wszechświata i budowania mostów tam, gdzie inni wolą stawiać mury. Twoja intuicja szepcze dziś wyjątkowo głośno – warto jej zaufać.",
+      "r": "Przeprowadź delikatną, pełną empatii rozmowę, wsłuchaj się w podteksty w relacjach z ludźmi i poświęć czas na wyciszenie i wsłuchanie się w siebie.",
+      "u": "Wchodzenia w bezpośrednie konfrontacje, siłowych rozwiązań oraz ignorowania sygnałów, które wysyła Ci ciało.",
+      "s": "„Intuicja to cichy głos duszy, który wie znacznie więcej niż cała nasza racjonalna wiedza.”",
+      "fun": "Jak brzmi najpiękniejsze, pełne czułości zdanie, które chciałabyś dzisiaj usłyszeć od samej siebie?"
+    },
+    "2027-5-14": {
+      "z": "Byk",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Ekspresyjna, barwna trójka wybucha dziś feerią majowych pomysłów, artystycznej energii i magnetyzmu słowa. To wibracja, która nie znosi nudy ani sztywnych ram – domaga się ekspresji, śmiechu, kontaktu z ludźmi i artystycznego ujścia dla emocji. Dziś Twoja komunikacja ma moc czarów; potrafisz porwać innych swoją pasją, napisać coś porywającego lub po prostu sprawić, że w obecności ludzi wokół robi się radośniej.",
+      "r": "Twórz treści, rozmawiaj, spotkaj się z kimś, kto inspiruje Twój umysł, lub zrób coś, co pozwoli Ci wyrazić siebie w sposób twórczy.",
+      "u": "Rozpraszania swojej uwagi na zbyt wiele wątków naraz oraz powierzchownej gadki, za którą nie stoi żadna treść.",
+      "s": "„Wyrażenie siebie w sposób autentyczny to najpiękniejszy dar, jaki możemy wnieść w przestrzeń wokół nas.”",
+      "fun": "Jaka melodia, widok lub zapach potrafi w ułamku sekundy przywrócić Ci iskrzącą lekkość w sercu?"
+    },
+    "2027-5-15": {
+      "z": "Byk",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Architektoniczna, solidna czwórka wkracza w weekendowy czas z potrzebą ugruntowania, porządku i szacunku dla materii. To wibracja, która przypomina, że nawet najbardziej szalone majowe wizje wymagają konkretnych struktur, procedur i fizycznej pracy, by mogły przetrwać próbę czasu. Dziś odpoczywamy poprzez robienie rzeczy użytecznych, organizowanie przestrzeni i dbanie o to, by fundamenty naszego życia były stabilne.",
+      "r": "Zadbaj o porządek w otoczeniu, wykonaj konkretne, uziemiające zadanie domowe lub zaplanuj strukturę swoich przyszłych działań.",
+      "u": "Nadmiernego uporu, zbytniej sztywności w poglądach oraz lęku przed odpuszczeniem kontroli nad detalami.",
+      "s": "„Porządek w materii to najprostsza droga do uzyskania klarowności i wewnętrznego spokoju w głowie.”",
+      "fun": "Co w Twoim życiu wymaga dzisiaj nie rewolucji, lecz cichej, cierpliwej i systematycznej troski o fundamenty?"
+    },
+    "2027-5-16": {
+      "z": "Byk",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Niespokojna, wolnościowa piątka wita nas w niedzielny poranek powiewem majowego wiatru i głęboką potrzebą przełamania rutyny. To wibracja, która nie znosi stagnacji – zachęca do wyjścia poza schematy, testowania nowych rozwiązań i otwarcia się na elastyczność w działaniu. Dziś najlepiej sprawdzają się wszelkie zmiany perspektywy oraz małe, odkrywcze kroki w nieznane, które pozwalają poczuć smak prawdziwej wolności.",
+      "r": "Zmień coś w swoim planie dnia, wybierz się na spacer zupełnie nieznaną trasą lub otwórz się na spontaniczną, inspirującą rozmowę.",
+      "u": "Kurczowego trzymania się starych przyzwyczajeń i lęku przed tym, że mała zmiana wymknie się spod Twojej kontroli.",
+      "s": "„Życie nabiera najpiękniejszych barw wtedy, gdy z ciekawością dziecka odważnie wychodzimy poza utarte schematy.”",
+      "fun": "Z jakim przestarzałym przekonaniem na temat swoich ograniczeń chcesz się dzisiaj bezpardonowo pożegnać?"
+    },
+    "2027-5-17": {
+      "z": "Byk",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Wibracja szóstki roztacza wokół nas głęboką, opiekuńczą aurę harmonii, estetyki oraz odpowiedzialności za bliskie relacje na starcie nowego tygodnia. To energia mediatora i domowego artysty, który dba o to, by w przestrzeni panował pokój, wzajemny szacunek i ciepło. Szóstka przypomina, że prawdziwa obfitość płynie z serca, które potrafi bezwarunkowo dbać o innych, nie zapominając przy tym o własnych granicach.",
+      "r": "Zadbaj o estetykę i przytulność w swoim otoczeniu, przeprowadź szczerą, życzliwą rozmowę z bliską osobą i otocz się pięknymi przedmiotami.",
+      "u": "Wchodzenia w rolę męczennika, który poświęca własny spokój dla zadowolenia wszystkich wokół.",
+      "s": "„Prawdziwa harmonia rodzi się tam, gdzie z równą czułością dbamy o świat, jak i o własne wnętrze.”",
+      "fun": "Jak wyglądałby Twój wymarzony, całkowicie bezpieczny azyl, w którym mogłabyś schować się przed całym światem i po prostu oddychać?"
+    },
+    "2027-5-18": {
+      "z": "Byk",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Mistyczna, badawcza siódemka zamyka nas dzisiaj w przestrzeni głębokiej introspekcji, filozoficznej refleksji i analitycznego rozbierania rzeczywistości na czynniki pierwsze. To energia poszukiwacza prawdy, który nie zadowala się powierzchownymi odpowiedziami. Dziś Twoja intuicja bada teren, a umysł domaga się ciszy i spokoju, by dotrzeć do sedna najważniejszych spraw.",
+      "r": "Przestudiuj trudniejszy temat, zgłębiaj wiedzę, spędź czas w całkowitej samotności na łonie natury i zaufaj swojemu wewnętrznemu kompasowi.",
+      "u": "Zbytniego izolowania się od ludzi w chłodnym sceptycyzmie oraz nadmiernego, męczącego roztrząsania wszystkiego w głowie.",
+      "s": "„Najcenniejsze odpowiedzi na świecie nigdy nie leżą na powierzchni – trzeba odważyć się zejść w głąb siebie.”",
+      "fun": "Co w Tobie jest tak głębokie i niezmienne, że żaden zewnętrzny hałas nie jest w stanie tego dosięgnąć?"
+    },
+    "2027-5-19": {
+      "z": "Byk",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Potężna, materialna ósemka wkracza, by przypomnieć nam o prawach karmy, suwerennej sprawczości i zarządzaniu zasobami w świecie materii. To dzień, w którym finanse, umowy, struktury biznesowe i realne efekty naszej pracy wysuwają się na plan pierwszy. Ósemka wymaga jasnego określenia celów, odwagi w działaniu i zarządzania swoją władzą w sposób sprawiedliwy.",
+      "r": "Podejmij kluczowe decyzje finansowe, sfinalizuj umowy i zarządzaj swoimi zasobami z pozycji pewnej siebie liderki.",
+      "u": "Nadużywania władzy, bezwzględnego parcia po trupach do celu oraz lęku przed sukcesem i obfitością.",
+      "s": "„Obfitość jest naturalnym stanem, gdy potrafimy zarządzać nią z mądrością i w zgodzie ze swoją prawdą.”",
+      "fun": "W jaki sposób dbasz o to, by Twoja wewnętrzna siła nie zamieniła się w mur obronny odcinający Cię od bliskości?"
+    },
+    "2027-5-20": {
+      "z": "Byk",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Wibracja dziewiątki roztacza dzisiaj wokół nas szeroką, humanistyczną perspektywę, zapraszając do współczucia, uniwersalnej mądrości i domykania pewnych etapów z pełnym zrozumieniem. To dzień, w którym artystyczna wrażliwość spotyka się z potrzebą spojrzenia na nasze życie z perspektywy lotu ptaka. Dziewiątka przypomina nam, że aby pójść dalej z lżejszym sercem, musimy najpierw wybaczyć – sobie i innym – oraz oddać przeszłość w ręce czasu.",
+      "r": "Ukończ zaległy projekt o charakterze twórczym, wyciągnij czułą lekcję z minionych trudności i uwolnij się od żalu, zamykając stary rozdział z wdzięcznością.",
+      "u": "Popadania w melancholię, nadmiernego brania na siebie cudzych dramatów i poczucia, że musisz ratować cały świat.",
+      "s": "„Prawdziwe wyzwolenie przychodzi wtedy, gdy z miłością pozwalamy odejść temu, co już dawno przestało być częścią naszej drogi.”",
+      "fun": "Jaki intymny akord wdzięczności wybrzmiewa w Twoim sercu na myśl o drodze, którą już przeszłaś?"
+    },
+    "2027-5-21": {
+      "z": "Bliźnięta",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Suwerenna, pionierska jedynka uderza dzisiaj z pełną mocą, przynosząc powiew świeżej niezależności, odwagi i gotowości do wyjścia przed szereg na własnych zasadach. To energia twórcy, który nie ogląda się na konwenanse, lecz śmiało zaznacza swoją obecność w świecie. Dziś masz doskonały moment, by zacząć coś od zera, postawić zdrowe granice i zdefiniować na nowo to, czego naprawdę pragniesz.",
+      "r": "Rozpocznij autorski projekt, wypowiedz głośno swoje autentyczne zdanie i zrób odważny krok w stronę własnych marzeń.",
+      "u": "Ulegania presji grupy, konformizmu i gaszenia własnego ognia w obawie przed tym, co powiedzą inni.",
+      "s": "„Twoja autentyczność to Twoja największa siła – nigdy nie przepraszaj za to, że wybierasz własną drogę.”",
+      "fun": "Gdybyś miała dzisiaj całkowite prawo do błędu, w jakiej nowej sprawie zaryzykowałabyś start od zera z uśmiechem na twarzy?"
+    },
+    "2027-5-22": {
+      "z": "Bliźnięta",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Mistyczna wibracja zredukowana do dwójki wnosi dzisiaj niezwykle subtelną, delikatną i głęboko relacyjną energię. To dzień, w którym zasłona między ludzkimi sercami staje się cieńsza, a intuicja podpowiada najmądrzejsze rozwiązania. Dwójka uczy nas sztuki dyplomacji, uważnego słuchania i czekania na odpowiedni moment zamiast forsowania rzeczy siłą.",
+      "r": "Przeprowadź szczerą, pełną empatii rozmowę od serca do serca, wypij w spokoju filiżankę naparu i zaufaj swojemu wewnętrznemu głosowi.",
+      "u": "Wchodzenia w głośne konflikty, forsowania swoich racji siłą i przebywania w miejscach pełnych hałaśliwej rywalizacji.",
+      "s": "„Miękka siła i autentyczna empatia potrafią otworzyć drzwi, których żaden taran nie zdoła poruszyć.”",
+      "fun": "W którym momencie czujesz największy opór przed przyjęciem czułego gestu od kogoś bliskiego i dlaczego tak się dzieje?"
+    },
+    "2027-5-23": {
+      "z": "Bliźnięta",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Barwna, ekspresyjna trójka wybucha dzisiaj feerią radości, artystycznej ekspresji, słowa i magnetyzmu. To energia, która nie znosi rutyny – domaga się śmiechu, kontaktu z ludźmi, tańca i swobodnego wyrzucenia z siebie tego, co gra nam w duszy. Dziś Twoja komunikacja ma moc czarów; potrafisz porwać innych swoją pasją i sprawić, że wokół robi się jaśniej.",
+      "r": "Stwórz coś pięknego, porozmawiaj z kimś, kto inspiruje Twój umysł, posłuchaj energetyzującej muzyki lub wyjdź do ludzi z otwartym sercem.",
+      "u": "Rozpraszania swojej energii na zbyt wiele wątków naraz oraz powierzchownej gadki o niczym, która męczy umysł.",
+      "s": "„Radość i twórcza ekspresja to najpiękniejsze barwy, którymi możemy pomalować naszą codzienność.”",
+      "fun": "Co sprawia, że na samą myśl o jakimś małym marzeniu Twoje serce podskakuje z radosnym dreszczem?"
+    },
+    "2027-5-24": {
+      "z": "Bliźnięta",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Solidna, uziemiająca czwórka wkracza dzisiaj z potrzebą porządku, budowania stabilnych struktur i szacunku do materii. To wibracja, która przypomina nam, że nawet najpiękniejsze majowe marzenia potrzebują konkretnych, małych kroków i codziennej systematyczności, by mogły zakorzenić się w rzeczywistości. Dziś odpoczywamy poprzez uporządkowanie przestrzeni wokół siebie i zadbanie o bezpieczne fundamenty.",
+      "r": "Zadbaj o porządek na biurku lub w domu, dokończ jedno konkretne zadanie, które od dawna odkładałaś, i stwórz dla siebie spokojną, stabilną przestrzeń.",
+      "u": "Sztywnego uporu, wpadania w pułapkę perfekcjonizmu oraz brania na barki zbyt wielu obowiązków naraz.",
+      "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+      "fun": "Jaki fizyczny nawyk dbania o swoje ciało porzuciłaś na rzecz „ważniejszych” spraw i jak możesz do niego dzisiaj wrócić?"
+    },
+    "2027-5-25": {
+      "z": "Bliźnięta",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Wolnościowa, iskrząca piątka przynosi dzisiaj powiew świeżego, majowego wiatru, który delikatnie burzy rutynę i zaprasza do wyjścia poza utarte schematy. To wibracja odkrywców i poszukiwaczy nowych dróg, przypominająca, że rozwój polega na odwadze sprawdzania, co jest za zakrętem. Dziś Twoja ciekawość świata budzi się do życia, domagając się odrobiny elastyczności i swobody.",
+      "r": "Zmień coś w swoim stałym planie dnia, wyjdź na spacer zupełnie inną trasą lub otwórz się na inspirującą, niespodzianą rozmowę.",
+      "u": "Kurczowego trzymania się starych przyzwyczajeń i lęku przed tym, że mała zmiana wywróci Twój świat do góry nogami.",
+      "s": "„Życie staje się o wiele ciekawsze, gdy przestajemy bać się tego, co nieznane i nowe.”",
+      "fun": "Co ekscytującego i całkowicie niepraktycznego chodzi Ci po głowie, a mogłoby wpuścić mnóstwo świeżości do Twoich dni?"
+    },
+    "2027-5-26": {
+      "z": "Bliźnięta",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Wibracja szóstki roztacza wokół nas głęboką, opiekuńczą aurę domowego ogniska, harmonii i odpowiedzialności za bliskie relacje. To energia serca, które w Dzień Matki bije wyjątkowo mocno, przypominając nam o sile bezwarunkowej miłości, wdzięczności i troski. Szóstka uczy nas, że prawdziwe piękno i bliskość rodzą się wtedy, gdy z czułością traktujemy zarówno ludzi wokół nas, jak i same siebie.",
+      "r": "Podziękuj bliskiej osobie za jej obecność, stwórz w domu przytulną atmosferę i otocz się rzeczami, które ogrzewają Twoje serce.",
+      "u": "Wchodzenia w rolę męczennika, który rezygnuje z własnych granic dla świętego spokoju innych.",
+      "s": "„Najpiękniejszym domem, o jaki możemy dbać każdego dnia, jest ciepło gościnnego i spokojnego serca.”",
+      "fun": "Jaką część samej siebie traktujesz zbyt surowo, zamiast otulić ją ciepłym kocem bezwarunkowej wyrozumiałości?"
+    },
+    "2027-5-27": {
+      "z": "Bliźnięta",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Mistyczna, badawcza siódemka zaprasza nas dzisiaj do przestrzeni głębokiej introspekcji, ciszy i filozoficznego wsłuchania się w mądrość własnego wnętrza. To energia poszukiwacza prawdy, który nie szuka odpowiedzi w hałaśliwym tłumie, lecz w samotności i kontakcie z naturą. Dziś Twoja intuicja bada teren, a umysł domaga się odcięcia od zewnętrznego zgiełku.",
+      "r": "Odłóż na bok telefon, spędź czas na łonie bujnej, majowej natury, poczytaj mądrą książkę lub przelej swoje myśli na czystą kartkę.",
+      "u": "Zbytniego izolowania się w chłodnym sceptycyzmie oraz zamęczania głowy nadmiernym analizowaniem każdego drobiazgu.",
+      "s": "„W ciszy kryją się najmądrzejsze drogowskazy, których głośny świat nie potrafi usłyszeć.”",
+      "fun": "Gdybyś mogła zadać swojemu wewnętrznemu „ja” jedno absolutnie szczere pytanie, o co byś je teraz zapytała?"
+    },
+    "2027-5-28": {
+      "z": "Bliźnięta",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Potężna, materialna ósemka wkracza z energią sprawczości, suwerenności i mądrego zarządzania własnymi zasobami. To wibracja, która przypomina nam, że mamy pełne prawo do obfitości, sukcesu i decydowania o sobie w świecie materii. Dziś Twoje cele zawodowe, finanse oraz jasne granice wymagają stanowczego, ale sprawiedliwego podejścia opartego na wewnętrznej sile.",
+      "r": "Podejmij ważną decyzję finansową lub zawodową, ureguluj formalności i zarządzaj swoją energią z pozycji pewnej siebie liderki.",
+      "u": "Bezwzględnego parcia po trupach do celu, przepracowywania się oraz lęku przed własnym sukcesem.",
+      "s": "„Prawdziwa siła i obfitość płyną z mądrego, suwerennego zarządzania własnym potencjałem.”",
+      "fun": "W jakiej sprawie wzięłaś na siebie odpowiedzialność za cudze emocje, zupełnie zapominając o własnym komforcie?"
+    },
+    "2027-5-29": {
+      "z": "Bliźnięta",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Wibracja dziewiątki roztacza wokół nas szeroką, humanistyczną perspektywę, zapraszając do współczucia, uniwersalnej mądrości i domykania pewnych etapów z pełnym zrozumieniem. To dzień, w którym artystyczna wrażliwość spotyka się z potrzebą spojrzenia na nasze życie z perspektywy lotu ptaka. Dziewiątka przypomina nam, że aby pójść dalej z lżejszym sercem, musimy najpierw wybaczyć – sobie i innym – oraz oddać przeszłość w ręce czasu.",
+      "r": "Ukończ zaległy projekt o charakterze twórczym, wyciągnij czułą lekcję z minionych trudności i uwolnij się od żalu, zamykając stary rozdział z wdzięcznością.",
+      "u": "Popadania w melancholię, nadmiernego brania na siebie cudzych dramatów i poczucia, że musisz ratować cały świat.",
+      "s": "„Prawdziwe wyzwolenie przychodzi wtedy, gdy z miłością pozwalamy odejść temu, co już dawno przestało być częścią naszej drogi.”",
+      "fun": "Jaka miniona sytuacja, choć w swoim czasie bolesna, zostawiła w Tobie dar, za który dzisiaj potrafisz być cicho wdzięczna?"
+    },
+    "2027-5-30": {
+      "z": "Bliźnięta",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Suwerenna, pionierska jedynka uderza dzisiaj z pełną mocą na progu weekendu, przynosząc powiew świeżej niezależności, odwagi i gotowości do wyjścia przed szereg na własnych zasadach. To energia twórcy, który nie ogląda się na konwenanse, lecz śmiało zaznacza swoją obecność w świecie. Dziś masz doskonały moment, by zacząć coś od zera, postawić zdrowe granice i zdefiniować na nowo to, czego naprawdę pragniesz.",
+      "r": "Rozpocznij autorski projekt, wypowiedz głośno swoje autentyczne zdanie i zrób odważny krok w stronę własnych marzeń.",
+      "u": "Ulegania presji grupy, konformizmu i gaszenia własnego ognia w obawie przed tym, co powiedzą inni.",
+      "s": "„Twoja autentyczność to Twoja największa siła – nigdy nie przepraszaj za to, że wybierasz własną drogę.”",
+      "fun": "W jakiej dziedzinie życia brakuje Ci dzisiaj odważnego głosu, który powiedziałby głośno: „ja czuję to zupełnie inaczej”?"
+    },
+    "2027-5-31": {
+      "z": "Bliźnięta",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Ostatni dzień maja zamyka się pod znakiem mistycznej wibracji zredukowanej do dwójki, niosąc niezwykle subtelną, delikatną i głęboko relacyjną energię na pożegnanie tego pięknego miesiąca. To dzień, w którym zasłona między ludzkimi sercami staje się cieńsza, a intuicja podpowiada najmądrzejsze rozwiązania. Dwójka uczy nas sztuki dyplomacji, uważnego słuchania i docenienia spokojnego domknięcia majowych dni.",
+      "r": "Podsumuj maj z wdzięcznością, przeprowadź szczerą, pełną empatii rozmowę od serca do serca i zaufaj swojemu wewnętrznemu głosowi w perspektywie nadchodzącego lata.",
+      "u": "Wchodzenia w głośne konflikty, forsowania swoich racji siłą i przebywania w miejscach pełnych hałaśliwej rywalizacji.",
+      "s": "„Miękka siła i autentyczna empatia to najpiękniejszy sposób na domknięcie każdego cyklu.”",
+      "fun": "Jaką potrzebę bliskości lub zatrzymania się ignorujesz na co dzień, udając przed światem całkowitą samowystarczalność?"
+    },
+    "2027-6-1": {
+      "z": "Bliźnięta",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Pierwszy dzień czerwca wita nas pod znakiem uzdrawiającej, głęboko refleksyjnej dziewiątki, która zachęca nas do zrobienia symbolicznego bilansu i domknięcia tego, co minione, zanim w pełni otworzymy się na letnie ciepło. To moment, w którym możemy z czułością spojrzeć wstecz, odpuścić stary bagaż i zadać sobie pytanie: co właściwie chcę ze sobą zabrać w ten nowy czas? Dziewiątka uczy nas, że prawdziwa mądrość płynie z akceptacji naszej historii.",
+      "r": "Zrób porządek w swoich myślach lub przestrzeni, podziękuj za minione lekcje i świadomie zamknij to, co dawno przestało Ci służyć.",
+      "u": "Kurczowego trzymania się przeszłości i wpadania w melancholię, która odcina Cię od radości teraźniejszości.",
+      "s": "„Dojrzałość to umiejętność zerknięcia wstecz z czułością, bez pragnienia zmieniania czegokolwiek z tego, co już stało się naszą historią.”",
+      "fun": "Jaki stary bagaż emocjonalny z minionych miesięcy dzisiaj z czułością wypuszczasz z dłoni, by zrobić miejsce na czerwcowy oddech?"
+    },
+    "2027-6-2": {
+      "z": "Bliźnięta",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Pionierska, iskrząca jedynka uderza dzisiaj z pełną mocą, przynosząc potężny zastrzyk świeżej energii, odwagi i gotowości do rozpoczęcia czegoś zupełnie nowego na własnych zasadach. To wibracja, która nie ogląda się na opinie innych, lecz śmiało stawia kropkę nad „i” i rusza w nieznane z nowymi pomysłami. Dziś masz doskonałe warunki ku temu, by postawić siebie na pierwszym miejscu i zdefiniować swoje cele na czerwiec.",
+      "r": "Zapisz swoje nowe intencje, odważnie wyraź swoje zdanie i zrób ten jeden, mały krok w kierunku własnych marzeń.",
+      "u": "Ulegania konformizmowi, wahania się i gaszenia swojego wewnętrznego ognia w obawie przed oceną otoczenia.",
+      "s": "„Twoja autentyczność to Twoja największa siła – nigdy nie przepraszaj za to, że wybierasz własną, unikalną drogę.”",
+      "fun": "Gdybyś miała dzisiaj całkowite prawo do pójścia własną ścieżką, jaki odważny krok zrobiłabyś wyłącznie dla siebie?"
+    },
+    "2027-6-3": {
+      "z": "Bliźnięta",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Subtelna wibracja zredukowana do dwójki wnosi dzisiaj niezwykle delikatną, intuicyjną i głęboko relacyjną energię. To dzień, w którym zasłona między ludzkimi sercami staje się cieńsza, a wsłuchanie się w drugiego człowieka – lub we własną intuicję – staje się najważniejsze. Dwójka uczy nas sztuki dyplomacji, delikatności i czekania na odpowiedni moment zamiast forsowania rzeczy siłą.",
+      "r": "Przeprowadź szczerą, pełną empatii rozmowę od serca do serca, wypij w spokoju filiżankę naparu i zaufaj swojemu wewnętrznemu głosowi.",
+      "u": "Wchodzenia w głośne konflikty, forsowania swoich racji siłą i przebywania w miejscach pełnych hałaśliwej rywalizacji.",
+      "s": "„Miękka siła i autentyczna empatia potrafią otworzyć drzwi, których żaden taran nie zdoła poruszyć.”",
+      "fun": "Kto w Twoim otoczeniu potrzebuje dzisiaj Twojej cichej, ciepłej obecności i wysłuchania bez dawania dobrych rad?"
+    },
+    "2027-6-4": {
+      "z": "Bliźnięta",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Barwna, ekspresyjna trójka wybucha dzisiaj feerią radości, artystycznej ekspresji, słowa i magnetyzmu. To energia, która nie znosi nudy – domaga się śmiechu, kontaktu z ludźmi, lekkiej rozmowy i swobodnego wyrzucenia z siebie tego, co gra nam w duszy. Dziś Twoja komunikacja ma w sobie niezwykłą moc; potrafisz porwać innych swoją pasją i sprawić, że wokół robi się jaśniej i radośniej.",
+      "r": "Stwórz coś pięknego, porozmawiaj z kimś, kto inspiruje Twój umysł, posłuchaj energetyzującej muzyki lub wyjdź do ludzi z otwartym sercem.",
+      "u": "Rozpraszania swojej energii na zbyt wiele wątków naraz oraz powierzchownej gadki, za którą nie stoi żadna treść.",
+      "s": "„Radość i twórcza ekspresja to najpiękniejsze barwy, którymi możemy pomalować naszą codzienność.”",
+      "fun": "Co sprawi, że na Twojej twarzy zagości dzisiaj zupełnie bezwysiłkowy, iskrzący uśmiech?"
+    },
+    "2027-6-5": {
+      "z": "Bliźnięta",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Solidna, uziemiająca czwórka wkracza z potrzebą porządku, budowania stabilnych struktur i szacunku do materii. To wibracja, która przypomina nam, że nawet najpiękniejsze letnie plany potrzebują konkretnych, małych kroków i codziennej systematyczności, by mogły zakorzenić się w rzeczywistości. Dziś odpoczywamy poprzez uporządkowanie przestrzeni wokół siebie i zadbanie o bezpieczne fundamenty.",
+      "r": "Zadbaj o porządek na biurku lub w domu, dokończ jedno konkretne zadanie, które od dawna odkładałaś, i stwórz dla siebie spokojną, stabilną przestrzeń.",
+      "u": "Sztywnego uporu, wpadania w pułapkę perfekcjonizmu oraz brania na barki zbyt wielu obowiązków naraz.",
+      "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+      "fun": "Jaki jeden mały porządek w Twojej przestrzeni fizycznej przyniesie Ci dzisiaj głębokie ukojenie i stabilny grunt?"
+    },
+    "2027-6-6": {
+      "z": "Bliźnięta",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Niespokojna, wolnościowa piątka przynosi dzisiaj powiew świeżego wiatru, który delikatnie burzy rutynę i zachęca do wyjścia poza utarte schematy. To wibracja odkrywców i poszukiwaczy nowych dróg, przypominająca, że rozwój polega na odwadze sprawdzania, co znajduje się za zakrętem. Dziś Twoja ciekawość świata budzi się do życia, domagając się odrobiny elastyczności, przestrzeni i swobody.",
+      "r": "Zmień coś w swoim stałym planie dnia, wyjdź na spacer zupełnie inną trasą lub otwórz się na inspirującą rozmowę, która odmieni Twoją perspektywę.",
+      "u": "Kurczowego trzymania się starych przyzwyczajeń, zbytniego rozpraszania energii oraz lęku przed tym, że mała zmiana wymknie się spod kontroli.",
+      "s": "„Życie staje się o wiele ciekawsze, gdy przestajemy bać się tego, co nieznane i nowe.”",
+      "fun": "W jakim schemacie codzienności czujesz dzisiaj tak wielką ciasnotę, że najchętniej przewróciłabyś go do góry nogami?"
+    },
+    "2027-6-7": {
+      "z": "Bliźnięta",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Wibracja szóstki roztacza wokół nas głęboką, opiekuńczą aurę harmonii, etyki oraz odpowiedzialności za bliskie relacje i domowe ognisko. To energia serca, która dba o balans między dawaniem a braniem, przypominając nam o pięknie estetyki i życzliwości. Szóstka uczy nas, że prawdziwa bliskość rodzi się wtedy, gdy z równą czułością traktujemy ludzi wokół nas, jak i własne granice.",
+      "r": "Zadbaj o przytulną atmosferę w swoim otoczeniu, przeprowadź szczerą rozmowę z bliską osobą i otocz się harmonią oraz pięknymi przedmiotami.",
+      "u": "Wchodzenia w rolę męczennika, który poświęca własne dobro i spokój wyłącznie dla zadowolenia innych.",
+      "s": "„Prawdziwa harmonia rodzi się tam, gdzie z równą czułością dbamy o świat, jak i o własne wnętrze.”",
+      "fun": "Jak możesz dzisiaj otulić czułością tę część siebie, która wciąż czuje się zmęczona i domaga się troski?"
+    },
+    "2027-6-8": {
+      "z": "Bliźnięta",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Mistyczna, badawcza siódemka zaprasza nas dzisiaj do przestrzeni głębokiej introspekcji, ciszy i filozoficznego wsłuchania się w mądrość własnego wnętrza. To energia poszukiwacza prawdy i głębi, który nie zadowala się powierzchownymi odpowiedziami. Dziś Twoja intuicja bada teren, a umysł domaga się odcięcia od zewnętrznego zgiełku, by dotknąć tego, co ukryte pod powierzchnią.",
+      "r": "Odłóż na bok telefon, spędź czas w samotności na łonie natury, przestudiuj wnikliwie interesujący Cię temat lub przelej swoje myśli na czystą kartkę.",
+      "u": "Zbytniego izolowania się w chłodnym sceptycyzmie oraz zamęczania głowy nadmiernym analizowaniem każdego drobiazgu.",
+      "s": "„Najcenniejsze odpowiedzi na świecie nigdy nie leżą na powierzchni – trzeba odważyć się zejść w głąb siebie.”",
+      "fun": "Co cichego szepcze do Ciebie Twoja intuicja, kiedy na moment odetnasz się od zewnętrznego hałasu?"
+    },
+    "2027-6-9": {
+      "z": "Bliźnięta",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Potężna, materialna ósemka wkracza z energią sprawczości, suwerenności i mądrego zarządzania własnymi zasobami oraz finansami. To wibracja siewu i zbioru, która przypomina, że sukces jest naturalnym owocem naszej konsekwencji i wewnętrznej siły. Dziś Twoje cele wymagają stanowczego, ale sprawiedliwego podejścia opartego na poszanowaniu własnych granic i energii wymiany.",
+      "r": "Podejmij ważną decyzję finansową lub zawodową, ureguluj formalności i zarządzaj swoją energią z pozycji pewnej siebie liderki.",
+      "u": "Bezwzględnego parcia po trupach do celu, przepracowywania się oraz lęku przed własnym sukcesem i obfitością.",
+      "s": "„Prawdziwa siła i obfitość płyną z mądrego, suwerennego zarządzania własnym potencjałem.”",
+      "fun": "Przed jakim nadmiarem cudzych oczekiwań możesz dzisiaj postawić spokojną, stanowczą granicę?"
+    },
+    "2027-6-10": {
+      "z": "Bliźnięta",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Wibracja dziewiątki stawia nas przed lustrem podsumowań, zapraszając do zrobienia rzetelnego bilansu i sprawdzenia, co w minionym czasie przyniosło plusy, a co okazało się tylko obciążającym minusowym doświadczeniem. To moment przejścia z jednego etapu w drugi, w którym decydujemy, co ze swojej wiedzy i bagażu chcemy zabrać w dalszą drogę, a co z czystym sumieniem zostawiamy za sobą.",
+      "r": "Usiądź z kartką papieru, wypisz lekcje z ostatniego czasu, zrób uczciwy bilans i świadomie zdecyduj, co domykasz raz na zawsze.",
+      "u": "Wpadania w pułapkę pouczania innych i postawy „ja wiem lepiej”, która odcina nas od autentycznej bliskości z ludźmi.",
+      "s": "„Prawdziwe zamknięcie starego rozdziału zaczyna się wtedy, gdy z wdzięcznością przytulamy zarówno nasze sukcesy, jak i błędy, zamieniając je w mądrosć.”",
+      "fun": "Jaki dawny mit o samej sobie czas wreszcie pożegnać z wdzięcznością za lekcję, jaką niósł?"
+    },
+    "2027-6-11": {
+      "z": "Bliźnięta",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Pionierska, iskrząca jedynka uderza z pełną siłą tuż po procesie oczyszczenia, niosąc świeżą iskrę, jasność i gotowość do działania. To moment, w którym – mając już czystą kartę i nowe przemyślenia – decydujesz się postawić wszystko na jedną kartę i zacząć od nowa. Dziś rodzą się najciekawsze pomysły i klarowność co do kolejnego celu.",
+      "r": "Zrób pierwszy, odważny krok w nowym kierunku, zdefiniuj swój najbliższy cel i zaufaj wewnętrznemu impulsowi, który popycha Cię do przodu.",
+      "u": "Zbytniego wahania się, roztrząsania przeszłości i tłumienia swojego wewnętrznego ognia.",
+      "s": "„Kiedy odważnie zamykasz to, co minione, wszechświat natychmiast daje Ci w dłoń czystą kartę i nowy start.”",
+      "fun": "W jakiej sprawie Twój wewnętrzny głos domaga się dzisiaj usłyszenia: „zróbmy to wreszcie po mojemu”?"
+    },
+    "2027-6-12": {
+      "z": "Bliźnięta",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Wibracja dwójki wprowadza miękkość, przestrzeń na współpracę oraz moment refleksji nad drugą stroną medalu w każdej sytuacji. To dzień, w którym odkrywamy, że jedno wcale nie wyklucza drugiego, a prawdziwa siła tkwi w umiejętności słuchania swojej intuicji i budowania zdrowego partnerstwa.",
+      "r": "Posłuchaj tego, co podpowiada Ci ciało i intuicja, porozmawiaj z kimś życzliwym i spójrz na konflikt z perspektywy dwóch różnych stron.",
+      "u": "Ślepego podporządkowywania się innym oraz tłumienia własnych odczuć dla tzw. świętego spokoju.",
+      "s": "„Zrozumienie drugiego człowieka zaczyna się tam, gdy dopuszczamy do głosu obie strony tej samej opowieści.”",
+      "fun": "Jakie najpiękniejsze, pełne wyrozumiałości zdanie chciałabyś dzisiaj wyszeptać do samej siebie?"
+    },
+    "2027-6-13": {
+      "z": "Bliźnięta",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Barwna, twórcza trójka rozświetla dzień feerią radości, ekspresji i wewnętrznej lekkości. To moment, w którym zadajemy sobie pytanie: gdzie ostatnio zapomniałam o radości i zabawie? Trójka przypomina, że życie potrafi być piękne, jeśli tylko pozwolimy sobie na odrobinę luzu i wyrażenie siebie poprzez słowo, sztukę lub uśmiech.",
+      "r": "Zrób coś czysto dla przyjemności, porozmawiaj z kimś, kto potrafi Cię rozśmieszyć, i stwórz przestrzeń na swoją naturalną kreatywność.",
+      "u": "Nadmiernej powagi, zadręczania się emocjonalnymi dylematami i brania świata zbyt mocno na barki.",
+      "s": "„Radość wcale nie jest ucieczką od problemów; to najpiękniejsze paliwo, które daje nam siłę do ich rozwiązywania.”",
+      "fun": "Jaki zapomniany, twórczy impuls z dawnych lat czeka na to, byś znowu uśmiechnęła się do niego z ciekawością?"
+    },
+    "2027-6-14": {
+      "z": "Bliźnięta",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Solidna, uziemiająca czwórka wkracza z potrzebą ładu, dyscypliny i budowania bezpiecznych struktur. To dzień, w którym zadajemy sobie pytanie o fundamenty i o to, jak wygląda nasza codzierna konsekwencja oraz planowanie. Czwórka uczy nas, że prawdziwe poczucie bezpieczeństwa w życiu rodzi się z małych, systematycznych kroków i dbania o stabilne zaplecze.",
+      "r": "Zrób porządek w swojej przestrzeni lub planach, zadbaj o rutynę, która Cię wspiera, i ugruntuj się w swoich działaniach.",
+      "u": "Sztywnego trzymania się planu za wszelką cenę, nadmiernego uporu oraz wpadania w pułapkę perfekcjonizmu.",
+      "s": "„Prawdziwa stabilność to nie brak zmian, lecz umiejętność stworzenia w sobie bezpiecznej przystani bez względu na okoliczności.”",
+      "fun": "Który z Twoich codziennych nawyków dbania o ciało traktujesz po macoszemu i jak możesz to dzisiaj naprawić?"
+    },
+    "2027-6-15": {
+      "z": "Bliźnięta",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Niespokojna, wolnościowa piątka przynosi powiew świeżego powietrza, zachęcając do wyjścia poza bezpieczną strefę komfortu i sprawdzenia, co kryje się za zakrętem. To czas eksperymentów, zadawania sobie pytania, co w naszym życiu wymaga pilnej zmiany oraz uważnego przyjrzenia się naszym osobistym granicom. Piątka przypomina, że rozwój potrzebuje przestrzeni na wolność i elastyczność.",
+      "r": "Zmień coś w swojej codziennej rutynie, otwórz się na nową perspektywę i pozwól sobie na odrobinę zdrowej spontaniczności.",
+      "u": "Rozpraszania swojej energii na zbyt wiele frontów naraz oraz lęku przed tym, że stracisz nad czymś pełną kontrolę.",
+      "s": "„Życie nabiera barw wtedy, gdy przestajemy bać się własnych, śmiałych kroków w stronę wolności.”",
+      "fun": "Jaki świeży powiew – choćby najmniejsza zmiana trasy czy perspektywy – wpuścisz dzisiaj do swojego dnia?"
+    },
+    "2027-6-16": {
+      "z": "Bliźnięta",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Wibracja szóstki roztacza wokół nas głęboką, ciepłą aurę domowego ogniska, etyki oraz świadomego dbania o relacje. To moment na refleksję o tym, jak dawanie ma się do brania i czy nasze ambicje nie budują się przypadkiem kosztem własnego spokoju. Szóstka uczy nas, że prawdziwa harmonia płynie z serca, które potrafi otoczyć opieką zarówno innych, jak i same siebie.",
+      "r": "Stwórz wokół siebie przytulną przestrzeń, porozmawiaj z kimś bliskim z poziomu życzliwości i zadbaj o równowagę w dawaniu wsparcia.",
+      "u": "Wchodzenia w rolę męczennika i rezygnowania z własnych granic dla świętego spokoju.",
+      "s": "„Prawdziwa harmonia w relacjach rodzi się wtedy, gdy z równą miłością dbamy o innych, jak i o własne granice.”",
+      "fun": "Jaką najmilszą rzecz możesz dzisiaj zrobić wyłącznie dla domowego ciepła i własnego odprężenia?"
+    },
+    "2027-6-17": {
+      "z": "Bliźnięta",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Mistyczna, badawcza wibracja siódemki zaprasza nas do głębokiej introspekcji, wyciszenia i dotarcia do prawdy ukrytej pod powierzchnią codziennych spraw. To czas, w którym zadajemy sobie pytanie o nasze autentyczne wartości duchowe oraz o to, czy nie komplikujemy sobie rzeczywistości nadmiernym analizowaniem. Siódemka uczy nas, jak odnaleźć cichy dystans do hałaśliwego świata.",
+      "r": "Spędź czas w samotności na łonie natury, odetnij się od nadmiaru bodźców cyfrowych i poszukaj odpowiedzi w ciszy swojego serca.",
+      "u": "Zbytniego izolowania się od ludzi w chłodnym sceptycyzmie oraz poczucia, że wiesz wszystko lepiej od innych.",
+      "s": "„Czasami wystarczy na moment zatrzymać się w ciszy, by usłyszeć odpowiedź, której nasz umysł tak uporczywie szukał na zewnątrz.”",
+      "fun": "Jaka prawda o Twoich głębokich pragnieniach ukrywa się pod warstwą codziennych obowiązków?"
+    },
+    "2027-6-18": {
+      "z": "Bliźnięta",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Potężna wibracja ósemki przynosi energię sprawczości, konkretnych działań w świecie materii oraz rzetelnego bilansu naszych zasobów. To idealny moment, by przyjrzeć się temu, jak dbamy o swoje finanse, jak inwestujemy własną energię i czy potrafimy docenić owoce dotychczasowej pracy. Ósemka przypomina o prawie przyczyny i skutku – to, co siejemy w działaniu, zbieramy jako naszą rzeczywistość.",
+      "r": "Zadbaj o stabilne fundamenty finansowe, podejmij dojrzałą decyzję zawodową i z szacunkiem spójrz na swoje materialne oraz życiowe osiągnięcia.",
+      "u": "Bezwzględnego parcia po trupach do celu, przepracowywania się ponad miarę oraz lęku przed odniesieniem sukcesu.",
+      "s": "„Sukces nie jest dziełem przypadku – to naturalny owoc konsekwencji, dojrzałości i szacunku do własnej pracy.”",
+      "fun": "Za jaki swój cichy, twardy wysiłek włożony w ostatnim czasie możesz dzisiaj z dumą sobie podziękować?"
+    },
+    "2027-6-19": {
+      "z": "Bliźnięta",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Wibracja dziewiątki stawia nas przed lustrem podsumowań, zapraszając do zrobienia rzetelnego bilansu i sprawdzenia, co w minionym czasie przyniosło plusy, a co okazało się obciążającym doświadczeniem. To moment przejścia z jednego etapu w drugi, w którym decydujemy, co ze swojej wiedzy i bagażu chcemy zabrać w dalszą drogę, a co z czystym sumieniem zostawiamy za sobą.",
+      "r": "Usiądź z kartką papieru, wypisz lekcje z ostatniego czasu, zrób uczciwy bilans i świadomie zdecyduj, co domykasz raz na zawsze.",
+      "u": "Wpadania w pułapkę pouczania innych i postawy „ja wiem lepiej”, która odcina nas od autentycznej bliskości z ludźmi.",
+      "s": "„Prawdziwa mądrość nie polega na pouczaniu innych, lecz na cichym wyciąganiu wniosków z własnej, przeżytej historii.”",
+      "fun": "Co w Twoim życiu domaga się dzisiaj nie walki, lecz łagodnego odpuszczenia kontroli?"
+    },
+    "2027-6-20": {
+      "z": "Bliźnięta",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Pionierska, iskrząca jedynka uderza z pełną siłą tuż po procesie oczyszczenia, niosąc świeżą iskrę, jasność i gotowość do działania. To moment, w którym – mając już czystą kartę i nowe przemyślenia – decydujesz się postawić wszystko na jedną kartę i zacząć od nowa. Dziś rodzą się najciekawsze pomysły i klarowność co do kolejnego celu.",
+      "r": "Zrób pierwszy, odważny krok w nowym kierunku, zdefiniuj swój najbliższy cel i zaufaj wewnętrznemu impulsowi, który popycha Cię do przodu.",
+      "u": "Zbytniego wahania się, roztrząsania przeszłości i tłumienia swojego wewnętrznego ognia.",
+      "s": "„Kiedy odważnie zamykasz to, co minione, wszechświat natychmiast daje Ci w dłoń czystą kartę i nowy start.”",
+      "fun": "Gdyby nikt Cię teraz nie oceniał, jaką odważną decyzję podjęłabyś bez dłuższego wahania?"
+    },
+    "2027-6-21": {
+      "z": "Rak",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Wibracja dwójki wprowadza miękkość, przestrzeń na współpracę oraz moment refleksji nad drugą stroną medalu w każdej sytuacji. To dzień, w którym odkrywamy, że jedno wcale nie wyklucza drugiego, a prawdziwa siła tkwi w umiejętności słuchania swojej intuicji i budowania zdrowego partnerstwa.",
+      "r": "Posłuchaj tego, co podpowiada Ci ciało i intuicja, porozmawiaj z kimś życzliwym i spójrz na konflikt z perspektywy dwóch różnych stron.",
+      "u": "Ślepego podporządkowywania się innym oraz tłumienia własnych odczuć dla tzw. świętego spokoju.",
+      "s": "„Zrozumienie drugiego człowieka zaczyna się w tym momencie, gdy dopuszczamy do głosu obie strony tej samej opowieści.”",
+      "fun": "W którym momencie czujesz największy opór przed przyjęciem wsparcia lub czułego gestu od innych?"
+    },
+    "2027-6-22": {
+      "z": "Rak",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Barwna, twórcza trójka rozświetla dzień feerią radości, ekspresji i wewnętrznej lekkości. To moment, w którym zadajemy sobie pytanie: gdzie ostatnio zapomniałam o radości i zabawie? Trójka przypomina, że życie potrafi być piękne, jeśli tylko pozwolimy sobie na odrobinę luzu i wyrażenie siebie poprzez słowo, sztukę lub uśmiech.",
+      "r": "Zrób coś czysto dla przyjemności, porozmawiaj z kimś, kto potrafi Cię rozśmieszyć, i stwórz przestrzeń na swoją naturalną kreatywność.",
+      "u": "Nadmiernej powagi, zadręczania się emocjonalnymi dylematami i brania świata zbyt mocno na barki.",
+      "s": "„Śmiech i twórcza swoboda to najprostsze klucze do serca, które pozwalają nam z powrotem poczuć lekkość istnienia.”",
+      "fun": "Co potrafi wywołać w Twoim ciele taką falę radości, że zapominasz o jakimkolwiek pośpiechu?"
+    },
+    "2027-6-23": {
+      "z": "Rak",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Solidna, uziemiająca czwórka wkracza z potrzebą ładu, dyscypliny i budowania bezpiecznych struktur. To dzień, w którym zadajemy sobie pytanie o fundamenty i o to, jak wygląda nasza codzienna konsekwencja oraz planowanie. Czwórka uczy nas, że prawdziwe poczucie bezpieczeństwa w życiu rodzi się z małych, systematycznych kroków i dbania o stabilne zaplecze.",
+      "r": "Zrób porządek w swojej przestrzeni lub planach, zadbaj o rutynę, która Cię wspiera, i ugruntuj się w swoich działaniach.",
+      "u": "Sztywnego trzymania się planu za wszelką cenę, nadmiernego uporu oraz wpadania w pułapkę perfekcjonizmu.",
+      "s": "„Codzienna, cicha sumienność w małych sprawach buduje najtrwalsze mury wokół naszego spokoju.”",
+      "fun": "Jakie jedno zadanie obciążające Twoją głowę możesz dzisiaj po prostu wykreślić z listy bez wyrzutów sumienia?"
+    },
+    "2027-6-24": {
+      "z": "Rak",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Niespokojna, wolnościowa piątka przynosi powiew świeżego powietrza, zachęcając do wyjścia poza bezpieczną strefę komfortu i sprawdzenia, co kryje się za zakrętem. To czas eksperymentów, zadawania sobie pytania, co w naszym życiu wymaga pilnej zmiany oraz uważnego przyjrzenia się naszym osobistym granicom. Piątka przypomina, że rozwój potrzebuje przestrzeni na wolność i elastyczność.",
+      "r": "Zmień coś w swojej codziennej rutynie, otwórz się na nową perspektywę i pozwól sobie na odrobinę zdrowej spontaniczności.",
+      "u": "Rozpraszania swojej energii na zbyt wiele frontów naraz oraz lęku przed tym, że stracisz nad czymś pełną kontrolę.",
+      "s": "„Czasami wystarczy skręcić w zupełnie nieznaną uliczkę, by odkryć, że świat ma dla nas o wiele więcej scenariuszy, niż zakładaliśmy.”",
+      "fun": "Gdzie w swoim życiu czujesz największy głód przestrzeni, wolności i zerwania starych schematów?"
+    },
+    "2027-6-25": {
+      "z": "Rak",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Wibracja szóstki roztacza wokół nas głęboką, ciepłą aurę domowego ogniska, etyki oraz świadomego dbania o relacje. To moment na refleksję o tym, jak dawanie ma się do brania i czy nasze ambicje nie budują się przypadkiem kosztem własnego spokoju. Szóstka uczy nas, że prawdziwa harmonia płynie z serca, które potrafi otoczyć opieką zarówno innych, jak i same siebie.",
+      "r": "Stwórz wokół siebie przytulną przestrzeń, porozmawiaj z kimś bliskim z poziomu życzliwości i zadbaj o równowagę w dawaniu wsparcia.",
+      "u": "Wchodzenia w rolę męczennika i rezygnowania z własnych granic dla świętego spokoju.",
+      "s": "„Najpiękniejszym darem, jaki możemy podarować drugiemu człowiekowi, jest nasza obecność wolna od oczekiwań i ocen.”",
+      "fun": "W którym miejscu swojego serca najbardziej potrzebujesz dzisiaj zapalić światło bezwarunkowej akceptacji?"
+    },
+    "2027-6-26": {
+      "z": "Rak",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Mistyczna, badawcza siódemka zaprasza nas do głębokiej introspekcji, ciszy i studiowania tego, co ukryte pod powierzchnią codziennych spraw. To czas, w którym zadajemy sobie pytanie o nasze głębokie wartości duchowe oraz o to, czy nie komplikujemy sobie życia nadmiernym analizowaniem. Siódemka uczy nas cennego dystansu i szacunku do własnej przestrzeni.",
+      "r": "Spędź czas w samotności na łonie natury, odłącz się od nadmiaru bodźców i poszukaj odpowiedzi w ciszy swojego serca.",
+      "u": "Zbytniego izolowania się od ludzi w chłodnym sceptycyzmie oraz poczucia, że wiesz lepiej niż inni.",
+      "s": "„Prawda nie krzyczy w tłumie – ona czeka cierpliwie w ciszy, aż odważymy się z nią spotkać sam na sam.”",
+      "fun": "Co w Tobie jest tak niezmienne i silne, że żaden zewnętrzny hałas nie jest w stanie tego naruszyć?"
+    },
+    "2027-6-27": {
+      "z": "Rak",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Potężna wibracja ósemki przynosi energię sprawczości, konkretnych działań w świecie materii oraz rzetelnego bilansu naszych zasobów. To idealny moment, by przyjrzeć się temu, jak dbamy o swoje finanse, jak inwestujemy własną energię i czy potrafimy docenić owoce dotychczasowej pracy. Ósemka przypomina o prawie przyczyny i skutku – to, co siejemy w działaniu, zbieramy jako naszą rzeczywistość.",
+      "r": "Zadbaj o stabilne fundamenty finansowe, podejmij dojrzałą decyzję zawodową i z szacunkiem spójrz na swoje materialne oraz życiowe osiągnięcia.",
+      "u": "Bezwzględnego parcia po trupach do celu, przepracowywania się ponad miarę oraz lęku przed odniesieniem sukcesu.",
+      "s": "„Obfitość to nie tylko stan konta; to przede wszystkim poczucie wewnętrznego bogactwa i gotowość na przyjmowanie darów od życia.”",
+      "fun": "W jaki sposób dbasz o to, by Twoja wewnętrzna siła nie zamieniała się w mur obronny odcinający Cię od czułości?"
+    },
+    "2027-6-28": {
+      "z": "Rak",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Wibracja dziewiątki stawia nas przed lustrem podsumowań, zapraszając do zrobienia rzetelnego bilansu i sprawdzenia, co w minionym czasie przyniosło plusy, a co okazało się obciążającym doświadczeniem. To moment przejścia z jednego etapu w drugi, w którym decydujemy, co ze swojej wiedzy i bagażu chcemy zabrać w dalszą drogę, a co z czystym sumieniem zostawiamy za sobą.",
+      "r": "Usiądź z kartką papieru, wypisz lekcje z ostatniego czasu, zrób uczciwy bilans i świadomie zdecyduj, co domykasz raz na zawsze.",
+      "u": "Wpadania w pułapkę pouczania innych i postawy „ja wiem lepiej”, która odcina nas od autentycznej bliskości z ludźmi.",
+      "s": "„Zamykanie drzwi do przeszłości bywa trudne, ale to jedyny sposób, by otworzyć okno na „nowe horyzonty”.”",
+      "fun": "Jaki akord wdzięczności wybrzmiewa w Twoim sercu na myśl o drodze, którą już przeszłaś w tym roku?"
+    },
+    "2027-6-29": {
+      "z": "Rak",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Pionierska, iskrząca jedynka uderza z pełną siłą tuż po procesie oczyszczenia, niosąc świeżą iskrę, jasność i gotowość do działania. To moment, w którym – mając już czystą kartę i nowe przemyślenia – decydujesz się postawić wszystko na jedną kartę i zacząć od nowa. Dziś rodzą się najciekawsze pomysły i klarowność co do kolejnego celu.",
+      "r": "Zrób pierwszy, odważny krok w nowym kierunku, zdefiniuj swój najbliższy cel i zaufaj wewnętrznemu impulsowi, który popycha Cię do przodu.",
+      "u": "Zbytniego wahania się, roztrząsania przeszłości i tłumienia swojego wewnętrznego ognia.",
+      "s": "„Każdy poranek to dowód na to, że wszechświat wierzy w nasze nowe początki bardziej niż my sami.”",
+      "fun": "Z jaką nową, odważną intencją chcesz wkroczyć w drugą połowę roku?"
+    },
+    "2027-6-30": {
+      "z": "Rak",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Ostatni dzień czerwca zamyka się pod znakiem mistycznej wibracji zredukowanej do dwójki, niosąc niezwykle subtelną, delikatną i głęboko relacyjną energię na pożegnanie tego miesiąca. To dzień, w którym zasłona między ludzkimi sercami staje się cieńsza, a intuicja podpowiada najmądrzejsze rozwiązania. Dwójka uczy nas sztuki dyplomacji, uważnego słuchania i docenienia spokojnego domknięcia czerwcowych dni.",
+      "r": "Podsumuj czerwiec z wdzięcznością, przeprowadź szczerą, pełną empatii rozmowę od serca do serca i zaufaj swojemu wewnętrznemu głosowi w perspektywie nadchodzącego lata.",
+      "u": "Wchodzenia w głośne konflikty, forsowania swoich racji siłą i przebywania w miejscach pełnych hałaśliwej rywalizacji.",
+      "s": "„Czasami najgłębszą mądrością okazuje się po prostu usiąść obok kogoś i w ciszy podzielić się własnym sercem.”",
+      "fun": "Jaką najpiękniejszą, pełną otulenia rzecz możesz dzisiaj zrobić dla samej siebie na koniec miesiąca?"
+    },
+    "2027-7-1": {
+      "z": "Rak",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Pierwszy dzień lipca wita nas potężną, pionierską wibracją jedynki, która przynosi iskrę świeżej odwagi, jasność intencji i gotowość do rozpoczęcia czegoś zupełnie nowego na własnych zasadach. To moment, w którym zdejmujesz dawne ograniczenia, stawiasz kropkę nad „i” i z czystą kartą ruszasz w stronę swoich letnich celów.",
+      "r": "Zdefiniuj swój główny cel na lipiec, postaw zdrowe granice i zrób odważny, autorski krok w nowym kierunku.",
+      "u": "Ulegania konformizmowi, wahania się oraz gaszenia swojego wewnętrznego ognia w obawie przed opinią innych.",
+      "s": "„Kiedy odważnie wybierasz własną drogę, wszechświat natychmiast daje Ci w dłoń czystą kartę i nieskończone możliwości.”",
+      "fun": "Jaką nową, iskrzącą pasję lub ciekawość chcesz dzisiaj zaprosić do swojego życia, otwierając drzwi na zupełnie świeżą energię?"
+    },
+    "2027-7-2": {
+      "z": "Rak",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Subtelna wibracja zredukowana do dwójki wnosi dzisiaj niezwykle delikatną, intuicyjną i głęboko relacyjną energię. To dzień, w którym zasłona między ludzkimi sercami staje się cieńsza, a wsłuchanie się w drugiego człowieka – lub we własną intuicję – staje się najważniejsze. Dwójka uczy nas sztuki dyplomacji, delikatności i szukania balansu między dwiema stronami medalu.",
+      "r": "Przeprowadź szczerą, pełną empatii rozmowę od serca do serca, wsłuchaj się w sygnały płynące z ciała i zaufaj swojemu wewnętrznemu głosowi.",
+      "u": "Wchodzenia w głośne konflikty, forsowania swoich racji siłą oraz rezygnowania z siebie dla świętego spokoju.",
+      "s": "„Prawdziwa bliskość rodzi się tam, gdzie potrafimy z równą uwagą wysłuchać drugiej strony, jak i własnego serca.”",
+      "fun": "W jakiej relacji potrzebujesz dzisiaj odpuścić potrzebę racji i zwyczajnie przytulić drugiego człowieka (lub samą siebie)?"
+    },
+    "2027-7-3": {
+      "z": "Rak",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Barwna, ekspresyjna trójka wybucha dzisiaj feerią radości, artystycznej ekspresji, słowa i magnetyzmu. To energia, która nie znosi nudy – domaga się śmiechu, kontaktu z ludźmi, lekkiej rozmowy i swobodnego wyrzucenia z siebie tego, co gra nam w duszy. Dziś Twoja komunikacja ma w sobie niezwykłą moc; potrafisz porwać innych swoją pasją i odnaleźć lekkość tam, gdzie wcześniej była powaga.",
+      "r": "Stwórz coś pięknego, porozmawiaj z kimś, kto inspiruje Twój umysł, lub spędź czas na beztroskiej, radosnej zabawie.",
+      "u": "Rozpraszania swojej energii na zbyt wiele wątków naraz oraz powierzchownej gadki, za którą nie stoi żadna treść.",
+      "s": "„Śmiech i twórcza swoboda to najprostsze klucze, które potrafią rozjaśnić nawet najbardziej pochmurny dzień.”",
+      "fun": "Co sprawi, że dzisiejszy dzień zatańczy w Twoim sercu nutą czystej radości, bez oglądania się na obowiązki?"
+    },
+    "2027-7-4": {
+      "z": "Rak",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Solidna, uziemiająca czwórka wkracza z potrzebą ładu, dyscypliny i budowania bezpiecznych struktur. To dzień, w którym zadajemy sobie pytanie o fundamenty i o to, jak wygląda nasza codzienna konsekwencja oraz planowanie. Czwórka uczy nas, że prawdziwe poczucie stabilności w życiu rodzi się z małych, systematycznych kroków.",
+      "r": "Zrób porządek w swojej przestrzeni lub planach, zadbaj o zdrową rutynę i ugruntuj się w swoich dotychczasowych działaniach.",
+      "u": "Sztywnego trzymania się planu za wszelką cenę, nadmiernego uporu oraz wpadania w pułapkę perfekcjonizmu.",
+      "s": "„Codzienna, cicha sumienność w małych sprawach buduje najtrwalsze mury wokół naszego wewnętrznego spokoju.”",
+      "fun": "Jaki jeden mały, stabilny nawyk dbania o swoje fizyczne ciało możesz dzisiaj wdrożyć z pełnym spokojem?"
+    },
+    "2027-7-5": {
+      "z": "Rak",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Niespokojna, wolnościowa piątka przynosi powiew świeżego powietrza, zachęcając do wyjścia poza bezpieczną strefę komfortu i sprawdzenia, co kryje się za zakrętem. To czas eksperymentów, zadawania sobie pytania, co w naszym życiu wymaga pilnej zmiany oraz uważnego przyjrzenia się naszym osobistym granicom. Piątka przypomina, że rozwój potrzebuje przestrzeni na wolność i elastyczność.",
+      "r": "Zmień coś w swojej codziennej rutynie, otwórz się na nową perspektywę i pozwól sobie na odrobinę zdrowej spontaniczności.",
+      "u": "Rozpraszania swojej energii na zbyt wiele frontów naraz oraz lęku przed tym, że stracisz nad czymś pełną kontrolę.",
+      "s": "„Życie staje się o wiele ciekawsze, gdy przestajemy bać się własnych, śmiałych kroków w stronę wolności.”",
+      "fun": "Gdzie w Twoim życiu letni wiatr zmian delikatnie szepcze, że czas porzucić to, co stało się zbyt duszne i ciasne?"
+    },
+    "2027-7-6": {
+      "z": "Rak",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Wibracja szóstki roztacza wokół nas ciepłą, opiekuńczą aurę domowego ogniska, etyki oraz świadomego dbania o relacje. To idealny moment na refleksję nad tym, jak dawanie wsparcia ma się do brania i czy nasze codzienne ambicje nie budują się przypadkiem kosztem własnego wewnętrznego spokoju. Szóstka uczy nas, że prawdziwa harmonia płynie z serca, które potrafi otoczyć troską zarówno innych, jak i same siebie.",
+      "r": "Stwórz wokół siebie przytulną przestrzeń, przeprowadź szczerą i życzliwą rozmowę z bliską osobą oraz zadbaj o zdrowy balans w relacjach.",
+      "u": "Wchodzenia w rolę męczennika i rezygnowania z własnych granic tylko po to, aby zapewnić komuś święty spokój.",
+      "s": "„Prawdziwa harmonia w relacjach rodzi się wtedy, gdy z równą miłością dbamy o innych, jak i o własne granice.”",
+      "fun": "Jak możesz dzisiaj otoczyć domowym ciepłem i bezwarunkową czułością tę cząstkę siebie, która potajemnie domaga się odpoczynku?"
+    },
+    "2027-7-7": {
+      "z": "Rak",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Mistyczna, badawcza siódemka zaprasza nas do głębokiej introspekcji, ciszy i studiowania tego, co ukryte pod powierzchnią codziennych spraw. To czas, w którym zadajemy sobie pytanie o nasze głębokie wartości duchowe oraz o to, czy nie komplikujemy sobie życia nadmiernym analizowaniem. Siódemka uczy nas cennego dystansu, wiedzy i szacunku do własnej, wewnętrznej przestrzeni.",
+      "r": "Spędź czas w całkowitej samotności na łonie natury, odłącz się od nadmiaru bodźców cyfrowych i poszukaj odpowiedzi w ciszy swojego serca.",
+      "u": "Zbytniego izolowania się od ludzi w chłodnym sceptycyzmie oraz poczucia, że wiesz wszystko lepiej od innych.",
+      "s": "„Najcenniejsze odpowiedzi na świecie nigdy nie leżą na powierzchni – trzeba odważyć się zejść w głąb siebie.”",
+      "fun": "Jaka ukryta odpowiedź na Twoje głębokie pytania wypływa na powierzchnię, gdy pozwalasz sobie na chwilę świętej, letniej ciszy?"
+    },
+    "2027-7-8": {
+      "z": "Rak",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Potężna wibracja ósemki przynosi energię sprawczości, konkretnych działań w świecie materii oraz rzetelnego bilansu naszych zasobów i finansów. To moment, w którym przyjglądamy się temu, jak inwestujemy w siebie i czy potrafimy z szacunkiem świętować owoce dotychczasowej pracy. Ósemka przypomina, że prawdziwy sukces jest naturalnym owocem naszej konsekwencji i wewnętrznej siły.",
+      "r": "Zadbaj o stabilne fundamenty finansowe, podejmij dojrzałą decyzję zawodową i z uznaniem spójrz na swoje materialne osiągnięcia.",
+      "u": "Bezwzględnego parcia po trupach do celu, przepracowywania się ponad miarę oraz lęku przed własną obfitością.",
+      "s": "„Prawdziwa siła i obfitość płyną z mądrego, suwerennego zarządzania własnym potencjałem.”",
+      "fun": "Przed jakim nadmiarem cudzych oczekiwań postawisz dzisiaj mądrą, pełną szacunku dla siebie granicę?"
+    },
+    "2027-7-9": {
+      "z": "Rak",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Wibracja dziewiątki stawia nas przed lustrem podsumowań, zapraszając do zrobienia rzetelnego bilansu i sprawdzenia, co w minionym czasie przyniosło plusy, a co okazało się obciążającym doświadczeniem. To moment przejścia z jednego etapu w drugi, w którym decydujemy, co ze swojej wiedzy i bagażu chcemy zabrać w dalszą drogę, a co z czystym sumieniem zostawiamy za sobą.",
+      "r": "Usiądź z kartką papieru, wypisz lekcje z ostatniego czasu, zrób uczciwy bilans i świadomie zdecyduj, co domykasz raz na zawsze.",
+      "u": "Wpadania w pułapkę pouczania innych i postawy „ja wiem lepiej”, która odcina nas od autentycznej bliskości z ludźmi.",
+      "s": "„Odpuszczenie tego, co już odeszło, to najpiękniejszy prezent, jaki możemy podarować naszej przyszłości.”",
+      "fun": "Jaki stary, emocjonalny ciężar z pierwszego półrocza uwalniasz dzisiaj z dłoni, by zyskać lekkość w żaglach?"
+    },
+    "2027-7-10": {
+      "z": "Rak",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Pionierska, iskrząca jedynka uderza z pełną siłą tuż po procesie oczyszczenia, niosąc świeżą iskrę, jasność i gotowość do działania. To moment, w którym – mając już czystą kartę i nowe przemyślenia – decydujesz się postawić wszystko na jedną kartę i zacząć od nowa. Dziś rodzą się najciekawsze pomysły i klarowność co do kolejnego celu.",
+      "r": "Zrób pierwszy, odważny krok w nowym kierunku, zdefiniuj swój najbliższy cel i zaufaj wewnętrznemu impulsowi, który popycha Cię do przodu.",
+      "u": "Zbytniego wahania się, roztrząsania przeszłości i tłumienia swojego wewnętrznego ognia.",
+      "s": "„Kiedy odważnie zamykasz to, co minione, wszechświat natychmiast daje Ci w dłoń czystą kartę i nowy start.”",
+      "fun": "Gdybyś nie musiała nikomu niczego udowadniać, jaki odważny krok w stronę własnych marzeń zrobiłabyś jeszcze dziś?"
+    },
+    "2027-7-11": {
+      "z": "Rak",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Mistyczna wibracja zredukowana do dwójki wnosi dzisiaj niezwykle subtelną, delikatną i głęboko relacyjną energię. To dzień, w którym zasłona między ludzkimi sercami staje się cieńsza, a intuicja podpowiada najmądrzejsze rozwiązania. Dwójka uczy nas sztuki dyplomacji, uważnego słuchania i docenienia drugiej strony medalu.",
+      "r": "Przeprowadź szczerą, pełną empatii rozmowę od serca do serca, wypij w spokoju filiżankę ulubionego naparu i zaufaj swojemu wewnętrznemu głosowi.",
+      "u": "Wchodzenia w głośne konflikty, forsowania swoich racji siłą oraz tłumienia własnych odczuć dla tzw. świętego spokoju.",
+      "s": "„Zrozumienie drugiego człowieka zaczyna się w tym momencie, gdy dopuszczamy do głosu obie strony tej samej opowieści.”",
+      "fun": "Kto w Twoim otoczeniu potrzebuje dzisiaj Twojego ciepłego, obecnego spojrzenia bez żadnych gotowych rad?"
+    },
+    "2027-7-12": {
+      "z": "Rak",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Barwna, ekspresyjna trójka rozświetla dzień feerią radości, artystycznej ekspresji i wewnętrznej lekkości. To moment, w którym zadajemy sobie pytanie: gdzie ostatnio zapomniałam o radości i zabawie? Trójka przypomina, że życie potrafi być piękne, jeśli tylko pozwolimy sobie na odrobinę luzu i wyrażenie siebie poprzez słowo, sztukę lub uśmiech.",
+      "r": "Zrób coś czysto dla przyjemności, porozmawiaj z kimś, kto potrafi Cię rozśmieszyć, i stwórz przestrzeń na swoją naturalną kreatywność.",
+      "u": "Nadmiernej powagi, zadręczania się emocjonalnymi dylematami i brania świata zbyt mocno na własne barki.",
+      "s": "„Radość i twórcza swoboda to najpiękniejsze barwy, którymi możemy rozjaśnić naszą codzienność.”",
+      "fun": "Jaki drobny, szalony impuls twórczy lub artystyczny wywoła dzisiaj uśmiech na Twojej twarzy?"
+    },
+    "2027-7-13": {
+      "z": "Rak",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Solidna, uziemiająca czwórka wkracza z potrzebą ładu, dyscypliny i budowania bezpiecznych struktur. To dzień, w którym zadajemy sobie pytanie o fundamenty i o to, jak wygląda nasza codzienna konsekwencja oraz planowanie. Czwórka uczy nas, że prawdziwe poczucie bezpieczeństwa w życiu rodzi się z małych, systematycznych kroków.",
+      "r": "Zrób porządek w swojej przestrzeni lub planach, zadbaj o rutynę, która Cię wspiera, i ugruntuj się w swoich działaniach.",
+      "u": "Sztywnego trzymania się planu za wszelką cenę, nadmiernego uporu oraz wpadania w pułapkę perfekcjonizmu.",
+      "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+      "fun": "Który domowy kąt lub zakamarek w przestrzeni domaga się dziś uziemiającego, czułego porządku?"
+    },
+    "2027-7-14": {
+      "z": "Rak",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Niespokojna, wolnościowa piątka przynosi powiew świeżego powietrza, zachęcając do wyjścia poza bezpieczną strefę komfortu i sprawdzenia, co kryje się za zakrętem. To czas eksperymentów, zadawania sobie pytania, co w naszym życiu wymaga pilnej zmiany oraz uważnego przyjrzenia się naszym osobistym granicom. Piątka przypomina, że rozwój potrzebuje przestrzeni na wolność i elastyczność.",
+      "r": "Zmień coś w swojej codziennej rutynie, otwórz się na nową perspektywę i pozwól sobie na odrobinę zdrowej spontaniczności.",
+      "u": "Rozpraszania swojej energii na zbyt wiele frontów naraz oraz lęku przed tym, że stracisz nad czymś pełną kontrolę.",
+      "s": "„Życie nabiera najpiękniejszych barw wtedy, gdy z ciekawością dziecka odważnie wychodzimy poza utarte schematy.”",
+      "fun": "Jaka niespodziewana zmiana planów może okazać się dzisiaj najpiękniejszym, odświeżającym prezentem od losu?"
+    },
+    "2027-7-15": {
+      "z": "Rak",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Wibracja szóstki roztacza wokół nas głęboką, ciepłą aurę domowego ogniska, etyki oraz świadomego dbania o relacje. To moment na refleksję o tym, jak dawanie ma się do brania i czy nasze ambicje nie budują się przypadkiem kosztem własnego spokoju. Szóstka uczy nas, że prawdziwa harmonia płynie z serca, które potrafi otoczyć opieką zarówno innych, jak i same siebie.",
+      "r": "Stwórz wokół siebie przytulną przestrzeń, porozmawiaj z kimś bliskim z poziomu życzliwości i zadbaj o równowagę w dawaniu wsparcia.",
+      "u": "Wchodzenia w rolę męczennika i rezygnowania z własnych granic dla świętego spokoju.",
+      "s": "„Najpiękniejszym domem, o jaki możemy dbać każdego dnia, jest ciepło gościnnego i spokojnego serca.”",
+      "fun": "Co możesz dzisiaj zrobić wyłącznie z miłości do siebie, bez żadnego poczucia, że „musisz”?"
+    },
+    "2027-7-16": {
+      "z": "Rak",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Mistyczna, badawcza wibracja siódemki zaprasza nas do wyciszenia, refleksji oraz pogłębionej nauki i szukania prawdy ukrytej pod powierzchnią codziennych spraw. To czas, w którym zadajemy sobie pytanie o naszą wewnętrzną mądrość, duchowe wartości oraz o to, czy nie komplikujemy sobie życia nadmiernym analizowaniem każdego drobiazgu. Siódemka uczy nas, jak odnaleźć cenny dystans i bezpieczną przestrzeń tylko dla siebie.",
+      "r": "Spędź czas w samotności na łonie natury, odłącz się od cyfrowego zgiełku i zaufaj swojemu wewnętrznemu kompasowi.",
+      "u": "Popadania w chłodny sceptycyzmo, zbytniego odsuwania się od ludzi oraz poczucia, że wiesz wszystko lepiej.",
+      "s": "„Czasami wystarczy na moment wyłączyć hałas świata, by w cisze własnego serca odnaleźć odpowiedź, której tak długo szukaliśmy.”",
+      "fun": "Co cichego szepcze do Ciebie Twoja intuicja, gdy na moment odetnasz się od letniego zgiełku?"
+    },
+    "2027-7-17": {
+      "z": "Rak",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Potężna wibracja ósemki przynosi energię sprawczości, realnych działań w świecie materii oraz rzetelnego podsumowania naszych zasobów i finansów. To idealny moment, by przyjrzeć się temu, jak inwestujemy własną energię, jak dbamy o stabilne fundamenty i czy potrafimy z szacunkiem docenić owoce dotychczasowej pracy. Ósemka przypomina o prawie przyczyny i skutku – nasza obfitość jest bezpośrednim odzwierciedleniem tego, jak zarządzamy swoim potencjałem.",
+      "r": "Zadbaj o finanse, domknij ważne sprawy zawodowe i z dumą spójrz na to, co udało Ci się w życiu zbudować.",
+      "u": "Bezwzględnego parcia do celu za wszelką cenę, przepracowywania się ponad miarę oraz lęku przed odniesieniem sukcesu.",
+      "s": "„Obfitość to naturalny owoc dojrzałości, szacunku do własnej pracy i mądrego zarządzania tym, czym obdarzył nas los.”",
+      "fun": "Za jaki swój twardy, cichy wysiłek włożony w ostatnich miesiącach możesz dzisiaj z dumą podziękować samej sobie?"
+    },
+    "2027-7-18": {
+      "z": "Rak",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Wibracja dziewiątki stawia nas przed lustrem podsumowań, zapraszając do zrobienia rzetelnego bilansu i sprawdzenia, co w minionym czasie przyniosło plusy, a co okazało się obciążającym doświadczeniem. To moment przejścia z jednego etapu w drugi, w którym decydujemy, co ze swojej wiedzy i bagażu chcemy zabrać w dalszą drogę, a co z czystym sumieniem zostawiamy za sobą.",
+      "r": "Usiądź z kartką papieru, wypisz lekcje z ostatniego czasu, zrób uczciwy bilans i świadomie zdecyduj, co domykasz raz na zawsze.",
+      "u": "Wpadania w pułapkę pouczania innych i postawy „ja wiem lepiej”, która odcina nas od autentycznej bliskości z ludźmi.",
+      "s": "„Pozwól sobie na luksus zostawienia wczorajszych ciężarów tam, gdzie ich miejsce, by dzisiejszy dzień powitać z lżejszym sercem.”",
+      "fun": "Jaka relacja z przeszłości uczyła Cię najwięcej o tym, jak pięknie jest wreszcie wybrać swój własny spokój?"
+    },
+    "2027-7-19": {
+      "z": "Rak",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Pionierska, iskrząca jedynka uderza z pełną siłą tuż po procesie oczyszczenia, niosąc świeżą iskrę, jasność i gotowość do działania. To moment, w którym – mając już czystą kartę i nowe przemyślenia – decydujesz się postawić wszystko na jedną kartę i zacząć od nowa. Dziś rodzą się najciekawsze pomysły i klarowność co do kolejnego celu.",
+      "r": "Zrób pierwszy, odważny krok w nowym kierunku, zdefiniuj swój najbliższy cel i zaufaj wewnętrznemu impulsowi, który popycha Cię do przodu.",
+      "u": "Zbytniego wahania się, roztrząsania przeszłości i tłumienia swojego wewnętrznego ognia.",
+      "s": "„Każdy nowy świt to obietnica, że przeszłość nie ma już nad nami władzy, jeśli tylko odważymy się zacząć od nowa.”",
+      "fun": "W jakiej sprawie Twój wewnętrzny głos domaga się dzisiaj usłyszenia: „idę w to po swojemu”?"
+    },
+    "2027-7-20": {
+      "z": "Rak",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Wibracja dwójki wprowadza miękkość, przestrzeń na współpracę oraz moment refleksji nad drugą stroną medalu w każdej sytuacji. To dzień, w którym odkrywamy, że jedno wcale nie wyklucza drugiego, a prawdziwa siła tkwi w umiejętności słuchania swojej intuicji i budowania zdrowego partnerstwa.",
+      "r": "Posłuchaj tego, co podpowiada Ci ciało i intuicja, porozmawiaj z kimś życzliwym i spójrz na konflikt z perspektywy dwóch różnych stron.",
+      "u": "Ślepego podporządkowywania się innym oraz tłumienia własnych odczuć dla tzw. świętego spokoju.",
+      "s": "„Gdy przestajemy walczyć z odmiennym zdaniem innych, nagle dostrzegamy, że w każdej różnicy kryje się kawałek brakującej prawdy.”",
+      "fun": "Jakie najpiękniejsze, pełne akceptacji zdanie chciałabyś dzisiaj wyszeptać do swojego odbicia w lustrze?"
+    },
+    "2027-7-21": {
+      "z": "Rak",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Barwna, twórcza trójka rozświetla dzień feerią radości, ekspresji i wewnętrznej lekkości. To moment, w którym zadajemy sobie pytanie: gdzie ostatnio zapomniałam o radości i zabawie? Trójka przypomina, że życie potrafi być piękne, jeśli tylko pozwolimy sobie na odrobinę luzu i wyrażenie siebie poprzez słowo, sztukę lub uśmiech.",
+      "r": "Zrób coś czysto dla przyjemności, porozmawiaj z kimś, kto potrafi Cię rozśmieszyć, i stwórz przestrzeń na swoją naturalną kreatywność.",
+      "u": "Nadmiernej powagi, zadręczania się emocjonalnymi dylematami i brania świata zbyt mocno na barki.",
+      "s": "„Śmiech i twórcza swoboda to najprostsze klucze do serca, które pozwalają nam z powrotem poczuć lekkość istnienia.”",
+      "fun": "Co sprawia, że na samą myśl o jakimś letnim pragnieniu Twoje serce mięknie i podskakuje z radości?"
+    },
+    "2027-7-22": {
+      "z": "Rak",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Solidna, uziemiająca czwórka wkracza z potrzebą ładu, dyscypliny i budowania bezpiecznych struktur. To dzień, w którym zadajemy sobie pytanie o fundamenty i o to, jak wygląda nasza codzienna konsekwencja oraz planowanie. Czwórka uczy nas, że prawdziwe poczucie bezpieczeństwa w życiu rodzi się z małych, systematycznych kroków.",
+      "r": "Zrób porządek w swojej przestrzeni lub planach, zadbaj o rutynę, która Cię wspiera, i ugruntuj się w swoich działaniach.",
+      "u": "Sztywnego trzymania się planu za wszelką cenę, nadmiernego uporu oraz wpadania w pułapkę perfekcjonizmu.",
+      "s": "„Codzienna, cicha sumienność w małych sprawach buduje najtrwalsze mury wokół naszego spokoju.”",
+      "fun": "Jakie jedno obciążające zadanie możesz dzisiaj po prostu wykreślić z listy, dając sobie twarde przyzwolenie na oddech?"
+    },
+    "2027-7-23": {
+      "z": "Lew",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Niespokojna, wolnościowa piątka przynosi powiew świeżego powietrza, zachęcając do wyjścia poza bezpieczną strefę komfortu i sprawdzenia, co kryje się za zakrętem. To czas eksperymentów, zadawania sobie pytania, co w naszym życiu wymaga pilnej zmiany oraz uważnego przyjrzenia się naszym osobistym granicom. Piątka przypomina, że rozwój potrzebuje przestrzeni na wolność i elastyczność.",
+      "r": "Zmień coś w swojej codziennej rutynie, otwórz się na nową perspektywę i pozwól sobie na odrobinę zdrowej spontaniczności.",
+      "u": "Rozpraszania swojej energii na zbyt wiele frontów naraz oraz lęku przed tym, że stracisz nad czymś pełną kontrolę.",
+      "s": "„Czasami wystarczy skręcić w zupełnie nieznaną uliczkę, by odkryć, że świat ma dla nas o wiele więcej scenariuszy, niż zakładaliśmy.”",
+      "fun": "Z jakim przestarzałym przekonaniem na temat swoich ograniczeń chcesz się dzisiaj bezpardonowo pożegnać?"
+    },
+    "2027-7-24": {
+      "z": "Lew",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Wibracja szóstki roztacza wokół nas głęboką, ciepłą aurę domowego ogniska, etyki oraz świadomego dbania o relacje. To moment na refleksję o tym, jak dawanie ma się do brania i czy nasze ambicje nie budują się przypadkiem kosztem własnego spokoju. Szóstka uczy nas, że prawdziwa harmonia płynie z serca, które potrafi otoczyć opieką zarówno innych, jak i same siebie.",
+      "r": "Stwórz wokół siebie przytulną przestrzeń, porozmawiaj z kimś bliskim z poziomu życzliwości i zadbaj o równowagę w dawaniu wsparcia.",
+      "u": "Wchodzenia w rolę męczennika i rezygnowania z własnych granic dla świętego spokoju.",
+      "s": "„Najpiękniejszym darem, jaki możemy podarować drugiemu człowiekowi, jest nasza obecność wolna od oczekiwań i ocen.”",
+      "fun": "W którym miejscu swojego serca najbardziej potrzebujesz dzisiaj zapalić światło bezwarunkowej wyrozumiałości?"
+    },
+    "2027-7-25": {
+      "z": "Lew",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Mistyczna, badawcza siódemka zaprasza nas do głębokiej introspekcji, ciszy i studiowania tego, co ukryte pod powierzchnią codziennych spraw. To czas, w którym zadajemy sobie pytanie o nasze głębokie wartości duchowe oraz o to, czy nie komplikujemy sobie życia nadmiernym analizowaniem. Siódemka uczy nas cennego dystansu i szacunku do własnej przestrzeni.",
+      "r": "Spędź czas w samotności na łonie natury, odłącz się od nadmiaru bodźców i poszukaj odpowiedzi w ciszy swojego serca.",
+      "u": "Zbytniego izolowania się od ludzi w chłodnym sceptycyzmie oraz poczucia, że wiesz lepiej niż inni.",
+      "s": "„Prawda nie krzyczy w tłumie – ona czeka cierpliwie w ciszy, aż odważymy się z nią spotkać sam na sam.”",
+      "fun": "Co w Tobie jest tak niezmienne i silne, że żaden zewnętrzny hałas nie jest w stanie tego naruszyć?"
+    },
+    "2027-7-26": {
+      "z": "Lew",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Potężna wibracja ósemki przynosi energię sprawczości, konkretnych działań w świecie materii oraz rzetelnego bilansu naszych zasobów i finansów. To idealny moment, by przyjrzeć się temu, jak dbamy o swoje finanse, jak inwestujemy własną energię i czy potrafimy docenić owoce dotychczasowej pracy. Ósemka przypomina o prawie przyczyny i skutku – to, co siejemy w działaniu, zbieramy jako naszą rzeczywistość.",
+      "r": "Zadbaj o stabilne fundamenty finansowe, podejmij dojrzałą decyzję zawodową i z szacunkiem spójrz na swoje materialne oraz życiowe osiągnięcia.",
+      "u": "Bezwzględnego parcia po trupach do celu, przepracowywania się ponad miarę oraz lęku przed odniesieniem sukcesu.",
+      "s": "„Obfitość to nie tylko stan konta; to przede wszystkim poczucie wewnętrznego bogactwa i gotowość na przyjmowanie darów od życia.”",
+      "fun": "W jaki sposób dbasz o to, by Twoja siła nie zamieniała się w mur obronny odcinający Cię od czułości?"
+    },
+    "2027-7-27": {
+      "z": "Lew",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Wibracja dziewiątki stawia nas przed lustrem podsumowań, zapraszając do zrobienia rzetelnego bilansu i sprawdzenia, co w minionym czasie przyniosło plusy, a co okazało się obciążającym doświadczeniem. To moment przejścia z jednego etapu w drugi, w którym decydujemy, co ze swojej wiedzy i bagażu chcemy zabrać w dalszą drogę, a co z czystym sumieniem zostawiamy za sobą.",
+      "r": "Usiądź z kartką papieru, wypisz lekcje z ostatniego czasu, zrób uczciwy bilans i świadomie zdecyduj, co domykasz raz na zawsze.",
+      "u": "Wpadania w pułapkę pouczania innych i postawy „ja wiem lepiej”, która odcina nas od autentycznej bliskości z ludźmi.",
+      "s": "„Gdy z szacunkiem domykamy przeszłość, robimy w sercu przestrzeń na nowe, czyste scenariusze.”",
+      "fun": "Jaki intymny akord wdzięczności wybrzmiewa w Twoim sercu na myśl o drodze, którą już przeszłaś?"
+    },
+    "2027-7-28": {
+      "z": "Lew",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Pionierska, iskrząca jedynka uderza z pełną siłą tuż po procesie oczyszczenia, niosąc świeżą iskrę, jasność i gotowość do działania. To moment, w którym – mając już czystą kartę i nowe przemyślenia – decydujesz się postawić wszystko na jedną kartę i zacząć od nowa. Dziś rodzą się najciekawsze pomysły i klarowność co do kolejnego celu.",
+      "r": "Zrób pierwszy, odważny krok w nowym kierunku, zdefiniuj swój najbliższy cel i zaufaj wewnętrznemu impulsowi, który popycha Cię do przodu.",
+      "u": "Zbytniego wahania się, roztrząsania przeszłości i tłumienia swojego wewnętrznego ognia.",
+      "s": "„Każdy poranek to dowód na to, że wszechświat wierzy w nasze nowe początki bardziej niż my sami.”",
+      "fun": "Z jaką nową, odważną intencją chcesz wkroczyć w sam środek letniego przesilenia?"
+    },
+    "2027-7-29": {
+      "z": "Lew",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Wibracja zredukowana do dwójki wnosi niezwykle subtelną, delikatną i głęboko relacyjną energię. To dzień, w którym zasłona między ludzkimi sercami staje się cieńsza, a intuicja podpowiada najmądrzejsze rozwiązania. Dwójka uczy nas sztuki dyplomacji, uważnego słuchania i docenienia drugiej strony medalu.",
+      "r": "Przeprowadź szczerą, pełną empatii rozmowę od serca do serca, wypij w spokoju filiżankę ulubionego naparu i zaufaj swojemu wewnętrznemu głosowi.",
+      "u": "Wchodzenia w głośne konflikty, forsowania swoich racji siłą oraz tłumienia własnych odczuć dla tzw. świętego spokoju.",
+      "s": "„Czasami najgłębszą mądrością okazuje się po prostu usiąść obok kogoś i w ciszy podzielić się własnym sercem.”",
+      "fun": "W którym momencie czujesz największy opór przed przyjęciem ciepłego gestu od kogoś bliskiego i dlaczego?"
+    },
+    "2027-7-30": {
+      "z": "Lew",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Barwna, twórcza trójka rozświetla dzień feerią radości, ekspresji i wewnętrznej lekkości. To moment, w którym zadajemy sobie pytanie: gdzie ostatnio zapomniałam o radości i zabawie? Trójka przypomina, że życie potrafi być piękne, jeśli tylko pozwolimy sobie na odrobinę luzu i wyrażenie siebie poprzez słowo, sztukę lub uśmiech.",
+      "r": "Zrób coś czysto dla przyjemności, porozmawiaj z kimś, kto potrafi Cię rozśmieszyć, i stwórz przestrzeń na swoją naturalną kreatywność.",
+      "u": "Nadmiernej powagi, zadręczania się emocjonalnymi dylematami i brania świata zbyt mocno na barki.",
+      "s": "„Śmiech i twórcza swoboda to najprostsze klucze do serca, które pozwalają nam z powrotem poczuć lekkość istnienia.”",
+      "fun": "Jaka melodia lub zapach lata potrafi w ułamku sekundy odmienić Twój nastrój w iskrzącą radość?"
+    },
+    "2027-7-31": {
+      "z": "Lew",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Solidna, uziemiająca czwórka zamyka lipcowy szlak z potrzebą ładu, dyscypliny i budowania bezpiecznych struktur. To dzień podsumowania, w którym zadajemy sobie pytanie o fundamenty i o to, jak wygląda nasza codzienna konsekwencja. Czwórka uczy nas, że prawdziwe poczucie stabilności w życiu rodzi się z małych, systematycznych kroków.",
+      "r": "Podsumuj lipiec z wdzięcznością, uporządkuj swoje otoczenie i zadbaj o bezpieczną przestrzeń na nadchodzący czas.",
+      "u": "Sztywnego trzymania się planu za wszelką cenę, nadmiernego uporu oraz wpadania w pułapkę perfekcjonizmu.",
+      "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+      "fun": "Co w Twoim życiu wymaga dzisiaj nie rewolucji, lecz cichej, cierpliwej i systematycznej troski o fundamenty?"
+    },
+    "2027-8-1": {
+      "z": "Lew",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Wibracja dwójki wita nas na progu sierpnia delikatną, intuicyjną energią, która zachęca do wsłuchania się w wewnętrzny głos i zwolnienia tempa. To dzień budowania pomostów w relacjach oraz szukania bezpiecznej przystani w bezpiecznym gronie.",
+      "r": "Przeprowadź szczerą rozmowę w cztery oczy, spędź czas w spokojnej atmosferze i zaufaj swojemu cichemu przeczuciu.",
+      "u": "Hałaśliwej rywalizacji, wchodzenia w ostre spory oraz forsowania swoich racji za wszelką cenę.",
+      "s": "„Czasami największą siłą okazuje się umiejętność usiąść w ciszy i usłyszeć to, co szepcze do nas nasza intuicja.”",
+      "fun": "Co w tej chwili najbardziej potrzebuje Twojej czułej uwagi i odrobiny wewnętrznego spokoju?"
+    },
+    "2027-8-2": {
+      "z": "Lew",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Barwna, ekspresyjna trójka rozświetla poniedziałkowy poranek feerią radości, śmiechu i naturalnej, twórczej ekspresji. To wibracja, która przypomina, że życie ma w sobie mnóstwo pięknych barw, jeśli tylko pozwolimy sobie na odrobinę luzu i spontaniczności.",
+      "r": "Zrób coś czysto dla przyjemności, wyraź siebie w dowolny sposób i poszukaj powodów do uśmiechu w najprostszych sprawach.",
+      "u": "Nadmiernej powagi, wpadania w czarne myśli oraz brania na swoje barki problemów całego świata.",
+      "s": "„Radość i uśmiech to najpiękniejsze klucze, które potrafią otworzyć każde zamknięte na klucz drzwi.”",
+      "fun": "Kiedy ostatnio pozwoliłaś sobie na beztroski śmiech i radość czysto dla samej siebie?"
+    },
+    "2027-8-3": {
+      "z": "Lew",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Solidna, uziemiająca czwórka przynosi potrzebę porządku, stabilizacji i zadbania o bezpieczne, codzienne struktury. To dzień, w którym małe, systematyczne kroki budują fundamenty pod nasz długoterminowy spokój.",
+      "r": "Uporządkuj swoją przestrzeń, dokończ jedno zaległe zadanie i stwórz dla siebie przytulny, stabilny plan dnia.",
+      "u": "Sztywnego uporu, perfekcjonizmu oraz przytłaczania siebie zbyt dużą liczbą obowiązków naraz.",
+      "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+      "fun": "Jaki jeden mały krok możesz dziś zrobić, aby poczuć się w swoim życiu bezpieczniej i pewniej?"
+    },
+    "2027-8-4": {
+      "z": "Lew",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Niespokojna, wolnościowa piątka wpuszcza do naszego życia powiew świeżego powietrza, zachęcając do wyjścia poza bezpieczną strefę komfortu. To czas eksperymentów, ciekawości świata i odkrywania nowych perspektyw.",
+      "r": "Zmień coś w swojej rutynie, wyjdź na spacer zupełnie nieznaną trasą lub otwórz się na inspirującą rozmowę.",
+      "u": "Kurczowego trzymania się starych schematów, lęku przed zmianą oraz rozpraszania swojej energii na zbyt wiele stron.",
+      "s": "„Życie staje się o wiele ciekawsze, gdy przestajemy bać się tego, co nieznane i nowe.”",
+      "fun": "W którym obszarze Twojego życia przydałby się teraz mały powiew świeżości i odrobina wolności?"
+    },
+    "2027-8-5": {
+      "z": "Lew",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Ciepła wibracja szóstki roztacza wokół nas aurę domowego ogniska, harmonii oraz uważnej troski o bliskie relacje. To idealny moment, by zatroszczyć się o równowagę między dawaniem wsparcia a dbaniem o własne granice.",
+      "r": "Stwórz przytulną atmosferę w domu, porozmawiaj z kimś bliskim z poziomu serca i otocz się życzliwością.",
+      "u": "Wchodzenia w rolę męczennika i rezygnowania z siebie dla świętego spokoju innych.",
+      "s": "„Prawdziwa harmonia w relacjach rodzi się wtedy, gdy z równą miłością dbamy o innych, jak i o własne granice.”",
+      "fun": "Jak możesz dzisiaj okazać troskę i wyrozumiałość – zarówno komuś bliskiemu, jak i samej sobie?"
+    },
+    "2027-8-6": {
+      "z": "Lew",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Mistyczna, badawcza siódemka zaprasza nas do cichego wyciszenia, odcięcia się od zgiełku świata i skierowania wzroku do wewnątrz. To czas, w którym nasza intuicja i wewnętrzna mądrość dochodzą do głosu, pomagając odnaleźć odpowiedzi ukryte pod powierzchnią codziennych spraw.",
+      "r": "Spędź chwilę w samotności na łonie natury, posłuchaj uspokajającej muzyki i pozwól sobie na mentalny odpoczynek od nadmiaru bodźców.",
+      "u": "Chłodnego sceptycyzmu, nadmiernego analizowania każdego drobiazgu oraz zbytniego izolowania się od życzliwych ludzi.",
+      "s": "„Czasami wystarczy na moment wyłączyć hałas świata, by w ciszy własnego serca odnaleźć odpowiedź, której tak długo szukaliśmy.”",
+      "fun": "Co czujesz, gdy na dłuższą chwilę odetнеш się od opinii i oczekiwań innych ludzi?"
+    },
+    "2027-8-7": {
+      "z": "Lew",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Potężna wibracja ósemki przynosi energię sprawczości, konkretnych działań w świecie materii oraz rzetelnego podsumowania naszych zasobów. To idealny moment, by z szacunkiem i dumą spojrzeć na to, co udało nam się w życiu zbudować, a także zadbać o swoje stabilne fundamenty.",
+      "r": "Ureguluj ważne sprawy finansowe, podejmij dojrzałą decyzję zawodową i doceń owoce swojej dotychczasowej pracy.",
+      "u": "Bezwzględnego parcia do celu za wszelką cenę, przepracowywania się ponad miarę oraz lęku przed własną obfitością.",
+      "s": "„Obfitość to nie tylko stan konta; to przede wszystkim poczucie wewnętrznego bogactwa i gotowość na przyjmowanie darów od życia.”",
+      "fun": "Za jaki swój sukces – ten duży lub zupełnie cichy – możesz dzisiaj z całego serca sobie podziękować?"
+    },
+    "2027-8-8": {
+      "z": "Lew",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Głęboka wibracja dziewiątki stawia nas przed lustrem podsumowań, zapraszając do zrobienia rzetelnego bilansu i sprawdzenia, co w minionym czasie przyniosło plusy, a co okazało się już tylko obciążającym doświadczeniem. To piękny moment przejścia, w którym decydujemy, co zostawiamy za sobą.",
+      "r": "Usiądź z kartką papieru, wypisz lekcje z ostatniego czasu i świadomie zdecyduj, co domykasz raz na zawsze, by zrobić miejsce na nowe.",
+      "u": "Wpadania w pułapkę pouczania innych, pielęgnowania dawnych żalów oraz postawy „ja wiem lepiej”.",
+      "s": "„Odpuszczenie tego, co już odeszło, to najpiękniejszy prezent, jaki możemy podarować naszej przyszłości.”",
+      "fun": "Jaki stary ciężar lub przekonanie jesteś dzisiaj gotowa z czułością wypuścić ze swoich dłoni?"
+    },
+    "2027-8-9": {
+      "z": "Lew",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Pionierska, iskrząca jedynka uderza z pełną siłą tuż po procesie oczyszczenia, niosąc świeżą iskrę, jasność i odwagę do działania. To moment, w którym – mając już czystą kartę i nowe przemyślenia – decydujesz się postawić na siebie i zacząć od nowa.",
+      "r": "Zrób pierwszy, odważny krok w wybranym kierunku, zdefiniuj swój najbliższy cel i zaufaj wewnętrznemu impulsowi.",
+      "u": "Zbytniego wahania się, roztrząsania przeszłości i tłumienia swojego wewnętrznego ognia w obawie przed oceną.",
+      "s": "„Każdy nowy poranek to dowód na to, że wszechświat wierzy w nasze nowe początki bardziej niż my sami.”",
+      "fun": "Gdybyś nie musiała bać się absolutnie niczego, co nowego zaczęłabyś dzisiaj robić?"
+    },
+    "2027-8-10": {
+      "z": "Lew",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Subtelna wibracja dwójki wnosi niezwykle delikatną, intuicyjną i głęboko relacyjną energię. To dzień, w którym zasłona między ludzkimi sercami staje się cieńsza, a wsłuchanie się w drugiego człowieka oraz we własną intuicję przynosi największe ukojenie.",
+      "r": "Przeprowadź szczerą, pełną empatii rozmowę od serca do serca, wypij w spokoju ulubiony napar i zaufaj swojemu wewnętrznemu głosowi.",
+      "u": "Wchodzenia w głośne konflikty, forsowania swoich racji siłą oraz rezygnowania z siebie dla tzw. świętego spokoju.",
+      "s": "„Czasami najgłębszą mądrością okazuje się po prostu usiąść obok kogoś i w ciszy podzielić się własnym sercem.”",
+      "fun": "Co Twoja intuicja szepcze Ci dzisiaj w sprawie, która od dłuższego czasu nie daje Ci spokoju?"
+    },
+    "2027-8-11": {
+      "z": "Lew",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Barwna, ekspresyjna trójka rozświetla dzień feerią radości, śmiechu i naturalnej, twórczej ekspresji. To wibracja, która przypomina, że życie ma w sobie mnóstwo pięknych barw, jeśli tylko pozwolimy sobie na odrobinę luzu i spontaniczności.",
+      "r": "Zrób coś czysto dla przyjemności, wyraź siebie w dowolny sposób i poszukaj powodów do uśmiechu w najprostszych sprawach.",
+      "u": "Nadmiernej powagi, wpadania w czarne myśli oraz brania na swoje barki problemów całego świata.",
+      "s": "„Radość i uśmiech to najpiękniejsze klucze, które potrafią otworzyć każde zamknięte na klucz drzwi.”",
+      "fun": "Co dzisiaj mogłoby wywołać na Twojej twarzy uśmiech i przynieść odrobinę dziecięcej beztroski?"
+    },
+    "2027-8-12": {
+      "z": "Lew",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Solidna, uziemiająca czwórka przynosi potrzebę porządku, stabilizacji i zadbania o bezpieczne, codzienne struktury. To dzień, w którym małe, systematyczne kroki budują fundamenty pod nasz długoterminowy spokój.",
+      "r": "Uporządkuj swoją przestrzeń, dokończ jedno zaległe zadanie i stwórz dla siebie przytulny, stabilny plan dnia.",
+      "u": "Sztywnego uporu, perfekcjonizmu oraz przytłaczania siebie zbyt dużą liczbą obowiązków naraz.",
+      "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+      "fun": "Jaki jeden mały, czuły gest porządku możesz dzisiaj wykonać dla swojej przestrzeni i swojego spokoju?"
+    },
+    "2027-8-13": {
+      "z": "Lew",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Niespokojna, wolnościowa piątka wpuszcza do naszego życia powiew świeżego powietrza, zachęcając do wyjścia poza bezpieczną strefę komfortu. To czas eksperymentów, ciekawości świata i odkrywania nowych perspektyw.",
+      "r": "Zmień coś w swojej rutynie, wyjdź na spacer zupełnie nieznaną trasą lub otwórz się na inspirującą rozmowę.",
+      "u": "Kurczowego trzymania się starych schematów, lęku przed zmianą oraz rozpraszania swojej energii na zbyt wiele stron.",
+      "s": "„Życie staje się o wiele ciekawsze, gdy przestajemy bać się tego, co nieznane i nowe.”",
+      "fun": "Na jaką nową przygodę lub zmianę perspektywy czeka cicho Twoja ciekawość świata?"
+    },
+    "2027-8-14": {
+      "z": "Lew",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Ciepła wibracja szóstki roztacza wokół nas aurę domowego ogniska, harmonii oraz uważnej troski o bliskie relacje. To idealny moment, by zatroszczyć się o równowagę między dawaniem wsparcia a dbaniem o własne granice.",
+      "r": "Stwórz przytulną atmosferę w domu, porozmawiaj z kimś bliskim z poziomu serca i otocz się życzliwością.",
+      "u": "Wchodzenia w rolę męczennika i rezygnowania z siebie dla świętego spokoju innych.",
+      "s": "„Prawdziwa harmonia w relacjach rodzi się wtedy, gdy z równą miłością dbamy o innych, jak i o własne granice.”",
+      "fun": "W jaki sposób możesz dzisiaj postawić zdrową granicę z miłością do samej siebie?"
+    },
+    "2027-8-15": {
+      "z": "Lew",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Mistyczna, badawcza siódemka zaprasza nas do cichego wyciszenia, odcięcia się od zgiełku świata i skierowania wzroku do wewnątrz. To czas, w którym nasza intuicja i wewnętrzna mądrość dochodzą do głosu.",
+      "r": "Spędź chwilę w samotności na łonie natury, posłuchaj uspokajającej muzyki i pozwól sobie na mentalny odpoczynek.",
+      "u": "Chłodnego sceptycyzmu, nadmiernego analizowania każdego drobiazgu oraz zbytniego izolowania się od życzliwych ludzi.",
+      "s": "„Czasami wystarczy na moment wyłączyć hałas świata, by w ciszy własnego serca odnaleźć odpowiedź, której tak długo szukaliśmy.”",
+      "fun": "Co szepcze do Ciebie Twoja intuicja, gdy na chwilę odetniesz się od zewnętrznych oczekiwań?"
+    },
+    "2027-8-16": {
+      "z": "Lew",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Potężna wibracja ósemki przynosi energię sprawczości, konkretnych działań w świecie materii oraz rzetelnego podsumowania naszych zasobów. To idealny moment, by z szacunkiem spojrzeć na to, co udało nam się w życiu zbudować, i zadbać o swoje stabilne fundamenty.",
+      "r": "Ureguluj ważne sprawy finansowe, podejmij dojrzałą decyzję zawodową i doceń owoce swojej dotychczasowej pracy.",
+      "u": "Bezwzględnego parcia do celu za wszelką cenę, przepracowywania się ponad miarę oraz lęku przed własną obfitością.",
+      "s": "„Obfitość to nie tylko stan konta; to przede wszystkim poczucie wewnętrznego bogactwa i gotowość na przyjmowanie darów od życia.”",
+      "fun": "Jakie owoce swojej dotychczasowej pracy możesz dzisiaj z dumą i uznaniem przytulić do serca?"
+    },
+    "2027-8-17": {
+      "z": "Lew",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Głęboka wibracja dziewiątki stawia nas przed lustrem podsumowań, zapraszając do zrobienia rzetelnego bilansu i sprawdzenia, co w minionym czasie przyniosło plusy, a co okazało się już tylko obciążającym doświadczeniem. To piękny moment przejścia, w którym decydujesz, co zostawiasz za sobą.",
+      "r": "Usiądź z kartką papieru, wypisz lekcje z ostatniego czasu i świadomie zdecyduj, co domykasz raz na zawsze, by zrobić miejsce na nowe.",
+      "u": "Wpadania w pułapkę pouczania innych, pielęgnowania dawnych żalów oraz postawy „ja wiem lepiej”.",
+      "s": "„Odpuszczenie tego, co już odeszło, to najpiękniejszy prezent, jaki możemy podarować naszej przyszłości.”",
+      "fun": "Który rozdział Twojego życia domaga się już cichego, spokojnego zamknięcia, by przestać zabierać Ci cenną energię?"
+    },
+    "2027-8-18": {
+      "z": "Lew",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Pionierska, iskrząca jedynka uderza z pełną siłą tuż po procesie oczyszczenia, niosąc świeżą iskrę, jasność i odwagę do działania. To moment, w którym – mając już czystą kartę i nowe przemyślenia – decydujesz się postawić na siebie i zacząć od nowa.",
+      "r": "Zrób pierwszy, odważny krok w wybranym kierunku, zdefiniuj swój najbliższy cel i zaufaj wewnętrznemu impulsowi.",
+      "u": "Zbytniego wahania się, roztrząsania przeszłości i tłumienia swojego wewnętrznego ognia w obawie przed oceną.",
+      "s": "„Każdy nowy poranek to dowód na to, że wszechświat wierzy w nasze nowe początki bardziej niż my sami.”",
+      "fun": "Jaki pierwszy, maleńki krok do przodu sprawi, że poczujesz wiatr we własnych żaglach?"
+    },
+    "2027-8-19": {
+      "z": "Lew",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Subtelna wibracja dwójki wnosi niezwykle delikatną, intuicyjną i głęboko relacyjną energię. To dzień, w którym zasłona między ludzkimi sercami staje się cieńsza, a wsłuchanie się w drugiego człowieka oraz we własną intuicję przynosi największe ukojenie.",
+      "r": "Przeprowadź szczerą, pełną empatii rozmowę od serca do serca, wypij w spokoju ulubiony napar i zaufaj swojemu wewnętrznemu głosowi.",
+      "u": "Wchodzenia w głośne konflikty, forsowania swoich racji siłą oraz rezygnowania z siebie dla tzw. świętego spokoju.",
+      "s": "„Czasami najgłębszą mądrością okazuje się po prostu usiąść obok kogoś i w ciszy podzielić się własnym sercem.”",
+      "fun": "Kto w Twoim otoczeniu potrzebuje dzisiaj Twojej cichej, ciepłej obecności bez żadnych rad i ocen?"
+    },
+    "2027-8-20": {
+      "z": "Lew",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Barwna, ekspresyjna trójka rozświetla dzień feerią radości, śmiechu i naturalnej, twórczej ekspresji. To wibracja, która przypomina, że życie ma w sobie mnóstwo pięknych barw, jeśli tylko pozwolimy sobie na odrobinę luzu i spontaniczności.",
+      "r": "Zrób coś czysto dla przyjemności, wyraź siebie w dowolny sposób i poszukaj powodów do uśmiechu w najprostszych sprawach.",
+      "u": "Nadmiernej powagi, wpadania w czarne myśli oraz brania na swoje barki problemów całego świata.",
+      "s": "„Radość i uśmiech to najpiękniejsze klucze, które potrafią otworzyć każde zamknięte na klucz drzwi.”",
+      "fun": "W jaki sposób możesz dzisiaj pozwolić swojej kreatywności i wewnętrznemu dziecku dojść do głosu?"
+    },
+    "2027-8-21": {
+      "z": "Lew",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Solidna, uziemiająca czwórka przynosi potrzebę porządku, stabilizacji i zadbania o bezpieczne, codzienne struktury. To dzień, w którym małe, systematyczne kroki budują fundamenty pod nasz długoterminowy spokój.",
+      "r": "Uporządkuj swoją przestrzeń, dokończ jedno zaległe zadanie i stwórz dla siebie przytulny, stabilny plan dnia.",
+      "u": "Sztywnego uporu, perfekcjonizmu oraz przytłaczania siebie zbyt dużą liczbą obowiązków naraz.",
+      "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+      "fun": "Który element Twojej codzienności wymaga teraz łagodnego ułożenia, by przestać Cię przytłaczać?"
+    },
+    "2027-8-22": {
+      "z": "Lew",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Niespokojna, wolnościowa piątka wpuszcza do naszego życia powiew świeżego powietrza, zachęcając do wyjścia poza bezpieczną strefę komfortu. To czas eksperymentów, ciekawości świata i odkrywania nowych perspektyw.",
+      "r": "Zmień coś w swojej rutynie, wyjdź na spacer zupełnie nieznaną trasą lub otwórz się na inspirującą rozmowę.",
+      "u": "Kurczowego trzymania się starych schematów, lęku przed zmianą oraz rozpraszania swojej energii na zbyt wiele stron.",
+      "s": "„Życie staje się o wiele ciekawsze, gdy przestajemy bać się tego, co nieznane i nowe.”",
+      "fun": "W jakiej dziedzinie życia czujesz największą ochotę na zrzucenie dawnych ograniczeń i oddech pełną piersią?"
+    },
+    "2027-8-23": {
+      "z": "Panna",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Ciepła wibracja szóstki roztacza wokół nas aurę domowego ogniska, harmonii oraz uważnej troski o bliskie relacje. To idealny moment, by zatroszczyć się o równowagę między dawaniem wsparcia a dbaniem o własne granice.",
+      "r": "Stwórz przytulną atmosferę w domu, porozmawiaj z kimś bliskim z poziomu serca i otocz się życzliwością.",
+      "u": "Wchodzenia w rolę męczennika i rezygnowania z siebie dla świętego spokoju innych.",
+      "s": "„Prawdziwa harmonia w relacjach rodzi się wtedy, gdy z równą miłością dbamy o innych, jak i o własne granice.”",
+      "fun": "Jakie dobrodziejstwo płynące z domowego ciepła i spokoju możesz dzisiaj podarować samej sobie?"
+    },
+    "2027-8-24": {
+      "z": "Panna",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Mistyczna, badawcza siódemka zaprasza nas do cichego wyciszenia, odcięcia się od zgiełku świata i skierowania wzroku do wewnątrz. To czas, w którym nasza intuicja i wewnętrzna mądrość dochodzą do głosu.",
+      "r": "Spędź chwilę w samotności na łonie natury, posłuchaj uspokajającej muzyki i pozwól sobie na mentalny odpoczynek.",
+      "u": "Chłodnego sceptycyzmu, nadmiernego analizowania każdego drobiazgu oraz zbytniego izolowania się od życzliwych ludzi.",
+      "s": "„Czasami wystarczy na moment wyłączyć hałas świata, by w ciszy własnego serca odnaleźć odpowiedź, której tak długo szukaliśmy.”",
+      "fun": "Jaka ukryta dotąd odpowiedź czeka na Ciebie w bezpiecznej ciszy Twoich myśli?"
+    },
+    "2027-8-25": {
+      "z": "Panna",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Potężna wibracja ósemki przynosi energię sprawczości, konkretnych działań w świecie materii oraz rzetelnego podsumowania naszych zasobów. To idealny moment, by z szacunkiem spojrzeć na to, co udało nam się w życiu zbudować, i zadbać o swoje stabilne fundamenty.",
+      "r": "Ureguluj ważne sprawy finansowe, podejmij dojrzałą decyzję zawodową i doceń owoce swojej dotychczasowej pracy.",
+      "u": "Bezwzględnego parcia do celu za wszelką cenę, przepracowywania się ponad miarę oraz lęku przed własną obfitością.",
+      "s": "„Obfitość to nie tylko stan konta; to przede wszystkim poczucie wewnętrznego bogactwa i gotowość na przyjmowanie darów od życia.”",
+      "fun": "Jakie poczucie wewnętrznej siły i stabilności towarzyszy Ci, gdy spoglądasz na swoją dotychczasową drogę?"
+    },
+    "2027-8-26": {
+      "z": "Panna",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Głęboka wibracja dziewiątki stawia nas przed lustrem podsumowań, zapraszając do zrobienia rzetelnego bilansu i sprawdzenia, co w minionym czasie przyniosło plusy, a co okazało się już tylko obciążającym doświadczeniem. To piękny moment przejścia, w którym decydujesz, co zostawiasz za sobą.",
+      "r": "Usiądź z kartką papieru, wypisz lekcje z ostatniego czasu i świadomie zdecyduj, co domykasz raz na zawsze, by zrobić miejsce na nowe.",
+      "u": "Wpadania w pułapkę pouczania innych, pielęgnowania dawnych żalów oraz postawy „ja wiem lepiej”.",
+      "s": "„Odpuszczenie tego, co już odeszło, to najpiękniejszy prezent, jaki możemy podarować naszej przyszłości.”",
+      "fun": "Jaką jedną cenną lekcję z minionych tygodni zabierasz ze sobą z wdzięcznością w dalszą drogę?"
+    },
+    "2027-8-27": {
+      "z": "Panna",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Pionierska, iskrząca jedynka uderza z pełną siłą tuż po procesie oczyszczenia, niosąc świeżą iskrę, jasność i odwagę do działania. To moment, w którym – mając już czystą kartę i nowe przemyślenia – decydujesz się postawić na siebie i zacząć od nowa.",
+      "r": "Zrób pierwszy, odważny krok w wybranym kierunku, zdefiniuj swój najbliższy cel i zaufaj wewnętrznemu impulsowi.",
+      "u": "Zbytniego wahania się, roztrząsania przeszłości i tłumienia swojego wewnętrznego ognia w obawie przed oceną.",
+      "s": "„Każdy nowy poranek to dowód na to, że wszechświat wierzy w nasze nowe początki bardziej niż my sami.”",
+      "fun": "Do jakiego nowego pragnienia Twojego serca wszechświat otwiera dzisiaj szeroko drzwi?"
+    },
+    "2027-8-28": {
+      "z": "Panna",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Subtelna wibracja dwójki wnosi niezwykle delikatną, intuicyjną i głęboko relacyjną energię. To dzień, w którym zasłona między ludzkimi sercami staje się cieńsza, a wsłuchanie się w drugiego człowieka oraz we własną intuicję przynosi największe ukojenie.",
+      "r": "Przeprowadź szczerą, pełną empatii rozmowę od serca do serca, wypij w spokoju ulubiony napar i zaufaj swojemu wewnętrznemu głosowi.",
+      "u": "Wchodzenia w głośne konflikty, forsowania swoich racji siłą oraz rezygnowania z siebie dla tzw. świętego spokoju.",
+      "s": "„Czasami najgłębszą mądrością okazuje się po prostu usiąść obok kogoś i w ciszy podzielić się własnym sercem.”",
+      "fun": "Jak możesz dzisiaj okazać sobie czułość w miejscach, które dawno nie były przytulone?"
+    },
+    "2027-8-29": {
+      "z": "Panna",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Barwna, ekspresyjna trójka rozświetla dzień feerią radości, śmiechu i naturalnej, twórczej ekspresji. To wibracja, która przypomina, że życie ma w sobie mnóstwo pięknych barw, jeśli tylko pozwolimy sobie na odrobinę luzu i spontaniczności.",
+      "r": "Zrób coś czysto dla przyjemności, wyraź siebie w dowolny sposób i poszukaj powodów do uśmiechu w najprostszych sprawach.",
+      "u": "Nadmiernej powagi, wpadania w czarne myśli oraz brania na swoje barki problemów całego świata.",
+      "s": "„Radość i uśmiech to najpiękniejsze klucze, które potrafią otworzyć każde zamknięte na klucz drzwi.”",
+      "fun": "Jaki twórczy impuls lub mała radość sprawią, że Twój dzień nabierze wyjątkowych barw?"
+    },
+    "2027-8-30": {
+      "z": "Panna",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Solidna, uziemiająca czwórka przynosi potrzebę porządku, stabilizacji i zadbania o bezpieczne, codzienne struktury. To dzień, w którym małe, systematyczne kroki budują fundamenty pod nasz długoterminowy spokój.",
+      "r": "Uporządkuj swoją przestrzeń, dokończ jedno zaległe zadanie i stwórz dla siebie przytulny, stabilny plan dnia.",
+      "u": "Sztywnego uporu, perfekcjonizmu oraz przytłaczania siebie zbyt dużą liczbą obowiązków naraz.",
+      "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+      "fun": "W jaki sposób możesz dzisiaj otulić poczuciem bezpieczeństwa to, co w Twoim życiu jest najbardziej delikatne?"
+    },
+    "2027-8-31": {
+      "z": "Panna",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Niespokojna, wolnościowa piątka zamyka sierpniowy szlak powiewem świeżego powietrza, zachęcając do spojrzenia wstecz z wdzięcznością i otwarcia się na to, co przyniesie jesień. To czas radosnego pożegnania lata i docenienia własnej drogi.",
+      "r": "Podsumuj sierpień z uśmiechem, wyjdź na pożegnalny, letni spacer i podziękuj sobie za każdą chwilę odwagi.",
+      "u": "Lęku przed nadchodzącymi zmianami oraz kurczowego trzymania się tego, co już odeszło.",
+      "s": "„Każde zakończenie to tak naprawdę cichy szept wszechświata, że czas napisać kolejny, piękny rozdział.”",
+      "fun": "Za co z całego serca chcesz podziękować temu letniemu miesiącowi, zanim zamkniesz jego drzwi?"
+    },
+    "2027-9-1": {
+      "z": "Panna",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Barwna, ekspresyjna trójka wita nas na progu września feerią radości, śmiechu i naturalnej, twórczej ekspresji. To wibracja, która przypomina, że nawet wchodząc w nowy, bardziej refleksyjny miesiąc, warto zachować w sercu lekkość, uśmiech i gotowość do dzielenia się dobrą energią z innymi.",
+      "r": "Zrób coś czysto dla przyjemności, porozmawiaj z kimś, kto potrafi Cię zainspirować, i wyraź siebie w dowolny, twórczy sposób.",
+      "u": "Nadmiernej powagi, wpadania w czarne myśli oraz brania na swoje barki problemów całego świata.",
+      "s": "„Radość i uśmiech to najpiękniejsze klucze, które potrafią otworzyć każde zamknięte na klucz drzwi.”",
+      "fun": "Co dzisiaj mogłoby wywołać uśmiech na Twojej twarzy i wnieść odrobinę radosnej lekkości w pierwszy dzień września?"
+    },
+    "2027-9-2": {
+      "z": "Panna",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Solidna, uziemiająca czwórka wkracza z potrzebą ładu, dyscypliny i budowania bezpiecznych struktur na nadchodzący miesiąc. To dzień, w którym małe, systematyczne kroki oraz troska o uporządkowanie codzienności pomagają nam poczuć stabilny grunt pod nogami.",
+      "r": "Zadbaj o swoją przestrzeń, zaplanuj najbliższe zadania w spokojnym tempie i dokończ jedną zaległą sprawę, która da Ci ulgę.",
+      "u": "Sztywnego uporu, perfekcjonizmu oraz przytłaczania siebie zbyt dużą liczbą obowiązków naraz.",
+      "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+      "fun": "Jaki jeden mały, czuły gest porządku możesz dzisiaj wykonać dla swojej przestrzeni i swojego wewnętrznego spokoju?"
+    },
+    "2027-9-3": {
+      "z": "Panna",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Niespokojna, wolnościowa piątka wpuszcza do naszego życia powiew świeżego powietrza, zachęcając do wyjścia poza bezpieczną strefę komfortu i spojrzenia na sprawy z zupełnie nowej perspektywy. To czas ciekawości świata i poszukiwania elastyczności.",
+      "r": "Zmień coś w swojej rutynie, wyjdź na spacer zupełnie nieznaną trasą lub otwórz się na inspirującą, szczerą rozmowę.",
+      "u": "Kurczowego trzymania się starych schematów, lęku przed zmianą oraz rozpraszania swojej energii na zbyt wiele stron.",
+      "s": "„Życie staje się o wiele ciekawsze, gdy przestajemy bać się tego, co nieznane i nowe.”",
+      "fun": "W jakiej dziedzinie życia czujesz największą ochotę na zrzucenie dawnych ograniczeń i oddech pełną piersią?"
+    },
+    "2027-9-4": {
+      "z": "Panna",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Ciepła wibracja szóstki roztacza wokół nas aurę domowego ogniska, harmonii oraz uważnej troski o bliskie relacje. To idealny moment, by zatroszczyć się o równowagę między dawaniem wsparcia innym a czułym stawianiem własnych granic.",
+      "r": "Stwórz przytulną atmosferę w domu, porozmawiaj z kimś bliskim z poziomu serca i otocz się życzliwością.",
+      "u": "Wchodzenia w rolę męczennika i rezygnowania z siebie dla świętego spokoju otoczenia.",
+      "s": "„Prawdziwa harmonia w relacjach rodzi się wtedy, gdy z równą miłością dbamy o innych, jak i o własne granice.”",
+      "fun": "Jakie dobrodziejstwo płynące z domowego ciepła i spokoju możesz dzisiaj podarować samej sobie?"
+    },
+    "2027-9-5": {
+      "z": "Panna",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Mistyczna, badawcza siódemka zaprasza nas do cichego wyciszenia, odcięcia się od zgiełku świata i skierowania wzroku do wewnątrz. To czas, w którym nasza intuicja i wewnętrzna mądrość dochodzą do głosu, przynosząc upragnione ukojenie.",
+      "r": "Spędź chwilę w samotności, posłuchaj uspokajającej ciszy lub delikatnej muzyki i pozwól sobie na mentalny odpoczynek.",
+      "u": "Chłodnego sceptycyzmu, nadmiernego analizowania każdego drobiazgu oraz zbytniego izolowania się od życzliwych ludzi.",
+      "s": "„Czasami wystarczy na moment wyłączyć hałas świata, by w ciszy własnego serca odnaleźć odpowiedź, której tak długo szukaliśmy.”",
+      "fun": "Jaka ukryta dotąd odpowiedź czeka na Ciebie w bezpiecznej ciszy Twoich własnych myśli?"
+    },
+    "2027-9-6": {
+      "z": "Panna",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Dostojna, sprawcza ósemka wkracza z energią wewnętrznej siły, dojrzałości i mądrego zarządzania tym, co już w życiu osiągnęłyśmy. To dzień, w którym materia spotyka się z duchem, pokazując nam, że prawdziwa obfitość zaczyna się od poczucia szacunku do własnych talentów i wysiłku.",
+      "r": "Zadbaj o stabilne fundamenty swoich spraw, podejmij odważną, dorosłą decyzję i spójrz na swoje dotychczasowe osiągnięcia z dumą, a nie surową oceną.",
+      "u": "Bezwzględnego parcia do przodu kosztem własnego zdrowia, przepracowywania się oraz wpadania w pułapkę ciągłego udowadniania czegoś światu.",
+      "s": "„Prawdziwe bogactwo to cicha pewność siebie, która rodzi się wtedy, gdy doceniamy każdy krok stawiany we własnej intencji.”",
+      "fun": "Jakie swoje dotychczasowe osiągnięcie możesz dzisiaj przytulić z wdzięcznością, uznając je za swój osobisty sukces?"
+    },
+    "2027-9-7": {
+      "z": "Panna",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Głęboka, transformująca dziewiątka otwiera przed nami przestrzeń na miękkie domknięcie i oczyszczenie. To wibracja, która uczy nas sztuki pożegnań – nie ze smutkiem, lecz z wdzięcznością za lekcje, jakie przyniosły nam minione doświadczenia, byśmy mogły ruszyć dalej z lżejszym sercem.",
+      "r": "Zrób porządek w emocjach lub w fizycznej przestrzeni, spisz na kartce to, co chcesz zostawić za sobą, i pozwól sobie na chwilę wzruszenia oraz ulgi.",
+      "u": "Kurczowego trzymania się tego, co dawno straciło już swój blask, oraz wchodzenia w rolę kogoś, kto musi zbawić cały świat.",
+      "s": "„Najlżejszy bagaż w dalszą drogę niesie ten, kto potrafi z czułością zamknąć drzwi do przeszłości i podziękować za to, co już mija.”",
+      "fun": "Która z minionych historii w Twoim życiu szepcze Ci dzisiaj: „już czas, możesz mnie puścić”?"
+    },
+    "2027-9-8": {
+      "z": "Panna",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Świeża, iskrząca jedynka rozbłyska niczym pierwszy promień słońca po burzowej nocy. To potężny impuls czystej karty – moment, w którym przeszłość zostaje za nami, a w naszych dłoniach pojawia się niezwykła, niczym niezmącona moc tworzenia nowego początku.",
+      "r": "Zrób pierwszy, odważny krok w stronę swojego marzenia, odważnie zdefiniuj to, czego pragniesz dla siebie, i zaufaj swojemu wewnętrznemu ogniowi.",
+      "u": "Oglądania się za siebie, wątpienia w swoje możliwości oraz tłumienia głosu intuicji przez lęk przed tym, co powiedzą inni.",
+      "s": "„Każdy świt jest dowodem na to, że wszechświat stale daje nam szansę na napisanie naszej opowieści na nowo.”",
+      "fun": "Gdyby nikt Cię teraz nie oceniał, jaką odważną decyzję podjęłabyś dla samej siebie jeszcze dzisiaj?"
+    },
+    "2027-9-9": {
+      "z": "Panna",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Otulająca, niezwykle empatyczna dwójka wnosi do naszej codzienności zapach spokoju, ciszy i bliskości. To dzień, w którym relacje z drugim człowiekiem – a przede wszystkim z samym sobą – zyskują najgłębszy, uzdrawiający wymiar.",
+      "r": "Usiądź w bezpiecznym kąciku z kubkiem ulubionej herbaty, otocz ciepłem kogoś bliskiego lub podaruj sobie samą wyrozumiałość w trudniejszym momencie.",
+      "u": "Forsowania czegokolwiek siłą, ulegania presji otoczenia oraz duszenia w sobie emocji dla tzw. świętego spokoju.",
+      "s": "„Czasami najwspanialszą odpowiedzią na hałas świata jest czuła obecność kogoś, kto rozumie nas bez ani jednego słowa.”",
+      "fun": "Jaką czułą przestrzeń możesz dzisiaj stworzyć dla swojego zmęczonego serca?"
+    },
+    "2027-9-10": {
+      "z": "Panna",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Barwna, radosna trójka maluje dzisiejszy dzień wszystkimi odcieniami uśmiechu, twórczej ekspresji i wewnętrznej swobody. To moment, w którym codzienne obowiązki ustępują miejsca lekkości, tańcu, sztuce i czystej radości z istnienia.",
+      "r": "Zrób coś całkowicie bezcelowego, ale dającego mnóstwo frajdy – zaśpiewaj, napisz kilka słów od serca, wyjdź na spacer i zachwyć się prostotą otaczającego świata.",
+      "u": "Popadania w nadmierną powagą, analizowania każdego błędu oraz brania na swoje barki ciężarów, które do Ciebie nie należą.",
+      "s": "„Radość nie jest luksusem; to naturalny stan duszy, która przypomina nam, jak pięknie jest po prostu żyć.”",
+      "fun": "Co sprawi, że na Twojej twarzy zagości dzisiaj szczery, niczym niezmącony uśmiech dziecka?"
+    },
+    "2027-9-11": {
+      "z": "Panna",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Solidna, uziemiająca czwórka przynosi dzisiaj niezwykle potrzebny spokój, harmonię opartą na porządku oraz poczucie, że stabilne fundamenty buduje się z małych, codziennych gestów. To dzień, w którym nasza uwaga naturalnie wędruje ku temu, co daje nam poczucie bezpieczeństwa i życiowej stabilności.",
+      "r": "Zadbaj o swoją fizyczną przestrzeń, ułóż luźne plany w przejrzystą całość i wykonaj jedno sumienne zadanie, które przyniesie Ci ulgę.",
+      "u": "Sztywnego trzymania się zasad kosztem elastyczności, perfekcjonizmu oraz przytłaczania się nadmiarem obowiązków.",
+      "s": "„Prawdziwy spokój rodzi się tam, gdzie z czułą cierpliwością dbamy o codzienne, ciche fundamenty naszego świata.”",
+      "fun": "Jaki jeden mały krok możesz dzisiaj wykonać, aby Twoja codzienność stała się dla Ciebie bezpieczniejszą i bardziej wspierającą przystanią?"
+    },
+    "2027-9-12": {
+      "z": "Panna",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Niespokojna, wolnościowa piątka wpuszcza do naszej rzeczywistości powiew świeżego powietrza, zachęcając do wyjścia poza utarte schematy i otwarcia się na zupełnie nowe doświadczenia. To czas, w którym nasza ciekawość świata szuka dróg do poszerzenia horyzontów.",
+      "r": "Zmień coś w swojej rutynie – choćby trasę spaceru lub sposób spędzenia popołudnia – i pozwól sobie na odrobinę zdrowej, radosnej spontaniczności.",
+      "u": "Lęku przed tym, co nieznane, kurczowego trzymania się dawnych przyzwyczajeń oraz rozpraszania uwagi na zbyt wiele różnych stron.",
+      "s": "„Życie nabiera najpiękniejszych barw wtedy, gdy przestajemy bać się zakrętów i z ciekawością zaglądamy za kolejne wzgórze.”",
+      "fun": "W jakim obszarze swojego życia czujesz największą gotowość na zrzucenie starych ograniczeń i głęboki wdech pełną piersią?"
+    },
+    "2027-9-13": {
+      "z": "Panna",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Ciepła, opiekuńcza wibracja szóstki otula nas niczym miękki pled w chłodniejszy poranek, kierując całą uwagę ku sercu, domowemu ognisku i bliskim relacjom. To idealny moment na budowanie mostów zrozumienia i otulenie życzliwością zarówno innych, jak i samej siebie.",
+      "r": "Stwórz wokół siebie przytulną atmosferę, porozmawiaj z kimś bliskim z poziomu czystej empatii i podaruj sobie chwilę zasłużonego odpoczynku.",
+      "u": "Wchodzenia w rolę ratownika kosztem własnych sił, rezygnowania z osobistych granic oraz brania na siebie cudzych ciężarów.",
+      "s": "„Najpiękniejszym domem, o jaki możemy dbać każdego dnia, jest przestrzeń spokojnego, otwartego na miłość serca.”",
+      "fun": "Jak możesz dzisiaj okazać sobie samą czułość w miejscu, które najbardziej domaga się Twojej wyrozumiałości?"
+    },
+    "2027-9-14": {
+      "z": "Panna",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Mistyczna, badawcza siódemka zaprasza nas do świętej przestrzeni ciszy, refleksji i bezpiecznego oddalenia się od zgiełku świata. To wibracja, która przypomina, że najcenniejsze odpowiedzi nigdy nie znikają – czekają po prostu cierpliwie, aż odważymy się usłyszeć własny wewnętrzny głos.",
+      "r": "Spędź trochę czasu w samotności, wsłuchaj się w szum przyrody lub odłącz się na kilka godzin od ekranów i powiadomień.",
+      "u": "Chłodnego sceptycyzmu, nadmiernego analizowania przeszłych zdarzeń oraz zbytniego odsuwania się od ludzi, którzy darzą Cię szczerym ciepłem.",
+      "s": "„Prawda nie potrzebuje krzyku – ona rozkwita najpiękniej w cichej i bezpiecznej przestrzeni naszej własnej duszy.”",
+      "fun": "Co szepcze do Ciebie Twoja intuicja w tej ciszy, gdy na moment odetnasz się od oczekiwań całego świata?"
+    },
+    "2027-9-15": {
+      "z": "Panna",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Potężna, dojrzała ósemka przynosi energię sprawczości, konkretnych owoców naszej pracy oraz mądrego zarządzania wewnętrzną i zewnętrzną obfitością. To dzień, w którym bierzemy stery w swoje ręce, pamiętając, że nasza siła wypływa z szacunku do własnych wysiłków.",
+      "r": "Podejmij dojrzałą decyzję dotyczącą swoich planów, ureguluj zaległe sprawy materialne i z dumą spójrz na to, co udało Ci się w życiu zbudować.",
+      "u": "Bezwzględnego parcia do przodu za wszelką cenę, przepracowywania się ponad miarę oraz surowego, bezwzględnego rozliczania samej siebie.",
+      "s": "„Prawdziwa obfitość to nie tylko materialny sukces; to przede wszystkim głębokie poczucie własnej wartości i zgoda na przyjmowanie darów od losu.”",
+      "fun": "Za jaki swój sukces – nawet ten najcichszy i najbardziej ukryty przed światem – możesz dzisiaj z całego serca sobie podziękować?"
+    },
+    "2027-9-16": {
+      "z": "Panna",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Głęboka, transformująca dziewiątka zaprasza nas do cichego podsumowania i łagodnego domknięcia tego, co w minionym czasie dobiegło końca. To moment, w którym – zdejmując z ramion zbędny bagaż – robimy w sercu czystą przestrzeń na nowe, lżejsze scenariusze.",
+      "r": "Usiądź w ciszy z kartką papieru, spisz to, co chcesz pożegnać, i z pełną wdzięcznością podziękuj za lekcje, które wniosły te doświadczenia do Twojego życia.",
+      "u": "Kurczowego trzymania się dawnych żalów, wchodzenia w rolę zbawiciela innych oraz tłumienia swoich emocji.",
+      "s": "„Pozwól sobie na luksus zostawienia wczorajszych ciężarów tam, gdzie ich miejsce, by dzisiejszy dzień powitać z lżejszym i spokojniejszym sercem.”",
+      "fun": "Jaki stary ciężar lub przestarzałe przekonanie jesteś dzisiaj gotowa z czułością wypuścić ze swoich dłoni?"
+    },
+    "2027-9-17": {
+      "z": "Panna",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Iskrząca, pionierska jedynka przynosi powiew świeżej energii, jasność intencji i odwagę do postawienia pierwszego kroku na nowej ścieżce. To czysta, niczym niezmącona karta, która szepcze, że nigdy nie jest za późno, by zacząć od nowa.",
+      "r": "Zdefiniuj swój nowy, mały cel, zrób coś w kierunku swoich marzeń i zaufaj wewnętrznemu impulsowi, który popycha Cię do przodu.",
+      "u": "Rozpamiętywania przeszłości, zwlekania z podjęciem decyzji oraz lęku przed tym, co powiedzą inni.",
+      "s": "„Każdy nowy poranek to obietnica, że przeszłość nie ma nad nami władzy, jeśli tylko odważymy się otworzyć drzwi do tego, co przed nami.”",
+      "fun": "Gdybyś wiedziała, że nie możesz ponieść porażki, jaki odważny krok zrobiłabyś dzisiaj dla samej siebie?"
+    },
+    "2027-9-18": {
+      "z": "Panna",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Subtelna, otulająca dwójka wnosi do naszej codzienności zapach spokoju, empatii i głębokiego wsłuchania się w drugiego człowieka oraz we własną intuicję. To dzień, w którym najpiękniejsze odpowiedzi rodzą się w ciszy i łagodnej bliskości.",
+      "r": "Porozmawiaj z kimś bliskim z poziomu otwartego serca, spędź czas w przytulnej atmosferze i posłuchaj tego, co podpowiada Ci Twój wewnętrzny głos.",
+      "u": "Wchodzenia w głośne konflikty, forsowania swoich racji siłą oraz rezygnowania z własnych odczuć dla tzw. świętego spokoju.",
+      "s": "„Czasami najgłębszą mądrością okazuje się po prostu usiąść obok kogoś i w ciszy podzielić się własnym, czułym sercem.”",
+      "fun": "Co Twoja intuicja szepcze Ci dzisiaj w sprawie, która od dłuższego czasu domaga się Twojej uwagi?"
+    },
+    "2027-9-19": {
+      "z": "Panna",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Barwna, radosna trójka rozświetla dzień feerią uśmiechu, twórczej ekspresji i lekkiego, swobodnego przepływu. To wibracja, która przypomina, że życie ma w sobie mnóstwo pięknych barw, jeśli tylko pozwolimy sobie na odrobinę spontaniczności i zabawy.",
+      "r": "Zrób coś czysto dla przyjemności, wyraź siebie w dowolny, twórczy sposób i poszukaj powodów do uśmiechu w najprostszych, codziennych gestach.",
+      "u": "Nadmiernej powagi, wpadania w czarne myśli oraz brania na swoje barki problemów całego świata.",
+      "s": "„Radość i uśmiech to najpiękniejsze klucze, które potrafią otworzyć każde zamknięte na klucz drzwi.”",
+      "fun": "Co dzisiaj mogłoby wywołać szczery uśmiech na Twojej twarzy i wnieść do Twojego dnia odrobinę beztroski?"
+    },
+    "2027-9-20": {
+      "z": "Panna",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Solidna, uziemiająca czwórka przynosi potrzebę ładu, dyscypliny i zadbania o bezpieczne, codzienne struktury. To dzień, w którym małe, systematyczne kroki budują fundamenty pod nasz długoterminowy wewnętrzny spokój.",
+      "r": "Uporządkuj swoją przestrzeń, dokończ jedno zaległe zadanie i stwórz dla siebie przytulny, stabilny plan na najbliższy czas.",
+      "u": "Sztywnego uporu, perfekcjonizmu oraz przytłaczania siebie zbyt dużą liczbą obowiązków naraz.",
+      "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+      "fun": "Jaki jeden mały, czuły gest porządku możesz dzisiaj wykonać dla swojej przestrzeni i swojego spokoju?"
+    },
+    "2027-9-21": {
+      "z": "Panna",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Niespokojna, wolnościowa piątka wpuszcza do naszej codzienności orzeźwiający powiew świeżego powietrza, zachęcając do wyjścia poza bezpieczną, ale czasem zbyt ciasną strefę komfortu. To dzień odkrywania nowych perspektyw i radosnej ciekawości świata.",
+      "r": "Zmień coś w swojej rutynie, wybierz się na spacer zupełnie nieznaną trasą lub otwórz się na inspirującą, odkrywczą rozmowę.",
+      "u": "Kurczowego trzymania się starych schematów, lęku przed zmianą oraz rozpraszania swojej energii na zbyt wiele frontów naraz.",
+      "s": "„Życie staje się o wiele ciekawsze, gdy przestajemy bać się tego, co nieznane i z odwagą spoglądamy za kolejne zakręty.”",
+      "fun": "W jakim obszarze swojego życia czujesz największą ochotę na zrzucenie dawnych ograniczeń i zaczerpnięcie powietrza pełną piersią?"
+    },
+    "2027-9-22": {
+      "z": "Panna",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Ciepła wibracja szóstki otula nas niczym miękki koc, kierując całą uwagę ku domowemu ognisku, harmonii oraz uważnej trosce o relacje z bliskimi. To idealny moment na budowanie mostów zaufania i czułe zaopiekowanie się samą sobą.",
+      "r": "Stwórz wokół siebie przytulną przestrzeń, porozmawiaj z kimś bliskim z poziomu otwartego serca i podaruj sobie chwilę zasłużonego wytchnienia.",
+      "u": "Wchodzenia w rolę ratownika kosztem własnych sił, rezygnowania z osobistych granic oraz brania na siebie cudzych ciężarów.",
+      "s": "„Najpiękniejszym domem, o jaki możemy dbać każdego dnia, jest przestrzeń spokojnego, otwartego na miłość i akceptację serca.”",
+      "fun": "Jak możesz dzisiaj okazać sobie czułość w miejscach, które najbardziej potrzebują Twojej wyrozumiałości?"
+    },
+    "2027-9-23": {
+      "z": "Waga",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Mistyczna, badawcza siódemka zaprasza nas do świętej przestrzeni ciszy, refleksji i bezpiecznego oddalenia się od codziennego zgiełku. To czas, w którym nasza intuicja i wewnętrzna mądrość dochodzą do głosu, przynosząc upragnione ukojenie.",
+      "r": "Spędź trochę czasu w samotności na łonie natury, posłuchaj uspokajającej ciszy i pozwól sobie na mentalny odpoczynek od nadmiaru bodźców.",
+      "u": "Chłodnego sceptycyzmu, nadmiernego analizowania przeszłości oraz zbytniego izolowania się od ludzi, którzy darzą Cię szczerym ciepłem.",
+      "s": "„Prawda nie potrzebuje hałasu – ona rozkwita najpiękniej w cichej i bezpiecznej przestrzeni naszej własnej duszy.”",
+      "fun": "Jaka cicha, wewnętrzna odpowiedź czeka na Ciebie w bezpiecznej ciszy Twoich myśli, gdy odetniesz się od opinii innych?"
+    },
+    "2027-9-24": {
+      "z": "Waga",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Potężna, dojrzała ósemka przynosi energię sprawczości, konkretnych owoców naszej pracy oraz mądrego zarządzania wewnętrzną obfitością. To dzień, w którym bierzemy stery w swoje ręce, pamiętając, że nasza siła wypływa z szacunku do własnych wysiłków.",
+      "r": "Ureguluj ważne sprawy, podejmij dojrzałą decyzję dotyczącą swoich planów i z dumą spójrz na to, co udało Ci się w życiu zbudować.",
+      "u": "Bezwzględnego parcia do przodu za wszelką cenę, przepracowywania się ponad miarę oraz surowego rozliczania samej siebie.",
+      "s": "„Prawdziwa obfitość to nie tylko materialny sukces; to przede wszystkim głębokie poczucie własnej wartości i zgoda na przyjmowanie darów od losu.”",
+      "fun": "Za jaki swój sukces – nawet ten najcichszy i ukryty przed światem – możesz dzisiaj z całego serca sobie podziękować?"
+    },
+    "2027-9-25": {
+      "z": "Waga",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Głęboka, transformująca dziewiątka stawia nas przed lustrem podsumowań, zapraszając do zrobienia rzetelnego bilansu i sprawdzenia, co w minionym czasie przyniosło nam rozwój, a co okazało się już tylko obciążającym doświadczeniem. To piękny moment łagodnego domykania.",
+      "r": "Usiądź z kartką papieru, wypisz lekcje z ostatniego czasu i świadomie zdecyduj, co domykasz raz na zawsze, by zrobić miejsce na nowe.",
+      "u": "Wpadania w pułapkę pouczania innych, pielęgnowania dawnych żalów oraz postawy „ja wiem lepiej”.",
+      "s": "„Odpuszczenie tego, co już odeszło, to najpiękniejszy prezent, jaki możemy podarować naszej przyszłości i naszemu spokojowi.”",
+      "fun": "Co w Twoim życiu domaga się dzisiaj cichego zrozumienia, abyś mogła uwolnić się od przeszłości i pójść dalej z lżejszym sercem?"
+    },
+    "2027-9-26": {
+      "z": "Waga",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Iskrząca, pionierska jedynka rozbłyska niczym świeży płomień tuż po procesie oczyszczenia. To wibracja, która daje Ci czystą kartę, na nowo rozbudzając odwagę, sprawczość i gotowość do postawienia pierwszego kroku w stronę własnych pragnień.",
+      "r": "Wyznacz sobie nowy, drobny cel, zrób coś po raz pierwszy w określony sposób i zaufaj wewnętrznemu impulsowi, który ciągnie Cię ku lepszemu.",
+      "u": "Rozpamiętywania tego, co minęło, zwlekania z decyzjami oraz gaszenia swojego wewnętrznego entuzjazmu przez lęk przed oceną.",
+      "s": "„Każdy nowy poranek to cichy dowód na to, że masz w sobie siłę, by napisać swoją opowieść dokładnie tak, jak pragnie tego Twoje serce.”",
+      "fun": "Gdybyś miała całkowitą pewność, że odniesiesz sukces, co nowego odważyłabyś się dzisiaj zacząć?"
+    },
+    "2027-9-27": {
+      "z": "Waga",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Niezwykle delikatna, otulająca dwójka wnosi do naszej rzeczywistości aurę spokoju, subtelnej intuicji oraz głębokiego wsłuchania się w puls drugiego człowieka i własnego wnętrza. To dzień budowania harmonii i bezpiecznej bliskości.",
+      "r": "Spędź czas w cichej, przytulnej atmosferze, przeprowadź szczery dialog od serca do serca i zaufaj swoim cichym przeczuciom.",
+      "u": "Wchodzenia w głośne spory, forsowania swoich racji siłą oraz zagłuszania głosu własnej intuicji.",
+      "s": "„Czasami największą mądrością jest po prostu usiąść w ciszy obok kogoś bliskiego i pozwolić, by przemówiło samo serce.”",
+      "fun": "Co ważnego próbuje Ci szepnąć Twoja intuicja w tej przestrzeni, którą dzisiaj dla siebie stworzysz?"
+    },
+    "2027-9-28": {
+      "z": "Waga",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Barwna, radosna trójka rozświetla końcówkę września feerią uśmiechu, twórczej ekspresji i lekkiego, swobodnego przepływu energii. To wibracja, która przypomina, że życie ma w sobie mnóstwo pięknych barw, jeśli tylko pozwolimy sobie na odrobinę spontaniczności.",
+      "r": "Zrób coś czysto dla przyjemności, wyraź siebie w dowolny, twórczy sposób i poszukaj powodów do uśmiechu w najprostszych sprawach.",
+      "u": "Nadmiernej powagi, wpadania w czarne myśli oraz brania na swoje barki problemów całego świata.",
+      "s": "„Radość i uśmiech to najpiękniejsze klucze, które potrafią otworzyć każde zamknięte na klucz drzwi.”",
+      "fun": "Jaka mała, codzienna rzecz mogłaby dzisiaj wywołać wesoły blask w Twoich oczach?"
+    },
+    "2027-9-29": {
+      "z": "Waga",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Solidna, uziemiająca czwórka przynosi potrzebę ładu, dyscypliny i zadbania o bezpieczne, codzienne struktury. To dzień, w którym małe, systematyczne kroki budują fundamenty pod nasz długoterminowy spokój.",
+      "r": "Uporządkuj swoją przestrzeń, dokończ jedno zaległe zadanie i stwórz dla siebie przytulny, stabilny plan na nadchodzący czas.",
+      "u": "Sztywnego uporu, perfekcjonizmu oraz przytłaczania siebie zbyt dużą liczbą obowiązków naraz.",
+      "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+      "fun": "W jaki sposób możesz dzisiaj otulić poczuciem bezpieczeństwa tę część swojej codzienności, która najbardziej tego potrzebuje?"
+    },
+    "2027-9-30": {
+      "z": "Waga",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Niespokojna, wolnościowa piątka zamyka wrześniowy szlak radosnym powiewem świeżego powietrza, zachęcając do spojrzenia na miniony miesiąc z uśmiechem i otwarcia się na to, co przyniesie jesień. To czas docenienia własnej elastyczności.",
+      "r": "Podsumuj wrzesień z wdzięcznością, wyjdź na spacer i pozwól sobie na radosne pożegnanie tego cyklu z poczuciem wolności.",
+      "u": "Lęku przed nadchodzącymi zmianami oraz kurczowego trzymania się tego, co już odeszło.",
+      "s": "„Każde zakończenie to tak naprawdę cichy szept wszechświata, że czas napisać kolejny, niezwykły rozdział.”",
+      "fun": "Za co z całego serca chcesz podziękować wrześniowi, zanim zamkniesz za nim drzwi i powitasz nowy miesiąc?"
+    },
+    "2027-10-1": {
+      "z": "Waga",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Solidna, uziemiająca czwórka przynosi nam dziś potrzebę ładu, bezpiecznych struktur oraz odzyskania wewnętrznego i zewnętrznego oparcia w codziennych sprawach.",
+      "r": "Zadbaj o porządek w swojej przestrzeni roboczej, dokończ jedną zaległą sprawę zawodową lub formalną i stwórz dla siebie stabilny plan, który zdejmie z ramion poczucie chaosu.",
+      "u": "Sztywnego perfekcjonizmu, brania na siebie zbyt wielu obowiązków naraz oraz odkładania odpoczynku na „święte nigdy”.",
+      "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+      "fun": "Jaki jeden mały gest porządku w Twoich obowiązkach sprawi, że poczujesz dziś ulgę i bezpieczny grunt pod nogami?"
+    },
+    "2027-10-2": {
+      "z": "Waga",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Niespokojna, wolnościowa piątka wpuszcza do naszej rzeczywistości powiew świeżego powietrza, zachęcając do wyjścia poza schematy w relacjach i poszukiwania nowych inspiracji.",
+      "r": "Porozmawiaj z kimś z zupełnie innej perspektywy, zaproponuj bliskim nietypowy sposób spędzenia popołudnia lub spróbuj rozwiązać dawny problem w nowy, kreatywny sposób.",
+      "u": "Kurczowego trzymania się zasady „zawsze robiliśmy to tak samo”, lęku przed zmianą zdania oraz narzucania innym swojej wizji.",
+      "s": "„Życie staje się o wiele ciekawsze, gdy przestajemy bać się nowych dróg i pozwalamy sobie na odrobinę elastyczności w relacjach z światem.”",
+      "fun": "W jakiej relacji lub w jakim stałym przyzwyczajeniu przydałby się dziś świeży powiew i odrobina wolności?"
+    },
+    "2027-10-3": {
+      "z": "Waga",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Ciepła, opiekuńcza wibracja szóstki otula nas dzisiaj aurą domowego ogniska, empatii i uważnej troski o więzi z ludźmi, którzy są dla nas ważni.",
+      "r": "Zadzwoń do kogoś bliskiego bez okazji, stwórz w swoim otoczeniu przytulny kącik do odpoczynku i podaruj sobie ciepłe słowo w momentach zmęczenia.",
+      "u": "Wchodzenia w rolę ratownika, który próbuje naprawić życie wszystkich wokół kosztem własnego spokoju.",
+      "s": "„Najpiękniejszym darem, jaki możemy podarować bliskim, jest nasza spokojna, obecna i niczym niewymuszona miłość.”",
+      "fun": "Kto w Twoim otoczeniu potrzebuje dzisiaj Twojej cichej, ciepłej obecności bez gotowych rad i ocen?"
+    },
+    "2027-10-4": {
+      "z": "Waga",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Mistyczna, badawcza siódemka kieruje naszą uwagę do wewnątrz, zapraszając do cichego wyciszenia, refleksji i bezpiecznego odcięcia się od zewnętrznego zgiełku.",
+      "r": "Spędź trochę czasu w samotności na spacerze, posłuchaj spokojnej muzyki lub po prostu pobądź w ciszy ze swoimi myślami.",
+      "u": "Nadmiernego analizowania słów innych ludzi i szukania drugiego dna tam, gdzie go zwyczajnie nie ma.",
+      "s": "„Czasami najgłębszą mądrością okazuje się odpuszczenie ciągłego myślenia i danie duszy przestrzeni na zwykłe, ciche istnienie.”",
+      "fun": "Co szepcze do Ciebie Twoja intuicja w tej bezpiecznej ciszy, gdy odetniesz się od oczekiwań całego świata?"
+    },
+    "2027-10-5": {
+      "z": "Waga",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Dostojna, sprawcza ósemka przynosi energię wewnętrznej siły, zarządzania materią oraz brania odpowiedzialności za realizację swoich planów zawodowych i osobistych.",
+      "r": "Podeję dojrzałą decyzję w sprawie, która od dłuższego czasu czekała na Twoje zdecydowane działanie, i doceń swoje dotychczasowe wysiłki.",
+      "u": "Bezwzględnego parcia do celu za wszelką cenę oraz surowego rozliczania siebie za drobne niedociągnięcia.",
+      "s": "„Prawdziwa siła to nie walka z całym światem, lecz cicha, niezachwiana wiara we własne możliwości.”",
+      "fun": "Za jaki swój sukces – nawet ten najcichszy i niewidoczny dla innych – możesz dzisiaj z dumą sobie podziękować?"
+    },
+    "2027-10-6": {
+      "z": "Waga",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Głęboka, artystyczna i niezwykle pojemna dziewiątka przynosi nam dziś energię lotu ptaka – spojrzenia na całą naszą dotychczasową drogę z szerszej perspektywy, bez oceny, za to z ogromnym, humanistycznym zrozumieniem dla ludzkich słabości.",
+      "r": "Otwórz się na sztukę, poezję lub muzykę, które poruszają duszę, albo spójrz na swój aktualny projekt lub relację z wyższej perspektywy, dostrzegając jego sens i piękno.",
+      "u": "Wchodzenia w rolę zbawiciela całego świata, brania na siebie cudzych problemów oraz gubienia się w nadmiernym idealizmie.",
+      "s": "„Kiedy pozwolimy sobie spojrzeć na nasze życie z szerszej perspektywy, nagle zauważymy, że każdy trudny moment był tylko przystankiem w drodze do głębszego poznania siebie.”",
+      "fun": "Jaka ukryta dotąd mądrość płynie z Twoich dotychczasowych doświadczeń i jak możesz ją dzisiaj wykorzystać dla własnego spokoju?"
+    },
+    "2027-10-7": {
+      "z": "Waga",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Iskrząca, pionierska jedynka rozbłyska niczym świeży promień słońca, przynosząc powiew świeżej energii, odwagę i czystą kartę do napisania własnych scenariuszy na nowo.",
+      "r": "Zrób pierwszy, mały krok w stronę swojego marzenia, odważnie wyraź swoje zdanie i zaufaj wewnętrznemu impulsowi.",
+      "u": "Rozpamiętywania przeszłości, zwlekania z decyzjami oraz gaszenia swojego entuzjazmu przez lęk przed oceną.",
+      "s": "„Każdy nowy świt to dowód na to, że wszechświat stale daje nam szansę na rozpoczęcie wszystkiego z czystego serca.”",
+      "fun": "Gdybyś nie musiała bać się absolutnie niczego, co nowego odważyłabyś się dzisiaj zrobić dla siebie?"
+    },
+    "2027-10-8": {
+      "z": "Waga",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Subtelna, otulająca dwójka wnosi do naszych relacji aurę głębokiego zrozumienia, empatii, słuchania bez oceniania i budowania bezpiecznej bliskości z drugim człowiekiem.",
+      "r": "Przeprowadź szczerą rozmowę od serca do serca, spędź czas w spokojnej atmosferze i wsłuchaj się w głos swojej intuicji.",
+      "u": "Wchodzenia w głośne konflikty, forsowania swoich racji siłą oraz rezygnowania z siebie dla tzw. świętego spokoju.",
+      "s": "„Czasami najwspanialszą odpowiedzią na hałas świata jest czuła obecność kogoś, kto rozumie nas bez ani jednego słowa.”",
+      "fun": "Kto w Twoim otoczeniu potrzebuje dzisiaj Twojej cichej, ciepłej obecności i bezpiecznego utulenia?"
+    },
+    "2027-10-9": {
+      "z": "Waga",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Barwna, radosna trójka rozświetla dzień feerią uśmiechu, twórczej ekspresji i lekkiego przepływu energii, przypominając, że radość to naturalny stan naszej duszy.",
+      "r": "Zrób coś czysto dla przyjemności, wyraź siebie w dowolny sposób (pisząc, malując lub po prostu śmiejąc się) i poszukaj piękna w prostocie.",
+      "u": "Nadmiernej powagi, wpadania w czarne myśli oraz krytykowania swoich twórczych pomysłów.",
+      "s": "„Radość i uśmiech to najpiękniejsze klucze, które potrafią otworzyć każde zamknięte na klucz drzwi.”",
+      "fun": "Co sprawi, że na Twojej twarzy zagości dzisiaj szczery, niczym niezmącony uśmiech?"
+    },
+    "2027-10-10": {
+      "z": "Waga",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Solidna, uziemiająca czwórka przynosi potrzebę ładu, dyscypliny i zadbania o bezpieczne, codzienne struktury, które dają nam upragniony spokój.",
+      "r": "Uporządkuj dokumenty, zadbaj o przestrzeń wokół siebie i stwórz stabilny, życzliwy dla samej siebie plan działań na kolejne dni.",
+      "u": "Sztywnego perfekcjonizmu, zamęczania się obowiązkami oraz braku elastyczności wobec nagłych zmian.",
+      "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+      "fun": "Jaki jeden mały gest porządku w Twojej przestrzeni sprawi, że poczujesz dzisiaj ulgę i bezpieczny grunt pod nogami?"
+    },
+    "2027-10-11": {
+      "z": "Waga",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Niespokojna, wolnościowa piątka wpuszcza do naszej codzienności radosny powiew świeżego powietrza, zachęcając do wyjścia poza schematy, poszerzenia horyzontów i radosnej ciekawości świata.",
+      "r": "Zmień coś w swojej rutynie – wybierz się na spacer nieznaną trasą, spróbuj nowego smaku lub otwórz się na zupełnie niespodziewaną, inspirującą rozmowę.",
+      "u": "Kurczowego trzymania się dawnych przyzwyczajeń, lęku przed zmianą oraz rozpraszania swojej energii na zbyt wiele stron naraz.",
+      "s": "„Życie staje się o wiele ciekawsze, gdy przestajemy bać się zakrętów i z ciekawością zaglądamy za kolejne wzgórze.”",
+      "fun": "W jakim obszarze swojego życia czujesz dziś największą ochotę na zrzucenie starych ograniczeń i głęboki wdech pełną piersią?"
+    },
+    "2027-10-12": {
+      "z": "Waga",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Ciepła, otulająca wibracja szóstki roztacza wokół nas aurę domowego ogniska, harmonii oraz uważnej, czułej troski o relacje z ludźmi, których nosimy w sercu.",
+      "r": "Stwórz przytulną atmosferę w swoim otoczeniu, otocz kogoś bliskiego życzliwym wsparciem i podaruj sobie samą wyrozumiałość w momentach zmęczenia.",
+      "u": "Wchodzenia w rolę męczennika, rezygnowania z siebie dla tzw. świętego spokoju oraz nadmiernego kontrolowania bliskich.",
+      "s": "„Najpiękniejszym domem, o jaki możemy dbać każdego dnia, jest przestrzeń spokojnego, otwartego na miłość i akceptację serca.”",
+      "fun": "Jak możesz dzisiaj okazać sobie samą czułość w miejscu, które najbardziej domaga się Twojej wyrozumiałości?"
+    },
+    "2027-10-13": {
+      "z": "Waga",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Mistyczna, badawcza siódemka zaprasza nas do świętej przestrzeni ciszy, refleksji i bezpiecznego oddalenia się od codziennego zgiełku świata.",
+      "r": "Spędź chwilę w samotności na łonie natury, posłuchaj uspokajającego szumu jesiennego wiatru i pozwól sobie na głęboki, mentalny odpoczynek.",
+      "u": "Chłodnego sceptycyzmu, nadmiernego analizowania przeszłych zdarzeń oraz zbytniego odsuwania się od życzliwych ludzi.",
+      "s": "„Prawda nie potrzebuje hałasu – ona rozkwita najpiękniej w cichej i bezpiecznej przestrzeni naszej własnej duszy.”",
+      "fun": "Co cichego i ważnego szepcze do Ciebie Twoja intuicja, kiedy na moment odetnasz się od oczekiwań otoczenia?"
+    },
+    "2027-10-14": {
+      "z": "Waga",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Potężna, dojrzała ósemka przynosi energię sprawczości, konkretnych owoców naszej pracy oraz mądrego zarządzania wewnętrzną i zewnętrzną obfitością.",
+      "r": "Podejmij dojrzałą decyzję dotyczącą swoich planów zawodowych lub materialnych i z dumą spójrz na to, co udało Ci się w życiu zbudować.",
+      "u": "Bezwzględnego parcia do przodu za wszelką cenę, przepracowywania się oraz surowego, bezwzględnego rozliczania samej siebie.",
+      "s": "„Prawdziwa obfitość to nie tylko materialny sukces; to przede wszystkim głębokie poczucie własnej wartości i zgoda na przyjmowanie darów od losu.”",
+      "fun": "Za jaki swój sukces – nawet ten najcichszy i ukryty przed światem – możesz dzisiaj z całego serca sobie podziękować?"
+    },
+    "2027-10-15": {
+      "z": "Waga",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Głęboka, uniwersalna dziewiątka niesie ze sobą natchnienie artystyczne, empatię sięgającą horyzontu oraz potrzebę podzielenia się swoim wewnętrznym ciepłem z szerszym światem. To dzień, w którym nasza wrażliwość staje się najpiękniejszym kluczem do serc innych.",
+      "r": "Zrób coś bezinteresownego dla kogoś obcego, zanurz się w twórczości, która porusza duszę, lub spójrz na trudną sytuację z pozycji bezwarunkowej akceptacji.",
+      "u": "Wchodzenia w rolę zbawiciela, który chce naprawić losy całego świata kosztem własnej energii, oraz popadania w melancholię.",
+      "s": "„Najczystsze światło, jakie możemy wnieść w życie innych, to nasza autentyczna, niczym niewymuszona życzliwość.”",
+      "fun": "Komu dzisiaj – zupełnie bezinteresownie – możesz podarować odrobinę swojego ciepła i dobrego słowa?"
+    },
+    "2027-10-16": {
+      "z": "Waga",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Iskrząca, pionierska jedynka rozbłyska niczym świeży płomień, przynosząc potężny impuls czystej karty, odwagę do wyrażenia samego siebie i sprawczość w działaniu.",
+      "r": "Podejmij odważną inicjatywę w sprawie, która od dawna czekała na Twój ruch, zdefiniuj na nowo swoje osobiste granice i zaufaj swojemu wewnętrznemu ogniowi.",
+      "u": "Oglądania się na opinie innych ludzi, zwlekania z decyzjami oraz gaszenia swojego entuzjazmu przez stare nawyki.",
+      "s": "„Każdy nowy poranek to dowód na to, że masz w sobie niespożytą siłę, by zacząć pisać swoją opowieść dokładnie tak, jak pragnie tego Twoje serce.”",
+      "fun": "Gdybyś miała absolutną pewność, że nikt Cię nie ocenia, jaki odważny krok zrobiłabyś dzisiaj dla samej siebie?"
+    },
+    "2027-10-17": {
+      "z": "Waga",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Subtelna, otulająca dwójka wnosi do naszej codzienności zapach spokoju, delikatności oraz głębokiego wsłuchania się w unikalny rytm własnego ciała i relacji z bliskimi.",
+      "r": "Stwórz dla siebie bezpieczną, cichą przystań, przeprowadź szczery dialog od serca do serca i pozwól sobie na odpoczynek bez poczucia winy.",
+      "u": "Wchodzenia w głośne spory, forsowania swoich racji siłą oraz zagłuszania głosu własnej intuicji.",
+      "s": "„Czasami największą mądrością okazuje się po prostu odpuścić walkę i w cichym zaufaniu pozwolić rzeczom układać się naturalnie.”",
+      "fun": "Co Twój organizm lub Twoje serce próbuje Ci dzisiaj wyszeptać w momentach, gdy na chwilę zwalniasz bieg?"
+    },
+    "2027-10-18": {
+      "z": "Waga",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Barwna, radosna trójka maluje dzisiejszy dzień wszystkimi odcieniami uśmiechu, twórczej ekspresji i wewnętrznej swobody, przypominając o magii spontaniczności.",
+      "r": "Zrób coś całkowicie bezcelowego, ale dającego mnóstwo frajdy – zaśpiewaj, napisz kilka luźnych słów, wyjdź na spacer i zachwyć się prostotą otaczającego świata.",
+      "u": "Nadmiernej powagi, wpadania w czarne myśli oraz surowej krytyki swoich spontanicznych pomysłów.",
+      "s": "„Radość nie jest luksusem – to naturalny stan duszy, która przypomina nam, jak pięknie jest po prostu być sobą.”",
+      "fun": "Co sprawi, że na Twojej twarzy zagości dzisiaj szczery, niczym niezmącony uśmiech dziecka?"
+    },
+    "2027-10-19": {
+      "z": "Waga",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Solidna, uziemiająca czwórka przynosi nam potrzebę ładu, dyscypliny i zadbania o bezpieczne, codzienne struktury, które dają nam upragniony grunt pod nogami.",
+      "r": "Uporządkuj swoją przestrzeń, dokończ jedno zaległe zadanie i stwórz dla siebie przytulny, stabilny plan na nadchodzące dni.",
+      "u": "Sztywnego perfekcjonizmu, zamęczania się obowiązkami oraz braku elastyczności wobec nagłych zmian planów.",
+      "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+      "fun": "Jaki jeden mały, czuły gest porządku możesz dzisiaj wykonać, aby Twoja codzienność stała się dla Ciebie bezpieczniejszą przystanią?"
+    },
+    "2027-10-20": {
+      "z": "Waga",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Niespokojna, wolnościowa piątka wpuszcza do naszej rzeczywistości powiew świeżego powietrza, zachęcając do wyjścia poza bezpieczną rutyniarską bańkę i odkrywania nowych perspektyw.",
+      "r": "Zmień coś w swoim stałym planie dnia – wybierz się na spacer zupełnie nieznaną ulicą, przeczytaj artykuł na temat, który dotąd Cię nie interesował, lub podejdź do dawnego problemu z zupełnie innej strony.",
+      "u": "Kurczowego trzymania się zasady „zawsze robiliśmy to w ten sam sposób”, lęku przed odmiennym zdaniem innych oraz rozpraszania swojej uwagi na zbyt wiele frontów naraz.",
+      "s": "„Życie staje się o wiele barwniejsze, gdy przestajemy bać się nagłych zakrętów i z radosną ciekawością zaglądamy za kolejne wzgórze.”",
+      "fun": "W jakim obszarze swojego życia czujesz dzisiaj największą ochotę na zrzucenie starych ograniczeń i zaczerpnięcie powietrza pełną piersią?"
+    },
+    "2027-10-21": {
+      "z": "Waga",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Ciepła, opiekuńcza wibracja szóstki otula nas niczym miękki koc w chłodny poranek, kierując całą uwagę ku domowemu ognisku, harmonii i uważnej trosce o relacje z bliskimi.",
+      "r": "Stwórz wokół siebie przytulną przestrzeń, porozmawiaj z kimś bliskim z poziomu czystej empatii i podaruj sobie samą wyrozumiałość w momentach codziennego zmęczenia.",
+      "u": "Wchodzenia w rolę ratownika kosztem własnych sił, rezygnowania z osobistych granic oraz brania na siebie cudzych ciężarów tylko po to, by zadowolić wszystkich wokół.",
+      "s": "„Najpiękniejszym domem, o jaki możemy dbać każdego dnia, jest przestrzeń spokojnego, otwartego na miłość i akceptację serca.”",
+      "fun": "Jak możesz dzisiaj okazać sobie czułość w tym miejscu, które najbardziej domaga się Twojej wyrozumiałości i odpoczynku?"
+    },
+    "2027-10-22": {
+      "z": "Waga",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Mistyczna, badawcza siódemka zaprasza nas do świętej przestrzeni ciszy, refleksji i bezpiecznego oddalenia się od codziennego zgiełku świata.",
+      "r": "Spędź trochę czasu w samotności na łonie natury, posłuchaj szumu jesiennego wiatru lub odłącz się na kilka godzin od ekranów, pozwalając umysłowi na głęboki reset.",
+      "u": "Chłodnego sceptycyzmu, nadmiernego analizowania przeszłych zdarzeń oraz zbytniego odsuwania się od ludzi, którzy darzą Cię szczerym ciepłem.",
+      "s": "„Prawda nie potrzebuje krzyku – ona rozkwita najpiękniej w cichej, niczym niezmąconej przestrzeni naszej własnej duszy.”",
+      "fun": "Co cichego i ważnego szepcze do Ciebie Twoja intuicja, kiedy na moment odetnasz się od oczekiwań całego otoczenia?"
+    },
+    "2027-10-23": {
+      "z": "Skorpion",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Potężna, dojrzała ósemka przynosi energię sprawczości, konkretnych owoców naszej pracy oraz mądrego zarządzania wewnętrzną i zewnętrzną obfitością.",
+      "r": "Podejmij dojrzałą, przemyślaną decyzję dotyczącą swoich planów, ureguluj zaległe sprawy i z dumą spójrz na to, co udało Ci się w życiu zbudować własnymi rękami.",
+      "u": "Bezwzględnego parcia do przodu za wszelką cenę, przepracowywania się ponad miarę oraz surowego, bezwzględnego rozliczania samej siebie z każdego drobiazgu.",
+      "s": "„Prawdziwa obfitość to nie tylko materialny sukces; to przede wszystkim głębokie poczucie własnej wartości i wewnętrzna zgoda na przyjmowanie darów od losu.”",
+      "fun": "Za jaki swój sukces – nawet ten najcichszy i całkowicie ukryty przed światem – możesz dzisiaj z całego serca sobie podziękować?"
+    },
+    "2027-10-24": {
+      "z": "Skorpion",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Głęboka, uniwersalna dziewiątka niesie ze sobą artystyczne natchnienie, empatię sięgającą horyzontu oraz potrzebę spojrzenia na relacje i świat z pozycji bezwarunkowej akceptacji.",
+      "r": "Zanurz się w twórczości, która porusza duszę, zrób coś bezinteresownego dla kogoś w potrzebie lub spójrz na minione trudności z perspektywy mądrego obserwatora.",
+      "u": "Wchodzenia w rolę zbawiciela całego świata, brania na siebie cudzych problemów oraz popadania w melancholię i rozczarowanie.",
+      "s": "„Kiedy pozwolimy sobie spojrzeć na nasze życie z szerszej perspektywy, nagle zauważymy, że każdy trudny moment był tylko przystankiem w drodze do głębszego poznania siebie.”",
+      "fun": "Jaka ukryta dotąd mądrość płynie z Twoich doświadczeń i jak możesz ją dzisiaj wykorzystać dla własnego wewnętrznego spokoju?"
+    },
+    "2027-10-25": {
+      "z": "Skorpion",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Iskrząca, pionierska jedynka rozbłyska niczym świeży płomień, przynosząc potężny impuls czystej karty, odwagę do wyrażenia samego siebie i sprawczość w działaniu.",
+      "r": "Podejmij odważną inicjatywę w sprawie, która od dawna czekała na Twój ruch, zdefiniuj na nowo swoje osobiste granice i zaufaj swojemu wewnętrznemu ogniowi.",
+      "u": "Oglądania się na opinie innych ludzi, zwlekania z decyzjami oraz gaszenia swojego entuzjazmu przez stare nawyki.",
+      "s": "„Każdy nowy poranek to dowód na to, że masz w sobie niespożytą siłę, by zacząć pisać swoją opowieść dokładnie tak, jak pragnie tego Twoje serce.”",
+      "fun": "Gdybyś miała absolutną pewność, że nikt Cię nie ocenia, jaki odważny krok zrobiłabyś dzisiaj dla samej siebie?"
+    },
+    "2027-10-26": {
+      "z": "Skorpion",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Subtelna, otulająca dwójka wnosi do naszej codzienności zapach spokoju, delikatności oraz głębokiego wsłuchania się w unikalny rytm własnego ciała i relacji z bliskimi.",
+      "r": "Stwórz dla siebie bezpieczną, cichą przystań, przeprowadź szczery dialog od serca do serca i pozwól sobie na odpoczynek bez poczucia winy.",
+      "u": "Wchodzenia w głośne spory, forsowania swoich racji siłą oraz zagłuszania głosu własnej intuicji.",
+      "s": "„Czasami największą mądrością okazuje się po prostu odpuścić walkę i w cichym zaufaniu pozwolić rzeczom układać się naturalnie.”",
+      "fun": "Co Twój organizm lub Twoje serce próbuje Ci dzisiaj wyszeptać w momentach, gdy na chwilę zwalniasz bieg?"
+    },
+    "2027-10-27": {
+      "z": "Skorpion",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Barwna, radosna trójka maluje dzisiejszy dzień wszystkimi odcieniami uśmiechu, twórczej ekspresji i wewnętrznej swobody, przypominając o magii spontaniczności.",
+      "r": "Zrób coś całkowicie bezcelowego, ale dającego mnóstwo frajdy – zaśpiewaj, napisz kilka luźnych słów, wyjdź na spacer i zachwyć się prostotą otaczającego świata.",
+      "u": "Nadmiernej powagi, wpadania w czarne myśli oraz surowej krytyki swoich spontanicznych pomysłów.",
+      "s": "„Radość nie jest luksusem – to naturalny stan duszy, która przypomina nam, jak pięknie jest po prostu być sobą.”",
+      "fun": "Co sprawi, że na Twojej twarzy zagości dzisiaj szczery, niczym niezmącony uśmiech dziecka?"
+    },
+    "2027-10-28": {
+      "z": "Skorpion",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Solidna, uziemiająca czwórka przynosi nam potrzebę ładu, dyscypliny i zadbania o bezpieczne, codzienne struktury, które dają nam upragniony grunt pod nogami.",
+      "r": "Uporządkuj swoją przestrzeń, dokończ jedno zaległe zadanie i stwórz dla siebie przytulny, stabilny plan na nadchodzące dni.",
+      "u": "Sztywnego perfekcjonizmu, zamęczania się obowiązkami oraz braku elastyczności wobec nagłych zmian planów.",
+      "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+      "fun": "Jaki jeden mały, czuły gest porządku możesz dzisiaj wykonać, aby Twoja codzienność stała się dla Ciebie bezpieczniejszą przystanią?"
+    },
+    "2027-10-29": {
+      "z": "Skorpion",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Niespokojna, wolnościowa piątka wpuszcza do naszej rzeczywistości powiew świeżego powietrza, zachęcając do wyjścia poza bezpieczną rutynę i odkrywania nowych perspektyw.",
+      "r": "Zmień coś w swoim stałym planie dnia – wybierz się na spacer zupełnie nieznaną ulicą, przeczytaj artykuł na temat, który dotąd Cię nie interesował, lub podejdź do dawnego problemu z zupełnie innej strony.",
+      "u": "Kurczowego trzymania się zasady „zawsze robiliśmy to w ten sam sposób”, lęku przed odmiennym zdaniem innych oraz rozpraszania swojej uwagi na zbyt wiele frontów naraz.",
+      "s": "„Życie staje się o wiele barwniejsze, gdy przestajemy bać się nagłych zakrętów i z radosną ciekawością zaglądamy za kolejne wzgórze.”",
+      "fun": "W jakim obszarze swojego życia czujesz dzisiaj największą ochotę na zrzucenie starych ograniczeń i zaczerpnięcie powietrza pełną piersią?"
+    },
+    "2027-10-30": {
+      "z": "Skorpion",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Ciepła, opiekuńcza wibracja szóstki otula nas niczym miękki koc w chłodny poranek, kierując całą uwagę ku domowemu ognisku, harmonii i uważnej trosce o relacje z bliskimi.",
+      "r": "Stwórz wokół siebie przytulną przestrzeń, porozmawiaj z kimś bliskim z poziomu czystej empatii i podaruj sobie samą wyrozumiałość w momentach codziennego zmęczenia.",
+      "u": "Wchodzenia w rolę ratownika kosztem własnych sił, rezygnowania z osobistych granic oraz brania na siebie cudzych ciężarów tylko po to, by zadowolić wszystkich wokół.",
+      "s": "„Najpiękniejszym domem, o jaki możemy dbać każdego dnia, jest przestrzeń spokojnego, otwartego na miłość i akceptację serca.”",
+      "fun": "Jak możesz dzisiaj okazać sobie czułość w tym miejscu, które najbardziej domaga się Twojej wyrozumiałości i odpoczynku?"
+    },
+    "2027-10-31": {
+      "z": "Skorpion",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Mistyczna, badawcza siódemka zamyka październikowy szlak zaproszeniem do świętej przestrzeni ciszy, refleksji i bezpiecznego oddalenia się od zgiełku świata.",
+      "r": "Spędź chwilę w samotności, wsłuchaj się w jesienny wieczór i pozwól sobie na głęboki, wewnętrzny reset oraz podsumowanie minionego miesiąca w ciszy.",
+      "u": "Chłodnego sceptycyzmu, nadmiernego analizowania oraz zbytniego izolowania się od ludzi, którzy przynoszą do Twojego życia ciepło.",
+      "s": "„Prawda nie potrzebuje krzyku – ona rozkwita najpiękniej w cichej i bezpiecznej przestrzeni naszej własnej duszy.”",
+      "fun": "Za jaką cichą lekcję, którą przyniósł Ci październik, możesz dzisiaj podziękować swojej intuicji?"
+    },
+    "2027-11-1": {
+      "z": "Skorpion",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Niespokojna, wolnościowa piątka wpuszcza do naszej codzienności powiew nietypowej refleksji, zachęcając do wyjścia poza utarte schematy myślenia o przemijaniu i poszukiwania własnych, osobistych dróg.",
+      "r": "Zmień rutynowy sposób spędzania tego dnia, poszukaj inspirującej lektury, która poszerza horyzonty, lub porozmawiaj z kimś bliskim o swoich unikalnych przemyśleniach na temat życia.",
+      "u": "Kurczowego trzymania się tradycji robienia czegoś tylko „dlatego, że tak wypada”, oraz lęku przed wyrażeniem swojego odmiennego zdania.",
+      "s": "„Wolność duchowa zaczyna się w momencie, gdy pozwalamy sobie przeżywać chwile zadumy dokładnie tak, jak podpowiada nam to nasze własne serce.”",
+      "fun": "W jakim obszarze swojego życia czujesz dziś potrzebę uwolnienia się od cudzych oczekiwań i pójścia własną ścieżką?"
+    },
+    "2027-11-2": {
+      "z": "Skorpion",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Ciepła, opiekuńcza wibracja szóstki otula nas niczym miękki, jesienny szal, kierując całą uwagę ku domowemu ognisku, bliskości i czułemu wsparciu tych, których kochamy.",
+      "r": "Stwórz w domu nastrojową, bezpieczną atmosferę przy blasku świec, zadzwoń do kogoś, kto potrzebuje dobrego słowa, i przytul samą siebie pośród codziennych obowiązków.",
+      "u": "Wchodzenia w rolę ratownika, który bierze na barki emocjonalny ciężar całego otoczenia kosztem własnego spokoju.",
+      "s": "„Najpiękniejszym schronieniem w chłodne dni jest przestrzeń otwartego serca, w którym panuje wzajemna akceptacja i miłość.”",
+      "fun": "Kto w Twoim otoczeniu potrzebuje dzisiaj Twojej cichej, ciepłej obecności i bezpiecznego utulenia?"
+    },
+    "2027-11-3": {
+      "z": "Skorpion",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Mistyczna, badawcza siódemka zaprasza nas do świętej przestrzeni ciszy, refleksji i bezpiecznego odcięcia się od zewnętrznego zgiełku. To czas, w którym nasza intuicja szepcze najdokładniej.",
+      "r": "Spędź trochę czasu w samotności, otulona kocem z kubkiem ulubionej herbaty, i pozwól swojemu umysłowi na spokojny, głęboki reset od nadmiaru bodźców.",
+      "u": "Chłodnego sceptycyzmu, nadmiernego analizowania przeszłości oraz zbytniego izolowania się od ludzi, którzy przynoszą do Twojego życia życzliwość.",
+      "s": "„Prawda nie potrzebuje krzyku – ona rozkwita najpiękniej w cichej, bezpiecznej przystani naszej własnej duszy.”",
+      "fun": "Co cichego i ważnego szepcze do Ciebie Twoja intuicja, gdy na moment odetnasz się od opinii całego świata?"
+    },
+    "2027-11-4": {
+      "z": "Skorpion",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Potężna, dojrzała ósemka przynosi energię wewnętrznej siły, sprawczości oraz mądrego zarządzania naszymi zasobami i planami zawodowymi lub osobistymi.",
+      "r": "Podejmij dojrzałą, przemyślaną decyzję dotyczącą swoich spraw materialnych lub organizacyjnych i z dumą doceń wysiłek, jaki włożyłaś w ostatnim czasie.",
+      "u": "Bezwzględnego parcia do przodu za wszelką cenę, przepracowywania się oraz surowego, krytycznego rozliczania samej siebie z drobiazgów.",
+      "s": "„Prawdziwa obfitość to cicha pewność siebie, która kwitnie wtedy, gdy z uznaniem patrzymy na owoce własnej pracy i dojrzałych wyborów.”",
+      "fun": "Za jaki swój cichy sukces – taki, o którym rzadko mówisz głośno – możesz dzisiaj podziękować samej sobie?"
+    },
+    "2027-11-5": {
+      "z": "Skorpion",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Głęboka, artystyczna dziewiątka przynosi nam dziś szeroką perspektywę lotu ptaka – czas na spojrzenie na dotychczasowe relacje i projekty z wyrozumiałością oraz dojrzałym zrozumieniem.",
+      "r": "Sięgnij po twórczość, która karmi Twoją duszę (książkę, muzykę, sztukę), lub spójrz na minione trudności z perspektywy mądrego obserwatora, który wyciągnął z nich lekcję.",
+      "u": "Popadania w melancholię, brania na siebie cudzych problemów oraz wchodzenia w rolę osoby, która musi zbawić wszystkich wokół.",
+      "s": "„Kiedy pozwolimy sobie spojrzeć na naszą historię z szerszej perspektywy, zauważymy, że każda trudna chwila rzeźbiła w nas piękną, unikalną mądrość.”",
+      "fun": "Jaka wewnętrzna siła, zdobyta w minionych doświadczeniach, wspiera Cię dzisiaj w codzienności?"
+    },
+    "2027-11-6": {
+      "z": "Skorpion",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Iskrząca, pionierska wibracja niesie ze sobą potężny impuls wewnętrznego ognia, odwagę do samodzielnego decydowania o sobie i suwerenność w wyrażaniu własnego zdania.",
+      "r": "Podejmij odważną inicjatywę w sprawie, która od dawna czekała na Twój ruch, i zaufaj swojemu wewnętrznemu napędowi.",
+      "u": "Oglądania się na opinie innych ludzi, zwlekania z decyzjami oraz gaszenia swojego entuzjazmu przez stare nawyki.",
+      "s": "„Mając w sobie całą dotychczasową mądrość, masz pełne prawo napisać kolejny rozdział dokładnie tak, jak podpowiada Ci to Twoje serce.”",
+      "fun": "Gdybyś nie musiała oglądać się na niczyją akceptację, jaki odważny krok zrobiłabyś dzisiaj dla samej siebie?"
+    },
+    "2027-11-7": {
+      "z": "Skorpion",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Subtelna, otulająca wibracja wnosi do naszych relacji zapach spokoju, empatii i głębokiego wsłuchania się w unikalny rytm własnego ciała oraz potrzeb bliskich.",
+      "r": "Stwórz dla siebie bezpieczną przestrzeń, przeprowadź szczery dialog od serca do serca i pozwól sobie na odpoczynek bez poczucia winy.",
+      "u": "Wchodzenia w głośne spory, forsowania swoich racji siłą oraz zagłuszania głosu własnej intuicji.",
+      "s": "„Czasami największą mądrością okazuje się po prostu odpuścić walkę i w cichym zaufaniu pozwolić relacjom układać się naturalnie.”",
+      "fun": "Co Twój organizm lub Twoje serce próbuje Ci dzisiaj wyszeptać w momentach, gdy na chwilę zwalniasz bieg?"
+    },
+    "2027-11-8": {
+      "z": "Skorpion",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Barwna, radosna wibracja maluje dzisiejszy dzień uśmiechem, twórczą ekspresją i wewnętrzną swobodą, przypominając o magii spontaniczności w codziennym życiu.",
+      "r": "Zrób coś całkowicie dającego frajdu – napisz kilka luźnych słów, wyjdź na spacer i zachwyć się prostotą otaczającego świata.",
+      "u": "Nadmiernej powagi, wpadania w czarne myśli oraz surowej krytyki swoich twórczych pomysłów.",
+      "s": "„Radość nie jest luksusem – to naturalny stan duszy, która przypomina nam, jak pięknie jest po prostu wyrażać siebie.”",
+      "fun": "Co sprawi, że na Twojej twarzy zagości dzisiaj szczery, niczym niezmącony uśmiech?"
+    },
+    "2027-11-9": {
+      "z": "Skorpion",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Solidna, uziemiająca wibracja przynosi nam potrzebę ładu, dyscypliny i zadbania o bezpieczne, codzienne struktury, które dają nam upragniony grunt pod nogami.",
+      "r": "Uporządkuj swoją przestrzeń, dokończ jedno zaległe zadanie i stwórz dla siebie przytulny, stabilny plan na nadchodzące dni.",
+      "u": "Sztywnego perfekcjonizmu, zamęczania się obowiązkami oraz braku elastyczności wobec nagłych zmian planów.",
+      "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+      "fun": "Jaki jeden mały, czuły gest porządku możesz dzisiaj wykonać, aby Twoja codzienność stała się dla Ciebie bezpieczniejszą przystanią?"
+    },
+    "2027-11-10": {
+      "z": "Skorpion",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Niespokojna, wolnościowa wibracja wpuszcza do naszej rzeczywistości powiew świeżego powietrza, zachęcając do wyjścia poza bezpieczną rutynę i odkrywania nowych perspektyw w działaniu.",
+      "r": "Zmień coś w swoim stałym planie dnia – wybierz się na spacer zupełnie nieznaną ulicą lub podejdź do dawnego problemu z zupełnie innej strony.",
+      "u": "Kurczowego trzymania się zasady „zawsze robiliśmy to w ten sam sposób”, lęku przed odmiennym zdaniem innych oraz rozpraszania swojej uwagi.",
+      "s": "„Życie staje się o wiele barwniejsze, gdy przestajemy bać się nagłych zakrętów i z radosną ciekawością zaglądamy za kolejne wzgórze.”",
+      "fun": "W jakim obszarze swojego życia czujesz dzisiaj największą ochotę na zrzucenie starych ograniczeń i zaczerpnięcie powietrza pełną piersią?"
+    },
+    "2027-11-11": {
+      "z": "Skorpion",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Ciepła, opiekuńcza wibracja otula nas niczym miękki koc w chłodny dzień, kierując całą uwagę ku domowemu ognisku, harmonii oraz uważnej, czułej trosce o więzi z bliskimi.",
+      "r": "Stwórz wokół siebie przytulną przestrzeń, porozmawiaj z kimś bliskim z poziomu otwartego serca i podaruj sobie samą wyrozumiałość w momentach codziennego zmęczenia.",
+      "u": "Wchodzenia w rolę ratownika kosztem własnych sił, rezygnowania z osobistych granic oraz brania na siebie cudzych ciężarów tylko po to, by zadowolić wszystkich wokół.",
+      "s": "„Najpiękniejszym domem, o jaki możemy dbać każdego dnia, jest przestrzeń spokojnego, otwartego na miłość i akceptację serca.”",
+      "fun": "Jak możesz dzisiaj okazać sobie czułość w tym miejscu, które najbardziej domaga się Twojej wyrozumiałości i odpoczynku?"
+    },
+    "2027-11-12": {
+      "z": "Skorpion",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Mistyczna, badawcza wibracja zaprasza nas do świętej przestrzeni ciszy, refleksji i bezpiecznego oddalenia się od codziennego zgiełku świata. To czas, w którym nasza intuicja szepcze najdokładniej.",
+      "r": "Spędź trochę czasu w samotności, posłuchaj uspokajającej ciszy i pozwól swojemu umysłowi na głęboki, mentalny reset od nadmiaru bodźców.",
+      "u": "Chłodnego sceptycyzmu, nadmiernego analizowania przeszłości oraz zbytniego odsuwania się od ludzi, którzy darzą Cię szczerym ciepłem.",
+      "s": "„Prawda nie potrzebuje krzyku – ona rozkwita najpiękniej w cichej i bezpiecznej przestrzeni naszej własnej duszy.”",
+      "fun": "Co cichego i ważnego szepcze do Ciebie Twoja intuicja, kiedy na moment odetnasz się od oczekiwań otoczenia?"
+    },
+    "2027-11-13": {
+      "z": "Skorpion",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Potężna, dojrzała wibracja przynosi energię sprawczości, konkretnych owoców naszej pracy oraz mądrego zarządzania naszymi zasobami i planami.",
+      "r": "Podejmij dojrzałą, przemyślaną decyzję dotyczącą swoich spraw zawodowych lub materialnych i z dumą doceń wysiłek, jaki włożyłaś w ostatnim czasie.",
+      "u": "Bezwzględnego parcia do przodu za wszelką cenę, przepracowywania się oraz surowego, bezwzględnego rozliczania samej siebie z drobiazgów.",
+      "s": "„Prawdziwa obfitość to nie tylko materialny sukces; to przede wszystkim głębokie poczucie własnej wartości i wewnętrzna zgoda na przyjmowanie darów od losu.”",
+      "fun": "Za jaki swój sukces – nawet ten najcichszy i ukryty przed światem – możesz dzisiaj z całego serca sobie podziękować?"
+    },
+    "2027-11-14": {
+      "z": "Skorpion",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Głęboka, uniwersalna wibracja niesie ze sobą artystyczne natchnienie, empatię sięgającą horyzontu oraz potrzebę spojrzenia na relacje i świat z pozycji bezwarunkowej akceptacji.",
+      "r": "Zanurz się w twórczości, która porusza duszę, zrób coś bezinteresownego dla kogoś w potrzebie lub spójrz na minione trudności z perspektywy mądrego obserwatora.",
+      "u": "Wchodzenia w rolę zbawiciela całego świata, brania na siebie cudzych problemów oraz popadania w melancholię i rozczarowanie.",
+      "s": "„Kiedy pozwolimy sobie spojrzeć na nasze życie z szerszej perspektywy, nagle zauważymy, że każdy trudny moment był tylko przystankiem w drodze do głębszego poznania siebie.”",
+      "fun": "Jaka ukryta dotąd mądrość płynie z Twoich doświadczeń i jak możesz ją dzisiaj wykorzystać dla własnego wewnętrznego spokoju?"
+    },
+    "2027-11-15": {
+      "z": "Skorpion",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Iskrząca, pionierska wibracja przynosi potężny impuls wewnętrznego ognia, odwagę do samodzielnego decydowania o sobie i suwerenność w wyrażaniu własnego zdania.",
+      "r": "Podejmij odważną inicjatywę w sprawie, która od dawna czekała na Twój ruch, i zaufaj swojemu wewnętrznemu napędowi.",
+      "u": "Oglądania się na opinie innych ludzi, zwlekania z decyzjami oraz gaszenia swojego entuzjazmu przez stare nawyki.",
+      "s": "„Mając w sobie całą dotychczasową mądrość, masz pełne prawo napisać kolejny rozdział dokładnie tak, jak podpowiada Ci to Twoje serce.”",
+      "fun": "Gdybyś nie musiała oglądać się na niczyją akceptację, jaki odważny krok zrobiłabyś dzisiaj dla samej siebie?"
+    },
+    "2027-11-16": {
+      "z": "Skorpion",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Subtelna, otulająca wibracja wnosi do naszych relacji zapach spokoju, empatii i głębokiego wsłuchania się w unikalny rytm własnego ciała oraz potrzeb bliskich.",
+      "r": "Stwórz dla siebie bezpieczną przestrzeń, przeprowadź szczery dialog od serca do serca i pozwól sobie na odpoczynek bez poczucia winy.",
+      "u": "Wchodzenia w głośne spory, forsowania swoich racji siłą oraz zagłuszania głosu własnej intuicji.",
+      "s": "„Czasami największą mądrością okazuje się po prostu odpuścić walkę i w cichym zaufaniu pozwolić relacjom układać się naturalnie.”",
+      "fun": "Co Twój organizm lub Twoje serce próbuje Ci dzisiaj wyszeptać w momentach, gdy na chwilę zwalniasz bieg?"
+    },
+    "2027-11-17": {
+      "z": "Skorpion",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Barwna, radosna wibracja maluje dzisiejszy dzień uśmiechem, twórczą ekspresją i wewnętrzną swobodą, przypominając o magii spontaniczności w codziennym życiu.",
+      "r": "Zrób coś dającego czystą frajdę – napisz kilka luźnych słów, wyjdź na spacer i zachwyć się prostotą otaczającego świata.",
+      "u": "Nadmiernej powagi, wpadania w czarne myśli oraz surowej krytyki swoich twórczych pomysłów.",
+      "s": "„Radość nie jest luksusem – to naturalny stan duszy, która przypomina nam, jak pięknie jest po prostu wyrażać siebie.”",
+      "fun": "Co sprawi, że na Twojej twarzy zagości dzisiaj szczery, niczym niezmącony uśmiech?"
+    },
+    "2027-11-18": {
+      "z": "Skorpion",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Solidna, uziemiająca wibracja przynosi nam potrzebę ładu, dyscypliny i zadbania o bezpieczne, codzienne struktury, które dają nam upragniony grunt pod nogami.",
+      "r": "Uporządkuj swoją przestrzeń, dokończ jedno zaległe zadanie i stwórz dla siebie przytulny, stabilny plan na nadchodzące dni.",
+      "u": "Sztywnego perfekcjonizmu, zamęczania się obowiązkami oraz braku elastyczności wobec nagłych zmian planów.",
+      "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+      "fun": "Jaki jeden mały, czuły gest porządku możesz dzisiaj wykonać, aby Twoja codzienność stała się dla Ciebie bezpieczniejszą przystanią?"
+    },
+    "2027-11-19": {
+      "z": "Skorpion",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Niespokojna, wolnościowa wibracja wpuszcza do naszej rzeczywistości powiew świeżego powietrza, zachęcając do wyjścia poza bezpieczną rutynę i odkrywania nowych perspektyw w działaniu.",
+      "r": "Zmień coś w swoim stałym planie dnia – wybierz się na spacer zupełnie nieznaną ulicą lub podejdź do dawnego problemu z zupełnie innej strony.",
+      "u": "Kurczowego trzymania się zasady „zawsze robiliśmy to w ten sam sposób”, lęku przed odmiennym zdaniem innych oraz rozpraszania swojej uwagi.",
+      "s": "„Życie staje się o wiele barwniejsze, gdy przestajemy bać się nagłych zakrętów i z radosną ciekawością zaglądamy za kolejne wzgórze.”",
+      "fun": "W jakim obszarze swojego życia czujesz dzisiaj największą ochotę na zrzucenie starych ograniczeń i zaczerpnięcie powietrza pełną piersią?"
+    },
+    "2027-11-20": {
+      "z": "Skorpion",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Ciepła, opiekuńcza wibracja otula nas niczym miękki koc w chłodny dzień, kierując całą uwagę ku domowemu ognisku, harmonii oraz uważnej, czułej trosce o więzi z bliskimi.",
+      "r": "Stwórz wokół siebie przytulną przestrzeń, porozmawiaj z kimś bliskim z poziomu otwartego serca i podaruj sobie samą wyrozumiałość w momentach codziennego zmęczenia.",
+      "u": "Wchodzenia w rolę ratownika kosztem własnych sił, rezygnowania z osobistych granic oraz brania na siebie cudzych ciężarów tylko po to, by zadowolić wszystkich wokół.",
+      "s": "„Najpiękniejszym domem, o jaki możemy dbać każdego dnia, jest przestrzeń spokojnego, otwartego na miłość i akceptację serca.”",
+      "fun": "Jak możesz dzisiaj okazać sobie czułość w tym miejscu, które najbardziej domaga się Twojej wyrozumiałości i odpoczynku?"
+    },
+    "2027-11-21": {
+      "z": "Skorpion",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Cicha, przenikliwa wibracja siódemki zaprasza nas do zatrzymania się w pędzie codzienności i poszukania odpowiedzi w tej części nas samych, do której rzadko dociera zgiełk świata.",
+      "r": "Usiądź w ulubionym fotelu z ciepłym kubkiem, pozwól sobie na dłuższą chwilę w ciszy bez włączania muzyki czy telefonu i zauważ to, co podpowiada Ci intuicja.",
+      "u": "Przejmowania się plotkami, nadmiernego analizowania opinii innych ludzi oraz zbytniego zamykania się na bliskość.",
+      "s": "„Czasami wystarczy na chwilę odciąć zewnętrzny hałas, by wreszcie wyraźnie usłyszeć cichy, mądry głos własnej duszy.”",
+      "fun": "Jaka jedna prawda o Tobie samej domaga się dzisiaj uwagi, gdy wokół robi się cicho?"
+    },
+    "2027-11-22": {
+      "z": "Strzelec",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Dojrzała, stabilna wibracja ósemki przynosi poczucie wewnętrznego kręgosłupa, sprawczości oraz odwagę w zarządzaniu własnymi zasobami i energią życiową.",
+      "r": "Zadbaj o swoje granice w relacjach zawodowych lub towarzyskich, uporządkuj sprawę, która wymagała konkretnej decyzji, i doceń swoją dotychczasową drogę.",
+      "u": "Pracy ponad siły, surowego rozliczania siebie za potknięcia oraz wchodzenia w role kontrolujące wobec otoczenia.",
+      "s": "„Prawdziwa siła nie krzyczy – ona stoi mocno na ziemi, wspierając nas w każdym podjętym z miłością do siebie kroku.”",
+      "fun": "W jakiej sprawie możesz dzisiaj postawić zdrową, spokojną granicę, by chronić swój wewnętrzny spokój?"
+    },
+    "2027-11-23": {
+      "z": "Strzelec",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Głęboka, humanistyczna wibracja dziewiątki otwiera przed nami przestrzeń na pożegnanie tego, co w relacjach lub starych nawykach przestało nam służyć, otwierając serce na szerszą perspektywę.",
+      "r": "Pozwól sobie na łagodne zamknięcie pewnego etapu w myślach, zrób przestrzeń na nowe doświadczenia i spójrz na trudniejszą relację z wyrozumiałością.",
+      "u": "Trzymania się kurczowo żalów z przeszłości, brania na barki problemów całego świata oraz nadmiernego uciekania w marzenia kosztem tu i teraz.",
+      "s": "„Pozwól sobie z czułością wypuścić z dłoni to, co już odeszło, bo tylko z wolnym sercem możemy przytulić to, co niesie jutro.”",
+      "fun": "Co w Twoim życiu domaga się dzisiaj cichego uwolnienia, byś mogła poczuć ulgę i lekkość?"
+    },
+    "2027-11-24": {
+      "z": "Strzelec",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Iskrząca, suwerenna wibracja jedynki przynosi wewnętrzny ogień, odwagę do samodzielnego wyznaczania kierunku i powiew świeżej determinacji w działaniu.",
+      "r": "Zrób mały, odważny krok w stronę tego, o czym marzysz, wyraź swoje zdanie bez lęku przed oceną i zaufaj swojemu wewnętrznemu impulsowi.",
+      "u": "Czekania na cudzą aprobatę, zwlekania z podjęciem decyzji oraz gaszenia swojego entuzjazmu przez stare nawyki myślowe.",
+      "s": "„Każdy dzień to szansa, by z całą dotychczasową mądrością napisać kolejny wers po swojemu, w zgodzie z własnym sercem.”",
+      "fun": "Gdybyś nie musiała nikomu niczego udowadniać, co odważyłabyś się dzisiaj zrobić dla siebie?"
+    },
+    "2027-11-25": {
+      "z": "Strzelec",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Delikatna, otulająca wibracja dwójki wnosi do naszej codzienności miękkość, empatię i potrzebę budowania bezpiecznej, ciepłej przystani w relacjach z ludźmi.",
+      "r": "Spotkaj się z kimś bliskim na szczerym, niespiesznym dialogu, otul się ciepłym kocem i daj sobie przyzwolenie na odpuszczenie gonitwy.",
+      "u": "Wchodzenia w niepotrzebne spory, rezygnowania z siebie dla tzw. świętego spokoju oraz tłumienia swoich emocji.",
+      "s": "„Czasami największym aktem odwagi jest okazanie sobie czułości i przyzwolenie na to, by po prostu zwolnić tempo.”",
+      "fun": "Kto w Twoim otoczeniu – albo Ty sama – potrzebuje dzisiaj najwięcej wyrozumiałości i ciepłego słowa?"
+    },
+    "2027-11-26": {
+      "z": "Strzelec",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Barwna, radosna wibracja trójki wnosi do naszej rzeczywistości powiew uśmiechu, twórczej lekkości i spontaniczności, przypominając, że radość to naturalny oddech duszy.",
+      "r": "Zrób coś czysto dla przyjemności – napisz kilka luźnych słów, posłuchaj ulubionej muzyki albo wyjdź na spacer i uśmiechnij się do jesiennego świata.",
+      "u": "Zbytniej powagi, wpadania w krytyczny ton wobec siebie oraz tłumienia swoich twórczych, spontanicznych pomysłów.",
+      "s": "„Radość nie jest luksusem – to wewnętrzne światło, które potrafi rozjaśnić nawet najbardziej pochmurny dzień.”",
+      "fun": "Co sprawi, że na Twojej twarzy zagości dzisiaj szczery, niczym niezmącony uśmiech?"
+    },
+    "2027-11-27": {
+      "z": "Strzelec",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Solidna, uziemiająca wibracja czwórki daje nam poczucie bezpiecznego gruntu pod nogami, zapraszając do zadbania o porządek i stabilne, codzienne struktury.",
+      "r": "Uporządkuj jedną małą przestrzeń wokół siebie, dokończ zaległą sprawę, która ciążyła Ci w tle, i stwórz dla siebie życzliwy plan na najbliższe dni.",
+      "u": "Sztywnego perfekcjonizmu, zamęczania się nadmiarem obowiązków oraz braku elastyczności, gdy coś idzie nie po naszej myśli.",
+      "s": "„Spokój rodzi się tam, gdzie z czułością i cierpliwością dbamy o małe fundamenty naszego codziennego świata.”",
+      "fun": "Jaki jeden mały gest porządku możesz dzisiaj wykonać, aby poczuć się we własnej przestrzeni bezpiecznie i swobodnie?"
+    },
+    "2027-11-28": {
+      "z": "Strzelec",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Niespokojna, wolnościowa wibracja piątki otwiera przed nami drzwi do świeżego powietrza, zachęcając do wyjścia poza schematy i spojrzenia na sprawy z nowej perspektywy.",
+      "r": "Zmień rutynową trasę spaceru, przeczytaj coś całkowicie nowego lub porozmawiaj z kimś, kto patrzy na świat w odmienny sposób.",
+      "u": "Kurczowego trzymania się zasady „zawsze robiliśmy to tak samo”, lęku przed zmianą oraz rozpraszania swojej uwagi na zbyt wiele frontów.",
+      "s": "„Życie zyskuje niezwykłe barwy, gdy przestajemy bać się zakrętów i z ciekawością zaglądamy za kolejne wzgórze.”",
+      "fun": "W jakim obszarze swojego życia czujesz dzisiaj największą ochotę na zrzucenie starych ograniczeń?"
+    },
+    "2027-11-29": {
+      "z": "Strzelec",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Ciepła, opiekuńcza wibracja szóstki otula nas niczym miękki koc, kierując całą uwagę ku domowemu ciepłu, harmonii i czułej trosce o relacje z bliskimi ludźmi.",
+      "r": "Stwórz wokół siebie przytulną atmosferę, porozmawiaj z kimś bliskim z poziomu otwartego serca i podaruj sobie samą wyrozumiałość.",
+      "u": "Wchodzenia w rolę ratownika kosztem własnych sił, rezygnowania z granic oraz brania na siebie cudzych ciężarów.",
+      "s": "„Najpiękniejszym domem, o jaki możemy dbać każdego dnia, jest przestrzeń spokojnego, otwartego na miłość serca.”",
+      "fun": "Jak możesz dzisiaj okazać sobie czułość w tym miejscu, które najbardziej domaga się Twojego odpoczynku?"
+    },
+    "2027-11-30": {
+      "z": "Strzelec",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Mistyczna, badawcza wibracja siódemki zamyka listopadowy szlak w cichej, bezpiecznej przestrzeni refleksji, pozwalając podsumować miesiąc bez zgiełku świata.",
+      "r": "Spędź chwilę w samotności, wsłuchaj się w szum wieczoru i pozwól sobie na głęboki reset oraz ciche podziękowanie za lekcje minionych dni.",
+      "u": "Chłodnego sceptycyzmu, nadmiernego analizowania przeszłości oraz zbytniego izolowania się od ciepła życzliwych ludzi.",
+      "s": "„Prawda nie potrzebuje hałasu – ona rozkwita najpiękniej w cichej i bezpiecznej przystani naszej własnej duszy.”",
+      "fun": "Za jaką cichą lekcję, którą przyniósł Ci listopad, możesz dzisiaj z wdzięcznością podziękować swojej intuicji?"
+    },
+    "2027-12-1": {
+      "z": "Strzelec",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Ciepła, opiekuńcza wibracja szóstki otwiera grudzień nastrojem domowego ogniska, harmonii i czułej troski o relacje z tymi, których nosimy w sercu.",
+      "r": "Stwórz w swojej przestrzeni przytulną atmosferę, porozmawiaj z bliską osobą z poziomu otwartego serca i podaruj sobie samą wyrozumiałość w przedświątecznym pędzie.",
+      "u": "Wchodzenia w rolę ratownika kosztem własnych sił, rezygnowania z osobistych granic oraz brania na siebie cudzych ciężarów.",
+      "s": "„Najpiękniejszym domem, o jaki możemy dbać każdego dnia, jest przestrzeń spokojnego, otwartego na miłość i akceptację serca.”",
+      "fun": "W którym miejscu swojego domu – fizycznego lub w swoim sercu – najbardziej potrzebujesz dzisiaj zapalić symboliczne światło i pozwolić sobie na oddech bez poczucia winy?"
+    },
+    "2027-12-2": {
+      "z": "Strzelec",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Cicha, przenikliwa wibracja siódemki zaprasza nas do zatrzymania się w pędzie codzienności i poszukania odpowiedzi w głębi własnej duszy.",
+      "r": "Usiądź w ulubionym fotelu z ciepłym kubkiem, pozwól sobie na dłuższą chwilę w ciszy i zauważ to, co podpowiada Ci intuicja.",
+      "u": "Przejmowania się plotkami, nadmiernego analizowania opinii innych ludzi oraz zbytniego zamykania się na bliskość.",
+      "s": "„Czasami wystarczy na chwilę odciąć zewnętrzny hałas, by wreszcie wyraźnie usłyszeć cichy, mądry głos własnego serca.”",
+      "fun": "Gdyby Twoja zmęczona dusza mogła teraz wypowiedzieć jedno życzenie dotyczące tego, przed czym chce uciec w ciszę, co by to było?"
+    },
+    "2027-12-3": {
+      "z": "Strzelec",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Dojrzała, stabilna wibracja ósemki przynosi poczucie wewnętrznego kręgosłupa, sprawczości oraz odwagę w zarządzaniu własnymi zasobami i energią.",
+      "r": "Zadbaj o swoje granice w relacjach, uporządkuj sprawę, która wymagała konkretnej decyzji, i doceń swoją dotychczasową drogę w kończącym się roku.",
+      "u": "Pracy ponad siły, surowego rozliczania siebie za potknięcia oraz wchodzenia w role kontrolujące wobec otoczenia.",
+      "s": "„Prawdziwa siła nie krzyczy – ona stoi mocno na ziemi, wspierając nas w każdym podjętym z miłością do siebie kroku.”",
+      "fun": "W jakiej sprawie zawodowej lub osobistej Twoja intuicja już dawno mówi „dość”, a Ty wciąż z uporem ciągniesz ten wózek?"
+    },
+    "2027-12-4": {
+      "z": "Strzelec",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Głęboka, humanistyczna wibracja dziewiątki otwiera przed nami przestrzeń na pożegnanie tego, co w starych nawykach przestało nam służyć, otwierając serce na szerszą perspektywę.",
+      "r": "Pozwól sobie na łagodne domknięcie pewnego etapu w myślach, zrób przestrzeń na nowe doświadczenia i spójrz na miniony czas z wyrozumiałością.",
+      "u": "Trzymania się kurczowo żalów z przeszłości, brania na barki problemów całego świata oraz nadmiernego uciekania w marzenia kosztem tu i teraz.",
+      "s": "„Pozwól sobie z czułością wypuścić z dłoni to, co już odeszło, bo tylko z wolnym sercem możemy przytulić to, co niesie jutro.”",
+      "fun": "Jaki dawny schemat postępowania, wyniesiony z rodzinnego domu lub przeszłości, możesz dzisiaj z czułością pożegnać, by nie brać go ze sobą w nowy rok?"
+    },
+    "2027-12-5": {
+      "z": "Strzelec",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Iskrząca, suwerenna wibracja jedynki przynosi wewnętrzny ogień, odwagę do samodzielnego wyznaczania kierunku i powiew świeżej determinacji w działaniu.",
+      "r": "Zrób mały, odważny krok w stronę tego, o czym marzysz, wyraź swoje zdanie bez lęku przed oceną i zaufaj swojemu wewnętrznemu impulsowi.",
+      "u": "Czekania na cudzą aprobatę, zwlekania z podjęciem decyzji oraz gaszenia swojego entuzjazmu przez stare nawyki myślowe.",
+      "s": "„Mając w sobie całą dotychczasową mądrość, masz pełne prawo napisać kolejny rozdział dokładnie tak, jak podpowiada Ci to Twoje serce.”",
+      "fun": "O jakiej małej, zakazanej przez zdrowy rozsądek lub otoczenie przyjemności marzysz dzisiaj, by wreszcie zrealizować ją tylko dla siebie?"
+    },
+    "2027-12-6": {
+      "z": "Strzelec",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Subtelna, otulająca wibracja dwójki wnosi do grudniowej codzienności miękkość, potrzebę bliskości oraz sztukę uważnego słuchania tego, co niewypowiedziane.",
+      "r": "Usiądź z kimś bliskim bez pośpiechu, stwórz wokół siebie kojącą atmosferę i zaoferuj czułą obecność bez gotowych rad czy ocen.",
+      "u": "Wchodzenia w rolę rozjemcy za wszelką cenę, brania na siebie cudzych napięć oraz unikania trudnych tematów przez tłumienie własnych emocji.",
+      "s": "„Prawdziwa bliskość nie potrzebuje głośnych słów – rozkwita tam, gdzie pozwalamy sobie nawzajem po prostu bezpiecznie być.”",
+      "fun": "Kto w Twoim otoczeniu nosi w sobie cichy smutek i może potrzebować dzisiaj Twojej ciepłej, obecnej dłoni bez zadawania zbędnych pytań?"
+    },
+    "2027-12-7": {
+      "z": "Strzelec",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Barwna, radosna wibracja trójki rozświetla grudniowy poranek nutą spontaniczności, twórczego przepływu i wewnętrznej lekkości.",
+      "r": "Zrób coś czysto dla zabawy – upiecz coś pachnącego cynamonem, napisz kilka miłych słów do kogoś bez powodu albo pozwól sobie na artystyczny bałagan w twórczym działaniu.",
+      "u": "Nadmiernej powagi, zamartwiania się sprawami, na które nie masz wpływu, oraz krytykowania swoich spontanicznych pomysłów.",
+      "s": "„Radość to nie nagroda za dobrze wykonany plan, lecz naturalny promień słońca, który ogrzewa naszą duszę od środka.”",
+      "fun": "Jaki drobny, szalony impuls twórczy zignorowałaś ostatnio, a mógłby wnieść do Twojego dnia mnóstwo śmiechu?"
+    },
+    "2027-12-8": {
+      "z": "Strzelec",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Solidna, uziemiająca wibracja czwórki daje nam stabilny grunt pod nogami, przypominając o wartości zdrowych struktur, porządku i dbałości o fizyczne ciało.",
+      "r": "Zadbaj o przestrzeń wokół siebie, przygotuj ciepły, pożywny posiłek i zaplanuj nadchodzące dni w sposób, który oszczędzi Ci przedświątecznego chaosu.",
+      "u": "Sztywnego perfekcjonizmu, zamęczania się listami zadań bez końca oraz braku elastyczności, gdy plan ulega nagłej zmianie.",
+      "s": "„Spokój mieszka tam, gdzie z czułością i szacunkiem dbamy o codzienne, namacalne fundamenty naszego życia.”",
+      "fun": "Który z Twoich codziennych nawyków dbania o siebie traktujesz po macoszemu i jak możesz to dzisiaj zmienić?"
+    },
+    "2027-12-9": {
+      "z": "Strzelec",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Niespokojna, wolnościowa wibracja piątki wpuszcza do naszej rzeczywistości powiew orzeźwiającego wiatru, prowokując do wyjścia poza bezpieczną, zimową rutynę.",
+      "r": "Zmień stałą perspektywę – wybierz się na spacer zupełnie inną trasą, przeczytaj tekst z zupełnie innej dziedziny albo podejmij decyzję, która uwolni Cię od dawnego przyzwyczajenia.",
+      "u": "Kurczowego trzymania się zasady „zawsze robiłam to w ten sposób”, lęku przed odmiennym zdaniem otoczenia oraz rozpraszania energii na zbyt wiele frontów.",
+      "s": "„Wolność rodzi się w głowie w momencie, gdy przestajemy bać się nagłych zakrętów i z ciekawością ruszamy w nieznane.”",
+      "fun": "W jakim rutynowym układzie czujesz się już tak ciasno, że najchętniej zrzuciłabyś te ramy jednym zdecydowanym ruchem?"
+    },
+    "2027-12-10": {
+      "z": "Strzelec",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Ciepła, opiekuńcza wibracja szóstki otula nas aurą domowego ogniska, harmonii i głębokiej, niczym niewymuszonej troski o relacje z najbliższymi.",
+      "r": "Stwórz w domu nastrojowy kącik, zadzwoń do kogoś, z kim dawno nie rozmawiałaś, i podaruj sobie samą wyrozumiałość w momentach zmęczenia.",
+      "u": "Wchodzenia w rolę męczennika, który musi zadowolić wszystkich wokół kosztem własnego zdrowia i wewnętrznego spokoju.",
+      "s": "„Najpiękniejszym podarunkiem, jaki możemy dać światu, jest nasza spokojna, obecna i pełna akceptacji miłość.”",
+      "fun": "W jakiej relacji dawno już nie poprosiłaś o to, czego naprawdę potrzebujesz, zakładając, że „inni powinni się domyślić”?"
+    },
+    "2027-12-11": {
+      "z": "Strzelec",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Cicha, mistyczna wibracja siódemki przynosi nam potrzebę ucieczki od przedświątecznego zgiełku i zanurzenia się w bezpiecznej, regenerującej ciszy.",
+      "r": "Zgaś górne światło, zapal ulubioną świecę, odłóż telefon na kilka godzin i pozwól swojemu umysłowi na głęboki, niczym niezmącony odpoczynek.",
+      "u": "Przeintelektualizowania prostych spraw, chłodnego dystansu wobec ludzi oraz nadmiernego analizowania tego, co było.",
+      "s": "„Prawdziwa mądrość nie krzyczy w tłumie – ona czeka cierpliwie w cisze, aż wreszcie zechcesz posłuchać głosu samej siebie.”",
+      "fun": "Jaki hałas – w Twojej głowie lub w otoczeniu – jest Ci dzisiaj najbardziej potrzebny do wyciszenia?"
+    },
+    "2027-12-12": {
+      "z": "Strzelec",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Dostojna, sprawcza wibracja ósemki daje nam moc do wyznaczania granic, zarządzania swoimi zasobami i stawiania kropki nad „i” w zaległych sprawach.",
+      "r": "Ureguluj to, co czekało na Twoją decyzję, powiedz stanowcze „nie” nadmiarowi obowiązków i z dumą spójrz na to, co udało Ci się zbudować w tym roku.",
+      "u": "Bezwzględnego parcia do przodu za wszelką cenę, przepracowywania się oraz surowego rozliczania siebie z najmniejszych potknięć.",
+      "s": "„Twoja siła nie polega na dźwiganiu całego świata na barkach, lecz na mądrym decydowaniu, co w ogóle zasługuje na Twoją uwagę.”",
+      "fun": "Przed jakim zadaniem lub oczekiwaniem innych stoisz dzisiaj, czując, że najwyższy czas postawić zdrową granicę?"
+    },
+    "2027-12-13": {
+      "z": "Strzelec",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Głęboka, humanistyczna wibracja dziewiątki otwiera przed nami przestrzeń na artystyczne natchnienie, empatię i łagodne pożegnanie tego, co w tym roku odeszło w zapomnienie.",
+      "r": "Otocz się pięknem, które karmi Twoją duszę (muzyką, sztuką, słowem), spisz to, co chcesz zostawić za sobą, i spójrz na minione miesiące z czułą wyrozumiałością.",
+      "u": "Brania na siebie cudzych kryzysów, pogrążania się w melancholii oraz kurczowego trzymania się wspomnień, które przynoszą ból.",
+      "s": "„Pozwól sobie z miłością zamknąć drzwi do tego, co już nie powróci, bo tylko z wolnymi dłoniami możesz przytulić to, co nadchodzi.”",
+      "fun": "Jaka dawna historia lub niezamknięta sprawa krąży jeszcze po Twojej głowie, domagając się ostatecznego, cichego przebaczenia?"
+    },
+    "2027-12-14": {
+      "z": "Strzelec",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Iskrząca, suwerenna wibracja jedynki rozpala w nas wewnętrzny ogień, przynosząc odwagę do samodzielnego decydowania o sobie i powiew świeżej determinacji.",
+      "r": "Zrób mały, odważny krok w stronę tego, o czym marzysz, wyraź swoje zdanie bez oglądania się na aprobatę i zaufaj swojemu wewnętrznemu napędowi.",
+      "u": "Czekania na cudze pozwolenie, zwlekania z podjęciem działania oraz gaszenia swojego entuzjazmu przez stare nawyki myślowe.",
+      "s": "„Mając w sobie całą dotychczasową mądrość, masz pełne prawo napisać kolejny rozdział dokładnie tak, jak pragnie tego Twoje serce.”",
+      "fun": "Gdybyś nie musiała nikomu niczego udowadniać, co odważyłabyś się dzisiaj zrobić wyłącznie dla własnej radości?"
+    },
+    "2027-12-15": {
+      "z": "Strzelec",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Subtelna, otulająca wibracja dwójki wnosi do grudniowej codzienności miękkość, empatię i potrzebę budowania bezpiecznej, ciepłej przystani w relacjach z bliskimi.",
+      "r": "Spotkaj się z kimś na szczerym, niespiesznym dialogu, otul się ciepłym kocem i daj sobie przyzwolenie na odpuszczenie wszelkiej gonitwy.",
+      "u": "Wchodzenia w niepotrzebne spory, rezygnowania z siebie dla tzw. świętego spokoju oraz tłumienia własnych, ważnych emocji.",
+      "s": "„Czasami największym aktem odwagi jest okazanie sobie czułości i przyzwolenie na to, by po prostu zwolnić tempo i odetchnąć.”",
+      "fun": "Kto w Twoim otoczeniu – albo Ty sama – potrzebuje dzisiaj najwięcej wyrozumiałości i ciepłego, utulającego słowa?"
+    },
+    "2027-12-16": {
+      "z": "Strzelec",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Barwna, radosna wibracja trójki wnosi do grudniowego dnia powiew uśmiechu, twórczej lekkości i spontaniczności, przypominając o magii małych przyjemności.",
+      "r": "Zrób coś czysto dla zabawy – posłuchaj ulubionej muzyki, napisz kilka luźnych słów albo wyjdź na krótki spacer i uśmiechnij się do mroźnego świata.",
+      "u": "Zbytniej powagi, wpadania w krytyczny ton wobec siebie oraz tłumienia swoich twórczych, spontanicznych pomysłów.",
+      "s": "„Radość nie jest luksusem – to wewnętrzne światło, które potrafi rozjaśnić nawet najbardziej pochmurny, zimowy dzień.”",
+      "fun": "Jaki mały, twórczy impuls zignorowałaś ostatnio, a mógłby wnieść do Twojego dnia mnóstwo wewnętrznego ciepła?"
+    },
+    "2027-12-17": {
+      "z": "Strzelec",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Solidna, uziemiająca wibracja czwórki daje nam stabilny grunt pod nogami, zapraszając do zadbania o porządek, strukturę i dbałość o fizyczne ciało.",
+      "r": "Uporządkuj jedną małą przestrzeń wokół siebie, przygotuj ciepły, pożywny posiłek i zaplanuj nadchodzące dni tak, by oszczędzić sobie chaosu.",
+      "u": "Sztywnego perfekcjonizmu, zamęczania się listami zadań bez końca oraz braku elastyczności, gdy plan ulega nagłej zmianie.",
+      "s": "„Spokój mieszka tam, gdzie z czułością i szacunkiem dbamy o codzienne, namacalne fundamenty naszego życia.”",
+      "fun": "Który z Twoich codziennych nawyków dbania o siebie traktujesz po macoszemu i jak możesz to dzisiaj zmienić?"
+    },
+    "2027-12-18": {
+      "z": "Strzelec",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Niespokojna, wolnościowa wibracja piątki wpuszcza do naszej rzeczywistości powiew orzeźwiającego wiatru, prowokując do wyjścia poza bezpieczną, zimową rutynę.",
+      "r": "Zmień stałą perspektywę – wybierz się na spacer zupełnie inną trasą, przeczytaj tekst z nowej dziedziny albo podejmij decyzję uwalniającą od przyzwyczajenia.",
+      "u": "Kurczowego trzymania się zasady „zawsze robiliśmy to tak samo”, lęku przed odmiennym zdaniem otoczenia oraz rozpraszania energii.",
+      "s": "„Wolność rodzi się w głowie w momencie, gdy przestajemy bać się nagłych zakrętów i z ciekawością ruszamy w nieznane.”",
+      "fun": "W jakim rutynowym układzie czujesz się już tak ciasno, że najchętniej zrzuciłabyś te ramy jednym zdecydowanym ruchem?"
+    },
+    "2027-12-19": {
+      "z": "Strzelec",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Ciepła, opiekuńcza wibracja szóstki otula nas aurą domowego ogniska, harmonii i głębokiej, niczym niewymuszonej troski o relacje z najbliższymi.",
+      "r": "Stwórz w domu nastrojowy kącik, zadzwoń do kogoś bliskiego z dobrym słowem i podaruj sobie samą wyrozumiałość w momentach przedświątecznego zmęczenia.",
+      "u": "Wchodzenia w rolę męczennika, który musi zadowolić wszystkich wokół kosztem własnego zdrowia i wewnętrznego spokoju.",
+      "s": "„Najpiękniejszym podarunkiem, jaki możemy dać światu, jest nasza spokojna, obecna i pełna akceptacji miłość.”",
+      "fun": "W jakiej relacji dawno już nie poprosiłaś o to, czego naprawdę potrzebujesz, zakładając, że inni domyślą się sami?"
+    },
+    "2027-12-20": {
+      "z": "Strzelec",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Cicha, mistyczna wibracja siódemki przynosi nam potrzebę ucieczki od przedświątecznego zgiełku i zanurzenia się w bezpiecznej, regenerującej ciszy.",
+      "r": "Zgaś górne światło, zapal ulubioną świecę, odłóż telefon na kilka godzin i pozwól swojemu umysłowi na głęboki, niczym niezmącony odpoczynek.",
+      "u": "Przeintelektualizowania prostych spraw, chłodnego dystansu wobec ludzi oraz nadmiernego analizowania przeszłości.",
+      "s": "„Prawdziwa mądrość nie krzyczy w tłumie – ona czeka cierpliwie w ciszy, aż wreszcie zechcesz posłuchać głosu samej siebie.”",
+      "fun": "Jaki hałas – w Twojej głowie lub w otoczeniu – jest Ci dzisiaj najbardziej potrzebny do wyciszenia?"
+    },
+    "2027-12-21": {
+      "z": "Strzelec",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Dostojna, sprawcza wibracja ósemki przynosi potężną siłę domykania spraw, stawiania mądrych granic i podsumowywania tego, co w tym roku udało nam się zbudować własnymi rękami.",
+      "r": "Zrób porządek w zobowiązaniach, postaw jasną kropkę nad „i” w sprawach wymagających decyzji i z dumą doceń swoją wewnętrzną i zewnętrzną obfitość.",
+      "u": "Pracy ponad siły, zatracania się w przedświątecznej gorączce kosztem zdrowia oraz surowego rozliczania siebie z drobiazgów.",
+      "s": "„Prawdziwa dojrzałość to umiejętność powiedzenia sobie: zrobilam wystarczająco dużo, teraz czas na zasłużony oddech.”",
+      "fun": "Za jaki swój twardy, cichy wysiłek włożony w minionych miesiącach możesz dzisiaj z całego serca podziękować samej sobie?"
+    },
+    "2027-12-22": {
+      "z": "Koziorożec",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Głęboka, humanistyczna wibracja dziewiątki otwiera przed nami przestrzeń na pożegnanie starego cyklu, artystyczne wzruszenia i spojrzenie na miniony rok z lotu ptaka, pełnego wyrozumiałości.",
+      "r": "Owiń się ciepłym szalem, posłuchaj muzyki, która porusza najczulsze struny duszy, i pozwól sobie na łagodne zamknięcie dawnych żalów.",
+      "u": "Trzymania się kurczowo przeszłości, brania na barki problemów całego świata oraz uciekania w melancholię bez wiary w jutro.",
+      "s": "„Kiedy z miłością wypuszczamy z dłoni to, co już minęło, w naszym sercu robi się cudowna przestrzeń na czyste, nowe światło.”",
+      "fun": "Jaki stary bagaż emocjonalny zostawiasz dzisiaj na progu tego roku, by nie wlec go ze sobą dalej?"
+    },
+    "2027-12-23": {
+      "z": "Koziorożec",
+      "l": 1,
+      "n": "Nowe początki, Inicjatywa, Przywództwo",
+      "e": "Iskrząca, suwerenna wibracja jedynki rozpala w nas wewnętrzny ogień, przynosząc odwagę do samodzielnego decydowania o sobie i świeży impuls do działania na własnych zasadach.",
+      "r": "Zrób coś w 100% po swojemu, zaufaj swojemu wewnętrznemu napędowi i nie oglądaj się na to, czego w tym czasie oczekuje od Ciebie otoczenie.",
+      "u": "Czekania na cudzą aprobatę, ulegania presji tradycji wbrew sobie oraz gaszenia swojego entuzjazmu.",
+      "s": "„Masz w sobie całą moc, by iść własną ścieżką – nawet wtedy, gdy cały świat wokół biegnie w zupełnie inna stronę.”",
+      "fun": "W jakiej sprawie ulegasz dzisiaj cudzym oczekiwaniom zamiast posłuchać głosu swojego własnego serca?"
+    },
+    "2027-12-24": {
+      "z": "Koziorożec",
+      "l": 2,
+      "n": "Współpraca, Dyplomacja, Intuicja",
+      "e": "Subtelna, otulająca wibracja dwójki przynosi wigilijny spokój, miękkość, empatię i potrzebę bycia blisko tych, których kochamy, w bezpiecznej harmonii serc.",
+      "r": "Usiądź z bliskimi do stołu z intencją czystej obecności, odpuść perfekcyjne przygotowania i podaruj sobie oraz innym ciepły, wyrozumiały uśmiech.",
+      "u": "Wchodzenia w dawne rodzinne konflikty, tłumienia swoich emocji dla tzw. świętego spokoju oraz gonitwy za idealnym obrazkiem.",
+      "s": "„Najpiękniejszym podarunkiem, jaki możemy sobie wzajemnie podarować, jest nasza obecność wolna od ocen i oczekiwań.”",
+      "fun": "Jak możesz dzisiaj otulić ciepłem tę cząstkę siebie, która najbardziej potrzebuje domowego spokoju?"
+    },
+    "2027-12-25": {
+      "z": "Koziorożec",
+      "l": 3,
+      "n": "Twórczość, Ekspresja, Radość",
+      "e": "Barwna, radosna wibracja trójki rozświetla świąteczny dzień śmiechem, serdeczną rozmową, twórczą lekkością i radością z małych, prostych chwil.",
+      "r": "Pozwól sobie na beztroski śmiech, zagraj w coś, porozmawiaj na luźne tematy i ciesz się bliskością ludzi bez nadmiernej powagi.",
+      "u": "Narzekania na drobiazgi, wracania do trudnych tematów przy stole oraz tłumienia swojej naturalnej ekspresji.",
+      "s": "„Radość jest najpiękniejszą modlitwą dziękczynną, jaką nasza dusza może zanieść do nieba.”",
+      "fun": "Co dzisiaj – zupełnie bezwysiłkowo – wywołało na Twojej twarzy najszczerszy uśmiech?"
+    },
+    "2027-12-26": {
+      "z": "Koziorożec",
+      "l": 4,
+      "n": "Organizacja, Konsekwencja, Stabilność",
+      "e": "Solidna, uziemiająca wibracja czwórki daje nam upragniony oddech stabilizacji, spokój po świątecznym rozgardiaszu i potrzebę bezpiecznego zwolnienia tempa.",
+      "r": "Wyjdź na spokojny, mroźny spacer, zrób sobie dzień totalnego lenistwa w przytulnym otoczeniu i daj ciele oraz głowie odpocząć.",
+      "u": "Sprzątania na siłę, zamęczania się obowiązkami domowymi oraz braku przyzwolenia na fizyczny relaks.",
+      "s": "„Dom to nie lśniące podłogi; to przestrzeń, w której Twoje zmęczone ciało wreszcie może bezpiecznie odetchnąć.”",
+      "fun": "W którym miejscu Twoje ciało domaga się dzisiaj dłuższego, niczym niezmąconego odpoczynku?"
+    },
+    "2027-12-27": {
+      "z": "Koziorożec",
+      "l": 5,
+      "n": "Zmiany, Odkrycia, Wolność",
+      "e": "Niespokojna, wolnościowa wibracja piątki wpuszcza do grudniowej stagnacji powiew świeżego powietrza, zachęcając do wyjścia z domu i rozprostowania skrzydeł.",
+      "r": "Rusz się w zupełnie nowe miejsce, zmień perspektywę, spotkaj się z kimś na luźną kawę poza domem lub przewietrz głowę z nagromadzonych myśli.",
+      "u": "Zamykania się w czterech ścianach na siłę, rutynowego marazmu oraz lęku przed odmiennym spędzeniem dnia.",
+      "s": "„Czasami wystarczy zmienić horyzont za oknem, by poczuć, że w naszych żaglach znów wieje radosny wiatr.”",
+      "fun": "Gdzie czujesz dzisiaj największy głód przestrzeni i fizycznego ruchu?"
+    },
+    "2027-12-28": {
+      "z": "Koziorożec",
+      "l": 6,
+      "n": "Troska, Harmonia, Piękno",
+      "e": "Ciepła, opiekuńcza wibracja szóstki kieruje naszą uwagę ku domowemu zaciszu, harmonii i czułemu zadbaniu o siebie po dniach pełnych spotkań.",
+      "r": "Zrób dla siebie coś kojącego – długą kąpiel, otulenie miękkim kocem, zjedzenie czegoś lekkiego i otoczenie się ciszą własnego domu.",
+      "u": "Bywania \"na posterunku\" dla wszystkich wokół, brania na siebie cudzych nastrojów oraz przemęczania się.",
+      "s": "„Najbezpieczniejszym miejscem na ziemi jest Twoje własne serce, gdy wreszcie przestajesz walczyć i po prostu odpoczywasz.”",
+      "fun": "Jak możesz dzisiaj okazać sobie najczulszą troskę, o której w całym tym pędzie zapomniałaś?"
+    },
+    "2027-12-29": {
+      "z": "Koziorożec",
+      "l": 7,
+      "n": "Refleksja, Głębia, Intuicja",
+      "e": "Mistyczna, badawcza wibracja siódemki zaprasza nas do głębokiej introspekcji i cichej rozmowy z samą sobą tuż przed zamknięciem rocznego cyklu.",
+      "r": "Zasiądź z dziennikiem lub notesem, spisz ciche przemyślenia, posłuchaj szumu własnego wnętrza i odetnij się na moment od zewnętrznego świata.",
+      "u": "Nadmiernego samobiczowania za błędy, chłodnego dystansu do samej siebie oraz przesiadywania w zgiełku.",
+      "s": "„W głębokiej ciszy rodzą się najcenniejsze odpowiedzi, których nie znajdziesz w hałaśliwych opiniach świata.”",
+      "fun": "Co najważniejszego dowiedziałaś się o sobie samej w ubiegłych miesiącach?"
+    },
+    "2027-12-30": {
+      "z": "Koziorożec",
+      "l": 8,
+      "n": "Realizacja, Sukces, Sprawczość",
+      "e": "Dojrzała, sprawcza wibracja ósemki daje nam moc do ostatecznego podsumowania finansowego, energetycznego i życiowego bilansu całego roku 2027.",
+      "r": "Zamknij formalne i osobiste sprawy z poczuciem dumy z tego, jak wiele przeszłaś, przetrwałaś i zbudowałaś.",
+      "u": "Surowego rozliczania się z niespełnionych planów, poczucia winy oraz brania na ostatnią prostą nowych, ciężkich zadań.",
+      "s": "„Jesteś tutaj, cała i silna – a to najlepszy dowód na to, że poradziłaś sobie z każdym wyzwaniem, jakie postawił przed Tobą los.”",
+      "fun": "Z jakim najcenniejszym wewnętrznym skarbem (zasobem, cechą) zostajesz na koniec tego roku?"
+    },
+    "2027-12-31": {
+      "z": "Koziorożec",
+      "l": 9,
+      "n": "Transformacja, Mądrość, Służba",
+      "e": "Głęboka, uniwersalna wibracja dziewiątki zamyka cały rok 2027 z wielkim, ukojonym sercem, pozwalając nam w geście wdzięczności zamknąć ten potężny rozdział.",
+      "r": "Delektuj się pięknem chwili, podziękuj w duchu za każdą lekcję – tę trudną i tę radosną – i z pełnym, miękkim oddechem stań na progu nowego.",
+      "u": "Żalu za tym, co odeszło, sztucznego przymusu szampańskiej zabawy wbrew własnemu zmęczeniu oraz braku przestrzeni na wzruszenie.",
+      "s": "„Każdy koniec jest tylko cichym zaproszeniem do napisania kolejnej, pięknej opowieści w zgodzie z własną duszą.”",
+      "fun": "Jeden, najważniejszy akord wdzięczności – do kogo lub do czego wędruje Twoje serce w ostatnią noc tego roku?"
     }
   },
   "de": {
@@ -7305,6 +10955,3660 @@ const FORECAST_DATA = {
   }
 };
 
+const FORECAST_DATA_2027 = {
+  "1-1": {
+    "z": "Koziorożec",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Pierwszy dzień nowego roku naturalnie zaprasza Cię do zatrzymania się w pędzie i postawienia spokojnych, solidnych fundamentów pod to, co dopiero ma przed Tobą rozkwitnąć. Czwórka przynosi wibrację głębokiego spokoju, potrzebę stabilizacji oraz poukładania myśli, co pozwala Ci wejść w ten rok bez zbędnego pośpiechu i presji. Nie musisz dzisiaj biec ani planować całego roku co do godziny. Pozwól sobie na powolny poranek, filiżankę ulubionej herbaty i ciche poczucie, że wszystko układa się dokładnie tak, jak powinno. Twój dom i Twoje wnętrze to dzisiaj najbezpieczniejsze przystanie na świecie.",
+    "r": "Skup się na łagodnym wejściu w nowy cykl, zadbaj o porządek i przytulność w swoim najbliższym otoczeniu oraz zaplanuj nadchodzące dni w przyjaznej, domowej atmosferze, która da Ci poczucie bezpieczeństwa.",
+    "u": "Pośpiechu, gwałtownych postanowień i narzucania sobie zbyt szybkiego tempa – pozwól sobie na celebrowanie każdej chwili bez patrzenia na zegarek.",
+    "s": "„Każdy nowy początek zaczyna się od cichej zgody na to, by zacząć od nowa.”",
+    "fun": "Jaki jeden, najprostszy nawyk dbania o Twój wewnętrzny spokój chcesz zabrać ze sobą w te nadchodzące miesiące?"
+  },
+  "1-2": {
+    "z": "Koziorożec",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Dzisiejsza wibracja piątki delikatnie budzi nas do życia, pukając do drzwi z ciekawością świata i chęcią odkrywania nieznanego. Możesz poczuć w sobie subtelną potrzebę zmiany, zrobienia czegoś inaczej niż zwykle albo po prostu otwarcia się na zupełnie nową perspektywę w sprawach, które dobrze znasz. Zamiast sztywnego planu, wybierz dzisiaj lekkość, zaufaj swojej intuicji i pozwól sobie popłynąć z prądem codzienności, zauważając małe, codzienne cuda, które często umykają w pośpiechu.",
+    "r": "Pozwól sobie na odrobinę spontaniczności, wyjdź na spacer zupełnie inną drogą niż zwykle i spójrz na swoje codzienne sprawy z odświeżonej, jasnej strony.",
+    "u": "Zamykania się na propozycje innych oraz sztywnego trzymania się planów, które dawno przestępy Ci służyć.",
+    "s": "„Wolność nie polega na braku ograniczeń, ale na odwadze bycia sobą w każdej, nawet najmniejszej zmianie.”",
+    "fun": "W jakim obszarze życia czujesz dziś największą potrzebę wpuszczenia świeżego powietrza i zrzucenia starych przyzwyczajeń?"
+  },
+  "1-3": {
+    "z": "Koziorożec",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Szóstka otacza dziś całą naszą codzienność niezwykle ciepłym, opiekuńczym płaszczem, kierując całą uwagę ku domowemu ciepłu i autentycznym relacjom z bliskimi. To idealny dzień na zadbanie o przestrzeń serca, domowy spokój i otoczenie miłością tych, których masz wokół siebie – a przede wszystkim na okazanie tej czułości samej sobie. Jeśli czujesz, że ktoś w Twoim otoczeniu potrzebuje miłego, wspierającego słowa, podaruj je dzisiaj bezinteresownie, pamiętając, że każde dobro zawsze wraca.",
+    "r": "Zadbaj o ciepłą, domową atmosferę, spędź miły czas z bliskimi lub podaruj sobie długą chwilę czułości z ulubioną książką, otaczając się przedmiotami, które dają Ci ukojenie.",
+    "u": "Brania na siebie cudzych problemów emocjonalnych i zapominania o własnych, niezwykle ważnych potrzebach.",
+    "s": "„Dom to nie tylko mury, to przede wszystkim ciepło serca, którym dzielimy się z innymi.”",
+    "fun": "Jak możesz dzisiaj otulić czułością tę część siebie, która czuje się jeszcze zmęczona minionym czasem?"
+  },
+  "1-4": {
+    "z": "Koziorożec",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Siódemka przynosi ze sobą upragnioną potrzebę głębokiego wyciszenia, wewnętrznej refleksji oraz wsłuchania się w ten najcichszy, najmądrzejszy głos własnego wnętrza. To idealny moment, aby na chwilę odciąć się od zewnętrznego zgiełku, powiadomień w telefonie i opinii świata, które często zagłuszają naszą prawdziwą intuicję. Pozwól sobie dzisiaj na odrobinę samotności rozumianej jako najpiękniejszy rodzaj bliskości z samą sobą. W ciszy rodzą się najbardziej klarowne odpowiedzi na pytania, które nosisz w sercu.",
+    "r": "Znajdź dla siebie chociaż kilkadziesiąt minut w całkowitej ciszy, zaparz ziołową herbatę, otul się miękkim kocem i spędź ten czas na lekturze lub spokojnym poukładaniu myśli w osobistym dzienniku.",
+    "u": "Przebywania w hałaśliwych, tłocznych miejscach oraz podejmowania ważnych, życiowych decyzji pod wpływem nagłej presji otoczenia.",
+    "s": "„Prawdziwa mądrość zaczyna się tam, gdzie potrafimy usłyszeć bicie własnego serca.”",
+    "fun": "Co cichego szepcze do Ciebie Twoja intuicja, gdy na moment odcinasz się od oczekiwań innych ludzi?"
+  },
+  "1-5": {
+    "z": "Koziorożec",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Dzisiejsza wibracja ósemki dodaje nam niezwykłej siły, determinacji oraz poczucia sprawczości. To ten dzień, w którym sprawy wymagające odwagi, stanowczości i poukładania kwestii materialnych lub formalnych układają się z niezwykłą łatwością. Poczujesz w sobie stabilny, wewnętrzny filar, który pozwala Ci zarządzać swoją energią i czasem w sposób najbardziej dla Ciebie korzystny. Pamiętaj jednak, że ta siła ma służyć Twojemu wsparciu, a nie stawać się batem na samej siebie.",
+    "r": "Ureguluj zaległe sprawy urzędowe lub biznesowe, zrób porządek w swoich finansach i podejmij odważne kroki w kierunku celów, które od dłuższego czasu nosisz w swojej głowie.",
+    "u": "Nadmiernej, sztywnej kontroli nad wszystkim i wszelkimi sprawami dokoła – odpuść to, na co nie masz realnego wpływu, a poczujesz ogromną ulgę.",
+    "s": "„Siła nie wynika z unikania upadków, ale z pewności, że po każdym z nich potrafimy wstać z podniesioną głową.”",
+    "fun": "Przed jakim nadmiarem obowiązków możesz dzisiaj postawić spokojną, stanowczą granicę, by chronić swoją energię?"
+  },
+  "1-6": {
+    "z": "Koziorożec",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Dziewiątka roztacza nad nami niezwykle miękką, uzdrawiającą energię domknięcia, wybaczenia i podsumowania pewnego etapu z ogromnym zrozumieniem. To czas, w którym możesz spojrzeć wstecz na minione miesiące czy lata nie z krytyką, lecz z głęboką czułością dla samej siebie. Dziewiątka przypomina, że każde pożegnanie z tym, co stare, robi w naszym życiu bezcenną przestrzeń na nowe, czyste cuda. Pozwól sobie na odpuszczenie dawnych żali.",
+    "r": "Zrób dokładne porządki w przestrzeni fizycznej – pozbądź się rzeczy, których dawno już nie używasz – oraz oczyść swoje myśli ze starych, niepotrzebnych zmartwień.",
+    "u": "Wracania do trudnych, bolesnych wspomnień z poczuciem winy lub żalu – spójrz na swoją przeszłość jak na mrykliwą lekcję, która uczyniła Cię silniejszą.",
+    "s": "„Zamknięcie jednych drzwi to najpiękniejszy prezent, jaki możemy podarować nowej przestrzeni w naszym życiu.”",
+    "fun": "Co starego chcesz dzisiaj z czułością pożegnać w swoich myślach, by zrobić miejsce na nową lekcję?"
+  },
+  "1-7": {
+    "z": "Koziorożec",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Jedynka symbolizuje zupełnie nowy cykl, świeży powiew energii oraz potężny zastrzyk motywacji do działania na własnych, autentycznych warunkach. Dziś czujesz, że masz przed sobą czystą kartę i prawo do tego, by zacząć pisać swoją historię na nowo. Ta wibracja dodaje odwagi, by przestać oglądać się za siebie i wreszcie postawić siebie oraz swoje pragnienia na pierwszym miejscu. Zaufaj temu impulsowi, bo niesie on ogromny potencjał twórczy.",
+    "r": "Wyznacz nowe, świetliste intencje na nadchodzący czas, odważnie wyraź swoje zdanie w ważnej dla Ciebie sprawie i zrób chociaż jeden mały krok w kierunku swojego marzenia.",
+    "u": "Oglądania się na to, co powiedzą inni, oraz czekania na wyimaginowany, „idealny” moment – ten moment tworzy się właśnie teraz.",
+    "s": "„Twoja przyszłość zaczyna się dzisiaj, w tym jednym, najprostszym i najszczerszym wyborze.”",
+    "fun": "Gdyby nikt Cię teraz nie oceniał, jaki odważny krok zrobiłabyś dzisiaj wyłącznie dla siebie?"
+  },
+  "1-8": {
+    "z": "Koziorożec",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Dwójka otula nas dzisiaj niezwykłą delikatnością, empatią oraz głęboką potrzebą harmonijnej współpracy z otaczającym światem i bliskimi ludźmi. To dzień, w którym nasza wrażliwość staje się największym darem, pozwalającym dostrzec to, co niewidoczne dla oczu. Zadbaj o swoje emocje, otocz się życzliwością i pamiętaj, że nie musisz niczego udowadniać światu – wystarczy, że po prostu jesteś w swojej autentycznej prawdzie.",
+    "r": "Porozmawiaj z kimś bliskim od serca do serca w bezpiecznej atmosferze, posłuchaj głosu swojego ciała i podaruj sobie dzień pełen łagodnego, niespiesznego rytmu.",
+    "u": "Wszelkich konfliktów, głośnych, męczących sporów oraz przebywania w miejscach lub z ludźmi, którzy wysysają z Ciebie życiową energię.",
+    "s": "„Łagodność jest cichą, potężną siłą, która potrafi rozpuścić każdy, nawet najtwardszy lód w ludzkim sercu.”",
+    "fun": "Kto w Twoim otoczeniu potrzebuje dzisiaj Twojego ciepłego, dobrego słowa bez żadnych pouczeń?"
+  },
+  "1-9": {
+    "z": "Koziorożec",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Trójka przynosi ze sobą mnóstwo radości, lekkości, twórczej ekspresji oraz potrzebę uśmiechu, który potrafi rozjaśnić nawet najbardziej pochmurny poranek. Dzisiejsza wibracja zachęca do tego, by przestać wszystko tak mocno analizować i pozwolić sobie na odrobinę radosnej beztroski. Twoja kreatywność szuka ujścia, a serce pragnie dzielić się ciepłem z innymi. Poczuj ten przepływ i zaproś do swojej codzienności więcej kolorów.",
+    "r": "Zrób dzisiaj coś czysto twórczego – napisz coś dla przyjemności, posłuchaj energetyzującej muzyki, spotkaj się z przyjaciółką, która potrafi wywołać szczery śmiech na Twojej twarzy.",
+    "u": "Nadmiernego zadręczania się pesymistycznymi myślami oraz szukania problemów tam, gdzie ich w rzeczywistości nie ma.",
+    "s": "„Radość życia to wcale nie brak trudności, to umiejętność dostrzegania słońca za każdą, nawet największą chmurą.”",
+    "fun": "Co sprawi, że na Twojej twarzy zagości dzisiaj zupełnie bezwysiłkowy, szczery uśmiech?"
+  },
+  "1-10": {
+    "z": "Koziorożec",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Kolejna czwórka w tym miesiącu przynosi nam cudowne ukojenie płynące ze stałości, rutyny i budowania bezpiecznych, stabilnych podstaw na co dzień. To dzień, w którym porządek w otoczeniu przynosi natychmiastowy porządek i ulgę w głowie. Nie musisz szukać wielkich wrażeń – uroki codzienności, dobrze zaparzona kawa w ulubionym kubku i spokojne domowe ognisko dadzą Ci dziś najgłębsze poczucie zakorzenienia.",
+    "r": "Dokończ zaległe codzienne obowiązki z pełną uważnością, uporządkuj swoją przestrzeń życiową lub dokumenty i ciesz się poczuciem pełnej kontroli nad swoim bezpiecznym zakątkiem świata.",
+    "u": "Chaosu organizacyjnego, podejmowania pochopnych decyzji finansowych oraz brania na siebie nagłych, nieprzemyślanych zobowiązań.",
+    "s": "„Spokój ducha rodzi się w poukładanej przestrzeni i w radosnej akceptacji tego, co codzienne i zwyczajne.”",
+    "fun": "Jaki jeden mały gest porządku w Twojej przestrzeni przyniesie Ci dzisiaj głęboką ulgę?"
+  },
+  "1-11": {
+    "z": "Koziorożec",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Piątka przynosi dziś wspaniały, świeży powiew wiatru w żagle, zachęcając Cię do delikatnego wyjścia poza utarte schematy i poszukiwania nowych, ciekawych inspiracji. Możesz poczuć, że rutyna zaczyna Cię lekko uwierać, a serce domaga się małej odmiany. To doskonały moment, aby otworzyć się na niespodzianki, odważyć się na zmianę perspektywy i spojrzeć na codzienne sprawy z zupełnie nowej, intrygującej strony.",
+    "r": "Zmień coś drobnego w swoim otoczeniu, wybierz się na spontaniczny spacer w nieznane dotąd miejsce, porozmawiaj z kimś, kto wnosi do Twojego życia radosną energię i pozwól sobie na odrobinę elastyczności.",
+    "u": "Poczucia stagnacji, zamartwiania się i trzymania się kurczowo starych przyzwyczajeń, które blokują Twój naturalny rozwój.",
+    "s": "„Najpiękniejsze przygody zaczynają się wtedy, gdy odważymy się zboczyć z utartego szlaku.”",
+    "fun": "Jaka dawna rutyna uwiera Cię dzisiaj tak bardzo, że najchętniej zmieniłabyś ją od zaraz?"
+  },
+  "1-12": {
+    "z": "Koziorożec",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Szóstka roztacza wokół nas niezwykle miękką, uzdrawiającą aurę bezwarunkowej miłości, rodzinnego ciepła i głębokiego zrozumienia dla ludzkich słabości. Dzisiejszy dzień sprzyja zatrzymaniu się w domowym zaciszu, otoczeniu się pięknem i budowaniu bliskości z tymi, których nosimy w sercu. To czas, w którym największą moc ma czuły gest, ciepłe spojrzenie oraz zaopiekowanie się nie tylko domownikami, ale przede wszystkim własnym, zmęczonym sercem.",
+    "r": "Spędź spokojny wieczór w gronie najbliższych, przygotuj ulubioną, rozgrzewającą potrawę albo po prostu zatroszcz się o siebie, robiąc dokładnie to, co przynosi Ci ukojenie i poczucie bezpieczeństwa.",
+    "u": "Nadmiernego poświęcania się dla innych kosztem własnego zdrowia, energii oraz wewnętrznego spokoju.",
+    "s": "„Miłość, którą obdarzasz innych, zawsze wraca do Ciebie w postaci najpiękniejszego, wewnętrznego ciepła.”",
+    "fun": "W jakiej relacji dawno już nie poprosiłaś o to, czego naprawdę potrzebujesz od innych?"
+  },
+  "1-13": {
+    "z": "Koziorożec",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Siódemka zaprasza nas do niezwykle głębokiej, intymnej podróży w głąb siebie. To dzień sprzyjający refleksji, pogłębianiu wiedzy o samej sobie i odnalezieniu bezpiecznego, wewnętrznego azylu z dala od zgiełku świata. Twoja intuicja szepcze dziś wyjątkowo głośno, podpowiadając odpowiedzi na pytania, które od dawna nosisz w głowie. Zezwól sobie na luksus bycia w ciszy i odcięcia się od zewnętrznych bodźców.",
+    "r": "Sięgnij po dobrą, inspirującą książkę, spędź czas w samotności na łonie natury lub przelej swoje myśli, refleksje i marzenia na czyste kartki osobistego dziennika.",
+    "u": "Plotek, powierzchownych, męczących rozmów oraz ulegania presji otoczenia, która próbuje narzucić Ci swoje tempo.",
+    "s": "„Cisza wcale nie jest pustką – jest najpiękniejszą przestrzenią, w której wreszcie odnajdujemy prawdziwą siebie.”",
+    "fun": "Jaki hałas – w Twojej głowie lub w otoczeniu – jest Ci dzisiaj najbardziej potrzebny do wyciszenia?"
+  },
+  "1-14": {
+    "z": "Koziorożec",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Dzisiejsza wibracja ósemki wzmacnia naszą sprawczość, dodając siły do rzetelnego uporządkowania kwestii zawodowych, materialnych i organizacyjnych. To dzień z jasnym, klarownym umysłem, w którym podejmowanie konkretnych decyzji przychodzi z dużą łatwością. Poczujesz stabilny grunt pod nogami, co pozwoli Ci skutecznie zamknąć to, co wymaga stanowczości, pamiętając jednocześnie, że Twoja wartość nie zależy od listy odhaczonych zadań.",
+    "r": "Podejmuj przemyślane decyzje biznesowe lub formalne, zrób porządek w swoich finansach i zaplanuj działania na najbliższe tygodnie z poszanowaniem własnych sił.",
+    "u": "Surowej samokrytyki w chwilach, gdy coś nie idzie dokładnie tak, jak to sobie pierwotnie zaplanowałaś.",
+    "s": "„Sukces to w gruncie rzeczy suma małych, codziennych kroków stawianych z niezachwianą wiarą we własne możliwości.”",
+    "fun": "Za jaki swój twardy, cichy wysiłek włożony w ostatnim czasie możesz dzisiaj z dumą sobie podziękować?"
+  },
+  "1-15": {
+    "z": "Koziorożec",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Dziewiątka w połowie miesiąca przynosi niezwykle uwalniającą energię oczyszczenia serca ze zmartwień i wybaczenia sobie dawnych potknięć. To moment, w którym możesz zrzucić z ramion niewidzialny plecak pełen starych oczekiwań i żalów. Opuść gardę i pozwól sobie na łagodne zrozumienie tego, dlaczego w przeszłości postąpiłaś tak, a nie inaczej. Każda trudna lekcja minionego czasu była po prostu przystankiem na drodze do Twojej dojrzałości.",
+    "r": "Zrób symboliczne porządki w szafie lub szufladach, pozbądź się rzeczy niepotrzebnych, a wieczorem oddaj się głębokiemu relaksowi z intencją pełnego odpuszczenia przeszłości.",
+    "u": "Noszenia w sercu żalu do samej siebie za dawne wybory – spójrz na siebie z taką czułością, z jaką spojrzałabyś na najlepszą przyjaciółkę.",
+    "s": "„Wybaczenie sobie to najpiękniejszy klucz do otwarcia drzwi na lepszą, lżejszą przyszłość.”",
+    "fun": "Jaka zamknięta dawno temu historia wciąż jeszcze rezonuje w Twoim sercu i potrzebuje ostatecznego, cichego zrozumienia?"
+  },
+  "1-16": {
+    "z": "Koziorożec",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Jedynka przynosi nam dzisiaj zupełnie nowy impuls do działania, świeżą perspektywę i piękną gotowość do tego, by z czystą kartą spojrzeć w stronę przyszłości. Po dniach refleksji i oczyszczenia, dziś w Twoim sercu może zapłonąć mała, jasna iskra motywacji, która zachęca do zrobienia czegoś po swojemu. Nie musisz od razu zmieniać całego świata – wystarczy, że zrobisz jeden mały krok w zgodzie ze swoim wewnętrznym głosem, odrzucając na bok wszelkie obawy przed tym, co pomyślą inni.",
+    "r": "Zainicjuj coś nowego, wyraź głośno swoje autentyczne zdanie w ważnej sprawie i pozwól sobie na odważne postawienie siebie na pierwszym miejscu.",
+    "u": "Słuchania surowego, wewnętrznego krytyka oraz lęku przed oceną ze strony otoczenia – liczy się wyłącznie prawda Twojego serca.",
+    "s": "„Odwaga wcale nie oznacza braku strachu; to działanie pomimo niego, w pełnej zgody ze swoim sercem.”",
+    "fun": "W jakiej sprawie ulegasz dzisiaj cudzym oczekiwaniom zamiast posłuchać głosu swojego własnego wnętrza?"
+  },
+  "1-17": {
+    "z": "Koziorożec",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Dwójka otula nas dzisiaj niesamowicie miękkim, bezpiecznym płaszczem empatii, spokoju i głębokiego zrozumienia w relacjach z ludźmi. To dzień, w którym nasza wrażliwość przestaje być ciężarem, a staje się najpiękniejszym darem, ułatwiającym wysłuchanie zarówno drugiej osoby, jak i samej siebie. Jeśli czujesz zmęczenie, zwolnij tempo, otocz się ciszą i spędź ten czas z kimś, przy kim możesz zdjąć wszelkie maski.",
+    "r": "Porozmawiaj z bliską przyjaciółką od serca do serca, wypij w spokoju filiżankę ulubionej herbaty i okaż sobie mnóstwo wyrozumiałości za każdy wysiłek włożony w codzienne życie.",
+    "u": "Brania na swoje barki cudzych emocjonalnych ciężarów oraz przebywania w miejscach lub z ludźmi, którzy naruszają Twój wewnętrzny spokój.",
+    "s": "„Empatia to niezwykły dar, który ulecza zarówno tych, którzy go otrzymują, jak i te serca, które go z czułością dają.”",
+    "fun": "Jak możesz dzisiaj okazać sobie najczulszą troskę, o której w codziennym pędzie zupełnie zapomniałaś?"
+  },
+  "1-18": {
+    "z": "Koziorożec",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Trójka przynosi ze sobą lekkość uśmiechu, radosne, twórcze pomysły oraz powiew beztroski, który potrafi rozjaśnić nawet najbardziej pochmurny dzień. Dzisiejsza wibracja zachęca do tego, by odpuścić powagę, przestać wszystko skrupulatnie analizować i pozwolić sobie na chwilę czystej, niczym niezmąconej radości z małych rzeczy. Twoja kreatywność szuka ujścia, a uśmiech jest najpiękniejszym prezentem, jaki możesz podarować dziś światu.",
+    "r": "Zrób dzisiaj coś wyłącznie dla czystej przyjemności – posłuchaj skocznej muzyki, pozwól sobie na taniec w domowym zaciszu lub spędź czas z kimś, kto potrafi obudzić w Tobie szczery śmiech.",
+    "u": "Narzekania, ponurego nastroju oraz skupiania się na drobnych trudnościach, które w ogólnej perspektywie nie mają żadnego znaczenia.",
+    "s": "„Uśmiech jest najkrótszą, najpiękniejszą drogą prowadzącą do drugiego człowieka i do własnego szczęścia.”",
+    "fun": "Jaki mały, twórczy impuls zignorowałaś ostatnio, a wniósłby do Twojego dnia mnóstwo radości?"
+  },
+  "1-19": {
+    "z": "Koziorożec",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Czwórka dba o to, abyśmy dzisiaj mocno i stabilnie stąpały po ziemi, doceniając urok przewidywalności, porządku oraz bezpiecznej rutyny. To dzień, w którym systematyczne domykanie bieżących spraw przynosi ulgę w głowie i poczucie wewnętrznego ładu. Kiedy przestrzeń wokół nas jest poukładana, nasze myśli również zyskują upragnioną jasność. Pozwól sobie na odetchnięcie w dobrze znanych, przytulnych pieleszach.",
+    "r": "Dokończ zaległe zadania domowe lub zawodowe z pełną uważnością, poukładaj rzeczy na swoim miejscu i zrelaksuj się w bezpiecznej, domowej atmosferze.",
+    "u": "Przemęczania się ponad miarę oraz brania na barki zbyt wielu obowiązków naraz – pamiętaj, że Twój odpoczynek jest święty.",
+    "s": "„W porządku wokół nas rodzi się cudowna jasność w naszych myślach i głęboki spokój ducha.”",
+    "fun": "Który z Twoich codziennych nawyków dbania o ciało traktujesz po macoszemu i jak możesz to dzisiaj naprawić?"
+  },
+  "1-20": {
+    "z": "Wodnik",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Piątka wkracza z powiewem świeżości, delikatnie burząc nudę i zachęcając do przełamania codziennych schematów w miły, angażujący sposób. Dzisiejsza wibracja sprzyja otwieraniu się na nowe perspektywy i małe eksperymenty w planie dnia. Jeśli poczujesz chęć zrobienia czegoś zupełnie inaczej niż dotychczas, potraktuj to jako zaproszenie od losu do radosnego odkrywania życia na nowo.",
+    "r": "Zmień coś drobnego w swojej rutynie, skosztuj nowej potrawy, wyjdź na spacer nieznaną trasą lub otwórz się na ciekawą, inspirującą rozmowę.",
+    "u": "Sztywnego trzymania się planów, które zamiast wspierać, zaczynają Cię ograniczać i odbierać radość z elastyczności.",
+    "s": "„Życie nabiera najpiękniejszych barw wtedy, gdy przestajemy bać się tego, co nieznane i nowe.”",
+    "fun": "Gdzie w swoim życiu czujesz dzisiaj największy głód przestrzeni, wolności i zmiany perspektywy?"
+  },
+  "1-21": {
+    "z": "Wodnik",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Szóstka otacza nas dzisiaj niezwykle miękką aurą domowego ogniska, miłości oraz głębokiego, emocjonalnego wsparcia. To jeden z tych dni, kiedy cała nasza uwaga naturalnie wędruje w stronę bliskich relacji, troski o dom i tworzenia bezpiecznej przestrzeni dla serca. Jeśli czujesz, że ktoś z Twojego otoczenia potrzebuje ciepłego słowa lub po prostu Twojej obecności, podaruj mu to bezinteresownie, pamiętając jednocześnie o utuleniu własnych potrzeb.",
+    "r": "Spędź ten wieczór w gronie najbliższych, stwórz w domu przytulny nastrój za pomocą ciepłego światła świec lub po prostu zrób coś miłego wyłącznie dla samej siebie.",
+    "u": "Obojętności na emocjonalne potrzeby osób, które masz najbliżej siebie, oraz brania na barki cudzych kryzysów.",
+    "s": "„Najcenniejszym podarunkiem, jaki możemy komuś podarować, jest nasza szczera obecność i ciepła uwaga.”",
+    "fun": "W którym miejscu swojego domu – fizycznego lub w swoim sercu – najbardziej potrzebujesz dzisiaj zapalić światło akceptacji?"
+  },
+  "1-22": {
+    "z": "Wodnik",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Siódemka przynosi ze sobą potrzebę refleksyjnego zwolnienia tempa, oddechu i poszukiwania głębszego sensu w codziennych doświadczeniach. To dzień stworzony do tego, by na chwilę odciąć się od natłoku powiadomień, hałasu i zewnętrznych opinii, które potrafią zagłuszyć nasz wewnętrzny głos. Wyciszenie nie jest stratą czasu – to najpiękniejsza inwestycja w Twój spokój ducha i klarowność myśli.",
+    "r": "Zadbaj o higienę swojego umysłu, spędź trochę czasu w całkowitej ciszy, otul się ulubionym kocem i pozwól sobie na luksus nicnierobienia.",
+    "u": "Przebodźcowania, hałaśliwych miejsc oraz zbytniego, natrętnego analizowania przeszłych zdarzeń, na które nie masz już wpływu.",
+    "s": "„W cisży kryją się najmądrzejsze odpowiedzi na pytania, których głośny świat nie potrafi usłyszeć.”",
+    "fun": "Gdyby Twoja zmęczona dusza mogła teraz wypowiedzieć jedno życzenie dotyczące ciszy, co by to było?"
+  },
+  "1-23": {
+    "z": "Wodnik",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Ósemka wspiera nas dzisiaj w odważnym, świadomym zarządzaniu swoją energią, czasem oraz zasobami materialnymi. To dzień, w którym łatwiej spojrzeć na swoje codzienne obowiązki z perspektywy jasnego planu i priorytetów. Poczujesz w sobie sprawczą moc, która pozwala uporządkować to, co przez chwilę wydawało się zbyt chaotyczne, dając Ci poczucie stabilnego gruntu pod nogami.",
+    "r": "Skup się na najważniejszych priorytetach, zrób porządek w swoich sprawach finansowych lub zaplanuj realizację długoterminowego celu, który od dawna chodzi Ci po głowie.",
+    "u": "Impulsywnych, nieprzemyślanych decyzji finansowych oraz brania na siebie odpowiedzialności za cudze błędy czy potknięcia.",
+    "s": "„Zarządzanie swoim życiem w harmonii zaczyna się od głębokiego szacunku dla własnej, unikalnej energii.”",
+    "fun": "W jakiej sprawie Twoja intuicja już dawno mówi „dość”, a Ty wciąż z uporem ciągniesz ten wózek?"
+  },
+  "1-24": {
+    "z": "Wodnik",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Dziewiątka przypomina o niezwykłym pięknie odpuszczania i uczy nas, że z każdym naturalnym zakończeniem zawsze przychodzi nowa, jasna nadzieja. Dzisiejsza wibracja zaprasza do zamknięcia tygodnia z poczuciem ulgi, bez żalu za tym, co minęło. Kiedy robimy w sercu porzucone miejsce po starych sprawach, otwieramy szeroko drzwi na to, co o wiele bardziej pasuje do naszej obecnej drogi.",
+    "r": "Zrób porządek w swojej fizycznej przestrzeni, pozbądź się rzeczy, których dawno już nie używasz, i podziękuj za wszystkie lekcje, jakie dał Ci miniony czas.",
+    "u": "Trzymania się kurczowo spraw, relacji lub przekonań, które dawno straciły już swoją rację bytu i odbierają Ci lekkość.",
+    "s": "„Czasami po prostu trzeba coś utracić, by zrobić cudowną przestrzeń dla tego, co naprawdę do nas pasuje.”",
+    "fun": "Jaki stary schemat myślenia o samej sobie możesz dzisiaj z miłością wypuścić?"
+  },
+  "1-25": {
+    "z": "Wodnik",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Jedynka wita nas na początku tygodnia odnowioną, świeżą energią, nowymi pomysłami i gotowością do ruszenia naprzód z podniesioną głową. To idealny moment, by zresetować umysł i spojrzeć na swoje cele z czystą kartą. W Twoim wnętrzu może obudzić się silna determinacja, by wreszcie postawić na siebie i zacząć działać w zgodzie z własną intuicją.",
+    "r": "Zapisz swoje marzenia i intencje na nadchodzący czas, podejmij odważną decyzję i zrób ten jeden, mały krok w nowym, upragnionym kierunku.",
+    "u": "Słuchania surowego, wewnętrznego krytyka, który podcina skrzydła i twierdzi, że na realizację marzeń jest już za późno.",
+    "s": "„Nigdy, przenigdy nie jest za późno, by stać się tą wspaniałą osobą, którą od zawsze pragniesz być.”",
+    "fun": "O jakiej małej, zakazanej przez otoczenie przyjemności marzysz dzisiaj, by wreszcie zrealizować ją tylko dla siebie?"
+  },
+  "1-26": {
+    "z": "Wodnik",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Dwójka przynosi dzisiaj niezwykłą łagodność w relacjach, budując wokół nas bezpieczną przestrzeń na życzliwość, empatię i ciepłe słowa. To doskonały dzień na to, by zwolnić, spojrzeć na drugiego człowieka z głębokim zrozumieniem i okazać czułość samej sobie. Kiedy w naszym sercu gości spokój, świat wokół nas również staje się znacznie bardziej miękki i przyjazny.",
+    "r": "Porozmawiaj z kimś bliskim od serca do serca, wypij w całkowitym spokoju ulubioną kawę lub herbatę i podaruj sobie wyrozumiałość za wszelkie codzienne trudy.",
+    "u": "Wchodzenia w cudze konflikty, sporów oraz brania do siebie krytycznych opinii lub emocji innych osób.",
+    "s": "„Najpiękniejszą i najważniejszą relacją, jaką możesz w życiu zbudować, jest ta, którą nosisz ze swoją własną duszą.”",
+    "fun": "Kto w Twoim otoczeniu nosi w sobie cichy smutek i może potrzebować dzisiaj Twojej obecności bez zadawania pytań?"
+  },
+  "1-27": {
+    "z": "Wodnik",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Trójka zachęca nas dzisiaj do radosnej zabawy formą, szczerego śmiechu i lekkiego spojrzenia na wszelkie wyzwania dnia codziennego. Dzisiejsza wibracja zrzuca z ramion powagę i sztywność, przypominając, że życie smakuje najlepiej wtedy, gdy pozwalamy sobie na odrobinę beztroski. Uśmiech jest najpiękniejszym lekarstwem na wszelkie smutki i potrafi rozświetlić nawet najbardziej pochmurny zakątek dnia.",
+    "r": "Obejrzyj dobrą, ciepłą komedię, zrób coś czyszcząco twórczego albo po prostu uśmiechnij się ciepło do swojego odbicia w lustrze, doceniając to, jak piękna jesteś.",
+    "u": "Ponurego nastroju, narzekania oraz nadmiernego przejmowania się drobnymi, nieznaczącymi drobiazgami.",
+    "s": "„Śmiech to najpiękniejsze słońce, które potrafi w jednej chwili przepędzić najczarniejsze chmury z ludzkiego serca.”",
+    "fun": "Jaki spontaniczny pomysł na spędzenie popołudnia odrzucasz z rozsądku, choć marzysz o nim od rana?"
+  },
+  "1-28": {
+    "z": "Wodnik",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Czwórka przynosi nam dzisiaj upragnione ukojenie w dobrze znanej rutynie i pomaga doprowadzić do satysfakcjonującego końca sprawy wymagające systematyczności. To dzień, w którym rzetelne wykonanie nawet najmniejszego zadania daje ogromną satysfakcję i porządkuje myśli. Mając stabilny grunt pod nogami, możesz bezpiecznie zaplanować nadchodzące dni bez żadnego pośpiechu.",
+    "r": "Skup się na spokojnym wykonaniu jednego, konkretnego zadania, zrób porządek w dokumentach lub przestrzeni wokół siebie i odpocznij w bezpiecznym domowym zaciszu.",
+    "u": "Pracy po godzinach kosztem własnego zdrowia, energii oraz spokojnego, regenerującego nocnego wypoczynku.",
+    "s": "„Trwałe fundamenty buduje się powoli, cegiełka po cegiełce, wkładając w to całą cierpliwość i miłość.”",
+    "fun": "Jakie jedno zadanie obciążające Twoją głowę możesz dzisiaj po prostu wykreślić z listy bez żadnych wyrzutów sumienia?"
+  },
+  "1-29": {
+    "z": "Wodnik",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Piątka dodaje nam dzisiaj mnóstwa inspirującej energii i zachęca do poszukiwania nowych, ciekawych rozwiązań w dotychczasowych, powtarzalnych działaniach. Dzisiejszy dzień sprzyja przełamywaniu monotonii oraz wychodzeniu na spotkanie z małymi, radosnymi niespodziankami losu. Otwórz się na spontaniczność i pozwól sobie na odrobinę życiowej swobody.",
+    "r": "Zrób coś zupełnie inaczej niż dotychczas – wybierz się na energiczny spacer nową trasą, spójrz na swoje otoczenie z ciekawością dziecka i posłuchaj świeżych inspiracji.",
+    "u": "Sztywnej monotonii i zamykania się na nowości, które odbierają Ci radość z małych, codzienne odkryć.",
+    "s": "„Świat jest pełen cudów i piękna – wystarczy tylko otworzyć oczy i spojrzeć na nie z czystą ciekawością.”",
+    "fun": "W jakiej dziedzinie Twojego życia przydałby się dzisiaj powiew zupełnie świeżego, niezależnego myślenia?"
+  },
+  "1-30": {
+    "z": "Wodnik",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Szóstka zbliża nas dzisiaj do najbliższych, wypełniając dom aurą bezwzględnego ciepła, akceptacji i głębokiego poczucia bezpieczeństwa. To idealny moment na zatrzymanie się w gronie osób, które kochasz, oraz na otoczenie się przedmiotami, które dają ukojenie Twoim zmysłom. Poczuj, jak domowe ognisko otula Cię od stóp do głów niczym najmilszy, wełniany szal.",
+    "r": "Spędź spokojny wieczór z rodziną lub przyjaciółmi, stwórz w domu przytulny nastrój i podaruj sobie oraz bliskim mnóstwo czułych, dobrych słów.",
+    "u": "Obojętności na emocje i potrzeby osób, które masz tuż obok siebie i które liczą na Twoje wsparcie.",
+    "s": "„Ciepło domowego ogniska ma tę niezwykłą moc, że potrafi ogrzać nawet najchłodniejsze dni w całym roku.”",
+    "fun": "Co możesz dzisiaj zrobić wyłącznie dla domowego ciepła i własnego, głębokiego odprężenia?"
+  },
+  "1-31": {
+    "z": "Wodnik",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Ostatni dzień stycznia, otulony mądrą wibracją siódemki, zaprasza nas do niezwykle spokojnego, refleksyjnego podsumowania całego miesiąca w ciszy i skupieniu. To moment, w którym możesz odłożyć wszelkie obowiązki na bok, usiąść z kubkiem ulubionej herbaty i z wdzięcznością spojrzeć na drogę, którą przeszłaś przez te trzydzieści jeden dni. Cisza przynosi najlepsze odpowiedzi.",
+    "r": "Usiądź w ciszy z osobistym notatnikiem, podziękuj za minione dni, wyciągnij z nich najpiękniejsze lekcje i z uśmiechem oraz nadzieją spójrz w stronę nadchodzącego lutego.",
+    "u": "Pośpiechu, natłoku męczących bodźców oraz chaotycznego planowania kolejnych tygodni – daj sobie czas na domknięcie cyklu.",
+    "s": "„Podsumowanie miesiąca to wcale nie surowe rozliczanie błędów, to zbieranie najcenniejszych pereł mądrości na dalszą drogę.”",
+    "fun": "Za jaką najcichszą, ukrytą lekcję minionego miesiąca chcesz dzisiaj podziękować swojej intuicji?"
+  },
+  "2-1": {
+    "z": "Wodnik",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Pierwszy dzień lutego wita nas wibracją piątki, która niesie ze sobą powiew świeżości, ciekawość świata i gotowość do delikatnego przełamania zimowej monotonii. Możesz poczuć w sobie potrzebę zrobienia czegoś inaczej niż zwykle, otwarcia okna na oścież i wpuszczenia do swojego życia nowych, radosnych inspiracji. To doskonały moment, by przywitać nowy miesiąc z uśmiechem i elastycznością.",
+    "r": "Zapisz swoje plany na luty w przytulnej atmosferze, wyjdź na energiczny spacer i pozwól sobie na małą, radosną zmianę w codziennej rutynie.",
+    "u": "Sztywnego trzymania się planów, które ograniczają Twoją swobodę, oraz zamykania się na spontaniczne propozycje.",
+    "s": "„Każdy nowy miesiąc to czysta kartka, na której możemy zapisać najpiękniejszą, pełną nadziei historię.”",
+    "fun": "Gdybyś na jeden dzień mogła zrzucić wszystkie dotychczasowe przyzwyczajenia jak za duży płaszcz, co zjadłabyś, założyła lub zrobiła zupełnie inaczej?"
+  },
+  "2-2": {
+    "z": "Wodnik",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Szóstka otacza nas dzisiaj niezwykle ciepłym, opiekuńczym płaszczem, kierując całą uwagę ku domowemu ognisku, bliskości i autentycznym relacjom z tymi, których kochamy. To idealny dzień na zadbanie o przestrzeń serca, domowy spokój i otoczenie miłością osób wokół Ciebie – a przede wszystkim na okazanie tej czułości samej sobie. Dom staje się dziś najbezpieczniejszym azylem na świecie.",
+    "r": "Zadbaj o przytulną atmosferę w swoim otoczeniu, spędź miły wieczór z bliską osobą, ugotuj coś rozgrzewającego lub podaruj sobie chwilę czułości z ulubioną herbatą.",
+    "u": "Brania na siebie cudzych problemów emocjonalnych i zapominania o własnych, niezwykle ważnych potrzebach.",
+    "s": "„Dom to nie tylko mury, to przede wszystkim ciepło serca, którym dzielimy się z innymi bezwarunkowo.”",
+    "fun": "Jaki zapach, widok lub dźwięk potrafi natychmiast przywrócić Ci poczucie, że jesteś w bezpiecznym i kochającym domu?"
+  },
+  "2-3": {
+    "z": "Wodnik",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Siódemka przynosi ze sobą upragnioną potrzebę głębokiego wyciszenia, wewnętrznej refleksji oraz wsłuchania się w ten najcichszy, najmądrzejszy głos własnego wnętrza. To idealny moment, aby na chwilę odciąć się od zewnętrznego zgiełku i opinii świata, które często zagłuszają naszą intuicję. Pozwól sobie dzisiaj na odrobinę samotności rozumianej jako najpiękniejszy rodzaj bliskości z samą sobą.",
+    "r": "Znajdź dla siebie chociaż kilkadziesiąt minut w całkowitej ciszy, otul się miękkim kocem i spędź ten czas na lekturze lub spokojnym poukładaniu myśli.",
+    "u": "Przebywania w hałaśliwych, tłocznych miejscach oraz podejmowania ważnych decyzji pod wpływem nagłej presji otoczenia.",
+    "s": "„Prawdziwa mądrość zaczyna się tam, gdzie potrafimy usłyszeć cichy szept bicia własnego serca.”",
+    "fun": "Gdyby Twoje wewnętrzne milczenie mogło teraz obrać konkretny kształt lub kolor, co by ono przed Tobą odsłoniło?"
+  },
+  "2-4": {
+    "z": "Wodnik",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Dzisiejsza wibracja ósemki dodaje nam niezwykłej siły, determinacji oraz poczucia sprawczości w sprawach codziennych i materialnych. To ten dzień, w którym kwestie wymagające odwagi, stanowczości i poukładania układają się z niezwykłą łatwością. Poczujesz w sobie stabilny, wewnętrzny filar, który pozwala Ci zarządzać swoją energią w sposób najbardziej dla Ciebie wspierający.",
+    "r": "Ureguluj zaległe sprawy formalne, zrób porządek w swoich finansach i podejmij odważne kroki w kierunku celów, które od dłuższego czasu nosisz w swojej głowie.",
+    "u": "Nadmiernej, sztywnej kontroli nad wszystkim dokoła – odpuść to, na co nie masz realnego wpływu, a poczujesz ogromną ulgę.",
+    "s": "„Siła nie wynika z unikania upadków, ale z pewności, że po każdym z nich potrafimy wstać z podniesioną głową.”",
+    "fun": "W którym momencie dzisiejszego dnia Twoje ciało napięło się z wysiłku i jak mogłabyś je z miłością rozluźnić?"
+  },
+  "2-5": {
+    "z": "Wodnik",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Dziewiątka roztacza nad nami niezwykle miękką, uzdrawiającą energię domknięcia, wybaczenia i podsumowania pewnego etapu z ogromnym zrozumieniem. To czas, w którym możesz spojrzeć wstecz na minione dni nie z krytyką, lecz z głęboką czułością dla samej siebie. Dziewiątka przypomina, że każde pożegnanie z tym, co stare, robi w naszym życiu bezcenną przestrzeń na nowe cuda.",
+    "r": "Zrób porządek w przestrzeni fizycznej – pozbądź się rzeczy, których dawno już nie używasz – oraz oczyść swoje myśli ze starych, niepotrzebnych zmartwień.",
+    "u": "Wracania do trudnych wspomnień z poczuciem winy lub żalu – spójrz na swoją przeszłość z pełną wyrozumiałością.",
+    "s": "„Zamknięcie jednych drzwi to najpiękniejszy prezent, jaki możemy podarować nowej przestrzeni w naszym życiu.”",
+    "fun": "Jaką starą, zakurzoną definicję samej siebie z dawnych lat trzymasz jeszcze w kieszeni, choć dawno przestała do Ciebie pasować?"
+  },
+  "2-6": {
+    "z": "Wodnik",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Jedynka wita nas na progu weekendu zupełnie nowym impulsem do działania, świeżą perspektywą i wspaniałą gotowością do tego, by z czystą kartą spojrzeć w stronę nadchodzących dni. W Twoim sercu może obudzić się mała, jasna iskra motywacji, która zachęca do zrobienia czegoś po swojemu, w pełnej zgodzie z własnym rytmem. Nie musisz od razu zmieniać całego świata – wystarczy, że postawisz siebie i swoje dobre samopoczucie na pierwszym miejscu.",
+    "r": "Zaplanuj nadchodzące dni dokładnie tak, jak podpowiada Ci intuicja, odważnie wyraź swoje zdanie w ważnej sprawie i podaruj sobie odrobinę zasłużonej przyjemności.",
+    "u": "Słuchania surowego, wewnętrznego krytyka oraz lęku przed tym, co pomyślą inni – dziś liczy się wyłącznie prawda Twojego serca.",
+    "s": "„Odwaga wcale nie oznacza braku strachu; to radosne działanie pomimo niego, w pełnej zgody ze swoim wnętrzem.”",
+    "fun": "Jaki jeden mały, dziki impuls zrodził się w Twojej głowie, a Ty natychmiast stłumiłaś go rozsądkiem?"
+  },
+  "2-7": {
+    "z": "Wodnik",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Dwójka otula nas dzisiaj niesamowicie miękkim, bezpiecznym płaszczem empatii, niedzielnego spokoju i głębokiego zrozumienia w relacjach z ludźmi. To dzień, w którym nasza wrażliwość przestaje być ciężarem, a staje się najpiękniejszym darem, ułatwiającym wysłuchanie zarówno bliskiej osoby, jak i samej siebie. Spędź ten dzień bez pośpiechu, celebrując każdą chwilę w domowym zaciszu.",
+    "r": "Porozmawiaj z kimś bliskim od serca do serca, wypij w spokoju filiżankę ulubionej herbaty i okaż sobie mnóstwo wyrozumiałości za każdy wysiłek włożony w miniony tydzień.",
+    "u": "Brania na swoje barki cudzych emocjonalnych ciężarów oraz przebywania w miejscach, które naruszają Twój wewnętrzny spokój.",
+    "s": "„Empatia to niezwykły dar, który ulecza zarówno tych, którzy go otrzymują, jak i te serca, które dają go z czułością.”",
+    "fun": "Kiedy ostatnio pozwoliłaś sobie na luksus bycia wysłuchaną bez żadnych złotych rad i pouczeń ze strony świata?"
+  },
+  "2-8": {
+    "z": "Wodnik",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Trójka przynosi ze sobą mnóstwo radości, lekkości, twórczej ekspresji oraz potrzebę uśmiechu na powitanie nowego tygodnia. Dzisiejsza wibracja zachęca do tego, by odpuścić powagę i pozwolić sobie na odrobinę radosnej beztroski. Twoja kreatywność szuka ujścia, a serce pragnie dzielić się ciepłem z otoczeniem. Poczuj ten lekki przepływ i zaproś do swojej codzienności więcej kolorów.",
+    "r": "Zrób dzisiaj coś wyłącznie dla czystej przyjemności – posłuchaj energetyzującej muzyki, spotkaj się z przyjaciółką, która potrafi wywołać szczery uśmiech na Twojej twarzy, lub stwórz coś pięknego.",
+    "u": "Nadmiernego zadręczania się pesymistycznymi myślami oraz szukania problemów tam, gdzie ich w rzeczywistości nie ma.",
+    "s": "„Radość życia to wcale nie brak trudności, to piękna umiejętność dostrzegania słońca za każdą chmurą.”",
+    "fun": "Co w tej chwili najbardziej potrafi rozśmieszyć Twoje wewnętrzne dziecko, jeśli tylko pozwolisz mu dojść do głosu?"
+  },
+  "2-9": {
+    "z": "Wodnik",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Czwórka dba o to, abyśmy dzisiaj mocno i stabilnie stąpały po ziemi, doceniając urok przewidywalności, porządku oraz bezpiecznej rutyny. To dzień, w którym systematyczne domykanie bieżących spraw przynosi ulgę w głowie i poczucie wewnętrznego ładu. Kiedy przestrzeń wokół nas jest poukładana, nasze myśli również zyskują upragnioną jasność. Pozwól sobie na odetchnięcie w dobrze znanych pieleszach.",
+    "r": "Dokończ zaległe zadania domowe lub zawodowe z pełną uważnością, poukładaj rzeczy na swoim miejscu i zrelaksuj się w bezpiecznej, domowej atmosferze.",
+    "u": "Przemęczania się ponad miarę oraz brania na barki zbyt wielu obowiązków naraz – pamiętaj, że Twój odpoczynek jest święty.",
+    "s": "„W porządku wokół nas rodzi się cudowna jasność w naszych myślach i głęboki spokój ducha.”",
+    "fun": "Jaki jeden kącik w Twojej przestrzeni fizycznej lub cyfrowej domaga się czułego odgruzowania, by przynieść Ci oddech?"
+  },
+  "2-10": {
+    "z": "Wodnik",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Piątka wkracza z powiewem świeżości, delikatnie burząc nudę i zachęcając do przełamania codziennych schematów w miły sposób. Dzisiejsza wibracja sprzyja otwieraniu się na nowe perspektywy i małe eksperymenty w planie dnia. Jeśli poczujesz chęć zrobienia czegoś zupełnie inaczej niż dotychczas, potraktuj to jako zaproszenie od losu do radosnego odkrywania życia na nowo.",
+    "r": "Zmień coś drobnego w swojej rutynie, wyjdź na spacer nieznaną trasą, spróbuj nowej potrawy lub otwórz się na ciekawą, inspirującą rozmowę.",
+    "u": "Sztywnego trzymania się planów, które zamiast wspierać, zaczynają Cię ograniczać i odbierać radość ze swobody.",
+    "s": "„Życie nabiera najpiękniejszych barw wtedy, gdy przestajemy bać się tego, co nieznane i nowe.”",
+    "fun": "Gdybyś mogła dzisiaj porzucić jeden obowiązek bez żadnych konsekwencji, co zniknęłłoby z Twojej listy w pierwszej kolejności?"
+  },
+  "2-11": {
+    "z": "Wodnik",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Szóstka roztacza wokół nas niezwykle miękką, uzdrawiającą aurę bezwarunkowej miłości, rodzinnego ciepła i głębokiego zrozumienia dla ludzkich słabości. Dzisiejszy dzień sprzyja zatrzymaniu się w domowym zaciszu, otoczeniu się pięknem i budowaniu bliskości z tymi, których nosimy w sercu. To czas, w którym największą moc ma czuły gest, ciepłe spojrzenie oraz zaopiekowanie się nie tylko domownikami, ale przede wszystkim własnym, zmęczonym sercem.",
+    "r": "Spędź spokojny wieczór w gronie najbliższych, przygotuj ulubioną, rozgrzewającą potrawę albo po prostu zatroszcz się o siebie, robiąc dokładnie to, co przynosi Ci ukojenie i poczucie bezpieczeństwa.",
+    "u": "Nadmiernego poświęcania się dla innych kosztem własnego zdrowia, energii oraz wewnętrznego spokoju.",
+    "s": "„Miłość, którą obdarzasz innych, zawsze wraca do Ciebie w postaci najpiękniejszego, wewnętrznego ciepła.”",
+    "fun": "Komu w swoim życiu dawno nie powiedziałaś po prostu „dziękuję, że po prostu jesteś” i co powstrzymuje Cię przed zrobieniem tego teraz?"
+  },
+  "2-12": {
+    "z": "Wodnik",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Siódemka zaprasza nas do niezwykle głębokiej, intymnej podróży w głąb siebie. To dzień sprzyjający refleksji, pogłębianiu wiedzy o samej sobie i odnalezieniu bezpiecznego, wewnętrznego azylu z dala od zgiełku świata. Twoja intuicja szepcze dziś wyjątkowo głośno, podpowiadając odpowiedzi na pytania, które od dawna nosisz w głowie. Zezwól sobie na luksus bycia w ciszy i odcięcia się od zewnętrznych bodźców.",
+    "r": "Sięgnij po dobrą, inspirującą książkę, spędź czas w samotności na łonie natury lub przelej swoje myśli, refleksje i marzenia na czyste kartki osobistego dziennika.",
+    "u": "Plotek, powierzchownych, męczących rozmów oraz ulegania presji otoczenia, która próbuje narzucić Ci swoje tempo.",
+    "s": "„Cisza wcale nie jest pustką – jest najpiękniejszą przestrzenią, w której wreszcie odnajdujemy prawdziwą siebie.”",
+    "fun": "Jaką prawdę o swoich obecnych pragnieniach ukrywasz nawet przed samą sobą, bo boisz się jej konsekwencji?"
+  },
+  "2-13": {
+    "z": "Wodnik",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Dzisiejsza wibracja ósemki wzmacnia naszą sprawczość, dodając siły do rzetelnego uporządkowania kwestii zawodowych, materialnych i organizacyjnych przed nadchodzącym weekendem. To dzień z jasnym, klarownym umysłem, w którym podejmowanie konkretnych decyzji przychodzi z dużą łatwością. Poczujesz stabilny grunt pod nogami, co pozwoli Ci skutecznie zamknąć to, co wymaga stanowczości.",
+    "r": "Podejmuj przemyślane decyzje, zrób porządek w swoich sprawach i zaplanuj działania na najbliższy czas z poszanowaniem własnych sił.",
+    "u": "Surowej samokrytyki w chwilach, gdy coś nie idzie dokładnie tak, jak to sobie pierwotnie zaplanowałaś.",
+    "s": "„Sukces to w gruncie rzeczy suma małych, codziennych kroków stawianych z niezachwianą wiarą we własne możliwości.”",
+    "fun": "Gdyby Twoje osobiste granice były płotem wokół ogrodu, czy są one teraz bezpiecznie zamknięte, czy ktoś bierze Twoje kwiaty bez pytania?"
+  },
+  "2-14": {
+    "z": "Wodnik",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Dziewiątka w dniu zakochanych przynosi niezwykle uwalniającą energię oczyszczenia serca ze zmartwień i wybaczenia sobie dawnych potknięć. To moment, w którym możesz zrzucić z ramion niewidzialny plecak pełen starych oczekiwań. Opuść gardę i pozwól sobie na łagodne zrozumienie samej siebie. Każda trudna lekcja minionego czasu była po prostu przystankiem na drodze do Twojej dojrzałości.",
+    "r": "Spędź ten dzień w atmosferze absolutnej czułości i wyrozumiałości – obdarz miłością przede wszystkim swoje własne wnętrze.",
+    "u": "Noszenia w sercu żalu lub oczekiwania perfekcji od siebie i otaczającego świata.",
+    "s": "„Wybaczenie sobie to najpiękniejszy klucz do otwarcia drzwi na lepszą, lżejszą przyszłość.”",
+    "fun": "Jaki mit o miłości do samej siebie, w który kiedyś wierzyłaś, dzisiaj z uśmiechem wkładasz między bajki?"
+  },
+  "2-15": {
+    "z": "Wodnik",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Jedynka wita nas na początku tygodnia zupełnie nowym impulsem do działania, świeżą perspektywą i piękną gotowością do tego, by z czystą kartą spojrzeć w stronę przyszłości. W Twoim sercu może obudzić się mała, jasna iskra motywacji, która zachęca do zrobienia czegoś po swojemu. Nie musisz od razu zmieniać całego świata – wystarczy, że zrobisz jeden mały krok w zgodzie ze swoim wewnętrznym głosem.",
+    "r": "Zainicjuj coś nowego, wyraź głośno swoje autentyczne zdanie w ważnej sprawie i pozwól sobie na odważne postawienie siebie na pierwszym miejscu.",
+    "u": "Słuchania surowego, wewnętrznego krytyka oraz lęku przed oceną ze strony otoczenia – liczy się wyłącznie prawda Twojego serca.",
+    "s": "„Odwaga wcale nie oznacza braku strachu; to działanie pomimo niego, w pełnej zgody ze swoim sercem.”",
+    "fun": "Gdybyś miała dzisiaj całkowite prawo do błędu, w jakiej nowej sprawie zaryzykowałabyś start od zera?"
+  },
+  "2-16": {
+    "z": "Wodnik",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Dwójka otula nas dzisiaj niesamowicie miękkim, bezpiecznym płaszczem empatii, spokoju i głębokiego zrozumienia w relacjach z ludźmi. To dzień, w którym nasza wrażliwość przestaje być ciężarem, a staje się najpiękniejszym darem, ułatwiającym wysłuchanie zarówno bliskiej osoby, jak i samej siebie. Spędź ten dzień bez pośpiechu, celebrując każdą chwilę w domowym zaciszu.",
+    "r": "Porozmawiaj z kimś bliskim od serca do serca, wypij w spokoju filiżankę ulubionej herbaty i okaż sobie mnóstwo wyrozumiałości za każdy wysiłek włożony w codzienne życie.",
+    "u": "Brania na swoje barki cudzych emocjonalnych ciężarów oraz przebywania w miejscach, które naruszają Twój wewnętrzny spokój.",
+    "s": "„Empatia to niezwykły dar, który ulecza zarówno tych, którzy go otrzymują, jak i te serca, które dają go z czułością.”",
+    "fun": "W którym momencie czujesz największy opór przed przyjęciem komplementu lub czułego gestu od kogoś bliskiego?"
+  },
+  "2-17": {
+    "z": "Wodnik",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Trójka przynosi ze sobą mnóstwo radości, lekkości, twórczej ekspresji oraz potrzebę uśmiechu. Dzisiejsza wibracja zachęca do tego, by odpuścić powagę i pozwolić sobie na odrobinę radosnej beztroski. Twoja kreatywność szuka ujścia, a serce pragnie dzielić się ciepłem z otoczeniem. Poczuj ten lekki przepływ i zaproś do swojej codzienności więcej kolorów.",
+    "r": "Zrób dzisiaj coś wyłącznie dla czystej przyjemności – posłuchaj energetyzującej muzyki, spotkaj się z przyjaciółką, która potrafi wywołać szczery uśmiech na Twojej twarzy, lub stwórz coś pięknego.",
+    "u": "Nadmiernego zadręczania się pesymistycznymi myślami oraz szukania problemów tam, gdzie ich w rzeczywistości nie ma.",
+    "s": "„Radość życia to wcale nie brak trudności, to piękna umiejętność dostrzegania słońca za każdą chmurą.”",
+    "fun": "Co sprawia, że na samą myśl o jakimś zajęciu Twoje serce podskakuje z czystej radości jak u nastolatki?"
+  },
+  "2-18": {
+    "z": "Wodnik",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Czwórka dba o to, abyśmy dzisiaj mocno i stabilnie stąpały po ziemi, doceniając urok przewidywalności, porządku oraz bezpiecznej rutyny. To dzień, w którym systematyczne domykanie bieżących spraw przynosi ulgę w głowie i poczucie wewnętrznego ładu. Kiedy przestrzeń wokół nas jest poukładana, nasze myśli również zyskują upragnioną jasność. Pozwól sobie na odetchnięcie w dobrze znanych pieleszach.",
+    "r": "Dokończ zaległe zadania domowe lub zawodowe z pełną uważnością, poukładaj rzeczy na swoim miejscu i zrelaksuj się w bezpiecznej, domowej atmosferze.",
+    "u": "Przemęczania się ponad miarę oraz brania na barki zbyt wielu obowiązków naraz – pamiętaj, że Twój odpoczynek jest święty.",
+    "s": "„W porządku wokół nas rodzi się cudowna jasność w naszych myślach i głęboki spokój ducha.”",
+    "fun": "Jaki fizyczny nawyk dbania o swoje ciało porzuciłaś na rzecz „ważniejszych” spraw i jak możesz do niego dzisiaj wrócić?"
+  },
+  "2-19": {
+    "z": "Ryby",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Piątka wkracza z powiewem świeżości, delikatnie burząc nudę i zachęcając do przełamania codziennych schematów przed nadchodzącym weekendem. Dzisiejsza wibracja sprzyja otwieraniu się na nowe perspektywy i małe eksperymenty w planie dnia. Jeśli poczujesz chęć zrobienia czegoś zupełnie inaczej niż dotychczas, potraktuj to jako zaproszenie od losu do radosnego odkrywania życia na nowo.",
+    "r": "Zmień coś drobnego w swojej rutynie, wyjdź na spacer nieznaną trasą, spróbuj nowej potrawy lub otwórz się na ciekawą, inspirującą rozmowę.",
+    "u": "Sztywnego trzymania się planów, które zamiast wspierać, zaczynają Cię ograniczać i odbierać radość ze swobody.",
+    "s": "„Życie nabiera najpiękniejszych barw wtedy, gdy przestajemy bać się tego, co nieznane i nowe.”",
+    "fun": "Co ekscytującego i całkowicie niepraktycznego chodzi Ci po głowie od dłuższego czasu?"
+  },
+  "2-20": {
+    "z": "Ryby",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Szóstka roztacza wokół nas niezwykle miękką, uzdrawiającą aurę bezwarunkowej miłości, rodzinnego ciepła i głębokiego zrozumienia dla ludzkich słabości. Dzisiejszy dzień sprzyja zatrzymaniu się w domowym zaciszu, otoczeniu się pięknem i budowaniu bliskości z tymi, których nosimy w sercu. To czas, w którym największą moc ma czuły gest, ciepłe spojrzenie oraz zaopiekowanie się własnym, zmęczonym sercem.",
+    "r": "Spędź spokojny wieczór w gronie najbliższych, przygotuj ulubioną, rozgrzewającą potrawę albo po prostu zatroszcz się o siebie, robiąc dokładnie to, co przynosi Ci ukojenie i poczucie bezpieczeństwa.",
+    "u": "Nadmiernego poświęcania się dla innych kosztem własnego zdrowia, energii oraz wewnętrznego spokoju.",
+    "s": "„Miłość, którą obdarzasz innych, zawsze wraca do Ciebie w postaci najpiękniejszego, wewnętrznego ciepła.”",
+    "fun": "Jaką część samej siebie traktujesz zbyt surowo, zamiast otulić ją ciepłym kocem akceptacji?"
+  },
+  "2-21": {
+    "z": "Ryby",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Siódemka zaprasza nas w niedzielny poranek do niezwykle głębokiej, intymnej podróży w głąb siebie. To dzień sprzyjający refleksji, wyciszeniu i odnalezieniu bezpiecznego, wewnętrznego azylu z dala od zgiełku świata. Twoja intuicja szepcze dziś wyjątkowo głośno, podpowiadając najmądrzejsze odpowiedzi na pytania, które nosisz w sercu. Zezwól sobie na luksus bycia w ciszy.",
+    "r": "Sięgnij po dobrą, inspirującą książkę, spędź czas w samotności na łonie natury lub przelej swoje myśli i refleksje na czyste kartki osobistego dziennika.",
+    "u": "Plotek, powierzchownych rozmów oraz ulegania presji otoczenia, która próbuje narzucić Ci swoje szybkie tempo.",
+    "s": "„Cisza wcale nie jest pustką – jest najpiękniejszą przestrzenią, w której wreszcie odnajdujemy prawdziwą siebie.”",
+    "fun": "Gdybyś mogła zadać swojemu wewnętrznemu „ja” jedno absolutnie szczerze pytanie, o co byś je zapytała w tej chwili?"
+  },
+  "2-22": {
+    "z": "Ryby",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Dzisiejsza wibracja ósemki wita nas na starcie nowego tygodnia ze wzmocnioną sprawczością, dodając siły do rzetelnego uporządkowania kwestii zawodowych, materialnych i organizacyjnych. To dzień z jasnym, klarownym umysłem, w którym podejmowanie konkretnych decyzji przychodzi z dużą łatwością. Poczujesz stabilny grunt pod nogami, co pozwoli Ci skutecznie zająć się tym, co wymaga Twojej uwagi.",
+    "r": "Podejmuj przemyślane decyzje, zrób porządek w swoich sprawach i zaplanuj działania na najbliższy czas z poszanowaniem własnych sił.",
+    "u": "Surowej samokrytyki w chwilach, gdy coś nie idzie dokładnie tak, jak to sobie pierwotnie zaplanowałaś.",
+    "s": "„Sukces to w gruncie rzeczy suma małych, codziennych kroków stawianych z niezachwianą wiarą we własne możliwości.”",
+    "fun": "W jakiej sprawie wzięłaś na siebie odpowiedzialność za cudze emocje, zupełnie zapominając o własnych plecach?"
+  },
+  "2-23": {
+    "z": "Ryby",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Dziewiątka przynosi niezwykle uwalniającą energię oczyszczenia serca ze zmartwień i wybaczenia sobie dawnych potknięć. To moment, w którym możesz zrzucić z ramion niewidzialny plecak pełen starych oczekiwań. Opuść gardę i pozwól sobie na łagodne zrozumienie samej siebie. Każda trudna lekcja minionego czasu była po prostu przystankiem na drodze do Twojej dojrzałości.",
+    "r": "Zrób symboliczne porządki w otoczeniu, pozbądź się tego, co już Ci nie służy, i spędź wieczór w atmosferze absolutnego relaksu.",
+    "u": "Noszenia w sercu żalu do samej siebie za dawne wybory – spójrz na przeszłość z pełną czułością.",
+    "s": "„Wybaczenie sobie to najpiękniejszy klucz do otwarcia drzwi na lepszą, lżejszą przyszłość.”",
+    "fun": "Jaka miniona relacja lub sytuacja, choć bolesna, zostawiła w Tobie dar, za który dzisiaj potrafisz być cicho wdzięczna?"
+  },
+  "2-24": {
+    "z": "Ryby",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Jedynka przynosi zupełnie nowy impuls do działania, świeżą perspektywę i piękną gotowość do tego, by z czystą kartą spojrzeć w stronę przyszłości. W Twoim sercu może obudzić się mała, jasna iskra motywacji, która zachęca do zrobienia czegoś po swojemu. Nie musisz od razu zmieniać całego świata – wystarczy, że zrobisz jeden mały krok w zgodzie ze swoim wewnętrznym głosem.",
+    "r": "Zainicjuj coś nowego, wyraź głośno swoje autentyczne zdanie w ważnej sprawie i pozwól sobie na odważne postawienie siebie na pierwszym miejscu.",
+    "u": "Słuchania surowego, wewnętrznego krytyka oraz lęku przed oceną ze strony otoczenia – liczy się wyłącznie prawda Twojego serca.",
+    "s": "„Odwaga wcale nie oznacza braku strachu; to działanie pomimo niego, w pełnej zgody ze swoim sercem.”",
+    "fun": "W jakiej dziedzinie Twojego życia brakuje Ci dzisiaj odważnego głosu, który powiedziałby: „ja to widzę inaczej”?"
+  },
+  "2-25": {
+    "z": "Ryby",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Dwójka otula nas dzisiaj niesamowicie miękkim, bezpiecznym płaszczem empatii, spokoju i głębokiego zrozumienia w relacjach z ludźmi. To dzień, w którym nasza wrażliwość przestaje być ciężarem, a staje się najpiękniejszym darem, ułatwiającym wysłuchanie zarówno bliskiej osoby, jak i samej siebie. Spędź ten dzień bez pośpiechu, celebrując każdą chwilę w domowym zaciszu.",
+    "r": "Porozmawiaj z kimś bliskim od serca do serca, wypij w spokoju filiżankę ulubionej herbaty i okaż sobie mnóstwo wyrozumiałości za każdy wysiłek włożony w codzienne życie.",
+    "u": "Brania na swoje barki cudzych emocjonalnych ciężarów oraz przebywania w miejscach, które naruszają Twój wewnętrzny spokój.",
+    "s": "„Empatia to niezwykły dar, który ulecza zarówno tych, którzy go otrzymują, jak i te serca, które dają go z czułością.”",
+    "fun": "Jaką potrzebę bliskości lub dotyku ignorujesz na co dzień, udając, że jesteś samowystarczalna?"
+  },
+  "2-26": {
+    "z": "Ryby",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Trójka wita nas na progu weekendu mnóstwem radości, lekkości, twórczej ekspresji oraz potrzebą uśmiechu. Dzisiejsza wibracja zachęca do tego, by odpuścić powagę i pozwolić sobie na odrobinę radosnej beztroski przed nadchodzącymi dniami wolnymi. Twoja kreatywność szuka ujścia, a serce pragnie dzielić się ciepłem z otoczeniem. Poczuj ten lekki przepływ i zaproś do swojej codzienności więcej kolorów.",
+    "r": "Zrób dzisiaj coś wyłącznie dla czystej przyjemności – posłuchaj energetyzującej muzyki, spotkaj się z przyjaciółką, która potrafi wywołać szczery uśmiech na Twojej twarzy, lub stwórz coś pięknego.",
+    "u": "Nadmiernego zadręczania się pesymistycznymi myślami oraz szukania problemów tam, gdzie ich w rzeczywistości nie ma.",
+    "s": "„Radość życia to wcale nie brak trudności, to piękna umiejętność dostrzegania słońca za każdą chmurą.”",
+    "fun": "Jaki kolor, melodia lub smak potrafi w ułamku sekundy odmienić Twój pochmurny nastrój w iskrzącą energię?"
+  },
+  "2-27": {
+    "z": "Ryby",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Czwórka dba o to, abyśmy dzisiaj mocno i stabilnie stąpały po ziemi, doceniając urok przewidywalności, porządku oraz bezpiecznej rutyny. To dzień, w którym systematyczne domykanie bieżących spraw przynosi ulgę w głowie i poczucie wewnętrznego ładu. Kiedy przestrzeń wokół nas jest poukładana, nasze myśli również zyskują upragnioną jasność. Pozwól sobie na odetchnięcie w dobrze znanych pieleszach.",
+    "r": "Dokończ zaległe zadania domowe z pełną uważnością, poukładaj rzeczy na swoim miejscu i zrelaksuj się w bezpiecznej, domowej atmosferze.",
+    "u": "Przemęczania się ponad miarę oraz brania na barki zbyt wielu obowiązków naraz – pamiętaj, że Twój odpoczynek jest święty.",
+    "s": "„W porządku wokół nas rodzi się cudowna jasność w naszych myślach i głęboki spokój ducha.”",
+    "fun": "Które domowe zadanie wykonujesz z automatu, chociaż mogłoby stać się Twoim ulubionym rytuałem uważności?"
+  },
+  "2-28": {
+    "z": "Ryby",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Ostatni dzień lutego wita nas wibracją piątki, która niesie ze sobą powiew świeżości, gotowość do podsumowania miesiąca z elastycznością oraz radosną ciekawość nadchodzącej wiosny. Możesz spojrzeć wstecz na minione tygodnie z wdzięcznością za każdą lekcję i uśmiechnąć się do zmian, które przynosi życie. To piękny moment, by zamknąć ten cykl z lekkim i otwartym sercem.",
+    "r": "Spędź ten dzień aktywnie lub na relaksującym spacerze, podziękuj za dary lutego i z uśmiechem spójrz w stronę nadchodzącego marca.",
+    "u": "Sztywnego trzymania się tego, co minione, i zamykania się na nowe perspektywy.",
+    "s": "„Każde zakończenie to po prostu cichy szept nowego początku, który już czeka tuż za rogiem.”",
+    "fun": "Jaki najmniejszy krok możesz dzisiaj zrobić poza swoją strefę komfortu, by poczuć dreszcz radosnego oczekiwania?"
+  },
+  "3-1": {
+    "z": "Ryby",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Pierwszy dzień marca wita nas niezwykle ciepłą wibracją szóstki, która otula serca troską, domowym spokojem i głęboką potrzebą bliskości z tymi, których kochamy. To piękny moment, by wejść w nowy miesiąc z poczuciem pełnego bezpieczeństwa i zaopiekowania. Kiedy w naszym sercu gości domowy ład, cały świat wokół staje się od razu bardziej miękki i przyjazny.",
+    "r": "Zadbaj o przytulną atmosferę w swoim otoczeniu, zapal ulubioną świecę, spędź miły wieczór z bliską osobą i powitaj marzec z wdzięcznością za to, co przed Tobą.",
+    "u": "Brania na swoje barki cudzych zmartwień i zapominania o własnym, tak bardzo potrzebnym odpoczynku.",
+    "s": "„Wiosna zaczyna się tam, gdzie w naszym sercu powoli rozkwita spokój i bezwarunkowa miłość do samego siebie.”",
+    "fun": "Pytanie do refleksji na dziś: Gdybyś na jeden dzień mogła zrzucić wszystkie dotychczasowe przyzwyczajenia jak za duży płaszcz, co zjadłabyś, założyła lub zrobiła zupełnie inaczej?"
+  },
+  "3-2": {
+    "z": "Ryby",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Siódemka przynosi nam dzisiaj cudowną potrzebę wyciszenia, refleksji oraz wsłuchania się w cichy, mądry głos własnego wnętrza. To idealny moment, by na chwilę odciąć się od zewnętrznego zgiełku, powiadomień w telefonie i opinii świata, które tak często zagłuszają naszą intuicję. Pozwól sobie na luksus bycia w ciszy, która ma niezwykłą moc leczenia zmęczonego umysłu.",
+    "r": "Znajdź dla siebie chociaż kilkadziesiąt minut w całkowitym spokoju, otul się miękkim kocem i spędź ten czas na lekturze lub poukładaniu myśli w osobistym dzienniku.",
+    "u": "Przebywania w hałaśliwym, tłocznym otoczeniu oraz podejmowania ważnych decyzji pod wpływem nagłej, zewnętrznej presji.",
+    "s": "„Cisza wcale nie jest pustką – jest najbezpieczniejszym miejscem, w którym wreszcie odnajdujemy prawdziwą siebie.”",
+    "fun": "Pytanie do refleksji na dziś: Gdybyś na jeden dzień mogła zrzucić wszystkie dotychczasowe przyzwyczajenia jak za duży płaszcz, co zjadłabyś, założyła lub zrobiła zupełnie inaczej?"
+  },
+  "3-3": {
+    "z": "Ryby",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Dzisiejsza wibracja ósemki dodaje nam determinacji, siły i sprawczości, pomagając z łatwością uporządkować zaległe sprawy i konkretne cele. To dzień o jasnym, klarownym umyśle, w którym podejmowanie zdecydowanych kroków przychodzi z dużą łatwością. Poczujesz stabilny grunt pod nogami i wewnętrzną moc, by skutecznie zająć się tym, co wymaga Twojej uwagi.",
+    "r": "Podejmuj przemyślane decyzje, zadbaj o swoje finanse, ureguluj formalności i działaj z jasnym, spokojnym planem w głowie.",
+    "u": "Surowej samokrytyki w chwilach zmęczenia oraz brania na barki zbyt wielu obowiązków naraz.",
+    "s": "„Siła wcale nie polega na braku potknięć, ale na niewzruszonej wierze, że po każdym z nich potrafimy wstać z podniesioną głową.”",
+    "fun": "Jaki ciężar, który dźwigasz z poczucia „musu” lub obowiązku, mogłabyś dzisiaj bezkarnie odłożyć na ziemię?"
+  },
+  "3-4": {
+    "z": "Ryby",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Dziewiątka niesie ze sobą niezwykle uwalniającą energię łagodnego domknięcia, oczyszczenia przestrzeni i wybaczenia dawnych błędów. To czas, w którym możesz zrzucić z ramion stary bagaż i spojrzeć na miniony czas z głęboką czułością. Każde pożegnanie z tym, co stare, robi w naszym życiu bezcenną, czystą przestrzeń na nowe cuda, które już czekają tuż za rogiem.",
+    "r": "Zrób symboliczne porządki w otoczeniu, pozbądź się rzeczy, których dawno już nie używasz, i oczyść swoje myśli ze starych zmartwień.",
+    "u": "Wracania do trudnych wspomnień z poczuciem winy – spójrz na swoją przeszłość z taką wyrozumiałością, z jaką spojrzałabyś na przyjaciółkę.",
+    "s": "„Zamknięcie jednych drzwi to najpiękniejszy podarunek, jaki możemy podarować nowej przestrzeni w naszym życiu.”",
+    "fun": "Co w Twoim życiu domaga się dzisiaj nie tyle naprawiania, ile łagodnego pożegnania i odprowadzenia z szacunkiem do przeszłości?"
+  },
+  "3-5": {
+    "z": "Ryby",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Jedynka wita nas potężnym zastrzykiem świeżej energii, optymizmu i gotowości do rozpoczęcia czegoś nowego na własnych warunkach. W Twoim sercu obudzić się może jasna iskra motywacji, która zachęca do zrobienia małego kroku w stronę marzeń. Nie musisz od razu zmieniać całego świata – wystarczy, że postawisz siebie i swoje pragnienia na pierwszym miejscu.",
+    "r": "Zapisz swoje plany i intencje na nadchodzący czas, odważnie wyraź swoje zdanie i zrób pierwszy, autentyczny krok w nowym kierunku.",
+    "u": "Strachu przed tym, co powiedzą inni, oraz czekania na wyimaginowany, „idealny” moment do działania.",
+    "s": "„Odwaga wcale nie oznacza braku strachu; to radosne działanie pomimo niego, w pełnej zgodzie ze swoim sercem.”",
+    "fun": "Gdybyś na moment odłożyła całą swoją skromność, z czego w sobie jesteś dzisiaj cholernie dumna?"
+  },
+  "3-6": {
+    "z": "Ryby",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Czysta wibracja dwójki przynosi dzisiaj niezwykle miękki, otulający spokój, który pozwala nam zwolnić kroku i rozejrzeć się wokół z autentyczną czułością. To dzień, w którym domowe pielesze, zapach świeżo parzonej kawy czy ciepły pled stają się najcenniejszym azylem. Zamiast gonić za obowiązkami, pozwól sobie dzisiaj zauważyć piękno drobnych, cichych gestów – zarówno tych, którymi obdarzasz innych, jak i tych skierowanych do samej siebie.",
+    "r": "Otocz się dzisiaj ulubionymi zapachami, zrób sobie dłuższą, niespieszną przerwę na oddech i spędź wieczór w gronie najbliższych, celebrując zwykłą, piękną codzienność.",
+    "u": "Brania na swoje barki cudzych emocjonalnych ciężarów i poczucia, że musisz dzisiaj zbawić cały świat.",
+    "s": "„Prawdziwe piękno życia ukrywa się w tych najcichszych, niespiesznych momentach, kiedy po prostu jesteśmy dla siebie dobre.”",
+    "fun": "Jaką czułą przestrzeń w ciągu dnia oddajesz innym, zupełnie zapominając o zarezerwowaniu choćby krzesła dla samej siebie?"
+  },
+  "3-7": {
+    "z": "Ryby",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Trójka w niedzielny poranek wstrzykuje w nas mnóstwo radosnej lekkości i naturalnej ciekawości świata, przypominając, że radość wcale nie potrzebuje wielkich powodów. Możesz poczuć w sobie nagłą ochotę na odmianę perspektywy, uśmiech do nieznajomego na ulicy albo powrót do dawnej pasji, która od dawna czekała w kącie na Twoją uwagę. Pozwól swojej wewnętrznej dziewczynce na odrobinę beztroskiej zabawy.",
+    "r": "Zrób dzisiaj coś zupełnie spontanicznego – posłuchaj energetyzującej muzyki, potańcz w kuchni, naszkicuj coś bez dbania o efekt albo wyjdź na spacer bez konkretnego celu.",
+    "u": "Nadmiernego analizowania każdego kroku, powagi i sztywnego trzymania się niedzielnych schematów.",
+    "s": "„Śmiech i radość to najkrótsze drogi do odzyskania wewnętrznej lekkości, gdy codzienność staje się zbyt ciężka.”",
+    "fun": "Jaka mała, radosna głupota – taka bez żadnego głębszego sensu, za to czysto dla uśmiechu – marzy Ci się dzisiaj?"
+  },
+  "3-8": {
+    "z": "Ryby",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Czwórka wita nowy tydzień solidnym, uziemiającym wsparciem, które pomaga nam mocno stanąć na ziemi i uporządkować myśli z pełnym spokojem. To wibracja, która kocha klarowność, ład w otoczeniu i konkretne, mądre działania. Kiedy nasza przestrzeń jest uporządkowana, umysł zyskuje cudowną przestrzeń na nowe pomysły bez poczucia przytłoczenia.",
+    "r": "Zorganizuj swoje biurko lub domową przestrzeń, zaplanuj nadchodzące zadania z dużym szacunkiem dla swoich sił i dokończ to, co odpuściłaś w minionym tygodniu.",
+    "u": "Chaosu, robienia wszystkiego naraz oraz wpadania w pułapkę perfekcjonizmu.",
+    "s": "„Porządek wokół nas to najprostszy list miłosny, jaki możemy wysłać do własnego zmęczonego umysłu.”",
+    "fun": "W którym miejscu Twojego ciała nagromadziło się najwięcej napięcia i jak możesz je dzisiaj uziemić z pomocą prostego, ciepłego oddechu?"
+  },
+  "3-9": {
+    "z": "Ryby",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Piątka przynosi dzisiaj cudowny powiew wolności i świeżego powietrza, zachęcając nas do wyjścia ze strefy komfortu w bardzo łagodny, przyjemny sposób. Możesz poczuć, że potrzebujesz odmiany – innejdrogi do pracy, nowego smaku herbaty albo zmiany ustawienia mebli w pokoju. Ta wibracja otwiera nam oczy na codzienne cuda, które dotychczas mijałyśmy obojętnie.",
+    "r": "Otwórz szeroko okno, wpuść do środka wiosenny powiew, porozmawiaj z kimś, kto patrzy na świat zupełnie inaczej niż Ty, i pozwól sobie na małą, radosną zmianę planów.",
+    "u": "Utknięcia w marazmie, narzekania na rutynę i lęku przed zrobieniem czegoś po swojemu.",
+    "s": "„Życie nabiera najpiękniejszych barw wtedy, gdy z ciekawością dziecka pozwalamy sobie na małe, codzienne odkrycia.”",
+    "fun": "Jaki jeden bezpieczny schemat w Twoim życiu aż prosi się o to, by przewrócić go dzisiaj do góry nogami dla samej frajdy?"
+  },
+  "3-10": {
+    "z": "Ryby",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Szóstka roztacza dzisiaj wokół nas niezwykle opiekuńczą, miękką aurę, przypominając o sile bezwarunkowej akceptacji i empatii. To idealny dzień na to, by otulić troską te części siebie, które przez ostatnie dni mocno pracowały i zasługują na głęboki, niczym niezmącony oddech. Poczuj, jak z każdym wydechem ulatuje z Ciebie napięcie, ustępując miejsca domowemu ciepłu.",
+    "r": "Przygotuj dla siebie coś wyjątkowo miłego – ciepłą kąpiel z pachnącymi solami, kubek ulubionego naparu i wieczór bez żadnych ambitnych planów.",
+    "u": "Stawiania cudzych potrzeb ponad własne zdrowie i dobre samopoczucie.",
+    "s": "„Najbardziej uzdrawiającą rzeczą, jaką możesz dziś zrobić dla świata, jest łagodne zaopiekowanie się własnym sercem.”",
+    "fun": "Jaki domowy rytuał – nawet tak prosty jak parzenie kawy – możesz dzisiaj zamienić w święty akt czułości dla samej siebie?"
+  },
+  "3-11": {
+    "z": "Ryby",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Siódemka roztacza wokół nas głęboką, introspektywną aurę, która sprzyja zatrzymaniu się w pędzie i spojrzeniu w głąb własnego serca. To dzień, w którym nasza intuicja staje się najmądrzejszą doradczynią, a cicha samotność nie oznacza opuszczenia, lecz najpiękniejszy rodzaj spotkania z samą sobą. Zamiast szukać odpowiedzi na zewnątrz, pozwól sobie dzisiaj na poszukanie ich w ciszy własnych myśli.",
+    "r": "Odłóż na bok telefon, zaparz ziołową herbatę, spędź czas z dobrą lekturą lub przelej swoje refleksje na czyste kartki osobistego notesu.",
+    "u": "Hałaśliwych miejsc, powierzchownych rozmów i ulegania presji, by natychmiast podejmować ważne życiowe decyzje.",
+    "s": "„Cisza wcale nie jest pustką – to najbezpieczniejsza przestrzeń, w której odnajdujemy prawdę o nas samych.”",
+    "fun": "Gdyby Twoja intuicja napisała do Ciebie dzisiaj jednozdaniowy list, co by w nim napisała?"
+  },
+  "3-12": {
+    "z": "Ryby",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Ósemka wkracza z potężną, stabilizującą energią sprawczości, która pomaga nam z łatwością uporządkować zaległe sprawy i wziąć stery w swoje ręce. To dzień o niezwykle jasnym, klarownym umyśle, w którym działania wymagające odwagi, konsekwencji i dobrej organizacji przynoszą wspaniałe efekty. Poczujesz pod stopami solidny grunt, który daje poczucie pełnej gotowości na wyzwania.",
+    "r": "Zadbaj o swoje finanse, ureguluj ważne formalności i zrób konkretny, odważny krok w kierunku celów, które od dłuższego czasu czekają na Twoją uwagę.",
+    "u": "Surowej samokrytyki w momentach zmęczenia oraz brania na barki cudzej odpowiedzialności.",
+    "s": "„Prawdziwa siła rodzi się z codziennej konsekwencji i cichej, niezłomnej wiary we własne możliwości.”",
+    "fun": "W jakiej sprawie Twoje osobiste zasoby energii świecą na czerwono, a Ty wciąż udajesz, że masz pełny bak?"
+  },
+  "3-13": {
+    "z": "Ryby",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Dziewiątka otula nas miękką, uzdrawiającą wibracją domknięcia i wybaczenia, pozwalając zrzucić z ramion stary bagaż emocjonalny. To idealny dzień na to, by z łagodnością spojrzeć wstecz, pożegnać to, co dawno straciło już swoją rację bytu, i zrobić w sercu czystą przestrzeń na nadchodzącą wiosnę. Z każdym wydechem ulatuje z Ciebie to, co niepotrzebne.",
+    "r": "Zrób symboliczne porządki w szafie lub szufladach, pozbądź się zalegających przedmiotów i spędź wieczór w nastrojowej, relaksującej atmosferze.",
+    "u": "Wracania do bolesnych wspomnień z poczuciem winy – spójrz na swoją przeszłość z czułością, jaką darzysz przyjaciółkę.",
+    "s": "„Pozwolenie czemuś odejść to najpiękniejszy dar, jaki możemy podarować naszej zmęczonej duszy.”",
+    "fun": "Jaki stary, porzucony talent lub pasja spogląda na Ciebie z kurzem na półce, czekając, aż znawu na nią spojrzysz?"
+  },
+  "3-14": {
+    "z": "Ryby",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Jedynka przynosi potężny powiew świeżej energii, optymizmu i gotowości do rozpoczęcia zupełnie nowego rozdziału na własnych zasadach. Dziś czujesz, że masz przed sobą czystą kartę i pełne prawo do tego, by postawić siebie oraz swoje pragnienia na pierwszym miejscu. Ta wibracja dodaje odwagi, by zrzucić wszelkie ograniczenia i zawalczyć o swój wewnętrzny spokój.",
+    "r": "Zapisz w notesie swoje nowe intencje, odważnie wyraź swoje zdanie w ważnej sprawie i zrób chociaż jeden mały krok ku marzeniom.",
+    "u": "Oglądania się na opinie otoczenia oraz czekania na wyimaginowany, idealny moment – ten moment jest właśnie teraz.",
+    "s": "„Odwaga wcale nie oznacza braku strachu; to piękna decyzja o działaniu pomimo niego, w zgodzie ze swoim sercem.”",
+    "fun": "Z jakim wewnętrznym głosem krytyka czas wreszcie przeprowadzić męską rozmowę i wyprosić go z pokoju?"
+  },
+  "3-15": {
+    "z": "Ryby",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Dwójka otula nas niezwykle delikatną, harmonijną aurą, w której empatia, życzliwość i wsłuchanie się w drugiego człowieka stają się priorytetem. To dzień sprzyjający budowaniu mostów w relacjach, prowadzeniu szczerych rozmów od serca do serca oraz obdarzaniu samej siebie ogromną wyrozumiałością. Zwolnij tempo i pozwól sobie na chwilę czułego zatrzymania.",
+    "r": "Porozmawiaj z kimś bliskim w miłej atmosferze, wypij w spokoju filiżankę ulubionej herbaty i odpuść wszelkie dążenie do perfekcji.",
+    "u": "Wchodzenia w głośne konflikty, sporów oraz przebywania w miejscach, które naruszają Twój wewnętrzny balans.",
+    "s": "„Łagodne słowo i szczery gest potrafią uleczyć więcej, niż nam się na co dzień wydaje.”",
+    "fun": "Co w Tobie jest tak miękkie i wrażliwe, że chronisz to przed światem pod pancerną zbroją niezależności?"
+  },
+  "3-16": {
+    "z": "Ryby",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Trójka przynosi dzisiaj powiew radosnej lekkości, uśmiechu oraz twórczej ekspresji, która potrafi rozjaśnić nawet najbardziej pochmurny poranek. To dzień, w którym warto na chwilę odpuścić powagę, przestać wszystko skrupulatnie kalkulować i pozwolić dojść do głosu swojej wewnętrznej, radosnej naturze. Twoja kreatywność szuka ujścia, a serce pragnie dzielić się ciepłem z otoczeniem.",
+    "r": "Zrób coś wyłącznie dla czystej przyjemności – posłuchaj ulubionej, energetycznej muzyki, spotkaj się z kimś, kto potrafi Cię rozśmieszyć, lub stwórz coś pięknego bez dbania o idealny efekt.",
+    "u": "Ponurego nastroju, narzekania oraz zamartwiania się sprawami, na które nie masz bezpośredniego wpływu.",
+    "s": "„Uśmiech to najpiękniejsze słońce, jakie możemy podarować własnemu sercu w środku zabieganego dnia.”",
+    "fun": "Kiedy ostatnio śmiałaś się tak szczerze, że aż zapomniałaś o całym świecie i upływającym czasie?"
+  },
+  "3-17": {
+    "z": "Ryby",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Czwórka dba o to, byśmy dzisiaj mocno i stabilnie stąpały po ziemi, doceniając urok porządku, przewidywalności i bezpiecznej rutyny. To wibracja, która przynosi ogromną ulgę w głowie, gdy systematycznie doprowadzamy do końca zaległe, drobne sprawy. Poukładana przestrzeń wokół nas przynosi natychmiastową jasność w myślach.",
+    "r": "Dokończ jedno konkretne zadanie, które od dłuższego czasu odkładałaś na później, uporządkuj otoczenie wokół siebie i zrelaksuj się w domowym zaciszu.",
+    "u": "Przemęczania się ponad miarę, chaosu organizacyjnego i brania na barki zbyt wielu obowiązków naraz.",
+    "s": "„Trwałe fundamenty naszego spokoju buduje się powoli, z miłością i cierpliwością do samej siebie.”",
+    "fun": "Jaki element Twojego otoczenia (np. zagracone biurko, szafa) odbiera Ci energię, zamiast dawać upragniony spokój?"
+  },
+  "3-18": {
+    "z": "Ryby",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Piątka wkracza z radosnym powiewem świeżości, delikatnie burząc nudę i zachęcając do wyjścia poza utarte schematy. Dzisiejszy dzień sprzyja otwieraniu się na nowe perspektywy, małym eksperymentom w planie dnia i radosnemu odkrywaniu życia z perspektywy ciekawości. Pozwól sobie na odrobinę elastyczności i uśmiechnij się do niespodzianek losu.",
+    "r": "Zmień coś drobnego w swojej codziennej rutynie, wyjdź na spacer zupełnie inną trasą lub otwórz się na inspirującą rozmowę z kimś nowym.",
+    "u": "Sztywnego trzymania się planów, które zamiast wspierać, zaczynają Cię ograniczać i odbierać radość ze swobody.",
+    "s": "„Świat staje się o wiele ciekawszy, gdy przestajemy bać się tego, co nieznane i nowe.”",
+    "fun": "Gdybyś dzisiaj mogła wsiąść w pierwszy lepszy pociąg w nieznane, dokąd powiodłoby Cię Twoje wewnętrzne pragnienie wolności?"
+  },
+  "3-19": {
+    "z": "Ryby",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Szóstka otacza nas dzisiaj niezwykle miękką, opiekuńczą aurą domowego ogniska, bezwarunkowej miłości i głębokiego zrozumienia. To idealny moment, by skierować całą uwagę ku bliskim relacjom oraz zaopiekowaniu się własnym, zmęczonym sercem. Dom staje się dziś najbezpieczniejszą przystanią, w której możesz zrzucić wszelkie maski.",
+    "r": "Spędź miły, niespieszny wieczór w gronie najbliższych, zapal ulubioną świecę i otocz się atmosferą pełną ciepła oraz życzliwych słów.",
+    "u": "Obojętności na własne potrzeby emocjonalne oraz brania na siebie cudzych kryzysów.",
+    "s": "„Najpiękniejszym domem, o jaki możemy dbać każdego dnia, jest ciepło gościnnego i spokojnego serca.”",
+    "fun": "Jaką najmilszą rzecz możesz dzisiaj zrobić dla kogoś zupełnie bezinteresownie, nie oczekując nawet uśmiechu w zamian?"
+  },
+  "3-20": {
+    "z": "Ryby",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Siódemka wita nas wibracją głębokiego wyciszenia, refleksji oraz ufnym wsłuchaniem się w mądrość własnego wnętrza. To dzień stworzony do tego, by na chwilę odciąć się od zewnętrznego zgiełku i poszukać odpowiedzi tam, gdzie panuje absolutna cisza. Pozwól sobie na samotność rozumianą jako najpiękniejszy rodzaj spotkania z samą sobą.",
+    "r": "Odłóż na bok telefon, spędź czas w otoczeniu natury lub z książką w ręku, pozwalając swoim myślom swobodnie płynąć.",
+    "u": "Hałaśliwych miejsc, powierzchownych rozmów i ulegania presji otoczenia, która narzuca zbyt szybkie tempo.",
+    "s": "„W ciszy kryją się najmądrzejsze drogowskazy, których głośny świat nie potrafi usłyszeć.”",
+    "fun": "Jaka prawda o Tobie samej wyłania się z cienia, gdy na zewnątrz zapada wieczorna cisza?"
+  },
+  "3-21": {
+    "z": "Baran",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Ósemka wita nas w niedzielny poranek stabilną, silną wibracją sprawczości, która pomaga nam z łatwością połączyć odpoczynek z mądrym zarządzaniem naszą energią i planami na nadchodzący tydzień. To dzień o jasnym umyśle, w którym poczucie wewnętrznej mocy i kontroli nad własnym życiem daje ogromne poczucie bezpieczeństwa.",
+    "r": "Zaplanuj nadchodzące zadania z dużym szacunkiem dla swoich sił, ureguluj zaległe sprawy i zrób coś, co wzmocni Twoje poczucie stabilności.",
+    "u": "Nadmiernej samokrytyki i brania na barki cudzej odpowiedzialności – pozwól sobie na oddech.",
+    "s": "„Prawdziwa siła rodzi się z wewnętrznego spokoju i mądrego szacunku dla własnej energii.”",
+    "fun": "W jaki sposób celebrujesz swoje codzienne małe zwycięstwa, zamiast natychmiast biec do kolejnego zadania?"
+  },
+  "3-22": {
+    "z": "Baran",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Dziewiątka roztacza wokół nas uzdrawiającą aurę domknięcia, wybaczenia i pożegnania tego, co dawno straciło już swoją rację bytu. To idealny moment, by zrzucić z ramion stary bagaż emocjonalny i zrobić w sercu czystą przestrzeń na nadchodzącą wiosenną odnowę. Z każdym wydechem ulatuje z Ciebie to, co niepotrzebne.",
+    "r": "Zrób symboliczne porządki w otoczeniu, pozbądź się zalegających rzeczy i spędź wieczór w nastrojowej, relaksującej atmosferze.",
+    "u": "Wracania do bolesnych wspomnień z poczuciem winy – spójrz na swoją przeszłość z czułością, jaką darzysz przyjaciółkę.",
+    "s": "„Pozwolenie czemuś odejść to najpiękniejszy dar, jaki możemy podarować naszej zmęczonej duszy.”",
+    "fun": "Jaka relacja z przeszłości uczyła Cię najwięcej o tym, jak NIE chcesz być już traktowana?"
+  },
+  "3-23": {
+    "z": "Baran",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Jedynka przynosi potężny powiew świeżej energii, optymizmu i gotowości do rozpoczęcia zupełnie nowego rozdziału na własnych zasadach. Dziś czujesz, że masz przed sobą czystą kartę i pełne prawo do tego, by postawić siebie oraz swoje pragnienia na pierwszym miejscu. Ta wibracja dodaje odwagi, by zrzucić wszelkie ograniczenia.",
+    "r": "Zapisz w notesie swoje nowe intencje, odważnie wyraź swoje zdanie w ważnej sprawie i zrób chociaż jeden mały krok ku marzeniom.",
+    "u": "Oglądania się na opinie otoczenia oraz czekania na wyimaginowany, idealny moment – ten moment jest właśnie teraz.",
+    "s": "„Odwaga wcale nie oznacza braku strachu; to piękna decyzja o działaniu pomimo niego, w zgodzie ze swoim sercem.”",
+    "fun": "W jakiej dziedzinie życia brakuje Ci dzisiaj iskry, którą mogłabyś rozpalić wielki, życiowy ogień?"
+  },
+  "3-24": {
+    "z": "Baran",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Dwójka otula nas niezwykle delikatną, harmonijną aurą, w której empatia, życzliwość i wsłuchanie się w drugiego człowieka stają się priorytetem. To dzień sprzyjający budowaniu mostów w relacjach, prowadzeniu szczerych rozmów od serca do serca oraz obdarzaniu samej siebie ogromną wyrozumiałością. Zwolnij tempo i pozwól sobie na chwilę czułego zatrzymania.",
+    "r": "Porozmawiaj z kimś bliskim w miłej atmosferze, wypij w spokoju filiżankę ulubionej herbaty i odpuść wszelkie dążenie do perfekcji.",
+    "u": "Wchodzenia w głośne konflikty, sporów oraz przebywania w miejscach, które naruszają Twój wewnętrzny balans.",
+    "s": "„Łagodne słowo i szczery gest potrafią uleczyć więcej, niż nam się na co dzień wydaje.”",
+    "fun": "Jak brzmi najpiękniejsze, pełne akceptacji zdanie, które chciałabyś dzisiaj usłyszeć od samej siebie?"
+  },
+  "3-25": {
+    "z": "Baran",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Trójka przynosi dzisiaj powiew radosnej lekkości, uśmiechu oraz twórczej ekspresji, która potrafi rozjaśnić nawet najbardziej pochmurny poranek. To dzień, w którym warto na chwilę odpuścić powagę, przestać wszystko skrupulatnie kalkulować i pozwolić dojść do głosu swojej wewnętrznej, radosnej naturze. Twoja kreatywność szuka ujścia.",
+    "r": "Zrób coś wyłącznie dla czystej przyjemności – posłuchaj ulubionej muzyki, spotkaj się z kimś, kto potrafi Cię rozśmieszyć, lub stwórz coś pięknego.",
+    "u": "Ponurego nastroju, narzekania oraz zamartwiania się sprawami, na które nie masz bezpośredniego wpływu.",
+    "s": "„Uśmiech to najpiękniejsze słońce, jakie możemy podarować własnemu sercu w środku zabieganego dnia.”",
+    "fun": "Jaka melodia, zapach lub obraz potrafi w ułamku sekundy przywrócić Ci lekkość w sercu?"
+  },
+  "3-26": {
+    "z": "Baran",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Czwórka dba o to, byśmy mocno i stabilnie stąpały po ziemi, doceniając urok porządku, przewidywalności i bezpiecznej rutyny na progu weekendu. To wibracja, która przynosi ogromną ulgę w głowie, gdy systematycznie doprowadzamy do końca zaległe, drobne sprawy. Poukładana przestrzeń wokół nas przynosi natychmiastową jasność w myślach.",
+    "r": "Dokończ jedno konkretne zadanie, które od dłuższego czasu odkładałaś na później, uporządkuj otoczenie wokół siebie i zrelaksuj się w domowym zaciszu.",
+    "u": "Przemęczania się ponad miarę, chaosu organizacyjnego i brania na barki zbyt wielu obowiązków naraz.",
+    "s": "„Trwałe fundamenty naszego spokoju buduje się powoli, z miłością i cierpliwością do samej siebie.”",
+    "fun": "Co w Twoim życiu wymaga dzisiaj nie rewolucji, lecz cichej, cierpliwej i systematycznej troski?"
+  },
+  "3-27": {
+    "z": "Baran",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Piątka wkracza z radosnym powiewem świeżości, delikatnie burząc nudę i zachęcając do wyjścia poza utarte schematy. Dzisiejszy dzień sprzyja otwieraniu się na nowe perspektywy, małym eksperymentom w planie dnia i radosnemu odkrywaniu życia z perspektywy ciekawości. Pozwól sobie na odrobinę elastyczności i uśmiechnij się do niespodzianek losu.",
+    "r": "Zmień coś drobnego w swojej codziennej rutynie, wyjdź na spacer zupełnie inną trasą lub otwórz się na inspirującą rozmowę z kimś nowym.",
+    "u": "Sztywnego trzymania się planów, które zamiast wspierać, zaczynają Cię ograniczać i odbierać radość ze swobody.",
+    "s": "„Świat staje się o wiele ciekawszy, gdy przestajemy bać się tego, co nieznane i nowe.”",
+    "fun": "Z jakim przestarzałym przekonaniem na swój temat chcesz się dzisiaj bezpardonowo pożegnać?"
+  },
+  "3-28": {
+    "z": "Baran",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Szóstka otacza nas dzisiaj niezwykle miękką, opiekuńczą aurą domowego ogniska, bezwarunkowej miłości i głębokiego zrozumienia. To idealny moment, by skierować całą uwagę ku bliskim relacjom oraz zaopiekowaniu się własnym, zmęczonym sercem. Dom staje się dziś najbezpieczniejszą przystanią, w której możesz zrzucić wszelkie maski.",
+    "r": "Spędź miły, niespieszny wieczór w gronie najbliższych, zapal ulubioną świecę i otocz się atmosferą pełną ciepła oraz życzliwych słów.",
+    "u": "Obojętności na własne potrzeby emocjonalne oraz brania na siebie cudzych kryzysów.",
+    "s": "„Najpiękniejszym domem, o jaki możemy dbać każdego dnia, jest ciepło gościnnego i spokojnego serca.”",
+    "fun": "Jak wyglądałby Twój wymarzony, całkowicie bezpieczny azyl, w którym mogłabyś schować się przed całym światem?"
+  },
+  "3-29": {
+    "z": "Baran",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Siódemka wita nas wibracją głębokiego wyciszenia, refleksji oraz ufnym wsłuchaniem się w mądrość własnego wnętrza na starcie nowego tygodnia. To dzień stworzony do tego, by na chwilę odciąć się od zewnętrznego zgiełku i poszukać odpowiedzi tam, gdzie panuje absolutna cisza. Pozwól sobie na samotność rozumianą jako najpiękniejszy rodzaj spotkania z samą sobą.",
+    "r": "Odłóż na bok telefon, spędź czas w otoczeniu natury lub z książką w ręku, pozwalając swoim myślom swobodnie płynąć.",
+    "u": "Hałaśliwych miejsc, powierzchownych rozmów i ulegania presji otoczenia, która narzuca zbyt szybkie tempo.",
+    "s": "„W ciszy kryją się najmądrzejsze drogowskazy, których głośny świat nie potrafi usłyszeć.”",
+    "fun": "Co w Tobie jest tak głębokie i niezmienne, że żaden zewnętrzny hałas nie jest w stanie tego naruszyć?"
+  },
+  "3-30": {
+    "z": "Baran",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Ósemka niesie ze sobą stabilną, silną wibrację sprawczości, która pomaga nam z łatwością połączyć codzienne obowiązki z mądrym zarządzaniem naszą energią. To dzień o jasnym umyśle, w którym poczucie wewnętrznej mocy i kontroli nad własnym życiem daje ogromne poczucie bezpieczeństwa.",
+    "r": "Zaplanuj nadchodzące zadania z dużym szacunkiem dla swoich sił, ureguluj zaległe sprawy i zrób coś, co wzmocni Twoje poczucie stabilności.",
+    "u": "Nadmiernej samokrytyki i brania na barki cudzej odpowiedzialności – pozwól sobie na oddech.",
+    "s": "„Prawdziwa siła rodzi się z wewnętrznego spokoju i mądrego szacunku dla własnej energii.”",
+    "fun": "W jaki sposób dbasz o to, by Twoja wewnętrzna siła nie zamieniła się w pancerz, przez który nie przepuszczasz już czułości?"
+  },
+  "3-31": {
+    "z": "Baran",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Ostatni dzień marca roztacza wokół nas uzdrawiającą aurę domknięcia, wybaczenia i pożegnania tego, co zimowe, by zrobić miejsce na rozkwitającą wiosnę. To idealny moment, by zrzucić z ramion stary bagaż emocjonalny i spojrzeć z czułością na drogę, którą przeszłaś przez minione trzydzieści jeden dni. Z każdym wydechem ulatuje z Ciebie to, co niepotrzebne.",
+    "r": "Podsumuj marzec z wdzięcznością, zrób symboliczne porządki w otoczeniu i spędź wieczór w nastrojowej, relaksującej atmosferze, witając nadchodzący kwiecień z otwartym sercem.",
+    "u": "Wracania do bolesnych wspomnień z poczuciem winy – spójrz na swoją przeszłość z miłością.",
+    "s": "„Każde pożegnanie z tym, co minęło, to najpiękniejszy szept zapraszający do życia nową nadzieję.”",
+    "fun": "Jaki intymny akord wdzięczności wybrzmiewa w Twoim sercu na sam koniec tego marcowego, pełnego przemian miesiąca?"
+  },
+  "4-1": {
+    "z": "Baran",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Pierwszy dzień kwietnia wita nas głęboką, refleksyjną wibracją siódemki, która zachęca do delikatnego zwolnienia tempa i wsłuchania się we własną intuicję. Zamiast szukać wiosennego zgiełku na zewnątrz, dzisiejszy dzień zaprasza Cię do bezpiecznego, wewnętrznego azylu. To idealny moment, by w ciszy i spokoju przyjrzeć się swoim intencjom na nowy miesiąc.",
+    "r": "Znajdź chwilę dla siebie z kubkiem ulubionej herbaty, odłóż na bok powiadomienia w telefonie i spędź czas na lekturze lub spokojnej refleksji w domowym zaciszu.",
+    "u": "Pośpiechu, hałaśliwych miejsc oraz ulegania presji otoczenia, która próbuje narzucić Ci narzucone przez kogoś innego tempo.",
+    "s": "„Prawdziwa mądrość zaczyna się tam, gdzie potrafimy usłyszeć cichy szept własnego serca.”",
+    "fun": "Jaka ukryta prawda o Twoich obecnych potrzebach wyszeptana w ciszy domaga się tego, byś wreszcie przestała ją zagłuszać?"
+  },
+  "4-2": {
+    "z": "Baran",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Ósemka niesie ze sobą potężną, stabilizującą wibrację sprawczości i jasnego umysłu, pomagając nam z łatwością uporządkować codzienne sprawy oraz finanse. To dzień, w którym działania wymagające odwagi, konsekwencji i dobrej organizacji przynoszą wspaniałe, uwalniające rezultaty. Poczujesz pod stopami solidny grunt, dający poczucie pełnej gotowości.",
+    "r": "Ureguluj zaległe formalności, zaplanuj nadchodzące zadania z dużym szacunkiem dla swoich sił i zrób konkretny krok w kierunku swoich celów.",
+    "u": "Surowej samokrytyki w momentach zmęczenia oraz brania na barki cudzej odpowiedzialności.",
+    "s": "„Siła wcale nie rodzi się z braku trudności, lecz z niezłomnej wiary, że potrafimy poradzić sobie z każdym wyzwaniem.”",
+    "fun": "Gdyby Twoje zmęczenie mogło przemówić ludzkim głosem, o jaką jedną rzecz poprosiłoby Cię w pierwszej kolejności?"
+  },
+  "4-3": {
+    "z": "Baran",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Dziewiątka otula nas uzdrawiającą aurą domknięcia, wybaczenia i pożegnania tego, co stare, by zrobić w sercu czystą przestrzeń na wiosenny rozkwit. To idealny moment, by zrzucić z ramion stary bagaż emocjonalny i spojrzeć z ogromną czułością na drogę, którą do tej pory przeszłaś. Z każdym wydechem ulatuje z Ciebie wszelki żal.",
+    "r": "Zrób symboliczne porządki w swojej przestrzeni, pozbądź się zalegających przedmiotów i spędź wieczór w nastrojowej, relaksującej atmosferze.",
+    "u": "Wracania do bolesnych wspomnień z poczuciem winy – spójrz na swoją przeszłość z miłością.",
+    "s": "„Pozwolenie czemuś odejść to najpiękniejszy dar, jaki możemy podarować naszej zmęczonej duszy.”",
+    "fun": "Z jakim wyobrażeniem o tym, „jak wypada się zachować”, chcesz się dzisiaj bez żalu pożegnać?"
+  },
+  "4-4": {
+    "z": "Baran",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Jedynka w wielkanocnym, wiosennym klimacie przynosi potężny powiew świeżej energii, optymizmu i gotowości do rozpoczęcia zupełnie nowego rozdziału na własnych zasadach. Dziś czujesz, że masz przed sobą czystą kartę i pełne prawo do tego, by postawić siebie oraz swoje pragnienia na pierwszym miejscu. Ta wibracja dodaje odwagi, by zrzucić wszelkie ograniczenia.",
+    "r": "Zapisz w notesie swoje nowe intencje, odważnie wyraź swoje zdanie w ważnej sprawie i zrób chociaż jeden mały krok ku marzeniom.",
+    "u": "Oglądania się na opinie otoczenia oraz czekania na wyimaginowany, idealny moment – ten moment jest właśnie teraz.",
+    "s": "„Odwaga wcale nie oznacza braku strachu; to piękna decyzja o działaniu pomimo niego, w zgodzie ze swoim sercem.”",
+    "fun": "Jaki mały, samolubny (w tym najpiękniejszym tego słowa znaczeniu) krok możesz dzisiaj zrobić wyłącznie dla własnego szczęścia?"
+  },
+  "4-5": {
+    "z": "Baran",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Dwójka otula nas niezwykle delikatną, harmonijną aurą, w której empatia, życzliwość i wsłuchanie się w drugiego człowieka stają się priorytetem. To dzień sprzyjający budowaniu mostów w relacjach, prowadzeniu szczerych rozmów od serca do serca oraz obdarzaniu samej siebie ogromną wyrozumiałością. Zwolnij tempo i pozwól sobie na chwilę czułego zatrzymania w gronie najbliższych.",
+    "r": "Porozmawiaj z kimś bliskim w miłej atmosferze, wypij w spokoju filiżankę ulubionej herbaty i odpuść wszelkie dążenie do perfekcji.",
+    "u": "Wchodzenia w głośne konflikty, sporów oraz przebywania w miejscach, które naruszają Twój wewnętrzny balans.",
+    "s": "„Łagodne słowo i szczery gest potrafią uleczyć więcej, niż nam się na co dzień wydaje.”",
+    "fun": "Kto z Twoich bliskich potrzebuje dzisiaj Twojej cichej, ciepłej obecności bez żadnych oczekiwań i rad?"
+  },
+  "4-6": {
+    "z": "Baran",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Trójka przynosi dzisiaj cudowny powiew radosnej lekkości, uśmiechu oraz twórczej ekspresji, która potrafi rozjaśnić każdy zakamarek dnia. To moment, w którym warto na chwilę odpuścić powagę i pozwolić dojść do głosu swojej wewnętrznej, radosnej naturze. Twoja kreatywność szuka ujścia, a serce pragnie dzielić się ciepłem z otoczeniem.",
+    "r": "Zrób coś wyłącznie dla czystej przyjemności – posłuchaj ulubionej muzyki, spotkaj się z kimś, kto potrafi wywołać szczery uśmiech na Twojej twarzy, lub stwórz coś pięknego.",
+    "u": "Ponurego nastroju, narzekania oraz zamartwiania się drobnymi sprawami, na które nie masz bezpośredniego wpływu.",
+    "s": "„Uśmiech to najpiękniejsze słońce, jakie możemy podarować własnemu sercu w środku zabieganego dnia.”",
+    "fun": "Jaki barwny, szalony impuls twórczy spoczywa na dnie Twojej szuflady, czekając, aż dacie mu wspólnie poszybować?"
+  },
+  "4-7": {
+    "z": "Baran",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Czwórka dba o to, byśmy mocno i stabilnie stąpały po ziemi, doceniając urok porządku, przewidywalności i bezpiecznej rutyny. To wibracja, która przynosi ogromną ulgę w głowie, gdy systematycznie doprowadzamy do końca zaległe, drobne sprawy. Poukładana przestrzeń wokół nas przynosi natychmiastową jasność w myślach.",
+    "r": "Dokończ jedno konkretne zadanie, które od dłuższego czasu odkładałaś na później, uporządkuj otoczenie wokół siebie i zrelaksuj się w domowym zaciszu.",
+    "u": "Przemęczania się ponad miarę, chaosu organizacyjnego i brania na barki zbyt wielu obowiązków naraz.",
+    "s": "„Trwałe fundamenty naszego spokoju buduje się powoli, z miłością i cierpliwością do samej siebie.”",
+    "fun": "Jaki jeden, konkretny kąt w Twojej przestrzeni przyniesie Ci natychmiastowe ukojenie, gdy wreszcie tchniesz w niego porządek?"
+  },
+  "4-8": {
+    "z": "Baran",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Piątka wkracza z radosnym powiewem świeżości, delikatnie burząc nudę i zachęcając do wyjścia poza utarte schematy. Dzisiejszy dzień sprzyja otwieraniu się na nowe perspektywy, małym eksperymentom w planie dnia i radosnemu odkrywaniu życia z perspektywy ciekawości. Pozwól sobie na odrobinę elastyczności i uśmiechnij się do niespodzianek losu.",
+    "r": "Zmień coś drobnego w swojej codziennej rutynie, wyjdź na spacer zupełnie inną trasą lub otwórz się na inspirującą rozmowę z kimś nowym.",
+    "u": "Sztywnego trzymania się planów, które zamiast wspierać, zaczynają Cię ograniczać i odbierać radość ze swobody.",
+    "s": "„Świat staje się o wiele ciekawszy, gdy przestajemy bać się tego, co nieznane i nowe.”",
+    "fun": "Jaka bezpieczna, ale śmiertelnie nudna rutyna zaczyna Cię dzisiaj dusić i jak możesz ją przewrócić do góry nogami?"
+  },
+  "4-9": {
+    "z": "Baran",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Szóstka otacza nas dzisiaj niezwykle miękką, opiekuńczą aurą domowego ogniska, bezwarunkowej miłości i głębokiego zrozumienia. To idealny moment, by skierować całą uwagę ku bliskim relacjom oraz zaopiekowaniu się własnym, zmęczonym sercem. Dom staje się dziś najbezpieczniejszą przystanią, w której możesz zrzucić wszelkie maski.",
+    "r": "Spędź miły, niespieszny wieczór w gronie najbliższych, zapal ulubioną świecę i otocz się atmosferą pełną ciepła oraz życzliwych słów.",
+    "u": "Obojętności na własne potrzeby emocjonalne oraz brania na siebie cudzych kryzysów.",
+    "s": "„Najpiękniejszym domem, o jaki możemy dbać każdego dnia, jest ciepło gościnnego i spokojnego serca.”",
+    "fun": "W którym miejscu swojego serca najbardziej potrzebujesz dzisiaj zapalić lampkę bezwarunkowej wyrozumiałości dla samej siebie?"
+  },
+  "4-10": {
+    "z": "Baran",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Siódemka wita nas wibracją głębokiego wyciszenia, refleksji oraz ufnym wsłuchaniem się w mądrość własnego wnętrza. To dzień stworzony do tego, by na chwilę odciąć się od zewnętrznego zgiełku i poszukać odpowiedzi tam, gdzie panuje absolutna cisza. Pozwól sobie na samotność rozumianą jako najpiękniejszy rodzaj spotkania z samą sobą.",
+    "r": "Odłóż na bok telefon, spędź czas w otoczeniu budzącej się do życia natury lub z książką w ręku, pozwalając swoim myślom swobodnie płynąć.",
+    "u": "Hałaśliwych miejsc, powierzchownych rozmów i ulegania presji otoczenia, która narzuca zbyt szybkie tempo.",
+    "s": "„W ciszy kryją się najmądrzejsze drogowskazy, których głośny świat nie potrafi usłyszeć.”",
+    "fun": "Co w Tobie jest tak niezależne i wolne, że żaden zewnętrzny opiniodawca nie jest w stanie tego dosięgnąć?"
+  },
+  "4-11": {
+    "z": "Baran",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Dzień pod silnym, konkretnym patronatem ósemki przynosi potężną dawkę życiowej sprawczości i materialnej manifestacji. To wibracja, która nie znosi rozmemłania – domaga się od nas jasnych decyzji, zarządzania swoimi zasobami i wzięcia pełnej odpowiedzialności za własny sukces. Dziś doskonale pracują wszelkie strategiczne decyzje, kwestie finansowe oraz porządkowanie struktur w pracy czy biznesie. Poczujesz w sobie mocny, wewnętrzny kręgosłup, który pozwala twardo stąpać po ziemi.",
+    "r": "Zrób audyt swoich celów zawodowych lub finansowych, podejmij odważną, biznesową decyzję i doprowadź do końca sprawę, która wymaga stanowczości.",
+    "u": "Wpadania w pułapkę bezwzględnego pracoholizmu oraz surowego rozliczania siebie i innych z każdego błędu.",
+    "s": "„Prawdziwa obfitości nie rodzi się z ciągłej walki, lecz z mądrego, suwerennego zarządzania własnym potencjałem.”",
+    "fun": "Pytanie do refleksji na dziś: Gdybyś na jeden dzień mogła zrzucić wszystkie dotychczasowe przyzwyczajenia jak za duży płaszcz, co zjadłabyś, założyła lub zrobiła zupełnie inaczej?"
+  },
+  "4-12": {
+    "z": "Baran",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Wibracja dziewiątki otwiera przed nami bramę uniwersalnej mądrości, głębokiego współczucia i domykania wielkich cykli rozwojowych. Dzisiejszy dzień sprzyja spojrzeniu na swoje życie z perspektywy lotu ptaka – zauważeniu, dlaczego pewne etapy musiały się zakończyć, by ustąpić miejsca czemuś znacznie większemu. To energia humanistyczna, artystyczna i oczyszczająca, która uczy nas odpuszczania kontroli nad tym, na co dawno już nie mamy wpływu.",
+    "r": "Przelej swoje przemyślenia na papier, wesprzyj kogoś czystą, bezinteresowną radą lub zamknij wreszcie projekt, który od miesięcy tkwił w fazie zawieszenia.",
+    "u": "Zezwalania, by poczucie nostalgii przerodziło się w paraliżujący żal za przeszłością.",
+    "s": "„Mądrość polega na zrozumieniu, że każde pożegnanie to w rzeczywistości cichy ukłon w stronę naszej nowej dojrzałości.”",
+    "fun": "Jaki bolesny rozdział z przeszłości przestał być już raną, a stał się mądrym drogowskazem dla Ciebie?"
+  },
+  "4-13": {
+    "z": "Baran",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Potężna, pionierska jedynka uderza dzisiaj z pełną mocą, niosąc ze sobą iskrę czystej kreacji, niezależności i odwagi wyjścia przed szereg. To energia jednostki, która nie ogląda się na stado, lecz śmiało przeciera nowe szlaki. Jeśli czujesz w sobie gotowość, by zacząć coś od zera, wyrazić swoje zdanie bez owijania w bawełnę albo po prostu postawić na własne autorskie wizje – dzisiejszy dzień daje Ci do tego najlepszy napęd we wszechświecie.",
+    "r": "Zainicjuj odważny projekt, postaw jasne granice tam, gdzie były naruszane, i zrób pierwszy, decydujący krok w nieznane.",
+    "u": "Ulegania konformizmowi i gaszenia swojego wewnętrznego ognia tylko po to, by nie wyróżniać się w tłumie.",
+    "s": "„Twoja autentyczność to Twoja największa supermoc – nigdy nie przepraszaj za to, że świecisz własnym światłem.”",
+    "fun": "Gdybyś miała dzisiaj absolutną pewność, że nikt Cię nie oceni, co odważyłabyś się wykrzyczeć światu?"
+  },
+  "4-14": {
+    "z": "Baran",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Subtelna, dyplomatyczna dwójka wnosi dzisiaj do naszej rzeczywistości sztukę uważnego słuchania, cierpliwości i wyczuwania podtekstów, których nie widać gołym okiem. Wibracja ta uczy nas, że czasem największą siłą nie jest parcie naprzód, lecz strategiczne zaczekanie na odpowiedni moment i zawarcie mądrego kompromisu. To dzień, w którym intuicja i praca w zupłennej harmonii z drugą stroną przynoszą spektakularne efekty.",
+    "r": "Przeprowadź trudną, ale potrzebną rozmowę opartą na empatii, poszukaj wspólnego mianownika w konflikcie i zaufaj swojemu przeczuciu.",
+    "u": "Wchodzenia w rolę biernej ofiary oraz tłumienia własnych emocji w imię fałszywego spokoju.",
+    "s": "„Prawdziwa dyplomacja i miękka siła potrafią otworzyć drzwi, których żaden taran nie był w stanie wyważyć.”",
+    "fun": "Jakie ciepłe, czułe zdanie chciałabyś usłyszeć dziś wieczorem od samej siebie przed snem?"
+  },
+  "4-15": {
+    "z": "Baran",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Wibracja trójki wybucha dziś feerią barw, artystyczną ekspresją, słowem i ogromną potrzebą uzewnętrznienia tego, co gra nam w duszy. To energia aktorów, mówców, pisarzy i twórców – wszystkich, którzy wiedzą, że świat karmiony jest opowieściami. Trójka nie chowa się w kącie; ona wychodzi na scenę, śmieje się głośno, gestykuluje i zaraża otoczenie swoim entuzjazmem oraz magnetyzmem.",
+    "r": "Napisz coś pasjonującego, wygłoś swoje myśli publicznie, spotkaj się z ludźmi, którzy inspirują Cię intelektualnie, lub zatańcz do upadłego.",
+    "u": "Rozpraszania swojej energii na zbyt wiele projektów naraz oraz powierzchownej gadki o niczym.",
+    "s": "„Twoje słowa i Twoja twórczość mają moc zmieniania rzeczywistości – nie bój się wypuszczać ich w świat.”",
+    "fun": "Co potrafi wywołać w Twoim ciele taką falę radości, że zapominasz o jakimkolwiek pośpiechu?"
+  },
+  "4-16": {
+    "z": "Baran",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Architektoniczna, solidna czwórka wkracza dzisiaj z pełną powagą i żelazną konsekwencją, przypominając nam, że wielkie dzieła powstają z cierpliwości, systemu i fizycznej pracy rąk. To dzień, w którym nie budujemy zamków z piasku, lecz kładziemy fundamenty pod coś trwałego – w pracy, w organizacji przestrzeni czy w dbaniu o codzienne nawyki. Czwórka uczy nas szacunku do materii, zasad i struktury, która daje nam bezpieczne oparcie.",
+    "r": "Zabierz się za konkretne zadanie wymagające cierpliwości, uporządkuj finanse, zrób twardy plan działania lub popracuj fizycznie nad swoją przestrzenią.",
+    "u": "Nadmiernego uporu, sztywnego trzymania się starych reguł i wpadania w pułapkę perfekcjonizmu, który paraliżuje działanie.",
+    "s": "„Każdy solidny sukces to po prostu suma mądrze i cierpliwie ułożonych na co dzień cegiełek.”",
+    "fun": "Jak możesz dzisiaj uziemić swoje myśli, zamiast pozwalać im biegać maraton po niepotrzebnych scenariuszach?"
+  },
+  "4-17": {
+    "z": "Baran",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Wolnościowa, niespokojna piątka przynosi dzisiaj powiew świeżego wiatru, który burzy wszelkie dotychczasowe schematy i zaprasza nas do wyjścia poza bezpieczną strefę komfortu. To wibracja podróżników, odkrywców i buntowników – tych, którzy wiedzą, że rozwój zaczyna się tam, gdzie kończy się rutyna. Dziś testujemy granice, szukamy nowych rozwiązań i pozwalamy sobie na odrobinę zdrowego szaleństwa oraz elastyczności.",
+    "r": "Zmień perspektywę, podejmij spontaniczną decyzję o małej zmianie w planie dnia, wyrusz w nieznane lub spróbuj czegoś, czego dotąd się obawiałaś.",
+    "u": "Trzymania się kurczowo starych przyzwyczajeń i lęku przed tym, że wymkniesz się spod czyjejś kontroli.",
+    "s": "„Prawdziwa wolność zaczyna się w głowie w momencie, gdy przestajemy bać się własnych, śmiałych kroków.”",
+    "fun": "Jaki horyzont – dosłowny lub metaforyczny – przyciaga Cię dzisiaj swoją nieznaną, ekscytującą tajemnicą?"
+  },
+  "4-18": {
+    "z": "Baran",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Wibracja szóstki roztacza dzisiaj wokół nas głęboką, harmonijną aurę odpowiedzialności za relacje, estetykę oraz tworzenie piękna w najbliższym otoczeniu. To energia mediatora, opiekuna i artysty domowego ogniska, który dba o to, by w grupie panował pokój i wzajemny szacunek. Szóstka przypomina nam, że prawdziwa obfitość płynie z serca, które potrafi bezwarunkowo kochać, dbać i zauważać estetyczne detale wokół siebie.",
+    "r": "Zadbaj o atmosferę w domu, stwórz wokół siebie estetyczną przestrzeń, porozmawiaj z bliskimi o ich potrzebach i doceń piękno prostych gestów.",
+    "u": "Brania na siebie roli męczennika, który poświęca własne granice dla świętego spokoju innych.",
+    "s": "„Prawdziwa harmonia w relacjach rodzi się wtedy, gdy z równą miłością dbamy o innych, jak i o własne granice.”",
+    "fun": "Jak wyglądałby Twój idealny, rozleniwiony moment bliskości z tym, co w Tobie najwrażliwsze?"
+  },
+  "4-19": {
+    "z": "Baran",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Mistyczna, badawcza siódemka zamyka nas dzisiaj w przestrzeni głębokiej introspekcji, filozoficznej refleksji i analitycznego rozbierania rzeczywistości na czynniki pierwsze. To energia naukowca, filozofa i samotnego wędrowca, który szuka absolutnej prawdy ukrytej pod podszewką codziennych iluzji. Dziś Twoja intuicja bada teren, a umysł domaga się odpowiedzi na fundamentalne, trudne pytania.",
+    "r": "Przestudiuj trudniejszy temat, zgłębiaj tajniki wiedzy ezoterycznej lub psychologicznej, spędź czas w samotności i zaufaj swojemu wewnętrznemu kompasowi.",
+    "u": "Zbytniego izolowania się od ludzi w chłodnym sceptycyzmie oraz nadmiernego roztrząsania wszystkiego w głowie.",
+    "s": "„Najcenniejsze odpowiedzi na świecie nigdy nie leżą na powierzchni – trzeba odważyć się zejść w głąb siebie.”",
+    "fun": "Jaka mądrość wypływa z Twojej intuicji, kiedy na moment zamykasz oczy i odcinasz zgiełk ekranów?"
+  },
+  "4-20": {
+    "z": "Byk",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Potężna, materialna ósemka wkracza ponownie, by przypomnieć nam o prawach karmy, akcji i reakcji oraz naszej suwerennej sprawczości w świecie materii. To dzień, w którym finanse, umowy, struktury biznesowe i realne efekty naszej dotychczasowej pracy wysuwają się na plan pierwszy. Ósemka nie toleruje pasywności – wymaga jasnego określenia celów, odwagi w negocjacjach i zarządzania władzą w sposób czysty i sprawiedliwy.",
+    "r": "Podejmij kluczowe decyzje finansowe, sfinalizuj umowy, zarządzaj swoimi zasobami z pozycji liderki i stanowczo egzekwuj swoje prawa.",
+    "u": "Nadużywania władzy, bezwzględnego parcia po trupach do celu oraz lęku przed pieniędzmi i sukcesem.",
+    "s": "„Obfitość jest naturalnym stanem człowieka, gdy potrafimy zarządzać nią z mądrością i czystym intencjom sercem.”",
+    "fun": "W jaki sposób celebrujesz swoje codzienne, ciche triumfy, zamiast od razu gnać do kolejnej góry do zdobycia?"
+  },
+  "4-21": {
+    "z": "Byk",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Wibracja dziewiątki roztacza dzisiaj wokół nas szeroką, humanitarną perspektywę, zapraszając do współczucia, uniwersalnej mądrości i domykania pewnych etapów z pełnym zrozumieniem. To dzień, w którym artystyczna wrażliwość spotyka się z potrzebą globalnego spojrzenia na świat. Dziewiątka uczy nas, że aby pójść dalej, musimy najpierw wybaczyć – sobie i innym – oraz oddać przeszłość w ręce czasu, robiąc miejsce na zupełnie nową jakość.",
+    "r": "Ukończ zaległy projekt o charakterze twórczym lub społecznym, wyciągnij lekcję z minionych trudności i uwolnij się od żalu, zamykając stary rozdział z wdzięcznością.",
+    "u": "Popadania w melancholię, nadmiernego brania na siebie cudzych dramatów i poczucia, że musisz zbawić cały świat.",
+    "s": "„Prawdziwe wyzwolenie przychodzi wtedy, gdy z miłością pozwalamy odejść temu, co już dawno przestało być częścią naszej drogi.”",
+    "fun": "Co w Twoim życiu domaga się dzisiaj nie walki, lecz łagodnego odpuszczenia kontroli?"
+  },
+  "4-22": {
+    "z": "Byk",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Suwerenna, potężna jedynka uderza dzisiaj z nową siłą, niosąc ze sobą surową iskrę twórczej niezależności i odwagę do zaznaczenia swojego unikalnego „ja”. To energia inicjatorów, liderów i wizjonerów, którzy nie pytają o nikogo zdanie, lecz idą tam, gdzie prowadzi ich wewnętrzny ogień. Dziś masz doskonałe warunki ku temu, by wyrwać się ze schematów, zdefiniować na nowo swoje cele i postawić twarde, zdrowe granice.",
+    "r": "Rozpocznij autorski projekt, wypowiedz głośno swoje zdanie w ważnej sprawie i odważnie odrzuć to, co ogranicza Twoją wolność.",
+    "u": "Ulegania wpływom otoczenia oraz rezygnowania ze swoich pomysłów w obawie przed krytyką.",
+    "s": "„Twoja sprawczość zaczyna się w tym jednym, potężnym momencie, w którym decydujesz się być wreszcie wierna samej sobie.”",
+    "fun": "W jakiej sprawie Twoja dusza domaga się dzisiaj postawienia na swoim, nawet jeśli otoczenie kręci głową?"
+  },
+  "4-23": {
+    "z": "Byk",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Podwójna wibracja mistrzowska zredukowana do dwójki wnosi dzisiaj niezwykle subtelną, intuicyjną i głęboko relacyjną energię. To dzień, w którym zasłona między światem widzialnym a przeczuciami staje się niezwykle cienka. Dwójka uczy nas sztuki uważnej dyplomacji, czekania na właściwy sygnał od wszechświata i budowania mostów tam, gdzie inni wolą stawiać mury. Twoja intuicja szepcze dziś wyjątkowo głośno – warto jej zaufać.",
+    "r": "Przeprowadź delikatną, pełną empatii rozmowę, wsłuchaj się w podteksty w relacjach z ludźmi i poświęć czas na pracę z własnymi snami lub przeczuciami.",
+    "u": "Wchodzenia w bezpośrednie konfrontacje, siłowych rozwiązań oraz ignorowania sygnałów, które wysyła Ci ciało i intuicja.",
+    "s": "„Intuicja to cichy głos duszy, który wie znacznie więcej niż cała nasza racjonalna wiedza.”",
+    "fun": "Jaką część siebie traktujesz tak surowo, jak nigdy nie odważyłabyś się potraktować najlepszej przyjaciółki?"
+  },
+  "4-24": {
+    "z": "Byk",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Ekspresyjna, barwna trójka wybucha dziś feerią pomysłów, artystycznej energii i magnetyzmu słowa. To wibracja, która nie znosi nudy ani sztywnych ram – domaga się ekspresji, śmiechu, kontaktu z ludźmi i artystycznego ujścia dla emocji. Dziś Twoja komunikacja ma moc czarów; potrafisz porwać tłumy, napisać coś porywającego lub po prostu sprawić, że w obecności innych ludzi zapłonie radosna iskra.",
+    "r": "Twórz treści, rozmawiaj, występuj, spotkaj się z ludźmi z branży kreatywnej lub zrób coś, co pozwoli Ci wyrazić siebie w sposób artystyczny.",
+    "u": "Rozpraszania swojej uwagi na zbyt wiele wątków naraz oraz powierzchownego blichtru, za którym nie stoi żadna treść.",
+    "s": "„Wyrażenie siebie w sposób autentyczny to najpiękniejszy dar, jaki możemy wnieść w przestrzeń wokół nas.”",
+    "fun": "Jaka melodia, zapach lub wspomnienie potrafi w ułamku sekundy odmienić Twój nastrój w czystą lekkość?"
+  },
+  "4-25": {
+    "z": "Byk",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Architektoniczna, solidna czwórka wkracza w weekendowy czas z potrzebą ugruntowania, porządku i szacunku dla materii. To wibracja, która przypomina, że nawet najbardziej szalone wizje wymagają konkretnych struktur, procedur i fizycznej pracy, by mogły przetrwać próbę czasu. Dziś odpoczywamy poprzez robienie rzeczy użytecznych, organizowanie przestrzeni i dbanie o to, by fundamenty naszego życia były stabilne.",
+    "r": "Zadbaj o porządek w otoczeniu, wykonaj konkretne, uziemiające zadanie domowe lub zaplanuj strukturę swoich przyszłych działań.",
+    "u": "Nadmiernego uporu, zbytniej sztywności w poglądach oraz lęku przed odpuszczeniem kontroli nad detalami.",
+    "s": "„Porządek w materii to najprostsza droga do uzyskania klarowności i wewnętrznego spokoju w głowie.”",
+    "fun": "Który z Twoich codziennych nawyków dbania o dom i ciało sprawia Ci autentyczną przyjemność, a który robisz z przymusu?"
+  },
+  "4-26": {
+    "z": "Byk",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Niespokojna, wolnościowa piątka wita nas na progu nowego tygodnia powiewem świeżego wiatru i potrzebą przełamania rutyny. To wibracja, która nie znosi stagnacji – zachęca do wyjścia poza schematy, testowania nowych rozwiązań i otwarcia się na elastyczność w działaniu. Dziś najlepiej sprawdzają się wszelkie zmiany perspektywy oraz małe, odkrywcze kroki w nieznane.",
+    "r": "Zmień coś w swoim planie dnia, podejmij spontaniczną, odważną decyzję lub wyrusz w nową, nieznaną dotąd trasę, by obudzić swoją ciekawość świata.",
+    "u": "Kurczowego trzymania się starych przyzwyczajeń i lęku przed tym, że wymkniesz się spod dotychczasowej kontroli.",
+    "s": "„Życie nabiera barw wtedy, gdy z ciekawością dziecka odważnie wychodzimy poza utarte schematy.”",
+    "fun": "Z jakim przestarzałym przekonaniem na swój temat chcesz się dzisiaj bezpardonowo pożegnać?"
+  },
+  "4-27": {
+    "z": "Byk",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Wibracja szóstki roztacza wokół nas głęboką, opiekuńczą aurę harmonii, estetyki oraz odpowiedzialności za bliskie relacje. To energia mediatora i domowego artysty, który dba o to, by w przestrzeni panował pokój, wzajemny szacunek i ciepło. Szóstka przypomina, że prawdziwa obfitość płynie z serca, które potrafi bezwarunkowo dbać o innych, nie zapominając przy tym o własnych granicach.",
+    "r": "Zadbaj o estetykę i ciepło w swoim domu, przeprowadź szczerą, życzliwą rozmowę z bliską osobą i otocz się pięknymi przedmiotami.",
+    "u": "Wchodzenia w rolę męczennika, który poświęca własny spokój dla zadowolenia wszystkich wokół.",
+    "s": "„Prawdziwa harmonia rodzi się tam, gdzie z równą czułością dbamy o świat, jak i o własne wnętrze.”",
+    "fun": "Jaką najczulszą rzecz możesz dzisiaj zrobić dla swojego ciała, które nosi Cię dzielnie przez każdy dzień?"
+  },
+  "4-28": {
+    "z": "Byk",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Mistyczna, badawcza siódemka zamyka nas dzisiaj w przestrzeni głębokiej introspekcji, filozoficznej refleksji i analitycznego rozbierania rzeczywistości na czynniki pierwsze. To energia poszukiwacza prawdy, który nie zadowala się powierzchownymi odpowiedziami. Dziś Twoja intuicja bada teren, a umysł domaga się ciszy, by dotrzeć do sedna ważnych spraw.",
+    "r": "Przestudiuj trudniejszy temat, zgłębiaj wiedzę, spędź czas w całkowitej samotności na łonie natury i zaufaj swojemu wewnętrznemu kompasowi.",
+    "u": "Zbytniego izolowania się od ludzi w chłodnym sceptycyzmie oraz nadmiernego, męczącego roztrząsania wszystkiego w głowie.",
+    "s": "„Najcenniejsze odpowiedzi na świecie nigdy nie leżą na powierzchni – trzeba odważyć się zejść w głąb siebie.”",
+    "fun": "Co w Tobie jest tak głębokie, że żaden zewnętrzny hałas nie jest w stanie tego dosięgnąć ani naruszyć?"
+  },
+  "4-29": {
+    "z": "Byk",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Potężna, materialna ósemka wkracza, by przypomnieć nam o prawach karmy, suwerennej sprawczości i zarządzaniu zasobami w świecie materii. To dzień, w którym finanse, umowy, struktury biznesowe i realne efekty naszej pracy wysuwają się na plan pierwszy. Ósemka wymaga jasnego określenia celów, odwagi w działaniu i zarządzania swoją władzą w sposób sprawiedliwy.",
+    "r": "Podejmij kluczowe decyzje finansowe, sfinalizuj umowy i zarządzaj swoimi zasobami z pozycji pewnej siebie liderki.",
+    "u": "Nadużywania władzy, bezwzględnego parcia po trupach do celu oraz lęku przed sukcesem i obfitością.",
+    "s": "„Obfitość jest naturalnym stanem, gdy potrafimy zarządzać nią z mądrością i w zgodzie ze swoją prawdą.”",
+    "fun": "W jaki sposób dbasz o to, by Twoja wewnętrzna siła nie zamieniła się w mur obronny odcinający Cię od miłości?"
+  },
+  "4-30": {
+    "z": "Byk",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Ostatni dzień kwietnia zamyka się pod patronatem dziewiątki, przynosząc uniwersalną mądrość, współczucie i energię domykania całego cyklu. To moment, w którym spoglądamy wstecz z perspektywy lotu ptaka, wyciągając wnioski z minionych tygodni i z wdzięcznością oddając przeszłość w ręce czasu. Dziewiątka uczy nas, że prawdziwa dojrzałość polega na akceptacji tego, co było, i łagodnym otwarciu się na to, co dopiero nadejdzie.",
+    "r": "Podsumuj miesiąc, zrób porządki w przestrzeni i w emocjach, odpuść to, co już nie służy, i z otwartym sercem spójrz w stronę nadchodzącego maja.",
+    "u": "Kurczowego trzymania się tego, co minęło, oraz wpadania w melancholię bez wiary w nową przyszłość.",
+    "s": "„Dojrzałość to umiejętność zerknięcia wstecz z czułością, bez pragnienia zmieniania czegokolwiek z tego, co już stało się naszą historią.”",
+    "fun": "Jaki intymny akord wdzięczności wybrzmiewa w Twoim sercu na sam koniec tego kwiecistego miesiąca?"
+  },
+  "5-1": {
+    "z": "Byk",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Pierwszy dzień maja wita nas potężną, uziemiającą wibracją ósemki, która przypomina nam o prawie obfitości, sprawczości i mądrym zarządzaniu własnymi zasobami. To dzień, w którym energia liderki łączy się z realnym działaniem w świecie materii – zamiast tylko marzyć, bierzemy stery w swoje ręce, dbając o stabilne fundamenty na nadchodzący miesiąc. Ósemka uczy nas, że sukces to owoc naszej konsekwencji i wewnętrznej suwerenności.",
+    "r": "Zdefiniuj swoje kluczowe cele na maj, uporządkuj sprawy finansowe lub zawodowe i podejmij odważną, pragmatyczną decyzję.",
+    "u": "Wpadania w pułapkę bezwzględnego pracoholizmu, surowego rozliczania siebie i szukania winy w otoczeniu.",
+    "s": "„Prawdziwa obfitość w życiu pojawia się wtedy, gdy z pełną odpowiedzialnością i wiarą zarządzamy własnym potencjałem.”",
+    "fun": "Gdyby Twoja wewnętrzna sprawczość mogła dzisiaj wybrać tylko jedną, najważniejszą sprawę do zaopiekowania się, co z ulgą odłożyłabyś na bok?"
+  },
+  "5-2": {
+    "z": "Byk",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Wibracja dziewiątki otula nas dzisiaj niezwykle głęboką, humanistyczną i artystyczną wrażliwością, skłaniając do refleksji nad minionymi etapami i potrzebą łagodnego domknięcia tego, co stare. To dzień, w którym nasza intuicja i współczucie dla świata biorą górę nad czystą logiką. Dziewiątka uczy nas sztuki odpuszczania i wybaczenia, robiąc w sercu przestrzeń na nową, majową lekcję dojrzałości.",
+    "r": "Wesprzyj kogoś dobrą radą bez oceniania, przelej swoje przemyślenia na papier lub symbolicznie zamknij sprawę, która od dawna ciążyła Ci w pamięci.",
+    "u": "Karmienia się nostalgią, która paraliżuje, oraz brania na barki cudzych kryzysów emocjonalnych.",
+    "s": "„Dojrzałość to umiejętność zerknięcia wstecz z czułością, bez pragnienia zmieniania czegokolwiek z tego, co już stało się naszą historią.”",
+    "fun": "Jaki stary żal do samej siebie z minionych lat nosisz jeszcze w kieszeni, czas najwyższy wyrzucić go i zrobić miejsce na wiosenny lekki wiatr?"
+  },
+  "5-3": {
+    "z": "Byk",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Pionierska, iskrząca jedynka uderza dzisiaj z pełną mocą, przynosząc powiew świeżej niezależności, odwagi i gotowości do wyjścia przed szereg na własnych zasadach. To energia twórcy, który nie ogląda się na konwenanse, lecz śmiało zaznacza swoją obecność w świecie. Dziś masz doskonały moment, by zacząć coś od zera, postawić zdrowe granice i zdefiniować na nowo to, czego naprawdę pragniesz.",
+    "r": "Rozpocznij autorski projekt, wypowiedz głośno swoje autentyczne zdanie i zrób odważny krok w stronę własnych marzeń.",
+    "u": "Ulegania presji grupy, konformizmu i gaszenia własnego ognia w obawie przed tym, co powiedzą inni.",
+    "s": "„Twoja autentyczność to Twoja największa siła – nigdy nie przepraszaj za to, że wybierasz własną drogę.”",
+    "fun": "W jakiej dziedzinie Twojego życia domaga się głosu ta część Ciebie, która pragnie krzyknąć: „teraz ja idę po swoje na własnych zasadach”?"
+  },
+  "5-4": {
+    "z": "Byk",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Mistyczna wibracja zredukowana do dwójki wnosi dzisiaj niezwykle subtelną, delikatną i głęboko relacyjną energię. To dzień, w którym zasłona między ludzkimi sercami staje się cieńsza, a intuicja podpowiada najmądrzejsze rozwiązania. Dwójka uczy nas sztuki dyplomacji, uważnego słuchania i czekania na odpowiedni moment zamiast forsowania rzeczy siłą.",
+    "r": "Przeprowadź szczerą, pełną empatii rozmowę od serca do serca, wypij w spokoju filiżankę naparu i zaufaj swojemu wewnętrznemu głosowi.",
+    "u": "Wchodzenia w głośne konflikty, forsowania swoich racji siłą i przebywania w miejscach pełnych hałaśliwej rywalizacji.",
+    "s": "„Miękka siła i autentyczna empatia potrafią otworzyć drzwi, których żaden taran nie zdoła poruszyć.”",
+    "fun": "Kto z Twojego otoczenia potrzebuje dzisiaj Twojego spojrzenia pełnego akceptacji, a może jesteś to Ty sama przed lustrem?"
+  },
+  "5-5": {
+    "z": "Byk",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Barwna, ekspresyjna trójka wybucha dzisiaj feerią radości, artystycznej ekspresji, słowa i magnetyzmu. To energia, która nie znosi rutyny – domaga się śmiechu, kontaktu z ludźmi, tańca i swobodnego wyrzucenia z siebie tego, co gra nam w duszy. Dziś Twoja komunikacja ma moc czarów; potrafisz porwać innych swoją pasją i sprawić, że wokół robi się jaśniej.",
+    "r": "Stwórz coś pięknego, porozmawiaj z kimś, kto inspiruje Twój umysł, posłuchaj energetyzującej muzyki lub wyjdź do ludzi z otwartym sercem.",
+    "u": "Rozpraszania swojej energii na zbyt wiele wątków naraz oraz powierzchownej gadki o niczym, która męczy umysł.",
+    "s": "„Radość i twórcza ekspresja to najpiękniejsze barwy, którymi możemy pomalować naszą codzienność.”",
+    "fun": "Jaki najbardziej zwariowany, radosny pomysł na spędzenie popołudnia odrzucasz z rozsądku, choć marzysz o nim od rana?"
+  },
+  "5-6": {
+    "z": "Byk",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Solidna, uziemiająca czwórka wkracza dzisiaj z potrzebą porządku, budowania stabilnych struktur i szacunku do materii. To wibracja, która przypomina nam, że nawet najpiękniejsze majowe marzenia potrzebują konkretnych, małych kroków i codziennej systematyczności, by mogły zakorzenić się w rzeczywistości. Dziś odpoczywamy poprzez uporządkowanie przestrzeni wokół siebie i zadbanie o bezpieczne fundamenty.",
+    "r": "Zadbaj o porządek na biurku lub w domu, dokończ jedno konkretne zadanie, które od dawna odkładałaś, i stwórz dla siebie spokojną, stabilną przestrzeń.",
+    "u": "Sztywnego uporu, wpadania w pułapkę perfekcjonizmu oraz brania na barki zbyt wielu obowiązków naraz.",
+    "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+    "fun": "Jakie jedno zadanie obciążające Twoją głowę możesz dzisiaj po prostu wykreślić z listy bez żadnych poczuć winy?"
+  },
+  "5-7": {
+    "z": "Byk",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Wolnościowa, iskrząca piątka przynosi dzisiaj powiew świeżego, majowego wiatru, który delikatnie burzy rutynę i zaprasza do wyjścia poza utarte schematy. To wibracja odkrywców i poszukiwaczy nowych dróg, przypominająca, że rozwój polega na odwadze sprawdzania, co jest za zakrętem. Dziś Twoja ciekawość świata budzi się do życia, domagając się odrobiny elastyczności i swobody.",
+    "r": "Zmień coś w swoim stałym planie dnia, wyjdź na spacer zupełnie inną trasą lub otwórz się na inspirującą, niespodzianą rozmowę.",
+    "u": "Kurczowego trzymania się starych przyzwyczajeń i lęku przed tym, że mała zmiana wywróci Twój świat do góry nogami.",
+    "s": "„Życie staje się o wiele ciekawsze, gdy przestajemy bać się tego, co nieznane i nowe.”",
+    "fun": "W jakiej bezpiecznej, ale ciasnej klatce rutyny zamknęłaś ostatnio swoją dziką, wolną naturę?"
+  },
+  "5-8": {
+    "z": "Byk",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Wibracja szóstki roztacza wokół nas głęboką, opiekuńczą aurę domowego ogniska, harmonii i odpowiedzialności za relacje. To energia serca, które potrafi bezwarunkowo dbać o innych, a zarazem potrzebuje przestrzeni, by ukoić własne emocje. Szóstka uczy nas, że prawdziwa piękna estetyka i bliskość rodzą się wtedy, gdy z czułością traktujemy zarówno ludzi wokół nas, jak i same siebie.",
+    "r": "Stwórz w domu przytulną atmosferę, spędź niespieszny wieczór z kimś bliskim i otocz się rzeczami, które cieszą Twoje oczy.",
+    "u": "Wchodzenia w rolę męczennika, który rezygnuje z własnych granic dla świętego spokoju innych.",
+    "s": "„Najpiękniejszym domem, o jaki możemy dbać każdego dnia, jest ciepło gościnnego i spokojnego serca.”",
+    "fun": "Co możesz dzisiaj zrobić wyłącznie dla domowego ciepła, zapachu świeżych kwiatów i własnego, głębokiego odprężenia?"
+  },
+  "5-9": {
+    "z": "Byk",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Mistyczna, badawcza siódemka zaprasza nas dzisiaj do przestrzeni głębokiej introspekcji, ciszy i filozoficznego wsłuchania się w mądrość własnego wnętrza. To energia poszukiwacza prawdy, który nie szuka odpowiedzi w hałaśliwym tłumie, lecz w samotności i kontakcie z naturą. Dziś Twoja intuicja bada teren, a umysł domaga się odcięcia od zewnętrznego zgiełku.",
+    "r": "Odłóż na bok telefon, spędź czas na łonie budzącej się do życia natury, poczytaj mądrą książkę lub przelej swoje myśli na czystą kartkę.",
+    "u": "Zbytniego izolowania się w chłodnym sceptycyzmie oraz zamęczania głowy nadmiernym analizowaniem każdego drobiazgu.",
+    "s": "„W ciszy kryją się najmądrzejsze drogowskazy, których głośny świat nie potrafi usłyszeć.”",
+    "fun": "Za jaką najcichszą, ukrytą lekcję minionego tygodnia chcesz dzisiaj z wdzięcznością podziękować swojej intuicji?"
+  },
+  "5-10": {
+    "z": "Byk",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Potężna, materialna ósemka wkracza z energią sprawczości, suwerenności i mądrego zarządzania własnymi zasobami. To wibracja, która przypomina nam, że mamy pełne prawo do obfitości, sukcesu i decydowania o sobie w świecie materii. Dziś Twoje cele zawodowe, finanse oraz jasne granice wymagają stanowczego, ale sprawiedliwego podejścia opartego na wewnętrznej sile.",
+    "r": "Podejmij ważną decyzję finansową lub zawodową, ureguluj formalności i zarządzaj swoją energią z pozycji pewnej siebie liderki.",
+    "u": "Bezwzględnego parcia po trupach do celu, przepracowywania się oraz lęku przed własnym sukcesem.",
+    "s": "„Prawdziwa siła i obfitość płyną z mądrego, suwerennego zarządzania własnym potencjałem.”",
+    "fun": "W jaki sposób celebrujesz swoje codzienne, ciche sukcesy, zamiast od razu biec do kolejnej góry do zdobycia?"
+  },
+  "5-11": {
+    "z": "Byk",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Wibracja dziewiątki roztacza wokół nas szeroką, humanistyczną perspektywę, zapraszając do współczucia, uniwersalnej mądrości i domykania pewnych etapów z pełnym zrozumieniem. To dzień, w którym artystyczna wrażliwość spotyka się z potrzebą spojrzenia na nasze życie z perspektywy lotu ptaka. Dziewiątka przypomina nam, że aby pójść dalej z lżejszym sercem, musimy najpierw wybaczyć – sobie i innym – oraz oddać przeszłość w ręce czasu.",
+    "r": "Ukończ zaległy projekt o charakterze twórczym, wyciągnij czułą lekcję z minionych trudności i uwolnij się od żalu, zamykając stary rozdział z wdzięcznością.",
+    "u": "Popadania w melancholię, nadmiernego brania na siebie cudzych dramatów i poczucia, że musisz ratować cały świat.",
+    "s": "„Prawdziwe wyzwolenie przychodzi wtedy, gdy z miłością pozwalamy odejść temu, co już dawno przestało być częścią naszej drogi.”",
+    "fun": "Jaka relacja z przeszłości uczyła Cię najwięcej o tym, jak pięknie jest wreszcie przestać zabiegać o cudzą miłość?"
+  },
+  "5-12": {
+    "z": "Byk",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Suwerenna, potężna jedynka uderza dzisiaj z nową siłą, niosąc ze sobą surową iskrę twórczej niezależności i odwagę do zaznaczenia swojego unikalnego „ja”. To energia inicjatorów i wizjonerów, którzy nie pytają o nikogo zdanie, lecz idą tam, gdzie prowadzi ich wewnętrzny ogień. Dziś masz doskonałe warunki ku temu, by wyrwać się ze schematów, zdefiniować na nowo swoje cele i postawić twarde, zdrowe granice.",
+    "r": "Rozpocznij autorski projekt, wypowiedz głośno swoje zdanie w ważnej sprawie i odważnie odrzuć to, co ogranicza Twoją osobistą wolność.",
+    "u": "Ulegania wpływom otoczenia oraz rezygnowania ze swoich pomysłów w obawie przed krytyką.",
+    "s": "„Twoja sprawczość zaczyna się w tym jednym, potężnym momencie, w którym decydujesz się być wreszcie wierna samej sobie.”",
+    "fun": "W jakiej sprawie brakuje Ci dzisiaj odważnego impulsu, który pozwoliłby Ci zacząć z czystą kartą?"
+  },
+  "5-13": {
+    "z": "Byk",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Wibracja dwójki wnosi dzisiaj niezwykle subtelną, intuicyjną i głęboko relacyjną energię. To dzień, w którym zasłona między ludzkimi sercami staje się cieńsza, a przeczucia podpowiadają najmądrzejsze rozwiązania. Dwójka uczy nas sztuki uważnej dyplomacji, czekania na właściwy sygnał od wszechświata i budowania mostów tam, gdzie inni wolą stawiać mury. Twoja intuicja szepcze dziś wyjątkowo głośno – warto jej zaufać.",
+    "r": "Przeprowadź delikatną, pełną empatii rozmowę, wsłuchaj się w podteksty w relacjach z ludźmi i poświęć czas na wyciszenie i wsłuchanie się w siebie.",
+    "u": "Wchodzenia w bezpośrednie konfrontacje, siłowych rozwiązań oraz ignorowania sygnałów, które wysyła Ci ciało.",
+    "s": "„Intuicja to cichy głos duszy, który wie znacznie więcej niż cała nasza racjonalna wiedza.”",
+    "fun": "Jak brzmi najpiękniejsze, pełne czułości zdanie, które chciałabyś dzisiaj usłyszeć od samej siebie?"
+  },
+  "5-14": {
+    "z": "Byk",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Ekspresyjna, barwna trójka wybucha dziś feerią majowych pomysłów, artystycznej energii i magnetyzmu słowa. To wibracja, która nie znosi nudy ani sztywnych ram – domaga się ekspresji, śmiechu, kontaktu z ludźmi i artystycznego ujścia dla emocji. Dziś Twoja komunikacja ma moc czarów; potrafisz porwać innych swoją pasją, napisać coś porywającego lub po prostu sprawić, że w obecności ludzi wokół robi się radośniej.",
+    "r": "Twórz treści, rozmawiaj, spotkaj się z kimś, kto inspiruje Twój umysł, lub zrób coś, co pozwoli Ci wyrazić siebie w sposób twórczy.",
+    "u": "Rozpraszania swojej uwagi na zbyt wiele wątków naraz oraz powierzchownej gadki, za którą nie stoi żadna treść.",
+    "s": "„Wyrażenie siebie w sposób autentyczny to najpiękniejszy dar, jaki możemy wnieść w przestrzeń wokół nas.”",
+    "fun": "Jaka melodia, widok lub zapach potrafi w ułamku sekundy przywrócić Ci iskrzącą lekkość w sercu?"
+  },
+  "5-15": {
+    "z": "Byk",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Architektoniczna, solidna czwórka wkracza w weekendowy czas z potrzebą ugruntowania, porządku i szacunku dla materii. To wibracja, która przypomina, że nawet najbardziej szalone majowe wizje wymagają konkretnych struktur, procedur i fizycznej pracy, by mogły przetrwać próbę czasu. Dziś odpoczywamy poprzez robienie rzeczy użytecznych, organizowanie przestrzeni i dbanie o to, by fundamenty naszego życia były stabilne.",
+    "r": "Zadbaj o porządek w otoczeniu, wykonaj konkretne, uziemiające zadanie domowe lub zaplanuj strukturę swoich przyszłych działań.",
+    "u": "Nadmiernego uporu, zbytniej sztywności w poglądach oraz lęku przed odpuszczeniem kontroli nad detalami.",
+    "s": "„Porządek w materii to najprostsza droga do uzyskania klarowności i wewnętrznego spokoju w głowie.”",
+    "fun": "Co w Twoim życiu wymaga dzisiaj nie rewolucji, lecz cichej, cierpliwej i systematycznej troski o fundamenty?"
+  },
+  "5-16": {
+    "z": "Byk",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Niespokojna, wolnościowa piątka wita nas w niedzielny poranek powiewem majowego wiatru i głęboką potrzebą przełamania rutyny. To wibracja, która nie znosi stagnacji – zachęca do wyjścia poza schematy, testowania nowych rozwiązań i otwarcia się na elastyczność w działaniu. Dziś najlepiej sprawdzają się wszelkie zmiany perspektywy oraz małe, odkrywcze kroki w nieznane, które pozwalają poczuć smak prawdziwej wolności.",
+    "r": "Zmień coś w swoim planie dnia, wybierz się na spacer zupełnie nieznaną trasą lub otwórz się na spontaniczną, inspirującą rozmowę.",
+    "u": "Kurczowego trzymania się starych przyzwyczajeń i lęku przed tym, że mała zmiana wymknie się spod Twojej kontroli.",
+    "s": "„Życie nabiera najpiękniejszych barw wtedy, gdy z ciekawością dziecka odważnie wychodzimy poza utarte schematy.”",
+    "fun": "Z jakim przestarzałym przekonaniem na temat swoich ograniczeń chcesz się dzisiaj bezpardonowo pożegnać?"
+  },
+  "5-17": {
+    "z": "Byk",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Wibracja szóstki roztacza wokół nas głęboką, opiekuńczą aurę harmonii, estetyki oraz odpowiedzialności za bliskie relacje na starcie nowego tygodnia. To energia mediatora i domowego artysty, który dba o to, by w przestrzeni panował pokój, wzajemny szacunek i ciepło. Szóstka przypomina, że prawdziwa obfitość płynie z serca, które potrafi bezwarunkowo dbać o innych, nie zapominając przy tym o własnych granicach.",
+    "r": "Zadbaj o estetykę i przytulność w swoim otoczeniu, przeprowadź szczerą, życzliwą rozmowę z bliską osobą i otocz się pięknymi przedmiotami.",
+    "u": "Wchodzenia w rolę męczennika, który poświęca własny spokój dla zadowolenia wszystkich wokół.",
+    "s": "„Prawdziwa harmonia rodzi się tam, gdzie z równą czułością dbamy o świat, jak i o własne wnętrze.”",
+    "fun": "Jak wyglądałby Twój wymarzony, całkowicie bezpieczny azyl, w którym mogłabyś schować się przed całym światem i po prostu oddychać?"
+  },
+  "5-18": {
+    "z": "Byk",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Mistyczna, badawcza siódemka zamyka nas dzisiaj w przestrzeni głębokiej introspekcji, filozoficznej refleksji i analitycznego rozbierania rzeczywistości na czynniki pierwsze. To energia poszukiwacza prawdy, który nie zadowala się powierzchownymi odpowiedziami. Dziś Twoja intuicja bada teren, a umysł domaga się ciszy i spokoju, by dotrzeć do sedna najważniejszych spraw.",
+    "r": "Przestudiuj trudniejszy temat, zgłębiaj wiedzę, spędź czas w całkowitej samotności na łonie natury i zaufaj swojemu wewnętrznemu kompasowi.",
+    "u": "Zbytniego izolowania się od ludzi w chłodnym sceptycyzmie oraz nadmiernego, męczącego roztrząsania wszystkiego w głowie.",
+    "s": "„Najcenniejsze odpowiedzi na świecie nigdy nie leżą na powierzchni – trzeba odważyć się zejść w głąb siebie.”",
+    "fun": "Co w Tobie jest tak głębokie i niezmienne, że żaden zewnętrzny hałas nie jest w stanie tego dosięgnąć?"
+  },
+  "5-19": {
+    "z": "Byk",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Potężna, materialna ósemka wkracza, by przypomnieć nam o prawach karmy, suwerennej sprawczości i zarządzaniu zasobami w świecie materii. To dzień, w którym finanse, umowy, struktury biznesowe i realne efekty naszej pracy wysuwają się na plan pierwszy. Ósemka wymaga jasnego określenia celów, odwagi w działaniu i zarządzania swoją władzą w sposób sprawiedliwy.",
+    "r": "Podejmij kluczowe decyzje finansowe, sfinalizuj umowy i zarządzaj swoimi zasobami z pozycji pewnej siebie liderki.",
+    "u": "Nadużywania władzy, bezwzględnego parcia po trupach do celu oraz lęku przed sukcesem i obfitością.",
+    "s": "„Obfitość jest naturalnym stanem, gdy potrafimy zarządzać nią z mądrością i w zgodzie ze swoją prawdą.”",
+    "fun": "W jaki sposób dbasz o to, by Twoja wewnętrzna siła nie zamieniła się w mur obronny odcinający Cię od bliskości?"
+  },
+  "5-20": {
+    "z": "Byk",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Wibracja dziewiątki roztacza dzisiaj wokół nas szeroką, humanistyczną perspektywę, zapraszając do współczucia, uniwersalnej mądrości i domykania pewnych etapów z pełnym zrozumieniem. To dzień, w którym artystyczna wrażliwość spotyka się z potrzebą spojrzenia na nasze życie z perspektywy lotu ptaka. Dziewiątka przypomina nam, że aby pójść dalej z lżejszym sercem, musimy najpierw wybaczyć – sobie i innym – oraz oddać przeszłość w ręce czasu.",
+    "r": "Ukończ zaległy projekt o charakterze twórczym, wyciągnij czułą lekcję z minionych trudności i uwolnij się od żalu, zamykając stary rozdział z wdzięcznością.",
+    "u": "Popadania w melancholię, nadmiernego brania na siebie cudzych dramatów i poczucia, że musisz ratować cały świat.",
+    "s": "„Prawdziwe wyzwolenie przychodzi wtedy, gdy z miłością pozwalamy odejść temu, co już dawno przestało być częścią naszej drogi.”",
+    "fun": "Jaki intymny akord wdzięczności wybrzmiewa w Twoim sercu na myśl o drodze, którą już przeszłaś?"
+  },
+  "5-21": {
+    "z": "Bliźnięta",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Suwerenna, pionierska jedynka uderza dzisiaj z pełną mocą, przynosząc powiew świeżej niezależności, odwagi i gotowości do wyjścia przed szereg na własnych zasadach. To energia twórcy, który nie ogląda się na konwenanse, lecz śmiało zaznacza swoją obecność w świecie. Dziś masz doskonały moment, by zacząć coś od zera, postawić zdrowe granice i zdefiniować na nowo to, czego naprawdę pragniesz.",
+    "r": "Rozpocznij autorski projekt, wypowiedz głośno swoje autentyczne zdanie i zrób odważny krok w stronę własnych marzeń.",
+    "u": "Ulegania presji grupy, konformizmu i gaszenia własnego ognia w obawie przed tym, co powiedzą inni.",
+    "s": "„Twoja autentyczność to Twoja największa siła – nigdy nie przepraszaj za to, że wybierasz własną drogę.”",
+    "fun": "Gdybyś miała dzisiaj całkowite prawo do błędu, w jakiej nowej sprawie zaryzykowałabyś start od zera z uśmiechem na twarzy?"
+  },
+  "5-22": {
+    "z": "Bliźnięta",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Mistyczna wibracja zredukowana do dwójki wnosi dzisiaj niezwykle subtelną, delikatną i głęboko relacyjną energię. To dzień, w którym zasłona między ludzkimi sercami staje się cieńsza, a intuicja podpowiada najmądrzejsze rozwiązania. Dwójka uczy nas sztuki dyplomacji, uważnego słuchania i czekania na odpowiedni moment zamiast forsowania rzeczy siłą.",
+    "r": "Przeprowadź szczerą, pełną empatii rozmowę od serca do serca, wypij w spokoju filiżankę naparu i zaufaj swojemu wewnętrznemu głosowi.",
+    "u": "Wchodzenia w głośne konflikty, forsowania swoich racji siłą i przebywania w miejscach pełnych hałaśliwej rywalizacji.",
+    "s": "„Miękka siła i autentyczna empatia potrafią otworzyć drzwi, których żaden taran nie zdoła poruszyć.”",
+    "fun": "W którym momencie czujesz największy opór przed przyjęciem czułego gestu od kogoś bliskiego i dlaczego tak się dzieje?"
+  },
+  "5-23": {
+    "z": "Bliźnięta",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Barwna, ekspresyjna trójka wybucha dzisiaj feerią radości, artystycznej ekspresji, słowa i magnetyzmu. To energia, która nie znosi rutyny – domaga się śmiechu, kontaktu z ludźmi, tańca i swobodnego wyrzucenia z siebie tego, co gra nam w duszy. Dziś Twoja komunikacja ma moc czarów; potrafisz porwać innych swoją pasją i sprawić, że wokół robi się jaśniej.",
+    "r": "Stwórz coś pięknego, porozmawiaj z kimś, kto inspiruje Twój umysł, posłuchaj energetyzującej muzyki lub wyjdź do ludzi z otwartym sercem.",
+    "u": "Rozpraszania swojej energii na zbyt wiele wątków naraz oraz powierzchownej gadki o niczym, która męczy umysł.",
+    "s": "„Radość i twórcza ekspresja to najpiękniejsze barwy, którymi możemy pomalować naszą codzienność.”",
+    "fun": "Co sprawia, że na samą myśl o jakimś małym marzeniu Twoje serce podskakuje z radosnym dreszczem?"
+  },
+  "5-24": {
+    "z": "Bliźnięta",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Solidna, uziemiająca czwórka wkracza dzisiaj z potrzebą porządku, budowania stabilnych struktur i szacunku do materii. To wibracja, która przypomina nam, że nawet najpiękniejsze majowe marzenia potrzebują konkretnych, małych kroków i codziennej systematyczności, by mogły zakorzenić się w rzeczywistości. Dziś odpoczywamy poprzez uporządkowanie przestrzeni wokół siebie i zadbanie o bezpieczne fundamenty.",
+    "r": "Zadbaj o porządek na biurku lub w domu, dokończ jedno konkretne zadanie, które od dawna odkładałaś, i stwórz dla siebie spokojną, stabilną przestrzeń.",
+    "u": "Sztywnego uporu, wpadania w pułapkę perfekcjonizmu oraz brania na barki zbyt wielu obowiązków naraz.",
+    "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+    "fun": "Jaki fizyczny nawyk dbania o swoje ciało porzuciłaś na rzecz „ważniejszych” spraw i jak możesz do niego dzisiaj wrócić?"
+  },
+  "5-25": {
+    "z": "Bliźnięta",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Wolnościowa, iskrząca piątka przynosi dzisiaj powiew świeżego, majowego wiatru, który delikatnie burzy rutynę i zaprasza do wyjścia poza utarte schematy. To wibracja odkrywców i poszukiwaczy nowych dróg, przypominająca, że rozwój polega na odwadze sprawdzania, co jest za zakrętem. Dziś Twoja ciekawość świata budzi się do życia, domagając się odrobiny elastyczności i swobody.",
+    "r": "Zmień coś w swoim stałym planie dnia, wyjdź na spacer zupełnie inną trasą lub otwórz się na inspirującą, niespodzianą rozmowę.",
+    "u": "Kurczowego trzymania się starych przyzwyczajeń i lęku przed tym, że mała zmiana wywróci Twój świat do góry nogami.",
+    "s": "„Życie staje się o wiele ciekawsze, gdy przestajemy bać się tego, co nieznane i nowe.”",
+    "fun": "Co ekscytującego i całkowicie niepraktycznego chodzi Ci po głowie, a mogłoby wpuścić mnóstwo świeżości do Twoich dni?"
+  },
+  "5-26": {
+    "z": "Bliźnięta",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Wibracja szóstki roztacza wokół nas głęboką, opiekuńczą aurę domowego ogniska, harmonii i odpowiedzialności za bliskie relacje. To energia serca, które w Dzień Matki bije wyjątkowo mocno, przypominając nam o sile bezwarunkowej miłości, wdzięczności i troski. Szóstka uczy nas, że prawdziwe piękno i bliskość rodzą się wtedy, gdy z czułością traktujemy zarówno ludzi wokół nas, jak i same siebie.",
+    "r": "Podziękuj bliskiej osobie za jej obecność, stwórz w domu przytulną atmosferę i otocz się rzeczami, które ogrzewają Twoje serce.",
+    "u": "Wchodzenia w rolę męczennika, który rezygnuje z własnych granic dla świętego spokoju innych.",
+    "s": "„Najpiękniejszym domem, o jaki możemy dbać każdego dnia, jest ciepło gościnnego i spokojnego serca.”",
+    "fun": "Jaką część samej siebie traktujesz zbyt surowo, zamiast otulić ją ciepłym kocem bezwarunkowej wyrozumiałości?"
+  },
+  "5-27": {
+    "z": "Bliźnięta",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Mistyczna, badawcza siódemka zaprasza nas dzisiaj do przestrzeni głębokiej introspekcji, ciszy i filozoficznego wsłuchania się w mądrość własnego wnętrza. To energia poszukiwacza prawdy, który nie szuka odpowiedzi w hałaśliwym tłumie, lecz w samotności i kontakcie z naturą. Dziś Twoja intuicja bada teren, a umysł domaga się odcięcia od zewnętrznego zgiełku.",
+    "r": "Odłóż na bok telefon, spędź czas na łonie bujnej, majowej natury, poczytaj mądrą książkę lub przelej swoje myśli na czystą kartkę.",
+    "u": "Zbytniego izolowania się w chłodnym sceptycyzmie oraz zamęczania głowy nadmiernym analizowaniem każdego drobiazgu.",
+    "s": "„W ciszy kryją się najmądrzejsze drogowskazy, których głośny świat nie potrafi usłyszeć.”",
+    "fun": "Gdybyś mogła zadać swojemu wewnętrznemu „ja” jedno absolutnie szczere pytanie, o co byś je teraz zapytała?"
+  },
+  "5-28": {
+    "z": "Bliźnięta",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Potężna, materialna ósemka wkracza z energią sprawczości, suwerenności i mądrego zarządzania własnymi zasobami. To wibracja, która przypomina nam, że mamy pełne prawo do obfitości, sukcesu i decydowania o sobie w świecie materii. Dziś Twoje cele zawodowe, finanse oraz jasne granice wymagają stanowczego, ale sprawiedliwego podejścia opartego na wewnętrznej sile.",
+    "r": "Podejmij ważną decyzję finansową lub zawodową, ureguluj formalności i zarządzaj swoją energią z pozycji pewnej siebie liderki.",
+    "u": "Bezwzględnego parcia po trupach do celu, przepracowywania się oraz lęku przed własnym sukcesem.",
+    "s": "„Prawdziwa siła i obfitość płyną z mądrego, suwerennego zarządzania własnym potencjałem.”",
+    "fun": "W jakiej sprawie wzięłaś na siebie odpowiedzialność za cudze emocje, zupełnie zapominając o własnym komforcie?"
+  },
+  "5-29": {
+    "z": "Bliźnięta",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Wibracja dziewiątki roztacza wokół nas szeroką, humanistyczną perspektywę, zapraszając do współczucia, uniwersalnej mądrości i domykania pewnych etapów z pełnym zrozumieniem. To dzień, w którym artystyczna wrażliwość spotyka się z potrzebą spojrzenia na nasze życie z perspektywy lotu ptaka. Dziewiątka przypomina nam, że aby pójść dalej z lżejszym sercem, musimy najpierw wybaczyć – sobie i innym – oraz oddać przeszłość w ręce czasu.",
+    "r": "Ukończ zaległy projekt o charakterze twórczym, wyciągnij czułą lekcję z minionych trudności i uwolnij się od żalu, zamykając stary rozdział z wdzięcznością.",
+    "u": "Popadania w melancholię, nadmiernego brania na siebie cudzych dramatów i poczucia, że musisz ratować cały świat.",
+    "s": "„Prawdziwe wyzwolenie przychodzi wtedy, gdy z miłością pozwalamy odejść temu, co już dawno przestało być częścią naszej drogi.”",
+    "fun": "Jaka miniona sytuacja, choć w swoim czasie bolesna, zostawiła w Tobie dar, za który dzisiaj potrafisz być cicho wdzięczna?"
+  },
+  "5-30": {
+    "z": "Bliźnięta",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Suwerenna, pionierska jedynka uderza dzisiaj z pełną mocą na progu weekendu, przynosząc powiew świeżej niezależności, odwagi i gotowości do wyjścia przed szereg na własnych zasadach. To energia twórcy, który nie ogląda się na konwenanse, lecz śmiało zaznacza swoją obecność w świecie. Dziś masz doskonały moment, by zacząć coś od zera, postawić zdrowe granice i zdefiniować na nowo to, czego naprawdę pragniesz.",
+    "r": "Rozpocznij autorski projekt, wypowiedz głośno swoje autentyczne zdanie i zrób odważny krok w stronę własnych marzeń.",
+    "u": "Ulegania presji grupy, konformizmu i gaszenia własnego ognia w obawie przed tym, co powiedzą inni.",
+    "s": "„Twoja autentyczność to Twoja największa siła – nigdy nie przepraszaj za to, że wybierasz własną drogę.”",
+    "fun": "W jakiej dziedzinie życia brakuje Ci dzisiaj odważnego głosu, który powiedziałby głośno: „ja czuję to zupełnie inaczej”?"
+  },
+  "5-31": {
+    "z": "Bliźnięta",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Ostatni dzień maja zamyka się pod znakiem mistycznej wibracji zredukowanej do dwójki, niosąc niezwykle subtelną, delikatną i głęboko relacyjną energię na pożegnanie tego pięknego miesiąca. To dzień, w którym zasłona między ludzkimi sercami staje się cieńsza, a intuicja podpowiada najmądrzejsze rozwiązania. Dwójka uczy nas sztuki dyplomacji, uważnego słuchania i docenienia spokojnego domknięcia majowych dni.",
+    "r": "Podsumuj maj z wdzięcznością, przeprowadź szczerą, pełną empatii rozmowę od serca do serca i zaufaj swojemu wewnętrznemu głosowi w perspektywie nadchodzącego lata.",
+    "u": "Wchodzenia w głośne konflikty, forsowania swoich racji siłą i przebywania w miejscach pełnych hałaśliwej rywalizacji.",
+    "s": "„Miękka siła i autentyczna empatia to najpiękniejszy sposób na domknięcie każdego cyklu.”",
+    "fun": "Jaką potrzebę bliskości lub zatrzymania się ignorujesz na co dzień, udając przed światem całkowitą samowystarczalność?"
+  },
+  "6-1": {
+    "z": "Bliźnięta",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Pierwszy dzień czerwca wita nas pod znakiem uzdrawiającej, głęboko refleksyjnej dziewiątki, która zachęca nas do zrobienia symbolicznego bilansu i domknięcia tego, co minione, zanim w pełni otworzymy się na letnie ciepło. To moment, w którym możemy z czułością spojrzeć wstecz, odpuścić stary bagaż i zadać sobie pytanie: co właściwie chcę ze sobą zabrać w ten nowy czas? Dziewiątka uczy nas, że prawdziwa mądrość płynie z akceptacji naszej historii.",
+    "r": "Zrób porządek w swoich myślach lub przestrzeni, podziękuj za minione lekcje i świadomie zamknij to, co dawno przestało Ci służyć.",
+    "u": "Kurczowego trzymania się przeszłości i wpadania w melancholię, która odcina Cię od radości teraźniejszości.",
+    "s": "„Dojrzałość to umiejętność zerknięcia wstecz z czułością, bez pragnienia zmieniania czegokolwiek z tego, co już stało się naszą historią.”",
+    "fun": "Jaki stary bagaż emocjonalny z minionych miesięcy dzisiaj z czułością wypuszczasz z dłoni, by zrobić miejsce na czerwcowy oddech?"
+  },
+  "6-2": {
+    "z": "Bliźnięta",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Pionierska, iskrząca jedynka uderza dzisiaj z pełną mocą, przynosząc potężny zastrzyk świeżej energii, odwagi i gotowości do rozpoczęcia czegoś zupełnie nowego na własnych zasadach. To wibracja, która nie ogląda się na opinie innych, lecz śmiało stawia kropkę nad „i” i rusza w nieznane z nowymi pomysłami. Dziś masz doskonałe warunki ku temu, by postawić siebie na pierwszym miejscu i zdefiniować swoje cele na czerwiec.",
+    "r": "Zapisz swoje nowe intencje, odważnie wyraź swoje zdanie i zrób ten jeden, mały krok w kierunku własnych marzeń.",
+    "u": "Ulegania konformizmowi, wahania się i gaszenia swojego wewnętrznego ognia w obawie przed oceną otoczenia.",
+    "s": "„Twoja autentyczność to Twoja największa siła – nigdy nie przepraszaj za to, że wybierasz własną, unikalną drogę.”",
+    "fun": "Gdybyś miała dzisiaj całkowite prawo do pójścia własną ścieżką, jaki odważny krok zrobiłabyś wyłącznie dla siebie?"
+  },
+  "6-3": {
+    "z": "Bliźnięta",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Subtelna wibracja zredukowana do dwójki wnosi dzisiaj niezwykle delikatną, intuicyjną i głęboko relacyjną energię. To dzień, w którym zasłona między ludzkimi sercami staje się cieńsza, a wsłuchanie się w drugiego człowieka – lub we własną intuicję – staje się najważniejsze. Dwójka uczy nas sztuki dyplomacji, delikatności i czekania na odpowiedni moment zamiast forsowania rzeczy siłą.",
+    "r": "Przeprowadź szczerą, pełną empatii rozmowę od serca do serca, wypij w spokoju filiżankę naparu i zaufaj swojemu wewnętrznemu głosowi.",
+    "u": "Wchodzenia w głośne konflikty, forsowania swoich racji siłą i przebywania w miejscach pełnych hałaśliwej rywalizacji.",
+    "s": "„Miękka siła i autentyczna empatia potrafią otworzyć drzwi, których żaden taran nie zdoła poruszyć.”",
+    "fun": "Kto w Twoim otoczeniu potrzebuje dzisiaj Twojej cichej, ciepłej obecności i wysłuchania bez dawania dobrych rad?"
+  },
+  "6-4": {
+    "z": "Bliźnięta",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Barwna, ekspresyjna trójka wybucha dzisiaj feerią radości, artystycznej ekspresji, słowa i magnetyzmu. To energia, która nie znosi nudy – domaga się śmiechu, kontaktu z ludźmi, lekkiej rozmowy i swobodnego wyrzucenia z siebie tego, co gra nam w duszy. Dziś Twoja komunikacja ma w sobie niezwykłą moc; potrafisz porwać innych swoją pasją i sprawić, że wokół robi się jaśniej i radośniej.",
+    "r": "Stwórz coś pięknego, porozmawiaj z kimś, kto inspiruje Twój umysł, posłuchaj energetyzującej muzyki lub wyjdź do ludzi z otwartym sercem.",
+    "u": "Rozpraszania swojej energii na zbyt wiele wątków naraz oraz powierzchownej gadki, za którą nie stoi żadna treść.",
+    "s": "„Radość i twórcza ekspresja to najpiękniejsze barwy, którymi możemy pomalować naszą codzienność.”",
+    "fun": "Co sprawi, że na Twojej twarzy zagości dzisiaj zupełnie bezwysiłkowy, iskrzący uśmiech?"
+  },
+  "6-5": {
+    "z": "Bliźnięta",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Solidna, uziemiająca czwórka wkracza z potrzebą porządku, budowania stabilnych struktur i szacunku do materii. To wibracja, która przypomina nam, że nawet najpiękniejsze letnie plany potrzebują konkretnych, małych kroków i codziennej systematyczności, by mogły zakorzenić się w rzeczywistości. Dziś odpoczywamy poprzez uporządkowanie przestrzeni wokół siebie i zadbanie o bezpieczne fundamenty.",
+    "r": "Zadbaj o porządek na biurku lub w domu, dokończ jedno konkretne zadanie, które od dawna odkładałaś, i stwórz dla siebie spokojną, stabilną przestrzeń.",
+    "u": "Sztywnego uporu, wpadania w pułapkę perfekcjonizmu oraz brania na barki zbyt wielu obowiązków naraz.",
+    "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+    "fun": "Jaki jeden mały porządek w Twojej przestrzeni fizycznej przyniesie Ci dzisiaj głębokie ukojenie i stabilny grunt?"
+  },
+  "6-6": {
+    "z": "Bliźnięta",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Niespokojna, wolnościowa piątka przynosi dzisiaj powiew świeżego wiatru, który delikatnie burzy rutynę i zachęca do wyjścia poza utarte schematy. To wibracja odkrywców i poszukiwaczy nowych dróg, przypominająca, że rozwój polega na odwadze sprawdzania, co znajduje się za zakrętem. Dziś Twoja ciekawość świata budzi się do życia, domagając się odrobiny elastyczności, przestrzeni i swobody.",
+    "r": "Zmień coś w swoim stałym planie dnia, wyjdź na spacer zupełnie inną trasą lub otwórz się na inspirującą rozmowę, która odmieni Twoją perspektywę.",
+    "u": "Kurczowego trzymania się starych przyzwyczajeń, zbytniego rozpraszania energii oraz lęku przed tym, że mała zmiana wymknie się spod kontroli.",
+    "s": "„Życie staje się o wiele ciekawsze, gdy przestajemy bać się tego, co nieznane i nowe.”",
+    "fun": "W jakim schemacie codzienności czujesz dzisiaj tak wielką ciasnotę, że najchętniej przewróciłabyś go do góry nogami?"
+  },
+  "6-7": {
+    "z": "Bliźnięta",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Wibracja szóstki roztacza wokół nas głęboką, opiekuńczą aurę harmonii, etyki oraz odpowiedzialności za bliskie relacje i domowe ognisko. To energia serca, która dba o balans między dawaniem a braniem, przypominając nam o pięknie estetyki i życzliwości. Szóstka uczy nas, że prawdziwa bliskość rodzi się wtedy, gdy z równą czułością traktujemy ludzi wokół nas, jak i własne granice.",
+    "r": "Zadbaj o przytulną atmosferę w swoim otoczeniu, przeprowadź szczerą rozmowę z bliską osobą i otocz się harmonią oraz pięknymi przedmiotami.",
+    "u": "Wchodzenia w rolę męczennika, który poświęca własne dobro i spokój wyłącznie dla zadowolenia innych.",
+    "s": "„Prawdziwa harmonia rodzi się tam, gdzie z równą czułością dbamy o świat, jak i o własne wnętrze.”",
+    "fun": "Jak możesz dzisiaj otulić czułością tę część siebie, która wciąż czuje się zmęczona i domaga się troski?"
+  },
+  "6-8": {
+    "z": "Bliźnięta",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Mistyczna, badawcza siódemka zaprasza nas dzisiaj do przestrzeni głębokiej introspekcji, ciszy i filozoficznego wsłuchania się w mądrość własnego wnętrza. To energia poszukiwacza prawdy i głębi, który nie zadowala się powierzchownymi odpowiedziami. Dziś Twoja intuicja bada teren, a umysł domaga się odcięcia od zewnętrznego zgiełku, by dotknąć tego, co ukryte pod powierzchnią.",
+    "r": "Odłóż na bok telefon, spędź czas w samotności na łonie natury, przestudiuj wnikliwie interesujący Cię temat lub przelej swoje myśli na czystą kartkę.",
+    "u": "Zbytniego izolowania się w chłodnym sceptycyzmie oraz zamęczania głowy nadmiernym analizowaniem każdego drobiazgu.",
+    "s": "„Najcenniejsze odpowiedzi na świecie nigdy nie leżą na powierzchni – trzeba odważyć się zejść w głąb siebie.”",
+    "fun": "Co cichego szepcze do Ciebie Twoja intuicja, kiedy na moment odetnasz się od zewnętrznego hałasu?"
+  },
+  "6-9": {
+    "z": "Bliźnięta",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Potężna, materialna ósemka wkracza z energią sprawczości, suwerenności i mądrego zarządzania własnymi zasobami oraz finansami. To wibracja siewu i zbioru, która przypomina, że sukces jest naturalnym owocem naszej konsekwencji i wewnętrznej siły. Dziś Twoje cele wymagają stanowczego, ale sprawiedliwego podejścia opartego na poszanowaniu własnych granic i energii wymiany.",
+    "r": "Podejmij ważną decyzję finansową lub zawodową, ureguluj formalności i zarządzaj swoją energią z pozycji pewnej siebie liderki.",
+    "u": "Bezwzględnego parcia po trupach do celu, przepracowywania się oraz lęku przed własnym sukcesem i obfitością.",
+    "s": "„Prawdziwa siła i obfitość płyną z mądrego, suwerennego zarządzania własnym potencjałem.”",
+    "fun": "Przed jakim nadmiarem cudzych oczekiwań możesz dzisiaj postawić spokojną, stanowczą granicę?"
+  },
+  "6-10": {
+    "z": "Bliźnięta",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Wibracja dziewiątki stawia nas przed lustrem podsumowań, zapraszając do zrobienia rzetelnego bilansu i sprawdzenia, co w minionym czasie przyniosło plusy, a co okazało się tylko obciążającym minusowym doświadczeniem. To moment przejścia z jednego etapu w drugi, w którym decydujemy, co ze swojej wiedzy i bagażu chcemy zabrać w dalszą drogę, a co z czystym sumieniem zostawiamy za sobą.",
+    "r": "Usiądź z kartką papieru, wypisz lekcje z ostatniego czasu, zrób uczciwy bilans i świadomie zdecyduj, co domykasz raz na zawsze.",
+    "u": "Wpadania w pułapkę pouczania innych i postawy „ja wiem lepiej”, która odcina nas od autentycznej bliskości z ludźmi.",
+    "s": "„Prawdziwe zamknięcie starego rozdziału zaczyna się wtedy, gdy z wdzięcznością przytulamy zarówno nasze sukcesy, jak i błędy, zamieniając je w mądrosć.”",
+    "fun": "Jaki dawny mit o samej sobie czas wreszcie pożegnać z wdzięcznością za lekcję, jaką niósł?"
+  },
+  "6-11": {
+    "z": "Bliźnięta",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Pionierska, iskrząca jedynka uderza z pełną siłą tuż po procesie oczyszczenia, niosąc świeżą iskrę, jasność i gotowość do działania. To moment, w którym – mając już czystą kartę i nowe przemyślenia – decydujesz się postawić wszystko na jedną kartę i zacząć od nowa. Dziś rodzą się najciekawsze pomysły i klarowność co do kolejnego celu.",
+    "r": "Zrób pierwszy, odważny krok w nowym kierunku, zdefiniuj swój najbliższy cel i zaufaj wewnętrznemu impulsowi, który popycha Cię do przodu.",
+    "u": "Zbytniego wahania się, roztrząsania przeszłości i tłumienia swojego wewnętrznego ognia.",
+    "s": "„Kiedy odważnie zamykasz to, co minione, wszechświat natychmiast daje Ci w dłoń czystą kartę i nowy start.”",
+    "fun": "W jakiej sprawie Twój wewnętrzny głos domaga się dzisiaj usłyszenia: „zróbmy to wreszcie po mojemu”?"
+  },
+  "6-12": {
+    "z": "Bliźnięta",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Wibracja dwójki wprowadza miękkość, przestrzeń na współpracę oraz moment refleksji nad drugą stroną medalu w każdej sytuacji. To dzień, w którym odkrywamy, że jedno wcale nie wyklucza drugiego, a prawdziwa siła tkwi w umiejętności słuchania swojej intuicji i budowania zdrowego partnerstwa.",
+    "r": "Posłuchaj tego, co podpowiada Ci ciało i intuicja, porozmawiaj z kimś życzliwym i spójrz na konflikt z perspektywy dwóch różnych stron.",
+    "u": "Ślepego podporządkowywania się innym oraz tłumienia własnych odczuć dla tzw. świętego spokoju.",
+    "s": "„Zrozumienie drugiego człowieka zaczyna się tam, gdy dopuszczamy do głosu obie strony tej samej opowieści.”",
+    "fun": "Jakie najpiękniejsze, pełne wyrozumiałości zdanie chciałabyś dzisiaj wyszeptać do samej siebie?"
+  },
+  "6-13": {
+    "z": "Bliźnięta",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Barwna, twórcza trójka rozświetla dzień feerią radości, ekspresji i wewnętrznej lekkości. To moment, w którym zadajemy sobie pytanie: gdzie ostatnio zapomniałam o radości i zabawie? Trójka przypomina, że życie potrafi być piękne, jeśli tylko pozwolimy sobie na odrobinę luzu i wyrażenie siebie poprzez słowo, sztukę lub uśmiech.",
+    "r": "Zrób coś czysto dla przyjemności, porozmawiaj z kimś, kto potrafi Cię rozśmieszyć, i stwórz przestrzeń na swoją naturalną kreatywność.",
+    "u": "Nadmiernej powagi, zadręczania się emocjonalnymi dylematami i brania świata zbyt mocno na barki.",
+    "s": "„Radość wcale nie jest ucieczką od problemów; to najpiękniejsze paliwo, które daje nam siłę do ich rozwiązywania.”",
+    "fun": "Jaki zapomniany, twórczy impuls z dawnych lat czeka na to, byś znowu uśmiechnęła się do niego z ciekawością?"
+  },
+  "6-14": {
+    "z": "Bliźnięta",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Solidna, uziemiająca czwórka wkracza z potrzebą ładu, dyscypliny i budowania bezpiecznych struktur. To dzień, w którym zadajemy sobie pytanie o fundamenty i o to, jak wygląda nasza codzierna konsekwencja oraz planowanie. Czwórka uczy nas, że prawdziwe poczucie bezpieczeństwa w życiu rodzi się z małych, systematycznych kroków i dbania o stabilne zaplecze.",
+    "r": "Zrób porządek w swojej przestrzeni lub planach, zadbaj o rutynę, która Cię wspiera, i ugruntuj się w swoich działaniach.",
+    "u": "Sztywnego trzymania się planu za wszelką cenę, nadmiernego uporu oraz wpadania w pułapkę perfekcjonizmu.",
+    "s": "„Prawdziwa stabilność to nie brak zmian, lecz umiejętność stworzenia w sobie bezpiecznej przystani bez względu na okoliczności.”",
+    "fun": "Który z Twoich codziennych nawyków dbania o ciało traktujesz po macoszemu i jak możesz to dzisiaj naprawić?"
+  },
+  "6-15": {
+    "z": "Bliźnięta",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Niespokojna, wolnościowa piątka przynosi powiew świeżego powietrza, zachęcając do wyjścia poza bezpieczną strefę komfortu i sprawdzenia, co kryje się za zakrętem. To czas eksperymentów, zadawania sobie pytania, co w naszym życiu wymaga pilnej zmiany oraz uważnego przyjrzenia się naszym osobistym granicom. Piątka przypomina, że rozwój potrzebuje przestrzeni na wolność i elastyczność.",
+    "r": "Zmień coś w swojej codziennej rutynie, otwórz się na nową perspektywę i pozwól sobie na odrobinę zdrowej spontaniczności.",
+    "u": "Rozpraszania swojej energii na zbyt wiele frontów naraz oraz lęku przed tym, że stracisz nad czymś pełną kontrolę.",
+    "s": "„Życie nabiera barw wtedy, gdy przestajemy bać się własnych, śmiałych kroków w stronę wolności.”",
+    "fun": "Jaki świeży powiew – choćby najmniejsza zmiana trasy czy perspektywy – wpuścisz dzisiaj do swojego dnia?"
+  },
+  "6-16": {
+    "z": "Bliźnięta",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Wibracja szóstki roztacza wokół nas głęboką, ciepłą aurę domowego ogniska, etyki oraz świadomego dbania o relacje. To moment na refleksję o tym, jak dawanie ma się do brania i czy nasze ambicje nie budują się przypadkiem kosztem własnego spokoju. Szóstka uczy nas, że prawdziwa harmonia płynie z serca, które potrafi otoczyć opieką zarówno innych, jak i same siebie.",
+    "r": "Stwórz wokół siebie przytulną przestrzeń, porozmawiaj z kimś bliskim z poziomu życzliwości i zadbaj o równowagę w dawaniu wsparcia.",
+    "u": "Wchodzenia w rolę męczennika i rezygnowania z własnych granic dla świętego spokoju.",
+    "s": "„Prawdziwa harmonia w relacjach rodzi się wtedy, gdy z równą miłością dbamy o innych, jak i o własne granice.”",
+    "fun": "Jaką najmilszą rzecz możesz dzisiaj zrobić wyłącznie dla domowego ciepła i własnego odprężenia?"
+  },
+  "6-17": {
+    "z": "Bliźnięta",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Mistyczna, badawcza wibracja siódemki zaprasza nas do głębokiej introspekcji, wyciszenia i dotarcia do prawdy ukrytej pod powierzchnią codziennych spraw. To czas, w którym zadajemy sobie pytanie o nasze autentyczne wartości duchowe oraz o to, czy nie komplikujemy sobie rzeczywistości nadmiernym analizowaniem. Siódemka uczy nas, jak odnaleźć cichy dystans do hałaśliwego świata.",
+    "r": "Spędź czas w samotności na łonie natury, odetnij się od nadmiaru bodźców cyfrowych i poszukaj odpowiedzi w ciszy swojego serca.",
+    "u": "Zbytniego izolowania się od ludzi w chłodnym sceptycyzmie oraz poczucia, że wiesz wszystko lepiej od innych.",
+    "s": "„Czasami wystarczy na moment zatrzymać się w ciszy, by usłyszeć odpowiedź, której nasz umysł tak uporczywie szukał na zewnątrz.”",
+    "fun": "Jaka prawda o Twoich głębokich pragnieniach ukrywa się pod warstwą codziennych obowiązków?"
+  },
+  "6-18": {
+    "z": "Bliźnięta",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Potężna wibracja ósemki przynosi energię sprawczości, konkretnych działań w świecie materii oraz rzetelnego bilansu naszych zasobów. To idealny moment, by przyjrzeć się temu, jak dbamy o swoje finanse, jak inwestujemy własną energię i czy potrafimy docenić owoce dotychczasowej pracy. Ósemka przypomina o prawie przyczyny i skutku – to, co siejemy w działaniu, zbieramy jako naszą rzeczywistość.",
+    "r": "Zadbaj o stabilne fundamenty finansowe, podejmij dojrzałą decyzję zawodową i z szacunkiem spójrz na swoje materialne oraz życiowe osiągnięcia.",
+    "u": "Bezwzględnego parcia po trupach do celu, przepracowywania się ponad miarę oraz lęku przed odniesieniem sukcesu.",
+    "s": "„Sukces nie jest dziełem przypadku – to naturalny owoc konsekwencji, dojrzałości i szacunku do własnej pracy.”",
+    "fun": "Za jaki swój cichy, twardy wysiłek włożony w ostatnim czasie możesz dzisiaj z dumą sobie podziękować?"
+  },
+  "6-19": {
+    "z": "Bliźnięta",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Wibracja dziewiątki stawia nas przed lustrem podsumowań, zapraszając do zrobienia rzetelnego bilansu i sprawdzenia, co w minionym czasie przyniosło plusy, a co okazało się obciążającym doświadczeniem. To moment przejścia z jednego etapu w drugi, w którym decydujemy, co ze swojej wiedzy i bagażu chcemy zabrać w dalszą drogę, a co z czystym sumieniem zostawiamy za sobą.",
+    "r": "Usiądź z kartką papieru, wypisz lekcje z ostatniego czasu, zrób uczciwy bilans i świadomie zdecyduj, co domykasz raz na zawsze.",
+    "u": "Wpadania w pułapkę pouczania innych i postawy „ja wiem lepiej”, która odcina nas od autentycznej bliskości z ludźmi.",
+    "s": "„Prawdziwa mądrość nie polega na pouczaniu innych, lecz na cichym wyciąganiu wniosków z własnej, przeżytej historii.”",
+    "fun": "Co w Twoim życiu domaga się dzisiaj nie walki, lecz łagodnego odpuszczenia kontroli?"
+  },
+  "6-20": {
+    "z": "Bliźnięta",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Pionierska, iskrząca jedynka uderza z pełną siłą tuż po procesie oczyszczenia, niosąc świeżą iskrę, jasność i gotowość do działania. To moment, w którym – mając już czystą kartę i nowe przemyślenia – decydujesz się postawić wszystko na jedną kartę i zacząć od nowa. Dziś rodzą się najciekawsze pomysły i klarowność co do kolejnego celu.",
+    "r": "Zrób pierwszy, odważny krok w nowym kierunku, zdefiniuj swój najbliższy cel i zaufaj wewnętrznemu impulsowi, który popycha Cię do przodu.",
+    "u": "Zbytniego wahania się, roztrząsania przeszłości i tłumienia swojego wewnętrznego ognia.",
+    "s": "„Kiedy odważnie zamykasz to, co minione, wszechświat natychmiast daje Ci w dłoń czystą kartę i nowy start.”",
+    "fun": "Gdyby nikt Cię teraz nie oceniał, jaką odważną decyzję podjęłabyś bez dłuższego wahania?"
+  },
+  "6-21": {
+    "z": "Rak",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Wibracja dwójki wprowadza miękkość, przestrzeń na współpracę oraz moment refleksji nad drugą stroną medalu w każdej sytuacji. To dzień, w którym odkrywamy, że jedno wcale nie wyklucza drugiego, a prawdziwa siła tkwi w umiejętności słuchania swojej intuicji i budowania zdrowego partnerstwa.",
+    "r": "Posłuchaj tego, co podpowiada Ci ciało i intuicja, porozmawiaj z kimś życzliwym i spójrz na konflikt z perspektywy dwóch różnych stron.",
+    "u": "Ślepego podporządkowywania się innym oraz tłumienia własnych odczuć dla tzw. świętego spokoju.",
+    "s": "„Zrozumienie drugiego człowieka zaczyna się w tym momencie, gdy dopuszczamy do głosu obie strony tej samej opowieści.”",
+    "fun": "W którym momencie czujesz największy opór przed przyjęciem wsparcia lub czułego gestu od innych?"
+  },
+  "6-22": {
+    "z": "Rak",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Barwna, twórcza trójka rozświetla dzień feerią radości, ekspresji i wewnętrznej lekkości. To moment, w którym zadajemy sobie pytanie: gdzie ostatnio zapomniałam o radości i zabawie? Trójka przypomina, że życie potrafi być piękne, jeśli tylko pozwolimy sobie na odrobinę luzu i wyrażenie siebie poprzez słowo, sztukę lub uśmiech.",
+    "r": "Zrób coś czysto dla przyjemności, porozmawiaj z kimś, kto potrafi Cię rozśmieszyć, i stwórz przestrzeń na swoją naturalną kreatywność.",
+    "u": "Nadmiernej powagi, zadręczania się emocjonalnymi dylematami i brania świata zbyt mocno na barki.",
+    "s": "„Śmiech i twórcza swoboda to najprostsze klucze do serca, które pozwalają nam z powrotem poczuć lekkość istnienia.”",
+    "fun": "Co potrafi wywołać w Twoim ciele taką falę radości, że zapominasz o jakimkolwiek pośpiechu?"
+  },
+  "6-23": {
+    "z": "Rak",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Solidna, uziemiająca czwórka wkracza z potrzebą ładu, dyscypliny i budowania bezpiecznych struktur. To dzień, w którym zadajemy sobie pytanie o fundamenty i o to, jak wygląda nasza codzienna konsekwencja oraz planowanie. Czwórka uczy nas, że prawdziwe poczucie bezpieczeństwa w życiu rodzi się z małych, systematycznych kroków i dbania o stabilne zaplecze.",
+    "r": "Zrób porządek w swojej przestrzeni lub planach, zadbaj o rutynę, która Cię wspiera, i ugruntuj się w swoich działaniach.",
+    "u": "Sztywnego trzymania się planu za wszelką cenę, nadmiernego uporu oraz wpadania w pułapkę perfekcjonizmu.",
+    "s": "„Codzienna, cicha sumienność w małych sprawach buduje najtrwalsze mury wokół naszego spokoju.”",
+    "fun": "Jakie jedno zadanie obciążające Twoją głowę możesz dzisiaj po prostu wykreślić z listy bez wyrzutów sumienia?"
+  },
+  "6-24": {
+    "z": "Rak",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Niespokojna, wolnościowa piątka przynosi powiew świeżego powietrza, zachęcając do wyjścia poza bezpieczną strefę komfortu i sprawdzenia, co kryje się za zakrętem. To czas eksperymentów, zadawania sobie pytania, co w naszym życiu wymaga pilnej zmiany oraz uważnego przyjrzenia się naszym osobistym granicom. Piątka przypomina, że rozwój potrzebuje przestrzeni na wolność i elastyczność.",
+    "r": "Zmień coś w swojej codziennej rutynie, otwórz się na nową perspektywę i pozwól sobie na odrobinę zdrowej spontaniczności.",
+    "u": "Rozpraszania swojej energii na zbyt wiele frontów naraz oraz lęku przed tym, że stracisz nad czymś pełną kontrolę.",
+    "s": "„Czasami wystarczy skręcić w zupełnie nieznaną uliczkę, by odkryć, że świat ma dla nas o wiele więcej scenariuszy, niż zakładaliśmy.”",
+    "fun": "Gdzie w swoim życiu czujesz największy głód przestrzeni, wolności i zerwania starych schematów?"
+  },
+  "6-25": {
+    "z": "Rak",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Wibracja szóstki roztacza wokół nas głęboką, ciepłą aurę domowego ogniska, etyki oraz świadomego dbania o relacje. To moment na refleksję o tym, jak dawanie ma się do brania i czy nasze ambicje nie budują się przypadkiem kosztem własnego spokoju. Szóstka uczy nas, że prawdziwa harmonia płynie z serca, które potrafi otoczyć opieką zarówno innych, jak i same siebie.",
+    "r": "Stwórz wokół siebie przytulną przestrzeń, porozmawiaj z kimś bliskim z poziomu życzliwości i zadbaj o równowagę w dawaniu wsparcia.",
+    "u": "Wchodzenia w rolę męczennika i rezygnowania z własnych granic dla świętego spokoju.",
+    "s": "„Najpiękniejszym darem, jaki możemy podarować drugiemu człowiekowi, jest nasza obecność wolna od oczekiwań i ocen.”",
+    "fun": "W którym miejscu swojego serca najbardziej potrzebujesz dzisiaj zapalić światło bezwarunkowej akceptacji?"
+  },
+  "6-26": {
+    "z": "Rak",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Mistyczna, badawcza siódemka zaprasza nas do głębokiej introspekcji, ciszy i studiowania tego, co ukryte pod powierzchnią codziennych spraw. To czas, w którym zadajemy sobie pytanie o nasze głębokie wartości duchowe oraz o to, czy nie komplikujemy sobie życia nadmiernym analizowaniem. Siódemka uczy nas cennego dystansu i szacunku do własnej przestrzeni.",
+    "r": "Spędź czas w samotności na łonie natury, odłącz się od nadmiaru bodźców i poszukaj odpowiedzi w ciszy swojego serca.",
+    "u": "Zbytniego izolowania się od ludzi w chłodnym sceptycyzmie oraz poczucia, że wiesz lepiej niż inni.",
+    "s": "„Prawda nie krzyczy w tłumie – ona czeka cierpliwie w ciszy, aż odważymy się z nią spotkać sam na sam.”",
+    "fun": "Co w Tobie jest tak niezmienne i silne, że żaden zewnętrzny hałas nie jest w stanie tego naruszyć?"
+  },
+  "6-27": {
+    "z": "Rak",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Potężna wibracja ósemki przynosi energię sprawczości, konkretnych działań w świecie materii oraz rzetelnego bilansu naszych zasobów. To idealny moment, by przyjrzeć się temu, jak dbamy o swoje finanse, jak inwestujemy własną energię i czy potrafimy docenić owoce dotychczasowej pracy. Ósemka przypomina o prawie przyczyny i skutku – to, co siejemy w działaniu, zbieramy jako naszą rzeczywistość.",
+    "r": "Zadbaj o stabilne fundamenty finansowe, podejmij dojrzałą decyzję zawodową i z szacunkiem spójrz na swoje materialne oraz życiowe osiągnięcia.",
+    "u": "Bezwzględnego parcia po trupach do celu, przepracowywania się ponad miarę oraz lęku przed odniesieniem sukcesu.",
+    "s": "„Obfitość to nie tylko stan konta; to przede wszystkim poczucie wewnętrznego bogactwa i gotowość na przyjmowanie darów od życia.”",
+    "fun": "W jaki sposób dbasz o to, by Twoja wewnętrzna siła nie zamieniała się w mur obronny odcinający Cię od czułości?"
+  },
+  "6-28": {
+    "z": "Rak",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Wibracja dziewiątki stawia nas przed lustrem podsumowań, zapraszając do zrobienia rzetelnego bilansu i sprawdzenia, co w minionym czasie przyniosło plusy, a co okazało się obciążającym doświadczeniem. To moment przejścia z jednego etapu w drugi, w którym decydujemy, co ze swojej wiedzy i bagażu chcemy zabrać w dalszą drogę, a co z czystym sumieniem zostawiamy za sobą.",
+    "r": "Usiądź z kartką papieru, wypisz lekcje z ostatniego czasu, zrób uczciwy bilans i świadomie zdecyduj, co domykasz raz na zawsze.",
+    "u": "Wpadania w pułapkę pouczania innych i postawy „ja wiem lepiej”, która odcina nas od autentycznej bliskości z ludźmi.",
+    "s": "„Zamykanie drzwi do przeszłości bywa trudne, ale to jedyny sposób, by otworzyć okno na „nowe horyzonty”.”",
+    "fun": "Jaki akord wdzięczności wybrzmiewa w Twoim sercu na myśl o drodze, którą już przeszłaś w tym roku?"
+  },
+  "6-29": {
+    "z": "Rak",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Pionierska, iskrząca jedynka uderza z pełną siłą tuż po procesie oczyszczenia, niosąc świeżą iskrę, jasność i gotowość do działania. To moment, w którym – mając już czystą kartę i nowe przemyślenia – decydujesz się postawić wszystko na jedną kartę i zacząć od nowa. Dziś rodzą się najciekawsze pomysły i klarowność co do kolejnego celu.",
+    "r": "Zrób pierwszy, odważny krok w nowym kierunku, zdefiniuj swój najbliższy cel i zaufaj wewnętrznemu impulsowi, który popycha Cię do przodu.",
+    "u": "Zbytniego wahania się, roztrząsania przeszłości i tłumienia swojego wewnętrznego ognia.",
+    "s": "„Każdy poranek to dowód na to, że wszechświat wierzy w nasze nowe początki bardziej niż my sami.”",
+    "fun": "Z jaką nową, odważną intencją chcesz wkroczyć w drugą połowę roku?"
+  },
+  "6-30": {
+    "z": "Rak",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Ostatni dzień czerwca zamyka się pod znakiem mistycznej wibracji zredukowanej do dwójki, niosąc niezwykle subtelną, delikatną i głęboko relacyjną energię na pożegnanie tego miesiąca. To dzień, w którym zasłona między ludzkimi sercami staje się cieńsza, a intuicja podpowiada najmądrzejsze rozwiązania. Dwójka uczy nas sztuki dyplomacji, uważnego słuchania i docenienia spokojnego domknięcia czerwcowych dni.",
+    "r": "Podsumuj czerwiec z wdzięcznością, przeprowadź szczerą, pełną empatii rozmowę od serca do serca i zaufaj swojemu wewnętrznemu głosowi w perspektywie nadchodzącego lata.",
+    "u": "Wchodzenia w głośne konflikty, forsowania swoich racji siłą i przebywania w miejscach pełnych hałaśliwej rywalizacji.",
+    "s": "„Czasami najgłębszą mądrością okazuje się po prostu usiąść obok kogoś i w ciszy podzielić się własnym sercem.”",
+    "fun": "Jaką najpiękniejszą, pełną otulenia rzecz możesz dzisiaj zrobić dla samej siebie na koniec miesiąca?"
+  },
+  "7-1": {
+    "z": "Rak",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Pierwszy dzień lipca wita nas potężną, pionierską wibracją jedynki, która przynosi iskrę świeżej odwagi, jasność intencji i gotowość do rozpoczęcia czegoś zupełnie nowego na własnych zasadach. To moment, w którym zdejmujesz dawne ograniczenia, stawiasz kropkę nad „i” i z czystą kartą ruszasz w stronę swoich letnich celów.",
+    "r": "Zdefiniuj swój główny cel na lipiec, postaw zdrowe granice i zrób odważny, autorski krok w nowym kierunku.",
+    "u": "Ulegania konformizmowi, wahania się oraz gaszenia swojego wewnętrznego ognia w obawie przed opinią innych.",
+    "s": "„Kiedy odważnie wybierasz własną drogę, wszechświat natychmiast daje Ci w dłoń czystą kartę i nieskończone możliwości.”",
+    "fun": "Jaką nową, iskrzącą pasję lub ciekawość chcesz dzisiaj zaprosić do swojego życia, otwierając drzwi na zupełnie świeżą energię?"
+  },
+  "7-2": {
+    "z": "Rak",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Subtelna wibracja zredukowana do dwójki wnosi dzisiaj niezwykle delikatną, intuicyjną i głęboko relacyjną energię. To dzień, w którym zasłona między ludzkimi sercami staje się cieńsza, a wsłuchanie się w drugiego człowieka – lub we własną intuicję – staje się najważniejsze. Dwójka uczy nas sztuki dyplomacji, delikatności i szukania balansu między dwiema stronami medalu.",
+    "r": "Przeprowadź szczerą, pełną empatii rozmowę od serca do serca, wsłuchaj się w sygnały płynące z ciała i zaufaj swojemu wewnętrznemu głosowi.",
+    "u": "Wchodzenia w głośne konflikty, forsowania swoich racji siłą oraz rezygnowania z siebie dla świętego spokoju.",
+    "s": "„Prawdziwa bliskość rodzi się tam, gdzie potrafimy z równą uwagą wysłuchać drugiej strony, jak i własnego serca.”",
+    "fun": "W jakiej relacji potrzebujesz dzisiaj odpuścić potrzebę racji i zwyczajnie przytulić drugiego człowieka (lub samą siebie)?"
+  },
+  "7-3": {
+    "z": "Rak",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Barwna, ekspresyjna trójka wybucha dzisiaj feerią radości, artystycznej ekspresji, słowa i magnetyzmu. To energia, która nie znosi nudy – domaga się śmiechu, kontaktu z ludźmi, lekkiej rozmowy i swobodnego wyrzucenia z siebie tego, co gra nam w duszy. Dziś Twoja komunikacja ma w sobie niezwykłą moc; potrafisz porwać innych swoją pasją i odnaleźć lekkość tam, gdzie wcześniej była powaga.",
+    "r": "Stwórz coś pięknego, porozmawiaj z kimś, kto inspiruje Twój umysł, lub spędź czas na beztroskiej, radosnej zabawie.",
+    "u": "Rozpraszania swojej energii na zbyt wiele wątków naraz oraz powierzchownej gadki, za którą nie stoi żadna treść.",
+    "s": "„Śmiech i twórcza swoboda to najprostsze klucze, które potrafią rozjaśnić nawet najbardziej pochmurny dzień.”",
+    "fun": "Co sprawi, że dzisiejszy dzień zatańczy w Twoim sercu nutą czystej radości, bez oglądania się na obowiązki?"
+  },
+  "7-4": {
+    "z": "Rak",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Solidna, uziemiająca czwórka wkracza z potrzebą ładu, dyscypliny i budowania bezpiecznych struktur. To dzień, w którym zadajemy sobie pytanie o fundamenty i o to, jak wygląda nasza codzienna konsekwencja oraz planowanie. Czwórka uczy nas, że prawdziwe poczucie stabilności w życiu rodzi się z małych, systematycznych kroków.",
+    "r": "Zrób porządek w swojej przestrzeni lub planach, zadbaj o zdrową rutynę i ugruntuj się w swoich dotychczasowych działaniach.",
+    "u": "Sztywnego trzymania się planu za wszelką cenę, nadmiernego uporu oraz wpadania w pułapkę perfekcjonizmu.",
+    "s": "„Codzienna, cicha sumienność w małych sprawach buduje najtrwalsze mury wokół naszego wewnętrznego spokoju.”",
+    "fun": "Jaki jeden mały, stabilny nawyk dbania o swoje fizyczne ciało możesz dzisiaj wdrożyć z pełnym spokojem?"
+  },
+  "7-5": {
+    "z": "Rak",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Niespokojna, wolnościowa piątka przynosi powiew świeżego powietrza, zachęcając do wyjścia poza bezpieczną strefę komfortu i sprawdzenia, co kryje się za zakrętem. To czas eksperymentów, zadawania sobie pytania, co w naszym życiu wymaga pilnej zmiany oraz uważnego przyjrzenia się naszym osobistym granicom. Piątka przypomina, że rozwój potrzebuje przestrzeni na wolność i elastyczność.",
+    "r": "Zmień coś w swojej codziennej rutynie, otwórz się na nową perspektywę i pozwól sobie na odrobinę zdrowej spontaniczności.",
+    "u": "Rozpraszania swojej energii na zbyt wiele frontów naraz oraz lęku przed tym, że stracisz nad czymś pełną kontrolę.",
+    "s": "„Życie staje się o wiele ciekawsze, gdy przestajemy bać się własnych, śmiałych kroków w stronę wolności.”",
+    "fun": "Gdzie w Twoim życiu letni wiatr zmian delikatnie szepcze, że czas porzucić to, co stało się zbyt duszne i ciasne?"
+  },
+  "7-6": {
+    "z": "Rak",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Wibracja szóstki roztacza wokół nas ciepłą, opiekuńczą aurę domowego ogniska, etyki oraz świadomego dbania o relacje. To idealny moment na refleksję nad tym, jak dawanie wsparcia ma się do brania i czy nasze codzienne ambicje nie budują się przypadkiem kosztem własnego wewnętrznego spokoju. Szóstka uczy nas, że prawdziwa harmonia płynie z serca, które potrafi otoczyć troską zarówno innych, jak i same siebie.",
+    "r": "Stwórz wokół siebie przytulną przestrzeń, przeprowadź szczerą i życzliwą rozmowę z bliską osobą oraz zadbaj o zdrowy balans w relacjach.",
+    "u": "Wchodzenia w rolę męczennika i rezygnowania z własnych granic tylko po to, aby zapewnić komuś święty spokój.",
+    "s": "„Prawdziwa harmonia w relacjach rodzi się wtedy, gdy z równą miłością dbamy o innych, jak i o własne granice.”",
+    "fun": "Jak możesz dzisiaj otoczyć domowym ciepłem i bezwarunkową czułością tę cząstkę siebie, która potajemnie domaga się odpoczynku?"
+  },
+  "7-7": {
+    "z": "Rak",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Mistyczna, badawcza siódemka zaprasza nas do głębokiej introspekcji, ciszy i studiowania tego, co ukryte pod powierzchnią codziennych spraw. To czas, w którym zadajemy sobie pytanie o nasze głębokie wartości duchowe oraz o to, czy nie komplikujemy sobie życia nadmiernym analizowaniem. Siódemka uczy nas cennego dystansu, wiedzy i szacunku do własnej, wewnętrznej przestrzeni.",
+    "r": "Spędź czas w całkowitej samotności na łonie natury, odłącz się od nadmiaru bodźców cyfrowych i poszukaj odpowiedzi w ciszy swojego serca.",
+    "u": "Zbytniego izolowania się od ludzi w chłodnym sceptycyzmie oraz poczucia, że wiesz wszystko lepiej od innych.",
+    "s": "„Najcenniejsze odpowiedzi na świecie nigdy nie leżą na powierzchni – trzeba odważyć się zejść w głąb siebie.”",
+    "fun": "Jaka ukryta odpowiedź na Twoje głębokie pytania wypływa na powierzchnię, gdy pozwalasz sobie na chwilę świętej, letniej ciszy?"
+  },
+  "7-8": {
+    "z": "Rak",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Potężna wibracja ósemki przynosi energię sprawczości, konkretnych działań w świecie materii oraz rzetelnego bilansu naszych zasobów i finansów. To moment, w którym przyjglądamy się temu, jak inwestujemy w siebie i czy potrafimy z szacunkiem świętować owoce dotychczasowej pracy. Ósemka przypomina, że prawdziwy sukces jest naturalnym owocem naszej konsekwencji i wewnętrznej siły.",
+    "r": "Zadbaj o stabilne fundamenty finansowe, podejmij dojrzałą decyzję zawodową i z uznaniem spójrz na swoje materialne osiągnięcia.",
+    "u": "Bezwzględnego parcia po trupach do celu, przepracowywania się ponad miarę oraz lęku przed własną obfitością.",
+    "s": "„Prawdziwa siła i obfitość płyną z mądrego, suwerennego zarządzania własnym potencjałem.”",
+    "fun": "Przed jakim nadmiarem cudzych oczekiwań postawisz dzisiaj mądrą, pełną szacunku dla siebie granicę?"
+  },
+  "7-9": {
+    "z": "Rak",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Wibracja dziewiątki stawia nas przed lustrem podsumowań, zapraszając do zrobienia rzetelnego bilansu i sprawdzenia, co w minionym czasie przyniosło plusy, a co okazało się obciążającym doświadczeniem. To moment przejścia z jednego etapu w drugi, w którym decydujemy, co ze swojej wiedzy i bagażu chcemy zabrać w dalszą drogę, a co z czystym sumieniem zostawiamy za sobą.",
+    "r": "Usiądź z kartką papieru, wypisz lekcje z ostatniego czasu, zrób uczciwy bilans i świadomie zdecyduj, co domykasz raz na zawsze.",
+    "u": "Wpadania w pułapkę pouczania innych i postawy „ja wiem lepiej”, która odcina nas od autentycznej bliskości z ludźmi.",
+    "s": "„Odpuszczenie tego, co już odeszło, to najpiękniejszy prezent, jaki możemy podarować naszej przyszłości.”",
+    "fun": "Jaki stary, emocjonalny ciężar z pierwszego półrocza uwalniasz dzisiaj z dłoni, by zyskać lekkość w żaglach?"
+  },
+  "7-10": {
+    "z": "Rak",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Pionierska, iskrząca jedynka uderza z pełną siłą tuż po procesie oczyszczenia, niosąc świeżą iskrę, jasność i gotowość do działania. To moment, w którym – mając już czystą kartę i nowe przemyślenia – decydujesz się postawić wszystko na jedną kartę i zacząć od nowa. Dziś rodzą się najciekawsze pomysły i klarowność co do kolejnego celu.",
+    "r": "Zrób pierwszy, odważny krok w nowym kierunku, zdefiniuj swój najbliższy cel i zaufaj wewnętrznemu impulsowi, który popycha Cię do przodu.",
+    "u": "Zbytniego wahania się, roztrząsania przeszłości i tłumienia swojego wewnętrznego ognia.",
+    "s": "„Kiedy odważnie zamykasz to, co minione, wszechświat natychmiast daje Ci w dłoń czystą kartę i nowy start.”",
+    "fun": "Gdybyś nie musiała nikomu niczego udowadniać, jaki odważny krok w stronę własnych marzeń zrobiłabyś jeszcze dziś?"
+  },
+  "7-11": {
+    "z": "Rak",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Mistyczna wibracja zredukowana do dwójki wnosi dzisiaj niezwykle subtelną, delikatną i głęboko relacyjną energię. To dzień, w którym zasłona między ludzkimi sercami staje się cieńsza, a intuicja podpowiada najmądrzejsze rozwiązania. Dwójka uczy nas sztuki dyplomacji, uważnego słuchania i docenienia drugiej strony medalu.",
+    "r": "Przeprowadź szczerą, pełną empatii rozmowę od serca do serca, wypij w spokoju filiżankę ulubionego naparu i zaufaj swojemu wewnętrznemu głosowi.",
+    "u": "Wchodzenia w głośne konflikty, forsowania swoich racji siłą oraz tłumienia własnych odczuć dla tzw. świętego spokoju.",
+    "s": "„Zrozumienie drugiego człowieka zaczyna się w tym momencie, gdy dopuszczamy do głosu obie strony tej samej opowieści.”",
+    "fun": "Kto w Twoim otoczeniu potrzebuje dzisiaj Twojego ciepłego, obecnego spojrzenia bez żadnych gotowych rad?"
+  },
+  "7-12": {
+    "z": "Rak",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Barwna, ekspresyjna trójka rozświetla dzień feerią radości, artystycznej ekspresji i wewnętrznej lekkości. To moment, w którym zadajemy sobie pytanie: gdzie ostatnio zapomniałam o radości i zabawie? Trójka przypomina, że życie potrafi być piękne, jeśli tylko pozwolimy sobie na odrobinę luzu i wyrażenie siebie poprzez słowo, sztukę lub uśmiech.",
+    "r": "Zrób coś czysto dla przyjemności, porozmawiaj z kimś, kto potrafi Cię rozśmieszyć, i stwórz przestrzeń na swoją naturalną kreatywność.",
+    "u": "Nadmiernej powagi, zadręczania się emocjonalnymi dylematami i brania świata zbyt mocno na własne barki.",
+    "s": "„Radość i twórcza swoboda to najpiękniejsze barwy, którymi możemy rozjaśnić naszą codzienność.”",
+    "fun": "Jaki drobny, szalony impuls twórczy lub artystyczny wywoła dzisiaj uśmiech na Twojej twarzy?"
+  },
+  "7-13": {
+    "z": "Rak",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Solidna, uziemiająca czwórka wkracza z potrzebą ładu, dyscypliny i budowania bezpiecznych struktur. To dzień, w którym zadajemy sobie pytanie o fundamenty i o to, jak wygląda nasza codzienna konsekwencja oraz planowanie. Czwórka uczy nas, że prawdziwe poczucie bezpieczeństwa w życiu rodzi się z małych, systematycznych kroków.",
+    "r": "Zrób porządek w swojej przestrzeni lub planach, zadbaj o rutynę, która Cię wspiera, i ugruntuj się w swoich działaniach.",
+    "u": "Sztywnego trzymania się planu za wszelką cenę, nadmiernego uporu oraz wpadania w pułapkę perfekcjonizmu.",
+    "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+    "fun": "Który domowy kąt lub zakamarek w przestrzeni domaga się dziś uziemiającego, czułego porządku?"
+  },
+  "7-14": {
+    "z": "Rak",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Niespokojna, wolnościowa piątka przynosi powiew świeżego powietrza, zachęcając do wyjścia poza bezpieczną strefę komfortu i sprawdzenia, co kryje się za zakrętem. To czas eksperymentów, zadawania sobie pytania, co w naszym życiu wymaga pilnej zmiany oraz uważnego przyjrzenia się naszym osobistym granicom. Piątka przypomina, że rozwój potrzebuje przestrzeni na wolność i elastyczność.",
+    "r": "Zmień coś w swojej codziennej rutynie, otwórz się na nową perspektywę i pozwól sobie na odrobinę zdrowej spontaniczności.",
+    "u": "Rozpraszania swojej energii na zbyt wiele frontów naraz oraz lęku przed tym, że stracisz nad czymś pełną kontrolę.",
+    "s": "„Życie nabiera najpiękniejszych barw wtedy, gdy z ciekawością dziecka odważnie wychodzimy poza utarte schematy.”",
+    "fun": "Jaka niespodziewana zmiana planów może okazać się dzisiaj najpiękniejszym, odświeżającym prezentem od losu?"
+  },
+  "7-15": {
+    "z": "Rak",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Wibracja szóstki roztacza wokół nas głęboką, ciepłą aurę domowego ogniska, etyki oraz świadomego dbania o relacje. To moment na refleksję o tym, jak dawanie ma się do brania i czy nasze ambicje nie budują się przypadkiem kosztem własnego spokoju. Szóstka uczy nas, że prawdziwa harmonia płynie z serca, które potrafi otoczyć opieką zarówno innych, jak i same siebie.",
+    "r": "Stwórz wokół siebie przytulną przestrzeń, porozmawiaj z kimś bliskim z poziomu życzliwości i zadbaj o równowagę w dawaniu wsparcia.",
+    "u": "Wchodzenia w rolę męczennika i rezygnowania z własnych granic dla świętego spokoju.",
+    "s": "„Najpiękniejszym domem, o jaki możemy dbać każdego dnia, jest ciepło gościnnego i spokojnego serca.”",
+    "fun": "Co możesz dzisiaj zrobić wyłącznie z miłości do siebie, bez żadnego poczucia, że „musisz”?"
+  },
+  "7-16": {
+    "z": "Rak",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Mistyczna, badawcza wibracja siódemki zaprasza nas do wyciszenia, refleksji oraz pogłębionej nauki i szukania prawdy ukrytej pod powierzchnią codziennych spraw. To czas, w którym zadajemy sobie pytanie o naszą wewnętrzną mądrość, duchowe wartości oraz o to, czy nie komplikujemy sobie życia nadmiernym analizowaniem każdego drobiazgu. Siódemka uczy nas, jak odnaleźć cenny dystans i bezpieczną przestrzeń tylko dla siebie.",
+    "r": "Spędź czas w samotności na łonie natury, odłącz się od cyfrowego zgiełku i zaufaj swojemu wewnętrznemu kompasowi.",
+    "u": "Popadania w chłodny sceptycyzmo, zbytniego odsuwania się od ludzi oraz poczucia, że wiesz wszystko lepiej.",
+    "s": "„Czasami wystarczy na moment wyłączyć hałas świata, by w cisze własnego serca odnaleźć odpowiedź, której tak długo szukaliśmy.”",
+    "fun": "Co cichego szepcze do Ciebie Twoja intuicja, gdy na moment odetnasz się od letniego zgiełku?"
+  },
+  "7-17": {
+    "z": "Rak",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Potężna wibracja ósemki przynosi energię sprawczości, realnych działań w świecie materii oraz rzetelnego podsumowania naszych zasobów i finansów. To idealny moment, by przyjrzeć się temu, jak inwestujemy własną energię, jak dbamy o stabilne fundamenty i czy potrafimy z szacunkiem docenić owoce dotychczasowej pracy. Ósemka przypomina o prawie przyczyny i skutku – nasza obfitość jest bezpośrednim odzwierciedleniem tego, jak zarządzamy swoim potencjałem.",
+    "r": "Zadbaj o finanse, domknij ważne sprawy zawodowe i z dumą spójrz na to, co udało Ci się w życiu zbudować.",
+    "u": "Bezwzględnego parcia do celu za wszelką cenę, przepracowywania się ponad miarę oraz lęku przed odniesieniem sukcesu.",
+    "s": "„Obfitość to naturalny owoc dojrzałości, szacunku do własnej pracy i mądrego zarządzania tym, czym obdarzył nas los.”",
+    "fun": "Za jaki swój twardy, cichy wysiłek włożony w ostatnich miesiącach możesz dzisiaj z dumą podziękować samej sobie?"
+  },
+  "7-18": {
+    "z": "Rak",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Wibracja dziewiątki stawia nas przed lustrem podsumowań, zapraszając do zrobienia rzetelnego bilansu i sprawdzenia, co w minionym czasie przyniosło plusy, a co okazało się obciążającym doświadczeniem. To moment przejścia z jednego etapu w drugi, w którym decydujemy, co ze swojej wiedzy i bagażu chcemy zabrać w dalszą drogę, a co z czystym sumieniem zostawiamy za sobą.",
+    "r": "Usiądź z kartką papieru, wypisz lekcje z ostatniego czasu, zrób uczciwy bilans i świadomie zdecyduj, co domykasz raz na zawsze.",
+    "u": "Wpadania w pułapkę pouczania innych i postawy „ja wiem lepiej”, która odcina nas od autentycznej bliskości z ludźmi.",
+    "s": "„Pozwól sobie na luksus zostawienia wczorajszych ciężarów tam, gdzie ich miejsce, by dzisiejszy dzień powitać z lżejszym sercem.”",
+    "fun": "Jaka relacja z przeszłości uczyła Cię najwięcej o tym, jak pięknie jest wreszcie wybrać swój własny spokój?"
+  },
+  "7-19": {
+    "z": "Rak",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Pionierska, iskrząca jedynka uderza z pełną siłą tuż po procesie oczyszczenia, niosąc świeżą iskrę, jasność i gotowość do działania. To moment, w którym – mając już czystą kartę i nowe przemyślenia – decydujesz się postawić wszystko na jedną kartę i zacząć od nowa. Dziś rodzą się najciekawsze pomysły i klarowność co do kolejnego celu.",
+    "r": "Zrób pierwszy, odważny krok w nowym kierunku, zdefiniuj swój najbliższy cel i zaufaj wewnętrznemu impulsowi, który popycha Cię do przodu.",
+    "u": "Zbytniego wahania się, roztrząsania przeszłości i tłumienia swojego wewnętrznego ognia.",
+    "s": "„Każdy nowy świt to obietnica, że przeszłość nie ma już nad nami władzy, jeśli tylko odważymy się zacząć od nowa.”",
+    "fun": "W jakiej sprawie Twój wewnętrzny głos domaga się dzisiaj usłyszenia: „idę w to po swojemu”?"
+  },
+  "7-20": {
+    "z": "Rak",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Wibracja dwójki wprowadza miękkość, przestrzeń na współpracę oraz moment refleksji nad drugą stroną medalu w każdej sytuacji. To dzień, w którym odkrywamy, że jedno wcale nie wyklucza drugiego, a prawdziwa siła tkwi w umiejętności słuchania swojej intuicji i budowania zdrowego partnerstwa.",
+    "r": "Posłuchaj tego, co podpowiada Ci ciało i intuicja, porozmawiaj z kimś życzliwym i spójrz na konflikt z perspektywy dwóch różnych stron.",
+    "u": "Ślepego podporządkowywania się innym oraz tłumienia własnych odczuć dla tzw. świętego spokoju.",
+    "s": "„Gdy przestajemy walczyć z odmiennym zdaniem innych, nagle dostrzegamy, że w każdej różnicy kryje się kawałek brakującej prawdy.”",
+    "fun": "Jakie najpiękniejsze, pełne akceptacji zdanie chciałabyś dzisiaj wyszeptać do swojego odbicia w lustrze?"
+  },
+  "7-21": {
+    "z": "Rak",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Barwna, twórcza trójka rozświetla dzień feerią radości, ekspresji i wewnętrznej lekkości. To moment, w którym zadajemy sobie pytanie: gdzie ostatnio zapomniałam o radości i zabawie? Trójka przypomina, że życie potrafi być piękne, jeśli tylko pozwolimy sobie na odrobinę luzu i wyrażenie siebie poprzez słowo, sztukę lub uśmiech.",
+    "r": "Zrób coś czysto dla przyjemności, porozmawiaj z kimś, kto potrafi Cię rozśmieszyć, i stwórz przestrzeń na swoją naturalną kreatywność.",
+    "u": "Nadmiernej powagi, zadręczania się emocjonalnymi dylematami i brania świata zbyt mocno na barki.",
+    "s": "„Śmiech i twórcza swoboda to najprostsze klucze do serca, które pozwalają nam z powrotem poczuć lekkość istnienia.”",
+    "fun": "Co sprawia, że na samą myśl o jakimś letnim pragnieniu Twoje serce mięknie i podskakuje z radości?"
+  },
+  "7-22": {
+    "z": "Rak",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Solidna, uziemiająca czwórka wkracza z potrzebą ładu, dyscypliny i budowania bezpiecznych struktur. To dzień, w którym zadajemy sobie pytanie o fundamenty i o to, jak wygląda nasza codzienna konsekwencja oraz planowanie. Czwórka uczy nas, że prawdziwe poczucie bezpieczeństwa w życiu rodzi się z małych, systematycznych kroków.",
+    "r": "Zrób porządek w swojej przestrzeni lub planach, zadbaj o rutynę, która Cię wspiera, i ugruntuj się w swoich działaniach.",
+    "u": "Sztywnego trzymania się planu za wszelką cenę, nadmiernego uporu oraz wpadania w pułapkę perfekcjonizmu.",
+    "s": "„Codzienna, cicha sumienność w małych sprawach buduje najtrwalsze mury wokół naszego spokoju.”",
+    "fun": "Jakie jedno obciążające zadanie możesz dzisiaj po prostu wykreślić z listy, dając sobie twarde przyzwolenie na oddech?"
+  },
+  "7-23": {
+    "z": "Lew",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Niespokojna, wolnościowa piątka przynosi powiew świeżego powietrza, zachęcając do wyjścia poza bezpieczną strefę komfortu i sprawdzenia, co kryje się za zakrętem. To czas eksperymentów, zadawania sobie pytania, co w naszym życiu wymaga pilnej zmiany oraz uważnego przyjrzenia się naszym osobistym granicom. Piątka przypomina, że rozwój potrzebuje przestrzeni na wolność i elastyczność.",
+    "r": "Zmień coś w swojej codziennej rutynie, otwórz się na nową perspektywę i pozwól sobie na odrobinę zdrowej spontaniczności.",
+    "u": "Rozpraszania swojej energii na zbyt wiele frontów naraz oraz lęku przed tym, że stracisz nad czymś pełną kontrolę.",
+    "s": "„Czasami wystarczy skręcić w zupełnie nieznaną uliczkę, by odkryć, że świat ma dla nas o wiele więcej scenariuszy, niż zakładaliśmy.”",
+    "fun": "Z jakim przestarzałym przekonaniem na temat swoich ograniczeń chcesz się dzisiaj bezpardonowo pożegnać?"
+  },
+  "7-24": {
+    "z": "Lew",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Wibracja szóstki roztacza wokół nas głęboką, ciepłą aurę domowego ogniska, etyki oraz świadomego dbania o relacje. To moment na refleksję o tym, jak dawanie ma się do brania i czy nasze ambicje nie budują się przypadkiem kosztem własnego spokoju. Szóstka uczy nas, że prawdziwa harmonia płynie z serca, które potrafi otoczyć opieką zarówno innych, jak i same siebie.",
+    "r": "Stwórz wokół siebie przytulną przestrzeń, porozmawiaj z kimś bliskim z poziomu życzliwości i zadbaj o równowagę w dawaniu wsparcia.",
+    "u": "Wchodzenia w rolę męczennika i rezygnowania z własnych granic dla świętego spokoju.",
+    "s": "„Najpiękniejszym darem, jaki możemy podarować drugiemu człowiekowi, jest nasza obecność wolna od oczekiwań i ocen.”",
+    "fun": "W którym miejscu swojego serca najbardziej potrzebujesz dzisiaj zapalić światło bezwarunkowej wyrozumiałości?"
+  },
+  "7-25": {
+    "z": "Lew",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Mistyczna, badawcza siódemka zaprasza nas do głębokiej introspekcji, ciszy i studiowania tego, co ukryte pod powierzchnią codziennych spraw. To czas, w którym zadajemy sobie pytanie o nasze głębokie wartości duchowe oraz o to, czy nie komplikujemy sobie życia nadmiernym analizowaniem. Siódemka uczy nas cennego dystansu i szacunku do własnej przestrzeni.",
+    "r": "Spędź czas w samotności na łonie natury, odłącz się od nadmiaru bodźców i poszukaj odpowiedzi w ciszy swojego serca.",
+    "u": "Zbytniego izolowania się od ludzi w chłodnym sceptycyzmie oraz poczucia, że wiesz lepiej niż inni.",
+    "s": "„Prawda nie krzyczy w tłumie – ona czeka cierpliwie w ciszy, aż odważymy się z nią spotkać sam na sam.”",
+    "fun": "Co w Tobie jest tak niezmienne i silne, że żaden zewnętrzny hałas nie jest w stanie tego naruszyć?"
+  },
+  "7-26": {
+    "z": "Lew",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Potężna wibracja ósemki przynosi energię sprawczości, konkretnych działań w świecie materii oraz rzetelnego bilansu naszych zasobów i finansów. To idealny moment, by przyjrzeć się temu, jak dbamy o swoje finanse, jak inwestujemy własną energię i czy potrafimy docenić owoce dotychczasowej pracy. Ósemka przypomina o prawie przyczyny i skutku – to, co siejemy w działaniu, zbieramy jako naszą rzeczywistość.",
+    "r": "Zadbaj o stabilne fundamenty finansowe, podejmij dojrzałą decyzję zawodową i z szacunkiem spójrz na swoje materialne oraz życiowe osiągnięcia.",
+    "u": "Bezwzględnego parcia po trupach do celu, przepracowywania się ponad miarę oraz lęku przed odniesieniem sukcesu.",
+    "s": "„Obfitość to nie tylko stan konta; to przede wszystkim poczucie wewnętrznego bogactwa i gotowość na przyjmowanie darów od życia.”",
+    "fun": "W jaki sposób dbasz o to, by Twoja siła nie zamieniała się w mur obronny odcinający Cię od czułości?"
+  },
+  "7-27": {
+    "z": "Lew",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Wibracja dziewiątki stawia nas przed lustrem podsumowań, zapraszając do zrobienia rzetelnego bilansu i sprawdzenia, co w minionym czasie przyniosło plusy, a co okazało się obciążającym doświadczeniem. To moment przejścia z jednego etapu w drugi, w którym decydujemy, co ze swojej wiedzy i bagażu chcemy zabrać w dalszą drogę, a co z czystym sumieniem zostawiamy za sobą.",
+    "r": "Usiądź z kartką papieru, wypisz lekcje z ostatniego czasu, zrób uczciwy bilans i świadomie zdecyduj, co domykasz raz na zawsze.",
+    "u": "Wpadania w pułapkę pouczania innych i postawy „ja wiem lepiej”, która odcina nas od autentycznej bliskości z ludźmi.",
+    "s": "„Gdy z szacunkiem domykamy przeszłość, robimy w sercu przestrzeń na nowe, czyste scenariusze.”",
+    "fun": "Jaki intymny akord wdzięczności wybrzmiewa w Twoim sercu na myśl o drodze, którą już przeszłaś?"
+  },
+  "7-28": {
+    "z": "Lew",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Pionierska, iskrząca jedynka uderza z pełną siłą tuż po procesie oczyszczenia, niosąc świeżą iskrę, jasność i gotowość do działania. To moment, w którym – mając już czystą kartę i nowe przemyślenia – decydujesz się postawić wszystko na jedną kartę i zacząć od nowa. Dziś rodzą się najciekawsze pomysły i klarowność co do kolejnego celu.",
+    "r": "Zrób pierwszy, odważny krok w nowym kierunku, zdefiniuj swój najbliższy cel i zaufaj wewnętrznemu impulsowi, który popycha Cię do przodu.",
+    "u": "Zbytniego wahania się, roztrząsania przeszłości i tłumienia swojego wewnętrznego ognia.",
+    "s": "„Każdy poranek to dowód na to, że wszechświat wierzy w nasze nowe początki bardziej niż my sami.”",
+    "fun": "Z jaką nową, odważną intencją chcesz wkroczyć w sam środek letniego przesilenia?"
+  },
+  "7-29": {
+    "z": "Lew",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Wibracja zredukowana do dwójki wnosi niezwykle subtelną, delikatną i głęboko relacyjną energię. To dzień, w którym zasłona między ludzkimi sercami staje się cieńsza, a intuicja podpowiada najmądrzejsze rozwiązania. Dwójka uczy nas sztuki dyplomacji, uważnego słuchania i docenienia drugiej strony medalu.",
+    "r": "Przeprowadź szczerą, pełną empatii rozmowę od serca do serca, wypij w spokoju filiżankę ulubionego naparu i zaufaj swojemu wewnętrznemu głosowi.",
+    "u": "Wchodzenia w głośne konflikty, forsowania swoich racji siłą oraz tłumienia własnych odczuć dla tzw. świętego spokoju.",
+    "s": "„Czasami najgłębszą mądrością okazuje się po prostu usiąść obok kogoś i w ciszy podzielić się własnym sercem.”",
+    "fun": "W którym momencie czujesz największy opór przed przyjęciem ciepłego gestu od kogoś bliskiego i dlaczego?"
+  },
+  "7-30": {
+    "z": "Lew",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Barwna, twórcza trójka rozświetla dzień feerią radości, ekspresji i wewnętrznej lekkości. To moment, w którym zadajemy sobie pytanie: gdzie ostatnio zapomniałam o radości i zabawie? Trójka przypomina, że życie potrafi być piękne, jeśli tylko pozwolimy sobie na odrobinę luzu i wyrażenie siebie poprzez słowo, sztukę lub uśmiech.",
+    "r": "Zrób coś czysto dla przyjemności, porozmawiaj z kimś, kto potrafi Cię rozśmieszyć, i stwórz przestrzeń na swoją naturalną kreatywność.",
+    "u": "Nadmiernej powagi, zadręczania się emocjonalnymi dylematami i brania świata zbyt mocno na barki.",
+    "s": "„Śmiech i twórcza swoboda to najprostsze klucze do serca, które pozwalają nam z powrotem poczuć lekkość istnienia.”",
+    "fun": "Jaka melodia lub zapach lata potrafi w ułamku sekundy odmienić Twój nastrój w iskrzącą radość?"
+  },
+  "7-31": {
+    "z": "Lew",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Solidna, uziemiająca czwórka zamyka lipcowy szlak z potrzebą ładu, dyscypliny i budowania bezpiecznych struktur. To dzień podsumowania, w którym zadajemy sobie pytanie o fundamenty i o to, jak wygląda nasza codzienna konsekwencja. Czwórka uczy nas, że prawdziwe poczucie stabilności w życiu rodzi się z małych, systematycznych kroków.",
+    "r": "Podsumuj lipiec z wdzięcznością, uporządkuj swoje otoczenie i zadbaj o bezpieczną przestrzeń na nadchodzący czas.",
+    "u": "Sztywnego trzymania się planu za wszelką cenę, nadmiernego uporu oraz wpadania w pułapkę perfekcjonizmu.",
+    "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+    "fun": "Co w Twoim życiu wymaga dzisiaj nie rewolucji, lecz cichej, cierpliwej i systematycznej troski o fundamenty?"
+  },
+  "8-1": {
+    "z": "Lew",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Wibracja dwójki wita nas na progu sierpnia delikatną, intuicyjną energią, która zachęca do wsłuchania się w wewnętrzny głos i zwolnienia tempa. To dzień budowania pomostów w relacjach oraz szukania bezpiecznej przystani w bezpiecznym gronie.",
+    "r": "Przeprowadź szczerą rozmowę w cztery oczy, spędź czas w spokojnej atmosferze i zaufaj swojemu cichemu przeczuciu.",
+    "u": "Hałaśliwej rywalizacji, wchodzenia w ostre spory oraz forsowania swoich racji za wszelką cenę.",
+    "s": "„Czasami największą siłą okazuje się umiejętność usiąść w ciszy i usłyszeć to, co szepcze do nas nasza intuicja.”",
+    "fun": "Co w tej chwili najbardziej potrzebuje Twojej czułej uwagi i odrobiny wewnętrznego spokoju?"
+  },
+  "8-2": {
+    "z": "Lew",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Barwna, ekspresyjna trójka rozświetla poniedziałkowy poranek feerią radości, śmiechu i naturalnej, twórczej ekspresji. To wibracja, która przypomina, że życie ma w sobie mnóstwo pięknych barw, jeśli tylko pozwolimy sobie na odrobinę luzu i spontaniczności.",
+    "r": "Zrób coś czysto dla przyjemności, wyraź siebie w dowolny sposób i poszukaj powodów do uśmiechu w najprostszych sprawach.",
+    "u": "Nadmiernej powagi, wpadania w czarne myśli oraz brania na swoje barki problemów całego świata.",
+    "s": "„Radość i uśmiech to najpiękniejsze klucze, które potrafią otworzyć każde zamknięte na klucz drzwi.”",
+    "fun": "Kiedy ostatnio pozwoliłaś sobie na beztroski śmiech i radość czysto dla samej siebie?"
+  },
+  "8-3": {
+    "z": "Lew",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Solidna, uziemiająca czwórka przynosi potrzebę porządku, stabilizacji i zadbania o bezpieczne, codzienne struktury. To dzień, w którym małe, systematyczne kroki budują fundamenty pod nasz długoterminowy spokój.",
+    "r": "Uporządkuj swoją przestrzeń, dokończ jedno zaległe zadanie i stwórz dla siebie przytulny, stabilny plan dnia.",
+    "u": "Sztywnego uporu, perfekcjonizmu oraz przytłaczania siebie zbyt dużą liczbą obowiązków naraz.",
+    "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+    "fun": "Jaki jeden mały krok możesz dziś zrobić, aby poczuć się w swoim życiu bezpieczniej i pewniej?"
+  },
+  "8-4": {
+    "z": "Lew",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Niespokojna, wolnościowa piątka wpuszcza do naszego życia powiew świeżego powietrza, zachęcając do wyjścia poza bezpieczną strefę komfortu. To czas eksperymentów, ciekawości świata i odkrywania nowych perspektyw.",
+    "r": "Zmień coś w swojej rutynie, wyjdź na spacer zupełnie nieznaną trasą lub otwórz się na inspirującą rozmowę.",
+    "u": "Kurczowego trzymania się starych schematów, lęku przed zmianą oraz rozpraszania swojej energii na zbyt wiele stron.",
+    "s": "„Życie staje się o wiele ciekawsze, gdy przestajemy bać się tego, co nieznane i nowe.”",
+    "fun": "W którym obszarze Twojego życia przydałby się teraz mały powiew świeżości i odrobina wolności?"
+  },
+  "8-5": {
+    "z": "Lew",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Ciepła wibracja szóstki roztacza wokół nas aurę domowego ogniska, harmonii oraz uważnej troski o bliskie relacje. To idealny moment, by zatroszczyć się o równowagę między dawaniem wsparcia a dbaniem o własne granice.",
+    "r": "Stwórz przytulną atmosferę w domu, porozmawiaj z kimś bliskim z poziomu serca i otocz się życzliwością.",
+    "u": "Wchodzenia w rolę męczennika i rezygnowania z siebie dla świętego spokoju innych.",
+    "s": "„Prawdziwa harmonia w relacjach rodzi się wtedy, gdy z równą miłością dbamy o innych, jak i o własne granice.”",
+    "fun": "Jak możesz dzisiaj okazać troskę i wyrozumiałość – zarówno komuś bliskiemu, jak i samej sobie?"
+  },
+  "8-6": {
+    "z": "Lew",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Mistyczna, badawcza siódemka zaprasza nas do cichego wyciszenia, odcięcia się od zgiełku świata i skierowania wzroku do wewnątrz. To czas, w którym nasza intuicja i wewnętrzna mądrość dochodzą do głosu, pomagając odnaleźć odpowiedzi ukryte pod powierzchnią codziennych spraw.",
+    "r": "Spędź chwilę w samotności na łonie natury, posłuchaj uspokajającej muzyki i pozwól sobie na mentalny odpoczynek od nadmiaru bodźców.",
+    "u": "Chłodnego sceptycyzmu, nadmiernego analizowania każdego drobiazgu oraz zbytniego izolowania się od życzliwych ludzi.",
+    "s": "„Czasami wystarczy na moment wyłączyć hałas świata, by w ciszy własnego serca odnaleźć odpowiedź, której tak długo szukaliśmy.”",
+    "fun": "Co czujesz, gdy na dłuższą chwilę odetнеш się od opinii i oczekiwań innych ludzi?"
+  },
+  "8-7": {
+    "z": "Lew",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Potężna wibracja ósemki przynosi energię sprawczości, konkretnych działań w świecie materii oraz rzetelnego podsumowania naszych zasobów. To idealny moment, by z szacunkiem i dumą spojrzeć na to, co udało nam się w życiu zbudować, a także zadbać o swoje stabilne fundamenty.",
+    "r": "Ureguluj ważne sprawy finansowe, podejmij dojrzałą decyzję zawodową i doceń owoce swojej dotychczasowej pracy.",
+    "u": "Bezwzględnego parcia do celu za wszelką cenę, przepracowywania się ponad miarę oraz lęku przed własną obfitością.",
+    "s": "„Obfitość to nie tylko stan konta; to przede wszystkim poczucie wewnętrznego bogactwa i gotowość na przyjmowanie darów od życia.”",
+    "fun": "Za jaki swój sukces – ten duży lub zupełnie cichy – możesz dzisiaj z całego serca sobie podziękować?"
+  },
+  "8-8": {
+    "z": "Lew",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Głęboka wibracja dziewiątki stawia nas przed lustrem podsumowań, zapraszając do zrobienia rzetelnego bilansu i sprawdzenia, co w minionym czasie przyniosło plusy, a co okazało się już tylko obciążającym doświadczeniem. To piękny moment przejścia, w którym decydujemy, co zostawiamy za sobą.",
+    "r": "Usiądź z kartką papieru, wypisz lekcje z ostatniego czasu i świadomie zdecyduj, co domykasz raz na zawsze, by zrobić miejsce na nowe.",
+    "u": "Wpadania w pułapkę pouczania innych, pielęgnowania dawnych żalów oraz postawy „ja wiem lepiej”.",
+    "s": "„Odpuszczenie tego, co już odeszło, to najpiękniejszy prezent, jaki możemy podarować naszej przyszłości.”",
+    "fun": "Jaki stary ciężar lub przekonanie jesteś dzisiaj gotowa z czułością wypuścić ze swoich dłoni?"
+  },
+  "8-9": {
+    "z": "Lew",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Pionierska, iskrząca jedynka uderza z pełną siłą tuż po procesie oczyszczenia, niosąc świeżą iskrę, jasność i odwagę do działania. To moment, w którym – mając już czystą kartę i nowe przemyślenia – decydujesz się postawić na siebie i zacząć od nowa.",
+    "r": "Zrób pierwszy, odważny krok w wybranym kierunku, zdefiniuj swój najbliższy cel i zaufaj wewnętrznemu impulsowi.",
+    "u": "Zbytniego wahania się, roztrząsania przeszłości i tłumienia swojego wewnętrznego ognia w obawie przed oceną.",
+    "s": "„Każdy nowy poranek to dowód na to, że wszechświat wierzy w nasze nowe początki bardziej niż my sami.”",
+    "fun": "Gdybyś nie musiała bać się absolutnie niczego, co nowego zaczęłabyś dzisiaj robić?"
+  },
+  "8-10": {
+    "z": "Lew",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Subtelna wibracja dwójki wnosi niezwykle delikatną, intuicyjną i głęboko relacyjną energię. To dzień, w którym zasłona między ludzkimi sercami staje się cieńsza, a wsłuchanie się w drugiego człowieka oraz we własną intuicję przynosi największe ukojenie.",
+    "r": "Przeprowadź szczerą, pełną empatii rozmowę od serca do serca, wypij w spokoju ulubiony napar i zaufaj swojemu wewnętrznemu głosowi.",
+    "u": "Wchodzenia w głośne konflikty, forsowania swoich racji siłą oraz rezygnowania z siebie dla tzw. świętego spokoju.",
+    "s": "„Czasami najgłębszą mądrością okazuje się po prostu usiąść obok kogoś i w ciszy podzielić się własnym sercem.”",
+    "fun": "Co Twoja intuicja szepcze Ci dzisiaj w sprawie, która od dłuższego czasu nie daje Ci spokoju?"
+  },
+  "8-11": {
+    "z": "Lew",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Barwna, ekspresyjna trójka rozświetla dzień feerią radości, śmiechu i naturalnej, twórczej ekspresji. To wibracja, która przypomina, że życie ma w sobie mnóstwo pięknych barw, jeśli tylko pozwolimy sobie na odrobinę luzu i spontaniczności.",
+    "r": "Zrób coś czysto dla przyjemności, wyraź siebie w dowolny sposób i poszukaj powodów do uśmiechu w najprostszych sprawach.",
+    "u": "Nadmiernej powagi, wpadania w czarne myśli oraz brania na swoje barki problemów całego świata.",
+    "s": "„Radość i uśmiech to najpiękniejsze klucze, które potrafią otworzyć każde zamknięte na klucz drzwi.”",
+    "fun": "Co dzisiaj mogłoby wywołać na Twojej twarzy uśmiech i przynieść odrobinę dziecięcej beztroski?"
+  },
+  "8-12": {
+    "z": "Lew",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Solidna, uziemiająca czwórka przynosi potrzebę porządku, stabilizacji i zadbania o bezpieczne, codzienne struktury. To dzień, w którym małe, systematyczne kroki budują fundamenty pod nasz długoterminowy spokój.",
+    "r": "Uporządkuj swoją przestrzeń, dokończ jedno zaległe zadanie i stwórz dla siebie przytulny, stabilny plan dnia.",
+    "u": "Sztywnego uporu, perfekcjonizmu oraz przytłaczania siebie zbyt dużą liczbą obowiązków naraz.",
+    "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+    "fun": "Jaki jeden mały, czuły gest porządku możesz dzisiaj wykonać dla swojej przestrzeni i swojego spokoju?"
+  },
+  "8-13": {
+    "z": "Lew",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Niespokojna, wolnościowa piątka wpuszcza do naszego życia powiew świeżego powietrza, zachęcając do wyjścia poza bezpieczną strefę komfortu. To czas eksperymentów, ciekawości świata i odkrywania nowych perspektyw.",
+    "r": "Zmień coś w swojej rutynie, wyjdź na spacer zupełnie nieznaną trasą lub otwórz się na inspirującą rozmowę.",
+    "u": "Kurczowego trzymania się starych schematów, lęku przed zmianą oraz rozpraszania swojej energii na zbyt wiele stron.",
+    "s": "„Życie staje się o wiele ciekawsze, gdy przestajemy bać się tego, co nieznane i nowe.”",
+    "fun": "Na jaką nową przygodę lub zmianę perspektywy czeka cicho Twoja ciekawość świata?"
+  },
+  "8-14": {
+    "z": "Lew",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Ciepła wibracja szóstki roztacza wokół nas aurę domowego ogniska, harmonii oraz uważnej troski o bliskie relacje. To idealny moment, by zatroszczyć się o równowagę między dawaniem wsparcia a dbaniem o własne granice.",
+    "r": "Stwórz przytulną atmosferę w domu, porozmawiaj z kimś bliskim z poziomu serca i otocz się życzliwością.",
+    "u": "Wchodzenia w rolę męczennika i rezygnowania z siebie dla świętego spokoju innych.",
+    "s": "„Prawdziwa harmonia w relacjach rodzi się wtedy, gdy z równą miłością dbamy o innych, jak i o własne granice.”",
+    "fun": "W jaki sposób możesz dzisiaj postawić zdrową granicę z miłością do samej siebie?"
+  },
+  "8-15": {
+    "z": "Lew",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Mistyczna, badawcza siódemka zaprasza nas do cichego wyciszenia, odcięcia się od zgiełku świata i skierowania wzroku do wewnątrz. To czas, w którym nasza intuicja i wewnętrzna mądrość dochodzą do głosu.",
+    "r": "Spędź chwilę w samotności na łonie natury, posłuchaj uspokajającej muzyki i pozwól sobie na mentalny odpoczynek.",
+    "u": "Chłodnego sceptycyzmu, nadmiernego analizowania każdego drobiazgu oraz zbytniego izolowania się od życzliwych ludzi.",
+    "s": "„Czasami wystarczy na moment wyłączyć hałas świata, by w ciszy własnego serca odnaleźć odpowiedź, której tak długo szukaliśmy.”",
+    "fun": "Co szepcze do Ciebie Twoja intuicja, gdy na chwilę odetniesz się od zewnętrznych oczekiwań?"
+  },
+  "8-16": {
+    "z": "Lew",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Potężna wibracja ósemki przynosi energię sprawczości, konkretnych działań w świecie materii oraz rzetelnego podsumowania naszych zasobów. To idealny moment, by z szacunkiem spojrzeć na to, co udało nam się w życiu zbudować, i zadbać o swoje stabilne fundamenty.",
+    "r": "Ureguluj ważne sprawy finansowe, podejmij dojrzałą decyzję zawodową i doceń owoce swojej dotychczasowej pracy.",
+    "u": "Bezwzględnego parcia do celu za wszelką cenę, przepracowywania się ponad miarę oraz lęku przed własną obfitością.",
+    "s": "„Obfitość to nie tylko stan konta; to przede wszystkim poczucie wewnętrznego bogactwa i gotowość na przyjmowanie darów od życia.”",
+    "fun": "Jakie owoce swojej dotychczasowej pracy możesz dzisiaj z dumą i uznaniem przytulić do serca?"
+  },
+  "8-17": {
+    "z": "Lew",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Głęboka wibracja dziewiątki stawia nas przed lustrem podsumowań, zapraszając do zrobienia rzetelnego bilansu i sprawdzenia, co w minionym czasie przyniosło plusy, a co okazało się już tylko obciążającym doświadczeniem. To piękny moment przejścia, w którym decydujesz, co zostawiasz za sobą.",
+    "r": "Usiądź z kartką papieru, wypisz lekcje z ostatniego czasu i świadomie zdecyduj, co domykasz raz na zawsze, by zrobić miejsce na nowe.",
+    "u": "Wpadania w pułapkę pouczania innych, pielęgnowania dawnych żalów oraz postawy „ja wiem lepiej”.",
+    "s": "„Odpuszczenie tego, co już odeszło, to najpiękniejszy prezent, jaki możemy podarować naszej przyszłości.”",
+    "fun": "Który rozdział Twojego życia domaga się już cichego, spokojnego zamknięcia, by przestać zabierać Ci cenną energię?"
+  },
+  "8-18": {
+    "z": "Lew",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Pionierska, iskrząca jedynka uderza z pełną siłą tuż po procesie oczyszczenia, niosąc świeżą iskrę, jasność i odwagę do działania. To moment, w którym – mając już czystą kartę i nowe przemyślenia – decydujesz się postawić na siebie i zacząć od nowa.",
+    "r": "Zrób pierwszy, odważny krok w wybranym kierunku, zdefiniuj swój najbliższy cel i zaufaj wewnętrznemu impulsowi.",
+    "u": "Zbytniego wahania się, roztrząsania przeszłości i tłumienia swojego wewnętrznego ognia w obawie przed oceną.",
+    "s": "„Każdy nowy poranek to dowód na to, że wszechświat wierzy w nasze nowe początki bardziej niż my sami.”",
+    "fun": "Jaki pierwszy, maleńki krok do przodu sprawi, że poczujesz wiatr we własnych żaglach?"
+  },
+  "8-19": {
+    "z": "Lew",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Subtelna wibracja dwójki wnosi niezwykle delikatną, intuicyjną i głęboko relacyjną energię. To dzień, w którym zasłona między ludzkimi sercami staje się cieńsza, a wsłuchanie się w drugiego człowieka oraz we własną intuicję przynosi największe ukojenie.",
+    "r": "Przeprowadź szczerą, pełną empatii rozmowę od serca do serca, wypij w spokoju ulubiony napar i zaufaj swojemu wewnętrznemu głosowi.",
+    "u": "Wchodzenia w głośne konflikty, forsowania swoich racji siłą oraz rezygnowania z siebie dla tzw. świętego spokoju.",
+    "s": "„Czasami najgłębszą mądrością okazuje się po prostu usiąść obok kogoś i w ciszy podzielić się własnym sercem.”",
+    "fun": "Kto w Twoim otoczeniu potrzebuje dzisiaj Twojej cichej, ciepłej obecności bez żadnych rad i ocen?"
+  },
+  "8-20": {
+    "z": "Lew",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Barwna, ekspresyjna trójka rozświetla dzień feerią radości, śmiechu i naturalnej, twórczej ekspresji. To wibracja, która przypomina, że życie ma w sobie mnóstwo pięknych barw, jeśli tylko pozwolimy sobie na odrobinę luzu i spontaniczności.",
+    "r": "Zrób coś czysto dla przyjemności, wyraź siebie w dowolny sposób i poszukaj powodów do uśmiechu w najprostszych sprawach.",
+    "u": "Nadmiernej powagi, wpadania w czarne myśli oraz brania na swoje barki problemów całego świata.",
+    "s": "„Radość i uśmiech to najpiękniejsze klucze, które potrafią otworzyć każde zamknięte na klucz drzwi.”",
+    "fun": "W jaki sposób możesz dzisiaj pozwolić swojej kreatywności i wewnętrznemu dziecku dojść do głosu?"
+  },
+  "8-21": {
+    "z": "Lew",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Solidna, uziemiająca czwórka przynosi potrzebę porządku, stabilizacji i zadbania o bezpieczne, codzienne struktury. To dzień, w którym małe, systematyczne kroki budują fundamenty pod nasz długoterminowy spokój.",
+    "r": "Uporządkuj swoją przestrzeń, dokończ jedno zaległe zadanie i stwórz dla siebie przytulny, stabilny plan dnia.",
+    "u": "Sztywnego uporu, perfekcjonizmu oraz przytłaczania siebie zbyt dużą liczbą obowiązków naraz.",
+    "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+    "fun": "Który element Twojej codzienności wymaga teraz łagodnego ułożenia, by przestać Cię przytłaczać?"
+  },
+  "8-22": {
+    "z": "Lew",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Niespokojna, wolnościowa piątka wpuszcza do naszego życia powiew świeżego powietrza, zachęcając do wyjścia poza bezpieczną strefę komfortu. To czas eksperymentów, ciekawości świata i odkrywania nowych perspektyw.",
+    "r": "Zmień coś w swojej rutynie, wyjdź na spacer zupełnie nieznaną trasą lub otwórz się na inspirującą rozmowę.",
+    "u": "Kurczowego trzymania się starych schematów, lęku przed zmianą oraz rozpraszania swojej energii na zbyt wiele stron.",
+    "s": "„Życie staje się o wiele ciekawsze, gdy przestajemy bać się tego, co nieznane i nowe.”",
+    "fun": "W jakiej dziedzinie życia czujesz największą ochotę na zrzucenie dawnych ograniczeń i oddech pełną piersią?"
+  },
+  "8-23": {
+    "z": "Panna",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Ciepła wibracja szóstki roztacza wokół nas aurę domowego ogniska, harmonii oraz uważnej troski o bliskie relacje. To idealny moment, by zatroszczyć się o równowagę między dawaniem wsparcia a dbaniem o własne granice.",
+    "r": "Stwórz przytulną atmosferę w domu, porozmawiaj z kimś bliskim z poziomu serca i otocz się życzliwością.",
+    "u": "Wchodzenia w rolę męczennika i rezygnowania z siebie dla świętego spokoju innych.",
+    "s": "„Prawdziwa harmonia w relacjach rodzi się wtedy, gdy z równą miłością dbamy o innych, jak i o własne granice.”",
+    "fun": "Jakie dobrodziejstwo płynące z domowego ciepła i spokoju możesz dzisiaj podarować samej sobie?"
+  },
+  "8-24": {
+    "z": "Panna",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Mistyczna, badawcza siódemka zaprasza nas do cichego wyciszenia, odcięcia się od zgiełku świata i skierowania wzroku do wewnątrz. To czas, w którym nasza intuicja i wewnętrzna mądrość dochodzą do głosu.",
+    "r": "Spędź chwilę w samotności na łonie natury, posłuchaj uspokajającej muzyki i pozwól sobie na mentalny odpoczynek.",
+    "u": "Chłodnego sceptycyzmu, nadmiernego analizowania każdego drobiazgu oraz zbytniego izolowania się od życzliwych ludzi.",
+    "s": "„Czasami wystarczy na moment wyłączyć hałas świata, by w ciszy własnego serca odnaleźć odpowiedź, której tak długo szukaliśmy.”",
+    "fun": "Jaka ukryta dotąd odpowiedź czeka na Ciebie w bezpiecznej ciszy Twoich myśli?"
+  },
+  "8-25": {
+    "z": "Panna",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Potężna wibracja ósemki przynosi energię sprawczości, konkretnych działań w świecie materii oraz rzetelnego podsumowania naszych zasobów. To idealny moment, by z szacunkiem spojrzeć na to, co udało nam się w życiu zbudować, i zadbać o swoje stabilne fundamenty.",
+    "r": "Ureguluj ważne sprawy finansowe, podejmij dojrzałą decyzję zawodową i doceń owoce swojej dotychczasowej pracy.",
+    "u": "Bezwzględnego parcia do celu za wszelką cenę, przepracowywania się ponad miarę oraz lęku przed własną obfitością.",
+    "s": "„Obfitość to nie tylko stan konta; to przede wszystkim poczucie wewnętrznego bogactwa i gotowość na przyjmowanie darów od życia.”",
+    "fun": "Jakie poczucie wewnętrznej siły i stabilności towarzyszy Ci, gdy spoglądasz na swoją dotychczasową drogę?"
+  },
+  "8-26": {
+    "z": "Panna",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Głęboka wibracja dziewiątki stawia nas przed lustrem podsumowań, zapraszając do zrobienia rzetelnego bilansu i sprawdzenia, co w minionym czasie przyniosło plusy, a co okazało się już tylko obciążającym doświadczeniem. To piękny moment przejścia, w którym decydujesz, co zostawiasz za sobą.",
+    "r": "Usiądź z kartką papieru, wypisz lekcje z ostatniego czasu i świadomie zdecyduj, co domykasz raz na zawsze, by zrobić miejsce na nowe.",
+    "u": "Wpadania w pułapkę pouczania innych, pielęgnowania dawnych żalów oraz postawy „ja wiem lepiej”.",
+    "s": "„Odpuszczenie tego, co już odeszło, to najpiękniejszy prezent, jaki możemy podarować naszej przyszłości.”",
+    "fun": "Jaką jedną cenną lekcję z minionych tygodni zabierasz ze sobą z wdzięcznością w dalszą drogę?"
+  },
+  "8-27": {
+    "z": "Panna",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Pionierska, iskrząca jedynka uderza z pełną siłą tuż po procesie oczyszczenia, niosąc świeżą iskrę, jasność i odwagę do działania. To moment, w którym – mając już czystą kartę i nowe przemyślenia – decydujesz się postawić na siebie i zacząć od nowa.",
+    "r": "Zrób pierwszy, odważny krok w wybranym kierunku, zdefiniuj swój najbliższy cel i zaufaj wewnętrznemu impulsowi.",
+    "u": "Zbytniego wahania się, roztrząsania przeszłości i tłumienia swojego wewnętrznego ognia w obawie przed oceną.",
+    "s": "„Każdy nowy poranek to dowód na to, że wszechświat wierzy w nasze nowe początki bardziej niż my sami.”",
+    "fun": "Do jakiego nowego pragnienia Twojego serca wszechświat otwiera dzisiaj szeroko drzwi?"
+  },
+  "8-28": {
+    "z": "Panna",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Subtelna wibracja dwójki wnosi niezwykle delikatną, intuicyjną i głęboko relacyjną energię. To dzień, w którym zasłona między ludzkimi sercami staje się cieńsza, a wsłuchanie się w drugiego człowieka oraz we własną intuicję przynosi największe ukojenie.",
+    "r": "Przeprowadź szczerą, pełną empatii rozmowę od serca do serca, wypij w spokoju ulubiony napar i zaufaj swojemu wewnętrznemu głosowi.",
+    "u": "Wchodzenia w głośne konflikty, forsowania swoich racji siłą oraz rezygnowania z siebie dla tzw. świętego spokoju.",
+    "s": "„Czasami najgłębszą mądrością okazuje się po prostu usiąść obok kogoś i w ciszy podzielić się własnym sercem.”",
+    "fun": "Jak możesz dzisiaj okazać sobie czułość w miejscach, które dawno nie były przytulone?"
+  },
+  "8-29": {
+    "z": "Panna",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Barwna, ekspresyjna trójka rozświetla dzień feerią radości, śmiechu i naturalnej, twórczej ekspresji. To wibracja, która przypomina, że życie ma w sobie mnóstwo pięknych barw, jeśli tylko pozwolimy sobie na odrobinę luzu i spontaniczności.",
+    "r": "Zrób coś czysto dla przyjemności, wyraź siebie w dowolny sposób i poszukaj powodów do uśmiechu w najprostszych sprawach.",
+    "u": "Nadmiernej powagi, wpadania w czarne myśli oraz brania na swoje barki problemów całego świata.",
+    "s": "„Radość i uśmiech to najpiękniejsze klucze, które potrafią otworzyć każde zamknięte na klucz drzwi.”",
+    "fun": "Jaki twórczy impuls lub mała radość sprawią, że Twój dzień nabierze wyjątkowych barw?"
+  },
+  "8-30": {
+    "z": "Panna",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Solidna, uziemiająca czwórka przynosi potrzebę porządku, stabilizacji i zadbania o bezpieczne, codzienne struktury. To dzień, w którym małe, systematyczne kroki budują fundamenty pod nasz długoterminowy spokój.",
+    "r": "Uporządkuj swoją przestrzeń, dokończ jedno zaległe zadanie i stwórz dla siebie przytulny, stabilny plan dnia.",
+    "u": "Sztywnego uporu, perfekcjonizmu oraz przytłaczania siebie zbyt dużą liczbą obowiązków naraz.",
+    "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+    "fun": "W jaki sposób możesz dzisiaj otulić poczuciem bezpieczeństwa to, co w Twoim życiu jest najbardziej delikatne?"
+  },
+  "8-31": {
+    "z": "Panna",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Niespokojna, wolnościowa piątka zamyka sierpniowy szlak powiewem świeżego powietrza, zachęcając do spojrzenia wstecz z wdzięcznością i otwarcia się na to, co przyniesie jesień. To czas radosnego pożegnania lata i docenienia własnej drogi.",
+    "r": "Podsumuj sierpień z uśmiechem, wyjdź na pożegnalny, letni spacer i podziękuj sobie za każdą chwilę odwagi.",
+    "u": "Lęku przed nadchodzącymi zmianami oraz kurczowego trzymania się tego, co już odeszło.",
+    "s": "„Każde zakończenie to tak naprawdę cichy szept wszechświata, że czas napisać kolejny, piękny rozdział.”",
+    "fun": "Za co z całego serca chcesz podziękować temu letniemu miesiącowi, zanim zamkniesz jego drzwi?"
+  },
+  "9-1": {
+    "z": "Panna",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Barwna, ekspresyjna trójka wita nas na progu września feerią radości, śmiechu i naturalnej, twórczej ekspresji. To wibracja, która przypomina, że nawet wchodząc w nowy, bardziej refleksyjny miesiąc, warto zachować w sercu lekkość, uśmiech i gotowość do dzielenia się dobrą energią z innymi.",
+    "r": "Zrób coś czysto dla przyjemności, porozmawiaj z kimś, kto potrafi Cię zainspirować, i wyraź siebie w dowolny, twórczy sposób.",
+    "u": "Nadmiernej powagi, wpadania w czarne myśli oraz brania na swoje barki problemów całego świata.",
+    "s": "„Radość i uśmiech to najpiękniejsze klucze, które potrafią otworzyć każde zamknięte na klucz drzwi.”",
+    "fun": "Co dzisiaj mogłoby wywołać uśmiech na Twojej twarzy i wnieść odrobinę radosnej lekkości w pierwszy dzień września?"
+  },
+  "9-2": {
+    "z": "Panna",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Solidna, uziemiająca czwórka wkracza z potrzebą ładu, dyscypliny i budowania bezpiecznych struktur na nadchodzący miesiąc. To dzień, w którym małe, systematyczne kroki oraz troska o uporządkowanie codzienności pomagają nam poczuć stabilny grunt pod nogami.",
+    "r": "Zadbaj o swoją przestrzeń, zaplanuj najbliższe zadania w spokojnym tempie i dokończ jedną zaległą sprawę, która da Ci ulgę.",
+    "u": "Sztywnego uporu, perfekcjonizmu oraz przytłaczania siebie zbyt dużą liczbą obowiązków naraz.",
+    "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+    "fun": "Jaki jeden mały, czuły gest porządku możesz dzisiaj wykonać dla swojej przestrzeni i swojego wewnętrznego spokoju?"
+  },
+  "9-3": {
+    "z": "Panna",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Niespokojna, wolnościowa piątka wpuszcza do naszego życia powiew świeżego powietrza, zachęcając do wyjścia poza bezpieczną strefę komfortu i spojrzenia na sprawy z zupełnie nowej perspektywy. To czas ciekawości świata i poszukiwania elastyczności.",
+    "r": "Zmień coś w swojej rutynie, wyjdź na spacer zupełnie nieznaną trasą lub otwórz się na inspirującą, szczerą rozmowę.",
+    "u": "Kurczowego trzymania się starych schematów, lęku przed zmianą oraz rozpraszania swojej energii na zbyt wiele stron.",
+    "s": "„Życie staje się o wiele ciekawsze, gdy przestajemy bać się tego, co nieznane i nowe.”",
+    "fun": "W jakiej dziedzinie życia czujesz największą ochotę na zrzucenie dawnych ograniczeń i oddech pełną piersią?"
+  },
+  "9-4": {
+    "z": "Panna",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Ciepła wibracja szóstki roztacza wokół nas aurę domowego ogniska, harmonii oraz uważnej troski o bliskie relacje. To idealny moment, by zatroszczyć się o równowagę między dawaniem wsparcia innym a czułym stawianiem własnych granic.",
+    "r": "Stwórz przytulną atmosferę w domu, porozmawiaj z kimś bliskim z poziomu serca i otocz się życzliwością.",
+    "u": "Wchodzenia w rolę męczennika i rezygnowania z siebie dla świętego spokoju otoczenia.",
+    "s": "„Prawdziwa harmonia w relacjach rodzi się wtedy, gdy z równą miłością dbamy o innych, jak i o własne granice.”",
+    "fun": "Jakie dobrodziejstwo płynące z domowego ciepła i spokoju możesz dzisiaj podarować samej sobie?"
+  },
+  "9-5": {
+    "z": "Panna",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Mistyczna, badawcza siódemka zaprasza nas do cichego wyciszenia, odcięcia się od zgiełku świata i skierowania wzroku do wewnątrz. To czas, w którym nasza intuicja i wewnętrzna mądrość dochodzą do głosu, przynosząc upragnione ukojenie.",
+    "r": "Spędź chwilę w samotności, posłuchaj uspokajającej ciszy lub delikatnej muzyki i pozwól sobie na mentalny odpoczynek.",
+    "u": "Chłodnego sceptycyzmu, nadmiernego analizowania każdego drobiazgu oraz zbytniego izolowania się od życzliwych ludzi.",
+    "s": "„Czasami wystarczy na moment wyłączyć hałas świata, by w ciszy własnego serca odnaleźć odpowiedź, której tak długo szukaliśmy.”",
+    "fun": "Jaka ukryta dotąd odpowiedź czeka na Ciebie w bezpiecznej ciszy Twoich własnych myśli?"
+  },
+  "9-6": {
+    "z": "Panna",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Dostojna, sprawcza ósemka wkracza z energią wewnętrznej siły, dojrzałości i mądrego zarządzania tym, co już w życiu osiągnęłyśmy. To dzień, w którym materia spotyka się z duchem, pokazując nam, że prawdziwa obfitość zaczyna się od poczucia szacunku do własnych talentów i wysiłku.",
+    "r": "Zadbaj o stabilne fundamenty swoich spraw, podejmij odważną, dorosłą decyzję i spójrz na swoje dotychczasowe osiągnięcia z dumą, a nie surową oceną.",
+    "u": "Bezwzględnego parcia do przodu kosztem własnego zdrowia, przepracowywania się oraz wpadania w pułapkę ciągłego udowadniania czegoś światu.",
+    "s": "„Prawdziwe bogactwo to cicha pewność siebie, która rodzi się wtedy, gdy doceniamy każdy krok stawiany we własnej intencji.”",
+    "fun": "Jakie swoje dotychczasowe osiągnięcie możesz dzisiaj przytulić z wdzięcznością, uznając je za swój osobisty sukces?"
+  },
+  "9-7": {
+    "z": "Panna",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Głęboka, transformująca dziewiątka otwiera przed nami przestrzeń na miękkie domknięcie i oczyszczenie. To wibracja, która uczy nas sztuki pożegnań – nie ze smutkiem, lecz z wdzięcznością za lekcje, jakie przyniosły nam minione doświadczenia, byśmy mogły ruszyć dalej z lżejszym sercem.",
+    "r": "Zrób porządek w emocjach lub w fizycznej przestrzeni, spisz na kartce to, co chcesz zostawić za sobą, i pozwól sobie na chwilę wzruszenia oraz ulgi.",
+    "u": "Kurczowego trzymania się tego, co dawno straciło już swój blask, oraz wchodzenia w rolę kogoś, kto musi zbawić cały świat.",
+    "s": "„Najlżejszy bagaż w dalszą drogę niesie ten, kto potrafi z czułością zamknąć drzwi do przeszłości i podziękować za to, co już mija.”",
+    "fun": "Która z minionych historii w Twoim życiu szepcze Ci dzisiaj: „już czas, możesz mnie puścić”?"
+  },
+  "9-8": {
+    "z": "Panna",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Świeża, iskrząca jedynka rozbłyska niczym pierwszy promień słońca po burzowej nocy. To potężny impuls czystej karty – moment, w którym przeszłość zostaje za nami, a w naszych dłoniach pojawia się niezwykła, niczym niezmącona moc tworzenia nowego początku.",
+    "r": "Zrób pierwszy, odważny krok w stronę swojego marzenia, odważnie zdefiniuj to, czego pragniesz dla siebie, i zaufaj swojemu wewnętrznemu ogniowi.",
+    "u": "Oglądania się za siebie, wątpienia w swoje możliwości oraz tłumienia głosu intuicji przez lęk przed tym, co powiedzą inni.",
+    "s": "„Każdy świt jest dowodem na to, że wszechświat stale daje nam szansę na napisanie naszej opowieści na nowo.”",
+    "fun": "Gdyby nikt Cię teraz nie oceniał, jaką odważną decyzję podjęłabyś dla samej siebie jeszcze dzisiaj?"
+  },
+  "9-9": {
+    "z": "Panna",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Otulająca, niezwykle empatyczna dwójka wnosi do naszej codzienności zapach spokoju, ciszy i bliskości. To dzień, w którym relacje z drugim człowiekiem – a przede wszystkim z samym sobą – zyskują najgłębszy, uzdrawiający wymiar.",
+    "r": "Usiądź w bezpiecznym kąciku z kubkiem ulubionej herbaty, otocz ciepłem kogoś bliskiego lub podaruj sobie samą wyrozumiałość w trudniejszym momencie.",
+    "u": "Forsowania czegokolwiek siłą, ulegania presji otoczenia oraz duszenia w sobie emocji dla tzw. świętego spokoju.",
+    "s": "„Czasami najwspanialszą odpowiedzią na hałas świata jest czuła obecność kogoś, kto rozumie nas bez ani jednego słowa.”",
+    "fun": "Jaką czułą przestrzeń możesz dzisiaj stworzyć dla swojego zmęczonego serca?"
+  },
+  "9-10": {
+    "z": "Panna",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Barwna, radosna trójka maluje dzisiejszy dzień wszystkimi odcieniami uśmiechu, twórczej ekspresji i wewnętrznej swobody. To moment, w którym codzienne obowiązki ustępują miejsca lekkości, tańcu, sztuce i czystej radości z istnienia.",
+    "r": "Zrób coś całkowicie bezcelowego, ale dającego mnóstwo frajdy – zaśpiewaj, napisz kilka słów od serca, wyjdź na spacer i zachwyć się prostotą otaczającego świata.",
+    "u": "Popadania w nadmierną powagą, analizowania każdego błędu oraz brania na swoje barki ciężarów, które do Ciebie nie należą.",
+    "s": "„Radość nie jest luksusem; to naturalny stan duszy, która przypomina nam, jak pięknie jest po prostu żyć.”",
+    "fun": "Co sprawi, że na Twojej twarzy zagości dzisiaj szczery, niczym niezmącony uśmiech dziecka?"
+  },
+  "9-11": {
+    "z": "Panna",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Solidna, uziemiająca czwórka przynosi dzisiaj niezwykle potrzebny spokój, harmonię opartą na porządku oraz poczucie, że stabilne fundamenty buduje się z małych, codziennych gestów. To dzień, w którym nasza uwaga naturalnie wędruje ku temu, co daje nam poczucie bezpieczeństwa i życiowej stabilności.",
+    "r": "Zadbaj o swoją fizyczną przestrzeń, ułóż luźne plany w przejrzystą całość i wykonaj jedno sumienne zadanie, które przyniesie Ci ulgę.",
+    "u": "Sztywnego trzymania się zasad kosztem elastyczności, perfekcjonizmu oraz przytłaczania się nadmiarem obowiązków.",
+    "s": "„Prawdziwy spokój rodzi się tam, gdzie z czułą cierpliwością dbamy o codzienne, ciche fundamenty naszego świata.”",
+    "fun": "Jaki jeden mały krok możesz dzisiaj wykonać, aby Twoja codzienność stała się dla Ciebie bezpieczniejszą i bardziej wspierającą przystanią?"
+  },
+  "9-12": {
+    "z": "Panna",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Niespokojna, wolnościowa piątka wpuszcza do naszej rzeczywistości powiew świeżego powietrza, zachęcając do wyjścia poza utarte schematy i otwarcia się na zupełnie nowe doświadczenia. To czas, w którym nasza ciekawość świata szuka dróg do poszerzenia horyzontów.",
+    "r": "Zmień coś w swojej rutynie – choćby trasę spaceru lub sposób spędzenia popołudnia – i pozwól sobie na odrobinę zdrowej, radosnej spontaniczności.",
+    "u": "Lęku przed tym, co nieznane, kurczowego trzymania się dawnych przyzwyczajeń oraz rozpraszania uwagi na zbyt wiele różnych stron.",
+    "s": "„Życie nabiera najpiękniejszych barw wtedy, gdy przestajemy bać się zakrętów i z ciekawością zaglądamy za kolejne wzgórze.”",
+    "fun": "W jakim obszarze swojego życia czujesz największą gotowość na zrzucenie starych ograniczeń i głęboki wdech pełną piersią?"
+  },
+  "9-13": {
+    "z": "Panna",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Ciepła, opiekuńcza wibracja szóstki otula nas niczym miękki pled w chłodniejszy poranek, kierując całą uwagę ku sercu, domowemu ognisku i bliskim relacjom. To idealny moment na budowanie mostów zrozumienia i otulenie życzliwością zarówno innych, jak i samej siebie.",
+    "r": "Stwórz wokół siebie przytulną atmosferę, porozmawiaj z kimś bliskim z poziomu czystej empatii i podaruj sobie chwilę zasłużonego odpoczynku.",
+    "u": "Wchodzenia w rolę ratownika kosztem własnych sił, rezygnowania z osobistych granic oraz brania na siebie cudzych ciężarów.",
+    "s": "„Najpiękniejszym domem, o jaki możemy dbać każdego dnia, jest przestrzeń spokojnego, otwartego na miłość serca.”",
+    "fun": "Jak możesz dzisiaj okazać sobie samą czułość w miejscu, które najbardziej domaga się Twojej wyrozumiałości?"
+  },
+  "9-14": {
+    "z": "Panna",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Mistyczna, badawcza siódemka zaprasza nas do świętej przestrzeni ciszy, refleksji i bezpiecznego oddalenia się od zgiełku świata. To wibracja, która przypomina, że najcenniejsze odpowiedzi nigdy nie znikają – czekają po prostu cierpliwie, aż odważymy się usłyszeć własny wewnętrzny głos.",
+    "r": "Spędź trochę czasu w samotności, wsłuchaj się w szum przyrody lub odłącz się na kilka godzin od ekranów i powiadomień.",
+    "u": "Chłodnego sceptycyzmu, nadmiernego analizowania przeszłych zdarzeń oraz zbytniego odsuwania się od ludzi, którzy darzą Cię szczerym ciepłem.",
+    "s": "„Prawda nie potrzebuje krzyku – ona rozkwita najpiękniej w cichej i bezpiecznej przestrzeni naszej własnej duszy.”",
+    "fun": "Co szepcze do Ciebie Twoja intuicja w tej ciszy, gdy na moment odetnasz się od oczekiwań całego świata?"
+  },
+  "9-15": {
+    "z": "Panna",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Potężna, dojrzała ósemka przynosi energię sprawczości, konkretnych owoców naszej pracy oraz mądrego zarządzania wewnętrzną i zewnętrzną obfitością. To dzień, w którym bierzemy stery w swoje ręce, pamiętając, że nasza siła wypływa z szacunku do własnych wysiłków.",
+    "r": "Podejmij dojrzałą decyzję dotyczącą swoich planów, ureguluj zaległe sprawy materialne i z dumą spójrz na to, co udało Ci się w życiu zbudować.",
+    "u": "Bezwzględnego parcia do przodu za wszelką cenę, przepracowywania się ponad miarę oraz surowego, bezwzględnego rozliczania samej siebie.",
+    "s": "„Prawdziwa obfitość to nie tylko materialny sukces; to przede wszystkim głębokie poczucie własnej wartości i zgoda na przyjmowanie darów od losu.”",
+    "fun": "Za jaki swój sukces – nawet ten najcichszy i najbardziej ukryty przed światem – możesz dzisiaj z całego serca sobie podziękować?"
+  },
+  "9-16": {
+    "z": "Panna",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Głęboka, transformująca dziewiątka zaprasza nas do cichego podsumowania i łagodnego domknięcia tego, co w minionym czasie dobiegło końca. To moment, w którym – zdejmując z ramion zbędny bagaż – robimy w sercu czystą przestrzeń na nowe, lżejsze scenariusze.",
+    "r": "Usiądź w ciszy z kartką papieru, spisz to, co chcesz pożegnać, i z pełną wdzięcznością podziękuj za lekcje, które wniosły te doświadczenia do Twojego życia.",
+    "u": "Kurczowego trzymania się dawnych żalów, wchodzenia w rolę zbawiciela innych oraz tłumienia swoich emocji.",
+    "s": "„Pozwól sobie na luksus zostawienia wczorajszych ciężarów tam, gdzie ich miejsce, by dzisiejszy dzień powitać z lżejszym i spokojniejszym sercem.”",
+    "fun": "Jaki stary ciężar lub przestarzałe przekonanie jesteś dzisiaj gotowa z czułością wypuścić ze swoich dłoni?"
+  },
+  "9-17": {
+    "z": "Panna",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Iskrząca, pionierska jedynka przynosi powiew świeżej energii, jasność intencji i odwagę do postawienia pierwszego kroku na nowej ścieżce. To czysta, niczym niezmącona karta, która szepcze, że nigdy nie jest za późno, by zacząć od nowa.",
+    "r": "Zdefiniuj swój nowy, mały cel, zrób coś w kierunku swoich marzeń i zaufaj wewnętrznemu impulsowi, który popycha Cię do przodu.",
+    "u": "Rozpamiętywania przeszłości, zwlekania z podjęciem decyzji oraz lęku przed tym, co powiedzą inni.",
+    "s": "„Każdy nowy poranek to obietnica, że przeszłość nie ma nad nami władzy, jeśli tylko odważymy się otworzyć drzwi do tego, co przed nami.”",
+    "fun": "Gdybyś wiedziała, że nie możesz ponieść porażki, jaki odważny krok zrobiłabyś dzisiaj dla samej siebie?"
+  },
+  "9-18": {
+    "z": "Panna",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Subtelna, otulająca dwójka wnosi do naszej codzienności zapach spokoju, empatii i głębokiego wsłuchania się w drugiego człowieka oraz we własną intuicję. To dzień, w którym najpiękniejsze odpowiedzi rodzą się w ciszy i łagodnej bliskości.",
+    "r": "Porozmawiaj z kimś bliskim z poziomu otwartego serca, spędź czas w przytulnej atmosferze i posłuchaj tego, co podpowiada Ci Twój wewnętrzny głos.",
+    "u": "Wchodzenia w głośne konflikty, forsowania swoich racji siłą oraz rezygnowania z własnych odczuć dla tzw. świętego spokoju.",
+    "s": "„Czasami najgłębszą mądrością okazuje się po prostu usiąść obok kogoś i w ciszy podzielić się własnym, czułym sercem.”",
+    "fun": "Co Twoja intuicja szepcze Ci dzisiaj w sprawie, która od dłuższego czasu domaga się Twojej uwagi?"
+  },
+  "9-19": {
+    "z": "Panna",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Barwna, radosna trójka rozświetla dzień feerią uśmiechu, twórczej ekspresji i lekkiego, swobodnego przepływu. To wibracja, która przypomina, że życie ma w sobie mnóstwo pięknych barw, jeśli tylko pozwolimy sobie na odrobinę spontaniczności i zabawy.",
+    "r": "Zrób coś czysto dla przyjemności, wyraź siebie w dowolny, twórczy sposób i poszukaj powodów do uśmiechu w najprostszych, codziennych gestach.",
+    "u": "Nadmiernej powagi, wpadania w czarne myśli oraz brania na swoje barki problemów całego świata.",
+    "s": "„Radość i uśmiech to najpiękniejsze klucze, które potrafią otworzyć każde zamknięte na klucz drzwi.”",
+    "fun": "Co dzisiaj mogłoby wywołać szczery uśmiech na Twojej twarzy i wnieść do Twojego dnia odrobinę beztroski?"
+  },
+  "9-20": {
+    "z": "Panna",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Solidna, uziemiająca czwórka przynosi potrzebę ładu, dyscypliny i zadbania o bezpieczne, codzienne struktury. To dzień, w którym małe, systematyczne kroki budują fundamenty pod nasz długoterminowy wewnętrzny spokój.",
+    "r": "Uporządkuj swoją przestrzeń, dokończ jedno zaległe zadanie i stwórz dla siebie przytulny, stabilny plan na najbliższy czas.",
+    "u": "Sztywnego uporu, perfekcjonizmu oraz przytłaczania siebie zbyt dużą liczbą obowiązków naraz.",
+    "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+    "fun": "Jaki jeden mały, czuły gest porządku możesz dzisiaj wykonać dla swojej przestrzeni i swojego spokoju?"
+  },
+  "9-21": {
+    "z": "Panna",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Niespokojna, wolnościowa piątka wpuszcza do naszej codzienności orzeźwiający powiew świeżego powietrza, zachęcając do wyjścia poza bezpieczną, ale czasem zbyt ciasną strefę komfortu. To dzień odkrywania nowych perspektyw i radosnej ciekawości świata.",
+    "r": "Zmień coś w swojej rutynie, wybierz się na spacer zupełnie nieznaną trasą lub otwórz się na inspirującą, odkrywczą rozmowę.",
+    "u": "Kurczowego trzymania się starych schematów, lęku przed zmianą oraz rozpraszania swojej energii na zbyt wiele frontów naraz.",
+    "s": "„Życie staje się o wiele ciekawsze, gdy przestajemy bać się tego, co nieznane i z odwagą spoglądamy za kolejne zakręty.”",
+    "fun": "W jakim obszarze swojego życia czujesz największą ochotę na zrzucenie dawnych ograniczeń i zaczerpnięcie powietrza pełną piersią?"
+  },
+  "9-22": {
+    "z": "Panna",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Ciepła wibracja szóstki otula nas niczym miękki koc, kierując całą uwagę ku domowemu ognisku, harmonii oraz uważnej trosce o relacje z bliskimi. To idealny moment na budowanie mostów zaufania i czułe zaopiekowanie się samą sobą.",
+    "r": "Stwórz wokół siebie przytulną przestrzeń, porozmawiaj z kimś bliskim z poziomu otwartego serca i podaruj sobie chwilę zasłużonego wytchnienia.",
+    "u": "Wchodzenia w rolę ratownika kosztem własnych sił, rezygnowania z osobistych granic oraz brania na siebie cudzych ciężarów.",
+    "s": "„Najpiękniejszym domem, o jaki możemy dbać każdego dnia, jest przestrzeń spokojnego, otwartego na miłość i akceptację serca.”",
+    "fun": "Jak możesz dzisiaj okazać sobie czułość w miejscach, które najbardziej potrzebują Twojej wyrozumiałości?"
+  },
+  "9-23": {
+    "z": "Waga",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Mistyczna, badawcza siódemka zaprasza nas do świętej przestrzeni ciszy, refleksji i bezpiecznego oddalenia się od codziennego zgiełku. To czas, w którym nasza intuicja i wewnętrzna mądrość dochodzą do głosu, przynosząc upragnione ukojenie.",
+    "r": "Spędź trochę czasu w samotności na łonie natury, posłuchaj uspokajającej ciszy i pozwól sobie na mentalny odpoczynek od nadmiaru bodźców.",
+    "u": "Chłodnego sceptycyzmu, nadmiernego analizowania przeszłości oraz zbytniego izolowania się od ludzi, którzy darzą Cię szczerym ciepłem.",
+    "s": "„Prawda nie potrzebuje hałasu – ona rozkwita najpiękniej w cichej i bezpiecznej przestrzeni naszej własnej duszy.”",
+    "fun": "Jaka cicha, wewnętrzna odpowiedź czeka na Ciebie w bezpiecznej ciszy Twoich myśli, gdy odetniesz się od opinii innych?"
+  },
+  "9-24": {
+    "z": "Waga",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Potężna, dojrzała ósemka przynosi energię sprawczości, konkretnych owoców naszej pracy oraz mądrego zarządzania wewnętrzną obfitością. To dzień, w którym bierzemy stery w swoje ręce, pamiętając, że nasza siła wypływa z szacunku do własnych wysiłków.",
+    "r": "Ureguluj ważne sprawy, podejmij dojrzałą decyzję dotyczącą swoich planów i z dumą spójrz na to, co udało Ci się w życiu zbudować.",
+    "u": "Bezwzględnego parcia do przodu za wszelką cenę, przepracowywania się ponad miarę oraz surowego rozliczania samej siebie.",
+    "s": "„Prawdziwa obfitość to nie tylko materialny sukces; to przede wszystkim głębokie poczucie własnej wartości i zgoda na przyjmowanie darów od losu.”",
+    "fun": "Za jaki swój sukces – nawet ten najcichszy i ukryty przed światem – możesz dzisiaj z całego serca sobie podziękować?"
+  },
+  "9-25": {
+    "z": "Waga",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Głęboka, transformująca dziewiątka stawia nas przed lustrem podsumowań, zapraszając do zrobienia rzetelnego bilansu i sprawdzenia, co w minionym czasie przyniosło nam rozwój, a co okazało się już tylko obciążającym doświadczeniem. To piękny moment łagodnego domykania.",
+    "r": "Usiądź z kartką papieru, wypisz lekcje z ostatniego czasu i świadomie zdecyduj, co domykasz raz na zawsze, by zrobić miejsce na nowe.",
+    "u": "Wpadania w pułapkę pouczania innych, pielęgnowania dawnych żalów oraz postawy „ja wiem lepiej”.",
+    "s": "„Odpuszczenie tego, co już odeszło, to najpiękniejszy prezent, jaki możemy podarować naszej przyszłości i naszemu spokojowi.”",
+    "fun": "Co w Twoim życiu domaga się dzisiaj cichego zrozumienia, abyś mogła uwolnić się od przeszłości i pójść dalej z lżejszym sercem?"
+  },
+  "9-26": {
+    "z": "Waga",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Iskrząca, pionierska jedynka rozbłyska niczym świeży płomień tuż po procesie oczyszczenia. To wibracja, która daje Ci czystą kartę, na nowo rozbudzając odwagę, sprawczość i gotowość do postawienia pierwszego kroku w stronę własnych pragnień.",
+    "r": "Wyznacz sobie nowy, drobny cel, zrób coś po raz pierwszy w określony sposób i zaufaj wewnętrznemu impulsowi, który ciągnie Cię ku lepszemu.",
+    "u": "Rozpamiętywania tego, co minęło, zwlekania z decyzjami oraz gaszenia swojego wewnętrznego entuzjazmu przez lęk przed oceną.",
+    "s": "„Każdy nowy poranek to cichy dowód na to, że masz w sobie siłę, by napisać swoją opowieść dokładnie tak, jak pragnie tego Twoje serce.”",
+    "fun": "Gdybyś miała całkowitą pewność, że odniesiesz sukces, co nowego odważyłabyś się dzisiaj zacząć?"
+  },
+  "9-27": {
+    "z": "Waga",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Niezwykle delikatna, otulająca dwójka wnosi do naszej rzeczywistości aurę spokoju, subtelnej intuicji oraz głębokiego wsłuchania się w puls drugiego człowieka i własnego wnętrza. To dzień budowania harmonii i bezpiecznej bliskości.",
+    "r": "Spędź czas w cichej, przytulnej atmosferze, przeprowadź szczery dialog od serca do serca i zaufaj swoim cichym przeczuciom.",
+    "u": "Wchodzenia w głośne spory, forsowania swoich racji siłą oraz zagłuszania głosu własnej intuicji.",
+    "s": "„Czasami największą mądrością jest po prostu usiąść w ciszy obok kogoś bliskiego i pozwolić, by przemówiło samo serce.”",
+    "fun": "Co ważnego próbuje Ci szepnąć Twoja intuicja w tej przestrzeni, którą dzisiaj dla siebie stworzysz?"
+  },
+  "9-28": {
+    "z": "Waga",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Barwna, radosna trójka rozświetla końcówkę września feerią uśmiechu, twórczej ekspresji i lekkiego, swobodnego przepływu energii. To wibracja, która przypomina, że życie ma w sobie mnóstwo pięknych barw, jeśli tylko pozwolimy sobie na odrobinę spontaniczności.",
+    "r": "Zrób coś czysto dla przyjemności, wyraź siebie w dowolny, twórczy sposób i poszukaj powodów do uśmiechu w najprostszych sprawach.",
+    "u": "Nadmiernej powagi, wpadania w czarne myśli oraz brania na swoje barki problemów całego świata.",
+    "s": "„Radość i uśmiech to najpiękniejsze klucze, które potrafią otworzyć każde zamknięte na klucz drzwi.”",
+    "fun": "Jaka mała, codzienna rzecz mogłaby dzisiaj wywołać wesoły blask w Twoich oczach?"
+  },
+  "9-29": {
+    "z": "Waga",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Solidna, uziemiająca czwórka przynosi potrzebę ładu, dyscypliny i zadbania o bezpieczne, codzienne struktury. To dzień, w którym małe, systematyczne kroki budują fundamenty pod nasz długoterminowy spokój.",
+    "r": "Uporządkuj swoją przestrzeń, dokończ jedno zaległe zadanie i stwórz dla siebie przytulny, stabilny plan na nadchodzący czas.",
+    "u": "Sztywnego uporu, perfekcjonizmu oraz przytłaczania siebie zbyt dużą liczbą obowiązków naraz.",
+    "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+    "fun": "W jaki sposób możesz dzisiaj otulić poczuciem bezpieczeństwa tę część swojej codzienności, która najbardziej tego potrzebuje?"
+  },
+  "9-30": {
+    "z": "Waga",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Niespokojna, wolnościowa piątka zamyka wrześniowy szlak radosnym powiewem świeżego powietrza, zachęcając do spojrzenia na miniony miesiąc z uśmiechem i otwarcia się na to, co przyniesie jesień. To czas docenienia własnej elastyczności.",
+    "r": "Podsumuj wrzesień z wdzięcznością, wyjdź na spacer i pozwól sobie na radosne pożegnanie tego cyklu z poczuciem wolności.",
+    "u": "Lęku przed nadchodzącymi zmianami oraz kurczowego trzymania się tego, co już odeszło.",
+    "s": "„Każde zakończenie to tak naprawdę cichy szept wszechświata, że czas napisać kolejny, niezwykły rozdział.”",
+    "fun": "Za co z całego serca chcesz podziękować wrześniowi, zanim zamkniesz za nim drzwi i powitasz nowy miesiąc?"
+  },
+  "10-1": {
+    "z": "Waga",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Solidna, uziemiająca czwórka przynosi nam dziś potrzebę ładu, bezpiecznych struktur oraz odzyskania wewnętrznego i zewnętrznego oparcia w codziennych sprawach.",
+    "r": "Zadbaj o porządek w swojej przestrzeni roboczej, dokończ jedną zaległą sprawę zawodową lub formalną i stwórz dla siebie stabilny plan, który zdejmie z ramion poczucie chaosu.",
+    "u": "Sztywnego perfekcjonizmu, brania na siebie zbyt wielu obowiązków naraz oraz odkładania odpoczynku na „święte nigdy”.",
+    "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+    "fun": "Jaki jeden mały gest porządku w Twoich obowiązkach sprawi, że poczujesz dziś ulgę i bezpieczny grunt pod nogami?"
+  },
+  "10-2": {
+    "z": "Waga",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Niespokojna, wolnościowa piątka wpuszcza do naszej rzeczywistości powiew świeżego powietrza, zachęcając do wyjścia poza schematy w relacjach i poszukiwania nowych inspiracji.",
+    "r": "Porozmawiaj z kimś z zupełnie innej perspektywy, zaproponuj bliskim nietypowy sposób spędzenia popołudnia lub spróbuj rozwiązać dawny problem w nowy, kreatywny sposób.",
+    "u": "Kurczowego trzymania się zasady „zawsze robiliśmy to tak samo”, lęku przed zmianą zdania oraz narzucania innym swojej wizji.",
+    "s": "„Życie staje się o wiele ciekawsze, gdy przestajemy bać się nowych dróg i pozwalamy sobie na odrobinę elastyczności w relacjach z światem.”",
+    "fun": "W jakiej relacji lub w jakim stałym przyzwyczajeniu przydałby się dziś świeży powiew i odrobina wolności?"
+  },
+  "10-3": {
+    "z": "Waga",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Ciepła, opiekuńcza wibracja szóstki otula nas dzisiaj aurą domowego ogniska, empatii i uważnej troski o więzi z ludźmi, którzy są dla nas ważni.",
+    "r": "Zadzwoń do kogoś bliskiego bez okazji, stwórz w swoim otoczeniu przytulny kącik do odpoczynku i podaruj sobie ciepłe słowo w momentach zmęczenia.",
+    "u": "Wchodzenia w rolę ratownika, który próbuje naprawić życie wszystkich wokół kosztem własnego spokoju.",
+    "s": "„Najpiękniejszym darem, jaki możemy podarować bliskim, jest nasza spokojna, obecna i niczym niewymuszona miłość.”",
+    "fun": "Kto w Twoim otoczeniu potrzebuje dzisiaj Twojej cichej, ciepłej obecności bez gotowych rad i ocen?"
+  },
+  "10-4": {
+    "z": "Waga",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Mistyczna, badawcza siódemka kieruje naszą uwagę do wewnątrz, zapraszając do cichego wyciszenia, refleksji i bezpiecznego odcięcia się od zewnętrznego zgiełku.",
+    "r": "Spędź trochę czasu w samotności na spacerze, posłuchaj spokojnej muzyki lub po prostu pobądź w ciszy ze swoimi myślami.",
+    "u": "Nadmiernego analizowania słów innych ludzi i szukania drugiego dna tam, gdzie go zwyczajnie nie ma.",
+    "s": "„Czasami najgłębszą mądrością okazuje się odpuszczenie ciągłego myślenia i danie duszy przestrzeni na zwykłe, ciche istnienie.”",
+    "fun": "Co szepcze do Ciebie Twoja intuicja w tej bezpiecznej ciszy, gdy odetniesz się od oczekiwań całego świata?"
+  },
+  "10-5": {
+    "z": "Waga",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Dostojna, sprawcza ósemka przynosi energię wewnętrznej siły, zarządzania materią oraz brania odpowiedzialności za realizację swoich planów zawodowych i osobistych.",
+    "r": "Podeję dojrzałą decyzję w sprawie, która od dłuższego czasu czekała na Twoje zdecydowane działanie, i doceń swoje dotychczasowe wysiłki.",
+    "u": "Bezwzględnego parcia do celu za wszelką cenę oraz surowego rozliczania siebie za drobne niedociągnięcia.",
+    "s": "„Prawdziwa siła to nie walka z całym światem, lecz cicha, niezachwiana wiara we własne możliwości.”",
+    "fun": "Za jaki swój sukces – nawet ten najcichszy i niewidoczny dla innych – możesz dzisiaj z dumą sobie podziękować?"
+  },
+  "10-6": {
+    "z": "Waga",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Głęboka, artystyczna i niezwykle pojemna dziewiątka przynosi nam dziś energię lotu ptaka – spojrzenia na całą naszą dotychczasową drogę z szerszej perspektywy, bez oceny, za to z ogromnym, humanistycznym zrozumieniem dla ludzkich słabości.",
+    "r": "Otwórz się na sztukę, poezję lub muzykę, które poruszają duszę, albo spójrz na swój aktualny projekt lub relację z wyższej perspektywy, dostrzegając jego sens i piękno.",
+    "u": "Wchodzenia w rolę zbawiciela całego świata, brania na siebie cudzych problemów oraz gubienia się w nadmiernym idealizmie.",
+    "s": "„Kiedy pozwolimy sobie spojrzeć na nasze życie z szerszej perspektywy, nagle zauważymy, że każdy trudny moment był tylko przystankiem w drodze do głębszego poznania siebie.”",
+    "fun": "Jaka ukryta dotąd mądrość płynie z Twoich dotychczasowych doświadczeń i jak możesz ją dzisiaj wykorzystać dla własnego spokoju?"
+  },
+  "10-7": {
+    "z": "Waga",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Iskrząca, pionierska jedynka rozbłyska niczym świeży promień słońca, przynosząc powiew świeżej energii, odwagę i czystą kartę do napisania własnych scenariuszy na nowo.",
+    "r": "Zrób pierwszy, mały krok w stronę swojego marzenia, odważnie wyraź swoje zdanie i zaufaj wewnętrznemu impulsowi.",
+    "u": "Rozpamiętywania przeszłości, zwlekania z decyzjami oraz gaszenia swojego entuzjazmu przez lęk przed oceną.",
+    "s": "„Każdy nowy świt to dowód na to, że wszechświat stale daje nam szansę na rozpoczęcie wszystkiego z czystego serca.”",
+    "fun": "Gdybyś nie musiała bać się absolutnie niczego, co nowego odważyłabyś się dzisiaj zrobić dla siebie?"
+  },
+  "10-8": {
+    "z": "Waga",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Subtelna, otulająca dwójka wnosi do naszych relacji aurę głębokiego zrozumienia, empatii, słuchania bez oceniania i budowania bezpiecznej bliskości z drugim człowiekiem.",
+    "r": "Przeprowadź szczerą rozmowę od serca do serca, spędź czas w spokojnej atmosferze i wsłuchaj się w głos swojej intuicji.",
+    "u": "Wchodzenia w głośne konflikty, forsowania swoich racji siłą oraz rezygnowania z siebie dla tzw. świętego spokoju.",
+    "s": "„Czasami najwspanialszą odpowiedzią na hałas świata jest czuła obecność kogoś, kto rozumie nas bez ani jednego słowa.”",
+    "fun": "Kto w Twoim otoczeniu potrzebuje dzisiaj Twojej cichej, ciepłej obecności i bezpiecznego utulenia?"
+  },
+  "10-9": {
+    "z": "Waga",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Barwna, radosna trójka rozświetla dzień feerią uśmiechu, twórczej ekspresji i lekkiego przepływu energii, przypominając, że radość to naturalny stan naszej duszy.",
+    "r": "Zrób coś czysto dla przyjemności, wyraź siebie w dowolny sposób (pisząc, malując lub po prostu śmiejąc się) i poszukaj piękna w prostocie.",
+    "u": "Nadmiernej powagi, wpadania w czarne myśli oraz krytykowania swoich twórczych pomysłów.",
+    "s": "„Radość i uśmiech to najpiękniejsze klucze, które potrafią otworzyć każde zamknięte na klucz drzwi.”",
+    "fun": "Co sprawi, że na Twojej twarzy zagości dzisiaj szczery, niczym niezmącony uśmiech?"
+  },
+  "10-10": {
+    "z": "Waga",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Solidna, uziemiająca czwórka przynosi potrzebę ładu, dyscypliny i zadbania o bezpieczne, codzienne struktury, które dają nam upragniony spokój.",
+    "r": "Uporządkuj dokumenty, zadbaj o przestrzeń wokół siebie i stwórz stabilny, życzliwy dla samej siebie plan działań na kolejne dni.",
+    "u": "Sztywnego perfekcjonizmu, zamęczania się obowiązkami oraz braku elastyczności wobec nagłych zmian.",
+    "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+    "fun": "Jaki jeden mały gest porządku w Twojej przestrzeni sprawi, że poczujesz dzisiaj ulgę i bezpieczny grunt pod nogami?"
+  },
+  "10-11": {
+    "z": "Waga",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Niespokojna, wolnościowa piątka wpuszcza do naszej codzienności radosny powiew świeżego powietrza, zachęcając do wyjścia poza schematy, poszerzenia horyzontów i radosnej ciekawości świata.",
+    "r": "Zmień coś w swojej rutynie – wybierz się na spacer nieznaną trasą, spróbuj nowego smaku lub otwórz się na zupełnie niespodziewaną, inspirującą rozmowę.",
+    "u": "Kurczowego trzymania się dawnych przyzwyczajeń, lęku przed zmianą oraz rozpraszania swojej energii na zbyt wiele stron naraz.",
+    "s": "„Życie staje się o wiele ciekawsze, gdy przestajemy bać się zakrętów i z ciekawością zaglądamy za kolejne wzgórze.”",
+    "fun": "W jakim obszarze swojego życia czujesz dziś największą ochotę na zrzucenie starych ograniczeń i głęboki wdech pełną piersią?"
+  },
+  "10-12": {
+    "z": "Waga",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Ciepła, otulająca wibracja szóstki roztacza wokół nas aurę domowego ogniska, harmonii oraz uważnej, czułej troski o relacje z ludźmi, których nosimy w sercu.",
+    "r": "Stwórz przytulną atmosferę w swoim otoczeniu, otocz kogoś bliskiego życzliwym wsparciem i podaruj sobie samą wyrozumiałość w momentach zmęczenia.",
+    "u": "Wchodzenia w rolę męczennika, rezygnowania z siebie dla tzw. świętego spokoju oraz nadmiernego kontrolowania bliskich.",
+    "s": "„Najpiękniejszym domem, o jaki możemy dbać każdego dnia, jest przestrzeń spokojnego, otwartego na miłość i akceptację serca.”",
+    "fun": "Jak możesz dzisiaj okazać sobie samą czułość w miejscu, które najbardziej domaga się Twojej wyrozumiałości?"
+  },
+  "10-13": {
+    "z": "Waga",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Mistyczna, badawcza siódemka zaprasza nas do świętej przestrzeni ciszy, refleksji i bezpiecznego oddalenia się od codziennego zgiełku świata.",
+    "r": "Spędź chwilę w samotności na łonie natury, posłuchaj uspokajającego szumu jesiennego wiatru i pozwól sobie na głęboki, mentalny odpoczynek.",
+    "u": "Chłodnego sceptycyzmu, nadmiernego analizowania przeszłych zdarzeń oraz zbytniego odsuwania się od życzliwych ludzi.",
+    "s": "„Prawda nie potrzebuje hałasu – ona rozkwita najpiękniej w cichej i bezpiecznej przestrzeni naszej własnej duszy.”",
+    "fun": "Co cichego i ważnego szepcze do Ciebie Twoja intuicja, kiedy na moment odetnasz się od oczekiwań otoczenia?"
+  },
+  "10-14": {
+    "z": "Waga",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Potężna, dojrzała ósemka przynosi energię sprawczości, konkretnych owoców naszej pracy oraz mądrego zarządzania wewnętrzną i zewnętrzną obfitością.",
+    "r": "Podejmij dojrzałą decyzję dotyczącą swoich planów zawodowych lub materialnych i z dumą spójrz na to, co udało Ci się w życiu zbudować.",
+    "u": "Bezwzględnego parcia do przodu za wszelką cenę, przepracowywania się oraz surowego, bezwzględnego rozliczania samej siebie.",
+    "s": "„Prawdziwa obfitość to nie tylko materialny sukces; to przede wszystkim głębokie poczucie własnej wartości i zgoda na przyjmowanie darów od losu.”",
+    "fun": "Za jaki swój sukces – nawet ten najcichszy i ukryty przed światem – możesz dzisiaj z całego serca sobie podziękować?"
+  },
+  "10-15": {
+    "z": "Waga",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Głęboka, uniwersalna dziewiątka niesie ze sobą natchnienie artystyczne, empatię sięgającą horyzontu oraz potrzebę podzielenia się swoim wewnętrznym ciepłem z szerszym światem. To dzień, w którym nasza wrażliwość staje się najpiękniejszym kluczem do serc innych.",
+    "r": "Zrób coś bezinteresownego dla kogoś obcego, zanurz się w twórczości, która porusza duszę, lub spójrz na trudną sytuację z pozycji bezwarunkowej akceptacji.",
+    "u": "Wchodzenia w rolę zbawiciela, który chce naprawić losy całego świata kosztem własnej energii, oraz popadania w melancholię.",
+    "s": "„Najczystsze światło, jakie możemy wnieść w życie innych, to nasza autentyczna, niczym niewymuszona życzliwość.”",
+    "fun": "Komu dzisiaj – zupełnie bezinteresownie – możesz podarować odrobinę swojego ciepła i dobrego słowa?"
+  },
+  "10-16": {
+    "z": "Waga",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Iskrząca, pionierska jedynka rozbłyska niczym świeży płomień, przynosząc potężny impuls czystej karty, odwagę do wyrażenia samego siebie i sprawczość w działaniu.",
+    "r": "Podejmij odważną inicjatywę w sprawie, która od dawna czekała na Twój ruch, zdefiniuj na nowo swoje osobiste granice i zaufaj swojemu wewnętrznemu ogniowi.",
+    "u": "Oglądania się na opinie innych ludzi, zwlekania z decyzjami oraz gaszenia swojego entuzjazmu przez stare nawyki.",
+    "s": "„Każdy nowy poranek to dowód na to, że masz w sobie niespożytą siłę, by zacząć pisać swoją opowieść dokładnie tak, jak pragnie tego Twoje serce.”",
+    "fun": "Gdybyś miała absolutną pewność, że nikt Cię nie ocenia, jaki odważny krok zrobiłabyś dzisiaj dla samej siebie?"
+  },
+  "10-17": {
+    "z": "Waga",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Subtelna, otulająca dwójka wnosi do naszej codzienności zapach spokoju, delikatności oraz głębokiego wsłuchania się w unikalny rytm własnego ciała i relacji z bliskimi.",
+    "r": "Stwórz dla siebie bezpieczną, cichą przystań, przeprowadź szczery dialog od serca do serca i pozwól sobie na odpoczynek bez poczucia winy.",
+    "u": "Wchodzenia w głośne spory, forsowania swoich racji siłą oraz zagłuszania głosu własnej intuicji.",
+    "s": "„Czasami największą mądrością okazuje się po prostu odpuścić walkę i w cichym zaufaniu pozwolić rzeczom układać się naturalnie.”",
+    "fun": "Co Twój organizm lub Twoje serce próbuje Ci dzisiaj wyszeptać w momentach, gdy na chwilę zwalniasz bieg?"
+  },
+  "10-18": {
+    "z": "Waga",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Barwna, radosna trójka maluje dzisiejszy dzień wszystkimi odcieniami uśmiechu, twórczej ekspresji i wewnętrznej swobody, przypominając o magii spontaniczności.",
+    "r": "Zrób coś całkowicie bezcelowego, ale dającego mnóstwo frajdy – zaśpiewaj, napisz kilka luźnych słów, wyjdź na spacer i zachwyć się prostotą otaczającego świata.",
+    "u": "Nadmiernej powagi, wpadania w czarne myśli oraz surowej krytyki swoich spontanicznych pomysłów.",
+    "s": "„Radość nie jest luksusem – to naturalny stan duszy, która przypomina nam, jak pięknie jest po prostu być sobą.”",
+    "fun": "Co sprawi, że na Twojej twarzy zagości dzisiaj szczery, niczym niezmącony uśmiech dziecka?"
+  },
+  "10-19": {
+    "z": "Waga",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Solidna, uziemiająca czwórka przynosi nam potrzebę ładu, dyscypliny i zadbania o bezpieczne, codzienne struktury, które dają nam upragniony grunt pod nogami.",
+    "r": "Uporządkuj swoją przestrzeń, dokończ jedno zaległe zadanie i stwórz dla siebie przytulny, stabilny plan na nadchodzące dni.",
+    "u": "Sztywnego perfekcjonizmu, zamęczania się obowiązkami oraz braku elastyczności wobec nagłych zmian planów.",
+    "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+    "fun": "Jaki jeden mały, czuły gest porządku możesz dzisiaj wykonać, aby Twoja codzienność stała się dla Ciebie bezpieczniejszą przystanią?"
+  },
+  "10-20": {
+    "z": "Waga",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Niespokojna, wolnościowa piątka wpuszcza do naszej rzeczywistości powiew świeżego powietrza, zachęcając do wyjścia poza bezpieczną rutyniarską bańkę i odkrywania nowych perspektyw.",
+    "r": "Zmień coś w swoim stałym planie dnia – wybierz się na spacer zupełnie nieznaną ulicą, przeczytaj artykuł na temat, który dotąd Cię nie interesował, lub podejdź do dawnego problemu z zupełnie innej strony.",
+    "u": "Kurczowego trzymania się zasady „zawsze robiliśmy to w ten sam sposób”, lęku przed odmiennym zdaniem innych oraz rozpraszania swojej uwagi na zbyt wiele frontów naraz.",
+    "s": "„Życie staje się o wiele barwniejsze, gdy przestajemy bać się nagłych zakrętów i z radosną ciekawością zaglądamy za kolejne wzgórze.”",
+    "fun": "W jakim obszarze swojego życia czujesz dzisiaj największą ochotę na zrzucenie starych ograniczeń i zaczerpnięcie powietrza pełną piersią?"
+  },
+  "10-21": {
+    "z": "Waga",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Ciepła, opiekuńcza wibracja szóstki otula nas niczym miękki koc w chłodny poranek, kierując całą uwagę ku domowemu ognisku, harmonii i uważnej trosce o relacje z bliskimi.",
+    "r": "Stwórz wokół siebie przytulną przestrzeń, porozmawiaj z kimś bliskim z poziomu czystej empatii i podaruj sobie samą wyrozumiałość w momentach codziennego zmęczenia.",
+    "u": "Wchodzenia w rolę ratownika kosztem własnych sił, rezygnowania z osobistych granic oraz brania na siebie cudzych ciężarów tylko po to, by zadowolić wszystkich wokół.",
+    "s": "„Najpiękniejszym domem, o jaki możemy dbać każdego dnia, jest przestrzeń spokojnego, otwartego na miłość i akceptację serca.”",
+    "fun": "Jak możesz dzisiaj okazać sobie czułość w tym miejscu, które najbardziej domaga się Twojej wyrozumiałości i odpoczynku?"
+  },
+  "10-22": {
+    "z": "Waga",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Mistyczna, badawcza siódemka zaprasza nas do świętej przestrzeni ciszy, refleksji i bezpiecznego oddalenia się od codziennego zgiełku świata.",
+    "r": "Spędź trochę czasu w samotności na łonie natury, posłuchaj szumu jesiennego wiatru lub odłącz się na kilka godzin od ekranów, pozwalając umysłowi na głęboki reset.",
+    "u": "Chłodnego sceptycyzmu, nadmiernego analizowania przeszłych zdarzeń oraz zbytniego odsuwania się od ludzi, którzy darzą Cię szczerym ciepłem.",
+    "s": "„Prawda nie potrzebuje krzyku – ona rozkwita najpiękniej w cichej, niczym niezmąconej przestrzeni naszej własnej duszy.”",
+    "fun": "Co cichego i ważnego szepcze do Ciebie Twoja intuicja, kiedy na moment odetnasz się od oczekiwań całego otoczenia?"
+  },
+  "10-23": {
+    "z": "Skorpion",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Potężna, dojrzała ósemka przynosi energię sprawczości, konkretnych owoców naszej pracy oraz mądrego zarządzania wewnętrzną i zewnętrzną obfitością.",
+    "r": "Podejmij dojrzałą, przemyślaną decyzję dotyczącą swoich planów, ureguluj zaległe sprawy i z dumą spójrz na to, co udało Ci się w życiu zbudować własnymi rękami.",
+    "u": "Bezwzględnego parcia do przodu za wszelką cenę, przepracowywania się ponad miarę oraz surowego, bezwzględnego rozliczania samej siebie z każdego drobiazgu.",
+    "s": "„Prawdziwa obfitość to nie tylko materialny sukces; to przede wszystkim głębokie poczucie własnej wartości i wewnętrzna zgoda na przyjmowanie darów od losu.”",
+    "fun": "Za jaki swój sukces – nawet ten najcichszy i całkowicie ukryty przed światem – możesz dzisiaj z całego serca sobie podziękować?"
+  },
+  "10-24": {
+    "z": "Skorpion",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Głęboka, uniwersalna dziewiątka niesie ze sobą artystyczne natchnienie, empatię sięgającą horyzontu oraz potrzebę spojrzenia na relacje i świat z pozycji bezwarunkowej akceptacji.",
+    "r": "Zanurz się w twórczości, która porusza duszę, zrób coś bezinteresownego dla kogoś w potrzebie lub spójrz na minione trudności z perspektywy mądrego obserwatora.",
+    "u": "Wchodzenia w rolę zbawiciela całego świata, brania na siebie cudzych problemów oraz popadania w melancholię i rozczarowanie.",
+    "s": "„Kiedy pozwolimy sobie spojrzeć na nasze życie z szerszej perspektywy, nagle zauważymy, że każdy trudny moment był tylko przystankiem w drodze do głębszego poznania siebie.”",
+    "fun": "Jaka ukryta dotąd mądrość płynie z Twoich doświadczeń i jak możesz ją dzisiaj wykorzystać dla własnego wewnętrznego spokoju?"
+  },
+  "10-25": {
+    "z": "Skorpion",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Iskrząca, pionierska jedynka rozbłyska niczym świeży płomień, przynosząc potężny impuls czystej karty, odwagę do wyrażenia samego siebie i sprawczość w działaniu.",
+    "r": "Podejmij odważną inicjatywę w sprawie, która od dawna czekała na Twój ruch, zdefiniuj na nowo swoje osobiste granice i zaufaj swojemu wewnętrznemu ogniowi.",
+    "u": "Oglądania się na opinie innych ludzi, zwlekania z decyzjami oraz gaszenia swojego entuzjazmu przez stare nawyki.",
+    "s": "„Każdy nowy poranek to dowód na to, że masz w sobie niespożytą siłę, by zacząć pisać swoją opowieść dokładnie tak, jak pragnie tego Twoje serce.”",
+    "fun": "Gdybyś miała absolutną pewność, że nikt Cię nie ocenia, jaki odważny krok zrobiłabyś dzisiaj dla samej siebie?"
+  },
+  "10-26": {
+    "z": "Skorpion",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Subtelna, otulająca dwójka wnosi do naszej codzienności zapach spokoju, delikatności oraz głębokiego wsłuchania się w unikalny rytm własnego ciała i relacji z bliskimi.",
+    "r": "Stwórz dla siebie bezpieczną, cichą przystań, przeprowadź szczery dialog od serca do serca i pozwól sobie na odpoczynek bez poczucia winy.",
+    "u": "Wchodzenia w głośne spory, forsowania swoich racji siłą oraz zagłuszania głosu własnej intuicji.",
+    "s": "„Czasami największą mądrością okazuje się po prostu odpuścić walkę i w cichym zaufaniu pozwolić rzeczom układać się naturalnie.”",
+    "fun": "Co Twój organizm lub Twoje serce próbuje Ci dzisiaj wyszeptać w momentach, gdy na chwilę zwalniasz bieg?"
+  },
+  "10-27": {
+    "z": "Skorpion",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Barwna, radosna trójka maluje dzisiejszy dzień wszystkimi odcieniami uśmiechu, twórczej ekspresji i wewnętrznej swobody, przypominając o magii spontaniczności.",
+    "r": "Zrób coś całkowicie bezcelowego, ale dającego mnóstwo frajdy – zaśpiewaj, napisz kilka luźnych słów, wyjdź na spacer i zachwyć się prostotą otaczającego świata.",
+    "u": "Nadmiernej powagi, wpadania w czarne myśli oraz surowej krytyki swoich spontanicznych pomysłów.",
+    "s": "„Radość nie jest luksusem – to naturalny stan duszy, która przypomina nam, jak pięknie jest po prostu być sobą.”",
+    "fun": "Co sprawi, że na Twojej twarzy zagości dzisiaj szczery, niczym niezmącony uśmiech dziecka?"
+  },
+  "10-28": {
+    "z": "Skorpion",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Solidna, uziemiająca czwórka przynosi nam potrzebę ładu, dyscypliny i zadbania o bezpieczne, codzienne struktury, które dają nam upragniony grunt pod nogami.",
+    "r": "Uporządkuj swoją przestrzeń, dokończ jedno zaległe zadanie i stwórz dla siebie przytulny, stabilny plan na nadchodzące dni.",
+    "u": "Sztywnego perfekcjonizmu, zamęczania się obowiązkami oraz braku elastyczności wobec nagłych zmian planów.",
+    "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+    "fun": "Jaki jeden mały, czuły gest porządku możesz dzisiaj wykonać, aby Twoja codzienność stała się dla Ciebie bezpieczniejszą przystanią?"
+  },
+  "10-29": {
+    "z": "Skorpion",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Niespokojna, wolnościowa piątka wpuszcza do naszej rzeczywistości powiew świeżego powietrza, zachęcając do wyjścia poza bezpieczną rutynę i odkrywania nowych perspektyw.",
+    "r": "Zmień coś w swoim stałym planie dnia – wybierz się na spacer zupełnie nieznaną ulicą, przeczytaj artykuł na temat, który dotąd Cię nie interesował, lub podejdź do dawnego problemu z zupełnie innej strony.",
+    "u": "Kurczowego trzymania się zasady „zawsze robiliśmy to w ten sam sposób”, lęku przed odmiennym zdaniem innych oraz rozpraszania swojej uwagi na zbyt wiele frontów naraz.",
+    "s": "„Życie staje się o wiele barwniejsze, gdy przestajemy bać się nagłych zakrętów i z radosną ciekawością zaglądamy za kolejne wzgórze.”",
+    "fun": "W jakim obszarze swojego życia czujesz dzisiaj największą ochotę na zrzucenie starych ograniczeń i zaczerpnięcie powietrza pełną piersią?"
+  },
+  "10-30": {
+    "z": "Skorpion",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Ciepła, opiekuńcza wibracja szóstki otula nas niczym miękki koc w chłodny poranek, kierując całą uwagę ku domowemu ognisku, harmonii i uważnej trosce o relacje z bliskimi.",
+    "r": "Stwórz wokół siebie przytulną przestrzeń, porozmawiaj z kimś bliskim z poziomu czystej empatii i podaruj sobie samą wyrozumiałość w momentach codziennego zmęczenia.",
+    "u": "Wchodzenia w rolę ratownika kosztem własnych sił, rezygnowania z osobistych granic oraz brania na siebie cudzych ciężarów tylko po to, by zadowolić wszystkich wokół.",
+    "s": "„Najpiękniejszym domem, o jaki możemy dbać każdego dnia, jest przestrzeń spokojnego, otwartego na miłość i akceptację serca.”",
+    "fun": "Jak możesz dzisiaj okazać sobie czułość w tym miejscu, które najbardziej domaga się Twojej wyrozumiałości i odpoczynku?"
+  },
+  "10-31": {
+    "z": "Skorpion",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Mistyczna, badawcza siódemka zamyka październikowy szlak zaproszeniem do świętej przestrzeni ciszy, refleksji i bezpiecznego oddalenia się od zgiełku świata.",
+    "r": "Spędź chwilę w samotności, wsłuchaj się w jesienny wieczór i pozwól sobie na głęboki, wewnętrzny reset oraz podsumowanie minionego miesiąca w ciszy.",
+    "u": "Chłodnego sceptycyzmu, nadmiernego analizowania oraz zbytniego izolowania się od ludzi, którzy przynoszą do Twojego życia ciepło.",
+    "s": "„Prawda nie potrzebuje krzyku – ona rozkwita najpiękniej w cichej i bezpiecznej przestrzeni naszej własnej duszy.”",
+    "fun": "Za jaką cichą lekcję, którą przyniósł Ci październik, możesz dzisiaj podziękować swojej intuicji?"
+  },
+  "11-1": {
+    "z": "Skorpion",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Niespokojna, wolnościowa piątka wpuszcza do naszej codzienności powiew nietypowej refleksji, zachęcając do wyjścia poza utarte schematy myślenia o przemijaniu i poszukiwania własnych, osobistych dróg.",
+    "r": "Zmień rutynowy sposób spędzania tego dnia, poszukaj inspirującej lektury, która poszerza horyzonty, lub porozmawiaj z kimś bliskim o swoich unikalnych przemyśleniach na temat życia.",
+    "u": "Kurczowego trzymania się tradycji robienia czegoś tylko „dlatego, że tak wypada”, oraz lęku przed wyrażeniem swojego odmiennego zdania.",
+    "s": "„Wolność duchowa zaczyna się w momencie, gdy pozwalamy sobie przeżywać chwile zadumy dokładnie tak, jak podpowiada nam to nasze własne serce.”",
+    "fun": "W jakim obszarze swojego życia czujesz dziś potrzebę uwolnienia się od cudzych oczekiwań i pójścia własną ścieżką?"
+  },
+  "11-2": {
+    "z": "Skorpion",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Ciepła, opiekuńcza wibracja szóstki otula nas niczym miękki, jesienny szal, kierując całą uwagę ku domowemu ognisku, bliskości i czułemu wsparciu tych, których kochamy.",
+    "r": "Stwórz w domu nastrojową, bezpieczną atmosferę przy blasku świec, zadzwoń do kogoś, kto potrzebuje dobrego słowa, i przytul samą siebie pośród codziennych obowiązków.",
+    "u": "Wchodzenia w rolę ratownika, który bierze na barki emocjonalny ciężar całego otoczenia kosztem własnego spokoju.",
+    "s": "„Najpiękniejszym schronieniem w chłodne dni jest przestrzeń otwartego serca, w którym panuje wzajemna akceptacja i miłość.”",
+    "fun": "Kto w Twoim otoczeniu potrzebuje dzisiaj Twojej cichej, ciepłej obecności i bezpiecznego utulenia?"
+  },
+  "11-3": {
+    "z": "Skorpion",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Mistyczna, badawcza siódemka zaprasza nas do świętej przestrzeni ciszy, refleksji i bezpiecznego odcięcia się od zewnętrznego zgiełku. To czas, w którym nasza intuicja szepcze najdokładniej.",
+    "r": "Spędź trochę czasu w samotności, otulona kocem z kubkiem ulubionej herbaty, i pozwól swojemu umysłowi na spokojny, głęboki reset od nadmiaru bodźców.",
+    "u": "Chłodnego sceptycyzmu, nadmiernego analizowania przeszłości oraz zbytniego izolowania się od ludzi, którzy przynoszą do Twojego życia życzliwość.",
+    "s": "„Prawda nie potrzebuje krzyku – ona rozkwita najpiękniej w cichej, bezpiecznej przystani naszej własnej duszy.”",
+    "fun": "Co cichego i ważnego szepcze do Ciebie Twoja intuicja, gdy na moment odetnasz się od opinii całego świata?"
+  },
+  "11-4": {
+    "z": "Skorpion",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Potężna, dojrzała ósemka przynosi energię wewnętrznej siły, sprawczości oraz mądrego zarządzania naszymi zasobami i planami zawodowymi lub osobistymi.",
+    "r": "Podejmij dojrzałą, przemyślaną decyzję dotyczącą swoich spraw materialnych lub organizacyjnych i z dumą doceń wysiłek, jaki włożyłaś w ostatnim czasie.",
+    "u": "Bezwzględnego parcia do przodu za wszelką cenę, przepracowywania się oraz surowego, krytycznego rozliczania samej siebie z drobiazgów.",
+    "s": "„Prawdziwa obfitość to cicha pewność siebie, która kwitnie wtedy, gdy z uznaniem patrzymy na owoce własnej pracy i dojrzałych wyborów.”",
+    "fun": "Za jaki swój cichy sukces – taki, o którym rzadko mówisz głośno – możesz dzisiaj podziękować samej sobie?"
+  },
+  "11-5": {
+    "z": "Skorpion",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Głęboka, artystyczna dziewiątka przynosi nam dziś szeroką perspektywę lotu ptaka – czas na spojrzenie na dotychczasowe relacje i projekty z wyrozumiałością oraz dojrzałym zrozumieniem.",
+    "r": "Sięgnij po twórczość, która karmi Twoją duszę (książkę, muzykę, sztukę), lub spójrz na minione trudności z perspektywy mądrego obserwatora, który wyciągnął z nich lekcję.",
+    "u": "Popadania w melancholię, brania na siebie cudzych problemów oraz wchodzenia w rolę osoby, która musi zbawić wszystkich wokół.",
+    "s": "„Kiedy pozwolimy sobie spojrzeć na naszą historię z szerszej perspektywy, zauważymy, że każda trudna chwila rzeźbiła w nas piękną, unikalną mądrość.”",
+    "fun": "Jaka wewnętrzna siła, zdobyta w minionych doświadczeniach, wspiera Cię dzisiaj w codzienności?"
+  },
+  "11-6": {
+    "z": "Skorpion",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Iskrząca, pionierska wibracja niesie ze sobą potężny impuls wewnętrznego ognia, odwagę do samodzielnego decydowania o sobie i suwerenność w wyrażaniu własnego zdania.",
+    "r": "Podejmij odważną inicjatywę w sprawie, która od dawna czekała na Twój ruch, i zaufaj swojemu wewnętrznemu napędowi.",
+    "u": "Oglądania się na opinie innych ludzi, zwlekania z decyzjami oraz gaszenia swojego entuzjazmu przez stare nawyki.",
+    "s": "„Mając w sobie całą dotychczasową mądrość, masz pełne prawo napisać kolejny rozdział dokładnie tak, jak podpowiada Ci to Twoje serce.”",
+    "fun": "Gdybyś nie musiała oglądać się na niczyją akceptację, jaki odważny krok zrobiłabyś dzisiaj dla samej siebie?"
+  },
+  "11-7": {
+    "z": "Skorpion",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Subtelna, otulająca wibracja wnosi do naszych relacji zapach spokoju, empatii i głębokiego wsłuchania się w unikalny rytm własnego ciała oraz potrzeb bliskich.",
+    "r": "Stwórz dla siebie bezpieczną przestrzeń, przeprowadź szczery dialog od serca do serca i pozwól sobie na odpoczynek bez poczucia winy.",
+    "u": "Wchodzenia w głośne spory, forsowania swoich racji siłą oraz zagłuszania głosu własnej intuicji.",
+    "s": "„Czasami największą mądrością okazuje się po prostu odpuścić walkę i w cichym zaufaniu pozwolić relacjom układać się naturalnie.”",
+    "fun": "Co Twój organizm lub Twoje serce próbuje Ci dzisiaj wyszeptać w momentach, gdy na chwilę zwalniasz bieg?"
+  },
+  "11-8": {
+    "z": "Skorpion",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Barwna, radosna wibracja maluje dzisiejszy dzień uśmiechem, twórczą ekspresją i wewnętrzną swobodą, przypominając o magii spontaniczności w codziennym życiu.",
+    "r": "Zrób coś całkowicie dającego frajdu – napisz kilka luźnych słów, wyjdź na spacer i zachwyć się prostotą otaczającego świata.",
+    "u": "Nadmiernej powagi, wpadania w czarne myśli oraz surowej krytyki swoich twórczych pomysłów.",
+    "s": "„Radość nie jest luksusem – to naturalny stan duszy, która przypomina nam, jak pięknie jest po prostu wyrażać siebie.”",
+    "fun": "Co sprawi, że na Twojej twarzy zagości dzisiaj szczery, niczym niezmącony uśmiech?"
+  },
+  "11-9": {
+    "z": "Skorpion",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Solidna, uziemiająca wibracja przynosi nam potrzebę ładu, dyscypliny i zadbania o bezpieczne, codzienne struktury, które dają nam upragniony grunt pod nogami.",
+    "r": "Uporządkuj swoją przestrzeń, dokończ jedno zaległe zadanie i stwórz dla siebie przytulny, stabilny plan na nadchodzące dni.",
+    "u": "Sztywnego perfekcjonizmu, zamęczania się obowiązkami oraz braku elastyczności wobec nagłych zmian planów.",
+    "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+    "fun": "Jaki jeden mały, czuły gest porządku możesz dzisiaj wykonać, aby Twoja codzienność stała się dla Ciebie bezpieczniejszą przystanią?"
+  },
+  "11-10": {
+    "z": "Skorpion",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Niespokojna, wolnościowa wibracja wpuszcza do naszej rzeczywistości powiew świeżego powietrza, zachęcając do wyjścia poza bezpieczną rutynę i odkrywania nowych perspektyw w działaniu.",
+    "r": "Zmień coś w swoim stałym planie dnia – wybierz się na spacer zupełnie nieznaną ulicą lub podejdź do dawnego problemu z zupełnie innej strony.",
+    "u": "Kurczowego trzymania się zasady „zawsze robiliśmy to w ten sam sposób”, lęku przed odmiennym zdaniem innych oraz rozpraszania swojej uwagi.",
+    "s": "„Życie staje się o wiele barwniejsze, gdy przestajemy bać się nagłych zakrętów i z radosną ciekawością zaglądamy za kolejne wzgórze.”",
+    "fun": "W jakim obszarze swojego życia czujesz dzisiaj największą ochotę na zrzucenie starych ograniczeń i zaczerpnięcie powietrza pełną piersią?"
+  },
+  "11-11": {
+    "z": "Skorpion",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Ciepła, opiekuńcza wibracja otula nas niczym miękki koc w chłodny dzień, kierując całą uwagę ku domowemu ognisku, harmonii oraz uważnej, czułej trosce o więzi z bliskimi.",
+    "r": "Stwórz wokół siebie przytulną przestrzeń, porozmawiaj z kimś bliskim z poziomu otwartego serca i podaruj sobie samą wyrozumiałość w momentach codziennego zmęczenia.",
+    "u": "Wchodzenia w rolę ratownika kosztem własnych sił, rezygnowania z osobistych granic oraz brania na siebie cudzych ciężarów tylko po to, by zadowolić wszystkich wokół.",
+    "s": "„Najpiękniejszym domem, o jaki możemy dbać każdego dnia, jest przestrzeń spokojnego, otwartego na miłość i akceptację serca.”",
+    "fun": "Jak możesz dzisiaj okazać sobie czułość w tym miejscu, które najbardziej domaga się Twojej wyrozumiałości i odpoczynku?"
+  },
+  "11-12": {
+    "z": "Skorpion",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Mistyczna, badawcza wibracja zaprasza nas do świętej przestrzeni ciszy, refleksji i bezpiecznego oddalenia się od codziennego zgiełku świata. To czas, w którym nasza intuicja szepcze najdokładniej.",
+    "r": "Spędź trochę czasu w samotności, posłuchaj uspokajającej ciszy i pozwól swojemu umysłowi na głęboki, mentalny reset od nadmiaru bodźców.",
+    "u": "Chłodnego sceptycyzmu, nadmiernego analizowania przeszłości oraz zbytniego odsuwania się od ludzi, którzy darzą Cię szczerym ciepłem.",
+    "s": "„Prawda nie potrzebuje krzyku – ona rozkwita najpiękniej w cichej i bezpiecznej przestrzeni naszej własnej duszy.”",
+    "fun": "Co cichego i ważnego szepcze do Ciebie Twoja intuicja, kiedy na moment odetnasz się od oczekiwań otoczenia?"
+  },
+  "11-13": {
+    "z": "Skorpion",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Potężna, dojrzała wibracja przynosi energię sprawczości, konkretnych owoców naszej pracy oraz mądrego zarządzania naszymi zasobami i planami.",
+    "r": "Podejmij dojrzałą, przemyślaną decyzję dotyczącą swoich spraw zawodowych lub materialnych i z dumą doceń wysiłek, jaki włożyłaś w ostatnim czasie.",
+    "u": "Bezwzględnego parcia do przodu za wszelką cenę, przepracowywania się oraz surowego, bezwzględnego rozliczania samej siebie z drobiazgów.",
+    "s": "„Prawdziwa obfitość to nie tylko materialny sukces; to przede wszystkim głębokie poczucie własnej wartości i wewnętrzna zgoda na przyjmowanie darów od losu.”",
+    "fun": "Za jaki swój sukces – nawet ten najcichszy i ukryty przed światem – możesz dzisiaj z całego serca sobie podziękować?"
+  },
+  "11-14": {
+    "z": "Skorpion",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Głęboka, uniwersalna wibracja niesie ze sobą artystyczne natchnienie, empatię sięgającą horyzontu oraz potrzebę spojrzenia na relacje i świat z pozycji bezwarunkowej akceptacji.",
+    "r": "Zanurz się w twórczości, która porusza duszę, zrób coś bezinteresownego dla kogoś w potrzebie lub spójrz na minione trudności z perspektywy mądrego obserwatora.",
+    "u": "Wchodzenia w rolę zbawiciela całego świata, brania na siebie cudzych problemów oraz popadania w melancholię i rozczarowanie.",
+    "s": "„Kiedy pozwolimy sobie spojrzeć na nasze życie z szerszej perspektywy, nagle zauważymy, że każdy trudny moment był tylko przystankiem w drodze do głębszego poznania siebie.”",
+    "fun": "Jaka ukryta dotąd mądrość płynie z Twoich doświadczeń i jak możesz ją dzisiaj wykorzystać dla własnego wewnętrznego spokoju?"
+  },
+  "11-15": {
+    "z": "Skorpion",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Iskrząca, pionierska wibracja przynosi potężny impuls wewnętrznego ognia, odwagę do samodzielnego decydowania o sobie i suwerenność w wyrażaniu własnego zdania.",
+    "r": "Podejmij odważną inicjatywę w sprawie, która od dawna czekała na Twój ruch, i zaufaj swojemu wewnętrznemu napędowi.",
+    "u": "Oglądania się na opinie innych ludzi, zwlekania z decyzjami oraz gaszenia swojego entuzjazmu przez stare nawyki.",
+    "s": "„Mając w sobie całą dotychczasową mądrość, masz pełne prawo napisać kolejny rozdział dokładnie tak, jak podpowiada Ci to Twoje serce.”",
+    "fun": "Gdybyś nie musiała oglądać się na niczyją akceptację, jaki odważny krok zrobiłabyś dzisiaj dla samej siebie?"
+  },
+  "11-16": {
+    "z": "Skorpion",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Subtelna, otulająca wibracja wnosi do naszych relacji zapach spokoju, empatii i głębokiego wsłuchania się w unikalny rytm własnego ciała oraz potrzeb bliskich.",
+    "r": "Stwórz dla siebie bezpieczną przestrzeń, przeprowadź szczery dialog od serca do serca i pozwól sobie na odpoczynek bez poczucia winy.",
+    "u": "Wchodzenia w głośne spory, forsowania swoich racji siłą oraz zagłuszania głosu własnej intuicji.",
+    "s": "„Czasami największą mądrością okazuje się po prostu odpuścić walkę i w cichym zaufaniu pozwolić relacjom układać się naturalnie.”",
+    "fun": "Co Twój organizm lub Twoje serce próbuje Ci dzisiaj wyszeptać w momentach, gdy na chwilę zwalniasz bieg?"
+  },
+  "11-17": {
+    "z": "Skorpion",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Barwna, radosna wibracja maluje dzisiejszy dzień uśmiechem, twórczą ekspresją i wewnętrzną swobodą, przypominając o magii spontaniczności w codziennym życiu.",
+    "r": "Zrób coś dającego czystą frajdę – napisz kilka luźnych słów, wyjdź na spacer i zachwyć się prostotą otaczającego świata.",
+    "u": "Nadmiernej powagi, wpadania w czarne myśli oraz surowej krytyki swoich twórczych pomysłów.",
+    "s": "„Radość nie jest luksusem – to naturalny stan duszy, która przypomina nam, jak pięknie jest po prostu wyrażać siebie.”",
+    "fun": "Co sprawi, że na Twojej twarzy zagości dzisiaj szczery, niczym niezmącony uśmiech?"
+  },
+  "11-18": {
+    "z": "Skorpion",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Solidna, uziemiająca wibracja przynosi nam potrzebę ładu, dyscypliny i zadbania o bezpieczne, codzienne struktury, które dają nam upragniony grunt pod nogami.",
+    "r": "Uporządkuj swoją przestrzeń, dokończ jedno zaległe zadanie i stwórz dla siebie przytulny, stabilny plan na nadchodzące dni.",
+    "u": "Sztywnego perfekcjonizmu, zamęczania się obowiązkami oraz braku elastyczności wobec nagłych zmian planów.",
+    "s": "„Spokój w sercu rodzi się tam, gdzie z czułością i cierpliwością dbamy o codzienne, małe fundamenty naszego życia.”",
+    "fun": "Jaki jeden mały, czuły gest porządku możesz dzisiaj wykonać, aby Twoja codzienność stała się dla Ciebie bezpieczniejszą przystanią?"
+  },
+  "11-19": {
+    "z": "Skorpion",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Niespokojna, wolnościowa wibracja wpuszcza do naszej rzeczywistości powiew świeżego powietrza, zachęcając do wyjścia poza bezpieczną rutynę i odkrywania nowych perspektyw w działaniu.",
+    "r": "Zmień coś w swoim stałym planie dnia – wybierz się na spacer zupełnie nieznaną ulicą lub podejdź do dawnego problemu z zupełnie innej strony.",
+    "u": "Kurczowego trzymania się zasady „zawsze robiliśmy to w ten sam sposób”, lęku przed odmiennym zdaniem innych oraz rozpraszania swojej uwagi.",
+    "s": "„Życie staje się o wiele barwniejsze, gdy przestajemy bać się nagłych zakrętów i z radosną ciekawością zaglądamy za kolejne wzgórze.”",
+    "fun": "W jakim obszarze swojego życia czujesz dzisiaj największą ochotę na zrzucenie starych ograniczeń i zaczerpnięcie powietrza pełną piersią?"
+  },
+  "11-20": {
+    "z": "Skorpion",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Ciepła, opiekuńcza wibracja otula nas niczym miękki koc w chłodny dzień, kierując całą uwagę ku domowemu ognisku, harmonii oraz uważnej, czułej trosce o więzi z bliskimi.",
+    "r": "Stwórz wokół siebie przytulną przestrzeń, porozmawiaj z kimś bliskim z poziomu otwartego serca i podaruj sobie samą wyrozumiałość w momentach codziennego zmęczenia.",
+    "u": "Wchodzenia w rolę ratownika kosztem własnych sił, rezygnowania z osobistych granic oraz brania na siebie cudzych ciężarów tylko po to, by zadowolić wszystkich wokół.",
+    "s": "„Najpiękniejszym domem, o jaki możemy dbać każdego dnia, jest przestrzeń spokojnego, otwartego na miłość i akceptację serca.”",
+    "fun": "Jak możesz dzisiaj okazać sobie czułość w tym miejscu, które najbardziej domaga się Twojej wyrozumiałości i odpoczynku?"
+  },
+  "11-21": {
+    "z": "Skorpion",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Cicha, przenikliwa wibracja siódemki zaprasza nas do zatrzymania się w pędzie codzienności i poszukania odpowiedzi w tej części nas samych, do której rzadko dociera zgiełk świata.",
+    "r": "Usiądź w ulubionym fotelu z ciepłym kubkiem, pozwól sobie na dłuższą chwilę w ciszy bez włączania muzyki czy telefonu i zauważ to, co podpowiada Ci intuicja.",
+    "u": "Przejmowania się plotkami, nadmiernego analizowania opinii innych ludzi oraz zbytniego zamykania się na bliskość.",
+    "s": "„Czasami wystarczy na chwilę odciąć zewnętrzny hałas, by wreszcie wyraźnie usłyszeć cichy, mądry głos własnej duszy.”",
+    "fun": "Jaka jedna prawda o Tobie samej domaga się dzisiaj uwagi, gdy wokół robi się cicho?"
+  },
+  "11-22": {
+    "z": "Strzelec",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Dojrzała, stabilna wibracja ósemki przynosi poczucie wewnętrznego kręgosłupa, sprawczości oraz odwagę w zarządzaniu własnymi zasobami i energią życiową.",
+    "r": "Zadbaj o swoje granice w relacjach zawodowych lub towarzyskich, uporządkuj sprawę, która wymagała konkretnej decyzji, i doceń swoją dotychczasową drogę.",
+    "u": "Pracy ponad siły, surowego rozliczania siebie za potknięcia oraz wchodzenia w role kontrolujące wobec otoczenia.",
+    "s": "„Prawdziwa siła nie krzyczy – ona stoi mocno na ziemi, wspierając nas w każdym podjętym z miłością do siebie kroku.”",
+    "fun": "W jakiej sprawie możesz dzisiaj postawić zdrową, spokojną granicę, by chronić swój wewnętrzny spokój?"
+  },
+  "11-23": {
+    "z": "Strzelec",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Głęboka, humanistyczna wibracja dziewiątki otwiera przed nami przestrzeń na pożegnanie tego, co w relacjach lub starych nawykach przestało nam służyć, otwierając serce na szerszą perspektywę.",
+    "r": "Pozwól sobie na łagodne zamknięcie pewnego etapu w myślach, zrób przestrzeń na nowe doświadczenia i spójrz na trudniejszą relację z wyrozumiałością.",
+    "u": "Trzymania się kurczowo żalów z przeszłości, brania na barki problemów całego świata oraz nadmiernego uciekania w marzenia kosztem tu i teraz.",
+    "s": "„Pozwól sobie z czułością wypuścić z dłoni to, co już odeszło, bo tylko z wolnym sercem możemy przytulić to, co niesie jutro.”",
+    "fun": "Co w Twoim życiu domaga się dzisiaj cichego uwolnienia, byś mogła poczuć ulgę i lekkość?"
+  },
+  "11-24": {
+    "z": "Strzelec",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Iskrząca, suwerenna wibracja jedynki przynosi wewnętrzny ogień, odwagę do samodzielnego wyznaczania kierunku i powiew świeżej determinacji w działaniu.",
+    "r": "Zrób mały, odważny krok w stronę tego, o czym marzysz, wyraź swoje zdanie bez lęku przed oceną i zaufaj swojemu wewnętrznemu impulsowi.",
+    "u": "Czekania na cudzą aprobatę, zwlekania z podjęciem decyzji oraz gaszenia swojego entuzjazmu przez stare nawyki myślowe.",
+    "s": "„Każdy dzień to szansa, by z całą dotychczasową mądrością napisać kolejny wers po swojemu, w zgodzie z własnym sercem.”",
+    "fun": "Gdybyś nie musiała nikomu niczego udowadniać, co odważyłabyś się dzisiaj zrobić dla siebie?"
+  },
+  "11-25": {
+    "z": "Strzelec",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Delikatna, otulająca wibracja dwójki wnosi do naszej codzienności miękkość, empatię i potrzebę budowania bezpiecznej, ciepłej przystani w relacjach z ludźmi.",
+    "r": "Spotkaj się z kimś bliskim na szczerym, niespiesznym dialogu, otul się ciepłym kocem i daj sobie przyzwolenie na odpuszczenie gonitwy.",
+    "u": "Wchodzenia w niepotrzebne spory, rezygnowania z siebie dla tzw. świętego spokoju oraz tłumienia swoich emocji.",
+    "s": "„Czasami największym aktem odwagi jest okazanie sobie czułości i przyzwolenie na to, by po prostu zwolnić tempo.”",
+    "fun": "Kto w Twoim otoczeniu – albo Ty sama – potrzebuje dzisiaj najwięcej wyrozumiałości i ciepłego słowa?"
+  },
+  "11-26": {
+    "z": "Strzelec",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Barwna, radosna wibracja trójki wnosi do naszej rzeczywistości powiew uśmiechu, twórczej lekkości i spontaniczności, przypominając, że radość to naturalny oddech duszy.",
+    "r": "Zrób coś czysto dla przyjemności – napisz kilka luźnych słów, posłuchaj ulubionej muzyki albo wyjdź na spacer i uśmiechnij się do jesiennego świata.",
+    "u": "Zbytniej powagi, wpadania w krytyczny ton wobec siebie oraz tłumienia swoich twórczych, spontanicznych pomysłów.",
+    "s": "„Radość nie jest luksusem – to wewnętrzne światło, które potrafi rozjaśnić nawet najbardziej pochmurny dzień.”",
+    "fun": "Co sprawi, że na Twojej twarzy zagości dzisiaj szczery, niczym niezmącony uśmiech?"
+  },
+  "11-27": {
+    "z": "Strzelec",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Solidna, uziemiająca wibracja czwórki daje nam poczucie bezpiecznego gruntu pod nogami, zapraszając do zadbania o porządek i stabilne, codzienne struktury.",
+    "r": "Uporządkuj jedną małą przestrzeń wokół siebie, dokończ zaległą sprawę, która ciążyła Ci w tle, i stwórz dla siebie życzliwy plan na najbliższe dni.",
+    "u": "Sztywnego perfekcjonizmu, zamęczania się nadmiarem obowiązków oraz braku elastyczności, gdy coś idzie nie po naszej myśli.",
+    "s": "„Spokój rodzi się tam, gdzie z czułością i cierpliwością dbamy o małe fundamenty naszego codziennego świata.”",
+    "fun": "Jaki jeden mały gest porządku możesz dzisiaj wykonać, aby poczuć się we własnej przestrzeni bezpiecznie i swobodnie?"
+  },
+  "11-28": {
+    "z": "Strzelec",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Niespokojna, wolnościowa wibracja piątki otwiera przed nami drzwi do świeżego powietrza, zachęcając do wyjścia poza schematy i spojrzenia na sprawy z nowej perspektywy.",
+    "r": "Zmień rutynową trasę spaceru, przeczytaj coś całkowicie nowego lub porozmawiaj z kimś, kto patrzy na świat w odmienny sposób.",
+    "u": "Kurczowego trzymania się zasady „zawsze robiliśmy to tak samo”, lęku przed zmianą oraz rozpraszania swojej uwagi na zbyt wiele frontów.",
+    "s": "„Życie zyskuje niezwykłe barwy, gdy przestajemy bać się zakrętów i z ciekawością zaglądamy za kolejne wzgórze.”",
+    "fun": "W jakim obszarze swojego życia czujesz dzisiaj największą ochotę na zrzucenie starych ograniczeń?"
+  },
+  "11-29": {
+    "z": "Strzelec",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Ciepła, opiekuńcza wibracja szóstki otula nas niczym miękki koc, kierując całą uwagę ku domowemu ciepłu, harmonii i czułej trosce o relacje z bliskimi ludźmi.",
+    "r": "Stwórz wokół siebie przytulną atmosferę, porozmawiaj z kimś bliskim z poziomu otwartego serca i podaruj sobie samą wyrozumiałość.",
+    "u": "Wchodzenia w rolę ratownika kosztem własnych sił, rezygnowania z granic oraz brania na siebie cudzych ciężarów.",
+    "s": "„Najpiękniejszym domem, o jaki możemy dbać każdego dnia, jest przestrzeń spokojnego, otwartego na miłość serca.”",
+    "fun": "Jak możesz dzisiaj okazać sobie czułość w tym miejscu, które najbardziej domaga się Twojego odpoczynku?"
+  },
+  "11-30": {
+    "z": "Strzelec",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Mistyczna, badawcza wibracja siódemki zamyka listopadowy szlak w cichej, bezpiecznej przestrzeni refleksji, pozwalając podsumować miesiąc bez zgiełku świata.",
+    "r": "Spędź chwilę w samotności, wsłuchaj się w szum wieczoru i pozwól sobie na głęboki reset oraz ciche podziękowanie za lekcje minionych dni.",
+    "u": "Chłodnego sceptycyzmu, nadmiernego analizowania przeszłości oraz zbytniego izolowania się od ciepła życzliwych ludzi.",
+    "s": "„Prawda nie potrzebuje hałasu – ona rozkwita najpiękniej w cichej i bezpiecznej przystani naszej własnej duszy.”",
+    "fun": "Za jaką cichą lekcję, którą przyniósł Ci listopad, możesz dzisiaj z wdzięcznością podziękować swojej intuicji?"
+  },
+  "12-1": {
+    "z": "Strzelec",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Ciepła, opiekuńcza wibracja szóstki otwiera grudzień nastrojem domowego ogniska, harmonii i czułej troski o relacje z tymi, których nosimy w sercu.",
+    "r": "Stwórz w swojej przestrzeni przytulną atmosferę, porozmawiaj z bliską osobą z poziomu otwartego serca i podaruj sobie samą wyrozumiałość w przedświątecznym pędzie.",
+    "u": "Wchodzenia w rolę ratownika kosztem własnych sił, rezygnowania z osobistych granic oraz brania na siebie cudzych ciężarów.",
+    "s": "„Najpiękniejszym domem, o jaki możemy dbać każdego dnia, jest przestrzeń spokojnego, otwartego na miłość i akceptację serca.”",
+    "fun": "W którym miejscu swojego domu – fizycznego lub w swoim sercu – najbardziej potrzebujesz dzisiaj zapalić symboliczne światło i pozwolić sobie na oddech bez poczucia winy?"
+  },
+  "12-2": {
+    "z": "Strzelec",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Cicha, przenikliwa wibracja siódemki zaprasza nas do zatrzymania się w pędzie codzienności i poszukania odpowiedzi w głębi własnej duszy.",
+    "r": "Usiądź w ulubionym fotelu z ciepłym kubkiem, pozwól sobie na dłuższą chwilę w ciszy i zauważ to, co podpowiada Ci intuicja.",
+    "u": "Przejmowania się plotkami, nadmiernego analizowania opinii innych ludzi oraz zbytniego zamykania się na bliskość.",
+    "s": "„Czasami wystarczy na chwilę odciąć zewnętrzny hałas, by wreszcie wyraźnie usłyszeć cichy, mądry głos własnego serca.”",
+    "fun": "Gdyby Twoja zmęczona dusza mogła teraz wypowiedzieć jedno życzenie dotyczące tego, przed czym chce uciec w ciszę, co by to było?"
+  },
+  "12-3": {
+    "z": "Strzelec",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Dojrzała, stabilna wibracja ósemki przynosi poczucie wewnętrznego kręgosłupa, sprawczości oraz odwagę w zarządzaniu własnymi zasobami i energią.",
+    "r": "Zadbaj o swoje granice w relacjach, uporządkuj sprawę, która wymagała konkretnej decyzji, i doceń swoją dotychczasową drogę w kończącym się roku.",
+    "u": "Pracy ponad siły, surowego rozliczania siebie za potknięcia oraz wchodzenia w role kontrolujące wobec otoczenia.",
+    "s": "„Prawdziwa siła nie krzyczy – ona stoi mocno na ziemi, wspierając nas w każdym podjętym z miłością do siebie kroku.”",
+    "fun": "W jakiej sprawie zawodowej lub osobistej Twoja intuicja już dawno mówi „dość”, a Ty wciąż z uporem ciągniesz ten wózek?"
+  },
+  "12-4": {
+    "z": "Strzelec",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Głęboka, humanistyczna wibracja dziewiątki otwiera przed nami przestrzeń na pożegnanie tego, co w starych nawykach przestało nam służyć, otwierając serce na szerszą perspektywę.",
+    "r": "Pozwól sobie na łagodne domknięcie pewnego etapu w myślach, zrób przestrzeń na nowe doświadczenia i spójrz na miniony czas z wyrozumiałością.",
+    "u": "Trzymania się kurczowo żalów z przeszłości, brania na barki problemów całego świata oraz nadmiernego uciekania w marzenia kosztem tu i teraz.",
+    "s": "„Pozwól sobie z czułością wypuścić z dłoni to, co już odeszło, bo tylko z wolnym sercem możemy przytulić to, co niesie jutro.”",
+    "fun": "Jaki dawny schemat postępowania, wyniesiony z rodzinnego domu lub przeszłości, możesz dzisiaj z czułością pożegnać, by nie brać go ze sobą w nowy rok?"
+  },
+  "12-5": {
+    "z": "Strzelec",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Iskrząca, suwerenna wibracja jedynki przynosi wewnętrzny ogień, odwagę do samodzielnego wyznaczania kierunku i powiew świeżej determinacji w działaniu.",
+    "r": "Zrób mały, odważny krok w stronę tego, o czym marzysz, wyraź swoje zdanie bez lęku przed oceną i zaufaj swojemu wewnętrznemu impulsowi.",
+    "u": "Czekania na cudzą aprobatę, zwlekania z podjęciem decyzji oraz gaszenia swojego entuzjazmu przez stare nawyki myślowe.",
+    "s": "„Mając w sobie całą dotychczasową mądrość, masz pełne prawo napisać kolejny rozdział dokładnie tak, jak podpowiada Ci to Twoje serce.”",
+    "fun": "O jakiej małej, zakazanej przez zdrowy rozsądek lub otoczenie przyjemności marzysz dzisiaj, by wreszcie zrealizować ją tylko dla siebie?"
+  },
+  "12-6": {
+    "z": "Strzelec",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Subtelna, otulająca wibracja dwójki wnosi do grudniowej codzienności miękkość, potrzebę bliskości oraz sztukę uważnego słuchania tego, co niewypowiedziane.",
+    "r": "Usiądź z kimś bliskim bez pośpiechu, stwórz wokół siebie kojącą atmosferę i zaoferuj czułą obecność bez gotowych rad czy ocen.",
+    "u": "Wchodzenia w rolę rozjemcy za wszelką cenę, brania na siebie cudzych napięć oraz unikania trudnych tematów przez tłumienie własnych emocji.",
+    "s": "„Prawdziwa bliskość nie potrzebuje głośnych słów – rozkwita tam, gdzie pozwalamy sobie nawzajem po prostu bezpiecznie być.”",
+    "fun": "Kto w Twoim otoczeniu nosi w sobie cichy smutek i może potrzebować dzisiaj Twojej ciepłej, obecnej dłoni bez zadawania zbędnych pytań?"
+  },
+  "12-7": {
+    "z": "Strzelec",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Barwna, radosna wibracja trójki rozświetla grudniowy poranek nutą spontaniczności, twórczego przepływu i wewnętrznej lekkości.",
+    "r": "Zrób coś czysto dla zabawy – upiecz coś pachnącego cynamonem, napisz kilka miłych słów do kogoś bez powodu albo pozwól sobie na artystyczny bałagan w twórczym działaniu.",
+    "u": "Nadmiernej powagi, zamartwiania się sprawami, na które nie masz wpływu, oraz krytykowania swoich spontanicznych pomysłów.",
+    "s": "„Radość to nie nagroda za dobrze wykonany plan, lecz naturalny promień słońca, który ogrzewa naszą duszę od środka.”",
+    "fun": "Jaki drobny, szalony impuls twórczy zignorowałaś ostatnio, a mógłby wnieść do Twojego dnia mnóstwo śmiechu?"
+  },
+  "12-8": {
+    "z": "Strzelec",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Solidna, uziemiająca wibracja czwórki daje nam stabilny grunt pod nogami, przypominając o wartości zdrowych struktur, porządku i dbałości o fizyczne ciało.",
+    "r": "Zadbaj o przestrzeń wokół siebie, przygotuj ciepły, pożywny posiłek i zaplanuj nadchodzące dni w sposób, który oszczędzi Ci przedświątecznego chaosu.",
+    "u": "Sztywnego perfekcjonizmu, zamęczania się listami zadań bez końca oraz braku elastyczności, gdy plan ulega nagłej zmianie.",
+    "s": "„Spokój mieszka tam, gdzie z czułością i szacunkiem dbamy o codzienne, namacalne fundamenty naszego życia.”",
+    "fun": "Który z Twoich codziennych nawyków dbania o siebie traktujesz po macoszemu i jak możesz to dzisiaj zmienić?"
+  },
+  "12-9": {
+    "z": "Strzelec",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Niespokojna, wolnościowa wibracja piątki wpuszcza do naszej rzeczywistości powiew orzeźwiającego wiatru, prowokując do wyjścia poza bezpieczną, zimową rutynę.",
+    "r": "Zmień stałą perspektywę – wybierz się na spacer zupełnie inną trasą, przeczytaj tekst z zupełnie innej dziedziny albo podejmij decyzję, która uwolni Cię od dawnego przyzwyczajenia.",
+    "u": "Kurczowego trzymania się zasady „zawsze robiłam to w ten sposób”, lęku przed odmiennym zdaniem otoczenia oraz rozpraszania energii na zbyt wiele frontów.",
+    "s": "„Wolność rodzi się w głowie w momencie, gdy przestajemy bać się nagłych zakrętów i z ciekawością ruszamy w nieznane.”",
+    "fun": "W jakim rutynowym układzie czujesz się już tak ciasno, że najchętniej zrzuciłabyś te ramy jednym zdecydowanym ruchem?"
+  },
+  "12-10": {
+    "z": "Strzelec",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Ciepła, opiekuńcza wibracja szóstki otula nas aurą domowego ogniska, harmonii i głębokiej, niczym niewymuszonej troski o relacje z najbliższymi.",
+    "r": "Stwórz w domu nastrojowy kącik, zadzwoń do kogoś, z kim dawno nie rozmawiałaś, i podaruj sobie samą wyrozumiałość w momentach zmęczenia.",
+    "u": "Wchodzenia w rolę męczennika, który musi zadowolić wszystkich wokół kosztem własnego zdrowia i wewnętrznego spokoju.",
+    "s": "„Najpiękniejszym podarunkiem, jaki możemy dać światu, jest nasza spokojna, obecna i pełna akceptacji miłość.”",
+    "fun": "W jakiej relacji dawno już nie poprosiłaś o to, czego naprawdę potrzebujesz, zakładając, że „inni powinni się domyślić”?"
+  },
+  "12-11": {
+    "z": "Strzelec",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Cicha, mistyczna wibracja siódemki przynosi nam potrzebę ucieczki od przedświątecznego zgiełku i zanurzenia się w bezpiecznej, regenerującej ciszy.",
+    "r": "Zgaś górne światło, zapal ulubioną świecę, odłóż telefon na kilka godzin i pozwól swojemu umysłowi na głęboki, niczym niezmącony odpoczynek.",
+    "u": "Przeintelektualizowania prostych spraw, chłodnego dystansu wobec ludzi oraz nadmiernego analizowania tego, co było.",
+    "s": "„Prawdziwa mądrość nie krzyczy w tłumie – ona czeka cierpliwie w cisze, aż wreszcie zechcesz posłuchać głosu samej siebie.”",
+    "fun": "Jaki hałas – w Twojej głowie lub w otoczeniu – jest Ci dzisiaj najbardziej potrzebny do wyciszenia?"
+  },
+  "12-12": {
+    "z": "Strzelec",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Dostojna, sprawcza wibracja ósemki daje nam moc do wyznaczania granic, zarządzania swoimi zasobami i stawiania kropki nad „i” w zaległych sprawach.",
+    "r": "Ureguluj to, co czekało na Twoją decyzję, powiedz stanowcze „nie” nadmiarowi obowiązków i z dumą spójrz na to, co udało Ci się zbudować w tym roku.",
+    "u": "Bezwzględnego parcia do przodu za wszelką cenę, przepracowywania się oraz surowego rozliczania siebie z najmniejszych potknięć.",
+    "s": "„Twoja siła nie polega na dźwiganiu całego świata na barkach, lecz na mądrym decydowaniu, co w ogóle zasługuje na Twoją uwagę.”",
+    "fun": "Przed jakim zadaniem lub oczekiwaniem innych stoisz dzisiaj, czując, że najwyższy czas postawić zdrową granicę?"
+  },
+  "12-13": {
+    "z": "Strzelec",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Głęboka, humanistyczna wibracja dziewiątki otwiera przed nami przestrzeń na artystyczne natchnienie, empatię i łagodne pożegnanie tego, co w tym roku odeszło w zapomnienie.",
+    "r": "Otocz się pięknem, które karmi Twoją duszę (muzyką, sztuką, słowem), spisz to, co chcesz zostawić za sobą, i spójrz na minione miesiące z czułą wyrozumiałością.",
+    "u": "Brania na siebie cudzych kryzysów, pogrążania się w melancholii oraz kurczowego trzymania się wspomnień, które przynoszą ból.",
+    "s": "„Pozwól sobie z miłością zamknąć drzwi do tego, co już nie powróci, bo tylko z wolnymi dłoniami możesz przytulić to, co nadchodzi.”",
+    "fun": "Jaka dawna historia lub niezamknięta sprawa krąży jeszcze po Twojej głowie, domagając się ostatecznego, cichego przebaczenia?"
+  },
+  "12-14": {
+    "z": "Strzelec",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Iskrząca, suwerenna wibracja jedynki rozpala w nas wewnętrzny ogień, przynosząc odwagę do samodzielnego decydowania o sobie i powiew świeżej determinacji.",
+    "r": "Zrób mały, odważny krok w stronę tego, o czym marzysz, wyraź swoje zdanie bez oglądania się na aprobatę i zaufaj swojemu wewnętrznemu napędowi.",
+    "u": "Czekania na cudze pozwolenie, zwlekania z podjęciem działania oraz gaszenia swojego entuzjazmu przez stare nawyki myślowe.",
+    "s": "„Mając w sobie całą dotychczasową mądrość, masz pełne prawo napisać kolejny rozdział dokładnie tak, jak pragnie tego Twoje serce.”",
+    "fun": "Gdybyś nie musiała nikomu niczego udowadniać, co odważyłabyś się dzisiaj zrobić wyłącznie dla własnej radości?"
+  },
+  "12-15": {
+    "z": "Strzelec",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Subtelna, otulająca wibracja dwójki wnosi do grudniowej codzienności miękkość, empatię i potrzebę budowania bezpiecznej, ciepłej przystani w relacjach z bliskimi.",
+    "r": "Spotkaj się z kimś na szczerym, niespiesznym dialogu, otul się ciepłym kocem i daj sobie przyzwolenie na odpuszczenie wszelkiej gonitwy.",
+    "u": "Wchodzenia w niepotrzebne spory, rezygnowania z siebie dla tzw. świętego spokoju oraz tłumienia własnych, ważnych emocji.",
+    "s": "„Czasami największym aktem odwagi jest okazanie sobie czułości i przyzwolenie na to, by po prostu zwolnić tempo i odetchnąć.”",
+    "fun": "Kto w Twoim otoczeniu – albo Ty sama – potrzebuje dzisiaj najwięcej wyrozumiałości i ciepłego, utulającego słowa?"
+  },
+  "12-16": {
+    "z": "Strzelec",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Barwna, radosna wibracja trójki wnosi do grudniowego dnia powiew uśmiechu, twórczej lekkości i spontaniczności, przypominając o magii małych przyjemności.",
+    "r": "Zrób coś czysto dla zabawy – posłuchaj ulubionej muzyki, napisz kilka luźnych słów albo wyjdź na krótki spacer i uśmiechnij się do mroźnego świata.",
+    "u": "Zbytniej powagi, wpadania w krytyczny ton wobec siebie oraz tłumienia swoich twórczych, spontanicznych pomysłów.",
+    "s": "„Radość nie jest luksusem – to wewnętrzne światło, które potrafi rozjaśnić nawet najbardziej pochmurny, zimowy dzień.”",
+    "fun": "Jaki mały, twórczy impuls zignorowałaś ostatnio, a mógłby wnieść do Twojego dnia mnóstwo wewnętrznego ciepła?"
+  },
+  "12-17": {
+    "z": "Strzelec",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Solidna, uziemiająca wibracja czwórki daje nam stabilny grunt pod nogami, zapraszając do zadbania o porządek, strukturę i dbałość o fizyczne ciało.",
+    "r": "Uporządkuj jedną małą przestrzeń wokół siebie, przygotuj ciepły, pożywny posiłek i zaplanuj nadchodzące dni tak, by oszczędzić sobie chaosu.",
+    "u": "Sztywnego perfekcjonizmu, zamęczania się listami zadań bez końca oraz braku elastyczności, gdy plan ulega nagłej zmianie.",
+    "s": "„Spokój mieszka tam, gdzie z czułością i szacunkiem dbamy o codzienne, namacalne fundamenty naszego życia.”",
+    "fun": "Który z Twoich codziennych nawyków dbania o siebie traktujesz po macoszemu i jak możesz to dzisiaj zmienić?"
+  },
+  "12-18": {
+    "z": "Strzelec",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Niespokojna, wolnościowa wibracja piątki wpuszcza do naszej rzeczywistości powiew orzeźwiającego wiatru, prowokując do wyjścia poza bezpieczną, zimową rutynę.",
+    "r": "Zmień stałą perspektywę – wybierz się na spacer zupełnie inną trasą, przeczytaj tekst z nowej dziedziny albo podejmij decyzję uwalniającą od przyzwyczajenia.",
+    "u": "Kurczowego trzymania się zasady „zawsze robiliśmy to tak samo”, lęku przed odmiennym zdaniem otoczenia oraz rozpraszania energii.",
+    "s": "„Wolność rodzi się w głowie w momencie, gdy przestajemy bać się nagłych zakrętów i z ciekawością ruszamy w nieznane.”",
+    "fun": "W jakim rutynowym układzie czujesz się już tak ciasno, że najchętniej zrzuciłabyś te ramy jednym zdecydowanym ruchem?"
+  },
+  "12-19": {
+    "z": "Strzelec",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Ciepła, opiekuńcza wibracja szóstki otula nas aurą domowego ogniska, harmonii i głębokiej, niczym niewymuszonej troski o relacje z najbliższymi.",
+    "r": "Stwórz w domu nastrojowy kącik, zadzwoń do kogoś bliskiego z dobrym słowem i podaruj sobie samą wyrozumiałość w momentach przedświątecznego zmęczenia.",
+    "u": "Wchodzenia w rolę męczennika, który musi zadowolić wszystkich wokół kosztem własnego zdrowia i wewnętrznego spokoju.",
+    "s": "„Najpiękniejszym podarunkiem, jaki możemy dać światu, jest nasza spokojna, obecna i pełna akceptacji miłość.”",
+    "fun": "W jakiej relacji dawno już nie poprosiłaś o to, czego naprawdę potrzebujesz, zakładając, że inni domyślą się sami?"
+  },
+  "12-20": {
+    "z": "Strzelec",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Cicha, mistyczna wibracja siódemki przynosi nam potrzebę ucieczki od przedświątecznego zgiełku i zanurzenia się w bezpiecznej, regenerującej ciszy.",
+    "r": "Zgaś górne światło, zapal ulubioną świecę, odłóż telefon na kilka godzin i pozwól swojemu umysłowi na głęboki, niczym niezmącony odpoczynek.",
+    "u": "Przeintelektualizowania prostych spraw, chłodnego dystansu wobec ludzi oraz nadmiernego analizowania przeszłości.",
+    "s": "„Prawdziwa mądrość nie krzyczy w tłumie – ona czeka cierpliwie w ciszy, aż wreszcie zechcesz posłuchać głosu samej siebie.”",
+    "fun": "Jaki hałas – w Twojej głowie lub w otoczeniu – jest Ci dzisiaj najbardziej potrzebny do wyciszenia?"
+  },
+  "12-21": {
+    "z": "Strzelec",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Dostojna, sprawcza wibracja ósemki przynosi potężną siłę domykania spraw, stawiania mądrych granic i podsumowywania tego, co w tym roku udało nam się zbudować własnymi rękami.",
+    "r": "Zrób porządek w zobowiązaniach, postaw jasną kropkę nad „i” w sprawach wymagających decyzji i z dumą doceń swoją wewnętrzną i zewnętrzną obfitość.",
+    "u": "Pracy ponad siły, zatracania się w przedświątecznej gorączce kosztem zdrowia oraz surowego rozliczania siebie z drobiazgów.",
+    "s": "„Prawdziwa dojrzałość to umiejętność powiedzenia sobie: zrobilam wystarczająco dużo, teraz czas na zasłużony oddech.”",
+    "fun": "Za jaki swój twardy, cichy wysiłek włożony w minionych miesiącach możesz dzisiaj z całego serca podziękować samej sobie?"
+  },
+  "12-22": {
+    "z": "Koziorożec",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Głęboka, humanistyczna wibracja dziewiątki otwiera przed nami przestrzeń na pożegnanie starego cyklu, artystyczne wzruszenia i spojrzenie na miniony rok z lotu ptaka, pełnego wyrozumiałości.",
+    "r": "Owiń się ciepłym szalem, posłuchaj muzyki, która porusza najczulsze struny duszy, i pozwól sobie na łagodne zamknięcie dawnych żalów.",
+    "u": "Trzymania się kurczowo przeszłości, brania na barki problemów całego świata oraz uciekania w melancholię bez wiary w jutro.",
+    "s": "„Kiedy z miłością wypuszczamy z dłoni to, co już minęło, w naszym sercu robi się cudowna przestrzeń na czyste, nowe światło.”",
+    "fun": "Jaki stary bagaż emocjonalny zostawiasz dzisiaj na progu tego roku, by nie wlec go ze sobą dalej?"
+  },
+  "12-23": {
+    "z": "Koziorożec",
+    "l": 1,
+    "n": "Nowe początki, Inicjatywa, Przywództwo",
+    "e": "Iskrząca, suwerenna wibracja jedynki rozpala w nas wewnętrzny ogień, przynosząc odwagę do samodzielnego decydowania o sobie i świeży impuls do działania na własnych zasadach.",
+    "r": "Zrób coś w 100% po swojemu, zaufaj swojemu wewnętrznemu napędowi i nie oglądaj się na to, czego w tym czasie oczekuje od Ciebie otoczenie.",
+    "u": "Czekania na cudzą aprobatę, ulegania presji tradycji wbrew sobie oraz gaszenia swojego entuzjazmu.",
+    "s": "„Masz w sobie całą moc, by iść własną ścieżką – nawet wtedy, gdy cały świat wokół biegnie w zupełnie inna stronę.”",
+    "fun": "W jakiej sprawie ulegasz dzisiaj cudzym oczekiwaniom zamiast posłuchać głosu swojego własnego serca?"
+  },
+  "12-24": {
+    "z": "Koziorożec",
+    "l": 2,
+    "n": "Współpraca, Dyplomacja, Intuicja",
+    "e": "Subtelna, otulająca wibracja dwójki przynosi wigilijny spokój, miękkość, empatię i potrzebę bycia blisko tych, których kochamy, w bezpiecznej harmonii serc.",
+    "r": "Usiądź z bliskimi do stołu z intencją czystej obecności, odpuść perfekcyjne przygotowania i podaruj sobie oraz innym ciepły, wyrozumiały uśmiech.",
+    "u": "Wchodzenia w dawne rodzinne konflikty, tłumienia swoich emocji dla tzw. świętego spokoju oraz gonitwy za idealnym obrazkiem.",
+    "s": "„Najpiękniejszym podarunkiem, jaki możemy sobie wzajemnie podarować, jest nasza obecność wolna od ocen i oczekiwań.”",
+    "fun": "Jak możesz dzisiaj otulić ciepłem tę cząstkę siebie, która najbardziej potrzebuje domowego spokoju?"
+  },
+  "12-25": {
+    "z": "Koziorożec",
+    "l": 3,
+    "n": "Twórczość, Ekspresja, Radość",
+    "e": "Barwna, radosna wibracja trójki rozświetla świąteczny dzień śmiechem, serdeczną rozmową, twórczą lekkością i radością z małych, prostych chwil.",
+    "r": "Pozwól sobie na beztroski śmiech, zagraj w coś, porozmawiaj na luźne tematy i ciesz się bliskością ludzi bez nadmiernej powagi.",
+    "u": "Narzekania na drobiazgi, wracania do trudnych tematów przy stole oraz tłumienia swojej naturalnej ekspresji.",
+    "s": "„Radość jest najpiękniejszą modlitwą dziękczynną, jaką nasza dusza może zanieść do nieba.”",
+    "fun": "Co dzisiaj – zupełnie bezwysiłkowo – wywołało na Twojej twarzy najszczerszy uśmiech?"
+  },
+  "12-26": {
+    "z": "Koziorożec",
+    "l": 4,
+    "n": "Organizacja, Konsekwencja, Stabilność",
+    "e": "Solidna, uziemiająca wibracja czwórki daje nam upragniony oddech stabilizacji, spokój po świątecznym rozgardiaszu i potrzebę bezpiecznego zwolnienia tempa.",
+    "r": "Wyjdź na spokojny, mroźny spacer, zrób sobie dzień totalnego lenistwa w przytulnym otoczeniu i daj ciele oraz głowie odpocząć.",
+    "u": "Sprzątania na siłę, zamęczania się obowiązkami domowymi oraz braku przyzwolenia na fizyczny relaks.",
+    "s": "„Dom to nie lśniące podłogi; to przestrzeń, w której Twoje zmęczone ciało wreszcie może bezpiecznie odetchnąć.”",
+    "fun": "W którym miejscu Twoje ciało domaga się dzisiaj dłuższego, niczym niezmąconego odpoczynku?"
+  },
+  "12-27": {
+    "z": "Koziorożec",
+    "l": 5,
+    "n": "Zmiany, Odkrycia, Wolność",
+    "e": "Niespokojna, wolnościowa wibracja piątki wpuszcza do grudniowej stagnacji powiew świeżego powietrza, zachęcając do wyjścia z domu i rozprostowania skrzydeł.",
+    "r": "Rusz się w zupełnie nowe miejsce, zmień perspektywę, spotkaj się z kimś na luźną kawę poza domem lub przewietrz głowę z nagromadzonych myśli.",
+    "u": "Zamykania się w czterech ścianach na siłę, rutynowego marazmu oraz lęku przed odmiennym spędzeniem dnia.",
+    "s": "„Czasami wystarczy zmienić horyzont za oknem, by poczuć, że w naszych żaglach znów wieje radosny wiatr.”",
+    "fun": "Gdzie czujesz dzisiaj największy głód przestrzeni i fizycznego ruchu?"
+  },
+  "12-28": {
+    "z": "Koziorożec",
+    "l": 6,
+    "n": "Troska, Harmonia, Piękno",
+    "e": "Ciepła, opiekuńcza wibracja szóstki kieruje naszą uwagę ku domowemu zaciszu, harmonii i czułemu zadbaniu o siebie po dniach pełnych spotkań.",
+    "r": "Zrób dla siebie coś kojącego – długą kąpiel, otulenie miękkim kocem, zjedzenie czegoś lekkiego i otoczenie się ciszą własnego domu.",
+    "u": "Bywania \"na posterunku\" dla wszystkich wokół, brania na siebie cudzych nastrojów oraz przemęczania się.",
+    "s": "„Najbezpieczniejszym miejscem na ziemi jest Twoje własne serce, gdy wreszcie przestajesz walczyć i po prostu odpoczywasz.”",
+    "fun": "Jak możesz dzisiaj okazać sobie najczulszą troskę, o której w całym tym pędzie zapomniałaś?"
+  },
+  "12-29": {
+    "z": "Koziorożec",
+    "l": 7,
+    "n": "Refleksja, Głębia, Intuicja",
+    "e": "Mistyczna, badawcza wibracja siódemki zaprasza nas do głębokiej introspekcji i cichej rozmowy z samą sobą tuż przed zamknięciem rocznego cyklu.",
+    "r": "Zasiądź z dziennikiem lub notesem, spisz ciche przemyślenia, posłuchaj szumu własnego wnętrza i odetnij się na moment od zewnętrznego świata.",
+    "u": "Nadmiernego samobiczowania za błędy, chłodnego dystansu do samej siebie oraz przesiadywania w zgiełku.",
+    "s": "„W głębokiej ciszy rodzą się najcenniejsze odpowiedzi, których nie znajdziesz w hałaśliwych opiniach świata.”",
+    "fun": "Co najważniejszego dowiedziałaś się o sobie samej w ubiegłych miesiącach?"
+  },
+  "12-30": {
+    "z": "Koziorożec",
+    "l": 8,
+    "n": "Realizacja, Sukces, Sprawczość",
+    "e": "Dojrzała, sprawcza wibracja ósemki daje nam moc do ostatecznego podsumowania finansowego, energetycznego i życiowego bilansu całego roku 2027.",
+    "r": "Zamknij formalne i osobiste sprawy z poczuciem dumy z tego, jak wiele przeszłaś, przetrwałaś i zbudowałaś.",
+    "u": "Surowego rozliczania się z niespełnionych planów, poczucia winy oraz brania na ostatnią prostą nowych, ciężkich zadań.",
+    "s": "„Jesteś tutaj, cała i silna – a to najlepszy dowód na to, że poradziłaś sobie z każdym wyzwaniem, jakie postawił przed Tobą los.”",
+    "fun": "Z jakim najcenniejszym wewnętrznym skarbem (zasobem, cechą) zostajesz na koniec tego roku?"
+  },
+  "12-31": {
+    "z": "Koziorożec",
+    "l": 9,
+    "n": "Transformacja, Mądrość, Służba",
+    "e": "Głęboka, uniwersalna wibracja dziewiątki zamyka cały rok 2027 z wielkim, ukojonym sercem, pozwalając nam w geście wdzięczności zamknąć ten potężny rozdział.",
+    "r": "Delektuj się pięknem chwili, podziękuj w duchu za każdą lekcję – tę trudną i tę radosną – i z pełnym, miękkim oddechem stań na progu nowego.",
+    "u": "Żalu za tym, co odeszło, sztucznego przymusu szampańskiej zabawy wbrew własnemu zmęczeniu oraz braku przestrzeni na wzruszenie.",
+    "s": "„Każdy koniec jest tylko cichym zaproszeniem do napisania kolejnej, pięknej opowieści w zgodzie z własną duszą.”",
+    "fun": "Jeden, najważniejszy akord wdzięczności – do kogo lub do czego wędruje Twoje serce w ostatnią noc tego roku?"
+  }
+};
+
 if (typeof window !== 'undefined') {
   window.FORECAST_DATA = FORECAST_DATA;
+  window.FORECAST_DATA_2027 = FORECAST_DATA_2027;
 }

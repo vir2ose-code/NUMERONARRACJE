@@ -1,4 +1,5 @@
-let currentLang = 'pl'; // Default language
+let currentLang = 'pl';
+let devActiveForecastDate = null; // null = real today // Default language
 
 const birthPathDescriptions = {
   pl: {
@@ -81,7 +82,7 @@ const birthPathDescriptions = {
 
 // ── i18n Logic ──
 function switchLang(lang) {
-  currentLang = lang;
+  currentLang = 'pl'; // Always Polish
   try {
     localStorage.setItem('selectedLang', lang);
   } catch (e) {
@@ -379,13 +380,19 @@ function getDailyEnergyNumber() {
   }
   
   // Fallback direct calculation matching initDailyForecast
-  const today = new Date();
+  const today = devActiveForecastDate || new Date();
+  const year = today.getFullYear();
   const month = today.getMonth() + 1;
   const day = today.getDate();
-  let dateKey = `${month}-${day}`;
+  const yearKey = `${year}-${month}-${day}`;
+  const plainKey = `${month}-${day}`;
+
   const forecastSource = window.FORECAST_DATA || (typeof FORECAST_DATA !== 'undefined' ? FORECAST_DATA : null);
-  if (forecastSource && forecastSource[currentLang] && forecastSource[currentLang][dateKey]) {
-    return parseInt(forecastSource[currentLang][dateKey].l) || 1;
+  if (forecastSource && forecastSource[currentLang]) {
+    const entry = forecastSource[currentLang][yearKey] ||
+                  (year === 2027 ? (window.FORECAST_DATA_2027 && window.FORECAST_DATA_2027[plainKey]) : null) ||
+                  forecastSource[currentLang][plainKey];
+    if (entry) return parseInt(entry.l) || 1;
   }
   return 1;
 }
@@ -1014,71 +1021,169 @@ const emotions = {
 };
 
 // ── Daily Forecast Logic ──
-function initDailyForecast() {
-  const today = new Date();
+function initDailyForecast(customDate = null) {
+  if (customDate instanceof Date && !isNaN(customDate.getTime())) {
+    devActiveForecastDate = customDate;
+  }
+  const today = devActiveForecastDate || new Date();
   
   const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-  const dateStr = today.toLocaleDateString(currentLang === 'pl' ? 'pl-PL' : 'de-DE', options);
+  const dateStr = today.toLocaleDateString('pl-PL', options);
   const fcDateEl = document.getElementById('fcDate');
   if(fcDateEl) fcDateEl.textContent = dateStr;
   
+  const year = today.getFullYear();
   const month = today.getMonth() + 1;
   const day = today.getDate();
-  let dateKey = `${month}-${day}`;
+  const yearKey = `${year}-${month}-${day}`;
+  const plainKey = `${month}-${day}`;
+  
+  const forecastSource = window.FORECAST_DATA || (typeof FORECAST_DATA !== 'undefined' ? FORECAST_DATA : null);
+
+  let data = null;
+  if (forecastSource && forecastSource[currentLang]) {
+    data = forecastSource[currentLang][yearKey] || 
+           (year === 2027 ? (window.FORECAST_DATA_2027 && window.FORECAST_DATA_2027[plainKey]) : null) || 
+           forecastSource[currentLang][plainKey];
+  }
   
   // Safeguard: Fallback if dateKey isn't in forecast (e.g. leap year 2-29 fallback to 2-28)
-  if (window.FORECAST_DATA && window.FORECAST_DATA[currentLang] && !window.FORECAST_DATA[currentLang][dateKey]) {
+  if (!data && forecastSource && forecastSource[currentLang]) {
     if (month === 2 && day === 29) {
-      dateKey = '2-28';
-    } else {
-      dateKey = Object.keys(window.FORECAST_DATA[currentLang])[0];
+      data = forecastSource[currentLang][`${year}-2-28`] || forecastSource[currentLang]['2-28'];
+    }
+    if (!data) {
+      data = forecastSource[currentLang][Object.keys(forecastSource[currentLang])[0]];
     }
   }
 
-  const forecastSource = window.FORECAST_DATA || (typeof FORECAST_DATA !== 'undefined' ? FORECAST_DATA : null);
-
-  if (forecastSource && forecastSource[currentLang] && forecastSource[currentLang][dateKey]) {
-    const data = forecastSource[currentLang][dateKey];
-    
+  if (data) {
     // 1. fcCircle - Daily vibration number
     const circleEl = document.getElementById('fcCircle');
     if (circleEl) circleEl.textContent = data.l;
     
     // 2. fcZodiac - Zodiac sign
     const zodiacEl = document.getElementById('fcZodiac');
-    if (zodiacEl) zodiacEl.textContent = data.z.toUpperCase();
+    if (zodiacEl) zodiacEl.textContent = (data.z || '').toUpperCase();
     
     // 3. fcCardTitle - Number and Title / Sign
     const titleEl = document.getElementById('fcCardTitle');
     if (titleEl) {
-      titleEl.textContent = currentLang === 'pl' 
-        ? `Liczba ${data.l} · ${data.z}` 
-        : `Zahl ${data.l} · ${data.z}`;
+      titleEl.textContent = `Liczba ${data.l} · ${data.z || ''}`;
     }
     
     // 4. fcDesc - Description
     const descEl = document.getElementById('fcDesc');
-    if (descEl) descEl.textContent = data.e;
+    if (descEl) descEl.textContent = data.e || '';
     
     // 5. fcDo - Co warto robić
     const doEl = document.getElementById('fcDo');
-    if (doEl) doEl.textContent = data.r;
+    if (doEl) doEl.textContent = data.r || '';
     
     // 6. fcDont - Unikaj dziś
     const dontEl = document.getElementById('fcDont');
-    if (dontEl) dontEl.textContent = data.u;
+    if (dontEl) dontEl.textContent = data.u || '';
     
     // 7. fcFooterTitle - Motto / subtitle
     const footerTitleEl = document.getElementById('fcFooterTitle');
-    if (footerTitleEl) footerTitleEl.textContent = data.s;
+    if (footerTitleEl) footerTitleEl.textContent = data.s || '';
     
-    // 8. fcFooterDesc - Fun / funny interpretation
+    // 8. fcFooterDesc - Fun / reflection
     const footerDescEl = document.getElementById('fcFooterDesc');
-    if (footerDescEl) footerDescEl.textContent = data.fun;
+    if (footerDescEl) footerDescEl.textContent = data.fun || '';
+
+    // Update audio sync if present
+    const audioVibNum = document.getElementById('audioVibNumber');
+    if (audioVibNum) {
+      audioVibNum.textContent = data.l;
+    }
+    if (typeof updateAudioUIState === 'function') {
+      updateAudioUIState();
+    }
   } else {
-    console.error('Forecast data not found for key:', dateKey);
+    console.error('Forecast data not found for date:', yearKey, plainKey);
+  }
+
+  // Update dev bar UI status if bar exists
+  updateDevForecastBarUI(today);
+}
+
+// ── Developer Preview Mode for 2027 ──
+function toggleDevForecastBar() {
+  const bar = document.getElementById('devForecastBar');
+  if (!bar) return;
+  const isHidden = (bar.style.display === 'none' || !bar.style.display);
+  bar.style.display = isHidden ? 'block' : 'none';
+  if (isHidden) {
+    const active = devActiveForecastDate || new Date();
+    updateDevForecastBarUI(active);
   }
 }
+
+function updateDevForecastBarUI(date) {
+  const input = document.getElementById('devDateInput');
+  const badge = document.getElementById('devActiveBadge');
+  const pill = document.getElementById('devToggleBtn');
+  if (!input) return;
+  
+  const yyyy = date.getFullYear();
+  const mm = String(date.getMonth() + 1).padStart(2, '0');
+  const dd = String(date.getDate()).padStart(2, '0');
+  input.value = `${yyyy}-${mm}-${dd}`;
+  
+  const isCustom = devActiveForecastDate !== null;
+  if (badge) {
+    if (isCustom) {
+      badge.style.display = 'block';
+      badge.innerHTML = `Aktywny podgląd daty: <strong>${yyyy}-${mm}-${dd}</strong> (Rok ${yyyy})`;
+    } else {
+      badge.style.display = 'none';
+    }
+  }
+  if (pill) {
+    if (isCustom) {
+      pill.classList.add('dev-active');
+      pill.innerHTML = `<span>🗓️ ${yyyy}-${mm}-${dd} (Tryb Dev)</span>`;
+    } else {
+      pill.classList.remove('dev-active');
+      pill.innerHTML = `<span>🗓️ Podgląd 2027</span>`;
+    }
+  }
+}
+
+function onDevDateChange(e) {
+  const val = e.target.value;
+  if (!val) return;
+  const parts = val.split('-');
+  if (parts.length === 3) {
+    const d = new Date(parseInt(parts[0], 10), parseInt(parts[1], 10) - 1, parseInt(parts[2], 10));
+    initDailyForecast(d);
+  }
+}
+
+function stepForecastDay(delta) {
+  const current = devActiveForecastDate ? new Date(devActiveForecastDate.getTime()) : new Date();
+  current.setDate(current.getDate() + delta);
+  initDailyForecast(current);
+}
+
+function jumpToForecastDate(dateStr) {
+  const parts = dateStr.split('-');
+  const d = new Date(parseInt(parts[0], 10), parseInt(parts[1], 10) - 1, parseInt(parts[2], 10));
+  initDailyForecast(d);
+}
+
+function resetToRealToday() {
+  devActiveForecastDate = null;
+  initDailyForecast();
+}
+
+window.initDailyForecast = initDailyForecast;
+window.toggleDevForecastBar = toggleDevForecastBar;
+window.onDevDateChange = onDevDateChange;
+window.stepForecastDay = stepForecastDay;
+window.jumpToForecastDate = jumpToForecastDate;
+window.resetToRealToday = resetToRealToday;
 
 // ── Daily Card Logic ──
 function initDailyCard() {
