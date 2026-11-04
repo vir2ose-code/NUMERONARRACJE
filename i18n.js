@@ -74,6 +74,7 @@ const translations = {
     
     // Other
     privacy: "POLITYKA PRYWATNOŚCI",
+    footer_bki_disclaimer: "The Work® oraz The Work of Byron Katie® są zarejestrowanymi znakami towarowymi Byron Katie International, Inc. Aplikacja nie jest powiązana z BKI ani przez nią certyfikowana.",
     alert_date: "Proszę wybrać datę urodzenia.",
     paywall_title: "ODKRYJ PEŁNE PROFILOWANIE KOSMICZNE",
     paywall_subtitle: "UZYSKAJ NIEOGRANICZONY DOSTĘP DO DUCHOWEGO DROGOWSKAZU, AUDIO BIBLIOTEKI PREMIUM ORAZ WSZYSTKICH PRZEWODNIKÓW",
@@ -498,6 +499,7 @@ const translations = {
     
     // Other
     privacy: "DATENSCHUTZRICHTLINIE",
+    footer_bki_disclaimer: "The Work® und The Work of Byron Katie® sind eingetragene Marken von Byron Katie International, Inc. Die App ist weder mit BKI verbunden noch von ihr zertifiziert.",
     alert_date: "Bitte wähle ein Geburtsdatum aus.",
     paywall_title: "ENTDECKE DEIN VOLLES KOSMISCHES PROFIL",
     paywall_subtitle: "ERHALTE UNBEGRENZTEN ZUGRIFF AUF DEN SPIRITUELLEN WEGWEISER, DIE PREMIUM-AUDIO-BIBLIOTHEK UND ALLE LEITFÄDEN",

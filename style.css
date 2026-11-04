@@ -669,6 +669,31 @@ footer .copy { color: var(--silver-dim); }
 footer .footer-divider { color: var(--silver-dim); }
 footer .privacy { color: var(--gold-patina); text-decoration: none; transition: color 0.3s; }
 footer .privacy:hover { color: var(--gold-patina-light); }
+footer .footer-disclaimer {
+  flex-basis: 100%;
+  width: 100%;
+  margin: 10px auto 0;
+  max-width: 680px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 10px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  color: var(--silver-dim);
+  opacity: 0.78;
+  text-transform: none;
+}
+.tw-trademark-notice {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 10px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: var(--silver-dim);
+  opacity: 0.75;
+  margin: 18px auto 8px;
+  max-width: 540px;
+  padding: 0 16px;
+}
 
 /* ── FORECAST & TRACKER ── */
 .forecast-container {
